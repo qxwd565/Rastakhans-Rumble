@@ -444,6 +444,8 @@ def main():
         }
         if meta.get("datedStringTagObservations"):
             render_card["nativeStringTags"]["datedChanges"]=copy.deepcopy(meta["datedStringTagObservations"])
+        if meta.get("undatedStringTagObservations"):
+            render_card["nativeStringTags"]["undatedObservations"]=copy.deepcopy(meta["undatedStringTagObservations"])
         if cid=="TRL_900":
             render_card["rushEvidence"]=copy.deepcopy(meta.get("undatedGameplayObservations",[]))
         renderer.append(render_card)
