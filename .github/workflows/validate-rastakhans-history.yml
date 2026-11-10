@@ -52,6 +52,8 @@ jobs:
           cat > /tmp/rastakhans-xml/SHA256SUMS <<'EOF'
           dc2fa518bc000ad5aa4d54dbde40e29f67aed75c19705b8799893d0916046d4a  xml-27845.xml
           420224a8c02eeea4ce7d3f1b39f50d5754b2b869118d4d215ef7c5ca1526594c  xml-256589.xml
+          7dac9874ff56544d1b2c43c6e446fad519f059b66073c3960318a01c32d66a26  xml-236529.xml
+          a86b5126943a91ceb1e18decca646ce533f0a06c3fec34e12dc11f45e602c3e6  xml-237510.xml
           6dfe10c33d284ade4b0675f24a51e11510011e8cd70cf1112774f2babcf1b2c2  xml-217489.xml
           039e4cb30c4e4a994778edcd0d6af9b60c1f0ef1571aab8d02af62568681bddf  xml-217964.xml
           EOF
