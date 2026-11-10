@@ -272,7 +272,9 @@ def main():
                     for removed in value: replay_state.pop(removed,None)
                 else: replay_state[field]=copy.deepcopy(value)
         undated=[]
+        schema_fields=set(meta.get("schemaNormalization",{}).get("removedFields",[]))
         for field in sorted(set(replay_state)|set(src["_current"])):
+            if field in schema_fields: continue
             before_value=replay_state.get(field,"ABSENT")
             after_value=src["_current"].get(field,"ABSENT")
             if before_value!=after_value:
