@@ -84,7 +84,7 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add cards.json render.json history.json data/ sources/archive-238-manifest.json sources/rastakhans-archive-evidence.json
+          git add cards.json render.json history.json data/ sources/archive-238-manifest.json sources/rastakhans-archive-evidence.json sources/rast-schema-s002.json
           if ! git diff --cached --quiet; then
             git commit -m "Migrate Rastakhan cards to verified date-first history [skip ci]"
             git push origin HEAD:main
