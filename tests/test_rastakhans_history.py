@@ -126,6 +126,11 @@ class RastakhansHistoryTests(unittest.TestCase):
             if after["locales"].get(locale,"ABSENT")!=current["locales"].get(locale,"ABSENT")
         ])
         self.assertNotEqual(second["differences"][0]["before"],launch["locales"].get(second["differences"][0]["locale"]))
+        self.assertEqual(self.central["observations"]["undatedStringTagsByObservation"]["TRL_900"],observations)
+        self.assertEqual(self.central["observations"]["undatedStringTags"]["TRL_900"],[
+            {"tagId":184,"before":after,"after":current,"date":None}
+        ])
+        self.assertEqual(self.render_cards["TRL_900"]["nativeStringTags"]["undatedObservations"],observations)
         public=self.render_cards["TRL_900"]["nativeStringTags"]["datedChanges"]
         self.assertEqual(public,dated)
         self.assertNotIn("datedChanges",self.render_cards["TRL_901"]["nativeStringTags"])
