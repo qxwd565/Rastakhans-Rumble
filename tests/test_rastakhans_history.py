@@ -101,6 +101,9 @@ class RastakhansHistoryTests(unittest.TestCase):
         self.assertEqual(after["locales"]["enUS"]["value"],"<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.")
         self.assertIn("&",self.cards["TRL_900"]["_meta"]["currentStringTags"]["184"]["locales"]["koKR"]["value"])
         self.assertNotIn("&",after["locales"]["koKR"]["value"])
+        public=self.render_cards["TRL_900"]["nativeStringTags"]["datedChanges"]
+        self.assertEqual(public,dated)
+        self.assertNotIn("datedChanges",self.render_cards["TRL_901"]["nativeStringTags"])
 
     def test_preserved_zero_false_and_empty_values(self):
         for cid in ("TRL_128","TRL_243","TRL_310"):
