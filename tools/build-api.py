@@ -310,7 +310,7 @@ def canonical_reverse_history(data: dict, name: str):
         raw_delta=event.get("nativeTagRolesDelta")
         if raw_delta:
             raw_history.append({"date":day,"delta":copy.deepcopy(raw_delta)})
-        changed=[k for k in set(before)|set(state) if before.get(k,"__ABSENT__")!=state.get(k,"__ABSENT__")]
+        changed=sorted(k for k in set(before)|set(state) if before.get(k,"__ABSENT__")!=state.get(k,"__ABSENT__"))
         changes={k:copy.deepcopy(before[k]) for k in changed if k in before}
         if changes:
             revision={"before":day,"changes":changes}
