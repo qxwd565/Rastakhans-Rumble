@@ -290,6 +290,26 @@ def main():
                     "afterCommit":"a770d899b7ea12594f2edfc7d097f6ee0a858eb8",
                     "afterXmlSha256":"a86b5126943a91ceb1e18decca646ce533f0a06c3fec34e12dc11f45e602c3e6"}
             }]
+            # Residual formatting/content differences after the last dated
+            # snapshot are undated, and must start from 237510 rather than launch.
+            current_tag=current[cid]["stringTags"].get("184")
+            if not current_tag or current_tag.get("type")!="LocString":
+                raise ValueError("TRL_900: current Tag 184 LocString missing")
+            residual_locale_diffs=[]
+            for locale in sorted(set(middle_after.get("locales",{})) | set(current_tag.get("locales",{}))):
+                before_value=middle_after.get("locales",{}).get(locale,"ABSENT")
+                after_value=current_tag.get("locales",{}).get(locale,"ABSENT")
+                if before_value!=after_value:
+                    residual_locale_diffs.append({"locale":locale,"before":copy.deepcopy(before_value),
+                        "after":copy.deepcopy(after_value),"date":None})
+            if not residual_locale_diffs:
+                raise ValueError("TRL_900: expected residual post-237510 Tag 184 formatting observations")
+            meta["undatedStringTagObservations"].append({
+                "tagId":184,"beforeBuild":237510,"afterBuild":256589,
+                "beforeCommit":"a770d899b7ea12594f2edfc7d097f6ee0a858eb8",
+                "afterCommit":"31b034c26f24b8a66ece845ffd03c1ca397b9a02",
+                "differences":residual_locale_diffs
+            })
         # Attach the audited own-Tag delta to its confirmed date-first event.
         dated_row=dated_by_card.get((cid,"2018-12-05"))
         if dated_row: raise ValueError(f"{cid}: raw role event cannot be dated to launch")
