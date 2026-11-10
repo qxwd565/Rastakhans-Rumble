@@ -10,6 +10,62 @@ XML_DIR=Path(os.environ.get("RASTAKHANS_XML_DIR",str(ROOT/"sources")))
 LOCALES=("deDE","enUS","esES","esMX","frFR","itIT","jaJP","koKR","plPL","ptBR","ruRU","thTH","zhCN","zhTW")
 BASELINE_COMMIT="379a359058b8de937219cc317ee55f7186ea7528"
 WEAPONS={"TRL_074":3,"TRL_111":2,"TRL_304":3,"TRL_325":4,"TRL_352":3,"TRL_360":4,"TRL_543":2}
+FINDING_DATES={
+    "RAST-BAL-E001":"2019-05-23","RAST-BAL-E002":"2020-03-18",
+    **{f"RAST-BAL-E{i:03d}":"2021-03-26" for i in range(3,22)},
+    "RAST-BAL-M001":"2022-04-06",
+    **{f"RAST-BAL-E{i:03d}":"2022-11-30" for i in range(22,38)},
+    "RAST-BAL-M002":"2022-11-30","RAST-BAL-M003":"2023-09-29",
+    "RAST-BAL-E038":"2024-10-30","RAST-BAL-M004":"2024-10-30",
+    "RAST-BAL-E039":"2026-02-10","RAST-BAL-M005":"2026-03-11",
+}
+TYPE_OMISSIONS={
+    "MINION":({"durability":0,"armor":0},{"spellSchool":""}),
+    "SPELL":({"attack":0,"health":0,"durability":0,"armor":0},{"races":[],"race":""}),
+    "WEAPON":({"health":0,"armor":0},{"spellSchool":"","races":[],"race":""}),
+    "HERO":({"attack":0,"durability":0},{"spellSchool":"","races":[],"race":""}),
+    "HERO_POWER":({"attack":0,"health":0,"durability":0,"armor":0},{"spellSchool":"","races":[],"race":""}),
+}
+
+def tag_role_delta(raw_diff):
+    owned={"set":{},"removed":[]}
+    for tag_id,change in raw_diff.items():
+        before,after=change
+        if after=="ABSENT":
+            owned["removed"].append(str(tag_id))
+        else:
+            owned["set"][str(tag_id)]=str(after)
+    owned["removed"].sort(key=int)
+    return {"owned":owned,"referenced":{"set":{},"removed":[]}}
+
+def raw_value_map(role):
+    return {str(k):(str(v["value"]) if v.get("valueAttributePresent") else None)
+            for k,v in role.items() if v.get("present")}
+
+def replay_raw_evidence(initial,raw_transitions,ref_transitions,current):
+    state={"owned":{cid:raw_value_map(x["owned"]) for cid,x in initial.items()},
+           "referenced":{cid:raw_value_map(x["referenced"]) for cid,x in initial.items()}}
+    timeline=[]
+    for row in raw_transitions:
+        timeline.append((int(row["build"]),0,row["id"],row["rawDiff"],"owned"))
+    for group in ref_transitions:
+        for row in group.get("changes",[]):
+            timeline.append((int(group["build"]),1,row["id"],row["diff"],"referenced"))
+    for build,_,cid,diff,role in sorted(timeline,key=lambda x:(x[0],x[1],x[2])):
+        values=state[role][cid]
+        for tag_id,(before,after) in diff.items():
+            tag_id=str(tag_id)
+            actual=values.get(tag_id,"ABSENT")
+            if actual!=before:
+                raise ValueError(f"{cid}: raw {role} Tag {tag_id} build {build}: expected before={before}, got={actual}")
+            if after=="ABSENT": values.pop(tag_id,None)
+            else: values[tag_id]=str(after)
+    for cid in initial:
+        if state["owned"][cid]!=raw_value_map(current_raw_placeholder[cid]["owned"]):
+            raise ValueError(f"{cid}: archive owned-role transitions do not reproduce current XML")
+        if state["referenced"][cid]!=raw_value_map(current_raw_placeholder[cid]["referenced"]):
+            raise ValueError(f"{cid}: archive referenced-role transitions do not reproduce current XML")
+    return state
 
 def read(p): return json.loads(p.read_text(encoding="utf-8"))
 def write(p,o): p.write_text(json.dumps(o,ensure_ascii=False,indent=2)+"\n",encoding="utf-8",newline="\n")
@@ -56,6 +112,31 @@ def extract_xml(path,expected_sha,expected_count,ids):
     if len(result)!=expected_count: raise ValueError(f"{path.name}: {len(result)} cards != {expected_count}")
     return result
 
+def replay_raw_evidence(initial,raw_transitions,ref_transitions):
+    state={"owned":{cid:raw_value_map(x["owned"]) for cid,x in initial.items()},
+           "referenced":{cid:raw_value_map(x["referenced"]) for cid,x in initial.items()}}
+    timeline=[]
+    for row in raw_transitions:
+        timeline.append((int(row["build"]),0,row["id"],row["rawDiff"],"owned"))
+    for group in ref_transitions:
+        for row in group.get("changes",[]):
+            timeline.append((int(group["build"]),1,row["id"],row["diff"],"referenced"))
+    for build,_,cid,diff,role in sorted(timeline,key=lambda x:(x[0],x[1],x[2])):
+        values=state[role][cid]
+        for tag_id,(before,after) in diff.items():
+            tag_id=str(tag_id)
+            actual=values.get(tag_id,"ABSENT")
+            if actual!=before:
+                raise ValueError(f"{cid}: raw {role} Tag {tag_id} build {build}: expected before={before}, got={actual}")
+            if after=="ABSENT": values.pop(tag_id,None)
+            else: values[tag_id]=str(after)
+    for cid in initial:
+        if state["owned"][cid]!=raw_value_map(current[cid]["owned"]):
+            raise ValueError(f"{cid}: archive owned-role transitions do not reproduce current XML")
+        if state["referenced"][cid]!=raw_value_map(current_raw_placeholder[cid]["referenced"]):
+            raise ValueError(f"{cid}: archive referenced-role transitions do not reproduce current XML")
+    return state
+
 def main():
     archive_parts=[(ROOT/"sources"/f"archive-238-part-{i}.txt").read_text(encoding="utf-8") for i in (1,2,3)]
     import re,base64,gzip
@@ -74,6 +155,50 @@ def main():
             raise ValueError(f"{cid}: 217489/217964 immutable DBF mismatch")
     raw_transitions=archive.get("observedRawTransitionReview",[])
     ref_transitions=archive.get("observedReferencedTagTransitions",[])
+    replay_raw_evidence(initial,raw_transitions,ref_transitions,current)
+    # The immutable audit review contains every own/reference role transition
+    # from launch to current. Only explicitly classified gameplay/32.0 events
+    # receive a Korean date; all other observations stay undated.
+    dated_by_card={}
+    undated_by_card={}
+    for row in raw_transitions:
+        date=None
+        if row["decision"]=="weapon_durability_tag_migration_same_value":
+            date="2025-03-19"
+        elif row["decision"].startswith("gameplay_"):
+            findings=row.get("relatedFindings",[])
+            dates={FINDING_DATES[x] for x in findings if x in FINDING_DATES}
+            if len(dates)!=1:
+                raise ValueError(f"{row['id']}: gameplay raw transition has no unique confirmed Korean date: {findings}")
+            date=dates.pop()
+        if date:
+            key=(row["id"],date)
+            if key in dated_by_card: raise ValueError(f"duplicate dated raw transition {key}")
+            dated_by_card[key]=row
+        else:
+            undated_by_card.setdefault(row["id"],[]).append(copy.deepcopy(row))
+    expected_dated_count=51
+    if len(dated_by_card)!=expected_dated_count:
+        raise ValueError(f"Expected 51 confirmed dated raw-role events, got {len(dated_by_card)}")
+    if sum(len(x.get("changes",[])) for x in ref_transitions)!=15:
+        raise ValueError("Expected 15 separately preserved undated ReferencedTag transitions")
+    # Verify all 106 own and 15 referenced transitions, including undated
+    # bookkeeping, reproduce the immutable current XML role maps.
+    replay_raw_evidence(initial,raw_transitions,ref_transitions)
+    # Build the exact per-card schema omission manifest from the 164-card audit list.
+    schema_cards=[]
+    for card in cards:
+        if card["type"] not in TYPE_OMISSIONS: raise ValueError(f"{card['id']}: unreviewed type {card['type']}")
+        numeric,choice=TYPE_OMISSIONS[card["type"]]
+        schema_cards.append({"id":card["id"],"type":card["type"],
+            "omitNumeric":{k:str(v) for k,v in numeric.items()},
+            "omitChoice":{k:("[]" if v==[] else '""') for k,v in choice.items()}})
+    schema_manifest={"schema":"RAST-SCHEMA-S002","source":"Rastakhan audit 44, sections 29-34",
+        "cards":schema_cards,"numericFieldCount":sum(len(x["omitNumeric"]) for x in schema_cards),
+        "emptyChoiceFieldCount":sum(len(x["omitChoice"]) for x in schema_cards)}
+    if len(schema_cards)!=164 or schema_manifest["numericFieldCount"]!=406 or schema_manifest["emptyChoiceFieldCount"]!=220:
+        raise ValueError("RAST-SCHEMA-S002 scope/count mismatch")
+    write(ROOT/"sources"/"rast-schema-s002.json",schema_manifest)
     updated=0
     for card in cards:
         cid=card["id"]; path=DATA/(cid+".json"); src=read(path)
@@ -81,6 +206,35 @@ def main():
         if src["_current"].get("dbfId")!=initial[cid]["dbfId"] or src["_current"].get("dbfId")!=current[cid]["dbfId"]:
             raise ValueError(f"{cid}: immutable launch/current DBF mismatch")
         meta=src["_meta"]
+        # Normalize only the explicitly audited type-inapplicable keys in
+        # date-first snapshots. _current/cards/render and nativeTags are untouched.
+        numeric_omit,choice_omit=TYPE_OMISSIONS[card["type"]]
+        expected_omit={**numeric_omit,**choice_omit}
+        removed_schema=[]
+        for day in sorted(k for k in src if len(k)==10 and k[4]=="-" and k[7]=="-"):
+            row=src[day]
+            for field,expected_value in expected_omit.items():
+                if field in row:
+                    if row[field]!=expected_value:
+                        raise ValueError(f"{cid}/{day}/{field}: expected S002 value {expected_value!r}, got {row[field]!r}")
+                    removed_schema.append({"date":day,"field":field,"value":copy.deepcopy(row[field])})
+                    del row[field]
+        prior_schema=meta.get("schemaNormalization")
+        if prior_schema is None:
+            launch_removed=[x for x in removed_schema if x["date"]=="2018-12-05"]
+            expected_launch_count=len(expected_omit)
+            if len(launch_removed)!=expected_launch_count or len(removed_schema)!=expected_launch_count:
+                raise ValueError(f"{cid}: S002 expected {expected_launch_count} launch-only omissions, got {len(removed_schema)}")
+            meta["schemaNormalization"]={"findingId":"RAST-SCHEMA-S002","date":"2018-12-05",
+                "removedFields":sorted(expected_omit)}
+        else:
+            if prior_schema.get("findingId")!="RAST-SCHEMA-S002" or set(prior_schema.get("removedFields",[]))!=set(expected_omit):
+                raise ValueError(f"{cid}: prior S002 normalization record mismatch")
+            if removed_schema:
+                raise ValueError(f"{cid}: S002 fields reappeared after normalization")
+        for field,value in expected_omit.items():
+            if src["_current"].get(field,"ABSENT")!=value:
+                raise ValueError(f"{cid}: current compatibility value for {field} must remain {value!r}")
         # Preserve the complete original four-key JSON exactly; never regenerate
         # canonical dates from this baseline snapshot.
         baseline_raw=subprocess.check_output(
@@ -103,15 +257,34 @@ def main():
         meta["currentNativeTagsReferenced"]=copy.deepcopy(current[cid]["referenced"])
         meta["launchStringTags"]=copy.deepcopy(initial[cid]["stringTags"])
         meta["currentStringTags"]=copy.deepcopy(current[cid]["stringTags"])
-        meta["undatedRawTagTransitions"]=[copy.deepcopy(x) for x in raw_transitions if x.get("id")==cid]
-        meta["undatedReferencedTagTransitions"]=[copy.deepcopy(x) for x in ref_transitions if x.get("id")==cid]
-        # Original text and string tags are evidence, never substituted into display text.
-        meta["launchPrintedText"]={
-            "koKR":initial[cid]["stringTags"].get("185",{}).get("locales",{}).get("koKR",{}).get("value"),
-            "enUS":initial[cid]["stringTags"].get("185",{}).get("locales",{}).get("enUS",{}).get("value")}
-        meta["currentPrintedText"]={
-            "koKR":current[cid]["stringTags"].get("185",{}).get("locales",{}).get("koKR",{}).get("value"),
-            "enUS":current[cid]["stringTags"].get("185",{}).get("locales",{}).get("enUS",{}).get("value")}
+        meta["undatedRawTagTransitions"]=copy.deepcopy(undated_by_card.get(cid,[]))
+        meta["undatedReferencedTagTransitions"]=[copy.deepcopy(x) for group in ref_transitions
+            for x in group.get("changes",[]) if x.get("id")==cid]
+        # Tag 184 is the printed description; Tag 185 is only the card name.
+        # Preserve tag/locale absence separately from a present empty string.
+        def printed_text(snapshot):
+            tag=snapshot["stringTags"].get("184")
+            locales=tag.get("locales",{}) if tag else {}
+            return {"tagId":184,"present":tag is not None,
+                "koKR":locales.get("koKR",{}).get("value"),
+                "enUS":locales.get("enUS",{}).get("value"),
+                "koKRPresent":"koKR" in locales,"enUSPresent":"enUS" in locales}
+        meta["launchPrintedText"]=printed_text(initial[cid])
+        meta["currentPrintedText"]=printed_text(current[cid])
+        # Attach the audited own-Tag delta to its confirmed date-first event.
+        dated_row=dated_by_card.get((cid,"2018-12-05"))
+        if dated_row: raise ValueError(f"{cid}: raw role event cannot be dated to launch")
+        card_dated=[(day,row) for (card_id,day),row in dated_by_card.items() if card_id==cid]
+        for day,row in card_dated:
+            if day not in src: raise ValueError(f"{cid}: confirmed raw-role date {day} has no canonical event")
+            delta=tag_role_delta(row["rawDiff"])
+            event=src[day]
+            if "nativeTagRolesDelta" in event and event["nativeTagRolesDelta"]!=delta:
+                raise ValueError(f"{cid}/{day}: pre-existing nativeTagRolesDelta conflicts with immutable raw evidence")
+            event["nativeTagRolesDelta"]=delta
+            source=event.setdefault("source",{})
+            source["rawRoleEvidence"]={"build":row["build"],"decision":row["decision"],
+                "findingIds":copy.deepcopy(row.get("relatedFindings",[])),"sourceURL":row.get("sourceURL")}
         # Replay dated logical deltas to capture any remaining current-vs-dated
         # differences as explicitly undated observations, never as invented dates.
         dates=sorted(k for k in src if len(k)==10 and k[4]=="-" and k[7]=="-")
@@ -167,7 +340,11 @@ def main():
         "currentReferencedTags":sum(len(x["referenced"]) for x in current.values()),
         "launchStringTags":sum(len(x["stringTags"]) for x in initial.values()),
         "currentStringTags":sum(len(x["stringTags"]) for x in current.values()),
-        "weaponRepresentationEvents":len(WEAPONS),"weaponSnapshotCards":164,"datedGameplayEventsAdded":0},ensure_ascii=False))
+        "datedRawRoleEvents":len(dated_by_card),"undatedOwnTransitions":sum(len(x) for x in undated_by_card.values()),
+        "undatedReferencedTransitions":sum(len(x.get("changes",[])) for x in ref_transitions),
+        "schemaNumericOmissions":schema_manifest["numericFieldCount"],
+        "schemaChoiceOmissions":schema_manifest["emptyChoiceFieldCount"],
+        "weaponRepresentationEvents":len(WEAPONS),"weaponSnapshotCards":164},ensure_ascii=False))
 
 def get_value(tags,tag_id):
     for t in tags:
