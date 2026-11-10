@@ -415,9 +415,12 @@ def main():
         # Dated logical fields must reproduce the current gameplay values. Text and
         # nativeTags may have undated display/representation observations, kept in _meta.
         undated_fields={x.get("field") for x in data["_meta"].get("undatedCurrentDifferences",[])}
+        schema_fields=set(data["_meta"].get("schemaNormalization",{}).get("removedFields",[]))
         for field in SPEC_FIELDS:
-            if latest.get(field,"__ABSENT__")!=current.get(field,"__ABSENT__") and field not in undated_fields:
-                raise ValueError(f"{cid}: dated replay/current mismatch for {field} without an undated observation")
+            if latest.get(field,"__ABSENT__")!=current.get(field,"__ABSENT__") and field not in undated_fields and field not in schema_fields:
+                raise ValueError(f"{cid}: dated replay/current mismatch for {field} without an undated observation or S002 schema omission")
+            if field in schema_fields and latest.get(field,"__ABSENT__")!="ABSENT":
+                raise ValueError(f"{cid}: S002 field {field} must be absent from every dated state")
         record_out=copy.deepcopy(current)
         render_card={field:copy.deepcopy(record_out[field]) for field in RENDER_FIELDS if field in record_out}
         if revisions:
