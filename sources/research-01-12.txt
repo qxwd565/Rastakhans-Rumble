@@ -1,0 +1,441 @@
+폭심만만 1. 확정 날짜 오류와 보류
+
+수집 가능 136장·비수집 19장, 전체 155장을 확인한 결과입니다. 원본은 수정하지 않았습니다. 날짜와 값 이력은 구분해서 적습니다.
+
+확정 날짜 오류는 5건입니다. 누락 게임플레이 이력은 22장 23건으로, 날짜 단계의 18건에 후속 5건을 더한 수입니다. 최초값 소급 오류 21장은 같은 원인을 다른 시점에서 확인한 것이므로 23건과 합산하지 않습니다. 현재 155장의 논리 수치·효과 의미는 최신 원본과 일치하며, 비커에 담긴 번개의 원시 과부하 태그 1건은 별개입니다.
+
+• 현재 기록 2022-12-07 → 제안 한국 2022-11-30, 확신도 높음.
+마이라 로트스프링(BOT_243), 박사 모리건(BOT_433), 듀금의 인도자(BOT_509), 무모한 실험가(BOT_566)
+  마이라 로트스프링: races [] → ["UNDEAD"]; race “” → “언데드”
+  박사 모리건: races [] → ["UNDEAD"]; race “” → “언데드”
+  듀금의 인도자: races ["MECHANICAL"] → ["MECHANICAL", "UNDEAD"]; race “기계” → “기계, 언데드”
+  무모한 실험가: races [] → ["UNDEAD"]; race “” → “언데드”
+원본 ID의 25.0 자료에 언데드 태그가 이미 있다. 실제 한국 패치일은 11월 30일이다. 12월 7일은 새 확장팩 카드의 대전 사용 개방일이므로 기존 카드의 종족 변경일과 다르다.
+근거: https://hearthstone.blizzard.com/ko-kr/news/23882860/25-0-patch-notes
+https://www.inven.co.kr/board/hs/3508/19396
+https://outof.games/news/5724-hearthstones-march-of-the-lich-king-patch-250-is-live-an-overview-undead-and-dual-type-minions-big-duels-updates-new-features-more/
+https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml
+
+• 현재 기록 2024-11-06 → 제안 한국 2024-10-30, 확신도 높음.
+별관찰자 루나(BOT_103)
+  별관찰자 루나: races [] → ["DRAENEI"]; race “” → “드레나이”
+31.0 원본 BOT_103 / 47982에 드레나이 종족 태그가 이미 반영되었다. 한국 패치일 10월 30일과 새 확장팩 개방일 11월 6일을 구분해야 한다.
+근거: https://hearthstone.blizzard.com/ko-kr/news/24149389/31-0-patch-notes
+https://www.inven.co.kr/board/hs/3508/22026
+https://github.com/HearthSim/hsdata/blob/0a387d653f339297339625710e4df91f0c62b67b/CardDefs.xml
+
+• 보류 1건: 깔깔대는 발명가(BOT_270 / DBF 48226), 비용 5→7 변경 자체는 확정입니다. 현재 기록과 한국 날짜 후보는 2018-10-19입니다. 공식 10월 18일은 태평양 시간이며, 해외 실제 적용 보도와 한국 당일 대회 기사도 19일을 지지합니다. 다만 한국 서버 최초 적용 완료 시각을 독립 확인하지 못했으므로 다른 날짜로 교정하지 않고 후보를 유지합니다.
+근거: https://hearthstone.blizzard.com/ko-kr/news/22549775
+https://www.hearthpwn.com/news/6027-october-card-nerfs-are-now-live
+https://www.inven.co.kr/webzine/news/?news=209024&site=hs
+
+폭심만만 2. 누락 이력: 이중 종족 12장
+
+아래 12장 모두 현재 해당 날짜 사건이 없습니다. 제안 한국 적용일은 2023-02-15(25.4), 확신도 높음입니다. 현재 카드의 이중 종족은 맞지만, 최초 이력부터 이중 종족이었던 것처럼 저장되어 있습니다.
+
+• 기계 새끼용(BOT_066), 기계용(BOT_066t)
+당시 races [“MECHANICAL”] → [“MECHANICAL”, “DRAGON”]. 현재 races도 변경 후 값입니다. race 표시도 “기계” → “기계, 용족”로 대응합니다. nativeTags 2523는 부재 → 1입니다.
+
+• 거미 폭탄(BOT_251), 토깽이 콩콩(BOT_283), 캥거루로봇(BOT_445), 새끼 캥거루로봇(BOT_445t), 손상된 스테고트론(BOT_448), 우걱전차(BOT_523), 뿔도저(BOT_534), 공룡로봇(BOT_537t), 구리꼬리 다람쥐로봇(BOT_562), 7ㅏ-르-7ㅔ(BOT_700)
+당시 races [“MECHANICAL”] → [“MECHANICAL”, “BEAST”]. 현재 races도 변경 후 값입니다. race 표시도 “기계” → “기계, 야수”로 대응합니다. nativeTags 2542는 부재 → 1입니다.
+
+추가할 행은 각 카드의 2023-02-15 사건입니다. 이 목록의 12건은 아래 다른 누락 사건과 중복되지 않습니다. 종족 배열 순서는 소속 종족 자체와 구분합니다.
+근거: https://hearthstone.blizzard.com/ko-kr/news/23913671/25-4
+https://www.inven.co.kr/board/hs/3508/19548
+https://github.com/HearthSim/hsdata/blob/cf08a2eee9159a63ff589cfe2deabc4035673871/CardDefs.xml
+https://github.com/HearthSim/hsdata/blob/ef8297aadee616ea2ffbc941a7b55a84b6cfc819/CardDefs.xml
+
+폭심만만 3. 누락 이력: 비용·능력치·효과 (1/3)
+
+앞의 종족 12건에 이어 나머지 11건입니다. ⏎는 원문 줄바꿈이며, 이 항목에서는 당시 효과 변화와 현재 값을 구분합니다.
+
+• 더 많은 팔!(BOT_219t / DBF 50657) / 한국 2019-06-04, 확신도 높음.
+현재 이력: 해당 날짜 행 없음. 제안: 더 많은 팔! 비용 3→2.
+cost: 3 → 2. 현재 값: 3.
+연결 원시 태그: 48 3 → 2.
+근거: https://hearthstone.blizzard.com/ko-kr/news/22992997
+https://us.forums.blizzard.com/en/hearthstone/t/rise-of-the-mech-update-frequently-asked-questions/6695
+https://www.inven.co.kr/board/hs/3508/14876
+https://github.com/HearthSim/hsdata/blob/089a94c2fc524cc52ee7697ad4430fd52240d6a0/CardDefs.xml
+https://github.com/HearthSim/hsdata/blob/d4dcf70622f19beddd0d6d56fdd5f053da99d223/CardDefs.xml
+
+• 더 많은 팔!(BOT_219t / DBF 50657) / 한국 2019-08-27, 확신도 높음.
+현재 이력: 해당 날짜 행 없음. 제안: 더 많은 팔! 비용 2→3.
+cost: 2 → 3. 현재 값: 3.
+연결 원시 태그: 48 2 → 3.
+근거: https://news.blizzard.com/ko-kr/article/23097375/8-27
+https://github.com/HearthSim/hsdata/blob/85b5a219afe49d5015725c344fd7412945a346b7/CardDefs.xml
+https://github.com/HearthSim/hsdata/blob/dd224aedef671a1bad6479df2a0e9cb2ea6da3cc/CardDefs.xml
+
+• 청동 문지기(BOT_021 / DBF 47781) / 한국 2023-04-05, 확신도 높음.
+현재 이력: 해당 날짜 행 없음. 제안: 2023 핵심 개편과 함께 원본 능력치 변경.
+attack: 1 → 2. 현재 값: 2.
+연결 원시 태그: 47 1 → 2.
+근거: https://hearthstone.blizzard.com/ko-kr/news/23921495
+https://bnetcmsus-a.akamaihd.net/cms/content_folder_media/J81FFJK7HBIY1679513476057.pdf
+https://hearthstone.blizzard.com/ko-kr/news/23934449
+https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml
+https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml
+
+• 증식하는 위협(BOT_312 / DBF 48536) / 한국 2023-04-05, 확신도 높음.
+현재 이력: 해당 날짜 행 없음. 제안: 2023 핵심 개편과 함께 원본 능력치 변경.
+health: 1 → 2. 현재 값: 2.
+연결 원시 태그: 45 1 → 2.
+근거: https://hearthstone.blizzard.com/ko-kr/news/23921495
+https://bnetcmsus-a.akamaihd.net/cms/content_folder_media/J81FFJK7HBIY1679513476057.pdf
+https://hearthstone.blizzard.com/ko-kr/news/23934449
+https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml
+https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml
+
+• 전투 기계(BOT_563 / DBF 49356) / 한국 2023-04-05, 확신도 높음.
+현재 이력: 해당 날짜 행 없음. 제안: 2023 핵심 개편과 함께 원본 능력치 변경.
+attack: 5 → 6. 현재 값: 6.
+연결 원시 태그: 47 5 → 6.
+근거: https://hearthstone.blizzard.com/ko-kr/news/23921495
+https://bnetcmsus-a.akamaihd.net/cms/content_folder_media/J81FFJK7HBIY1679513476057.pdf
+https://hearthstone.blizzard.com/ko-kr/news/23934449
+https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml
+https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml
+
+폭심만만 4. 누락 이력: 비용·능력치·효과 (2/3)
+
+앞의 종족 12건에 이어 나머지 11건입니다. ⏎는 원문 줄바꿈이며, 이 항목에서는 당시 효과 변화와 현재 값을 구분합니다.
+
+• 플룹의 수상망측한 수액(BOT_444 / DBF 48837) / 한국 2024-04-26, 확신도 높음.
+현재 이력: 해당 날짜 행 없음. 제안: 임시 마나 획득에서 마나 회복으로 효과 변경.
+text: “이번 턴에 하수인이⏎죽을 때마다 이번⏎턴에만 마나 수정을⏎1개 얻습니다.” → “이번 턴에 하수인이⏎죽을 때마다 마나 수정을⏎1개 회복합니다.”. 현재 값: “이번 턴에 하수인이⏎죽을 때마다 마나 수정을⏎1개 회복합니다.”.
+근거: https://hearthstone.blizzard.com/ko-kr/news/24087317/29-2-2-patch-notes
+https://www.inven.co.kr/board/hs/3508/20952
+https://github.com/HearthSim/hsdata/blob/ddc1e086647527fc739452d94d45a5c6c420b5f5/CardDefs.xml
+https://github.com/HearthSim/hsdata/blob/006fdf0942b023459dded469f95aa613d81579c8/CardDefs.xml
+
+• 향상된 엘레크(BOT_559 / DBF 49269) / 한국 2022-11-30, 확신도 높음.
+현재 이력: 해당 날짜 행 없음. 제안: 향상된 엘레크: 야수에 기계 추가.
+races: ["BEAST"] → ["BEAST", "MECHANICAL"]. 현재 값: ["MECHANICAL", "BEAST"].
+race: “야수” → “야수, 기계”. 현재 값: “기계, 야수”.
+연결 원시 태그: 2539 부재 → 1.
+근거: https://hearthstone.blizzard.com/ko-kr/news/23882860/25-0-patch-notes
+https://www.inven.co.kr/board/hs/3508/19396
+https://outof.games/news/5724-hearthstones-march-of-the-lich-king-patch-250-is-live-an-overview-undead-and-dual-type-minions-big-duels-updates-new-features-more/
+https://github.com/HearthSim/hsdata/blob/beaa46cc24c1332ad91d4f7ae096024f6ff7d394/CardDefs.xml
+https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml
+
+• 실험체 9호(BOT_573 / DBF 49447) / 한국 2022-11-30, 확신도 높음.
+현재 이력: 해당 날짜 행 없음. 제안: 실험체 9호: 야수에 기계 추가.
+races: ["BEAST"] → ["BEAST", "MECHANICAL"]. 현재 값: ["MECHANICAL", "BEAST"].
+race: “야수” → “야수, 기계”. 현재 값: “기계, 야수”.
+연결 원시 태그: 2539 부재 → 1.
+근거: https://hearthstone.blizzard.com/ko-kr/news/23882860/25-0-patch-notes
+https://www.inven.co.kr/board/hs/3508/19396
+https://outof.games/news/5724-hearthstones-march-of-the-lich-king-patch-250-is-live-an-overview-undead-and-dual-type-minions-big-duels-updates-new-features-more/
+https://github.com/HearthSim/hsdata/blob/beaa46cc24c1332ad91d4f7ae096024f6ff7d394/CardDefs.xml
+https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml
+
+• 강철 광전사(BOT_603 / DBF 48890) / 한국 2022-11-30, 확신도 높음.
+현재 이력: 해당 날짜 행 없음. 제안: 강철 광전사: 기계에 정령 추가.
+races: ["MECHANICAL"] → ["MECHANICAL", "ELEMENTAL"]. 현재 값: ["ELEMENTAL", "MECHANICAL"].
+race: “기계” → “기계, 정령”. 현재 값: “정령, 기계”.
+연결 원시 태그: 2540 부재 → 1.
+근거: https://hearthstone.blizzard.com/ko-kr/news/23882860/25-0-patch-notes
+https://www.inven.co.kr/board/hs/3508/19396
+https://outof.games/news/5724-hearthstones-march-of-the-lich-king-patch-250-is-live-an-overview-undead-and-dual-type-minions-big-duels-updates-new-features-more/
+https://github.com/HearthSim/hsdata/blob/beaa46cc24c1332ad91d4f7ae096024f6ff7d394/CardDefs.xml
+https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml
+
+폭심만만 5. 누락 이력: 비용·능력치·효과 (3/3)
+
+앞의 종족 12건에 이어 나머지 11건입니다. ⏎는 원문 줄바꿈이며, 이 항목에서는 당시 효과 변화와 현재 값을 구분합니다.
+
+• 실험체(BOT_558 / DBF 49265) / 한국 2023-03-15, 확신도 높음.
+현재 이력: 해당 날짜 행 없음. 제안: 죽음의 메아리로 주문을 손으로 반환하던 효과를 덱에 섞어 넣도록 변경.
+text: “<b>죽음의 메아리:</b>⏎내가 이 하수인에게⏎시전한 모든 주문을 내 손으로 가져옵니다.” → “<b>죽음의 메아리:</b>⏎내가 이 하수인에게⏎시전한 모든 주문을 내 덱에 섞어 넣습니다.”. 현재 값: “<b>죽음의 메아리:</b>⏎내가 이 하수인에게⏎시전한 모든 주문을 내 덱에 섞어 넣습니다.”.
+근거: https://hearthstone.blizzard.com/ko-kr/news/23921496
+https://www.inven.co.kr/board/hs/3508/19573
+https://github.com/HearthSim/hsdata/blob/63bdc035f2d50bc3857d01f88ad13d79b235a0c0/CardDefs.xml
+https://github.com/HearthSim/hsdata/blob/0c2c469a3285c149bd57576c91bef49a6f1deb02/CardDefs.xml
+
+• 성난 먹구름(BOT_533 / DBF 49162) / 한국 2023-04-05, 확신도 높음.
+현재 이력: 해당 날짜 행 없음. 제안: 성난 먹구름 생명력 2→3.
+health: 2 → 3. 현재 값: 3.
+연결 원시 태그: 45 2 → 3.
+근거: https://hearthstone.blizzard.com/ko-kr/news/23934449
+https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml
+https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml
+
+폭심만만 6. 최초값 소급 오류 21장
+
+화살표는 “현재 저장된 최초행 값 → 그 날짜에 맞는 제안값”입니다. 후대 변경값을 최초행에 거슬러 넣은 오류이며, 앞의 누락 23건과 독립 오류처럼 더하지 않습니다. 모두 확신도 높음입니다. 원본 최초 자료와 같은 ID·DBF를 대조했습니다.
+
+• 청동 문지기(BOT_021 / DBF 47781) / 최초행 한국 2018-08-08: attack 2 → 1.
+
+• 기계 새끼용(BOT_066 / DBF 47924) / 최초행 한국 2018-08-08: races ["MECHANICAL", "DRAGON"] → ["MECHANICAL"]; race “기계, 용족” → “기계”.
+
+• 기계용(BOT_066t / DBF 48897) / 최초행 한국 2018-08-08: races ["MECHANICAL", "DRAGON"] → ["MECHANICAL"]; race “기계, 용족” → “기계”.
+
+• 거미 폭탄(BOT_251 / DBF 48185) / 최초행 한국 2018-08-08: races ["MECHANICAL", "BEAST"] → ["MECHANICAL"]; race “기계, 야수” → “기계”.
+
+• 토깽이 콩콩(BOT_283 / DBF 48471) / 최초행 한국 2018-08-08: races ["MECHANICAL", "BEAST"] → ["MECHANICAL"]; race “기계, 야수” → “기계”.
+
+• 증식하는 위협(BOT_312 / DBF 48536) / 최초행 한국 2018-08-08: health 2 → 1.
+
+• 플룹의 수상망측한 수액(BOT_444 / DBF 48837) / 최초행 한국 2018-08-08: text “이번 턴에 하수인이⏎죽을 때마다 마나 수정을⏎1개 회복합니다.” → “이번 턴에⏎하수인이 죽을 때마다 이번 턴에만 마나 수정을 1개 획득합니다.”.
+
+• 캥거루로봇(BOT_445 / DBF 48886) / 최초행 한국 2018-08-08: races ["MECHANICAL", "BEAST"] → ["MECHANICAL"]; race “기계, 야수” → “기계”.
+
+• 새끼 캥거루로봇(BOT_445t / DBF 48885) / 최초행 한국 2018-08-08: races ["MECHANICAL", "BEAST"] → ["MECHANICAL"]; race “기계, 야수” → “기계”.
+
+• 손상된 스테고트론(BOT_448 / DBF 49019) / 최초행 한국 2018-08-08: races ["MECHANICAL", "BEAST"] → ["MECHANICAL"]; race “기계, 야수” → “기계”.
+
+• 우걱전차(BOT_523 / DBF 48831) / 최초행 한국 2018-08-08: races ["MECHANICAL", "BEAST"] → ["MECHANICAL"]; race “기계, 야수” → “기계”.
+
+• 성난 먹구름(BOT_533 / DBF 49162) / 최초행 한국 2018-08-08: health 3 → 2.
+
+• 뿔도저(BOT_534 / DBF 49163) / 최초행 한국 2018-08-08: races ["MECHANICAL", "BEAST"] → ["MECHANICAL"]; race “기계, 야수” → “기계”.
+
+• 공룡로봇(BOT_537t / DBF 49168) / 최초행 한국 2018-08-08: races ["MECHANICAL", "BEAST"] → ["MECHANICAL"]; race “기계, 야수” → “기계”.
+
+• 실험체(BOT_558 / DBF 49265) / 최초행 한국 2018-08-08: text “<b>죽음의 메아리:</b>⏎내가 이 하수인에게⏎시전한 모든 주문을 내 덱에 섞어 넣습니다.” → “<b>죽음의 메아리:</b>⏎내가 이 하수인에게⏎시전한 모든 주문을 내 손으로 가져옵니다.”.
+
+• 향상된 엘레크(BOT_559 / DBF 49269) / 최초행 한국 2018-08-08: races ["MECHANICAL", "BEAST"] → ["BEAST"]; race “기계, 야수” → “야수”.
+
+• 구리꼬리 다람쥐로봇(BOT_562 / DBF 49233) / 최초행 한국 2018-08-08: races ["MECHANICAL", "BEAST"] → ["MECHANICAL"]; race “기계, 야수” → “기계”.
+
+• 전투 기계(BOT_563 / DBF 49356) / 최초행 한국 2018-08-08: attack 6 → 5.
+
+• 실험체 9호(BOT_573 / DBF 49447) / 최초행 한국 2018-08-08: races ["MECHANICAL", "BEAST"] → ["BEAST"]; race “기계, 야수” → “야수”.
+
+• 강철 광전사(BOT_603 / DBF 48890) / 최초행 한국 2018-08-08: races ["ELEMENTAL", "MECHANICAL"] → ["MECHANICAL"]; race “정령, 기계” → “기계”.
+
+• 7ㅏ-르-7ㅔ(BOT_700 / DBF 56223) / 최초행 한국 2019-06-04: races ["MECHANICAL", "BEAST"] → ["MECHANICAL"]; race “기계, 야수” → “기계”.
+
+일반 출시 최초값 근거: https://github.com/HearthSim/hsdata/blob/48d8f8261c56e0b5109f5e363cd47c000585857f/CardDefs.xml
+7ㅏ-르-7ㅔ의 최초값 근거: https://github.com/HearthSim/hsdata/blob/d4dcf70622f19beddd0d6d56fdd5f053da99d223/CardDefs.xml
+
+폭심만만 7. 현재 원시 과부하 태그와 기존 이력 원칙
+
+• 비커에 담긴 번개(BOT_246 / DBF 48798)
+현재 nativeTags의 태그 215(OVERLOAD) 값 1 → 제안 2. 확신도 높음입니다. 확인한 246개 빌드 모두 이 카드 자체의 과부하 수치는 2였습니다.
+
+비용 0 및 인쇄 문구 “과부하: (2)”는 이미 맞습니다. 비용이나 효과가 지금 바뀐 사건이 아니므로 새 패치일을 만들지 않습니다. 현재 개별 카드·목록·렌더링용 카드와, 한국 2018-08-08 최초행 및 2021-03-26 주문 속성 변경행에 복사된 원시 태그를 같은 값 2로 정리하는 제안입니다.
+근거: https://github.com/HearthSim/hsdata/blob/48d8f8261c56e0b5109f5e363cd47c000585857f/CardDefs.xml
+https://github.com/HearthSim/hsdata/blob/31b034c26f24b8a66ece845ffd03c1ca397b9a02/CardDefs.xml
+
+기존 후속 이력 51개 행의 의도한 논리 변화는 전부 원본과 일치했습니다. 그중 5건은 앞에서 적은 날짜만 교정 대상이고, 깔깔대는 발명가의 2018-10-19는 날짜 보류입니다. 나머지 45건은 다음 목록의 날짜·변경값을 유지합니다. 이것은 해당 행의 모든 보조 nativeTags까지 과거 원본과 동일하다는 뜻은 아닙니다. 생성물 참조 태그, 후대 종족·수집품 표시 태그, 저장 구조는 별도로 구분합니다.
+
+245개 숫자 버전과 추가 빌드 135540을 포함한 246개 원본 아카이브, 같은 원본 ID·DBF의 관측 38,111건을 근거로 했습니다. 아카이브에 남지 않은 모든 서버 핫픽스와 중간 언어 변경까지 빠짐없다고 주장하지 않습니다.
+
+폭심만만 8. 유지할 기존 변경 이력 (1/2)
+
+아래는 새 누락이나 새 오류 명단이 아니라, 이미 맞게 기록된 45건의 전체 명단입니다. ⏎는 원본 문구의 줄바꿈입니다.
+
+한국 2019-06-04: 현재 기록과 제안 날짜가 같으며 유지합니다. 논리 변화 일치, 날짜 확신도 높음.
+• 강령기계공(BOT_039): cost 5 → 4.
+• 보랏빛 연무(BOT_084): cost 3 → 2.
+• 순찰용 부릉이(BOT_218): health 5 → 6.
+• 여분 팔(BOT_219): cost 3 → 2.
+• 영혼 폭탄(BOT_222): cost 2 → 1.
+• 베릴륨 마력제거기(BOT_237): attack 3 → 4.
+• 폭풍 인도기(BOT_245): cost 7 → 6.
+• 뜻밖의 결과(BOT_254): cost 4 → 3.
+• 루나의 휴대용 우주(BOT_257): cost 7 → 5.
+• 토깽이 콩콩(BOT_283): cost 2 → 1.
+근거: https://hearthstone.blizzard.com/ko-kr/news/22992997
+https://www.inven.co.kr/board/hs/3508/14876
+
+한국 2019-06-04: 현재 기록과 제안 날짜가 같으며 유지합니다. 논리 변화 일치, 날짜 확신도 높음.
+• 천둥불꽃(BOT_407): health 5 → 6.
+• 플라크의 붐주카포(BOT_429): cost 8 → 7.
+• 박사 모리건(BOT_433): cost 8 → 6.
+• 복제 장치(BOT_435): cost 2 → 1.
+• 수액 살포자(BOT_507): cost 8 → 7.
+• 우걱전차(BOT_523): cost 10 → 9.
+• 무모한 실험가(BOT_566): text “내가 내는 <b>죽음의 메아리</b> 하수인들의 비용이 (3) 감소하지만 턴이 끝날 때 죽습니다.” → “내가 내는 <b>죽음의 메아리</b>⏎하수인들의 비용이 (3)⏎감소하지만 턴이 끝날 때⏎죽습니다. <i>(비용은 1보다⏎낮아지지 않습니다.)</i>”.
+• 수정학(BOT_909): cost 2 → 1.
+• 발광석 기술병(BOT_910): cost 6 → 5.
+근거: https://hearthstone.blizzard.com/ko-kr/news/22992997
+https://www.inven.co.kr/board/hs/3508/14876
+
+한국 2019-08-27: 현재 기록과 제안 날짜가 같으며 유지합니다. 논리 변화 일치, 날짜 확신도 높음.
+• 여분 팔(BOT_219): cost 2 → 3.
+• 정신 나간 천재 박사 붐(BOT_238): cost 7 → 9.
+• 루나의 휴대용 우주(BOT_257): cost 5 → 7.
+근거: https://news.blizzard.com/ko-kr/article/23097375/8-27
+
+한국 2020-03-27: 현재 기록과 제안 날짜가 같으며 유지합니다. 논리 변화 일치, 날짜 확신도 높음.
+• 정신 나간 천재 박사 붐(BOT_238): cost 9 → 7.
+• 깔깔대는 발명가(BOT_270): cost 7 → 6.
+• 무모한 실험가(BOT_566): text “내가 내는 <b>죽음의 메아리</b>⏎하수인들의 비용이 (3)⏎감소하지만 턴이 끝날 때⏎죽습니다. <i>(비용은 1보다⏎낮아지지 않습니다.)</i>” → “내가 내는 <b>죽음의 메아리</b> 하수인들의 비용이 (3) 감소하지만 턴이 끝날 때 죽습니다.”.
+근거: https://hearthstone.blizzard.com/ko-kr/news/23319440
+https://news.blizzard.com/ko-kr/article/23357896/17-0-3-27
+
+한국 2021-03-26: 현재 기록과 제안 날짜가 같으며 유지합니다. 논리 변화 일치, 날짜 확신도 높음.
+• 생물학 프로젝트(BOT_054): spellSchool “” → “NATURE”.
+• 보랏빛 연무(BOT_084): spellSchool “” → “SHADOW”.
+• 원소반응(BOT_093): spellSchool “” → “NATURE”.
+• 천공의 균열(BOT_101): spellSchool “” → “ARCANE”.
+• 영혼 폭탄(BOT_222): spellSchool “” → “SHADOW”.
+• 폭풍 인도기(BOT_245): spellSchool “” → “NATURE”.
+• 비커에 담긴 번개(BOT_246): spellSchool “” → “NATURE”.
+• 루나의 휴대용 우주(BOT_257): spellSchool “” → “ARCANE”.
+• 영혼 주입(BOT_263): spellSchool “” → “SHADOW”.
+• 먹음직스러운 덥석멜론(BOT_404): spellSchool “” → “NATURE”.
+근거: https://hearthstone.blizzard.com/ko-kr/news/23642550
+
+한국 2021-03-26: 현재 기록과 제안 날짜가 같으며 유지합니다. 논리 변화 일치, 날짜 확신도 높음.
+• 조경 작업(BOT_420): spellSchool “” → “NATURE”.
+• 플룹의 수상망측한 수액(BOT_444): spellSchool “” → “NATURE”.
+• 볼타 폭발(BOT_451): spellSchool “” → “NATURE”.
+• 별불꽃(BOT_453): spellSchool “” → “ARCANE”.
+• 네크리움 약병(BOT_508): spellSchool “” → “SHADOW”.
+• 심령술(BOT_521): spellSchool “” → “SHADOW”.
+• 영혼관(BOT_568): spellSchool “” → “SHADOW”.
+• 악마학 프로젝트(BOT_913): spellSchool “” → “SHADOW”.
+근거: https://hearthstone.blizzard.com/ko-kr/news/23642550
+
+한국 2026-03-11: 현재 기록과 제안 날짜가 같으며 유지합니다. 논리 변화 일치, 날짜 확신도 높음.
+• 깔깔대는 발명가(BOT_270): cost 6 → 5.
+근거: https://hearthstone.blizzard.com/ko-kr/news/24267727
+
+폭심만만 9. 유지할 기존 변경 이력 (2/2)
+
+아래는 새 누락이나 새 오류 명단이 아니라, 이미 맞게 기록된 45건의 전체 명단입니다. ⏎는 원본 문구의 줄바꿈입니다.
+
+한국 2026-07-22: 현재 기록과 제안 날짜가 같으며 유지합니다. 논리 변화 일치, 날짜 확신도 높음.
+• 영혼관(BOT_568): cost 1 → 2.
+근거: https://hearthstone.blizzard.com/ko-kr/news/24290431
+https://www.inven.co.kr/board/hs/3508/24233
+
+폭심만만 10. 의도적 규칙·사용 제한 9건
+
+기능 버그 수정 상세는 제외하고, 의도적인 전역 규칙·사용 가능 여부 변경만 따로 적습니다. 이 9건을 누락 인쇄 밸런스 23건에 합산하지 않습니다.
+
+• 한국 2019-12-06: 잔상 복사본 비용이 1 미만으로 내려가지 않는 전역 규칙.
+대상: 7ㅏ-르-7ㅔ(BOT_700).
+확신도 높음. 카드 인쇄 수치 변화 23건과 별도입니다.
+근거: https://hearthstone.blizzard.com/ko-kr/news/23239986
+
+• 한국 2022-04-27: 엘렉트라의 반복 주문을 손에서 직접 시전한 주문으로 제한.
+대상: 엘렉트라 스톰서지(BOT_411).
+확신도 높음. 카드 인쇄 수치 변화 23건과 별도입니다.
+근거: https://hearthstone.blizzard.com/ko-kr/news/23797160
+https://www.inven.co.kr/board/hs/3508/18810
+
+• 한국 2024-02-14: 위대한 위즈뱅 님의 덱을 일시적으로 폭심만만 출시 당시 덱으로 교체.
+대상: 위대한 위즈뱅 님(BOT_914).
+확신도 높음. 카드 인쇄 수치 변화 23건과 별도입니다.
+근거: https://hearthstone.blizzard.com/ko-kr/news/24056184
+https://www.inven.co.kr/board/hs/3508/20412
+https://github.com/HearthSim/hsdata/blob/c3b395eca877e283473a9b7e9a8e851e9bb8cd0d/CardDefs.xml
+
+• 한국 2024-04-17: 위대한 위즈뱅 님의 일시적 2018년 덱 고정을 원래 효과로 복원.
+대상: 위대한 위즈뱅 님(BOT_914).
+확신도 높음. 카드 인쇄 수치 변화 23건과 별도입니다.
+근거: https://hearthstone.blizzard.com/ko-kr/news/24077473/29-2-patch-notes
+https://github.com/HearthSim/hsdata/blob/ddc1e086647527fc739452d94d45a5c6c420b5f5/CardDefs.xml
+
+• 한국 2024-03-12: 임시 마나로 마나 한도를 초과할 수 있게 하는 전역 규칙.
+대상: 플룹의 수상망측한 수액(BOT_444).
+확신도 높음. 카드 인쇄 수치 변화 23건과 별도입니다.
+근거: https://hearthstone.blizzard.com/ko-kr/news/24064735
+https://github.com/HearthSim/hsdata/blob/e072e5d302a93dc6fb33542e7c528ae4d39560f0/CardDefs.xml
+
+• 한국 2023-05-10: 전장이 가득 차도 합체할 수 있도록 전역 규칙 변경.
+대상: 스케이트로봇(BOT_020), 청동 문지기(BOT_021), 맹독로봇(BOT_035), 미사일 발사기(BOT_107), 베릴륨 마력제거기(BOT_237), 거미 폭탄(BOT_251), 증식하는 위협(BOT_312), 질리악스(BOT_548), 전투 기계(BOT_563), 7ㅏ-르-7ㅔ(BOT_700), 발광로봇(BOT_906), 안녕모듈(BOT_911).
+확신도 높음. 카드 인쇄 수치 변화 23건과 별도입니다.
+근거: https://hearthstone.blizzard.com/ko-kr/news/23935322
+https://github.com/HearthSim/hsdata/blob/d4dcf70622f19beddd0d6d56fdd5f053da99d223/CardDefs.xml
+
+• 한국 2023-02-15: 실험체 야생 사용 일시 금지.
+대상: 실험체(BOT_558).
+확신도 높음. 카드 인쇄 수치 변화 23건과 별도입니다.
+근거: https://us.forums.blizzard.com/en/hearthstone/t/254-known-issues/102692
+https://www.inven.co.kr/board/hs/3508/19542
+
+• 한국 2023-03-15: 실험체 야생 금지 해제.
+대상: 실험체(BOT_558).
+확신도 높음. 카드 인쇄 수치 변화 23건과 별도입니다.
+근거: https://hearthstone.blizzard.com/ko-kr/news/23921496
+https://www.inven.co.kr/board/hs/3508/19573
+
+• 한국 2023-03-15: 밴드 매니저 정예 타우렌 족장 밴드에 위대한 위즈뱅 님을 편입할 수 없도록 제한.
+대상: 위대한 위즈뱅 님(BOT_914).
+확신도 높음. 카드 인쇄 수치 변화 23건과 별도입니다.
+근거: https://hearthstone.blizzard.com/ko-kr/news/23921496
+https://www.inven.co.kr/board/hs/3508/19573
+https://github.com/HearthSim/hsdata/blob/0c2c469a3285c149bd57576c91bef49a6f1deb02/CardDefs.xml
+
+폭심만만 11. 밸런스로 오인하면 안 되는 표현·태그 (1/2)
+
+다음은 보류·표현·저장 방식의 차이입니다. 카드 능력치 버프·너프나 새 기능 획득으로 세지 않습니다.
+
+• 오래된 나무(BOT_422a), 새로운 나무(BOT_422b)
+선택지의 COST 원시 부재→6. 카드 자체는 직접 내는 별도 주문이 아니므로 비용 0→6 너프로 세지 않는다. 최초 행에 비용 6이 소급된 표시는 별도로 보존한다. 한국 실제 UI 반영일 미확정.
+한국 실제 적용일을 확정한 별도 사건으로 제안하지 않습니다. 기록된 원본·표현 대조 근거이며, 서버 동작 전체의 동일성을 새로 입증한 것은 아닙니다.
+근거: https://github.com/HearthSim/hsdata/blob/3e1a03e9c4206c1cff264d1b7d9fcb522ed8a059/CardDefs.xml
+https://github.com/HearthSim/hsdata/blob/32c8b31a69662efc5984a09f7ba5eaced12ff4c8/CardDefs.xml
+
+• 안녕로봇(BOT_270t)
+안녕로봇 비수집 토큰의 RARITY=COMMON 원시 태그 제거. 능력치·효과·수집 가능 여부는 그대로다.
+한국 실제 적용일을 확정한 별도 사건으로 제안하지 않습니다. 기록된 원본·표현 대조 근거이며, 서버 동작 전체의 동일성을 새로 입증한 것은 아닙니다.
+근거: https://github.com/HearthSim/hsdata/blob/1fdd42edae20fe2c5477776a8bb0d0e2a209a5ac/CardDefs.xml
+https://github.com/HearthSim/hsdata/blob/5e0faca203add6afb31961daf1f0f448facb4c93/CardDefs.xml
+
+• 비커에 담긴 번개(BOT_246), 볼타 폭발(BOT_451)
+OVERLOAD_OWED(296) 제거. owned OVERLOAD(215)는 각각 2와 1이고 인쇄 과부하도 유지된다. 과부하 제거로 기록하지 않는다.
+한국 실제 적용일을 확정한 별도 사건으로 제안하지 않습니다. 기록된 원본·표현 대조 근거이며, 서버 동작 전체의 동일성을 새로 입증한 것은 아닙니다.
+근거: https://github.com/HearthSim/hsdata/blob/f9d936096897c6fd4d723102381769efd8b9be89/CardDefs.xml
+https://github.com/HearthSim/hsdata/blob/aeffaf09cdbba14654c4543792558fab68cee363/CardDefs.xml
+
+• 우주 변형물(BOT_604)
+원시 SPELLPOWER(192) 2→1. 한국·영문 인쇄 주문 공격력 +2는 그대로이며 다른 세트에도 동시 값 정규화가 관측된다. 인쇄 +2→+1 너프로 해석하지 않는다.
+한국 실제 적용일을 확정한 별도 사건으로 제안하지 않습니다. 기록된 원본·표현 대조 근거이며, 서버 동작 전체의 동일성을 새로 입증한 것은 아닙니다.
+근거: https://github.com/HearthSim/hsdata/blob/e6b9c5e51678d5035d1188f63c246326bb221c60/CardDefs.xml
+https://github.com/HearthSim/hsdata/blob/0a387d653f339297339625710e4df91f0c62b67b/CardDefs.xml
+
+• 톱니검(BOT_042t), 네크리움 단검(BOT_286), 자동충돌망치(BOT_406)
+DURABILITY(187)가 제거되고 같은 수치가 HEALTH(45)에 저장된다. 내구도 3/2/3은 그대로다. 별도 생명력 버프·내구도 너프 아님.
+한국 적용일 2025-03-19. 기록된 원본·표현 대조 근거이며, 서버 동작 전체의 동일성을 새로 입증한 것은 아닙니다.
+근거: https://news.blizzard.com/ko-kr/article/24187196/32-0
+https://github.com/HearthSim/hsdata/blob/62cc0f00dbed73f2d48ccefca6f611e6f8898986/CardDefs.xml
+https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml
+
+• 베릴륨 마력제거기(BOT_237)
+대상 지정 불가 설명을 모면 키워드로 축약하고 옛 두 면역 태그를 ELUSIVE로 통합. 원래 효과가 유지되어 신규 대상 지정 면역 버프로 세지 않는다.
+한국 적용일 2024-03-12. 기록된 원본·표현 대조 근거이며, 서버 동작 전체의 동일성을 새로 입증한 것은 아닙니다.
+근거: https://hearthstone.blizzard.com/ko-kr/news/24064735
+https://github.com/HearthSim/hsdata/blob/b0d06776272138cab032979722d18ca4de6545f0/CardDefs.xml
+https://github.com/HearthSim/hsdata/blob/e072e5d302a93dc6fb33542e7c528ae4d39560f0/CardDefs.xml
+
+• 영혼관(BOT_568)
+영혼관의 턴 종료 버리기 설명을 일시적 키워드로 축약. 공식 30.0은 기존 카드 기능을 바꾸지 않는 표현 변경이라고 설명한다. 2026년 비용 1→2 사건과 구분한다.
+한국 실제 적용일을 확정한 별도 사건으로 제안하지 않습니다. 기록된 원본·표현 대조 근거이며, 서버 동작 전체의 동일성을 새로 입증한 것은 아닙니다.
+근거: https://hearthstone.blizzard.com/ko-kr/news/24115553
+https://github.com/HearthSim/hsdata/blob/c8ac9ef48363e455e32ddcc4b5a179b8fb05c364/CardDefs.xml
+https://github.com/HearthSim/hsdata/blob/e1be76d35321e673770e5e3424e7a4d16ba5753d/CardDefs.xml
+
+폭심만만 12. 밸런스로 오인하면 안 되는 표현·태그 (2/2)
+
+다음은 보류·표현·저장 방식의 차이입니다. 카드 능력치 버프·너프나 새 기능 획득으로 세지 않습니다.
+
+• 폭탄(BOT_511t)
+폭탄이 뽑을 때 시전 키워드로 바뀌고 1077 참조 태그가 추가된 뒤 65614에서 소유 태그로 이동했다. 뽑기 시 피해 5라는 기존 효과와 구분 없이 새 피해 효과/드로우 삭제로 세지 않는다. 예외적인 손에서 직접 시전할 때의 과거 서버 동작까지 동일하다고 단정하지 않는다.
+한국 실제 적용일을 확정한 별도 사건으로 제안하지 않습니다. 기록된 원본·표현 대조 근거이며, 서버 동작 전체의 동일성을 새로 입증한 것은 아닙니다.
+근거: https://hearthstone.blizzard.com/ko-kr/news/22546493
+https://github.com/HearthSim/hsdata/blob/48d8f8261c56e0b5109f5e363cd47c000585857f/CardDefs.xml
+https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml
+
+• 지원 병력 투하(BOT_238p4), 마이라 로트스프링(BOT_243), 비밀 작전(BOT_402), 수목학자(BOT_419), 복제 장치(BOT_435), 비전 발전기(BOT_539)
+발견 참조 태그가 소유 태그로 이동했다. 최초부터 문구에 발견이 있으므로 새로운 발견 효과 추가 아님.
+한국 실제 적용일을 확정한 별도 사건으로 제안하지 않습니다. 기록된 원본·표현 대조 근거이며, 서버 동작 전체의 동일성을 새로 입증한 것은 아닙니다.
+근거: https://github.com/HearthSim/hsdata/blob/02522f4d57def8c5c72deb6dfd537cbab6f819de/CardDefs.xml
+https://github.com/HearthSim/hsdata/blob/adedd63ac6a9181d379fcf320648fa4c7fb9ebf2/CardDefs.xml
+
+• 폭죽 기술자(BOT_038), 강령기계공(BOT_039), 로켓 장화(BOT_067), 붐지옥함선(BOT_069), 보랏빛 연무(BOT_084), 순찰용 부릉이(BOT_218), 정신 나간 천재 박사 붐(BOT_238), 마이라 로트스프링(BOT_243), 뜻밖의 결과(BOT_254), 깔깔대는 발명가(BOT_270), 비밀 작전(BOT_402), 천둥불꽃(BOT_407), 고블린의 장난(BOT_437), 사이버공학 칩(BOT_438), 볼타 폭발(BOT_451), 네크리움 약병(BOT_508), 별빛 사절(BOT_531), 불꽃 엔진(BOT_538), 오메가 의식(BOT_543), 구리꼬리 다람쥐로봇(BOT_562), 역병분무기(BOT_565), 무모한 실험가(BOT_566), 영혼관(BOT_568), 실험체 9호(BOT_573), 자동 방어 매트릭스(BOT_908), 칸고르의 끝없는 군대(BOT_912)
+현재 26개 카드의 참조 태그 29개가 nativeTags에 소유 태그와 함께 저장되어 있다. 참조 키워드를 카드 자체 능력으로 해석하면 안 된다. 예: 깔깔대는 발명가의 도발/천상의 보호막은 생성물의 참조 능력이다.
+한국 실제 적용일을 확정한 별도 사건으로 제안하지 않습니다. 기록된 원본·표현 대조 근거이며, 서버 동작 전체의 동일성을 새로 입증한 것은 아닙니다.
+근거: https://github.com/HearthSim/hsdata/blob/31b034c26f24b8a66ece845ffd03c1ca397b9a02/CardDefs.xml
+
+• 복제하는 임프(BOT_224), 기계 새끼용(BOT_066)
+임프/새끼용 하위 분류 태그 추가는 이미 있는 악마/기계 주 종족의 신규 부여와 다르다. 후대 하위 분류 시너지의 전체 시작일은 이 원장으로 입증하지 않는다.
+한국 실제 적용일을 확정한 별도 사건으로 제안하지 않습니다. 기록된 원본·표현 대조 근거이며, 서버 동작 전체의 동일성을 새로 입증한 것은 아닙니다.
+근거: https://github.com/HearthSim/hsdata/blob/31b034c26f24b8a66ece845ffd03c1ca397b9a02/CardDefs.xml

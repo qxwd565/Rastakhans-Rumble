@@ -1,0 +1,364 @@
+폭심만만 22. 줄바꿈 교정 전체 명단 (7/9)
+
+85개 문자열의 실제 LF 149개가 대상입니다. ⏎가 현재 LF 위치이며 제안은 정확히 <br></br>입니다. 나머지 글자·공백·기존 태그는 유지합니다. 각 문자열은 현재 3곳과 최초 이력 1곳, 총 4곳에 같게 있어 전체 340필드·596 LF입니다. 확정 형식 제안이며 한국 패치일을 새로 만들지 않습니다.
+
+• 볼타 폭발(BOT_451 / DBF 49052), text. LF 2개, 0부터 센 문자 위치 20, 33.
+현재: <b>속공</b> 능력이 있는 1/1⏎불꽃을 둘 소환합니다.⏎<b>과부하:</b> (1)
+제안: <b>속공</b> 능력이 있는 1/1<br></br>불꽃을 둘 소환합니다.<br></br><b>과부하:</b> (1)
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/101/text; data/history.json /events/2018-08-08/BOT_451/text.
+
+• 수액 살포자(BOT_507 / DBF 48744), text. LF 1개, 0부터 센 문자 위치 14.
+현재: <b>전투의 함성:</b>⏎양옆의 하수인들을 복사하여 소환합니다.
+제안: <b>전투의 함성:</b><br></br>양옆의 하수인들을 복사하여 소환합니다.
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/103/text; data/history.json /events/2018-08-08/BOT_507/text.
+
+• 네크리움 약병(BOT_508 / DBF 48748), text. LF 1개, 0부터 센 문자 위치 7.
+현재: 아군 하수인의⏎<b>죽음의 메아리</b> 능력을 2번 발동시킵니다.
+제안: 아군 하수인의<br></br><b>죽음의 메아리</b> 능력을 2번 발동시킵니다.
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/104/text; data/history.json /events/2018-08-08/BOT_508/text.
+
+• 듀금의 인도자(BOT_509 / DBF 48929), text. LF 2개, 0부터 센 문자 위치 15, 36.
+현재: <b>죽음의 메아리:</b>⏎내 덱에서 <b>죽음의 메아리</b>⏎하수인을 뽑습니다.
+제안: <b>죽음의 메아리:</b><br></br>내 덱에서 <b>죽음의 메아리</b><br></br>하수인을 뽑습니다.
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/105/text; data/history.json /events/2018-08-08/BOT_509/text.
+
+• 시포리움 폭격수(BOT_511 / DBF 48753), text. LF 3개, 0부터 센 문자 위치 22, 35, 49.
+현재: <b>전투의 함성:</b> 상대편의 덱에⏎폭탄을 섞어 넣습니다.⏎폭탄을 뽑으면, 폭발하며⏎피해를 5 줍니다.
+제안: <b>전투의 함성:</b> 상대편의 덱에<br></br>폭탄을 섞어 넣습니다.<br></br>폭탄을 뽑으면, 폭발하며<br></br>피해를 5 줍니다.
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/106/text; data/history.json /events/2018-08-08/BOT_511/text.
+
+• 폭탄(BOT_511t / DBF 48752), text. LF 1개, 0부터 센 문자 위치 14.
+현재: <b>뽑을 때 시전</b>⏎내게 피해를 5 줍니다.
+제안: <b>뽑을 때 시전</b><br></br>내게 피해를 5 줍니다.
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/107/text; data/history.json /events/2018-08-08/BOT_511t/text.
+
+• 심령술(BOT_521 / DBF 48823), text. LF 1개, 0부터 센 문자 위치 12.
+현재: 내 전장의 모든 악마를⏎복사하여 소환합니다.
+제안: 내 전장의 모든 악마를<br></br>복사하여 소환합니다.
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/109/text; data/history.json /events/2018-08-08/BOT_521/text.
+
+• 신의 권능: 복제(BOT_529 / DBF 49013), text. LF 3개, 0부터 센 문자 위치 7, 21, 36.
+현재: 아군 하수인을⏎선택합니다. 그 하수인을⏎복사하여 5/5 하수인으로⏎소환합니다.
+제안: 아군 하수인을<br></br>선택합니다. 그 하수인을<br></br>복사하여 5/5 하수인으로<br></br>소환합니다.
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/111/text; data/history.json /events/2018-08-08/BOT_529/text.
+
+• 폭발 전문가(BOT_532 / DBF 49161), text. LF 2개, 0부터 센 문자 위치 14, 26.
+현재: <b>전투의 함성:</b>⏎0/2 고블린 폭탄을⏎둘 소환합니다.
+제안: <b>전투의 함성:</b><br></br>0/2 고블린 폭탄을<br></br>둘 소환합니다.
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/113/text; data/history.json /events/2018-08-08/BOT_532/text.
+
+• 성난 먹구름(BOT_533 / DBF 49162), text. LF 2개, 0부터 센 문자 위치 14, 22.
+현재: <b>전투의 함성:</b>⏎무작위 정령을⏎내 손으로 가져옵니다.
+제안: <b>전투의 함성:</b><br></br>무작위 정령을<br></br>내 손으로 가져옵니다.
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/114/text; data/history.json /events/2018-08-08/BOT_533/text.
+
+근거: https://github.com/qxwd565/The-Boomsday-Project/blob/134835ecbf1f46e293f00e0a7341aff06504fd0b/cards.json
+https://github.com/qxwd565/The-Boomsday-Project/blob/134835ecbf1f46e293f00e0a7341aff06504fd0b/data/history.json
+
+폭심만만 23. 줄바꿈 교정 전체 명단 (8/9)
+
+85개 문자열의 실제 LF 149개가 대상입니다. ⏎가 현재 LF 위치이며 제안은 정확히 <br></br>입니다. 나머지 글자·공백·기존 태그는 유지합니다. 각 문자열은 현재 3곳과 최초 이력 1곳, 총 4곳에 같게 있어 전체 340필드·596 LF입니다. 확정 형식 제안이며 한국 패치일을 새로 만들지 않습니다.
+
+• 초소형 로봇 조종사(BOT_535 / DBF 49164), text. LF 2개, 0부터 센 문자 위치 14, 26.
+현재: <b>전투의 함성:</b>⏎1/1 초소형 로봇을⏎둘 소환합니다.
+제안: <b>전투의 함성:</b><br></br>1/1 초소형 로봇을<br></br>둘 소환합니다.
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/116/text; data/history.json /events/2018-08-08/BOT_535/text.
+
+• 오메가 요원(BOT_536 / DBF 49167), text. LF 3개, 0부터 센 문자 위치 14, 29, 43.
+현재: <b>전투의 함성:</b>⏎내 마나 수정이 10개면,⏎이 하수인을 둘 복사하여⏎소환합니다.
+제안: <b>전투의 함성:</b><br></br>내 마나 수정이 10개면,<br></br>이 하수인을 둘 복사하여<br></br>소환합니다.
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/117/text; data/history.json /events/2018-08-08/BOT_536/text.
+
+• 기계 알(BOT_537 / DBF 49169), text. LF 1개, 0부터 센 문자 위치 15.
+현재: <b>죽음의 메아리:</b>⏎8/8 공룡로봇을 소환합니다.
+제안: <b>죽음의 메아리:</b><br></br>8/8 공룡로봇을 소환합니다.
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/118/text; data/history.json /events/2018-08-08/BOT_537/text.
+
+• 비전 발전기(BOT_539 / DBF 49171), text. LF 2개, 0부터 센 문자 위치 14, 26.
+현재: <b>전투의 함성:</b>⏎비용이 (5) 이상인⏎주문을 <b>발견</b>합니다.
+제안: <b>전투의 함성:</b><br></br>비용이 (5) 이상인<br></br>주문을 <b>발견</b>합니다.
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/121/text; data/history.json /events/2018-08-08/BOT_539/text.
+
+• E.M.P. 비밀요원(BOT_540 / DBF 49172), text. LF 1개, 0부터 센 문자 위치 14.
+현재: <b>전투의 함성:</b>⏎기계를 처치합니다.
+제안: <b>전투의 함성:</b><br></br>기계를 처치합니다.
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/122/text; data/history.json /events/2018-08-08/BOT_540/text.
+
+• 오메가 의식(BOT_543 / DBF 49175), text. LF 2개, 0부터 센 문자 위치 23, 41.
+현재: <b>전투의 함성:</b> 내 마나 수정이⏎10개면, 이번 턴에 내 주문이⏎<b>생명력 흡수</b>를 얻습니다.
+제안: <b>전투의 함성:</b> 내 마나 수정이<br></br>10개면, 이번 턴에 내 주문이<br></br><b>생명력 흡수</b>를 얻습니다.
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/123/text; data/history.json /events/2018-08-08/BOT_543/text.
+
+• 질리악스(BOT_548 / DBF 49184), text. LF 1개, 0부터 센 문자 위치 25.
+현재: <b>합체</b>, <b>천상의 보호막</b>⏎<b>도발</b>, <b>생명력 흡수</b>, <b>속공</b>
+제안: <b>합체</b>, <b>천상의 보호막</b><br></br><b>도발</b>, <b>생명력 흡수</b>, <b>속공</b>
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/125/text; data/history.json /events/2018-08-08/BOT_548/text.
+
+• 실험체(BOT_558 / DBF 49265), text. LF 2개, 0부터 센 문자 위치 15, 26.
+현재: <b>죽음의 메아리:</b>⏎내가 이 하수인에게⏎시전한 모든 주문을 내 덱에 섞어 넣습니다.
+제안: <b>죽음의 메아리:</b><br></br>내가 이 하수인에게<br></br>시전한 모든 주문을 내 덱에 섞어 넣습니다.
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/129/text; data/history.json /events/2018-08-08/BOT_558/text.
+
+• 방사능 수액(BOT_565t / DBF 49360), text. LF 1개, 0부터 센 문자 위치 9.
+현재: <b>독성</b>⏎<b>속공</b>
+제안: <b>독성</b><br></br><b>속공</b>
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/134/text; data/history.json /events/2018-08-08/BOT_565t/text.
+
+근거: https://github.com/qxwd565/The-Boomsday-Project/blob/134835ecbf1f46e293f00e0a7341aff06504fd0b/cards.json
+https://github.com/qxwd565/The-Boomsday-Project/blob/134835ecbf1f46e293f00e0a7341aff06504fd0b/data/history.json
+
+폭심만만 24. 줄바꿈 교정 전체 명단 (9/9)
+
+85개 문자열의 실제 LF 149개가 대상입니다. ⏎가 현재 LF 위치이며 제안은 정확히 <br></br>입니다. 나머지 글자·공백·기존 태그는 유지합니다. 각 문자열은 현재 3곳과 최초 이력 1곳, 총 4곳에 같게 있어 전체 340필드·596 LF입니다. 확정 형식 제안이며 한국 패치일을 새로 만들지 않습니다.
+
+• 제레크의 복제품 전시관(BOT_567 / DBF 49421), text. LF 2개, 0부터 센 문자 위치 8, 18.
+현재: 내 덱에서 모든⏎하수인을 복사하여⏎1/1 하수인으로 소환합니다.
+제안: 내 덱에서 모든<br></br>하수인을 복사하여<br></br>1/1 하수인으로 소환합니다.
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/136/text; data/history.json /events/2018-08-08/BOT_567/text.
+
+• 영혼관(BOT_568 / DBF 49423), text. LF 1개, 0부터 센 문자 위치 12.
+현재: 카드를 3장 뽑습니다.⏎그 카드들은 <b>일시적</b>입니다.
+제안: 카드를 3장 뽑습니다.<br></br>그 카드들은 <b>일시적</b>입니다.
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/137/text; data/history.json /events/2018-08-08/BOT_568/text.
+
+• 미쳐버린 화학자(BOT_576 / DBF 49494), text. LF 1개, 0부터 센 문자 위치 19.
+현재: <b>연계:</b> 아군 하수인에게⏎공격력을 +4 부여합니다.
+제안: <b>연계:</b> 아군 하수인에게<br></br>공격력을 +4 부여합니다.
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/139/text; data/history.json /events/2018-08-08/BOT_576/text.
+
+• 기상학자(BOT_601 / DBF 48693), text. LF 2개, 0부터 센 문자 위치 19, 33.
+현재: <b>전투의 함성:</b> 내 손에⏎있는 카드 1장당 무작위⏎적에게 피해를 1 줍니다.
+제안: <b>전투의 함성:</b> 내 손에<br></br>있는 카드 1장당 무작위<br></br>적에게 피해를 1 줍니다.
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/141/text; data/history.json /events/2018-08-08/BOT_601/text.
+
+• 콰광로봇(BOT_606 / DBF 49279), text. LF 1개, 0부터 센 문자 위치 15.
+현재: <b>죽음의 메아리:</b>⏎무작위 적 하수인에게 피해를 4 줍니다.
+제안: <b>죽음의 메아리:</b><br></br>무작위 적 하수인에게 피해를 4 줍니다.
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/144/text; data/history.json /events/2018-08-08/BOT_606/text.
+
+• 7ㅏ-르-7ㅔ(BOT_700 / DBF 56223), text. LF 1개, 0부터 센 문자 위치 36.
+현재: <b>합체</b>, <b>잔상</b> <b>죽음의 메아리:</b>⏎1/1 초소형 로봇을 둘 소환합니다.
+제안: <b>합체</b>, <b>잔상</b> <b>죽음의 메아리:</b><br></br>1/1 초소형 로봇을 둘 소환합니다.
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/145/text; data/history.json /events/2019-06-04/BOT_700/text.
+
+• 전류 공급기(BOT_907 / DBF 48983), text. LF 2개, 0부터 센 문자 위치 14, 27.
+현재: <b>전투의 함성:</b>⏎내 손에 있는 기계들의⏎비용이 (1) 감소합니다.
+제안: <b>전투의 함성:</b><br></br>내 손에 있는 기계들의<br></br>비용이 (1) 감소합니다.
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/147/text; data/history.json /events/2018-08-08/BOT_907/text.
+
+• 안녕모듈(BOT_911 / DBF 48993), text. LF 1개, 0부터 센 문자 위치 20.
+현재: <b>합체</b>, <b>도발</b>⏎<b>천상의 보호막</b>
+제안: <b>합체</b>, <b>도발</b><br></br><b>천상의 보호막</b>
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/151/text; data/history.json /events/2018-08-08/BOT_911/text.
+
+• 악마학 프로젝트(BOT_913 / DBF 50432), text. LF 2개, 0부터 센 문자 위치 13, 26.
+현재: 각 플레이어의 손에 있는⏎무작위 하수인을 무작위⏎악마로 변신시킵니다.
+제안: 각 플레이어의 손에 있는<br></br>무작위 하수인을 무작위<br></br>악마로 변신시킵니다.
+저장 위치: 개별 카드 /card/text; cards.json·render.json /cards/153/text; data/history.json /events/2018-08-08/BOT_913/text.
+
+근거: https://github.com/qxwd565/The-Boomsday-Project/blob/134835ecbf1f46e293f00e0a7341aff06504fd0b/cards.json
+https://github.com/qxwd565/The-Boomsday-Project/blob/134835ecbf1f46e293f00e0a7341aff06504fd0b/data/history.json
+
+폭심만만 25. 공식 원문 유래 띄어쓰기 제안 8건 (1/2)
+
+API에서 새로 생긴 한국어 전사 오류는 확정 0건입니다. 아래 8건은 공식 한국어 원문에도 있는 선택적 편집 제안이며, 모두 확신도 높음입니다. 공식 문구 보존을 원하면 현행 유지가 가능합니다. 새 패치일을 만들거나 과거 문구를 소급해서 바꾸라는 뜻은 아닙니다.
+
+• 원소반응(BOT_093), flavor
+현재: "따라하지 말라고!" "뜨르흐즈 믈르그!"
+제안: "따라 하지 말라고!" "뜨르흐즈 믈르그!"
+뒤 문장 뜨르흐즈 믈르그는 흉내 내는 말장난이므로 바꾸지 않는다. 첫 대사의 일반 동사 띄어쓰기만 제안한다.
+저장 위치: cards.json /cards/21/flavor; data/BOT_093.json /card/flavor; data/history.json /events/2018-08-08/BOT_093/flavor.
+근거: https://github.com/HearthSim/hsdata/blob/31b034c26f24b8a66ece845ffd03c1ca397b9a02/CardDefs.xml#L103655-L103729
+https://www.korean.go.kr/front/mcfaq/mcfaqView.do?mcfaq_seq=5811
+
+• 수정대장장이 칸고르(BOT_236), flavor
+현재: 탱커를 하고 싶어하는데 박사 붐이 맨날 힐러만 시킵니다.
+제안: 탱커를 하고 싶어 하는데 박사 붐이 맨날 힐러만 시킵니다.
+탱커를 하고 싶어라는 구 뒤의 하다를 분리한다. 탱커·힐러 같은 게임 용어와 농담은 유지한다.
+저장 위치: cards.json /cards/39/flavor; data/BOT_236.json /card/flavor; data/history.json /events/2018-08-08/BOT_236/flavor.
+근거: https://github.com/HearthSim/hsdata/blob/31b034c26f24b8a66ece845ffd03c1ca397b9a02/CardDefs.xml#L105126-L105205
+https://www.korean.go.kr/front/mcfaq/mcfaqView.do?mcfaq_seq=8967
+
+• 마이라 로트스프링(BOT_243), flavor
+현재: 부임 첫 날, 마이라 로트스프링은 우선 연구실에 있는 화재 경보기를 모두 없앴습니다.
+제안: 부임 첫날, 마이라 로트스프링은 우선 연구실에 있는 화재 경보기를 모두 없앴습니다.
+부임을 시작한 날을 가리키므로 명사 첫날의 표기를 적용한다.
+저장 위치: cards.json /cards/49/flavor; data/BOT_243.json /card/flavor; data/history.json /events/2018-08-08/BOT_243/flavor.
+근거: https://github.com/HearthSim/hsdata/blob/31b034c26f24b8a66ece845ffd03c1ca397b9a02/CardDefs.xml#L105815-L105903
+https://krdict.korean.go.kr/eng/dicSearch/SearchView?ParaWordNo=72056
+
+• 복제의 대가 제레크(BOT_258), flavor
+현재: 원래 이름은 게레크였습니다. 첫 번째 복제품은 네레크였고 그 다음은 데레크였죠. 베레크 때부터 점점 사악해지기 시작했습니다.
+제안: 원래 이름은 게레크였습니다. 첫 번째 복제품은 네레크였고 그다음은 데레크였죠. 베레크 때부터 점점 사악해지기 시작했습니다.
+복제품 순서의 다음 차례를 뜻한다. 게레크·네레크·데레크·베레크의 자음 순서 농담은 그대로 둔다.
+저장 위치: cards.json /cards/56/flavor; data/BOT_258.json /card/flavor; data/history.json /events/2018-08-08/BOT_258/flavor.
+근거: https://github.com/HearthSim/hsdata/blob/31b034c26f24b8a66ece845ffd03c1ca397b9a02/CardDefs.xml#L106459-L106537
+https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=216&pageIndex=1&qna_seq=315218
+
+• 깔깔대는 발명가(BOT_270), flavor
+현재: "난 거대한 황금 사제를 만들거야! 그리고 온 세상에 '감사합니다!'를 외치게 하겠어!"
+제안: "난 거대한 황금 사제를 만들 거야! 그리고 온 세상에 '감사합니다!'를 외치게 하겠어!"
+대사의 구어체 거야를 유지하고 관형사형 만들과 의존 명사 거 사이만 띄운다.
+저장 위치: cards.json /cards/59/flavor; data/BOT_270.json /card/flavor; data/history.json /events/2018-08-08/BOT_270/flavor.
+근거: https://github.com/HearthSim/hsdata/blob/31b034c26f24b8a66ece845ffd03c1ca397b9a02/CardDefs.xml#L106751-L106831
+https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=216&qna_seq=322296
+
+• 복제 장치(BOT_435), text
+현재: 상대편의 덱에서 하수인을 <b>발견</b>해서 복사해옵니다.
+제안: 상대편의 덱에서 하수인을 <b>발견</b>해서 복사해 옵니다.
+파생 동사 복사하다의 활용형 복사해와 오다의 경계를 띄운다. 복사하여 가져오는 카드 효과의 의미·키워드는 바꾸지 않는다.
+저장 위치: cards.json /cards/91/text; render.json /cards/91/text; data/BOT_435.json /card/text; data/history.json /events/2018-08-08/BOT_435/text.
+근거: https://github.com/HearthSim/hsdata/blob/31b034c26f24b8a66ece845ffd03c1ca397b9a02/CardDefs.xml#L109432-L109494
+https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=216&qna_seq=320942
+
+폭심만만 26. 공식 원문 유래 띄어쓰기 제안 8건 (2/2)
+
+API에서 새로 생긴 한국어 전사 오류는 확정 0건입니다. 아래 8건은 공식 한국어 원문에도 있는 선택적 편집 제안이며, 모두 확신도 높음입니다. 공식 문구 보존을 원하면 현행 유지가 가능합니다. 새 패치일을 만들거나 과거 문구를 소급해서 바꾸라는 뜻은 아닙니다.
+
+• 공허 분석가(BOT_443), flavor
+현재: 결론: 아무 것도 없음.
+제안: 결론: 아무것도 없음.
+아무것은 한 단어이며 도는 조사이므로 붙인다.
+저장 위치: cards.json /cards/95/flavor; data/BOT_443.json /card/flavor; data/history.json /events/2018-08-08/BOT_443/flavor.
+근거: https://github.com/HearthSim/hsdata/blob/31b034c26f24b8a66ece845ffd03c1ca397b9a02/CardDefs.xml#L109813-L109885
+https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=216&pageIndex=1&qna_seq=320525
+
+• 성난 먹구름(BOT_533), flavor
+현재: 엘렉트라는 정령들을 구름 속에 숨겨두나보군요.
+제안: 엘렉트라는 정령들을 구름 속에 숨겨두나 보군요.
+숨겨두나의 보조 동사 두다 붙임은 유지하고, 추측의 -나 보다 앞에만 공백 하나를 넣는다.
+저장 위치: cards.json /cards/114/flavor; data/BOT_533.json /card/flavor; data/history.json /events/2018-08-08/BOT_533/flavor.
+근거: https://github.com/HearthSim/hsdata/blob/31b034c26f24b8a66ece845ffd03c1ca397b9a02/CardDefs.xml#L111529-L111601
+https://www.korean.go.kr/front/mcfaq/mcfaqView.do?mcfaq_seq=5892
+
+폭심만만 27. 문법 보류 1건과 이미 정리된 과거 문구
+
+• 보류 후보: 이터늄 부릉이(BOT_059), flavor
+현재: 쀼삡거리고 미소도 짓지만 당신에게는 그저 걸어다니는 방어도일 뿐이겠죠.
+제안 후보: 쀼삡거리고 미소도 짓지만 당신에게는 그저 걸어 다니는 방어도일 뿐이겠죠.
+걷다와 다니다를 각각의 본용언으로 보아 띄어 쓰는 후보다. 쀼삡이라는 효과음과 걸어 다니는 방어도라는 농담은 유지한다.
+확신도 중간: 공식 교재 검색 발췌와 일반 띄어쓰기 원칙에 근거하지만 직접 규범 답변은 확보하지 못했다. 공식 원문 유래이며 API가 만든 오류로 세지 않습니다. 확정 8건에 합산하지 않습니다. 한국 적용일 신설·과거 소급 수정 대상이 아닙니다.
+근거: https://github.com/HearthSim/hsdata/blob/31b034c26f24b8a66ece845ffd03c1ca397b9a02/CardDefs.xml#L102865-L102932
+https://www.korean.go.kr/common/download.do?c_file_name=dbd5ddc6-e808-40e5-95f0-e1a7664664ff_0.pdf&file_path=reportData&o_file_name=%EC%A4%91%EA%B8%89+%ED%95%9C%EA%B5%AD%EC%96%B4+1+%EA%B5%90%EC%9B%90%EC%9A%A9+%EC%A7%80%EC%B9%A8%EC%84%9C.pdf
+
+• 현재 수정 불필요: 자동충돌망치(BOT_406), flavor
+과거 공식 원문: 붐의 운동의 제 2법칙: 세게 때리면 아프다!
+현재 API·현재 원문: 붐의 운동의 제2법칙: 세게 때리면 아프다!
+변경 없음. 현재 API와 저장된 최초 이력도 이미 제2법칙이므로 수정 대상으로 집계하지 않는다. 차례를 나타내는 접두사 제-는 뒤 숫자와 붙인다. 이전 원문의 제 2법칙 표기와 현재 정리된 원문을 구분한다. 확신도 높음. 과거 문구 관측은 25770~31022의 19개 빌드이며 빌드 관측일을 한국 문구 변경일로 바꾸지 않습니다.
+근거: https://github.com/HearthSim/hsdata/blob/48d8f8261c56e0b5109f5e363cd47c000585857f/CardDefs.xml
+https://github.com/HearthSim/hsdata/blob/31b034c26f24b8a66ece845ffd03c1ca397b9a02/CardDefs.xml#L108019-L108092
+https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=216&pageIndex=1&qna_seq=318350
+
+폭심만만 28. 기호·말장난과 현재 유지 항목
+
+아래는 맞춤법 오류로 단정하지 않은 항목입니다. 취향에 따른 문구 교체나 기호 복원은 제안하지 않습니다.
+
+• 폭발 보호막(BOT_238p2), text
+현재 API: 방어도를 7 얻습니다. 매 턴마다 바뀝니다.
+공식 원문: 방어도를 $d7 얻습니다. 매 턴마다 바뀝니다.
+공식 원문의 $d7과 API의 7 차이는 변수·표시 기호 차이다. 한국어 문법 오류로 세지 않으며 이 보고서에서 복원 여부를 결정하지 않는다. 제안: 문법 수정 없음.
+근거: https://github.com/HearthSim/hsdata/blob/31b034c26f24b8a66ece845ffd03c1ca397b9a02/CardDefs.xml#L105561-L105603
+
+• 점성술사(BOT_256), text
+현재 API: <b>전투의 함성</b>: 내 손에 있는 카드 수와 같은 비용의 무작위 하수인을 소환합니다.
+공식 원문: <b>전투의 함성</b>:& 내 손에 있는 카드 수와 같은 비용의 무작위 하수인을 소환합니다.
+공식 원문의 </b>:&와 API의 </b>: 차이는 기호 차이다. 한국어 전사 오류로 세지 않으며 이 보고서에서 렌더링 의미를 단정하지 않는다. 제안: 문법 수정 없음.
+근거: https://github.com/HearthSim/hsdata/blob/31b034c26f24b8a66ece845ffd03c1ca397b9a02/CardDefs.xml#L106283-L106352
+
+• 유지할 의도 표현 BOT_093 / flavor: 뜨르흐즈 믈르그!
+상대의 말을 비틀어 따라 하는 의도적인 대사다. 자모를 교정하지 않는다.
+
+• 유지할 의도 표현 BOT_509 / name/flavor: 듀금의 인도자 / 듀거! 듀거! 듀거!
+공식 고유명사와 말장난이다.
+
+• 유지할 의도 표현 BOT_700 / name/flavor: 7ㅏ-르-7ㅔ / 뭐든 4ㅓ걱4ㅓ걱 갈라버립니다.
+숫자와 한글 자모를 섞은 공식 의도 표기다.
+
+• 유지할 의도 표현 BOT_552 / flavor: 너두 궁수자리야? 어, 나두!
+패러디 대사의 구어적 발음을 유지한다.
+
+• 유지할 의도 표현 BOT_603 / flavor: 대체 왜 때문에?!
+일부러 어긋난 인터넷식 표현으로 판단해 문법 오류로 세지 않는다.
+
+• 유지할 의도 표현 BOT_540 / flavor: ¿Quién es Sombra?
+공식 외국어 플레이버를 한국어로 고치지 않는다.
+
+• 유지할 의도 표현 BOT_083 / flavor: 이중전공
+전문 용어의 단위별 붙임을 오자로 단정하지 않는다.
+
+• 유지할 의도 표현 BOT_238p1/BOT_238p2/BOT_238p3/BOT_238p4/BOT_238p6 / text: 매 턴마다
+반복적으로 보일 수 있지만 문법 오류로 확정하지 않으며 공식 표현을 취향으로 바꾸지 않는다.
+
+폭심만만 29. 과거 전용 문구와 판정 범위
+
+• 무모한 실험가(BOT_566), 한국 2019-06-04에 저장된 과거 전용 text:
+내가 내는 <b>죽음의 메아리</b> 하수인들의 비용이 (3) 감소하지만 턴이 끝날 때 죽습니다. <i>(비용은 1보다 낮아지지 않습니다.)</i>
+
+현재 문구와 달리 “비용은 1보다 낮아지지 않습니다.”라는 당시 제한이 들어 있습니다. 저장된 이 과거 문구는 줄바꿈 오류 0개, 별도 문법 오류 0건입니다. 현재 효과에 맞춘다는 이유로 지우지 않습니다. 2020-03-27 제한 제거와 구분하며 날짜·밸런스 명단에 그 변화가 이미 포함돼 있습니다.
+근거: https://github.com/qxwd565/The-Boomsday-Project/blob/134835ecbf1f46e293f00e0a7341aff06504fd0b/data/history.json#L1
+
+문법 대조에서는 저장된 이름·효과·플레이버 466개 서로 다른 값과 1,707개 표시 필드, 보조 라벨 7,516개를 확인했습니다. 246개 아카이브의 같은 ID·DBF 원문에서 서로 다른 538개 이름·효과·플레이버 값을 검토했습니다. 현재와 정규화 후 다른 과거 원문 73개는 그 차이만으로 문법 오류로 세지 않았습니다. 숫자·효과·키워드·줄 배치 변화와 문법을 구분했습니다.
+
+줄바꿈에서는 이름·효과·플레이버뿐 아니라 전체 디코딩 문자열 15,079개를 훑었습니다. 실제 LF 외 CRLF·CR, 문자 그대로의 역슬래시 n/r, 잘못된 br 태그, U+0085/U+2028/U+2029는 이 표시 필드에서 문제로 잡히지 않았습니다. JSON 파일을 읽기 좋게 나눈 물리적 줄바꿈이나 출처 URL은 카드 표시용 LF 건수에 포함하지 않았습니다.
+
+동일 이름의 다른 ID나 다른 모드를 자동 합치지 않았습니다. 2단 합체 질리악스 3000·전장 모듈, 푸르딩딩한 플룹의 전장 전용 자료, 핵심판만의 변경을 원본 폭심만만 카드에 자동 적용하지 않았습니다. 위즈뱅의 통상적인 견본 덱 갱신 전체를 일일 사건으로 만들지 않고, 공식적으로 명시된 임시 교체·복원만 별도 규칙 명단에 적었습니다.
+
+폭심만만 30. 스키마 원인 5종과 전체 적용 원칙
+
+스키마 검토도 수정 없이 명단과 제안만 남깁니다. 구조 문제 3종, 발행 연결 1종, 속성 추가·제거 계약 한계 1종으로 구분합니다. 같은 카드가 여러 원인에 해당해도 카드 수를 합산하지 않습니다. 새 게임플레이 오류는 0건이며, 앞서 적은 날짜·밸런스 오류는 별도로 유지됩니다.
+
+1. 개별 카드 155개 모두 최상위가 schemaVersion / mode / card / artworkProvenance인 현재 스냅샷입니다. 제안은 각 카드 파일의 최상위를 한국 YYYY-MM-DD 날짜로 두고, 최초 날짜에는 당시 전체 스펙, 후속 날짜에는 실제 변경된 필드만 두는 형식입니다. 확정된 요구 형식 차이입니다.
+
+중앙 data/history.json에는 최초 155행과 후속 51행이 이미 있습니다. 이력이 통째로 없다는 뜻은 아닙니다. 최초행은 154장 한국 2018-08-08, 7ㅏ-르-7ㅔ(BOT_700)는 2019-06-04입니다. 현재 스냅샷을 출시일 아래로 옮기기만 하면 안 됩니다. 앞의 최초값 21장·누락 23건·날짜 오류 5건을 먼저 반영하고, ID·DBF·원시 태그·원화 출처를 보존해야 합니다.
+
+2. 현재 155장에 타입에 적용되지 않는 0 수치 414필드와 빈 선택 속성 221필드가 있습니다. 제안은 날짜별 원본 데이터에서 해당 키를 생략하는 것입니다. 같은 카드·필드가 개별 파일·최초행·호환 출력에 반복되는 횟수를 합산한 수가 아닙니다. 다음 타입별 전체 명단에 각 그룹의 현재값과 제안값을 적습니다.
+
+3. 듀금의 인도자(BOT_509)의 후속 nativeTags 1필드가 현재 저장 자료 기준 직전과 같습니다. 다만 초기 이력을 바로잡으면 필요한 변경이 될 수 있어 조건부 재비교 대상입니다.
+
+4. 중앙 날짜 이력을 기존 발행 경로에 전달하는 연결이 없습니다. 저장소 정적 연결 차이는 확정이지만 설치된 앱의 실제 실패는 확인하지 않았습니다.
+
+5. 속성 추가·제거, null과 부재의 구별이 계약에 정해져 있지 않습니다. 현재 저장된 206개 상태에서 재생 실패가 관측된 항목은 아닙니다.
+
+수치 0, false, 빈 설명을 모두 지우는 제안이 아닙니다. 기존 cards.json·render.json·history.json 호환 출력, raw nativeTags와 날짜형 원본의 역할을 분리해야 합니다. 현재 목록에 없는 LOCATION·ENCHANTMENT 등 다른 타입까지 같은 규칙을 확장하지 않습니다.
+근거: https://github.com/qxwd565/The-Boomsday-Project/blob/134835ecbf1f46e293f00e0a7341aff06504fd0b/data/history.json
+https://github.com/qxwd565/The-Boomsday-Project/blob/134835ecbf1f46e293f00e0a7341aff06504fd0b/data/BOT_020.json
+https://github.com/qxwd565/The-Boomsday-Project/blob/134835ecbf1f46e293f00e0a7341aff06504fd0b/tools/build-api.py#L2-L19
+
+폭심만만 31. 형식·타입별 전체 155장 명단 (1/2)
+
+아래 155장 모두 개별 파일의 날짜 최상위 형식 제안 대상이며, 타입별 비적용 필드 제안도 함께 표시합니다. 확신도는 현재 이 5개 타입 범위에서 확정입니다. 공통 원인을 카드마다 새 오류로 세지 않습니다.
+
+• 하수인(MINION) 99장
+현재: durability=0, armor=0; spellSchool="".
+제안: 위 키들을 날짜별 원본 데이터에서 생략합니다. 수치 198필드·빈 선택 속성 99필드입니다.
+스케이트로봇(BOT_020), 청동 문지기(BOT_021), 고블린 폭탄(BOT_031), 폭발광 플라크(BOT_034), 맹독로봇(BOT_035), 폭죽 기술자(BOT_038), 강령기계공(BOT_039), 녹슨 청소부(BOT_050), 이터늄 부릉이(BOT_059), 기계 새끼용(BOT_066), 기계용(BOT_066t), 충직한 초롱이(BOT_079), 맹독학자(BOT_083), 동력 끊긴 투사(BOT_098), 불꽃 드릴(BOT_102), 불꽃(BOT_102t), 별관찰자 루나(BOT_103), 폭격로봇(BOT_104), 미사일 발사기(BOT_107), 오메가 의무병(BOT_216), 순찰용 부릉이(BOT_218), 경비로봇(BOT_218t), 복제하는 임프(BOT_224), 황천영혼 포병(BOT_226), 수정대장장이 칸고르(BOT_236), 베릴륨 마력제거기(BOT_237), 마이라 로트스프링(BOT_243), 거미 폭탄(BOT_251), 점성술사(BOT_256), 복제의 대가 제레크(BOT_258), 누군가 조종하는 수확기(BOT_267), 깔깔대는 발명가(BOT_270), 안녕로봇(BOT_270t), 홀로그램 기술자(BOT_280), 토깽이 콩콩(BOT_283), 피험자 모집가(BOT_288), 폭풍 추적자(BOT_291), 오메가 수호자(BOT_296), 용수철 로켓(BOT_308), 업그레이드용 로봇(BOT_309), 증식하는 위협(BOT_312), 초소형 로봇(BOT_312t), 무장한 종이박(BOT_401), 천둥불꽃(BOT_407), 엘렉트라 스톰서지(BOT_411), 폭풍머리 과학자(BOT_413), 장막비늘 약제사(BOT_414), 수목학자(BOT_419), 나무를 가꾸는 타우렌(BOT_422), 꿈결꽃잎 원예가(BOT_423), 메카툰(BOT_424), 빙글라이더(BOT_431), 박사 모리건(BOT_433), 푸르딩딩한 플룹(BOT_434), 공허 분석가(BOT_443), 캥거루로봇(BOT_445), 새끼 캥거루로봇(BOT_445t), 수정 연구원(BOT_447), 손상된 스테고트론(BOT_448), 수액 살포자(BOT_507), 듀금의 인도자(BOT_509), 시포리움 폭격수(BOT_511), 우걱전차(BOT_523), 별빛 사절(BOT_531), 폭발 전문가(BOT_532), 성난 먹구름(BOT_533), 뿔도저(BOT_534), 초소형 로봇 조종사(BOT_535), 오메가 요원(BOT_536), 기계 알(BOT_537), 공룡로봇(BOT_537t), 불꽃 엔진(BOT_538), 비전 발전기(BOT_539), E.M.P. 비밀요원(BOT_540), 오메가 의식(BOT_543), 풀려난 표본(BOT_544), 질리악스(BOT_548), 전기장인(BOT_550), 천체 관측자(BOT_552), 선구자 셀레스티아(BOT_555), 실험체(BOT_558), 향상된 엘레크(BOT_559), 구리꼬리 다람쥐로봇(BOT_562), 전투 기계(BOT_563), 역병분무기(BOT_565), 방사능 수액(BOT_565t), 무모한 실험가(BOT_566), 실험체 9호(BOT_573), 미쳐버린 화학자(BOT_576), 기상학자(BOT_601), 강철 광전사(BOT_603), 우주 변형물(BOT_604), 콰광로봇(BOT_606), 7ㅏ-르-7ㅔ(BOT_700), 발광로봇(BOT_906), 전류 공급기(BOT_907), 발광석 기술병(BOT_910), 안녕모듈(BOT_911), 위대한 위즈뱅 님(BOT_914)
+
+근거: https://github.com/qxwd565/The-Boomsday-Project/blob/134835ecbf1f46e293f00e0a7341aff06504fd0b/cards.json
+https://github.com/qxwd565/The-Boomsday-Project/blob/134835ecbf1f46e293f00e0a7341aff06504fd0b/data/history.json
+
+폭심만만 32. 형식·타입별 전체 155장 명단 (2/2)
+
+아래 155장 모두 개별 파일의 날짜 최상위 형식 제안 대상이며, 타입별 비적용 필드 제안도 함께 표시합니다. 확신도는 현재 이 5개 타입 범위에서 확정입니다. 공통 원인을 카드마다 새 오류로 세지 않습니다.
+
+• 주문(SPELL) 46장
+현재: attack=0, health=0, durability=0, armor=0; races=[], race="".
+제안: 위 키들을 날짜별 원본 데이터에서 생략합니다. 수치 184필드·빈 선택 속성 92필드입니다.
+폭탄 던지기(BOT_033), 무기 프로젝트(BOT_042), 생물학 프로젝트(BOT_054), 로켓 장화(BOT_067), 붐지옥함선(BOT_069), 보랏빛 연무(BOT_084), 학술적 첩보(BOT_087), 원소반응(BOT_093), 유레카!(BOT_099), 천공의 균열(BOT_101), 여분 팔(BOT_219), 더 많은 팔!(BOT_219t), 영혼 폭탄(BOT_222), 축소 광선(BOT_234), 마이라의 불안정한 원소(BOT_242), 폭풍 인도기(BOT_245), 비커에 담긴 번개(BOT_246), 뜻밖의 결과(BOT_254), 루나의 휴대용 우주(BOT_257), 영혼 주입(BOT_263), 오메가 조립 시설(BOT_299), 비밀 작전(BOT_402), 먹음직스러운 덥석멜론(BOT_404), 조경 작업(BOT_420), 오래된 나무(BOT_422a), 새로운 나무(BOT_422b), 플라크의 붐주카포(BOT_429), 복제 장치(BOT_435), 분광 렌즈(BOT_436), 고블린의 장난(BOT_437), 사이버공학 칩(BOT_438), 플룹의 수상망측한 수액(BOT_444), 볼타 폭발(BOT_451), 별불꽃(BOT_453), 네크리움 약병(BOT_508), 폭탄(BOT_511t), 발라당(BOT_517), 심령술(BOT_521), 신의 권능: 복제(BOT_529), 제레크의 복제품 전시관(BOT_567), 영혼관(BOT_568), 연구 프로젝트(BOT_600), 자동 방어 매트릭스(BOT_908), 수정학(BOT_909), 칸고르의 끝없는 군대(BOT_912), 악마학 프로젝트(BOT_913)
+
+• 무기(WEAPON) 3장
+현재: health=0, armor=0; spellSchool="", races=[], race="".
+제안: 위 키들을 날짜별 원본 데이터에서 생략합니다. 수치 6필드·빈 선택 속성 9필드입니다.
+톱니검(BOT_042t), 네크리움 단검(BOT_286), 자동충돌망치(BOT_406)
+
+• 영웅(HERO) 1장
+현재: attack=0, durability=0; spellSchool="", races=[], race="".
+제안: 위 키들을 날짜별 원본 데이터에서 생략합니다. 수치 2필드·빈 선택 속성 3필드입니다.
+정신 나간 천재 박사 붐(BOT_238)
+
+• 영웅 능력(HERO_POWER) 6장
+현재: attack=0, health=0, durability=0, armor=0; spellSchool="", races=[], race="".
+제안: 위 키들을 날짜별 원본 데이터에서 생략합니다. 수치 24필드·빈 선택 속성 18필드입니다.
+커다란 빨간색 버튼(BOT_238p), 광선포(BOT_238p1), 폭발 보호막(BOT_238p2), 콰앙!(BOT_238p3), 지원 병력 투하(BOT_238p4), 초소형 분대(BOT_238p6)
+
+근거: https://github.com/qxwd565/The-Boomsday-Project/blob/134835ecbf1f46e293f00e0a7341aff06504fd0b/cards.json
+https://github.com/qxwd565/The-Boomsday-Project/blob/134835ecbf1f46e293f00e0a7341aff06504fd0b/data/history.json
