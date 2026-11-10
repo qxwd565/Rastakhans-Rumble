@@ -42,31 +42,6 @@ def raw_value_map(role):
     return {str(k):(str(v["value"]) if v.get("valueAttributePresent") else None)
             for k,v in role.items() if v.get("present")}
 
-def replay_raw_evidence(initial,raw_transitions,ref_transitions,current):
-    state={"owned":{cid:raw_value_map(x["owned"]) for cid,x in initial.items()},
-           "referenced":{cid:raw_value_map(x["referenced"]) for cid,x in initial.items()}}
-    timeline=[]
-    for row in raw_transitions:
-        timeline.append((int(row["build"]),0,row["id"],row["rawDiff"],"owned"))
-    for group in ref_transitions:
-        for row in group.get("changes",[]):
-            timeline.append((int(group["build"]),1,row["id"],row["diff"],"referenced"))
-    for build,_,cid,diff,role in sorted(timeline,key=lambda x:(x[0],x[1],x[2])):
-        values=state[role][cid]
-        for tag_id,(before,after) in diff.items():
-            tag_id=str(tag_id)
-            actual=values.get(tag_id,"ABSENT")
-            if actual!=before:
-                raise ValueError(f"{cid}: raw {role} Tag {tag_id} build {build}: expected before={before}, got={actual}")
-            if after=="ABSENT": values.pop(tag_id,None)
-            else: values[tag_id]=str(after)
-    for cid in initial:
-        if state["owned"][cid]!=raw_value_map(current_raw_placeholder[cid]["owned"]):
-            raise ValueError(f"{cid}: archive owned-role transitions do not reproduce current XML")
-        if state["referenced"][cid]!=raw_value_map(current_raw_placeholder[cid]["referenced"]):
-            raise ValueError(f"{cid}: archive referenced-role transitions do not reproduce current XML")
-    return state
-
 def read(p): return json.loads(p.read_text(encoding="utf-8"))
 def write(p,o): p.write_text(json.dumps(o,ensure_ascii=False,indent=2)+"\n",encoding="utf-8",newline="\n")
 
@@ -133,7 +108,7 @@ def replay_raw_evidence(initial,raw_transitions,ref_transitions):
     for cid in initial:
         if state["owned"][cid]!=raw_value_map(current[cid]["owned"]):
             raise ValueError(f"{cid}: archive owned-role transitions do not reproduce current XML")
-        if state["referenced"][cid]!=raw_value_map(current_raw_placeholder[cid]["referenced"]):
+        if state["referenced"][cid]!=raw_value_map(current[cid]["referenced"]):
             raise ValueError(f"{cid}: archive referenced-role transitions do not reproduce current XML")
     return state
 
@@ -155,7 +130,6 @@ def main():
             raise ValueError(f"{cid}: 217489/217964 immutable DBF mismatch")
     raw_transitions=archive.get("observedRawTransitionReview",[])
     ref_transitions=archive.get("observedReferencedTagTransitions",[])
-    replay_raw_evidence(initial,raw_transitions,ref_transitions,current)
     # The immutable audit review contains every own/reference role transition
     # from launch to current. Only explicitly classified gameplay/32.0 events
     # receive a Korean date; all other observations stay undated.
@@ -184,7 +158,7 @@ def main():
         raise ValueError("Expected 15 separately preserved undated ReferencedTag transitions")
     # Verify all 106 own and 15 referenced transitions, including undated
     # bookkeeping, reproduce the immutable current XML role maps.
-    replay_raw_evidence(initial,raw_transitions,ref_transitions)
+    replay_raw_evidence(initial,raw_transitions,ref_transitions,current)
     # Build the exact per-card schema omission manifest from the 164-card audit list.
     schema_cards=[]
     for card in cards:
@@ -258,7 +232,7 @@ def main():
         meta["launchStringTags"]=copy.deepcopy(initial[cid]["stringTags"])
         meta["currentStringTags"]=copy.deepcopy(current[cid]["stringTags"])
         meta["undatedRawTagTransitions"]=copy.deepcopy(undated_by_card.get(cid,[]))
-        meta["undatedReferencedTagTransitions"]=[copy.deepcopy(x) for group in ref_transitions
+        meta["undatedReferencedTagTransitions"]=[{**copy.deepcopy(x),"build":group["build"]} for group in ref_transitions
             for x in group.get("changes",[]) if x.get("id")==cid]
         # Tag 184 is the printed description; Tag 185 is only the card name.
         # Preserve tag/locale absence separately from a present empty string.
@@ -282,7 +256,8 @@ def main():
             if "nativeTagRolesDelta" in event and event["nativeTagRolesDelta"]!=delta:
                 raise ValueError(f"{cid}/{day}: pre-existing nativeTagRolesDelta conflicts with immutable raw evidence")
             event["nativeTagRolesDelta"]=delta
-            source=event.setdefault("source",{})
+            if not isinstance(event.get("source"),dict): event["source"]={}
+            source=event["source"]
             source["rawRoleEvidence"]={"build":row["build"],"decision":row["decision"],
                 "findingIds":copy.deepcopy(row.get("relatedFindings",[])),"sourceURL":row.get("sourceURL")}
         # Replay dated logical deltas to capture any remaining current-vs-dated
