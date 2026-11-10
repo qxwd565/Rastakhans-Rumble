@@ -93,6 +93,16 @@ class RastakhansHistoryTests(unittest.TestCase):
         self.assertEqual(len(dated),1)
         self.assertEqual((dated[0]["date"],dated[0]["build"],dated[0]["tagId"]),("2026-03-11",237510,184))
         before=dated[0]["before"]; after=dated[0]["after"]
+        launch=self.cards["TRL_900"]["_meta"]["launchStringTags"]["184"]
+        prepatch=self.cards["TRL_900"]["_meta"]["halazziPrePatchStringTagSnapshot"]
+        self.assertEqual(before,prepatch)
+        self.assertEqual(prepatch["locales"]["koKR"],launch["locales"]["koKR"])
+        self.assertEqual(prepatch["locales"]["enUS"],launch["locales"]["enUS"])
+        undated=self.cards["TRL_900"]["_meta"]["undatedStringTagObservations"]
+        self.assertEqual({x["locale"] for x in undated[0]["differences"]},{"thTH","zhCN"})
+        self.assertIsNone(undated[0]["differences"][0]["date"])
+        self.assertEqual(prepatch["locales"]["thTH"]["value"],"<b>คำรามสู้ศึก:</b> เพิ่มแมวป่า_1/1_ที่มี <b>จู่โจม</b>_จนเต็มมือคุณ")
+        self.assertEqual(prepatch["locales"]["zhCN"]["value"],"<b>战吼：</b>用1/1并具有\\n<b>突袭</b>的山猫填满你的手牌。")
         self.assertEqual(before["type"],"LocString")
         self.assertFalse(before["valueAttributePresent"])
         self.assertEqual(before["locales"]["koKR"]["value"],"<b>전투의_함성:</b> 내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다.")
