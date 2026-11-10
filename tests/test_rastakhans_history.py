@@ -103,7 +103,7 @@ class RastakhansHistoryTests(unittest.TestCase):
 
     def test_all_dated_raw_role_events(self):
         events=[(cid,day,row) for cid,doc in self.cards.items()
-                for day,row in doc.items() if re.fullmatch(r"\\d{4}-\\d{2}-\\d{2}",day)
+                for day,row in doc.items() if re.fullmatch(r"\d{4}-\d{2}-\d{2}",day)
                 and "nativeTagRolesDelta" in row]
         self.assertEqual(len(events),51)
         self.assertEqual(self.cards["TRL_060"]["2022-11-30"]["nativeTagRolesDelta"]["owned"]["set"],{"200":"11","2542":"1"})
@@ -112,7 +112,7 @@ class RastakhansHistoryTests(unittest.TestCase):
         self.assertEqual(self.cards["TRL_124"]["2020-03-18"]["nativeTagRolesDelta"]["owned"]["set"],{"48":"3"})
         self.assertEqual(self.cards["TRL_252"]["2022-04-06"]["nativeTagRolesDelta"]["owned"]["set"],{"45":"5"})
         self.assertEqual(self.cards["TRL_501"]["2024-10-30"]["nativeTagRolesDelta"]["owned"]["set"],{"2525":"1"})
-        self.assertEqual(self.cards["TRL_060"]["_meta"]["launchPrintedText"]["koKR"],"1턴 동안 <b>은신</b>을 얻습니다.\\n내가 주문을 시전할 때마다 내 덱에서 그 주문보다 비용이 (1) 높은 주문을 뽑습니다.")
+        self.assertEqual(self.cards["TRL_060"]["_meta"]["launchPrintedText"]["koKR"],"1턴 동안 <b>은신</b>을 얻습니다.\n내가 주문을 시전할 때마다 내 덱에서 그 주문보다 비용이 (1) 높은 주문을 뽑습니다.")
 
     def test_s002_type_inapplicable_fields_are_absent_only_from_history(self):
         self.assertEqual(self.schema["numericFieldCount"],406)
@@ -120,7 +120,7 @@ class RastakhansHistoryTests(unittest.TestCase):
         self.assertEqual(len(self.schema["cards"]),164)
         for row in self.schema["cards"]:
             src=self.cards[row["id"]]
-            for day in [k for k in src if re.fullmatch(r"\\d{4}-\\d{2}-\\d{2}",k)]:
+            for day in [k for k in src if re.fullmatch(r"\d{4}-\d{2}-\d{2}",k)]:
                 for field in list(row["omitNumeric"])+list(row["omitChoice"]):
                     self.assertNotIn(field,src[day],(row["id"],day,field))
             for field in row["omitNumeric"]:
