@@ -90,12 +90,33 @@ def main():
         meta["currentPrintedText"]={
             "koKR":current[cid]["stringTags"].get("185",{}).get("locales",{}).get("koKR",{}).get("value"),
             "enUS":current[cid]["stringTags"].get("185",{}).get("locales",{}).get("enUS",{}).get("value")}
+        # Replay dated logical deltas to capture any remaining current-vs-dated
+        # differences as explicitly undated observations, never as invented dates.
+        dates=sorted(k for k in src if len(k)==10 and k[4]=="-" and k[7]=="-")
+        replay_state=copy.deepcopy(src[dates[0]])
+        for day in dates[1:]:
+            ev=src[day]
+            for field,value in ev.items():
+                if field in ("nativeTagRolesDelta","source","confidence"): continue
+                if field=="removedFields":
+                    for removed in value: replay_state.pop(removed,None)
+                else: replay_state[field]=copy.deepcopy(value)
+        undated=[]
+        for field in sorted(set(replay_state)|set(src["_current"])):
+            before_value=replay_state.get(field,"ABSENT")
+            after_value=src["_current"].get(field,"ABSENT")
+            if before_value!=after_value:
+                undated.append({"field":field,"before":copy.deepcopy(before_value),
+                                "after":copy.deepcopy(after_value),"date":None})
+        meta["undatedCurrentDifferences"]=undated
         if cid in WEAPONS:
             old=before[cid]; new=after[cid]; n=str(WEAPONS[cid])
             if old["owned"].get("187",{}).get("value")!=n or old["owned"].get("45",{}).get("present") is True:
                 raise ValueError(f"{cid}: 217489 weapon raw state mismatch")
             if new["owned"].get("187",{}).get("present") is True or new["owned"].get("45",{}).get("value")!=n:
                 raise ValueError(f"{cid}: 217964 weapon raw state mismatch")
+            if current[cid]["owned"]!=new["owned"] or current[cid]["referenced"]!=new["referenced"]:
+                raise ValueError(f"{cid}: post-32.0 weapon raw roles changed again; do not absorb into 2025 event")
             if WEAPONS[cid] != int(n): raise ValueError(f"{cid}: durability changed")
             meta["weaponDurabilityTagMigrationEvidence"]={
                 "date":"2025-03-19","beforeBuild":217489,"afterBuild":217964,
