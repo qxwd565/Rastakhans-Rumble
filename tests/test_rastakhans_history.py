@@ -97,8 +97,8 @@ class RastakhansHistoryTests(unittest.TestCase):
         self.assertFalse(before["valueAttributePresent"])
         self.assertEqual(before["locales"]["koKR"]["value"],"<b>전투의_함성:</b> 내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다.")
         self.assertEqual(before["locales"]["enUS"]["value"],"<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.")
-        self.assertEqual(after["locales"]["koKR"]["value"],"<b>속공</b>, <b>전투의_함성:</b>\\n내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다.")
-        self.assertEqual(after["locales"]["enUS"]["value"],"<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\\nthat have <b>Rush</b>.")
+        self.assertEqual(after["locales"]["koKR"]["value"],"<b>속공</b>, <b>전투의_함성:</b>\n내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다.")
+        self.assertEqual(after["locales"]["enUS"]["value"],"<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.")
         self.assertIn("&",self.cards["TRL_900"]["_meta"]["currentStringTags"]["184"]["locales"]["koKR"]["value"])
         self.assertNotIn("&",after["locales"]["koKR"]["value"])
 
