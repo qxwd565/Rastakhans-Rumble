@@ -134,7 +134,7 @@ def main():
         assert rc["nativeStringTags"]["launch"]==meta["launchStringTags"]
         assert rc["nativeStringTags"]["current"]==meta["currentStringTags"]
     assert len(all_dates)>=10
-    assert len(central["events"]["2022-11-30"])==16
+    assert len(central["events"]["2022-11-30"])==17  # 16 corrected existing rows + missing TRL_311
     assert len(central["events"]["2025-03-19"])==7
     assert len(central["events"]["2026-03-11"])>=1
 
