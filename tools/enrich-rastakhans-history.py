@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Enrich canonical card sources with immutable raw Tag/ReferencedTag and strings."""
 from __future__ import annotations
-import copy,hashlib,json,xml.etree.ElementTree as ET
+import copy,hashlib,json,xml.etree.ElementTree as ET,os
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"data"
+XML_DIR=Path(os.environ.get("RASTAKHANS_XML_DIR",str(ROOT/"sources")))
 LOCALES=("deDE","enUS","esES","esMX","frFR","itIT","jaJP","koKR","plPL","ptBR","ruRU","thTH","zhCN","zhTW")
 WEAPONS={"TRL_074":3,"TRL_111":2,"TRL_304":3,"TRL_325":4,"TRL_352":3,"TRL_360":4,"TRL_543":2}
 
@@ -62,10 +63,10 @@ def main():
     manifest={int(x["build"]):x for x in archive["archiveManifest"]}
     cards=read(ROOT/"cards.json")["cards"]
     ids={c["id"] for c in cards}
-    initial=extract_xml(ROOT/"sources"/"xml-27845.xml",manifest[27845]["xmlSha256"],164,ids)
-    current=extract_xml(ROOT/"sources"/"xml-256589.xml",manifest[256589]["xmlSha256"],164,ids)
-    before=extract_xml(ROOT/"sources"/"xml-217489.xml",manifest[217489]["xmlSha256"],len(WEAPONS),set(WEAPONS))
-    after=extract_xml(ROOT/"sources"/"xml-217964.xml",manifest[217964]["xmlSha256"],len(WEAPONS),set(WEAPONS))
+    initial=extract_xml(XML_DIR/"xml-27845.xml",manifest[27845]["xmlSha256"],164,ids)
+    current=extract_xml(XML_DIR/"xml-256589.xml",manifest[256589]["xmlSha256"],164,ids)
+    before=extract_xml(XML_DIR/"xml-217489.xml",manifest[217489]["xmlSha256"],len(WEAPONS),set(WEAPONS))
+    after=extract_xml(XML_DIR/"xml-217964.xml",manifest[217964]["xmlSha256"],len(WEAPONS),set(WEAPONS))
     raw_transitions=archive.get("observedRawTransitionReview",[])
     ref_transitions=archive.get("observedReferencedTagTransitions",[])
     updated=0
