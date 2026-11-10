@@ -164,6 +164,11 @@ def main():
     assert len(manifest)==238 and ev["summaryCounts"]["originalCardObservations"]==39032
     catalog=read(ROOT/"cards.json"); render=read(ROOT/"render.json"); legacy=read(ROOT/"history.json")
     central=read(DATA/"history.json")
+    schema_manifest=read(ROOT/"sources"/"rast-schema-s002.json")
+    dated_role_rows=expected_dated_role_rows(ev)
+    assert len(dated_role_rows)==51
+    assert schema_manifest["schema"]=="RAST-SCHEMA-S002"
+    assert schema_manifest["numericFieldCount"]==406 and schema_manifest["emptyChoiceFieldCount"]==220
     cards={x["id"]:x for x in catalog["cards"]}
     for cid in ids:
         assert before_xml[cid]["dbfId"]==cards[cid]["dbfId"]
@@ -178,19 +183,25 @@ def main():
     all_dates=set()
     raw_role_event_count=0
     logical_replay_checks=0
+    reverse_checks=0
     undated_checks=0
     for cid,src in source_docs.items():
         assert src["schemaVersion"]==2 and src["_meta"]["timezone"]=="Asia/Seoul"
-        dates,state=replay(src)
+        meta=src["_meta"]
+        dates,state,snapshots=replay(src)
         assert dates[0]=="2018-12-05" and dates==sorted(dates)
         assert len(dates)==1+sum(1 for d in dates[1:])
         assert state["id"]==cid and state["dbfId"]==cards[cid]["dbfId"]
+        schema_fields=set(meta.get("schemaNormalization",{}).get("removedFields",[]))
         for field in SPEC:
             actual=state.get(field,"ABSENT"); expected=src["_current"].get(field,"ABSENT")
             if actual!=expected:
-                obs=[x for x in src["_meta"].get("undatedCurrentDifferences",[]) if x["field"]==field and x["date"] is None]
-                assert len(obs)==1 and obs[0]["before"]==actual and obs[0]["after"]==expected,(cid,field,actual,expected)
-                undated_checks+=1
+                if field in schema_fields:
+                    assert actual=="ABSENT" and expected==0 or (actual=="ABSENT" and expected=="" ) or (actual=="ABSENT" and expected==[]),(cid,field,actual,expected,"S002")
+                else:
+                    obs=[x for x in meta.get("undatedCurrentDifferences",[]) if x["field"]==field and x["date"] is None]
+                    assert len(obs)==1 and obs[0]["before"]==actual and obs[0]["after"]==expected,(cid,field,actual,expected)
+                    undated_checks+=1
             else:logical_replay_checks+=1
         for day in dates:
             all_dates.add(day)
@@ -200,9 +211,57 @@ def main():
                 assert central["events"].get(day,{}).get(cid)==evrow,(cid,day,"central differs from canonical")
         assert cards[cid]==src["_current"],(cid,"cards current != canonical _current")
         rc=renders[cid]
+        schema_row=next(x for x in schema_manifest["cards"] if x["id"]==cid)
+        assert schema_row["type"]==src["_current"]["type"]
+        expected_omit={}
+        for field,value in schema_row["omitNumeric"].items():expected_omit[field]=0
+        for field,value in schema_row["omitChoice"].items():expected_omit[field]=[] if value=="[]" else ""
+        assert set(meta["schemaNormalization"]["removedFields"])==set(expected_omit)
+        for day in dates:
+            for field in expected_omit:
+                assert field not in snapshots[day],(cid,day,field,"S002 field remains in canonical state")
+        for field,value in expected_omit.items():
+            assert src["_current"].get(field,"ABSENT")==value,(cid,field,"current compatibility value")
+            assert cards[cid].get(field,"ABSENT")==value
+            assert rc.get(field,"ABSENT")==value
+        # Date-first role deltas are independently derived from immutable audit rawDiff.
+        expected_card_deltas={}
+        for (row_id,day),row in dated_role_rows.items():
+            if row_id==cid:expected_card_deltas[day]=make_role_delta(row["rawDiff"])
+        actual_card_deltas={day:src[day]["nativeTagRolesDelta"] for day in dates if "nativeTagRolesDelta" in src[day]}
+        assert actual_card_deltas==expected_card_deltas,(cid,"canonical dated raw-role deltas")
+        public_role_changes=rc["nativeTagRoles"]["datedChanges"]
+        assert public_role_changes==[{"date":day,"delta":expected_card_deltas[day]} for day in sorted(expected_card_deltas)]
+        assert rc["nativeTagRoles"]["undatedOwnedTransitions"]==meta["undatedRawTagTransitions"]
+        assert rc["nativeTagRoles"]["undatedReferencedTransitions"]==meta["undatedReferencedTagTransitions"]
+        # Replay own/reference maps through each of this card's 215 date segments.
+        own_state=role_values(launch_xml[cid]["owned"])
+        ref_state=role_values(launch_xml[cid]["referenced"])
+        for day in dates:
+            row=dated_role_rows.get((cid,day))
+            if row:
+                for tag_id,(before,after) in row["rawDiff"].items():
+                    assert own_state.get(str(tag_id),"ABSENT")==before,(cid,day,tag_id,"independent raw before")
+                    if after=="ABSENT":own_state.pop(str(tag_id),None)
+                    else:own_state[str(tag_id)]=str(after)
+            assert role_values(launch_xml[cid]["owned"]) is not None
+            # The canonical event replay must equal the independently sourced role state.
+            canonical_role_state=role_values(launch_xml[cid]["owned"])
+            for prior_day in dates:
+                if prior_day>day:break
+                delta=src[prior_day].get("nativeTagRolesDelta")
+                if delta:apply_role_delta(canonical_role_state,delta["owned"])
+            assert canonical_role_state==own_state,(cid,day,"dated owned-role replay")
+            assert ref_state==role_values(launch_xml[cid]["referenced"]),(cid,day,"dated referenced-role replay")
+        # Tag 184, not Tag 185, supplies printed descriptions; absence != empty.
+        def printed(xml):
+            tag=xml["stringTags"].get("184"); locales=tag.get("locales",{}) if tag else {}
+            return {"tagId":184,"present":tag is not None,"koKR":locales.get("koKR",{}).get("value"),
+                "enUS":locales.get("enUS",{}).get("value"),"koKRPresent":"koKR" in locales,"enUSPresent":"enUS" in locales}
+        assert meta["launchPrintedText"]==printed(launch_xml[cid])
+        assert meta["currentPrintedText"]==printed(current_xml[cid])
         for field in ("id","dbfId","name","type","cardClass","rarity","collectible","cost","text","attack","health","durability","armor","art","races","race","spellSchool","set","nativeTags","mechanics","watermark","classes"):
             if field in src["_current"]:assert rc.get(field)==src["_current"][field],(cid,field,"render current")
-        meta=src["_meta"]
         baseline_raw=subprocess.check_output(["git","show",f"{BASE}:data/{cid}.json"],cwd=ROOT)
         baseline_doc=json.loads(baseline_raw)
         assert meta["originalFourKeySourceRaw"]==baseline_raw.decode("utf-8")
@@ -237,7 +296,13 @@ def main():
         assert rc["nativeTagRoles"]["current"]["referenced"]==meta["currentNativeTagsReferenced"]
         assert rc["nativeStringTags"]["launch"]==meta["launchStringTags"]
         assert rc["nativeStringTags"]["current"]==meta["currentStringTags"]
+        assert rc["nativeStringTags"]["launchPrintedText"]==meta["launchPrintedText"]
+        assert rc["nativeStringTags"]["currentPrintedText"]==meta["currentPrintedText"]
+        reverse_checks+=validate_public_reverse_replay(cid,dates,snapshots,rc)
     assert len(all_dates)>=10
+    assert raw_role_event_count==51
+    assert central["verification"]["datedRawRoleEvents"]==51
+    assert reverse_checks==215
     assert len(central["events"]["2022-11-30"])==17  # 16 corrected existing rows + missing TRL_311
     assert len(central["events"]["2025-03-19"])==7
     assert len(central["events"]["2026-03-11"])>=1
@@ -276,7 +341,8 @@ def main():
     assert source_docs["TRL_501"]["2024-10-30"]["races"]==["UNDEAD","DRAENEI"]
     halazzi=source_docs["TRL_900"]["2026-03-11"]
     assert halazzi["cost"]==4 and halazzi["attack"]==4 and "<b>속공</b>" in halazzi["text"]
-    assert "nativeTagRolesDelta" not in halazzi
+    assert halazzi["nativeTagRolesDelta"]["owned"]=={"set":{"47":"4","48":"4"},"removed":[]}
+    assert "791" not in halazzi["nativeTagRolesDelta"]["owned"]["set"]
 
     # Seven representation-only weapon events: full array replacement, raw role delta,
     # no logical durability field and same value before/after.
@@ -305,6 +371,8 @@ def main():
         assert source_docs[cid]["_current"]["cost"]==0
     assert sum(1 for c in cards.values() if c.get("collectible") is False)==29
     assert sum(1 for c in cards.values() if c.get("collectible") is False and c.get("flavor")=="")==29
+    assert sum(1 for c in cards.values() if c.get("type")=="MINION" and c.get("attack")==0)==15
+    assert sum(1 for c in cards.values() if c.get("text")=="")==10
 
     # The 24 current referenced tags and 18 explicit relation records remain role-separated.
     ref_count=sum(len(x["_meta"]["currentNativeTagsReferenced"]) for x in source_docs.values())
@@ -336,7 +404,7 @@ def main():
     print(json.dumps({"cards":len(cards),"initialStates":164,"followupEvents":51,"totalStates":215,
         "datedRows":sum(len(x) for x in central["events"].values()),
         "launchCorrections":11,"correctedExistingRows":2,"missingGameplayEvents":5,
-        "weaponRepresentationEvents":7,"currentReferencedTags":ref_count,
+        "weaponRepresentationEvents":7,"datedRawRoleEvents":raw_role_event_count,"reverseReplaySegments":reverse_checks,"schemaNumericOmissions":406,"schemaChoiceOmissions":220,"currentReferencedTags":ref_count,
         "explicitRelationships":relation_count,"logicalReplayChecks":logical_replay_checks,
         "undatedCurrentDifferenceChecks":undated_checks,"archiveBuilds":238,
         "xmlSnapshotsIndependentlyParsed":4,"result":"PASS"},ensure_ascii=False))
