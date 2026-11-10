@@ -163,7 +163,7 @@ def main():
     s=source_docs["TRL_311"]["2018-12-05"]
     assert s["races"]==["ELEMENTAL"] and s["race"]=="정령" and set_tag(s["nativeTags"],2542)=="ABSENT"
     s=source_docs["TRL_900"]["2018-12-05"]
-    assert s["cost"]==5 and s["attack"]==3 and "속공" not in s["text"]
+    assert s["cost"]==5 and s["attack"]==3 and "<b>속공</b>, <b>전투의 함성</b>" not in s["text"]
     assert "\u00a0" in s["text"]
     assert source_docs["TRL_900"]["_meta"]["launchNativeTagsOwned"].get("791",{}).get("present") is not True
     assert source_docs["TRL_900"]["_meta"]["launchNativeTagsReferenced"].get("791",{}).get("value")=="1"
