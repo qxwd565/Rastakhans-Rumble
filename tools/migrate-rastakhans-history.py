@@ -185,6 +185,7 @@ def main():
     # The seven weapon Tag 187 -> Tag 45 moves are representation-only events.
     for cid,durability in WEAPON_DURABILITY.items():
         add_event(per_card[cid]["events"],"2025-03-19",cid,{
+            "nativeTags":copy.deepcopy(byid[cid]["nativeTags"]),
             "nativeTagRolesDelta":{
                 "owned":{"removed":["187"],"set":{"45":str(durability)}},
                 "referenced":{"removed":[],"set":{}}
