@@ -15,6 +15,9 @@ class RastakhansHistoryTests(unittest.TestCase):
     def setUpClass(cls):
         cls.catalog=read(ROOT/"cards.json")
         cls.central=read(DATA/"history.json")
+        cls.render=read(ROOT/"render.json")
+        cls.render_cards={c["id"]:c for c in cls.render["cards"]}
+        cls.schema=read(ROOT/"sources"/"rast-schema-s002.json")
         cls.cards={c["id"]:read(DATA/(c["id"]+".json")) for c in cls.catalog["cards"]}
 
     def test_exact_scope(self):
@@ -84,7 +87,8 @@ class RastakhansHistoryTests(unittest.TestCase):
         self.assertIsNone(h["date"])
         self.assertIsNone(h["actualFirstEffectiveDay"])
         self.assertEqual(h["firstObservedBuild"],247416)
-        self.assertNotIn("nativeTagRolesDelta",self.cards["TRL_900"]["2026-03-11"])
+        self.assertEqual(self.cards["TRL_900"]["2026-03-11"]["nativeTagRolesDelta"]["owned"]["set"],{"47":"4","48":"4"})
+        self.assertNotIn("791",self.cards["TRL_900"]["2026-03-11"]["nativeTagRolesDelta"]["owned"]["set"])
 
     def test_preserved_zero_false_and_empty_values(self):
         for cid in ("TRL_128","TRL_243","TRL_310"):
@@ -96,5 +100,51 @@ class RastakhansHistoryTests(unittest.TestCase):
         for cid in ("TRL_254a","TRL_254b"):
             self.assertNotIn("cost",self.cards[cid]["2018-12-05"])
             self.assertEqual(self.cards[cid]["_current"]["cost"],4)
+
+    def test_all_dated_raw_role_events(self):
+        events=[(cid,day,row) for cid,doc in self.cards.items()
+                for day,row in doc.items() if re.fullmatch(r"\\d{4}-\\d{2}-\\d{2}",day)
+                and "nativeTagRolesDelta" in row]
+        self.assertEqual(len(events),51)
+        self.assertEqual(self.cards["TRL_060"]["2022-11-30"]["nativeTagRolesDelta"]["owned"]["set"],{"200":"11","2542":"1"})
+        self.assertEqual(self.cards["TRL_060"]["2023-09-29"]["nativeTagRolesDelta"]["owned"]["set"],{"48":"5"})
+        self.assertEqual(self.cards["TRL_124"]["2019-05-23"]["nativeTagRolesDelta"]["owned"]["set"],{"48":"4"})
+        self.assertEqual(self.cards["TRL_124"]["2020-03-18"]["nativeTagRolesDelta"]["owned"]["set"],{"48":"3"})
+        self.assertEqual(self.cards["TRL_252"]["2022-04-06"]["nativeTagRolesDelta"]["owned"]["set"],{"45":"5"})
+        self.assertEqual(self.cards["TRL_501"]["2024-10-30"]["nativeTagRolesDelta"]["owned"]["set"],{"2525":"1"})
+        self.assertEqual(self.cards["TRL_060"]["_meta"]["launchPrintedText"]["koKR"],"1턴 동안 <b>은신</b>을 얻습니다.\\n내가 주문을 시전할 때마다 내 덱에서 그 주문보다 비용이 (1) 높은 주문을 뽑습니다.")
+
+    def test_s002_type_inapplicable_fields_are_absent_only_from_history(self):
+        self.assertEqual(self.schema["numericFieldCount"],406)
+        self.assertEqual(self.schema["emptyChoiceFieldCount"],220)
+        self.assertEqual(len(self.schema["cards"]),164)
+        for row in self.schema["cards"]:
+            src=self.cards[row["id"]]
+            for day in [k for k in src if re.fullmatch(r"\\d{4}-\\d{2}-\\d{2}",k)]:
+                for field in list(row["omitNumeric"])+list(row["omitChoice"]):
+                    self.assertNotIn(field,src[day],(row["id"],day,field))
+            for field in row["omitNumeric"]:
+                self.assertIn(field,src["_current"])
+            for field in row["omitChoice"]:
+                self.assertIn(field,src["_current"])
+        self.assertEqual(self.cards["TRL_065"]["_current"]["health"],30)
+        self.assertEqual(self.cards["TRL_065"]["_current"]["armor"],5)
+        self.assertEqual(sum(1 for c in self.catalog["cards"] if c["type"]=="MINION" and c.get("attack")==0),15)
+        self.assertEqual(sum(1 for c in self.catalog["cards"] if c.get("text")==""),10)
+
+    def test_public_reverse_history_uses_complete_current_relative_diff(self):
+        frog=self.render_cards["TRL_060"]["history"]
+        launch=next(x for x in frog if x["from"]=="2018-12-05")
+        undead=next(x for x in frog if x["from"]=="2022-11-30")
+        self.assertEqual(launch["changes"]["cost"],3)
+        self.assertEqual(undead["changes"]["cost"],3)
+        for cid in ("TRL_254a","TRL_254b"):
+            card=self.render_cards[cid]
+            self.assertEqual(card["cost"],4)
+            hist=card["history"]
+            self.assertEqual({x["from"] for x in hist},{"2018-12-05","2021-03-26"})
+            self.assertTrue(all("cost" in x["removedFields"] for x in hist))
+            self.assertTrue(all("cost" not in x["changes"] for x in hist))
+            self.assertIsNone(next(x for x in hist if x["from"]=="2021-03-26")["before"])
 
 if __name__=="__main__":unittest.main()
