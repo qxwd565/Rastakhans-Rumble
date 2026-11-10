@@ -253,10 +253,31 @@ def main():
             # deliberately undated; never overwrite either immutable snapshot.
             middle_before=halazzi_before[cid]["stringTags"].get("184")
             middle_after=halazzi_after[cid]["stringTags"].get("184")
-            if middle_before!=initial[cid]["stringTags"].get("184"):
-                raise ValueError("TRL_900: 236529 Tag 184 does not match launch raw state")
+            launch_tag=initial[cid]["stringTags"].get("184")
+            if not middle_before or middle_before.get("type")!="LocString":
+                raise ValueError("TRL_900: 236529 Tag 184 LocString missing")
+            if not launch_tag or launch_tag.get("type")!="LocString":
+                raise ValueError("TRL_900: launch Tag 184 LocString missing")
             if not middle_after or middle_after.get("type")!="LocString":
                 raise ValueError("TRL_900: 237510 Tag 184 LocString missing")
+            # The 236529 pre-patch source is the event's true preceding snapshot,
+            # not a substitute for launch: two locale strings had already changed
+            # at an unknown date. Preserve that difference as undated evidence.
+            undated_locale_diffs=[]
+            for locale in sorted(set(launch_tag.get("locales",{})) | set(middle_before.get("locales",{}))):
+                before_value=launch_tag.get("locales",{}).get(locale,"ABSENT")
+                after_value=middle_before.get("locales",{}).get(locale,"ABSENT")
+                if before_value!=after_value:
+                    undated_locale_diffs.append({"locale":locale,"before":copy.deepcopy(before_value),
+                        "after":copy.deepcopy(after_value),"date":None})
+            expected_undated={"thTH","zhCN"}
+            if {x["locale"] for x in undated_locale_diffs}!=expected_undated:
+                raise ValueError("TRL_900: unexpected launch-to-236529 Tag 184 locale differences")
+            meta["halazziPrePatchStringTagSnapshot"]=copy.deepcopy(middle_before)
+            meta["undatedStringTagObservations"]=[{"tagId":184,"beforeBuild":27845,
+                "afterBuild":236529,"beforeCommit":"0565689bc30e7fe550053066d033958f1f90033f",
+                "afterCommit":"0a5a61e3867ae9eea535bdbd4df714671ff87910",
+                "differences":undated_locale_diffs}]
             if middle_after.get("locales",{}).get("koKR",{}).get("value") != "<b>속공</b>, <b>전투의_함성:</b>\n내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다.":
                 raise ValueError("TRL_900: 237510 Korean Tag 184 raw text mismatch")
             if middle_after.get("locales",{}).get("enUS",{}).get("value") != "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.":
