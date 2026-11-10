@@ -58,9 +58,11 @@ def get_tag(tags,tag_id):
     return "ABSENT"
 
 def add_event(events,date,cid,event):
-    if date in events and cid in events[date]:
+    # Per-card canonical files map each date directly to one sparse event object.
+    # The central ledger adds the card ID as its next-level key during sync.
+    if date in events:
         raise ValueError(f"duplicate event {date}/{cid}")
-    events.setdefault(date,{})[cid]=copy.deepcopy(event)
+    events[date]=copy.deepcopy(event)
 
 def replay(initial,events):
     state=copy.deepcopy(initial)
