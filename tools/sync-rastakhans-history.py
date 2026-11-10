@@ -16,7 +16,7 @@ def main():
     cards=catalog["cards"]
     events={}
     observations={"undatedRawTags":{},"undatedReferencedTags":{},"undatedStringTags":{},
-                  "undatedFields":{},"undatedCurrentDifferences":{},"datedStringTags":{},"halazziRush":None,"nativeTagCorrections":{}}
+                  "undatedFields":{},"undatedCurrentDifferences":{},"undatedStringTagsByObservation":{},"datedStringTags":{},"halazziRush":None,"nativeTagCorrections":{}}
     initial=followups=0
     dated_role_events=0
     for card in cards:
@@ -44,6 +44,8 @@ def main():
             observations["undatedCurrentDifferences"][cid]=copy.deepcopy(meta["undatedCurrentDifferences"])
         if meta.get("nativeTagCorrections"):
             observations["nativeTagCorrections"][cid]=copy.deepcopy(meta["nativeTagCorrections"])
+        if meta.get("undatedStringTagObservations"):
+            observations["undatedStringTagsByObservation"][cid]=copy.deepcopy(meta["undatedStringTagObservations"])
         if meta.get("datedStringTagObservations"):
             observations["datedStringTags"][cid]=copy.deepcopy(meta["datedStringTagObservations"])
         if meta.get("halazziRushEvidence"):
