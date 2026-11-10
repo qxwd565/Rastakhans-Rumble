@@ -282,6 +282,27 @@ def publish_forward_card(card: dict, current: dict, name: str):
     return backward
 
 
+def raw_role_values(role):
+    return {str(tag_id):(str(record["value"]) if record.get("valueAttributePresent") else None)
+            for tag_id,record in role.items() if record.get("present")}
+
+
+def expected_role_delta(raw_diff):
+    owned={"set":{},"removed":[]}
+    for tag_id,(before,after) in raw_diff.items():
+        if after=="ABSENT": owned["removed"].append(str(tag_id))
+        else: owned["set"][str(tag_id)]=str(after)
+    owned["removed"].sort(key=int)
+    return {"owned":owned,"referenced":{"set":{},"removed":[]}}
+
+
+def apply_role_delta(values,delta):
+    for tag_id in delta.get("removed",[]):
+        values.pop(str(tag_id),None)
+    for tag_id,value in delta.get("set",{}).items():
+        values[str(tag_id)]=str(value)
+
+
 def canonical_dates(data: dict, name: str):
     dates=sorted(k for k in data if DATE_RE.fullmatch(k))
     if not dates or dates[0]!="2018-12-05":
@@ -300,6 +321,11 @@ def canonical_reverse_history(data: dict, name: str, current: dict):
     state={}
     snapshots=[]
     raw_history=[]
+    meta=data["_meta"]
+    role_state={
+        "owned":raw_role_values(meta.get("launchNativeTagsOwned",{})),
+        "referenced":raw_role_values(meta.get("launchNativeTagsReferenced",{})),
+    }
     for index,day in enumerate(dates):
         event=data[day]
         if not isinstance(event,dict):
@@ -319,6 +345,17 @@ def canonical_reverse_history(data: dict, name: str, current: dict):
                     state[field]=copy.deepcopy(value)
         raw_delta=event.get("nativeTagRolesDelta")
         if raw_delta:
+            evidence=event.get("source",{}).get("rawRoleEvidence")
+            if not isinstance(evidence,dict) or not isinstance(evidence.get("rawDiff"),dict):
+                raise ValueError(f"{name}/{day}: dated role delta lacks immutable rawDiff evidence")
+            if raw_delta!=expected_role_delta(evidence["rawDiff"]):
+                raise ValueError(f"{name}/{day}: public role delta differs from immutable rawDiff")
+            for tag_id,(before,after) in evidence["rawDiff"].items():
+                actual=role_state["owned"].get(str(tag_id),"ABSENT")
+                if actual!=before:
+                    raise ValueError(f"{name}/{day}: own Tag {tag_id} expected {before}, got {actual}")
+            apply_role_delta(role_state["owned"],raw_delta.get("owned",{}))
+            apply_role_delta(role_state["referenced"],raw_delta.get("referenced",{}))
             raw_history.append({"date":day,"delta":copy.deepcopy(raw_delta)})
         snapshot={field:copy.deepcopy(state[field]) for field in RENDER_FIELDS if field in state}
         snapshots.append((day,snapshot))
@@ -354,6 +391,7 @@ def main():
     history={}
     seen=set()
     raw_role_cards=0
+    raw_role_event_count=0
     for record in catalog["cards"]:
         cid=record["id"]
         if cid in seen:
@@ -373,6 +411,7 @@ def main():
         revisions,raw_history,latest=canonical_reverse_history(data,cid,current)
         if raw_history:
             raw_role_cards+=1
+            raw_role_event_count+=len(raw_history)
         # Dated logical fields must reproduce the current gameplay values. Text and
         # nativeTags may have undated display/representation observations, kept in _meta.
         undated_fields={x.get("field") for x in data["_meta"].get("undatedCurrentDifferences",[])}
@@ -406,6 +445,8 @@ def main():
         catalog["cards"][len(renderer)-1]=record_out
     if len(renderer)!=164:
         raise ValueError(f"Expected 164 API cards, got {len(renderer)}")
+    if raw_role_event_count!=51:
+        raise ValueError(f"Expected 51 independently evidenced dated raw-role events, got {raw_role_event_count}")
     files={
         "cards.json":catalog,
         "render.json":{"schema":2,"set":catalog["set"],"cards":renderer},
@@ -415,7 +456,7 @@ def main():
     print(json.dumps({"set":catalog["set"],"cards":len(renderer),
         "initialStates":central["initialStates"],"followupEvents":central["followupEvents"],
         "totalStates":central["totalStates"],"datedCards":len(history),
-        "rawRoleHistoryCards":raw_role_cards,"published":changed},ensure_ascii=False))
+        "rawRoleHistoryCards":raw_role_cards,"datedRawRoleEvents":raw_role_event_count,"published":changed},ensure_ascii=False))
 
 
 if __name__=="__main__":
