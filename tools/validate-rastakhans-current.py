@@ -121,6 +121,18 @@ def main():
         for field in ("id","dbfId","name","type","cardClass","rarity","collectible","cost","text","attack","health","durability","armor","art","races","race","spellSchool","set","nativeTags","mechanics","watermark","classes"):
             if field in src["_current"]:assert rc.get(field)==src["_current"][field],(cid,field,"render current")
         meta=src["_meta"]
+        assert central["observations"]["undatedCurrentDifferences"].get(cid,[])==meta.get("undatedCurrentDifferences",[])
+        assert central["observations"]["undatedRawTags"].get(cid,[])==meta.get("undatedRawTagTransitions",[])
+        assert central["observations"]["undatedReferencedTags"].get(cid,[])==meta.get("undatedReferencedTagTransitions",[])
+        assert central["observations"]["undatedFields"].get(cid,[])==meta.get("undatedFieldObservations",[])
+        launch_strings=meta.get("launchStringTags",{})
+        current_strings=meta.get("currentStringTags",{})
+        expected_string_diffs=[]
+        for tid in sorted(set(launch_strings)|set(current_strings),key=int):
+            before=launch_strings.get(tid,"ABSENT"); after=current_strings.get(tid,"ABSENT")
+            if before!=after:
+                expected_string_diffs.append({"tagId":int(tid),"before":before,"after":after,"date":None})
+        assert central["observations"]["undatedStringTags"].get(cid,[])==expected_string_diffs
         assert meta["launchNativeTagsOwned"]==launch_xml[cid]["owned"],(cid,"launch owned raw tags")
         assert meta["launchNativeTagsReferenced"]==launch_xml[cid]["referenced"],(cid,"launch referenced raw tags")
         assert meta["currentNativeTagsOwned"]==current_xml[cid]["owned"],(cid,"current owned raw tags")
