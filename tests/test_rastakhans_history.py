@@ -89,6 +89,18 @@ class RastakhansHistoryTests(unittest.TestCase):
         self.assertEqual(h["firstObservedBuild"],247416)
         self.assertEqual(self.cards["TRL_900"]["2026-03-11"]["nativeTagRolesDelta"]["owned"]["set"],{"47":"4","48":"4"})
         self.assertNotIn("791",self.cards["TRL_900"]["2026-03-11"]["nativeTagRolesDelta"]["owned"]["set"])
+        dated=self.cards["TRL_900"]["_meta"]["datedStringTagObservations"]
+        self.assertEqual(len(dated),1)
+        self.assertEqual((dated[0]["date"],dated[0]["build"],dated[0]["tagId"]),("2026-03-11",237510,184))
+        before=dated[0]["before"]; after=dated[0]["after"]
+        self.assertEqual(before["type"],"LocString")
+        self.assertFalse(before["valueAttributePresent"])
+        self.assertEqual(before["locales"]["koKR"]["value"],"<b>전투의_함성:</b> 내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다.")
+        self.assertEqual(before["locales"]["enUS"]["value"],"<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.")
+        self.assertEqual(after["locales"]["koKR"]["value"],"<b>속공</b>, <b>전투의_함성:</b>\\n내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다.")
+        self.assertEqual(after["locales"]["enUS"]["value"],"<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\\nthat have <b>Rush</b>.")
+        self.assertIn("&",self.cards["TRL_900"]["_meta"]["currentStringTags"]["184"]["locales"]["koKR"]["value"])
+        self.assertNotIn("&",after["locales"]["koKR"]["value"])
 
     def test_preserved_zero_false_and_empty_values(self):
         for cid in ("TRL_128","TRL_243","TRL_310"):
