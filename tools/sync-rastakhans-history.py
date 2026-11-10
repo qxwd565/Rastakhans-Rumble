@@ -53,20 +53,14 @@ def main():
         launch=meta.get("launchStringTags",{})
         current=meta.get("currentStringTags",{})
         diffs=[]
-        if cid=="TRL_900":
-            dated=meta.get("datedStringTagObservations",[])
-            if len(dated)!=1 or dated[0].get("tagId")!=184:
-                raise ValueError("TRL_900: one dated Tag 184 baseline is required for residual string diff")
-            before=dated[-1]["after"]
-            after=current.get("184","ABSENT")
+        dated_by_tag={int(x["tagId"]):x for x in meta.get("datedStringTagObservations",[])}
+        for tid in sorted(set(launch)|set(current),key=int):
+            dated=dated_by_tag.get(int(tid))
+            before=(dated["after"] if dated else launch.get(tid,"ABSENT"))
+            after=current.get(tid,"ABSENT")
             if before!=after:
-                diffs.append({"tagId":184,"before":copy.deepcopy(before),
+                diffs.append({"tagId":int(tid),"before":copy.deepcopy(before),
                               "after":copy.deepcopy(after),"date":None})
-        else:
-            for tid in sorted(set(launch)|set(current),key=int):
-                before=launch.get(tid,"ABSENT"); after=current.get(tid,"ABSENT")
-                if before!=after:
-                    diffs.append({"tagId":int(tid),"before":copy.deepcopy(before),"after":copy.deepcopy(after),"date":None})
         if diffs:observations["undatedStringTags"][cid]=diffs
     if initial!=164 or followups!=51 or initial+followups!=215:
         raise ValueError(f"Expected 164 initial + 51 follow-up = 215, got {initial}+{followups}")
@@ -99,7 +93,7 @@ def main():
          "notes":["Missing or empty values are distinct from 0, false, empty string and empty arrays.",
                   "Raw Tag and ReferencedTag roles are separate from flattened nativeTags.",
                   "Undated observations never become invented dated events.",
-                  "BOT_900 own Rush effective day remains unresolved."]}
+                  "TRL_900 own Rush effective day remains unresolved."]}
     write(DATA/"history.json",out)
     print(json.dumps({"initialStates":initial,"followupEvents":followups,"totalStates":initial+followups,
                       "dates":len(events),"undatedStringCards":len(observations["undatedStringTags"]),
