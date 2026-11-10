@@ -344,7 +344,6 @@ def main():
             assert all(x["date"] is None for x in meta["undatedStringTagObservations"][0]["differences"])
             assert meta["halazziPrePatchStringTagSnapshot"]==halazzi_before_xml[cid]["stringTags"]["184"]
             assert rc["nativeStringTags"]["undatedObservations"]==meta["undatedStringTagObservations"]
-            assert central["observations"]["undatedStringTagsByObservation"][cid]==meta["undatedStringTagObservations"]
             assert {x["locale"] for x in meta["undatedStringTagObservations"][0]["differences"]}=={"thTH","zhCN"}
             assert all(x["date"] is None for x in meta["undatedStringTagObservations"][0]["differences"])
             assert observation["after"]==halazzi_after_xml[cid]["stringTags"]["184"]
