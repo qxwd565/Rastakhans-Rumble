@@ -1,0 +1,113 @@
+name: Validate Rastakhan date-first history
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "sources/archive-238-part-*.txt"
+      - "sources/research-*.txt"
+      - "tools/**"
+      - "tests/**"
+      - "data/**"
+      - "cards.json"
+      - "render.json"
+      - "history.json"
+      - ".github/workflows/validate-rastakhans-history.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rastakhans-history-main
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Download immutable XML snapshots
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/rastakhans-xml
+          curl -fL --retry 4 --retry-all-errors \
+            https://raw.githubusercontent.com/HearthSim/hsdata/0565689bc30e7fe550053066d033958f1f90033f/CardDefs.xml \
+            -o /tmp/rastakhans-xml/xml-27845.xml
+          curl -fL --retry 4 --retry-all-errors \
+            https://raw.githubusercontent.com/HearthSim/hsdata/31b034c26f24b8a66ece845ffd03c1ca397b9a02/CardDefs.xml \
+            -o /tmp/rastakhans-xml/xml-256589.xml
+          curl -fL --retry 4 --retry-all-errors \
+            https://raw.githubusercontent.com/HearthSim/hsdata/62cc0f00dbed73f2d48ccefca6f611e6f8898986/CardDefs.xml \
+            -o /tmp/rastakhans-xml/xml-217489.xml
+          curl -fL --retry 4 --retry-all-errors \
+            https://raw.githubusercontent.com/HearthSim/hsdata/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml \
+            -o /tmp/rastakhans-xml/xml-217964.xml
+          cat > /tmp/rastakhans-xml/SHA256SUMS <<'EOF'
+          dc2fa518bc000ad5aa4d54dbde40e29f67aed75c19705b8799893d0916046d4a  xml-27845.xml
+          420224a8c02eeea4ce7d3f1b39f50d5754b2b869118d4d215ef7c5ca1526594c  xml-256589.xml
+          6dfe10c33d284ade4b0675f24a51e11510011e8cd70cf1112774f2babcf1b2c2  xml-217489.xml
+          039e4cb30c4e4a994778edcd0d6af9b60c1f0ef1571aab8d02af62568681bddf  xml-217964.xml
+          EOF
+          (cd /tmp/rastakhans-xml && sha256sum -c SHA256SUMS)
+      - name: Migrate existing date-first ledger once
+        env:
+          RASTAKHANS_XML_DIR: /tmp/rastakhans-xml
+        run: python tools/migrate-rastakhans-history.py
+      - name: Enrich raw Tag roles and all localized strings
+        env:
+          RASTAKHANS_XML_DIR: /tmp/rastakhans-xml
+        run: python tools/enrich-rastakhans-history.py
+      - name: Synchronize central date-first ledger
+        env:
+          RASTAKHANS_XML_DIR: /tmp/rastakhans-xml
+        run: python tools/sync-rastakhans-history.py
+      - name: Build current, render and reverse history APIs
+        env:
+          RASTAKHANS_XML_DIR: /tmp/rastakhans-xml
+        run: python tools/build-api.py
+      - name: Run regression tests
+        run: python -m unittest discover -s tests -p "test_*.py" -v
+      - name: Independently validate 215 states and immutable sources
+        env:
+          RASTAKHANS_XML_DIR: /tmp/rastakhans-xml
+        run: python tools/validate-rastakhans-current.py
+      - name: Commit generated canonical sources and API
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cards.json render.json history.json data/
+          if ! git diff --cached --quiet; then
+            git commit -m "Migrate Rastakhan cards to verified date-first history [skip ci]"
+            git push origin HEAD:main
+          else
+            echo "No generated changes to commit."
+          fi
+      - name: Replay complete pipeline with two hash seeds and prove clean tree
+        env:
+          RASTAKHANS_XML_DIR: /tmp/rastakhans-xml
+        shell: bash
+        run: |
+          set -euo pipefail
+          for seed in 1 8675309; do
+            echo "=== PYTHONHASHSEED=\${seed} ==="
+            export PYTHONHASHSEED="\${seed}"
+            python tools/migrate-rastakhans-history.py
+            python tools/enrich-rastakhans-history.py
+            python tools/sync-rastakhans-history.py
+            python tools/build-api.py
+            python -m unittest discover -s tests -p "test_*.py" -v
+            python tools/validate-rastakhans-current.py
+            git diff --exit-code
+            test -z "$(git status --porcelain)"
+            echo "CLEAN_SEED=\${seed} SHA=$(git rev-parse HEAD)"
+          done
+          echo "FINAL_SHA=$(git rev-parse HEAD)"
