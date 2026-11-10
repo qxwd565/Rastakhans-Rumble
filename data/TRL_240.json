@@ -1,1 +1,921 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_240","dbfId":49984,"name":"야성적인 공격병","type":"MINION","cardClass":"DRUID","rarity":"COMMON","collectible":true,"cost":2,"text":"<b>전투의 함성:</b><br></br>적 하수인에게 내 영웅의 공격력만큼 피해를 줍니다.","attack":2,"health":3,"durability":0,"armor":0,"flavor":"(영웅에게) \"물어!\"","spellSchool":"","portrait":"HS15-007_M.psd:08fd7f79f0859874492faf08b053ac68","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":3},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":2},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":2},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1},{"id":330,"name":"효과 생성 시각 효과","value":0},{"id":331,"name":"효과 지속 시각 효과","value":0}],"races":[],"race":"","classes":[],"art":"art/TRL_240.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-007_M.psd:08fd7f79f0859874492faf08b053ac68","goldenMaterial":"TRL_240_PremiumCard.mat:d68ab8c9b3cee4240a5520a0de788f9c","goldenAnimation":"TRL_240_PremiumCard.asset:39ab05c74ee7e0945b7d5a2f3a43d0dc"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-007_M.psd:08fd7f79f0859874492faf08b053ac68",
+        "goldenMaterial": "TRL_240_PremiumCard.mat:d68ab8c9b3cee4240a5520a0de788f9c",
+        "goldenAnimation": "TRL_240_PremiumCard.asset:39ab05c74ee7e0945b7d5a2f3a43d0dc"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-007_M.psd:08fd7f79f0859874492faf08b053ac68",
+      "goldenMaterial": "TRL_240_PremiumCard.mat:d68ab8c9b3cee4240a5520a0de788f9c",
+      "goldenAnimation": "TRL_240_PremiumCard.asset:39ab05c74ee7e0945b7d5a2f3a43d0dc"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "325": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "325": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Ungestüme Streiterin"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Savage Striker"
+          },
+          "esES": {
+            "present": true,
+            "value": "Asediadora salvaje"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Atacante salvaje"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Assaillante impitoyable"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Assalitrice Selvaggia"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "獰猛な強襲兵"
+          },
+          "koKR": {
+            "present": true,
+            "value": "야성적인 공격병"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Dzika napastniczka"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Agressora Selvagem"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Дикая наездница"
+          },
+          "thTH": {
+            "present": true,
+            "value": "มือพิฆาตไร้ปรานี"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "野蛮先锋"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "兇蠻打擊者"
+          }
+        },
+        "textContent": "\n\t\t\tUngestüme Streiterin\n\t\t\tSavage Striker\n\t\t\tAsediadora salvaje\n\t\t\tAtacante salvaje\n\t\t\tAssaillante impitoyable\n\t\t\tAssalitrice Selvaggia\n\t\t\t獰猛な強襲兵\n\t\t\t야성적인 공격병\n\t\t\tDzika napastniczka\n\t\t\tAgressora Selvagem\n\t\t\tДикая наездница\n\t\t\tมือพิฆาตไร้ปรานี\n\t\t\t野蛮先锋\n\t\t\t兇蠻打擊者\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "[x]<b>Kampfschrei:</b> Fügt einem\nfeindlichen Diener Schaden\nzu, der dem Angriff Eures\nHelden entspricht."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Battlecry:</b> Deal damage to an enemy minion equal to your hero's Attack."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Grito de batalla:</b> Inflige a\nun esbirro enemigo un daño\nequivalente al ataque\nde tu héroe."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> inflige daño a un esbirro enemigo equivalente al Ataque de tu héroe."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> inflige les dégâts de l’ATQ de votre héros à un_serviteur adverse."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b>\ninfligge danni pari\nall'Attacco del tuo eroe\n_a un servitore nemico."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>雄叫び:</b>\n敵のミニオン1体に\n自分のヒーローの\n攻撃力に等しい\n___ダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>전투의 함성:</b>\n적 하수인에게 내 영웅의 공격력만큼 피해를 줍니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b> Zadaj wrogiemu stronnikowi obrażenia równe atakowi twojego bohatera."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b> Cause dano equivalente ao Ataque do seu herói a um lacaio inimigo."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> наносит выбранному существу противника урон, равный атаке вашего героя."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b>_สร้างความเสียหาย[b]เท่าพลังโจมตีของฮีโร่ของคุณ[b]ให้มินเนี่ยนศัตรูหนึ่งตัว"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>对一个敌方随从造成等同于你的英雄攻击力的伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>戰吼：</b>對一個敵方\n手下造成等同你英雄攻擊力的傷害"
+          }
+        },
+        "textContent": "\n\t\t\t[x]<b>Kampfschrei:</b> Fügt einem\nfeindlichen Diener Schaden\nzu, der dem Angriff Eures\nHelden entspricht.\n\t\t\t<b>Battlecry:</b> Deal damage to an enemy minion equal to your hero's Attack.\n\t\t\t[x]<b>Grito de batalla:</b> Inflige a\nun esbirro enemigo un daño\nequivalente al ataque\nde tu héroe.\n\t\t\t<b>Grito de batalla:</b> inflige daño a un esbirro enemigo equivalente al Ataque de tu héroe.\n\t\t\t<b>Cri de guerre :</b> inflige les dégâts de l’ATQ de votre héros à un_serviteur adverse.\n\t\t\t[x]<b>Grido di Battaglia:</b>\ninfligge danni pari\nall'Attacco del tuo eroe\n_a un servitore nemico.\n\t\t\t[x]<b>雄叫び:</b>\n敵のミニオン1体に\n自分のヒーローの\n攻撃力に等しい\n___ダメージを与える。\n\t\t\t<b>전투의 함성:</b>\n적 하수인에게 내 영웅의 공격력만큼 피해를 줍니다.\n\t\t\t<b>Okrzyk bojowy:</b> Zadaj wrogiemu stronnikowi obrażenia równe atakowi twojego bohatera.\n\t\t\t<b>Grito de Guerra:</b> Cause dano equivalente ao Ataque do seu herói a um lacaio inimigo.\n\t\t\t<b>Боевой клич:</b> наносит выбранному существу противника урон, равный атаке вашего героя.\n\t\t\t<b>คำรามสู้ศึก:</b>_สร้างความเสียหาย[b]เท่าพลังโจมตีของฮีโร่ของคุณ[b]ให้มินเนี่ยนศัตรูหนึ่งตัว\n\t\t\t<b>战吼：</b>对一个敌方随从造成等同于你的英雄攻击力的伤害。\n\t\t\t<b>戰吼：</b>對一個敵方\n手下造成等同你英雄攻擊力的傷害\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Ihr gehen manchmal die Raptoren etwas durch."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Ruthless at tribal roasts."
+          },
+          "esES": {
+            "present": true,
+            "value": "Lo de salvaje es por bruta, no porque te la encuentres por el campo."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Salvaje como ella sola."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Pas de pitié pour les adversaires !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Ma vale portare i raptor dentro l'arena?"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "敵を強襲して狩る屈強な彼女でも、遠い異国の遠征に駆り出された時には、ふと故郷への郷愁にかられるものなんだ。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "(영웅에게) \"물어!\""
+          },
+          "plPL": {
+            "present": true,
+            "value": "Wkracza do bitwy na imponującym rumaku."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Antes ela era passivo-agressiva. Agora é só agressiva."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Абсолютно необузданная, в отличие от своих подопечных."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ไดโนเสาร์เป็นแค่ชุดเป่าลม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "部族聚餐时尤其野蛮。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "記住，人要比龍兇！"
+          }
+        },
+        "textContent": "\n\t\t\tIhr gehen manchmal die Raptoren etwas durch.\n\t\t\tRuthless at tribal roasts.\n\t\t\tLo de salvaje es por bruta, no porque te la encuentres por el campo.\n\t\t\tSalvaje como ella sola.\n\t\t\tPas de pitié pour les adversaires !\n\t\t\tMa vale portare i raptor dentro l'arena?\n\t\t\t敵を強襲して狩る屈強な彼女でも、遠い異国の遠征に駆り出された時には、ふと故郷への郷愁にかられるものなんだ。\n\t\t\t(영웅에게) \"물어!\"\n\t\t\tWkracza do bitwy na imponującym rumaku.\n\t\t\tAntes ela era passivo-agressiva. Agora é só agressiva.\n\t\t\tАбсолютно необузданная, в отличие от своих подопечных.\n\t\t\tไดโนเสาร์เป็นแค่ชุดเป่าลม\n\t\t\t部族聚餐时尤其野蛮。\n\t\t\t記住，人要比龍兇！\n\t\t"
+      },
+      "325": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Verursacht Schaden, der Eurem Angriff entspricht."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Deal damage equal to your Attack."
+          },
+          "esES": {
+            "present": true,
+            "value": "Inflige un daño\nigual a tu ataque."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Inflige daño equivalente a tu Ataque."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Inflige des dégâts d’un montant égal à votre Attaque."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Infligge danni pari all'Attacco del tuo eroe."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "自分のヒーローの攻撃力に等しいダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "내 영웅의 공격력만큼 피해"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zadaj obrażenia równe twojemu atakowi."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Cause dano equivalente ao seu Ataque."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Нанести урон, равный атаке вашего героя."
+          },
+          "thTH": {
+            "present": true,
+            "value": "สร้างความเสียหาย[b]เท่าพลังโจมตีของคุณ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "造成等同于英雄攻击力的伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "造成等同你攻擊力的傷害"
+          }
+        },
+        "textContent": "\n\t\t\tVerursacht Schaden, der Eurem Angriff entspricht.\n\t\t\tDeal damage equal to your Attack.\n\t\t\tInflige un daño\nigual a tu ataque.\n\t\t\tInflige daño equivalente a tu Ataque.\n\t\t\tInflige des dégâts d’un montant égal à votre Attaque.\n\t\t\tInfligge danni pari all'Attacco del tuo eroe.\n\t\t\t自分のヒーローの攻撃力に等しいダメージを与える。\n\t\t\t내 영웅의 공격력만큼 피해\n\t\t\tZadaj obrażenia równe twojemu atakowi.\n\t\t\tCause dano equivalente ao seu Ataque.\n\t\t\tНанести урон, равный атаке вашего героя.\n\t\t\tสร้างความเสียหาย[b]เท่าพลังโจมตีของคุณ\n\t\t\t造成等同于英雄攻击力的伤害。\n\t\t\t造成等同你攻擊力的傷害\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Jesper Ejsing"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Ungestüme Streiterin"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Savage Striker"
+          },
+          "esES": {
+            "present": true,
+            "value": "Asediadora salvaje"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Atacante salvaje"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Assaillante impitoyable"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Assalitrice Selvaggia"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "獰猛な強襲兵"
+          },
+          "koKR": {
+            "present": true,
+            "value": "야성적인 공격병"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Dzika napastniczka"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Agressora Selvagem"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Дикая наездница"
+          },
+          "thTH": {
+            "present": true,
+            "value": "มือพิฆาตไร้ปรานี"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "野蛮先锋"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "兇蠻打擊者"
+          }
+        },
+        "textContent": "\n\t\tUngestüme Streiterin\n\t\tSavage Striker\n\t\tAsediadora salvaje\n\t\tAtacante salvaje\n\t\tAssaillante impitoyable\n\t\tAssalitrice Selvaggia\n\t\t獰猛な強襲兵\n\t\t야성적인 공격병\n\t\tDzika napastniczka\n\t\tAgressora Selvagem\n\t\tДикая наездница\n\t\tมือพิฆาตไร้ปรานี\n\t\t野蛮先锋\n\t\t兇蠻打擊者\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "[x]<b>Kampfschrei:</b> Fügt einem\nfeindlichen Diener Schaden\nzu, der dem Angriff Eures\nHelden entspricht."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Battlecry:</b> Deal damage to an enemy minion equal to your hero's Attack."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Grito de batalla:</b> Inflige a\nun esbirro enemigo un daño\nequivalente al ataque\nde tu héroe."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> inflige daño a un esbirro enemigo equivalente al Ataque de tu héroe."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> inflige les dégâts de l’ATQ de votre héros à un_serviteur adverse."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b>\ninfligge danni pari\nall'Attacco del tuo eroe\n_a un servitore nemico."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>雄叫び:</b>\n敵のミニオン1体に\n自分のヒーローの\n攻撃力に等しい\n___ダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>전투의 함성:</b>\n적 하수인에게 내 영웅의 공격력만큼 피해를 줍니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b> Zadaj wrogiemu stronnikowi obrażenia równe atakowi twojego bohatera."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b> Cause dano equivalente ao Ataque do seu herói a um lacaio inimigo."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> наносит выбранному существу противника урон, равный атаке вашего героя."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b>_สร้างความเสียหาย[b]เท่าพลังโจมตีของฮีโร่ของคุณ[b]ให้มินเนี่ยนศัตรูหนึ่งตัว"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>对一个敌方随从造成等同于你的英雄攻击力的伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>戰吼：</b>對一個敵方\n手下造成等同你英雄攻擊力的傷害"
+          }
+        },
+        "textContent": "\n\t\t[x]<b>Kampfschrei:</b> Fügt einem\nfeindlichen Diener Schaden\nzu, der dem Angriff Eures\nHelden entspricht.\n\t\t<b>Battlecry:</b> Deal damage to an enemy minion equal to your hero's Attack.\n\t\t[x]<b>Grito de batalla:</b> Inflige a\nun esbirro enemigo un daño\nequivalente al ataque\nde tu héroe.\n\t\t<b>Grito de batalla:</b> inflige daño a un esbirro enemigo equivalente al Ataque de tu héroe.\n\t\t<b>Cri de guerre :</b> inflige les dégâts de l’ATQ de votre héros à un_serviteur adverse.\n\t\t[x]<b>Grido di Battaglia:</b>\ninfligge danni pari\nall'Attacco del tuo eroe\n_a un servitore nemico.\n\t\t[x]<b>雄叫び:</b>\n敵のミニオン1体に\n自分のヒーローの\n攻撃力に等しい\n___ダメージを与える。\n\t\t<b>전투의 함성:</b>\n적 하수인에게 내 영웅의 공격력만큼 피해를 줍니다.\n\t\t<b>Okrzyk bojowy:</b> Zadaj wrogiemu stronnikowi obrażenia równe atakowi twojego bohatera.\n\t\t<b>Grito de Guerra:</b> Cause dano equivalente ao Ataque do seu herói a um lacaio inimigo.\n\t\t<b>Боевой клич:</b> наносит выбранному существу противника урон, равный атаке вашего героя.\n\t\t<b>คำรามสู้ศึก:</b>_สร้างความเสียหาย[b]เท่าพลังโจมตีของฮีโร่ของคุณ[b]ให้มินเนี่ยนศัตรูหนึ่งตัว\n\t\t<b>战吼：</b>对一个敌方随从造成等同于你的英雄攻击力的伤害。\n\t\t<b>戰吼：</b>對一個敵方\n手下造成等同你英雄攻擊力的傷害\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Ihr gehen manchmal die Raptoren etwas durch."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Ruthless at tribal roasts."
+          },
+          "esES": {
+            "present": true,
+            "value": "Lo de salvaje es por bruta, no porque te la encuentres por el campo."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Salvaje como ella sola."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Pas de pitié pour les adversaires !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Ma vale portare i raptor dentro l'arena?"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "敵を強襲して狩る屈強な彼女でも、遠い異国の遠征に駆り出された時には、ふと故郷への郷愁にかられるものなんだ。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "(영웅에게) \"물어!\""
+          },
+          "plPL": {
+            "present": true,
+            "value": "Wkracza do bitwy na imponującym rumaku."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Antes ela era passivo-agressiva. Agora é só agressiva."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Абсолютно необузданная, в отличие от своих подопечных."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ไดโนเสาร์เป็นแค่ชุดเป่าลม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "部族聚餐时尤其野蛮。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "記住，人要比龍兇！"
+          }
+        },
+        "textContent": "\n\t\tIhr gehen manchmal die Raptoren etwas durch.\n\t\tRuthless at tribal roasts.\n\t\tLo de salvaje es por bruta, no porque te la encuentres por el campo.\n\t\tSalvaje como ella sola.\n\t\tPas de pitié pour les adversaires !\n\t\tMa vale portare i raptor dentro l'arena?\n\t\t敵を強襲して狩る屈強な彼女でも、遠い異国の遠征に駆り出された時には、ふと故郷への郷愁にかられるものなんだ。\n\t\t(영웅에게) \"물어!\"\n\t\tWkracza do bitwy na imponującym rumaku.\n\t\tAntes ela era passivo-agressiva. Agora é só agressiva.\n\t\tАбсолютно необузданная, в отличие от своих подопечных.\n\t\tไดโนเสาร์เป็นแค่ชุดเป่าลม\n\t\t部族聚餐时尤其野蛮。\n\t\t記住，人要比龍兇！\n\t"
+      },
+      "325": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Verursacht Schaden, der Eurem Angriff entspricht."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Deal damage equal to your Attack."
+          },
+          "esES": {
+            "present": true,
+            "value": "Inflige un daño\nigual a tu ataque."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Inflige daño equivalente a tu Ataque."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Inflige des dégâts d’un montant égal à votre Attaque."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Infligge danni pari all'Attacco del tuo eroe."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "自分のヒーローの攻撃力に等しいダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "내 영웅의 공격력만큼 피해"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zadaj obrażenia równe twojemu atakowi."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Cause dano equivalente ao seu Ataque."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Нанести урон, равный атаке вашего героя."
+          },
+          "thTH": {
+            "present": true,
+            "value": "สร้างความเสียหาย[b]เท่าพลังโจมตีของคุณ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "造成等同于英雄攻击力的伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "造成等同你攻擊力的傷害"
+          }
+        },
+        "textContent": "\n\t\tVerursacht Schaden, der Eurem Angriff entspricht.\n\t\tDeal damage equal to your Attack.\n\t\tInflige un daño\nigual a tu ataque.\n\t\tInflige daño equivalente a tu Ataque.\n\t\tInflige des dégâts d’un montant égal à votre Attaque.\n\t\tInfligge danni pari all'Attacco del tuo eroe.\n\t\t自分のヒーローの攻撃力に等しいダメージを与える。\n\t\t내 영웅의 공격력만큼 피해\n\t\tZadaj obrażenia równe twojemu atakowi.\n\t\tCause dano equivalente ao seu Ataque.\n\t\tНанести урон, равный атаке вашего героя.\n\t\tสร้างความเสียหาย[b]เท่าพลังโจมตีของคุณ\n\t\t造成等同于英雄攻击力的伤害。\n\t\t造成等同你攻擊力的傷害\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Jesper Ejsing"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "야성적인 공격병",
+      "enUS": "Savage Striker"
+    },
+    "currentPrintedText": {
+      "koKR": "야성적인 공격병",
+      "enUS": "Savage Striker"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_240",
+    "dbfId": 49984,
+    "name": "야성적인 공격병",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>전투의 함성:</b><br></br>적 하수인에게 내 영웅의 공격력만큼 피해를 줍니다.",
+    "attack": 2,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "(영웅에게) \"물어!\"",
+    "spellSchool": "",
+    "portrait": "HS15-007_M.psd:08fd7f79f0859874492faf08b053ac68",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_240.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_240",
+    "dbfId": 49984,
+    "name": "야성적인 공격병",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>전투의 함성:</b><br></br>적 하수인에게 내 영웅의 공격력만큼 피해를 줍니다.",
+    "attack": 2,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "(영웅에게) \"물어!\"",
+    "spellSchool": "",
+    "portrait": "HS15-007_M.psd:08fd7f79f0859874492faf08b053ac68",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_240.png"
+  }
+}

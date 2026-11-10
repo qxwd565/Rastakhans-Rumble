@@ -1,1 +1,796 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_255","dbfId":50044,"name":"쇄도의 포효","type":"SPELL","cardClass":"DRUID","rarity":"EPIC","collectible":true,"cost":6,"text":"내 손에 있는 무작위<br></br>야수를 소환합니다.<br></br>그 야수에게 <b>속공</b>을<br></br>부여합니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"구루바시 투기장은 육식 애완동물도 마음껏 데려올 수 있는 직장이랍니다.","spellSchool":"","portrait":"HS15-109_S.psd:676f75f164a25e142b474b89b8a13183","set":"TROLL","nativeTags":[{"id":48,"name":"마나 비용","value":6},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":2},{"id":201,"name":"진영","value":3},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":4},{"id":251,"name":"게임 태그 251","value":1},{"id":268,"name":"게임 태그 268","value":2},{"id":321,"name":"수집 가능","value":1},{"id":330,"name":"효과 생성 시각 효과","value":0},{"id":331,"name":"효과 지속 시각 효과","value":0},{"id":791,"name":"속공","value":1}],"races":[],"race":"","classes":[],"art":"art/TRL_255.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-109_S.psd:676f75f164a25e142b474b89b8a13183","goldenMaterial":"TRL_255_PremiumCard.mat:f7ea434f83840b34ab3677a23d18f12a","goldenAnimation":"TRL_255_PremiumCard.asset:43ee5347272bb1e4990ecb17a0f3fc2b"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-109_S.psd:676f75f164a25e142b474b89b8a13183",
+        "goldenMaterial": "TRL_255_PremiumCard.mat:f7ea434f83840b34ab3677a23d18f12a",
+        "goldenAnimation": "TRL_255_PremiumCard.asset:43ee5347272bb1e4990ecb17a0f3fc2b"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-109_S.psd:676f75f164a25e142b474b89b8a13183",
+      "goldenMaterial": "TRL_255_PremiumCard.mat:f7ea434f83840b34ab3677a23d18f12a",
+      "goldenAnimation": "TRL_255_PremiumCard.asset:43ee5347272bb1e4990ecb17a0f3fc2b"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "6",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "201": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "251": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "268": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "6",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "201": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "251": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "268": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {
+      "791": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Anstachelndes Gebrüll"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Stampeding Roar"
+          },
+          "esES": {
+            "present": true,
+            "value": "Estruendo de estampida"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Estampida furiosa"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Ruée rugissante"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Ruggito Impetuoso"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "暴走の咆哮"
+          },
+          "koKR": {
+            "present": true,
+            "value": "쇄도의 포효"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Pędząca bestia"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Estouro da Manada"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Тревожный рев"
+          },
+          "thTH": {
+            "present": true,
+            "value": "คำรามอาละวาด"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "狂奔怒吼"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "奔竄咆哮"
+          }
+        },
+        "textContent": "\n\t\t\tAnstachelndes Gebrüll\n\t\t\tStampeding Roar\n\t\t\tEstruendo de estampida\n\t\t\tEstampida furiosa\n\t\t\tRuée rugissante\n\t\t\tRuggito Impetuoso\n\t\t\t暴走の咆哮\n\t\t\t쇄도의 포효\n\t\t\tPędząca bestia\n\t\t\tEstouro da Manada\n\t\t\tТревожный рев\n\t\t\tคำรามอาละวาด\n\t\t\t狂奔怒吼\n\t\t\t奔竄咆哮\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Ruft aus Eurer Hand ein zufälliges Wildtier herbei und verleiht ihm <b>Eifer</b>."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Summon a random Beast from your hand and give it <b>Rush</b>."
+          },
+          "esES": {
+            "present": true,
+            "value": "Invoca una bestia aleatoria de tu mano y le otorga <b>Embestir</b>."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Invoca una Bestia aleatoria de tu mano y le otorga <b>Acometida</b>."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Invoque une Bête aléatoire de votre main et lui confère <b>Ruée</b>."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Evoca una Bestia casuale dalla tua mano e le fornisce <b>Assalto</b>."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]自分の手札から\nランダムな獣を\n1体召喚し、<b>急襲</b>を\n付与する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]내 손에 있는 무작위\n야수를 소환합니다.\n그 야수에게 <b>속공</b>을\n부여합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Przyzwij losową Bestię z_twojej ręki i daj jej <b>Zryw</b>."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Evoque uma Fera aleatória da sua mão e conceda-lhe <b>Rapidez</b>."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Призывает случайного зверя из руки. Он получает <b>«Натиск»</b>."
+          },
+          "thTH": {
+            "present": true,
+            "value": "สุ่มเรียกสัตว์หนึ่งตัว[b]จากมือคุณและมอบ <b>จู่โจม</b> ให้มัน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "随机从你的手牌中召唤一个野兽，并使其获得<b>突袭</b>。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "從你的手中\n召喚一個隨機野獸並賦予它<b>衝刺</b>"
+          }
+        },
+        "textContent": "\n\t\t\tRuft aus Eurer Hand ein zufälliges Wildtier herbei und verleiht ihm <b>Eifer</b>.\n\t\t\tSummon a random Beast from your hand and give it <b>Rush</b>.\n\t\t\tInvoca una bestia aleatoria de tu mano y le otorga <b>Embestir</b>.\n\t\t\tInvoca una Bestia aleatoria de tu mano y le otorga <b>Acometida</b>.\n\t\t\tInvoque une Bête aléatoire de votre main et lui confère <b>Ruée</b>.\n\t\t\tEvoca una Bestia casuale dalla tua mano e le fornisce <b>Assalto</b>.\n\t\t\t[x]自分の手札から\nランダムな獣を\n1体召喚し、<b>急襲</b>を\n付与する。\n\t\t\t[x]내 손에 있는 무작위\n야수를 소환합니다.\n그 야수에게 <b>속공</b>을\n부여합니다.\n\t\t\tPrzyzwij losową Bestię z_twojej ręki i daj jej <b>Zryw</b>.\n\t\t\tEvoque uma Fera aleatória da sua mão e conceda-lhe <b>Rapidez</b>.\n\t\t\tПризывает случайного зверя из руки. Он получает <b>«Натиск»</b>.\n\t\t\tสุ่มเรียกสัตว์หนึ่งตัว[b]จากมือคุณและมอบ <b>จู่โจม</b> ให้มัน\n\t\t\t随机从你的手牌中召唤一个野兽，并使其获得<b>突袭</b>。\n\t\t\t從你的手中\n召喚一個隨機野獸並賦予它<b>衝刺</b>\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Auch Dinos brauchen Auslauf."
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]The Gurubashi Arena has an\nextremely permissive policy on\npets in the workplace."
+          },
+          "esES": {
+            "present": true,
+            "value": "La política de mascotas en la Arena Gurubashi es muy, pero que muy laxa."
+          },
+          "esMX": {
+            "present": true,
+            "value": "La Arena Gurubashi tiene una política extremadamente permisiva respecto a la presencia de mascotas en el ámbito laboral."
+          },
+          "frFR": {
+            "present": true,
+            "value": "L’arène des Gurubashi a une politique extrêmement permissive en matière d’animaux de compagnie sur le lieu de travail."
+          },
+          "itIT": {
+            "present": true,
+            "value": "L'Arena dei Gurubashi ha un regolamento estremamente permissivo per quanto riguarda gli animali domestici nell'ambiente di lavoro."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "グルバシ闘技場は、職場へのペットの同伴についてものすごく寛容である。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "구루바시 투기장은 육식 애완동물도 마음껏 데려올 수 있는 직장이랍니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Na Arenie Gurubaszów akcja „Przyjdź do pracy ze zwierzakiem” odbywa się właściwie codziennie."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "A Arena Gurubashi tem regras extremamente liberais quanto a trazer bichos de estimação para o trabalho."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Покупали морскую свинку, а выросло вот это..."
+          },
+          "thTH": {
+            "present": true,
+            "value": "กูรูบาชิอารีน่าให้อิสระอย่างสุดขั้ว[b]ในการนำสัตว์เลี้ยงมาทำงานด้วย"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "古拉巴什竞技场对员工携宠物上班的要求极为宽松。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "古拉巴什競技場歡迎你帶寵物來「上班」。"
+          }
+        },
+        "textContent": "\n\t\t\tAuch Dinos brauchen Auslauf.\n\t\t\t[x]The Gurubashi Arena has an\nextremely permissive policy on\npets in the workplace.\n\t\t\tLa política de mascotas en la Arena Gurubashi es muy, pero que muy laxa.\n\t\t\tLa Arena Gurubashi tiene una política extremadamente permisiva respecto a la presencia de mascotas en el ámbito laboral.\n\t\t\tL’arène des Gurubashi a une politique extrêmement permissive en matière d’animaux de compagnie sur le lieu de travail.\n\t\t\tL'Arena dei Gurubashi ha un regolamento estremamente permissivo per quanto riguarda gli animali domestici nell'ambiente di lavoro.\n\t\t\tグルバシ闘技場は、職場へのペットの同伴についてものすごく寛容である。\n\t\t\t구루바시 투기장은 육식 애완동물도 마음껏 데려올 수 있는 직장이랍니다.\n\t\t\tNa Arenie Gurubaszów akcja „Przyjdź do pracy ze zwierzakiem” odbywa się właściwie codziennie.\n\t\t\tA Arena Gurubashi tem regras extremamente liberais quanto a trazer bichos de estimação para o trabalho.\n\t\t\tПокупали морскую свинку, а выросло вот это...\n\t\t\tกูรูบาชิอารีน่าให้อิสระอย่างสุดขั้ว[b]ในการนำสัตว์เลี้ยงมาทำงานด้วย\n\t\t\t古拉巴什竞技场对员工携宠物上班的要求极为宽松。\n\t\t\t古拉巴什競技場歡迎你帶寵物來「上班」。\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Andrew Hou"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Anstachelndes Gebrüll"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Stampeding Roar"
+          },
+          "esES": {
+            "present": true,
+            "value": "Estruendo de estampida"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Estampida furiosa"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Ruée rugissante"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Ruggito Impetuoso"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "暴走の咆哮"
+          },
+          "koKR": {
+            "present": true,
+            "value": "쇄도의 포효"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Pędząca bestia"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Estouro da Manada"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Тревожный рев"
+          },
+          "thTH": {
+            "present": true,
+            "value": "คำรามอาละวาด"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "狂奔怒吼"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "奔竄咆哮"
+          }
+        },
+        "textContent": "\n\t\tAnstachelndes Gebrüll\n\t\tStampeding Roar\n\t\tEstruendo de estampida\n\t\tEstampida furiosa\n\t\tRuée rugissante\n\t\tRuggito Impetuoso\n\t\t暴走の咆哮\n\t\t쇄도의 포효\n\t\tPędząca bestia\n\t\tEstouro da Manada\n\t\tТревожный рев\n\t\tคำรามอาละวาด\n\t\t狂奔怒吼\n\t\t奔竄咆哮\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Ruft aus Eurer Hand ein zufälliges Wildtier herbei und verleiht ihm <b>Eifer</b>."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Summon a random Beast from your hand and give it <b>Rush</b>."
+          },
+          "esES": {
+            "present": true,
+            "value": "Invoca una bestia aleatoria de tu mano y le otorga <b>Embestir</b>."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Invoca una Bestia aleatoria de tu mano y le otorga <b>Acometida</b>."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Invoque une Bête aléatoire de votre main et lui confère <b>Ruée</b>."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Evoca una Bestia casuale dalla tua mano e le fornisce <b>Assalto</b>."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]自分の手札から\nランダムな獣を\n1体召喚し、<b>急襲</b>を\n付与する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]내 손에 있는 무작위\n야수를 소환합니다.\n그 야수에게 <b>속공</b>을\n부여합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Przyzwij losową Bestię z_twojej ręki i daj jej <b>Zryw</b>."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Evoque uma Fera aleatória da sua mão e conceda-lhe <b>Rapidez</b>."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Призывает зверя из вашей руки. Он получает <b>«Натиск»</b>."
+          },
+          "thTH": {
+            "present": true,
+            "value": "สุ่มเรียกสัตว์หนึ่งตัว[b]จากมือคุณและมอบ <b>จู่โจม</b> ให้มัน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "随机从你的手牌中召唤一个野兽，并使其获得<b>突袭</b>。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "從你的手中\n召喚一個隨機野獸並賦予它<b>衝刺</b>"
+          }
+        },
+        "textContent": "\n\t\tRuft aus Eurer Hand ein zufälliges Wildtier herbei und verleiht ihm <b>Eifer</b>.\n\t\tSummon a random Beast from your hand and give it <b>Rush</b>.\n\t\tInvoca una bestia aleatoria de tu mano y le otorga <b>Embestir</b>.\n\t\tInvoca una Bestia aleatoria de tu mano y le otorga <b>Acometida</b>.\n\t\tInvoque une Bête aléatoire de votre main et lui confère <b>Ruée</b>.\n\t\tEvoca una Bestia casuale dalla tua mano e le fornisce <b>Assalto</b>.\n\t\t[x]自分の手札から\nランダムな獣を\n1体召喚し、<b>急襲</b>を\n付与する。\n\t\t[x]내 손에 있는 무작위\n야수를 소환합니다.\n그 야수에게 <b>속공</b>을\n부여합니다.\n\t\tPrzyzwij losową Bestię z_twojej ręki i daj jej <b>Zryw</b>.\n\t\tEvoque uma Fera aleatória da sua mão e conceda-lhe <b>Rapidez</b>.\n\t\tПризывает зверя из вашей руки. Он получает <b>«Натиск»</b>.\n\t\tสุ่มเรียกสัตว์หนึ่งตัว[b]จากมือคุณและมอบ <b>จู่โจม</b> ให้มัน\n\t\t随机从你的手牌中召唤一个野兽，并使其获得<b>突袭</b>。\n\t\t從你的手中\n召喚一個隨機野獸並賦予它<b>衝刺</b>\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Auch Dinos brauchen Auslauf."
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]The Gurubashi Arena has an\nextremely permissive policy on\npets in the workplace."
+          },
+          "esES": {
+            "present": true,
+            "value": "La política de mascotas en la Arena Gurubashi es muy, pero que muy laxa."
+          },
+          "esMX": {
+            "present": true,
+            "value": "La Arena Gurubashi tiene una política extremadamente permisiva respecto a la presencia de mascotas en el ámbito laboral."
+          },
+          "frFR": {
+            "present": true,
+            "value": "L’arène des Gurubashi a une politique extrêmement permissive en matière d’animaux de compagnie sur le lieu de travail."
+          },
+          "itIT": {
+            "present": true,
+            "value": "L'Arena dei Gurubashi ha un regolamento estremamente permissivo per quanto riguarda gli animali domestici nell'ambiente di lavoro."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "グルバシ闘技場は、職場へのペットの同伴についてものすごく寛容である。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "구루바시 투기장은 육식 애완동물도 마음껏 데려올 수 있는 직장이랍니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Na Arenie Gurubaszów akcja „Przyjdź do pracy ze zwierzakiem” odbywa się właściwie codziennie."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "A Arena Gurubashi tem regras extremamente liberais quanto a trazer bichos de estimação para o trabalho."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Покупали морскую свинку, а выросло вот это..."
+          },
+          "thTH": {
+            "present": true,
+            "value": "กูรูบาชิอารีน่าให้อิสระอย่างสุดขั้ว[b]ในการนำสัตว์เลี้ยงมาทำงานด้วย"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "古拉巴什竞技场对员工携宠物上班的要求极为宽松。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "古拉巴什競技場歡迎你帶寵物來「上班」。"
+          }
+        },
+        "textContent": "\n\t\tAuch Dinos brauchen Auslauf.\n\t\t[x]The Gurubashi Arena has an\nextremely permissive policy on\npets in the workplace.\n\t\tLa política de mascotas en la Arena Gurubashi es muy, pero que muy laxa.\n\t\tLa Arena Gurubashi tiene una política extremadamente permisiva respecto a la presencia de mascotas en el ámbito laboral.\n\t\tL’arène des Gurubashi a une politique extrêmement permissive en matière d’animaux de compagnie sur le lieu de travail.\n\t\tL'Arena dei Gurubashi ha un regolamento estremamente permissivo per quanto riguarda gli animali domestici nell'ambiente di lavoro.\n\t\tグルバシ闘技場は、職場へのペットの同伴についてものすごく寛容である。\n\t\t구루바시 투기장은 육식 애완동물도 마음껏 데려올 수 있는 직장이랍니다.\n\t\tNa Arenie Gurubaszów akcja „Przyjdź do pracy ze zwierzakiem” odbywa się właściwie codziennie.\n\t\tA Arena Gurubashi tem regras extremamente liberais quanto a trazer bichos de estimação para o trabalho.\n\t\tПокупали морскую свинку, а выросло вот это...\n\t\tกูรูบาชิอารีน่าให้อิสระอย่างสุดขั้ว[b]ในการนำสัตว์เลี้ยงมาทำงานด้วย\n\t\t古拉巴什竞技场对员工携宠物上班的要求极为宽松。\n\t\t古拉巴什競技場歡迎你帶寵物來「上班」。\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Andrew Hou"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "쇄도의 포효",
+      "enUS": "Stampeding Roar"
+    },
+    "currentPrintedText": {
+      "koKR": "쇄도의 포효",
+      "enUS": "Stampeding Roar"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_255",
+    "dbfId": 50044,
+    "name": "쇄도의 포효",
+    "type": "SPELL",
+    "cardClass": "DRUID",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 6,
+    "text": "내 손에 있는 무작위<br></br>야수를 소환합니다.<br></br>그 야수에게 <b>속공</b>을<br></br>부여합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "구루바시 투기장은 육식 애완동물도 마음껏 데려올 수 있는 직장이랍니다.",
+    "spellSchool": "",
+    "portrait": "HS15-109_S.psd:676f75f164a25e142b474b89b8a13183",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 268,
+        "name": "게임 태그 268",
+        "value": 2
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_255.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_255",
+    "dbfId": 50044,
+    "name": "쇄도의 포효",
+    "type": "SPELL",
+    "cardClass": "DRUID",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 6,
+    "text": "내 손에 있는 무작위<br></br>야수를 소환합니다.<br></br>그 야수에게 <b>속공</b>을<br></br>부여합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "구루바시 투기장은 육식 애완동물도 마음껏 데려올 수 있는 직장이랍니다.",
+    "spellSchool": "",
+    "portrait": "HS15-109_S.psd:676f75f164a25e142b474b89b8a13183",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 268,
+        "name": "게임 태그 268",
+        "value": 2
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_255.png"
+  }
+}

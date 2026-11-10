@@ -1,1 +1,771 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_308","dbfId":50126,"name":"대사제 데칼","type":"MINION","cardClass":"PALADIN","rarity":"LEGENDARY","collectible":true,"cost":3,"text":"<b>전투의 함성:</b> 내 영웅의 생명력을 1로 만듭니다. 감소한 생명력만큼 방어도를 얻습니다.","attack":3,"health":4,"durability":0,"armor":0,"flavor":"\"...그러다가 생명력이 딱 1 남았는데 이겼다니까!\"","spellSchool":"","portrait":"HS15-154_M.psd:bd3615d7f008549419c755bedf760aed","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":3},{"id":114,"name":"전설 속성","value":1},{"id":199,"name":"직업","value":5},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":5},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/TRL_308.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-154_M.psd:bd3615d7f008549419c755bedf760aed","goldenMaterial":"TRL_308_PremiumCard.mat:e4cf7b4bedb69674bbe384af028255c3","goldenAnimation":"TRL_308_PremiumCard.asset:37bf1f7ba25729e40a7a462d1af36bef"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-154_M.psd:bd3615d7f008549419c755bedf760aed",
+        "goldenMaterial": "TRL_308_PremiumCard.mat:e4cf7b4bedb69674bbe384af028255c3",
+        "goldenAnimation": "TRL_308_PremiumCard.asset:37bf1f7ba25729e40a7a462d1af36bef"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-154_M.psd:bd3615d7f008549419c755bedf760aed",
+      "goldenMaterial": "TRL_308_PremiumCard.mat:e4cf7b4bedb69674bbe384af028255c3",
+      "goldenAnimation": "TRL_308_PremiumCard.asset:37bf1f7ba25729e40a7a462d1af36bef"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "114": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "114": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Hohepriester Thekal"
+          },
+          "enUS": {
+            "present": true,
+            "value": "High Priest Thekal"
+          },
+          "esES": {
+            "present": true,
+            "value": "Sumo sacerdote Thekal"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Sumo sacerdote Thekal"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Grand prêtre Thekal"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Gran Sacerdote Thekal"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "大祭司ジカール"
+          },
+          "koKR": {
+            "present": true,
+            "value": "대사제 데칼"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Wielki Kapłan Tekal"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Sumo Sacerdote Thekal"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Верховный жрец Текал"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ไฮพรีสต์ธีคัล"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "高阶祭司塞卡尔"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "高階祭司塞卡爾"
+          }
+        },
+        "textContent": "\n\t\t\tHohepriester Thekal\n\t\t\tHigh Priest Thekal\n\t\t\tSumo sacerdote Thekal\n\t\t\tSumo sacerdote Thekal\n\t\t\tGrand prêtre Thekal\n\t\t\tGran Sacerdote Thekal\n\t\t\t大祭司ジカール\n\t\t\t대사제 데칼\n\t\t\tWielki Kapłan Tekal\n\t\t\tSumo Sacerdote Thekal\n\t\t\tВерховный жрец Текал\n\t\t\tไฮพรีสต์ธีคัล\n\t\t\t高阶祭司塞卡尔\n\t\t\t高階祭司塞卡爾\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Kampfschrei:</b> Wandelt\nbei Eurem Helden alles Leben bis auf eins\nin Rüstung um."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Battlecry:</b> Convert all but 1_of your Hero's Health into Armor."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Grito de batalla:</b>\nConvierte en armadura\ntoda la salud de tu héroe\nmenos 1 p."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> convierte todos los puntos de Salud de tu héroe, menos 1, en Armadura."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> convertit\ntous les points de vie de votre héros sauf 1 en armure."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b>\nconverte la Salute del\ntuo eroe, tranne un\npunto, in Armatura."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>雄叫び:</b>\n自分のヒーローの体力を\n1残し、残りを全て\n装甲に変換する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>전투의 함성:</b> 내 영웅의 생명력을 1로 만듭니다. 감소한 생명력만큼 방어도를 얻습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "[x]<b>Okrzyk bojowy:</b>\nPrzekształć w pancerz\ncałe zdrowie twojego\nbohatera poza 1 pkt."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b> Converta toda a Vida do seu herói, exceto 1 ponto, \nem Armadura."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> превращает все здоровье вашего героя, кроме последней единицы, в броню."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b>\nเปลี่ยนพลังชีวิตทั้งหมดของ[b]ฮีโร่ของคุณเป็นเกราะโดย[b]เหลือพลังชีวิตไว้_1_แต้ม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>保留英雄的1点生命值，将其余部分转化为护甲值。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>戰吼：</b>保留你的英雄\n1點生命值，其餘全部轉換為護甲值"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Kampfschrei:</b> Wandelt\nbei Eurem Helden alles Leben bis auf eins\nin Rüstung um.\n\t\t\t<b>Battlecry:</b> Convert all but 1_of your Hero's Health into Armor.\n\t\t\t[x]<b>Grito de batalla:</b>\nConvierte en armadura\ntoda la salud de tu héroe\nmenos 1 p.\n\t\t\t<b>Grito de batalla:</b> convierte todos los puntos de Salud de tu héroe, menos 1, en Armadura.\n\t\t\t<b>Cri de guerre :</b> convertit\ntous les points de vie de votre héros sauf 1 en armure.\n\t\t\t[x]<b>Grido di Battaglia:</b>\nconverte la Salute del\ntuo eroe, tranne un\npunto, in Armatura.\n\t\t\t[x]<b>雄叫び:</b>\n自分のヒーローの体力を\n1残し、残りを全て\n装甲に変換する。\n\t\t\t<b>전투의 함성:</b> 내 영웅의 생명력을 1로 만듭니다. 감소한 생명력만큼 방어도를 얻습니다.\n\t\t\t[x]<b>Okrzyk bojowy:</b>\nPrzekształć w pancerz\ncałe zdrowie twojego\nbohatera poza 1 pkt.\n\t\t\t<b>Grito de Guerra:</b> Converta toda a Vida do seu herói, exceto 1 ponto, \nem Armadura.\n\t\t\t<b>Боевой клич:</b> превращает все здоровье вашего героя, кроме последней единицы, в броню.\n\t\t\t<b>คำรามสู้ศึก:</b>\nเปลี่ยนพลังชีวิตทั้งหมดของ[b]ฮีโร่ของคุณเป็นเกราะโดย[b]เหลือพลังชีวิตไว้_1_แต้ม\n\t\t\t<b>战吼：</b>保留英雄的1点生命值，将其余部分转化为护甲值。\n\t\t\t<b>戰吼：</b>保留你的英雄\n1點生命值，其餘全部轉換為護甲值\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "„..._und dabei hatte ich die ganze Zeit nur 1 Leben.“"
+          },
+          "enUS": {
+            "present": true,
+            "value": "\"…and then I beat him with 1 Health!\""
+          },
+          "esES": {
+            "present": true,
+            "value": "¿Te falta Thekal?"
+          },
+          "esMX": {
+            "present": true,
+            "value": "\"…¡y después lo golpeé cuando me quedaba 1 de Salud!\""
+          },
+          "frFR": {
+            "present": true,
+            "value": "« … Je l’ai vaincu alors qu’il me restait plus que 1_PV ! »"
+          },
+          "itIT": {
+            "present": true,
+            "value": "\"...e poi l'ho sconfitto con solo 1 Salute!\""
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「…で、俺が勝ったわけっスよ～、残り体力1からの大・大・逆転勝利っス！」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "\"...그러다가 생명력이 딱 1 남았는데 이겼다니까!\""
+          },
+          "plPL": {
+            "present": true,
+            "value": "„... i tak oto udało mi się wygrać, ledwo utrzymując się przy życiu!”."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "\"... e aí eu ganhei com 1 de Vida!\""
+          },
+          "ruRU": {
+            "present": true,
+            "value": "«Или ты выживешь, или одно из двух»."
+          },
+          "thTH": {
+            "present": true,
+            "value": "\"...แล้วข้าก็ชนะทั้งที่[b]เหลือพลังชีวิตแค่ 1 แต้ม!\""
+          },
+          "zhCN": {
+            "present": true,
+            "value": "“一血反杀，啧啧，真刺激！”"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "「…我打敗他的時候只剩一點生命值，真是太驚險了！」"
+          }
+        },
+        "textContent": "\n\t\t\t„..._und dabei hatte ich die ganze Zeit nur 1 Leben.“\n\t\t\t\"…and then I beat him with 1 Health!\"\n\t\t\t¿Te falta Thekal?\n\t\t\t\"…¡y después lo golpeé cuando me quedaba 1 de Salud!\"\n\t\t\t« … Je l’ai vaincu alors qu’il me restait plus que 1_PV ! »\n\t\t\t\"...e poi l'ho sconfitto con solo 1 Salute!\"\n\t\t\t「…で、俺が勝ったわけっスよ～、残り体力1からの大・大・逆転勝利っス！」\n\t\t\t\"...그러다가 생명력이 딱 1 남았는데 이겼다니까!\"\n\t\t\t„... i tak oto udało mi się wygrać, ledwo utrzymując się przy życiu!”.\n\t\t\t\"... e aí eu ganhei com 1 de Vida!\"\n\t\t\t«Или ты выживешь, или одно из двух».\n\t\t\t\"...แล้วข้าก็ชนะทั้งที่[b]เหลือพลังชีวิตแค่ 1 แต้ม!\"\n\t\t\t“一血反杀，啧啧，真刺激！”\n\t\t\t「…我打敗他的時候只剩一點生命值，真是太驚險了！」\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "James Ryman"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Hohepriester Thekal"
+          },
+          "enUS": {
+            "present": true,
+            "value": "High Priest Thekal"
+          },
+          "esES": {
+            "present": true,
+            "value": "Sumo sacerdote Thekal"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Sumo sacerdote Thekal"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Grand prêtre Thekal"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Gran Sacerdote Thekal"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "大祭司ジカール"
+          },
+          "koKR": {
+            "present": true,
+            "value": "대사제 데칼"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Wielki Kapłan Tekal"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Sumo Sacerdote Thekal"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Верховный жрец Текал"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ไฮพรีสต์ธีคัล"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "高阶祭司塞卡尔"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "高階祭司塞卡爾"
+          }
+        },
+        "textContent": "\n\t\tHohepriester Thekal\n\t\tHigh Priest Thekal\n\t\tSumo sacerdote Thekal\n\t\tSumo sacerdote Thekal\n\t\tGrand prêtre Thekal\n\t\tGran Sacerdote Thekal\n\t\t大祭司ジカール\n\t\t대사제 데칼\n\t\tWielki Kapłan Tekal\n\t\tSumo Sacerdote Thekal\n\t\tВерховный жрец Текал\n\t\tไฮพรีสต์ธีคัล\n\t\t高阶祭司塞卡尔\n\t\t高階祭司塞卡爾\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Kampfschrei:</b> Wandelt\nbei Eurem Helden alles Leben bis auf eins\nin Rüstung um."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Battlecry:</b> Convert all but 1_of your Hero's Health into Armor."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Grito de batalla:</b>\nConvierte en armadura\ntoda la salud de tu héroe\nmenos 1 p."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> convierte todos los puntos de Salud de tu héroe, menos 1, en Armadura."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> convertit\ntous les points de vie de votre héros sauf 1 en armure."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b>\nconverte la Salute del\ntuo eroe, tranne un\npunto, in Armatura."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>雄叫び:</b>\n自分のヒーローの体力を\n1残し、残りを全て\n装甲に変換する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>전투의 함성:</b> 내 영웅의 생명력을 1로 만듭니다. 감소한 생명력만큼 방어도를 얻습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "[x]<b>Okrzyk bojowy:</b>\nPrzekształć w pancerz\ncałe zdrowie twojego\nbohatera poza 1 pkt."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b> Converta toda a Vida do seu herói, exceto 1 ponto, \nem Armadura."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> превращает все здоровье вашего героя, кроме последней единицы, в броню."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b>\nเปลี่ยนพลังชีวิตทั้งหมดของ[b]ฮีโร่ของคุณเป็นเกราะโดย[b]เหลือพลังชีวิตไว้_1_แต้ม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>保留英雄的1点生命值，将其余部分转化为护甲值。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>戰吼：</b>保留你的英雄\n1點生命值，其餘全部轉換為護甲值"
+          }
+        },
+        "textContent": "\n\t\t<b>Kampfschrei:</b> Wandelt\nbei Eurem Helden alles Leben bis auf eins\nin Rüstung um.\n\t\t<b>Battlecry:</b> Convert all but 1_of your Hero's Health into Armor.\n\t\t[x]<b>Grito de batalla:</b>\nConvierte en armadura\ntoda la salud de tu héroe\nmenos 1 p.\n\t\t<b>Grito de batalla:</b> convierte todos los puntos de Salud de tu héroe, menos 1, en Armadura.\n\t\t<b>Cri de guerre :</b> convertit\ntous les points de vie de votre héros sauf 1 en armure.\n\t\t[x]<b>Grido di Battaglia:</b>\nconverte la Salute del\ntuo eroe, tranne un\npunto, in Armatura.\n\t\t[x]<b>雄叫び:</b>\n自分のヒーローの体力を\n1残し、残りを全て\n装甲に変換する。\n\t\t<b>전투의 함성:</b> 내 영웅의 생명력을 1로 만듭니다. 감소한 생명력만큼 방어도를 얻습니다.\n\t\t[x]<b>Okrzyk bojowy:</b>\nPrzekształć w pancerz\ncałe zdrowie twojego\nbohatera poza 1 pkt.\n\t\t<b>Grito de Guerra:</b> Converta toda a Vida do seu herói, exceto 1 ponto, \nem Armadura.\n\t\t<b>Боевой клич:</b> превращает все здоровье вашего героя, кроме последней единицы, в броню.\n\t\t<b>คำรามสู้ศึก:</b>\nเปลี่ยนพลังชีวิตทั้งหมดของ[b]ฮีโร่ของคุณเป็นเกราะโดย[b]เหลือพลังชีวิตไว้_1_แต้ม\n\t\t<b>战吼：</b>保留英雄的1点生命值，将其余部分转化为护甲值。\n\t\t<b>戰吼：</b>保留你的英雄\n1點生命值，其餘全部轉換為護甲值\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "„..._und dabei hatte ich die ganze Zeit nur 1 Leben.“"
+          },
+          "enUS": {
+            "present": true,
+            "value": "\"…and then I beat him with 1 Health!\""
+          },
+          "esES": {
+            "present": true,
+            "value": "¿Te falta Thekal?"
+          },
+          "esMX": {
+            "present": true,
+            "value": "\"…¡y después lo golpeé cuando me quedaba 1 de Salud!\""
+          },
+          "frFR": {
+            "present": true,
+            "value": "« … Je l’ai vaincu alors qu’il me restait plus que 1_PV ! »"
+          },
+          "itIT": {
+            "present": true,
+            "value": "\"...e poi l'ho sconfitto con solo 1 Salute!\""
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「…で、俺が勝ったわけっスよ～、残り体力1からの大・大・逆転勝利っス！」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "\"...그러다가 생명력이 딱 1 남았는데 이겼다니까!\""
+          },
+          "plPL": {
+            "present": true,
+            "value": "„... i tak oto udało mi się wygrać, ledwo utrzymując się przy życiu!”."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "\"... e aí eu ganhei com 1 de Vida!\""
+          },
+          "ruRU": {
+            "present": true,
+            "value": "«Или ты выживешь, или одно из двух»."
+          },
+          "thTH": {
+            "present": true,
+            "value": "\"...แล้วข้าก็ชนะทั้งที่[b]เหลือพลังชีวิตแค่ 1 แต้ม!\""
+          },
+          "zhCN": {
+            "present": true,
+            "value": "“一血反杀，啧啧，真刺激！”"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "「…我打敗他的時候只剩一點生命值，真是太驚險了！」"
+          }
+        },
+        "textContent": "\n\t\t„..._und dabei hatte ich die ganze Zeit nur 1 Leben.“\n\t\t\"…and then I beat him with 1 Health!\"\n\t\t¿Te falta Thekal?\n\t\t\"…¡y después lo golpeé cuando me quedaba 1 de Salud!\"\n\t\t« … Je l’ai vaincu alors qu’il me restait plus que 1_PV ! »\n\t\t\"...e poi l'ho sconfitto con solo 1 Salute!\"\n\t\t「…で、俺が勝ったわけっスよ～、残り体力1からの大・大・逆転勝利っス！」\n\t\t\"...그러다가 생명력이 딱 1 남았는데 이겼다니까!\"\n\t\t„... i tak oto udało mi się wygrać, ledwo utrzymując się przy życiu!”.\n\t\t\"... e aí eu ganhei com 1 de Vida!\"\n\t\t«Или ты выживешь, или одно из двух».\n\t\t\"...แล้วข้าก็ชนะทั้งที่[b]เหลือพลังชีวิตแค่ 1 แต้ม!\"\n\t\t“一血反杀，啧啧，真刺激！”\n\t\t「…我打敗他的時候只剩一點生命值，真是太驚險了！」\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "James Ryman"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "대사제 데칼",
+      "enUS": "High Priest Thekal"
+    },
+    "currentPrintedText": {
+      "koKR": "대사제 데칼",
+      "enUS": "High Priest Thekal"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_308",
+    "dbfId": 50126,
+    "name": "대사제 데칼",
+    "type": "MINION",
+    "cardClass": "PALADIN",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>전투의 함성:</b> 내 영웅의 생명력을 1로 만듭니다. 감소한 생명력만큼 방어도를 얻습니다.",
+    "attack": 3,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"...그러다가 생명력이 딱 1 남았는데 이겼다니까!\"",
+    "spellSchool": "",
+    "portrait": "HS15-154_M.psd:bd3615d7f008549419c755bedf760aed",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_308.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_308",
+    "dbfId": 50126,
+    "name": "대사제 데칼",
+    "type": "MINION",
+    "cardClass": "PALADIN",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>전투의 함성:</b> 내 영웅의 생명력을 1로 만듭니다. 감소한 생명력만큼 방어도를 얻습니다.",
+    "attack": 3,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"...그러다가 생명력이 딱 1 남았는데 이겼다니까!\"",
+    "spellSchool": "",
+    "portrait": "HS15-154_M.psd:bd3615d7f008549419c755bedf760aed",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_308.png"
+  }
+}

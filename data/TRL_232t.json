@@ -1,1 +1,459 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_232t","dbfId":50359,"name":"새끼 무쇠가죽 공포뿔","type":"MINION","cardClass":"DRUID","collectible":false,"cost":5,"text":"","attack":5,"health":5,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS15-010_M.psd:a93471eeda59bc74b987bac7003d3a62","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":5},{"id":47,"name":"공격력","value":5},{"id":48,"name":"마나 비용","value":5},{"id":199,"name":"직업","value":2},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":1440,"name":"선술집 단계","value":1}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/TRL_232t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-010_M.psd:a93471eeda59bc74b987bac7003d3a62","goldenMaterial":"TRL_232t_PremiumCard.mat:a9a8527a6aeb4054c8b5f1650f9d1156","goldenAnimation":"TRL_232t_PremiumCard.asset:040ac2f216fcbbe4ab0e7291cddb5747"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "estimated",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-010_M.psd:a93471eeda59bc74b987bac7003d3a62",
+        "goldenMaterial": "TRL_232t_PremiumCard.mat:a9a8527a6aeb4054c8b5f1650f9d1156",
+        "goldenAnimation": "TRL_232t_PremiumCard.asset:040ac2f216fcbbe4ab0e7291cddb5747"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-010_M.psd:a93471eeda59bc74b987bac7003d3a62",
+      "goldenMaterial": "TRL_232t_PremiumCard.mat:a9a8527a6aeb4054c8b5f1650f9d1156",
+      "goldenAnimation": "TRL_232t_PremiumCard.asset:040ac2f216fcbbe4ab0e7291cddb5747"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "20",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "20",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "1440": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Eisenhautjunges"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Ironhide Runt"
+          },
+          "esES": {
+            "present": true,
+            "value": "Pielférrea enano"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Cría pielférrea"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Rejeton cuiracier"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Cucciolo Pelleferrea"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "アイアンハイドのチビ"
+          },
+          "koKR": {
+            "present": true,
+            "value": "새끼 무쇠가죽 공포뿔"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Żelaznoskóre pisklę"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Couro-de-Ferro Nanico"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Толстокожий дикорожек"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ไดร์ฮอร์นตัวจิ๋ว"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "铁皮小恐龙"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "鐵皮小恐角龍"
+          }
+        },
+        "textContent": "\n\t\t\tEisenhautjunges\n\t\t\tIronhide Runt\n\t\t\tPielférrea enano\n\t\t\tCría pielférrea\n\t\t\tRejeton cuiracier\n\t\t\tCucciolo Pelleferrea\n\t\t\tアイアンハイドのチビ\n\t\t\t새끼 무쇠가죽 공포뿔\n\t\t\tŻelaznoskóre pisklę\n\t\t\tCouro-de-Ferro Nanico\n\t\t\tТолстокожий дикорожек\n\t\t\tไดร์ฮอร์นตัวจิ๋ว\n\t\t\t铁皮小恐龙\n\t\t\t鐵皮小恐角龍\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Luca Zontini"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Eisenhautjunges"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Ironhide Runt"
+          },
+          "esES": {
+            "present": true,
+            "value": "Pielférrea enano"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Cría pielférrea"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Rejeton cuiracier"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Cucciolo Pelleferrea"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "アイアンハイドのチビ"
+          },
+          "koKR": {
+            "present": true,
+            "value": "새끼 무쇠가죽 공포뿔"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Żelaznoskóre pisklę"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Couro-de-Ferro Nanico"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Толстокожий дикорожек"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ไดร์ฮอร์นตัวจิ๋ว"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "铁皮小恐龙"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "鐵皮小恐角龍"
+          }
+        },
+        "textContent": "\n\t\tEisenhautjunges\n\t\tIronhide Runt\n\t\tPielférrea enano\n\t\tCría pielférrea\n\t\tRejeton cuiracier\n\t\tCucciolo Pelleferrea\n\t\tアイアンハイドのチビ\n\t\t새끼 무쇠가죽 공포뿔\n\t\tŻelaznoskóre pisklę\n\t\tCouro-de-Ferro Nanico\n\t\tТолстокожий дикорожек\n\t\tไดร์ฮอร์นตัวจิ๋ว\n\t\t铁皮小恐龙\n\t\t鐵皮小恐角龍\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Luca Zontini"
+      }
+    },
+    "undatedRawTagTransitions": [
+      {
+        "build": 35747,
+        "id": "TRL_232t",
+        "dbfId": 50359,
+        "name": "새끼 무쇠가죽 공포뿔",
+        "rawDiff": {
+          "1440": [
+            "ABSENT",
+            "1"
+          ]
+        },
+        "tagNames": {
+          "1440": "1"
+        },
+        "decision": "native_bookkeeping_or_other_mode_not_balance",
+        "relatedFindings": [],
+        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/dc7133a2a1bcec082f69d4dc465625f45bba5e18/CardDefs.xml"
+      }
+    ],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "새끼 무쇠가죽 공포뿔",
+      "enUS": "Ironhide Runt"
+    },
+    "currentPrintedText": {
+      "koKR": "새끼 무쇠가죽 공포뿔",
+      "enUS": "Ironhide Runt"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_232t",
+    "dbfId": 50359,
+    "name": "새끼 무쇠가죽 공포뿔",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "collectible": false,
+    "cost": 5,
+    "text": "",
+    "attack": 5,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS15-010_M.psd:a93471eeda59bc74b987bac7003d3a62",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 1440,
+        "name": "선술집 단계",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/TRL_232t.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_232t",
+    "dbfId": 50359,
+    "name": "새끼 무쇠가죽 공포뿔",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "collectible": false,
+    "cost": 5,
+    "text": "",
+    "attack": 5,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS15-010_M.psd:a93471eeda59bc74b987bac7003d3a62",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 1440,
+        "name": "선술집 단계",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/TRL_232t.png"
+  }
+}

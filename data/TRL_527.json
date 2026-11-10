@@ -1,1 +1,759 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_527","dbfId":50414,"name":"드라카리 요술사","type":"MINION","cardClass":"NEUTRAL","rarity":"EPIC","collectible":true,"cost":3,"text":"<b>전투의 함성:</b> 각 플레이어가 상대편의 덱에서 무작위 카드를 복사하여 손으로 가져옵니다.","attack":3,"health":4,"durability":0,"armor":0,"flavor":"방패 밀쳐내기와 토템의 힘을 뽑고 서로 난처해하는 모습이다.","spellSchool":"","portrait":"HS15-170_M.psd:62340415ee6142c41b28aba2f0f7da8a","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":3},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":4},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/TRL_527.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-170_M.psd:62340415ee6142c41b28aba2f0f7da8a","goldenMaterial":"TRL_527_PremiumCard.mat:0f0eec5ee52f42b46939d529de1c951e","goldenAnimation":"TRL_527_PremiumCard.asset:77510b9bca9d1b14cbe34d0bc89f08c4"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-170_M.psd:62340415ee6142c41b28aba2f0f7da8a",
+        "goldenMaterial": "TRL_527_PremiumCard.mat:0f0eec5ee52f42b46939d529de1c951e",
+        "goldenAnimation": "TRL_527_PremiumCard.asset:77510b9bca9d1b14cbe34d0bc89f08c4"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-170_M.psd:62340415ee6142c41b28aba2f0f7da8a",
+      "goldenMaterial": "TRL_527_PremiumCard.mat:0f0eec5ee52f42b46939d529de1c951e",
+      "goldenAnimation": "TRL_527_PremiumCard.asset:77510b9bca9d1b14cbe34d0bc89f08c4"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Trickdieb der Drakkari"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Drakkari Trickster"
+          },
+          "esES": {
+            "present": true,
+            "value": "Tramposo Drakkari"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Tramposo drakkari"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Entourloupeur drakkari"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Prestigiatore Drakkari"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ドラッカリのトリックスター"
+          },
+          "koKR": {
+            "present": true,
+            "value": "드라카리 요술사"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Szachraj z Drakkarów"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Trapaceiro Drakkari"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Плут Драккари"
+          },
+          "thTH": {
+            "present": true,
+            "value": "นักมายากลดราคคาริ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "达卡莱幻术师"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "德拉克瑞欺詐者"
+          }
+        },
+        "textContent": "\n\t\t\tTrickdieb der Drakkari\n\t\t\tDrakkari Trickster\n\t\t\tTramposo Drakkari\n\t\t\tTramposo drakkari\n\t\t\tEntourloupeur drakkari\n\t\t\tPrestigiatore Drakkari\n\t\t\tドラッカリのトリックスター\n\t\t\t드라카리 요술사\n\t\t\tSzachraj z Drakkarów\n\t\t\tTrapaceiro Drakkari\n\t\t\tПлут Драккари\n\t\t\tนักมายากลดราคคาริ\n\t\t\t达卡莱幻术师\n\t\t\t德拉克瑞欺詐者\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "[x]<b>Kampfschrei:</b> Jeder Spieler\nerhält eine Kopie einer\nzufälligen Karte aus dem\nDeck seines Gegners."
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]<b>Battlecry:</b> Give each player a\ncopy of a random card from\ntheir opponent's deck."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Grito de batalla:</b>\nOtorga a cada jugador\nuna copia de una carta aleatoria\ndel mazo de su oponente."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> otorga a cada jugador una copia de una carta aleatoria del mazo de su adversario."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> donne à chaque joueur une copie d’une carte aléatoire du deck de leur adversaire."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b> fornisce\na entrambi i giocatori una\ncopia di una carta casuale dal\nmazzo dell'avversario."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "<b>雄叫び:</b>\n各プレイヤーは\n相手のデッキから\nランダムなカードの\n__コピーを1枚得る。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>전투의 함성:</b> 각 플레이어가 상대편의 덱에서 무작위 카드를 복사하여 손으로 가져옵니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b>\nDaj każdemu graczowi kopię losowej karty z talii przeciwnika."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b> Conceda a cada jogador uma cópia de um card aleatório do deck do oponente dele."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> каждый игрок получает копию случайной карты из колоды противника."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b> ผู้เล่นแต่ละคน[b]ได้รับก๊อปปี้ของการ์ดหนึ่งใบ[b]ที่สุ่มจากเด็คของอีกฝ่าย"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>使双方玩家各随机获得一张对方牌库中的卡牌的复制。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>戰吼：</b>給雙方一張\n從對手牌堆中複製的隨機卡牌"
+          }
+        },
+        "textContent": "\n\t\t\t[x]<b>Kampfschrei:</b> Jeder Spieler\nerhält eine Kopie einer\nzufälligen Karte aus dem\nDeck seines Gegners.\n\t\t\t[x]<b>Battlecry:</b> Give each player a\ncopy of a random card from\ntheir opponent's deck.\n\t\t\t[x]<b>Grito de batalla:</b>\nOtorga a cada jugador\nuna copia de una carta aleatoria\ndel mazo de su oponente.\n\t\t\t<b>Grito de batalla:</b> otorga a cada jugador una copia de una carta aleatoria del mazo de su adversario.\n\t\t\t<b>Cri de guerre :</b> donne à chaque joueur une copie d’une carte aléatoire du deck de leur adversaire.\n\t\t\t[x]<b>Grido di Battaglia:</b> fornisce\na entrambi i giocatori una\ncopia di una carta casuale dal\nmazzo dell'avversario.\n\t\t\t<b>雄叫び:</b>\n各プレイヤーは\n相手のデッキから\nランダムなカードの\n__コピーを1枚得る。\n\t\t\t<b>전투의 함성:</b> 각 플레이어가 상대편의 덱에서 무작위 카드를 복사하여 손으로 가져옵니다.\n\t\t\t<b>Okrzyk bojowy:</b>\nDaj każdemu graczowi kopię losowej karty z talii przeciwnika.\n\t\t\t<b>Grito de Guerra:</b> Conceda a cada jogador uma cópia de um card aleatório do deck do oponente dele.\n\t\t\t<b>Боевой клич:</b> каждый игрок получает копию случайной карты из колоды противника.\n\t\t\t<b>คำรามสู้ศึก:</b> ผู้เล่นแต่ละคน[b]ได้รับก๊อปปี้ของการ์ดหนึ่งใบ[b]ที่สุ่มจากเด็คของอีกฝ่าย\n\t\t\t<b>战吼：</b>使双方玩家各随机获得一张对方牌库中的卡牌的复制。\n\t\t\t<b>戰吼：</b>給雙方一張\n從對手牌堆中複製的隨機卡牌\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Perfekt für jede Party. Unterhält Eure Gäste und erleichtert sie gleichzeitig um ihre Wertsachen."
+          },
+          "enUS": {
+            "present": true,
+            "value": "“It’s an <i>illusion</i>, Malacrass!”"
+          },
+          "esES": {
+            "present": true,
+            "value": "«¡Es una <i>ilusión</i>, Malacrass!»."
+          },
+          "esMX": {
+            "present": true,
+            "value": "“¡Es una <i>ilusióóóóón</i>!”"
+          },
+          "frFR": {
+            "present": true,
+            "value": "« C’est une <i>illusion</i>, Malacrass ! »"
+          },
+          "itIT": {
+            "present": true,
+            "value": "\"Si chiama ILLUSIONE, Malacrass!\""
+          },
+          "jaJP": {
+            "present": true,
+            "value": "こうして「ドラッカリ・トロル」は闘技場のスター選手にあこがれるよりも……\n『トリック・スター』にあこがれるようになったのだ！"
+          },
+          "koKR": {
+            "present": true,
+            "value": "방패 밀쳐내기와 토템의 힘을 뽑고 서로 난처해하는 모습이다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Drobne szachrajstwo jeszcze nikogo nie zabiło."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "\"É uma <i>ilusão</i>, Malacrass!\""
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Относительно честно обведет вас вокруг пальца."
+          },
+          "thTH": {
+            "present": true,
+            "value": "มันก็เป็นแค่เพียงภาพลวงหลอกตา ที่เขาสร้างขึ้นมาให้คุณตายใจ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "这是<i>幻象</i>，玛拉卡斯！你在掩饰什么？"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "「想~不~到~吧！瑪拉克雷斯！」"
+          }
+        },
+        "textContent": "\n\t\t\tPerfekt für jede Party. Unterhält Eure Gäste und erleichtert sie gleichzeitig um ihre Wertsachen.\n\t\t\t“It’s an <i>illusion</i>, Malacrass!”\n\t\t\t«¡Es una <i>ilusión</i>, Malacrass!».\n\t\t\t“¡Es una <i>ilusióóóóón</i>!”\n\t\t\t« C’est une <i>illusion</i>, Malacrass ! »\n\t\t\t\"Si chiama ILLUSIONE, Malacrass!\"\n\t\t\tこうして「ドラッカリ・トロル」は闘技場のスター選手にあこがれるよりも……\n『トリック・スター』にあこがれるようになったのだ！\n\t\t\t방패 밀쳐내기와 토템의 힘을 뽑고 서로 난처해하는 모습이다.\n\t\t\tDrobne szachrajstwo jeszcze nikogo nie zabiło.\n\t\t\t\"É uma <i>ilusão</i>, Malacrass!\"\n\t\t\tОтносительно честно обведет вас вокруг пальца.\n\t\t\tมันก็เป็นแค่เพียงภาพลวงหลอกตา ที่เขาสร้างขึ้นมาให้คุณตายใจ\n\t\t\t这是<i>幻象</i>，玛拉卡斯！你在掩饰什么？\n\t\t\t「想~不~到~吧！瑪拉克雷斯！」\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Cicily He"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Trickdieb der Drakkari"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Drakkari Trickster"
+          },
+          "esES": {
+            "present": true,
+            "value": "Tramposo Drakkari"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Tramposo drakkari"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Entourloupeur drakkari"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Prestigiatore Drakkari"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ドラッカリのトリックスター"
+          },
+          "koKR": {
+            "present": true,
+            "value": "드라카리 요술사"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Szachraj z Drakkarów"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Trapaceiro Drakkari"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Плут Драккари"
+          },
+          "thTH": {
+            "present": true,
+            "value": "นักมายากลดรัคคารี"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "达卡莱幻术师"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "德拉克瑞欺詐者"
+          }
+        },
+        "textContent": "\n\t\tTrickdieb der Drakkari\n\t\tDrakkari Trickster\n\t\tTramposo Drakkari\n\t\tTramposo drakkari\n\t\tEntourloupeur drakkari\n\t\tPrestigiatore Drakkari\n\t\tドラッカリのトリックスター\n\t\t드라카리 요술사\n\t\tSzachraj z Drakkarów\n\t\tTrapaceiro Drakkari\n\t\tПлут Драккари\n\t\tนักมายากลดรัคคารี\n\t\t达卡莱幻术师\n\t\t德拉克瑞欺詐者\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "[x]<b>Kampfschrei:</b> Jeder Spieler\nerhält eine Kopie einer\nzufälligen Karte aus dem\nDeck seines Gegners."
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]<b>Battlecry:</b> Give each player a\ncopy of a random card from\ntheir opponent's deck."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Grito de batalla:</b>\nOtorga a cada jugador\nuna copia de una carta aleatoria\ndel mazo de su oponente."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> otorga a cada jugador una copia de una carta aleatoria del mazo de su adversario."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> donne à chaque joueur une copie d’une carte aléatoire du deck de leur adversaire."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b> fornisce\na entrambi i giocatori una\ncopia di una carta casuale dal\nmazzo dell'avversario."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "<b>雄叫び:</b>\n各プレイヤーは\n相手のデッキから\nランダムなカードの\n__コピーを1枚得る。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>전투의 함성:</b> 각 플레이어가 상대편의 덱에서 무작위 카드를 복사하여 손으로 가져옵니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b>\nDaj każdemu graczowi kopię losowej karty z talii przeciwnika."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b> Conceda a cada jogador uma cópia de um card aleatório do deck do oponente dele."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> каждый игрок получает копию случайной карты из колоды противника."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b> ผู้เล่นแต่ละคน[b]ได้รับก๊อปปี้ของการ์ดหนึ่งใบ[b]ที่สุ่มจากเด็คของอีกฝ่าย"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>使每个玩家各随机获得一张对方牌库中的卡牌的复制。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>戰吼：</b>雙方各獲得一張從對手牌堆複製的隨機卡牌"
+          }
+        },
+        "textContent": "\n\t\t[x]<b>Kampfschrei:</b> Jeder Spieler\nerhält eine Kopie einer\nzufälligen Karte aus dem\nDeck seines Gegners.\n\t\t[x]<b>Battlecry:</b> Give each player a\ncopy of a random card from\ntheir opponent's deck.\n\t\t[x]<b>Grito de batalla:</b>\nOtorga a cada jugador\nuna copia de una carta aleatoria\ndel mazo de su oponente.\n\t\t<b>Grito de batalla:</b> otorga a cada jugador una copia de una carta aleatoria del mazo de su adversario.\n\t\t<b>Cri de guerre :</b> donne à chaque joueur une copie d’une carte aléatoire du deck de leur adversaire.\n\t\t[x]<b>Grido di Battaglia:</b> fornisce\na entrambi i giocatori una\ncopia di una carta casuale dal\nmazzo dell'avversario.\n\t\t<b>雄叫び:</b>\n各プレイヤーは\n相手のデッキから\nランダムなカードの\n__コピーを1枚得る。\n\t\t<b>전투의 함성:</b> 각 플레이어가 상대편의 덱에서 무작위 카드를 복사하여 손으로 가져옵니다.\n\t\t<b>Okrzyk bojowy:</b>\nDaj każdemu graczowi kopię losowej karty z talii przeciwnika.\n\t\t<b>Grito de Guerra:</b> Conceda a cada jogador uma cópia de um card aleatório do deck do oponente dele.\n\t\t<b>Боевой клич:</b> каждый игрок получает копию случайной карты из колоды противника.\n\t\t<b>คำรามสู้ศึก:</b> ผู้เล่นแต่ละคน[b]ได้รับก๊อปปี้ของการ์ดหนึ่งใบ[b]ที่สุ่มจากเด็คของอีกฝ่าย\n\t\t<b>战吼：</b>使每个玩家各随机获得一张对方牌库中的卡牌的复制。\n\t\t<b>戰吼：</b>雙方各獲得一張從對手牌堆複製的隨機卡牌\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Perfekt für jede Party. Unterhält Eure Gäste und erleichtert sie gleichzeitig um ihre Wertsachen."
+          },
+          "enUS": {
+            "present": true,
+            "value": "“It’s an <i>illusion</i>, Malacrass!”"
+          },
+          "esES": {
+            "present": true,
+            "value": "«¡Es una <i>ilusión</i>, Malacrass!»."
+          },
+          "esMX": {
+            "present": true,
+            "value": "“¡Es una <i>ilusióóóóón</i>!”"
+          },
+          "frFR": {
+            "present": true,
+            "value": "« C’est une <i>illusion</i>, Malacrass ! »"
+          },
+          "itIT": {
+            "present": true,
+            "value": "\"Si chiama ILLUSIONE, Malacrass!\""
+          },
+          "jaJP": {
+            "present": true,
+            "value": "こうして「ドラッカリ・トロル」は闘技場のスター選手にあこがれるよりも……\n『トリック・スター』にあこがれるようになったのだ！"
+          },
+          "koKR": {
+            "present": true,
+            "value": "방패 밀쳐내기와 토템의 힘을 뽑고 서로 난처해하는 모습이다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Drobne szachrajstwo jeszcze nikogo nie zabiło."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "\"É uma <i>ilusão</i>, Malacrass!\""
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Относительно честно обведет вас вокруг пальца."
+          },
+          "thTH": {
+            "present": true,
+            "value": "มันก็เป็นแค่เพียงภาพลวงหลอกตา ที่เขาสร้างขึ้นมาให้คุณตายใจ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "这是<i>幻象</i>，玛拉卡斯！你在掩饰什么？"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "「想~不~到~吧！瑪拉克雷斯！」"
+          }
+        },
+        "textContent": "\n\t\tPerfekt für jede Party. Unterhält Eure Gäste und erleichtert sie gleichzeitig um ihre Wertsachen.\n\t\t“It’s an <i>illusion</i>, Malacrass!”\n\t\t«¡Es una <i>ilusión</i>, Malacrass!».\n\t\t“¡Es una <i>ilusióóóóón</i>!”\n\t\t« C’est une <i>illusion</i>, Malacrass ! »\n\t\t\"Si chiama ILLUSIONE, Malacrass!\"\n\t\tこうして「ドラッカリ・トロル」は闘技場のスター選手にあこがれるよりも……\n『トリック・スター』にあこがれるようになったのだ！\n\t\t방패 밀쳐내기와 토템의 힘을 뽑고 서로 난처해하는 모습이다.\n\t\tDrobne szachrajstwo jeszcze nikogo nie zabiło.\n\t\t\"É uma <i>ilusão</i>, Malacrass!\"\n\t\tОтносительно честно обведет вас вокруг пальца.\n\t\tมันก็เป็นแค่เพียงภาพลวงหลอกตา ที่เขาสร้างขึ้นมาให้คุณตายใจ\n\t\t这是<i>幻象</i>，玛拉卡斯！你在掩饰什么？\n\t\t「想~不~到~吧！瑪拉克雷斯！」\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Cicily He"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "드라카리 요술사",
+      "enUS": "Drakkari Trickster"
+    },
+    "currentPrintedText": {
+      "koKR": "드라카리 요술사",
+      "enUS": "Drakkari Trickster"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_527",
+    "dbfId": 50414,
+    "name": "드라카리 요술사",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>전투의 함성:</b> 각 플레이어가 상대편의 덱에서 무작위 카드를 복사하여 손으로 가져옵니다.",
+    "attack": 3,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "방패 밀쳐내기와 토템의 힘을 뽑고 서로 난처해하는 모습이다.",
+    "spellSchool": "",
+    "portrait": "HS15-170_M.psd:62340415ee6142c41b28aba2f0f7da8a",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_527.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_527",
+    "dbfId": 50414,
+    "name": "드라카리 요술사",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>전투의 함성:</b> 각 플레이어가 상대편의 덱에서 무작위 카드를 복사하여 손으로 가져옵니다.",
+    "attack": 3,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "방패 밀쳐내기와 토템의 힘을 뽑고 서로 난처해하는 모습이다.",
+    "spellSchool": "",
+    "portrait": "HS15-170_M.psd:62340415ee6142c41b28aba2f0f7da8a",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_527.png"
+  }
+}

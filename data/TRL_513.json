@@ -1,1 +1,781 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_513","dbfId":50392,"name":"모쉬오그 집행자","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":8,"text":"<b>도발</b><br></br><b>천상의 보호막</b>","attack":2,"health":14,"durability":0,"armor":0,"flavor":"규칙을 읽지 못하면 어길 수도 없죠.","spellSchool":"","portrait":"HS15-071_M.psd:aa4a750401766954cae9a457712b721a","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":14},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":8},{"id":114,"name":"전설 속성","value":0},{"id":190,"name":"도발","value":1},{"id":194,"name":"천상의 보호막","value":1},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/TRL_513.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-071_M.psd:aa4a750401766954cae9a457712b721a","goldenMaterial":"TRL_513_PremiumCard.mat:6a3d7273652f9a2479db4d66211b3ec8","goldenAnimation":"TRL_513_PremiumCard.asset:ac4c451466b75db4d9e001b049ff4397"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-071_M.psd:aa4a750401766954cae9a457712b721a",
+        "goldenMaterial": "TRL_513_PremiumCard.mat:6a3d7273652f9a2479db4d66211b3ec8",
+        "goldenAnimation": "TRL_513_PremiumCard.asset:ac4c451466b75db4d9e001b049ff4397"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-071_M.psd:aa4a750401766954cae9a457712b721a",
+      "goldenMaterial": "TRL_513_PremiumCard.mat:6a3d7273652f9a2479db4d66211b3ec8",
+      "goldenAnimation": "TRL_513_PremiumCard.asset:ac4c451466b75db4d9e001b049ff4397"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "14",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "8",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "190": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "194": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "14",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "8",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "190": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "194": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Mosh'Ogg-Ringrichter"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Mosh'ogg Enforcer"
+          },
+          "esES": {
+            "present": true,
+            "value": "Déspota Mosh'ogg"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Agente mosh'ogg"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Massacreur mosh’Ogg"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Scagnozzo Mosh'ogg"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "モッシュオグの審判"
+          },
+          "koKR": {
+            "present": true,
+            "value": "모쉬오그 집행자"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Mosz'ogg nadzorca"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Impositor Mosh'ogg"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Арбитр Мош'Огг"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ผู้คุมกฎมอชอ็อก"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "莫什奥格执行者"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "莫什奧格執法者"
+          }
+        },
+        "textContent": "\n\t\t\tMosh'Ogg-Ringrichter\n\t\t\tMosh'ogg Enforcer\n\t\t\tDéspota Mosh'ogg\n\t\t\tAgente mosh'ogg\n\t\t\tMassacreur mosh’Ogg\n\t\t\tScagnozzo Mosh'ogg\n\t\t\tモッシュオグの審判\n\t\t\t모쉬오그 집행자\n\t\t\tMosz'ogg nadzorca\n\t\t\tImpositor Mosh'ogg\n\t\t\tАрбитр Мош'Огг\n\t\t\tผู้คุมกฎมอชอ็อก\n\t\t\t莫什奥格执行者\n\t\t\t莫什奧格執法者\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Spott</b>, <b>Gottesschild</b>"
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Taunt</b>\n<b>Divine Shield</b>"
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Provocar</b>\n<b>Escudo divino</b>"
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Provocación</b>\n<b>Escudo divino</b>"
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Provocation</b>\n<b>Bouclier divin</b>"
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Provocazione</b>.\n<b>Scudo Divino</b>."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "<b>挑発</b>、<b>聖なる盾</b>"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>도발</b>\n<b>천상의 보호막</b>"
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Prowokacja</b>\n<b>Boska tarcza</b>"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Provocar</b>\n<b>Escudo Divino</b>"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Провокация</b>\n<b>Божественный щит</b>"
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>ยั่วยุ</b>\n<b>โล่ศักดิ์สิทธิ์</b>"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>嘲讽</b>\n<b>圣盾</b>"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>嘲諷</b>\n<b>聖盾術</b>"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Spott</b>, <b>Gottesschild</b>\n\t\t\t<b>Taunt</b>\n<b>Divine Shield</b>\n\t\t\t<b>Provocar</b>\n<b>Escudo divino</b>\n\t\t\t<b>Provocación</b>\n<b>Escudo divino</b>\n\t\t\t<b>Provocation</b>\n<b>Bouclier divin</b>\n\t\t\t[x]<b>Provocazione</b>.\n<b>Scudo Divino</b>.\n\t\t\t<b>挑発</b>、<b>聖なる盾</b>\n\t\t\t<b>도발</b>\n<b>천상의 보호막</b>\n\t\t\t<b>Prowokacja</b>\n<b>Boska tarcza</b>\n\t\t\t<b>Provocar</b>\n<b>Escudo Divino</b>\n\t\t\t<b>Провокация</b>\n<b>Божественный щит</b>\n\t\t\t<b>ยั่วยุ</b>\n<b>โล่ศักดิ์สิทธิ์</b>\n\t\t\t<b>嘲讽</b>\n<b>圣盾</b>\n\t\t\t<b>嘲諷</b>\n<b>聖盾術</b>\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Wer die Regeln nicht lesen kann, kann auch keine Regelverstöße bestrafen."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Can’t break the rules if you can’t read ‘em."
+          },
+          "esES": {
+            "present": true,
+            "value": "«Hay que tomarlo en cuenta en todo contrato, es lo que llaman una cláusula sanitaria»."
+          },
+          "esMX": {
+            "present": true,
+            "value": "No puedes romper las reglas si no puedes leerlas."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Impossible d’enfreindre les règles pour celui qui ne sait pas les lire !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Non puoi infrangere le regole se non sai leggerle."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ルールを破ることは決してない。そもそも読めないので。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "규칙을 읽지 못하면 어길 수도 없죠."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Nie umiesz przeczytać zasad, to ich nie łamiesz. Proste."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "\"Não pode dizer que a gente quebrou regras se a gente não sabe ler regras.\""
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Правила нельзя нарушить, когда их нет!"
+          },
+          "thTH": {
+            "present": true,
+            "value": "อ่านกฎไม่ออกก็แหกกฎไม่ได้"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "读不懂规则的人，怎么能破坏规则？"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "看不懂規則就不能判我惡意犯規了。"
+          }
+        },
+        "textContent": "\n\t\t\tWer die Regeln nicht lesen kann, kann auch keine Regelverstöße bestrafen.\n\t\t\tCan’t break the rules if you can’t read ‘em.\n\t\t\t«Hay que tomarlo en cuenta en todo contrato, es lo que llaman una cláusula sanitaria».\n\t\t\tNo puedes romper las reglas si no puedes leerlas.\n\t\t\tImpossible d’enfreindre les règles pour celui qui ne sait pas les lire !\n\t\t\tNon puoi infrangere le regole se non sai leggerle.\n\t\t\tルールを破ることは決してない。そもそも読めないので。\n\t\t\t규칙을 읽지 못하면 어길 수도 없죠.\n\t\t\tNie umiesz przeczytać zasad, to ich nie łamiesz. Proste.\n\t\t\t\"Não pode dizer que a gente quebrou regras se a gente não sabe ler regras.\"\n\t\t\tПравила нельзя нарушить, когда их нет!\n\t\t\tอ่านกฎไม่ออกก็แหกกฎไม่ได้\n\t\t\t读不懂规则的人，怎么能破坏规则？\n\t\t\t看不懂規則就不能判我惡意犯規了。\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Dan Scott"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Mosh’Ogg-Ringrichter"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Mosh'Ogg Enforcer"
+          },
+          "esES": {
+            "present": true,
+            "value": "Déspota Mosh'Ogg"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Agente mosh'ogg"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Massacreur mosh’Ogg"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Scagnozzo Mosh'ogg"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "モッシュオグの審判"
+          },
+          "koKR": {
+            "present": true,
+            "value": "모쉬오그 집행자"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Mosz'ogg nadzorca"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Impositor Mosh'ogg"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Арбитр Мош'Огг"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ผู้คุมกฎมอชอ็อก"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "莫什奥格执行者"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "莫什奧格執法者"
+          }
+        },
+        "textContent": "\n\t\tMosh’Ogg-Ringrichter\n\t\tMosh'Ogg Enforcer\n\t\tDéspota Mosh'Ogg\n\t\tAgente mosh'ogg\n\t\tMassacreur mosh’Ogg\n\t\tScagnozzo Mosh'ogg\n\t\tモッシュオグの審判\n\t\t모쉬오그 집행자\n\t\tMosz'ogg nadzorca\n\t\tImpositor Mosh'ogg\n\t\tАрбитр Мош'Огг\n\t\tผู้คุมกฎมอชอ็อก\n\t\t莫什奥格执行者\n\t\t莫什奧格執法者\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Spott</b>, <b>Gottesschild</b>"
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Taunt</b>\n<b>Divine Shield</b>"
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Provocar</b>\n<b>Escudo divino</b>"
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Provocación</b>\n<b>Escudo divino</b>"
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Provocation</b>\n<b>Bouclier divin</b>"
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Provocazione</b>.\n<b>Scudo Divino</b>."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "<b>挑発</b>、<b>聖なる盾</b>"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>도발</b>\n<b>천상의 보호막</b>"
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Prowokacja</b>\n<b>Boska tarcza</b>"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Provocar</b>\n<b>Escudo Divino</b>"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Провокация</b>\n<b>Божественный щит</b>"
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>ยั่วยุ</b>\n<b>โล่ศักดิ์สิทธิ์</b>"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>嘲讽</b>\n<b>圣盾</b>"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>嘲諷</b>\n<b>聖盾術</b>"
+          }
+        },
+        "textContent": "\n\t\t<b>Spott</b>, <b>Gottesschild</b>\n\t\t<b>Taunt</b>\n<b>Divine Shield</b>\n\t\t<b>Provocar</b>\n<b>Escudo divino</b>\n\t\t<b>Provocación</b>\n<b>Escudo divino</b>\n\t\t<b>Provocation</b>\n<b>Bouclier divin</b>\n\t\t[x]<b>Provocazione</b>.\n<b>Scudo Divino</b>.\n\t\t<b>挑発</b>、<b>聖なる盾</b>\n\t\t<b>도발</b>\n<b>천상의 보호막</b>\n\t\t<b>Prowokacja</b>\n<b>Boska tarcza</b>\n\t\t<b>Provocar</b>\n<b>Escudo Divino</b>\n\t\t<b>Провокация</b>\n<b>Божественный щит</b>\n\t\t<b>ยั่วยุ</b>\n<b>โล่ศักดิ์สิทธิ์</b>\n\t\t<b>嘲讽</b>\n<b>圣盾</b>\n\t\t<b>嘲諷</b>\n<b>聖盾術</b>\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Wer die Regeln nicht lesen kann, kann auch keine Regelverstöße bestrafen."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Can’t break the rules if you can’t read ‘em."
+          },
+          "esES": {
+            "present": true,
+            "value": "«Hay que tomarlo en cuenta en todo contrato, es lo que llaman una cláusula sanitaria»."
+          },
+          "esMX": {
+            "present": true,
+            "value": "No puedes romper las reglas si no puedes leerlas."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Impossible d’enfreindre les règles pour celui qui ne sait pas les lire !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Non puoi infrangere le regole se non sai leggerle."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ルールを破ることは決してない。そもそも読めないので。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "규칙을 읽지 못하면 어길 수도 없죠."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Nie umiesz przeczytać zasad, to ich nie łamiesz. Proste."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "\"Não pode dizer que a gente quebrou regras se a gente não sabe ler regras.\""
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Правила нельзя нарушить, когда их нет!"
+          },
+          "thTH": {
+            "present": true,
+            "value": "อ่านกฎไม่ออกก็แหกกฎไม่ได้"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "读不懂规则的人，怎么能破坏规则？"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "看不懂規則就不能判我惡意犯規了。"
+          }
+        },
+        "textContent": "\n\t\tWer die Regeln nicht lesen kann, kann auch keine Regelverstöße bestrafen.\n\t\tCan’t break the rules if you can’t read ‘em.\n\t\t«Hay que tomarlo en cuenta en todo contrato, es lo que llaman una cláusula sanitaria».\n\t\tNo puedes romper las reglas si no puedes leerlas.\n\t\tImpossible d’enfreindre les règles pour celui qui ne sait pas les lire !\n\t\tNon puoi infrangere le regole se non sai leggerle.\n\t\tルールを破ることは決してない。そもそも読めないので。\n\t\t규칙을 읽지 못하면 어길 수도 없죠.\n\t\tNie umiesz przeczytać zasad, to ich nie łamiesz. Proste.\n\t\t\"Não pode dizer que a gente quebrou regras se a gente não sabe ler regras.\"\n\t\tПравила нельзя нарушить, когда их нет!\n\t\tอ่านกฎไม่ออกก็แหกกฎไม่ได้\n\t\t读不懂规则的人，怎么能破坏规则？\n\t\t看不懂規則就不能判我惡意犯規了。\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Dan Scott"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "모쉬오그 집행자",
+      "enUS": "Mosh'ogg Enforcer"
+    },
+    "currentPrintedText": {
+      "koKR": "모쉬오그 집행자",
+      "enUS": "Mosh'Ogg Enforcer"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_513",
+    "dbfId": 50392,
+    "name": "모쉬오그 집행자",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 8,
+    "text": "<b>도발</b><br></br><b>천상의 보호막</b>",
+    "attack": 2,
+    "health": 14,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "규칙을 읽지 못하면 어길 수도 없죠.",
+    "spellSchool": "",
+    "portrait": "HS15-071_M.psd:aa4a750401766954cae9a457712b721a",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 14
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 194,
+        "name": "천상의 보호막",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_513.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_513",
+    "dbfId": 50392,
+    "name": "모쉬오그 집행자",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 8,
+    "text": "<b>도발</b><br></br><b>천상의 보호막</b>",
+    "attack": 2,
+    "health": 14,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "규칙을 읽지 못하면 어길 수도 없죠.",
+    "spellSchool": "",
+    "portrait": "HS15-071_M.psd:aa4a750401766954cae9a457712b721a",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 14
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 194,
+        "name": "천상의 보호막",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_513.png"
+  }
+}

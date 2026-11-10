@@ -1,1 +1,839 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_329","dbfId":50074,"name":"코뿔소 아칼리","type":"MINION","cardClass":"WARRIOR","rarity":"LEGENDARY","collectible":true,"cost":8,"text":"<b>속공</b>, <b>압살:</b> 내 덱에서 <b>속공</b> 하수인을 뽑습니다. 그 하수인에게 +5/+5를 부여합니다.","attack":5,"health":5,"durability":0,"armor":0,"flavor":"대부분의 트롤들은 \"아아아아!\"까지만 말하고 \"칼리\"까지는 말하지 못합니다.","spellSchool":"","portrait":"HS15-029_M.psd:311254badf60e684b8704fdaf3a65f99","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":5},{"id":47,"name":"공격력","value":5},{"id":48,"name":"마나 비용","value":8},{"id":114,"name":"전설 속성","value":1},{"id":199,"name":"직업","value":10},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":5},{"id":321,"name":"수집 가능","value":1},{"id":330,"name":"효과 생성 시각 효과","value":0},{"id":331,"name":"효과 지속 시각 효과","value":0},{"id":791,"name":"속공","value":1},{"id":923,"name":"압살","value":1}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/TRL_329.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-029_M.psd:311254badf60e684b8704fdaf3a65f99","goldenMaterial":"TRL_329_PremiumCard.mat:5324bb3de6c06c945af81b9c42d6e697","goldenAnimation":"TRL_329_PremiumCard.asset:787716d0f23b2f14dae029ae6981c892"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-029_M.psd:311254badf60e684b8704fdaf3a65f99",
+        "goldenMaterial": "TRL_329_PremiumCard.mat:5324bb3de6c06c945af81b9c42d6e697",
+        "goldenAnimation": "TRL_329_PremiumCard.asset:787716d0f23b2f14dae029ae6981c892"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-029_M.psd:311254badf60e684b8704fdaf3a65f99",
+      "goldenMaterial": "TRL_329_PremiumCard.mat:5324bb3de6c06c945af81b9c42d6e697",
+      "goldenAnimation": "TRL_329_PremiumCard.asset:787716d0f23b2f14dae029ae6981c892"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "8",
+        "type": "Int"
+      },
+      "114": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "10",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "20",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "791": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "923": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "8",
+        "type": "Int"
+      },
+      "114": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "10",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "20",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "791": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "923": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Akali das Nashorn"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Akali, the Rhino"
+          },
+          "esES": {
+            "present": true,
+            "value": "Akali, el rinoceronte"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Akali, el rinoceronte"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Akali, le rhinocéros"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Akali, il Rinoceronte"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "サイのロア・アカリ"
+          },
+          "koKR": {
+            "present": true,
+            "value": "코뿔소 아칼리"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Nosorożec Akali"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Akali, o Rinoceronte"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Акали, лоа-люторог"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เทพแรด อะคาลี"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "阿卡里，犀牛之神"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "『犀牛』阿卡利"
+          }
+        },
+        "textContent": "\n\t\t\tAkali das Nashorn\n\t\t\tAkali, the Rhino\n\t\t\tAkali, el rinoceronte\n\t\t\tAkali, el rinoceronte\n\t\t\tAkali, le rhinocéros\n\t\t\tAkali, il Rinoceronte\n\t\t\tサイのロア・アカリ\n\t\t\t코뿔소 아칼리\n\t\t\tNosorożec Akali\n\t\t\tAkali, o Rinoceronte\n\t\t\tАкали, лоа-люторог\n\t\t\tเทพแรด อะคาลี\n\t\t\t阿卡里，犀牛之神\n\t\t\t『犀牛』阿卡利\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Eifer</b>. <b>Überwältigen:</b>\nZieht aus Eurem Deck\neinen Diener mit <b>Eifer</b>. Verleiht ihm +5/+5."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Rush</b>\n<b>Overkill:</b> Draw a <b>Rush</b> minion from your deck. Give it +5/+5."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Embestir</b>\n <b>Arrasar:</b> Roba un esbirro con <b>Embestir</b> de tu mazo. Le otorga +5/+5."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Acometida</b>\n<b>Arrasar:</b> roba un esbirro con <b>Acometida</b> de tu mazo. Le otorga +5/+5."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Ruée</b>\n<b>Brutalité_:</b> vous piochez un serviteur avec <b>Ruée</b> dans votre deck. Lui donne_+5/+5."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Assalto</b>. <b>Annientamento:</b>\npesca un servitore con\n<b>Assalto</b> dal tuo mazzo.\nGli fornisce +5/+5."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>急襲</b>、<b>血祭:</b>\n自分のデッキから\n<b>急襲</b>を持つミニオンを\n1体引く。そのミニオンに\n+5/+5を付与する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>속공</b>, <b>압살:</b> 내 덱에서 <b>속공</b> 하수인을 뽑습니다. 그 하수인에게 +5/+5를 부여합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Zryw</b>\n<b>Rzeź:</b> Dobierz stronnika ze_<b>Zrywem</b> z_twojej_talii. Daj mu +5/+5."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Rapidez</b>\n<b>Massacre:</b> Compre um lacaio com <b>Rapidez</b> do seu deck. Conceda-lhe +5/+5."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Натиск</b>. <b>Сверхурон:</b> вы_берете из колоды существо с <b>«Натиском»</b>. Оно получает +5/+5."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>จู่โจม</b>\n<b>สังหารโหด:</b> จั่วมินเนี่ยน <b>จู่โจม</b>_หนึ่งใบจากเด็คคุณ มอบ +5/+5 ให้มัน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>突袭，超杀：</b>从你的牌库中抽一张具有<b>突袭</b>的随从牌，并使其获得+5/+5。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>衝刺</b>\n<b>滅殺：</b>從你的牌堆抽出一個有<b>衝刺</b>的手下，賦予它+5/+5"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Eifer</b>. <b>Überwältigen:</b>\nZieht aus Eurem Deck\neinen Diener mit <b>Eifer</b>. Verleiht ihm +5/+5.\n\t\t\t<b>Rush</b>\n<b>Overkill:</b> Draw a <b>Rush</b> minion from your deck. Give it +5/+5.\n\t\t\t<b>Embestir</b>\n <b>Arrasar:</b> Roba un esbirro con <b>Embestir</b> de tu mazo. Le otorga +5/+5.\n\t\t\t<b>Acometida</b>\n<b>Arrasar:</b> roba un esbirro con <b>Acometida</b> de tu mazo. Le otorga +5/+5.\n\t\t\t<b>Ruée</b>\n<b>Brutalité_:</b> vous piochez un serviteur avec <b>Ruée</b> dans votre deck. Lui donne_+5/+5.\n\t\t\t[x]<b>Assalto</b>. <b>Annientamento:</b>\npesca un servitore con\n<b>Assalto</b> dal tuo mazzo.\nGli fornisce +5/+5.\n\t\t\t[x]<b>急襲</b>、<b>血祭:</b>\n自分のデッキから\n<b>急襲</b>を持つミニオンを\n1体引く。そのミニオンに\n+5/+5を付与する。\n\t\t\t<b>속공</b>, <b>압살:</b> 내 덱에서 <b>속공</b> 하수인을 뽑습니다. 그 하수인에게 +5/+5를 부여합니다.\n\t\t\t<b>Zryw</b>\n<b>Rzeź:</b> Dobierz stronnika ze_<b>Zrywem</b> z_twojej_talii. Daj mu +5/+5.\n\t\t\t<b>Rapidez</b>\n<b>Massacre:</b> Compre um lacaio com <b>Rapidez</b> do seu deck. Conceda-lhe +5/+5.\n\t\t\t<b>Натиск</b>. <b>Сверхурон:</b> вы_берете из колоды существо с <b>«Натиском»</b>. Оно получает +5/+5.\n\t\t\t<b>จู่โจม</b>\n<b>สังหารโหด:</b> จั่วมินเนี่ยน <b>จู่โจม</b>_หนึ่งใบจากเด็คคุณ มอบ +5/+5 ให้มัน\n\t\t\t<b>突袭，超杀：</b>从你的牌库中抽一张具有<b>突袭</b>的随从牌，并使其获得+5/+5。\n\t\t\t<b>衝刺</b>\n<b>滅殺：</b>從你的牌堆抽出一個有<b>衝刺</b>的手下，賦予它+5/+5\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Für die meisten Trolle ist beim „Aaaaah!“ schon Schluss_– bis zum „-kali“ kommen sie erst gar nicht."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Most trolls only get to “AAAAHHH!” and don’t make it to the “kali” part."
+          },
+          "esES": {
+            "present": true,
+            "value": "Funciona con pilas akalinas."
+          },
+          "esMX": {
+            "present": true,
+            "value": "La mayoría de los trols apenas dicen “¡AAAAHHH!” y nunca llegan a decir “kali”."
+          },
+          "frFR": {
+            "present": true,
+            "value": "La plupart des Trolls parviennent à crier « Aaaahhh ! » mais ne survivent jamais assez longtemps pour dire « kali »."
+          },
+          "itIT": {
+            "present": true,
+            "value": "La maggior parte dei troll si ferma a \"AAAH!\" senza finire di dire \"kali\"."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ほとんどのトロルは「アァァァーー！」までで、「カリ」まで言える者はとても少ない。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "대부분의 트롤들은 \"아아아아!\"까지만 말하고 \"칼리\"까지는 말하지 못합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Większość trolli poprzestaje na „AAAAAAA!” i nigdy nie dociera do „kali”."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "A maioria dos trolls só consegue dizer \"AAAHHHH!\". Não chegam na parte \"kali\"."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Что будет, если безграничная сила столкнется с непреодолимым препятствием? У Акали такого вопроса не возникает."
+          },
+          "thTH": {
+            "present": true,
+            "value": "โทรลล์ส่วนใหญ่เปล่งเสียงได้แค่ \"อ๊า!\" และไม่มีโอกาสได้พูดท่อน \"คาลี\""
+          },
+          "zhCN": {
+            "present": true,
+            "value": "巨魔战士冲锋时一般只喊“阿”，并没有喊出“卡里”的机会。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "這隻犀牛朝你衝過來的時候，人們通常只來得及說出「啊！」，沒機會把「卡利」也說完。"
+          }
+        },
+        "textContent": "\n\t\t\tFür die meisten Trolle ist beim „Aaaaah!“ schon Schluss_– bis zum „-kali“ kommen sie erst gar nicht.\n\t\t\tMost trolls only get to “AAAAHHH!” and don’t make it to the “kali” part.\n\t\t\tFunciona con pilas akalinas.\n\t\t\tLa mayoría de los trols apenas dicen “¡AAAAHHH!” y nunca llegan a decir “kali”.\n\t\t\tLa plupart des Trolls parviennent à crier « Aaaahhh ! » mais ne survivent jamais assez longtemps pour dire « kali ».\n\t\t\tLa maggior parte dei troll si ferma a \"AAAH!\" senza finire di dire \"kali\".\n\t\t\tほとんどのトロルは「アァァァーー！」までで、「カリ」まで言える者はとても少ない。\n\t\t\t대부분의 트롤들은 \"아아아아!\"까지만 말하고 \"칼리\"까지는 말하지 못합니다.\n\t\t\tWiększość trolli poprzestaje na „AAAAAAA!” i nigdy nie dociera do „kali”.\n\t\t\tA maioria dos trolls só consegue dizer \"AAAHHHH!\". Não chegam na parte \"kali\".\n\t\t\tЧто будет, если безграничная сила столкнется с непреодолимым препятствием? У Акали такого вопроса не возникает.\n\t\t\tโทรลล์ส่วนใหญ่เปล่งเสียงได้แค่ \"อ๊า!\" และไม่มีโอกาสได้พูดท่อน \"คาลี\"\n\t\t\t巨魔战士冲锋时一般只喊“阿”，并没有喊出“卡里”的机会。\n\t\t\t這隻犀牛朝你衝過來的時候，人們通常只來得及說出「啊！」，沒機會把「卡利」也說完。\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Jim Nelson"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Akali das Nashorn"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Akali, the Rhino"
+          },
+          "esES": {
+            "present": true,
+            "value": "Akali, el rinoceronte"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Akali, el rinoceronte"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Akali, le rhinocéros"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Akali, il Rinoceronte"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "サイのロア・アカリ"
+          },
+          "koKR": {
+            "present": true,
+            "value": "코뿔소 아칼리"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Nosorożec Akali"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Akali, o Rinoceronte"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Акали, лоа-люторог"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เทพแรด อะคาลี"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "阿卡里，犀牛之神"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "『犀牛』阿卡利"
+          }
+        },
+        "textContent": "\n\t\tAkali das Nashorn\n\t\tAkali, the Rhino\n\t\tAkali, el rinoceronte\n\t\tAkali, el rinoceronte\n\t\tAkali, le rhinocéros\n\t\tAkali, il Rinoceronte\n\t\tサイのロア・アカリ\n\t\t코뿔소 아칼리\n\t\tNosorożec Akali\n\t\tAkali, o Rinoceronte\n\t\tАкали, лоа-люторог\n\t\tเทพแรด อะคาลี\n\t\t阿卡里，犀牛之神\n\t\t『犀牛』阿卡利\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Eifer</b>. <b>Überwältigen:</b>\nZieht aus Eurem Deck\neinen Diener mit <b>Eifer</b>. Verleiht ihm +5/+5."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Rush</b>\n<b>Overkill:</b> Draw a <b>Rush</b> minion from your deck. Give it +5/+5."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Embestir</b>\n <b>Arrasar:</b> Roba un esbirro con <b>Embestir</b> de tu mazo. Le otorga +5/+5."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Acometida</b>\n<b>Arrasar:</b> roba un esbirro con <b>Acometida</b> de tu mazo. Le otorga +5/+5."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Ruée</b>\n<b>Brutalité_:</b> vous piochez un serviteur avec <b>Ruée</b> dans votre deck. Lui donne_+5/+5."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Assalto</b>. <b>Annientamento:</b>\npesca un servitore con\n<b>Assalto</b> dal tuo mazzo.\nGli fornisce +5/+5."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>急襲</b>、<b>血祭:</b>\n自分のデッキから\n<b>急襲</b>を持つミニオンを\n1体引く。そのミニオンに\n+5/+5を付与する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>속공</b>, <b>압살:</b> 내 덱에서 <b>속공</b> 하수인을 뽑습니다. 그 하수인에게 +5/+5를 부여합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Zryw</b>\n<b>Rzeź:</b> Dobierz stronnika ze_<b>Zrywem</b> z_twojej_talii. Daj mu +5/+5."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Rapidez</b>\n<b>Massacre:</b> Compre um lacaio com <b>Rapidez</b> do seu deck. Conceda-lhe +5/+5."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Натиск</b>. <b>Сверхурон:</b> вы_берете из колоды существо с <b>«Натиском»</b>. Оно получает +5/+5."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>จู่โจม</b>\n<b>สังหารโหด:</b> จั่วมินเนี่ยน <b>จู่โจม</b>_หนึ่งใบจากเด็คคุณ มอบ +5/+5 ให้มัน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>突袭，超杀：</b>从你的牌库中抽一张具有<b>突袭</b>的随从牌，并使其获得+5/+5。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>衝刺</b>\n<b>滅殺：</b>從你的牌堆抽出一個有<b>衝刺</b>的手下，賦予它+5/+5"
+          }
+        },
+        "textContent": "\n\t\t<b>Eifer</b>. <b>Überwältigen:</b>\nZieht aus Eurem Deck\neinen Diener mit <b>Eifer</b>. Verleiht ihm +5/+5.\n\t\t<b>Rush</b>\n<b>Overkill:</b> Draw a <b>Rush</b> minion from your deck. Give it +5/+5.\n\t\t<b>Embestir</b>\n <b>Arrasar:</b> Roba un esbirro con <b>Embestir</b> de tu mazo. Le otorga +5/+5.\n\t\t<b>Acometida</b>\n<b>Arrasar:</b> roba un esbirro con <b>Acometida</b> de tu mazo. Le otorga +5/+5.\n\t\t<b>Ruée</b>\n<b>Brutalité_:</b> vous piochez un serviteur avec <b>Ruée</b> dans votre deck. Lui donne_+5/+5.\n\t\t[x]<b>Assalto</b>. <b>Annientamento:</b>\npesca un servitore con\n<b>Assalto</b> dal tuo mazzo.\nGli fornisce +5/+5.\n\t\t[x]<b>急襲</b>、<b>血祭:</b>\n自分のデッキから\n<b>急襲</b>を持つミニオンを\n1体引く。そのミニオンに\n+5/+5を付与する。\n\t\t<b>속공</b>, <b>압살:</b> 내 덱에서 <b>속공</b> 하수인을 뽑습니다. 그 하수인에게 +5/+5를 부여합니다.\n\t\t<b>Zryw</b>\n<b>Rzeź:</b> Dobierz stronnika ze_<b>Zrywem</b> z_twojej_talii. Daj mu +5/+5.\n\t\t<b>Rapidez</b>\n<b>Massacre:</b> Compre um lacaio com <b>Rapidez</b> do seu deck. Conceda-lhe +5/+5.\n\t\t<b>Натиск</b>. <b>Сверхурон:</b> вы_берете из колоды существо с <b>«Натиском»</b>. Оно получает +5/+5.\n\t\t<b>จู่โจม</b>\n<b>สังหารโหด:</b> จั่วมินเนี่ยน <b>จู่โจม</b>_หนึ่งใบจากเด็คคุณ มอบ +5/+5 ให้มัน\n\t\t<b>突袭，超杀：</b>从你的牌库中抽一张具有<b>突袭</b>的随从牌，并使其获得+5/+5。\n\t\t<b>衝刺</b>\n<b>滅殺：</b>從你的牌堆抽出一個有<b>衝刺</b>的手下，賦予它+5/+5\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Für die meisten Trolle ist beim „Aaaaah!“ schon Schluss_– bis zum „-kali“ kommen sie erst gar nicht."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Most trolls only get to “AAAAHHH!” and don’t make it to the “kali” part."
+          },
+          "esES": {
+            "present": true,
+            "value": "Funciona con pilas akalinas."
+          },
+          "esMX": {
+            "present": true,
+            "value": "La mayoría de los trols apenas dicen “¡AAAAHHH!” y nunca llegan a decir “kali”."
+          },
+          "frFR": {
+            "present": true,
+            "value": "La plupart des Trolls parviennent à crier « Aaaahhh ! » mais ne survivent jamais assez longtemps pour dire « kali »."
+          },
+          "itIT": {
+            "present": true,
+            "value": "La maggior parte dei troll si ferma a \"AAAH!\" senza finire di dire \"kali\"."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ほとんどのトロルは「アァァァーー！」までで、「カリ」まで言える者はとても少ない。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "대부분의 트롤들은 \"아아아아!\"까지만 말하고 \"칼리\"까지는 말하지 못합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Większość trolli poprzestaje na „AAAAAAA!” i nigdy nie dociera do „kali”."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "A maioria dos trolls só consegue dizer \"AAAHHHH!\". Não chegam na parte \"kali\"."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Что будет, если безграничная сила столкнется с непреодолимым препятствием? У Акали такого вопроса не возникает."
+          },
+          "thTH": {
+            "present": true,
+            "value": "โทรลล์ส่วนใหญ่เปล่งเสียงได้แค่ \"อ๊า!\" และไม่มีโอกาสได้พูดท่อน \"คาลี\""
+          },
+          "zhCN": {
+            "present": true,
+            "value": "巨魔战士冲锋时一般只喊“阿”，并没有喊出“卡里”的机会。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "這隻犀牛朝你衝過來的時候，人們通常只來得及說出「啊！」，沒機會把「卡利」也說完。"
+          }
+        },
+        "textContent": "\n\t\tFür die meisten Trolle ist beim „Aaaaah!“ schon Schluss_– bis zum „-kali“ kommen sie erst gar nicht.\n\t\tMost trolls only get to “AAAAHHH!” and don’t make it to the “kali” part.\n\t\tFunciona con pilas akalinas.\n\t\tLa mayoría de los trols apenas dicen “¡AAAAHHH!” y nunca llegan a decir “kali”.\n\t\tLa plupart des Trolls parviennent à crier « Aaaahhh ! » mais ne survivent jamais assez longtemps pour dire « kali ».\n\t\tLa maggior parte dei troll si ferma a \"AAAH!\" senza finire di dire \"kali\".\n\t\tほとんどのトロルは「アァァァーー！」までで、「カリ」まで言える者はとても少ない。\n\t\t대부분의 트롤들은 \"아아아아!\"까지만 말하고 \"칼리\"까지는 말하지 못합니다.\n\t\tWiększość trolli poprzestaje na „AAAAAAA!” i nigdy nie dociera do „kali”.\n\t\tA maioria dos trolls só consegue dizer \"AAAHHHH!\". Não chegam na parte \"kali\".\n\t\tЧто будет, если безграничная сила столкнется с непреодолимым препятствием? У Акали такого вопроса не возникает.\n\t\tโทรลล์ส่วนใหญ่เปล่งเสียงได้แค่ \"อ๊า!\" และไม่มีโอกาสได้พูดท่อน \"คาลี\"\n\t\t巨魔战士冲锋时一般只喊“阿”，并没有喊出“卡里”的机会。\n\t\t這隻犀牛朝你衝過來的時候，人們通常只來得及說出「啊！」，沒機會把「卡利」也說完。\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Jim Nelson"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "코뿔소 아칼리",
+      "enUS": "Akali, the Rhino"
+    },
+    "currentPrintedText": {
+      "koKR": "코뿔소 아칼리",
+      "enUS": "Akali, the Rhino"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_329",
+    "dbfId": 50074,
+    "name": "코뿔소 아칼리",
+    "type": "MINION",
+    "cardClass": "WARRIOR",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 8,
+    "text": "<b>속공</b>, <b>압살:</b> 내 덱에서 <b>속공</b> 하수인을 뽑습니다. 그 하수인에게 +5/+5를 부여합니다.",
+    "attack": 5,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "대부분의 트롤들은 \"아아아아!\"까지만 말하고 \"칼리\"까지는 말하지 못합니다.",
+    "spellSchool": "",
+    "portrait": "HS15-029_M.psd:311254badf60e684b8704fdaf3a65f99",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      },
+      {
+        "id": 923,
+        "name": "압살",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/TRL_329.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_329",
+    "dbfId": 50074,
+    "name": "코뿔소 아칼리",
+    "type": "MINION",
+    "cardClass": "WARRIOR",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 8,
+    "text": "<b>속공</b>, <b>압살:</b> 내 덱에서 <b>속공</b> 하수인을 뽑습니다. 그 하수인에게 +5/+5를 부여합니다.",
+    "attack": 5,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "대부분의 트롤들은 \"아아아아!\"까지만 말하고 \"칼리\"까지는 말하지 못합니다.",
+    "spellSchool": "",
+    "portrait": "HS15-029_M.psd:311254badf60e684b8704fdaf3a65f99",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      },
+      {
+        "id": 923,
+        "name": "압살",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/TRL_329.png"
+  }
+}

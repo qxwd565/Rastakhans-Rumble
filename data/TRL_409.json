@@ -1,1 +1,819 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_409","dbfId":50775,"name":"상어 그랄","type":"MINION","cardClass":"ROGUE","rarity":"LEGENDARY","collectible":true,"cost":5,"text":"<b>전투의 함성:</b> 내 덱에<br></br>있는 하수인을 잡아먹고 그<br></br>하수인의 능력치를 얻습니다.<br></br><b>죽음의 메아리:</b> 그 하수인을<br></br>내 손으로 가져옵니다.","attack":2,"health":2,"durability":0,"armor":0,"flavor":"???: 저기 몇 달이나 들어가 있었다고요!","spellSchool":"","portrait":"HS15-016_M.psd:8de198b6f67b4304091e0a6d0c29d3d3","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":5},{"id":114,"name":"전설 속성","value":1},{"id":199,"name":"직업","value":7},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":5},{"id":217,"name":"죽음의 메아리","value":1},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/TRL_409.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-016_M.psd:8de198b6f67b4304091e0a6d0c29d3d3","goldenMaterial":"TRL_409_PremiumCard.mat:65c4ddc27aea3e0449994662aef7fa5c","goldenAnimation":"TRL_409_PremiumCard.asset:33c613bbdcd20e348a621f5004975d43"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-016_M.psd:8de198b6f67b4304091e0a6d0c29d3d3",
+        "goldenMaterial": "TRL_409_PremiumCard.mat:65c4ddc27aea3e0449994662aef7fa5c",
+        "goldenAnimation": "TRL_409_PremiumCard.asset:33c613bbdcd20e348a621f5004975d43"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-016_M.psd:8de198b6f67b4304091e0a6d0c29d3d3",
+      "goldenMaterial": "TRL_409_PremiumCard.mat:65c4ddc27aea3e0449994662aef7fa5c",
+      "goldenAnimation": "TRL_409_PremiumCard.asset:33c613bbdcd20e348a621f5004975d43"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "114": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "7",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "20",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "217": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "114": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "7",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "20",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "217": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Gral der Hai"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Gral, the Shark"
+          },
+          "esES": {
+            "present": true,
+            "value": "Gral, el tiburón"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Gral, el tiburón"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Gral, le requin"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Gral, lo Squalo"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "サメのロア・グラル"
+          },
+          "koKR": {
+            "present": true,
+            "value": "상어 그랄"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Rekin Gral"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Gral, o Tubarão"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Грал, лоа-акула"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เทพฉลาม กราล"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "格罗尔，鲨鱼之神"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "『鯊魚』格拉爾"
+          }
+        },
+        "textContent": "\n\t\t\tGral der Hai\n\t\t\tGral, the Shark\n\t\t\tGral, el tiburón\n\t\t\tGral, el tiburón\n\t\t\tGral, le requin\n\t\t\tGral, lo Squalo\n\t\t\tサメのロア・グラル\n\t\t\t상어 그랄\n\t\t\tRekin Gral\n\t\t\tGral, o Tubarão\n\t\t\tГрал, лоа-акула\n\t\t\tเทพฉลาม กราล\n\t\t\t格罗尔，鲨鱼之神\n\t\t\t『鯊魚』格拉爾\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Kampfschrei:</b> Frisst einen Diener aus Eurem Deck und erhält seine Werte. <b>Todesröcheln:</b> Erhaltet den Diener auf die Hand."
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]<b>Battlecry:</b> Eat a minion in\nyour deck and gain its stats.\n<b>Deathrattle:</b> Add it to\nyour hand."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Grito de batalla:</b> Devora\na un esbirro de tu mazo\ny obtiene sus estadísitcas.\n<b>Último aliento:</b>\nLo añade a tu mano."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> devora un esbirro de tu mazo y obtiene sus estadísticas. <b>Estertor:</b> agrega ese esbirro a tu mano."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> dévore un serviteur de votre deck et gagne ses caractéristiques. <b>Râle d’agonie :</b> le place dans votre main."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b> mangia\nun servitore nel tuo mazzo e\nne aggiunge le statistiche alle\nproprie. <b>Rantolo di Morte:</b>\nlo mette nella tua mano."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>雄叫び:</b>_自分のデッキの\nミニオン1体を捕食して\nその攻撃力・体力を獲得する。\n<b>断末魔:</b>_そのミニオンを\n__自分の手札に追加する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]<b>전투의 함성:</b> 내 덱에\n있는 하수인을 잡아먹고 그\n하수인의 능력치를 얻습니다.\n<b>죽음의 메아리:</b> 그 하수인을\n내 손으로 가져옵니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b> Pożera stronnika z_twojej talii i otrzymuje jego_statystyki.\n<b>Agonia:</b> Dodaj pożartego stronnika_do twojej ręki."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b>\nDevore um lacaio do seu deck e receba os atributos dele.\n<b>Último Suspiro:</b> Adicione‑o à sua mão."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> съедает существо из колоды и получает его характе-ристики. <b>Предсмертный хрип:</b> вы [x]кладете съеденное существо\nв руку."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b> กินมินเนี่ยน[b]หนึ่งใบในเด็คคุณแล้วรับค่าพลัง[b]ของมัน <b>เสียงสุดท้าย:</b> เพิ่มการ์ดนั้นในมือคุณ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>吞食一个你的牌库中的随从，并获得其属性值。<b>亡语：</b>将吞食的随从置入手牌。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>戰吼：</b>吃掉一個你牌堆中的手下，獲得其體質<b>死亡之聲：</b>將它放到你的手中"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Kampfschrei:</b> Frisst einen Diener aus Eurem Deck und erhält seine Werte. <b>Todesröcheln:</b> Erhaltet den Diener auf die Hand.\n\t\t\t[x]<b>Battlecry:</b> Eat a minion in\nyour deck and gain its stats.\n<b>Deathrattle:</b> Add it to\nyour hand.\n\t\t\t[x]<b>Grito de batalla:</b> Devora\na un esbirro de tu mazo\ny obtiene sus estadísitcas.\n<b>Último aliento:</b>\nLo añade a tu mano.\n\t\t\t<b>Grito de batalla:</b> devora un esbirro de tu mazo y obtiene sus estadísticas. <b>Estertor:</b> agrega ese esbirro a tu mano.\n\t\t\t<b>Cri de guerre :</b> dévore un serviteur de votre deck et gagne ses caractéristiques. <b>Râle d’agonie :</b> le place dans votre main.\n\t\t\t[x]<b>Grido di Battaglia:</b> mangia\nun servitore nel tuo mazzo e\nne aggiunge le statistiche alle\nproprie. <b>Rantolo di Morte:</b>\nlo mette nella tua mano.\n\t\t\t[x]<b>雄叫び:</b>_自分のデッキの\nミニオン1体を捕食して\nその攻撃力・体力を獲得する。\n<b>断末魔:</b>_そのミニオンを\n__自分の手札に追加する。\n\t\t\t[x]<b>전투의 함성:</b> 내 덱에\n있는 하수인을 잡아먹고 그\n하수인의 능력치를 얻습니다.\n<b>죽음의 메아리:</b> 그 하수인을\n내 손으로 가져옵니다.\n\t\t\t<b>Okrzyk bojowy:</b> Pożera stronnika z_twojej talii i otrzymuje jego_statystyki.\n<b>Agonia:</b> Dodaj pożartego stronnika_do twojej ręki.\n\t\t\t<b>Grito de Guerra:</b>\nDevore um lacaio do seu deck e receba os atributos dele.\n<b>Último Suspiro:</b> Adicione‑o à sua mão.\n\t\t\t<b>Боевой клич:</b> съедает существо из колоды и получает его характе-ристики. <b>Предсмертный хрип:</b> вы [x]кладете съеденное существо\nв руку.\n\t\t\t<b>คำรามสู้ศึก:</b> กินมินเนี่ยน[b]หนึ่งใบในเด็คคุณแล้วรับค่าพลัง[b]ของมัน <b>เสียงสุดท้าย:</b> เพิ่มการ์ดนั้นในมือคุณ\n\t\t\t<b>战吼：</b>吞食一个你的牌库中的随从，并获得其属性值。<b>亡语：</b>将吞食的随从置入手牌。\n\t\t\t<b>戰吼：</b>吃掉一個你牌堆中的手下，獲得其體質<b>死亡之聲：</b>將它放到你的手中\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Wir brauchen ein größeres Boot."
+          },
+          "enUS": {
+            "present": true,
+            "value": "“… We’re gonna need a bigger board.”"
+          },
+          "esES": {
+            "present": true,
+            "value": "«Necesitará otro tablero más grande»."
+          },
+          "esMX": {
+            "present": true,
+            "value": "“… Vamos a necesitar un tablero más grande”."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Le Loa, c’est moi !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Il Santo Gral degli squali."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「…この船じゃ小さすぎる」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "???: 저기 몇 달이나 들어가 있었다고요!"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Przydałoby się na planszy spore akwarium."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "\"... Vamos precisar de outro tabuleiro.\""
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Эта рыбка исполняет только предсмертное желание."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ผู้ที่เกิดปีจอว์มีอุปนิสัยชอบจมเรือ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "“……我们需要更大的甲板。”"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "你最不希望在海裡…還有龍捲風裡看見的東西。"
+          }
+        },
+        "textContent": "\n\t\t\tWir brauchen ein größeres Boot.\n\t\t\t“… We’re gonna need a bigger board.”\n\t\t\t«Necesitará otro tablero más grande».\n\t\t\t“… Vamos a necesitar un tablero más grande”.\n\t\t\tLe Loa, c’est moi !\n\t\t\tIl Santo Gral degli squali.\n\t\t\t「…この船じゃ小さすぎる」\n\t\t\t???: 저기 몇 달이나 들어가 있었다고요!\n\t\t\tPrzydałoby się na planszy spore akwarium.\n\t\t\t\"... Vamos precisar de outro tabuleiro.\"\n\t\t\tЭта рыбка исполняет только предсмертное желание.\n\t\t\tผู้ที่เกิดปีจอว์มีอุปนิสัยชอบจมเรือ\n\t\t\t“……我们需要更大的甲板。”\n\t\t\t你最不希望在海裡…還有龍捲風裡看見的東西。\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Anton Zemskov"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Gral der Hai"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Gral, the Shark"
+          },
+          "esES": {
+            "present": true,
+            "value": "Gral, el tiburón"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Gral, el tiburón"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Gral, le requin"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Gral, lo Squalo"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "サメのロア・グラル"
+          },
+          "koKR": {
+            "present": true,
+            "value": "상어 그랄"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Rekin Gral"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Gral, o Tubarão"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Грал, лоа-акула"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เทพฉลาม กราล"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "格罗尔，鲨鱼之神"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "『鯊魚』格拉爾"
+          }
+        },
+        "textContent": "\n\t\tGral der Hai\n\t\tGral, the Shark\n\t\tGral, el tiburón\n\t\tGral, el tiburón\n\t\tGral, le requin\n\t\tGral, lo Squalo\n\t\tサメのロア・グラル\n\t\t상어 그랄\n\t\tRekin Gral\n\t\tGral, o Tubarão\n\t\tГрал, лоа-акула\n\t\tเทพฉลาม กราล\n\t\t格罗尔，鲨鱼之神\n\t\t『鯊魚』格拉爾\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Kampfschrei:</b> Frisst einen Diener aus Eurem Deck und erhält seine Werte. <b>Todesröcheln:</b> Erhaltet den Diener auf die Hand."
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]<b>Battlecry:</b> Eat a minion in\nyour deck and gain its stats.\n<b>Deathrattle:</b> Add it to\nyour hand."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Grito de batalla:</b> Devora\na un esbirro de tu mazo\ny obtiene sus estadísticas.\n<b>Último aliento:</b>\nLo añade a tu mano."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> devora un esbirro de tu mazo y obtiene sus estadísticas. <b>Estertor:</b> agrega ese esbirro a tu mano."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> dévore un serviteur de votre deck et gagne ses caractéristiques. <b>Râle d’agonie :</b> le place dans votre main."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b> mangia\nun servitore nel tuo mazzo e\nne aggiunge le statistiche alle\nproprie. <b>Rantolo di Morte:</b>\nlo mette nella tua mano."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>雄叫び:</b>_自分のデッキの\nミニオン1体を捕食して\nその攻撃力・体力を獲得する。\n<b>断末魔:</b>_そのミニオンを\n__自分の手札に追加する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]<b>전투의 함성:</b> 내 덱에\n있는 하수인을 잡아먹고 그\n하수인의 능력치를 얻습니다.\n<b>죽음의 메아리:</b> 그 하수인을\n내 손으로 가져옵니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b> Pożera stronnika z_twojej talii i otrzymuje jego_statystyki.\n<b>Agonia:</b> Dodaj pożartego stronnika_do twojej ręki."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b>\nDevore um lacaio do seu deck e receba os atributos dele.\n<b>Último Suspiro:</b> Adicione‑o à sua mão."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> съедает существо из колоды и получает его характе-ристики. <b>Предсмертный хрип:</b> вы [x]кладете съеденное существо\nв руку."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b> กินมินเนี่ยน[b]หนึ่งใบในเด็คคุณแล้วรับค่าพลัง[b]ของมัน <b>เสียงสุดท้าย:</b> เพิ่มการ์ดนั้นในมือคุณ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>吞食一个你的牌库中的随从，并获得其属性值。<b>亡语：</b>将被吞食的随从置入手牌。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>戰吼：</b>吃掉一個你牌堆中的手下，獲得其體質<b>死亡之聲：</b>將它放到你的手中"
+          }
+        },
+        "textContent": "\n\t\t<b>Kampfschrei:</b> Frisst einen Diener aus Eurem Deck und erhält seine Werte. <b>Todesröcheln:</b> Erhaltet den Diener auf die Hand.\n\t\t[x]<b>Battlecry:</b> Eat a minion in\nyour deck and gain its stats.\n<b>Deathrattle:</b> Add it to\nyour hand.\n\t\t[x]<b>Grito de batalla:</b> Devora\na un esbirro de tu mazo\ny obtiene sus estadísticas.\n<b>Último aliento:</b>\nLo añade a tu mano.\n\t\t<b>Grito de batalla:</b> devora un esbirro de tu mazo y obtiene sus estadísticas. <b>Estertor:</b> agrega ese esbirro a tu mano.\n\t\t<b>Cri de guerre :</b> dévore un serviteur de votre deck et gagne ses caractéristiques. <b>Râle d’agonie :</b> le place dans votre main.\n\t\t[x]<b>Grido di Battaglia:</b> mangia\nun servitore nel tuo mazzo e\nne aggiunge le statistiche alle\nproprie. <b>Rantolo di Morte:</b>\nlo mette nella tua mano.\n\t\t[x]<b>雄叫び:</b>_自分のデッキの\nミニオン1体を捕食して\nその攻撃力・体力を獲得する。\n<b>断末魔:</b>_そのミニオンを\n__自分の手札に追加する。\n\t\t[x]<b>전투의 함성:</b> 내 덱에\n있는 하수인을 잡아먹고 그\n하수인의 능력치를 얻습니다.\n<b>죽음의 메아리:</b> 그 하수인을\n내 손으로 가져옵니다.\n\t\t<b>Okrzyk bojowy:</b> Pożera stronnika z_twojej talii i otrzymuje jego_statystyki.\n<b>Agonia:</b> Dodaj pożartego stronnika_do twojej ręki.\n\t\t<b>Grito de Guerra:</b>\nDevore um lacaio do seu deck e receba os atributos dele.\n<b>Último Suspiro:</b> Adicione‑o à sua mão.\n\t\t<b>Боевой клич:</b> съедает существо из колоды и получает его характе-ристики. <b>Предсмертный хрип:</b> вы [x]кладете съеденное существо\nв руку.\n\t\t<b>คำรามสู้ศึก:</b> กินมินเนี่ยน[b]หนึ่งใบในเด็คคุณแล้วรับค่าพลัง[b]ของมัน <b>เสียงสุดท้าย:</b> เพิ่มการ์ดนั้นในมือคุณ\n\t\t<b>战吼：</b>吞食一个你的牌库中的随从，并获得其属性值。<b>亡语：</b>将被吞食的随从置入手牌。\n\t\t<b>戰吼：</b>吃掉一個你牌堆中的手下，獲得其體質<b>死亡之聲：</b>將它放到你的手中\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Wir brauchen ein größeres Boot."
+          },
+          "enUS": {
+            "present": true,
+            "value": "“… We’re gonna need a bigger board.”"
+          },
+          "esES": {
+            "present": true,
+            "value": "«Necesitará otro tablero más grande»."
+          },
+          "esMX": {
+            "present": true,
+            "value": "“… Vamos a necesitar un tablero más grande”."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Le Loa, c’est moi !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Il Santo Gral degli squali."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「…この船じゃ小さすぎる」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "???: 저기 몇 달이나 들어가 있었다고요!"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Przydałoby się na planszy spore akwarium."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "\"... Vamos precisar de outro tabuleiro.\""
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Эта рыбка исполняет только предсмертное желание."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ผู้ที่เกิดปีจอว์มีอุปนิสัยชอบจมเรือ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "“……我们需要更大的甲板。”"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "你最不希望在海裡…還有龍捲風裡看見的東西。"
+          }
+        },
+        "textContent": "\n\t\tWir brauchen ein größeres Boot.\n\t\t“… We’re gonna need a bigger board.”\n\t\t«Necesitará otro tablero más grande».\n\t\t“… Vamos a necesitar un tablero más grande”.\n\t\tLe Loa, c’est moi !\n\t\tIl Santo Gral degli squali.\n\t\t「…この船じゃ小さすぎる」\n\t\t???: 저기 몇 달이나 들어가 있었다고요!\n\t\tPrzydałoby się na planszy spore akwarium.\n\t\t\"... Vamos precisar de outro tabuleiro.\"\n\t\tЭта рыбка исполняет только предсмертное желание.\n\t\tผู้ที่เกิดปีจอว์มีอุปนิสัยชอบจมเรือ\n\t\t“……我们需要更大的甲板。”\n\t\t你最不希望在海裡…還有龍捲風裡看見的東西。\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Anton Zemskov"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "상어 그랄",
+      "enUS": "Gral, the Shark"
+    },
+    "currentPrintedText": {
+      "koKR": "상어 그랄",
+      "enUS": "Gral, the Shark"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_409",
+    "dbfId": 50775,
+    "name": "상어 그랄",
+    "type": "MINION",
+    "cardClass": "ROGUE",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>전투의 함성:</b> 내 덱에<br></br>있는 하수인을 잡아먹고 그<br></br>하수인의 능력치를 얻습니다.<br></br><b>죽음의 메아리:</b> 그 하수인을<br></br>내 손으로 가져옵니다.",
+    "attack": 2,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "???: 저기 몇 달이나 들어가 있었다고요!",
+    "spellSchool": "",
+    "portrait": "HS15-016_M.psd:8de198b6f67b4304091e0a6d0c29d3d3",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/TRL_409.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_409",
+    "dbfId": 50775,
+    "name": "상어 그랄",
+    "type": "MINION",
+    "cardClass": "ROGUE",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>전투의 함성:</b> 내 덱에<br></br>있는 하수인을 잡아먹고 그<br></br>하수인의 능력치를 얻습니다.<br></br><b>죽음의 메아리:</b> 그 하수인을<br></br>내 손으로 가져옵니다.",
+    "attack": 2,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "???: 저기 몇 달이나 들어가 있었다고요!",
+    "spellSchool": "",
+    "portrait": "HS15-016_M.psd:8de198b6f67b4304091e0a6d0c29d3d3",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/TRL_409.png"
+  }
+}

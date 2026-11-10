@@ -1,1 +1,759 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_570","dbfId":52931,"name":"수프 상인","type":"MINION","cardClass":"NEUTRAL","rarity":"RARE","collectible":true,"cost":2,"text":"내가 내 영웅의 생명력을 3 이상 회복시킬 때마다 카드를 뽑습니다.","attack":1,"health":4,"durability":0,"armor":0,"flavor":"방금 투기장 바닥에서 담아온 따끈따끈한 수프입니다!","spellSchool":"","portrait":"HS15-059_M.psd:b109fa5fe5a7ed34d805ba6358eda2b9","set":"TROLL","nativeTags":[{"id":32,"name":"발동 효과 표시","value":1},{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":2},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/TRL_570.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-059_M.psd:b109fa5fe5a7ed34d805ba6358eda2b9","goldenMaterial":"TRL_570_PremiumCard.mat:cf315253c9b600241bc2a51f879c14ea","goldenAnimation":"TRL_570_PremiumCard.asset:ac825ae0bb018114e8c3d837d8ef57f7"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-059_M.psd:b109fa5fe5a7ed34d805ba6358eda2b9",
+        "goldenMaterial": "TRL_570_PremiumCard.mat:cf315253c9b600241bc2a51f879c14ea",
+        "goldenAnimation": "TRL_570_PremiumCard.asset:ac825ae0bb018114e8c3d837d8ef57f7"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-059_M.psd:b109fa5fe5a7ed34d805ba6358eda2b9",
+      "goldenMaterial": "TRL_570_PremiumCard.mat:cf315253c9b600241bc2a51f879c14ea",
+      "goldenAnimation": "TRL_570_PremiumCard.asset:ac825ae0bb018114e8c3d837d8ef57f7"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "32": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "32": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Suppentuskarr"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Soup Vendor"
+          },
+          "esES": {
+            "present": true,
+            "value": "Vendedor de sopa"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Vendedor de sopa"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Vendeur de soupe"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Venditore di Zuppa"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "スープ売り"
+          },
+          "koKR": {
+            "present": true,
+            "value": "수프 상인"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zupowar"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Vendedor de Sopa"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Торговец супом"
+          },
+          "thTH": {
+            "present": true,
+            "value": "คนขายซุป"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "汤水商贩"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "煲湯小販"
+          }
+        },
+        "textContent": "\n\t\t\tSuppentuskarr\n\t\t\tSoup Vendor\n\t\t\tVendedor de sopa\n\t\t\tVendedor de sopa\n\t\t\tVendeur de soupe\n\t\t\tVenditore di Zuppa\n\t\t\tスープ売り\n\t\t\t수프 상인\n\t\t\tZupowar\n\t\t\tVendedor de Sopa\n\t\t\tТорговец супом\n\t\t\tคนขายซุป\n\t\t\t汤水商贩\n\t\t\t煲湯小販\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "[x]Zieht jedes Mal eine Karte,\nwenn Ihr bei Eurem\nHelden mind. 3 Leben\nwiederherstellt."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Whenever you restore 3 or more Health to your hero, draw a card."
+          },
+          "esES": {
+            "present": true,
+            "value": "Cada vez que restauras 3 p. de salud o más a tu héroe, roba una carta."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Cada vez que restaures 3 de Salud o más a tu héroe, roba una carta."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Vous piochez une carte chaque fois que vous rendez 3_PV ou plus à votre héros."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Quando rigeneri 3 o più Salute al tuo eroe,\npesca una carta."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]自分のヒーローの\n体力を3以上回復する度\nカードを1枚引く。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "내가 내 영웅의 생명력을 3 이상 회복시킬 때마다 카드를 뽑습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Za każdym razem gdy przywracasz twojemu bohaterowi 3 lub więcej pkt. zdrowia, dobierz kartę."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Sempre que você \nrestaurar 3 ou mais \nde Vida do seu herói, \ncompre um card."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "[x]Вы берете карту,\n когда восстанавливаете\nсвоему герою 3 ед.\nздоровья или более."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ทุกครั้งที่คุณฟื้นฟูพลังชีวิต 3_แต้มหรือมากกว่าให้ฮีโร่[b]ของคุณ จั่วการ์ดหนึ่งใบ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "每当你为你的英雄恢复3点及以上生命值时，抽一张牌。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "每當你為你的英雄恢復3點以上的生命值，抽一張牌"
+          }
+        },
+        "textContent": "\n\t\t\t[x]Zieht jedes Mal eine Karte,\nwenn Ihr bei Eurem\nHelden mind. 3 Leben\nwiederherstellt.\n\t\t\tWhenever you restore 3 or more Health to your hero, draw a card.\n\t\t\tCada vez que restauras 3 p. de salud o más a tu héroe, roba una carta.\n\t\t\tCada vez que restaures 3 de Salud o más a tu héroe, roba una carta.\n\t\t\tVous piochez une carte chaque fois que vous rendez 3_PV ou plus à votre héros.\n\t\t\tQuando rigeneri 3 o più Salute al tuo eroe,\npesca una carta.\n\t\t\t[x]自分のヒーローの\n体力を3以上回復する度\nカードを1枚引く。\n\t\t\t내가 내 영웅의 생명력을 3 이상 회복시킬 때마다 카드를 뽑습니다.\n\t\t\tZa każdym razem gdy przywracasz twojemu bohaterowi 3 lub więcej pkt. zdrowia, dobierz kartę.\n\t\t\tSempre que você \nrestaurar 3 ou mais \nde Vida do seu herói, \ncompre um card.\n\t\t\t[x]Вы берете карту,\n когда восстанавливаете\nсвоему герою 3 ед.\nздоровья или более.\n\t\t\tทุกครั้งที่คุณฟื้นฟูพลังชีวิต 3_แต้มหรือมากกว่าให้ฮีโร่[b]ของคุณ จั่วการ์ดหนึ่งใบ\n\t\t\t每当你为你的英雄恢复3点及以上生命值时，抽一张牌。\n\t\t\t每當你為你的英雄恢復3點以上的生命值，抽一張牌\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Ich esse keine Suppe! Nein! Ich esse Eure Suppe nicht! Nein, Eure Suppe ess ich nicht!"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Fresh from the floor of the arena!"
+          },
+          "esES": {
+            "present": true,
+            "value": "Recién recogidita del suelo."
+          },
+          "esMX": {
+            "present": true,
+            "value": "¡Recién preparada en el piso de la arena!"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Son ingrédient secret ? Le jus de chaussette !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Fresca di giornata, direttamente dal pavimento dell'arena!"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "食材は目の前のステージからの採れたてだよ！"
+          },
+          "koKR": {
+            "present": true,
+            "value": "방금 투기장 바닥에서 담아온 따끈따끈한 수프입니다!"
+          },
+          "plPL": {
+            "present": true,
+            "value": "„Przysięgam na moją matkę, że nie ma tu oleju palmowego!”."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Acabou de sair do chão da arena!"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "«А куда пропал мурлок, который ошивался на кухне?»"
+          },
+          "thTH": {
+            "present": true,
+            "value": "\"ซุปร้อนๆ จากพื้นสนามอารีน่า!\""
+          },
+          "zhCN": {
+            "present": true,
+            "value": "就地取材，都是竞技场里刚抬出来的！"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "好好味的戰士雜煮，有煲到軟爛的真正戰士肉塊！"
+          }
+        },
+        "textContent": "\n\t\t\tIch esse keine Suppe! Nein! Ich esse Eure Suppe nicht! Nein, Eure Suppe ess ich nicht!\n\t\t\tFresh from the floor of the arena!\n\t\t\tRecién recogidita del suelo.\n\t\t\t¡Recién preparada en el piso de la arena!\n\t\t\tSon ingrédient secret ? Le jus de chaussette !\n\t\t\tFresca di giornata, direttamente dal pavimento dell'arena!\n\t\t\t食材は目の前のステージからの採れたてだよ！\n\t\t\t방금 투기장 바닥에서 담아온 따끈따끈한 수프입니다!\n\t\t\t„Przysięgam na moją matkę, że nie ma tu oleju palmowego!”.\n\t\t\tAcabou de sair do chão da arena!\n\t\t\t«А куда пропал мурлок, который ошивался на кухне?»\n\t\t\t\"ซุปร้อนๆ จากพื้นสนามอารีน่า!\"\n\t\t\t就地取材，都是竞技场里刚抬出来的！\n\t\t\t好好味的戰士雜煮，有煲到軟爛的真正戰士肉塊！\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Sean McNally"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Suppentuskarr"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Soup Vendor"
+          },
+          "esES": {
+            "present": true,
+            "value": "Vendedor de sopa"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Vendedor de sopa"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Vendeur de soupe"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Venditore di Zuppa"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "スープ売り"
+          },
+          "koKR": {
+            "present": true,
+            "value": "수프 상인"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zupowar"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Vendedor de Sopa"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Торговец супом"
+          },
+          "thTH": {
+            "present": true,
+            "value": "คนขายซุป"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "汤水商贩"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "煲湯小販"
+          }
+        },
+        "textContent": "\n\t\tSuppentuskarr\n\t\tSoup Vendor\n\t\tVendedor de sopa\n\t\tVendedor de sopa\n\t\tVendeur de soupe\n\t\tVenditore di Zuppa\n\t\tスープ売り\n\t\t수프 상인\n\t\tZupowar\n\t\tVendedor de Sopa\n\t\tТорговец супом\n\t\tคนขายซุป\n\t\t汤水商贩\n\t\t煲湯小販\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "[x]Zieht jedes Mal eine Karte,\nwenn Ihr bei Eurem\nHelden mind. 3 Leben\nwiederherstellt."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Whenever you restore 3 or more Health to your hero, draw a card."
+          },
+          "esES": {
+            "present": true,
+            "value": "Cada vez que restauras 3 p. de salud o más a tu héroe, roba una carta."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Cada vez que restaures 3 de Salud o más a tu héroe, roba una carta."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Vous piochez une carte chaque fois que vous rendez 3_PV ou plus à votre héros."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Quando rigeneri 3 o più Salute al tuo eroe,\npesca una carta."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]自分のヒーローの\n体力を3以上回復する度\nカードを1枚引く。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "내가 내 영웅의 생명력을 3 이상 회복시킬 때마다 카드를 뽑습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Za każdym razem gdy przywracasz twojemu bohaterowi 3 lub więcej pkt. zdrowia, dobierz kartę."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Sempre que você \nrestaurar 3 ou mais \nde Vida do seu herói, \ncompre um card."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "[x]Вы берете карту,\n когда восстанавливаете\nсвоему герою 3 ед.\nздоровья или более."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ทุกครั้งที่คุณฟื้นฟูพลัง[b]ชีวิต_3_แต้มหรือมากกว่าให้[b]_ฮีโร่ของคุณ_จั่วการ์ดหนึ่งใบ_"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "每当你为你的英雄恢复3点及以上生命值时，抽一张牌。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "每當你為你的英雄恢復3點以上的生命值，抽一張牌"
+          }
+        },
+        "textContent": "\n\t\t[x]Zieht jedes Mal eine Karte,\nwenn Ihr bei Eurem\nHelden mind. 3 Leben\nwiederherstellt.\n\t\tWhenever you restore 3 or more Health to your hero, draw a card.\n\t\tCada vez que restauras 3 p. de salud o más a tu héroe, roba una carta.\n\t\tCada vez que restaures 3 de Salud o más a tu héroe, roba una carta.\n\t\tVous piochez une carte chaque fois que vous rendez 3_PV ou plus à votre héros.\n\t\tQuando rigeneri 3 o più Salute al tuo eroe,\npesca una carta.\n\t\t[x]自分のヒーローの\n体力を3以上回復する度\nカードを1枚引く。\n\t\t내가 내 영웅의 생명력을 3 이상 회복시킬 때마다 카드를 뽑습니다.\n\t\tZa każdym razem gdy przywracasz twojemu bohaterowi 3 lub więcej pkt. zdrowia, dobierz kartę.\n\t\tSempre que você \nrestaurar 3 ou mais \nde Vida do seu herói, \ncompre um card.\n\t\t[x]Вы берете карту,\n когда восстанавливаете\nсвоему герою 3 ед.\nздоровья или более.\n\t\tทุกครั้งที่คุณฟื้นฟูพลัง[b]ชีวิต_3_แต้มหรือมากกว่าให้[b]_ฮีโร่ของคุณ_จั่วการ์ดหนึ่งใบ_\n\t\t每当你为你的英雄恢复3点及以上生命值时，抽一张牌。\n\t\t每當你為你的英雄恢復3點以上的生命值，抽一張牌\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Ich esse keine Suppe! Nein! Ich esse Eure Suppe nicht! Nein, Eure Suppe ess ich nicht!"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Fresh from the floor of the arena!"
+          },
+          "esES": {
+            "present": true,
+            "value": "Recién recogidita del suelo."
+          },
+          "esMX": {
+            "present": true,
+            "value": "¡Recién preparada en el piso de la arena!"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Son ingrédient secret ? Le jus de chaussette !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Fresca di giornata, direttamente dal pavimento dell'arena!"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "食材は目の前のステージからの採れたてだよ！"
+          },
+          "koKR": {
+            "present": true,
+            "value": "방금 투기장 바닥에서 담아온 따끈따끈한 수프입니다!"
+          },
+          "plPL": {
+            "present": true,
+            "value": "„Przysięgam na moją matkę, że nie ma tu oleju palmowego!”."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Acabou de sair do chão da arena!"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "«А куда пропал мурлок, который ошивался на кухне?»"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ซุปร้อนๆ จากพื้นสนามอารีน่า!"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "就地取材，都是竞技场里刚抬出来的！"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "好好味的戰士雜煮，有煲到軟爛的真正戰士肉塊！"
+          }
+        },
+        "textContent": "\n\t\tIch esse keine Suppe! Nein! Ich esse Eure Suppe nicht! Nein, Eure Suppe ess ich nicht!\n\t\tFresh from the floor of the arena!\n\t\tRecién recogidita del suelo.\n\t\t¡Recién preparada en el piso de la arena!\n\t\tSon ingrédient secret ? Le jus de chaussette !\n\t\tFresca di giornata, direttamente dal pavimento dell'arena!\n\t\t食材は目の前のステージからの採れたてだよ！\n\t\t방금 투기장 바닥에서 담아온 따끈따끈한 수프입니다!\n\t\t„Przysięgam na moją matkę, że nie ma tu oleju palmowego!”.\n\t\tAcabou de sair do chão da arena!\n\t\t«А куда пропал мурлок, который ошивался на кухне?»\n\t\tซุปร้อนๆ จากพื้นสนามอารีน่า!\n\t\t就地取材，都是竞技场里刚抬出来的！\n\t\t好好味的戰士雜煮，有煲到軟爛的真正戰士肉塊！\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Sean McNally"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "수프 상인",
+      "enUS": "Soup Vendor"
+    },
+    "currentPrintedText": {
+      "koKR": "수프 상인",
+      "enUS": "Soup Vendor"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_570",
+    "dbfId": 52931,
+    "name": "수프 상인",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 2,
+    "text": "내가 내 영웅의 생명력을 3 이상 회복시킬 때마다 카드를 뽑습니다.",
+    "attack": 1,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "방금 투기장 바닥에서 담아온 따끈따끈한 수프입니다!",
+    "spellSchool": "",
+    "portrait": "HS15-059_M.psd:b109fa5fe5a7ed34d805ba6358eda2b9",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_570.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_570",
+    "dbfId": 52931,
+    "name": "수프 상인",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 2,
+    "text": "내가 내 영웅의 생명력을 3 이상 회복시킬 때마다 카드를 뽑습니다.",
+    "attack": 1,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "방금 투기장 바닥에서 담아온 따끈따끈한 수프입니다!",
+    "spellSchool": "",
+    "portrait": "HS15-059_M.psd:b109fa5fe5a7ed34d805ba6358eda2b9",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_570.png"
+  }
+}

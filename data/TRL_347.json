@@ -1,1 +1,837 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_347","dbfId":50466,"name":"미끼용 화살","type":"SPELL","cardClass":"HUNTER","rarity":"COMMON","collectible":true,"cost":5,"text":"피해를 $3 줍니다. <b>압살:</b> 5/5 데빌사우루스를 소환합니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"일반 카드지만 스테이크는 레어입니다.","spellSchool":"","portrait":"HS15-123_S.psd:4e3696af6fe49384aa7fd966c5db8c7b","set":"TROLL","nativeTags":[{"id":48,"name":"마나 비용","value":5},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":3},{"id":201,"name":"진영","value":3},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":1},{"id":251,"name":"게임 태그 251","value":1},{"id":268,"name":"게임 태그 268","value":2},{"id":321,"name":"수집 가능","value":1},{"id":330,"name":"효과 생성 시각 효과","value":0},{"id":331,"name":"효과 지속 시각 효과","value":0},{"id":923,"name":"압살","value":1},{"id":1452,"name":"수집품 관련 카드 데이터베이스 ID","value":50467}],"races":[],"race":"","classes":[],"art":"art/TRL_347.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-123_S.psd:4e3696af6fe49384aa7fd966c5db8c7b","goldenMaterial":"TRL_347_PremiumCard.mat:707518c7d5533f44d9c69964096fd810","goldenAnimation":"TRL_347_PremiumCard.asset:20277b2008ac4d94a850fe784d414238"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-123_S.psd:4e3696af6fe49384aa7fd966c5db8c7b",
+        "goldenMaterial": "TRL_347_PremiumCard.mat:707518c7d5533f44d9c69964096fd810",
+        "goldenAnimation": "TRL_347_PremiumCard.asset:20277b2008ac4d94a850fe784d414238"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-123_S.psd:4e3696af6fe49384aa7fd966c5db8c7b",
+      "goldenMaterial": "TRL_347_PremiumCard.mat:707518c7d5533f44d9c69964096fd810",
+      "goldenAnimation": "TRL_347_PremiumCard.asset:20277b2008ac4d94a850fe784d414238"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "201": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "251": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "268": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "923": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "201": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "251": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "268": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "923": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "1452": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "50467",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Köderpfeil"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Baited Arrow"
+          },
+          "esES": {
+            "present": true,
+            "value": "Flecha con cebo"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Flecha con carnada"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Flèche alléchante"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Freccia con Esca"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "エサ付きの矢"
+          },
+          "koKR": {
+            "present": true,
+            "value": "미끼용 화살"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Strzała z przynętą"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Flecha com Isca"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Стрела с наживкой"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ศรติดเหยื่อ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "诱饵射击"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "誘餌箭"
+          }
+        },
+        "textContent": "\n\t\t\tKöderpfeil\n\t\t\tBaited Arrow\n\t\t\tFlecha con cebo\n\t\t\tFlecha con carnada\n\t\t\tFlèche alléchante\n\t\t\tFreccia con Esca\n\t\t\tエサ付きの矢\n\t\t\t미끼용 화살\n\t\t\tStrzała z przynętą\n\t\t\tFlecha com Isca\n\t\t\tСтрела с наживкой\n\t\t\tศรติดเหยื่อ\n\t\t\t诱饵射击\n\t\t\t誘餌箭\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "[x]Verursacht $3 Schaden.\n<b>Überwältigen:</b> Ruft\neinen Teufelssaurier\n(5/5) herbei."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Deal $3 damage. <b>Overkill:</b> Summon a 5/5 Devilsaur."
+          },
+          "esES": {
+            "present": true,
+            "value": "Inflige $3 p. de daño. <b>Arrasar:</b> Invoca a un demosaurio 5/5."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Inflige $3 de daño. <b>Arrasar:</b> invoca un Demosaurio 5/5."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Inflige $3_|4(point,points) de dégâts.\n<b>Brutalité :</b> invoque un diablosaure_5/5."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]Infligge $3 danni.\n<b>Annientamento:</b> evoca\nun Gigantosauro 5/5."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]$3ダメージを与える。\n<b>血祭:</b>\n5/5の「デビルサウルス」\nを1体召喚する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "피해를 $3 줍니다. <b>압살:</b> 5/5 데빌사우루스를 소환합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zadaj $3 pkt. obrażeń.\n<b>Rzeź:</b> Przyzwij Diabłozaura_5/5."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Cause $3 de dano. <b>Massacre:</b> Evoque um Demossauro 5/5."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Наносит $3 ед. урона. <b>Сверхурон:</b> призывает дьявозавра 5/5."
+          },
+          "thTH": {
+            "present": true,
+            "value": "สร้างความเสียหาย $3_แต้ม <b>สังหารโหด:</b> เรียกเดวิลซอร์ 5/5"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "造成$3点伤害。<b>超杀：</b>召唤一个5/5的魔暴龙。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "造成$3點傷害<b>滅殺：</b>召喚一個\n5/5魔暴龍"
+          }
+        },
+        "textContent": "\n\t\t\t[x]Verursacht $3 Schaden.\n<b>Überwältigen:</b> Ruft\neinen Teufelssaurier\n(5/5) herbei.\n\t\t\tDeal $3 damage. <b>Overkill:</b> Summon a 5/5 Devilsaur.\n\t\t\tInflige $3 p. de daño. <b>Arrasar:</b> Invoca a un demosaurio 5/5.\n\t\t\tInflige $3 de daño. <b>Arrasar:</b> invoca un Demosaurio 5/5.\n\t\t\tInflige $3_|4(point,points) de dégâts.\n<b>Brutalité :</b> invoque un diablosaure_5/5.\n\t\t\t[x]Infligge $3 danni.\n<b>Annientamento:</b> evoca\nun Gigantosauro 5/5.\n\t\t\t[x]$3ダメージを与える。\n<b>血祭:</b>\n5/5の「デビルサウルス」\nを1体召喚する。\n\t\t\t피해를 $3 줍니다. <b>압살:</b> 5/5 데빌사우루스를 소환합니다.\n\t\t\tZadaj $3 pkt. obrażeń.\n<b>Rzeź:</b> Przyzwij Diabłozaura_5/5.\n\t\t\tCause $3 de dano. <b>Massacre:</b> Evoque um Demossauro 5/5.\n\t\t\tНаносит $3 ед. урона. <b>Сверхурон:</b> призывает дьявозавра 5/5.\n\t\t\tสร้างความเสียหาย $3_แต้ม <b>สังหารโหด:</b> เรียกเดวิลซอร์ 5/5\n\t\t\t造成$3点伤害。<b>超杀：</b>召唤一个5/5的魔暴龙。\n\t\t\t造成$3點傷害<b>滅殺：</b>召喚一個\n5/5魔暴龍\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Hol das Pfeilchen!"
+          },
+          "enUS": {
+            "present": true,
+            "value": "The card is common, but the steak is rare."
+          },
+          "esES": {
+            "present": true,
+            "value": "La carta es común, pero el sabor del filete es legendario."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Qué desperdicio de carne... Y de flechas."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Suivez la flèche !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "La carta è comune, ma la bistecca è epica."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "このカードはコモンだが、刺さってるステーキはレアだぞ！"
+          },
+          "koKR": {
+            "present": true,
+            "value": "일반 카드지만 스테이크는 레어입니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Stek na grocie to w niektórych stronach prawdziwy przysmak."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Alguém entendeu errado quando disseram \"Manda uma carne bem rápido\"."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Новейшая охотничья уловка."
+          },
+          "thTH": {
+            "present": true,
+            "value": "การ์ดนี้เป็นระดับคอมม่อน แต่สเต็กระดับแรร์"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "牌是普通牌，可这一分熟的牛排倒很稀有。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "卡牌很普通，不過煎那塊半生熟牛排的手法十分精良！"
+          }
+        },
+        "textContent": "\n\t\t\tHol das Pfeilchen!\n\t\t\tThe card is common, but the steak is rare.\n\t\t\tLa carta es común, pero el sabor del filete es legendario.\n\t\t\tQué desperdicio de carne... Y de flechas.\n\t\t\tSuivez la flèche !\n\t\t\tLa carta è comune, ma la bistecca è epica.\n\t\t\tこのカードはコモンだが、刺さってるステーキはレアだぞ！\n\t\t\t일반 카드지만 스테이크는 레어입니다.\n\t\t\tStek na grocie to w niektórych stronach prawdziwy przysmak.\n\t\t\tAlguém entendeu errado quando disseram \"Manda uma carne bem rápido\".\n\t\t\tНовейшая охотничья уловка.\n\t\t\tการ์ดนี้เป็นระดับคอมม่อน แต่สเต็กระดับแรร์\n\t\t\t牌是普通牌，可这一分熟的牛排倒很稀有。\n\t\t\t卡牌很普通，不過煎那塊半生熟牛排的手法十分精良！\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Anton Zemskov"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Köderpfeil"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Baited Arrow"
+          },
+          "esES": {
+            "present": true,
+            "value": "Flecha con cebo"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Flecha con carnada"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Flèche alléchante"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Freccia con Esca"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "エサ付きの矢"
+          },
+          "koKR": {
+            "present": true,
+            "value": "미끼용 화살"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Strzała z przynętą"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Flecha com Isca"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Стрела с наживкой"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ศรติดเหยื่อ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "诱饵射击"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "誘餌箭"
+          }
+        },
+        "textContent": "\n\t\tKöderpfeil\n\t\tBaited Arrow\n\t\tFlecha con cebo\n\t\tFlecha con carnada\n\t\tFlèche alléchante\n\t\tFreccia con Esca\n\t\tエサ付きの矢\n\t\t미끼용 화살\n\t\tStrzała z przynętą\n\t\tFlecha com Isca\n\t\tСтрела с наживкой\n\t\tศรติดเหยื่อ\n\t\t诱饵射击\n\t\t誘餌箭\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "[x]Verursacht $3 Schaden.\n<b>Überwältigen:</b> Ruft\neinen Teufelssaurier\n(5/5) herbei."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Deal $3 damage. <b>Overkill:</b> Summon a 5/5 Devilsaur."
+          },
+          "esES": {
+            "present": true,
+            "value": "Inflige $3 p. de daño. <b>Arrasar:</b> Invoca a un demosaurio 5/5."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Inflige $3 de daño. <b>Arrasar:</b> invoca un Demosaurio 5/5."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Inflige $3_|4(point,points) de dégâts.\n<b>Brutalité :</b> invoque un diablosaure_5/5."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]Infligge $3 danni.\n<b>Annientamento:</b> evoca\nun Gigantosauro 5/5."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]$3ダメージを与える。\n<b>血祭:</b>\n5/5の「デビルサウルス」\nを1体召喚する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "피해를 $3 줍니다. <b>압살:</b> 5/5 데빌사우루스를 소환합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zadaj $3 pkt. obrażeń.\n<b>Rzeź:</b> Przyzwij Diabłozaura_5/5."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Cause $3 de dano. <b>Massacre:</b> Evoque um Demossauro 5/5."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Наносит $3 ед. урона. <b>Сверхурон:</b> призывает дьявозавра 5/5."
+          },
+          "thTH": {
+            "present": true,
+            "value": "สร้างความเสียหาย $3_แต้ม <b>สังหารโหด:</b> เรียกเดวิลซอร์ 5/5"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "造成$3点伤害。<b>超杀：</b>召唤一个5/5的魔暴龙。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "造成$3點傷害<b>滅殺：</b>召喚一個\n5/5魔暴龍"
+          }
+        },
+        "textContent": "\n\t\t[x]Verursacht $3 Schaden.\n<b>Überwältigen:</b> Ruft\neinen Teufelssaurier\n(5/5) herbei.\n\t\tDeal $3 damage. <b>Overkill:</b> Summon a 5/5 Devilsaur.\n\t\tInflige $3 p. de daño. <b>Arrasar:</b> Invoca a un demosaurio 5/5.\n\t\tInflige $3 de daño. <b>Arrasar:</b> invoca un Demosaurio 5/5.\n\t\tInflige $3_|4(point,points) de dégâts.\n<b>Brutalité :</b> invoque un diablosaure_5/5.\n\t\t[x]Infligge $3 danni.\n<b>Annientamento:</b> evoca\nun Gigantosauro 5/5.\n\t\t[x]$3ダメージを与える。\n<b>血祭:</b>\n5/5の「デビルサウルス」\nを1体召喚する。\n\t\t피해를 $3 줍니다. <b>압살:</b> 5/5 데빌사우루스를 소환합니다.\n\t\tZadaj $3 pkt. obrażeń.\n<b>Rzeź:</b> Przyzwij Diabłozaura_5/5.\n\t\tCause $3 de dano. <b>Massacre:</b> Evoque um Demossauro 5/5.\n\t\tНаносит $3 ед. урона. <b>Сверхурон:</b> призывает дьявозавра 5/5.\n\t\tสร้างความเสียหาย $3_แต้ม <b>สังหารโหด:</b> เรียกเดวิลซอร์ 5/5\n\t\t造成$3点伤害。<b>超杀：</b>召唤一个5/5的魔暴龙。\n\t\t造成$3點傷害<b>滅殺：</b>召喚一個\n5/5魔暴龍\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Hol das Pfeilchen!"
+          },
+          "enUS": {
+            "present": true,
+            "value": "The card is common, but the steak is rare."
+          },
+          "esES": {
+            "present": true,
+            "value": "La carta es común, pero el sabor del filete es legendario."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Qué desperdicio de carne... Y de flechas."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Suivez la flèche !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "La carta è comune, ma la bistecca è epica."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "このカードはコモンだが、刺さってるステーキはレアだぞ！"
+          },
+          "koKR": {
+            "present": true,
+            "value": "일반 카드지만 스테이크는 레어입니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Stek na grocie to w niektórych stronach prawdziwy przysmak."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Alguém entendeu errado quando disseram \"Manda uma carne bem rápido\"."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Новейшая охотничья уловка."
+          },
+          "thTH": {
+            "present": true,
+            "value": "การ์ดนี้เป็นระดับคอมม่อน แต่สเต็กระดับแรร์"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "牌是普通牌，可这一分熟的牛排倒很稀有。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "卡牌很普通，不過煎那塊半生熟牛排的手法十分精良！"
+          }
+        },
+        "textContent": "\n\t\tHol das Pfeilchen!\n\t\tThe card is common, but the steak is rare.\n\t\tLa carta es común, pero el sabor del filete es legendario.\n\t\tQué desperdicio de carne... Y de flechas.\n\t\tSuivez la flèche !\n\t\tLa carta è comune, ma la bistecca è epica.\n\t\tこのカードはコモンだが、刺さってるステーキはレアだぞ！\n\t\t일반 카드지만 스테이크는 레어입니다.\n\t\tStek na grocie to w niektórych stronach prawdziwy przysmak.\n\t\tAlguém entendeu errado quando disseram \"Manda uma carne bem rápido\".\n\t\tНовейшая охотничья уловка.\n\t\tการ์ดนี้เป็นระดับคอมม่อน แต่สเต็กระดับแรร์\n\t\t牌是普通牌，可这一分熟的牛排倒很稀有。\n\t\t卡牌很普通，不過煎那塊半生熟牛排的手法十分精良！\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Anton Zemskov"
+      }
+    },
+    "undatedRawTagTransitions": [
+      {
+        "build": 170824,
+        "id": "TRL_347",
+        "dbfId": 50466,
+        "name": "미끼용 화살",
+        "rawDiff": {
+          "1452": [
+            "ABSENT",
+            "50467"
+          ]
+        },
+        "tagNames": {
+          "1452": "COLLECTION_RELATED_CARD_DATABASE_ID"
+        },
+        "decision": "native_bookkeeping_or_other_mode_not_balance",
+        "relatedFindings": [],
+        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml"
+      }
+    ],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "미끼용 화살",
+      "enUS": "Baited Arrow"
+    },
+    "currentPrintedText": {
+      "koKR": "미끼용 화살",
+      "enUS": "Baited Arrow"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_347",
+    "dbfId": 50466,
+    "name": "미끼용 화살",
+    "type": "SPELL",
+    "cardClass": "HUNTER",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 5,
+    "text": "피해를 $3 줍니다. <b>압살:</b> 5/5 데빌사우루스를 소환합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "일반 카드지만 스테이크는 레어입니다.",
+    "spellSchool": "",
+    "portrait": "HS15-123_S.psd:4e3696af6fe49384aa7fd966c5db8c7b",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 268,
+        "name": "게임 태그 268",
+        "value": 2
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 923,
+        "name": "압살",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "수집품 관련 카드 데이터베이스 ID",
+        "value": 50467
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_347.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_347",
+    "dbfId": 50466,
+    "name": "미끼용 화살",
+    "type": "SPELL",
+    "cardClass": "HUNTER",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 5,
+    "text": "피해를 $3 줍니다. <b>압살:</b> 5/5 데빌사우루스를 소환합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "일반 카드지만 스테이크는 레어입니다.",
+    "spellSchool": "",
+    "portrait": "HS15-123_S.psd:4e3696af6fe49384aa7fd966c5db8c7b",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 268,
+        "name": "게임 태그 268",
+        "value": 2
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 923,
+        "name": "압살",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "수집품 관련 카드 데이터베이스 ID",
+        "value": 50467
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_347.png"
+  }
+}

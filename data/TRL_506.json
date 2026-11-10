@@ -1,1 +1,785 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_506","dbfId":50380,"name":"구루바시 닭","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":1,"text":"<b>압살:</b> 공격력을 +5 얻습니다.","attack":1,"health":1,"durability":0,"armor":0,"flavor":"압살했닭! 오늘 저녁은 치킨이닭!","spellSchool":"","portrait":"HS15-054_M.psd:07108fd9c52987544b3029ef5c34ca25","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":1},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1},{"id":923,"name":"압살","value":1}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/TRL_506.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-054_M.psd:07108fd9c52987544b3029ef5c34ca25","goldenMaterial":"TRL_506_PremiumCard.mat:1c8db7c5eb92b6945bd1f3088b25fbe7","goldenAnimation":"TRL_506_PremiumCard.asset:65af14d896594794380207d887bd4d09"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-054_M.psd:07108fd9c52987544b3029ef5c34ca25",
+        "goldenMaterial": "TRL_506_PremiumCard.mat:1c8db7c5eb92b6945bd1f3088b25fbe7",
+        "goldenAnimation": "TRL_506_PremiumCard.asset:65af14d896594794380207d887bd4d09"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-054_M.psd:07108fd9c52987544b3029ef5c34ca25",
+      "goldenMaterial": "TRL_506_PremiumCard.mat:1c8db7c5eb92b6945bd1f3088b25fbe7",
+      "goldenAnimation": "TRL_506_PremiumCard.asset:65af14d896594794380207d887bd4d09"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "20",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "923": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "20",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "923": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Gurubashigockel"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Gurubashi Chicken"
+          },
+          "esES": {
+            "present": true,
+            "value": "Pollo Gurubashi"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Gallina gurubashi"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Poulet gurubashi"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Gallina Gurubashi"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "グルバシ・チキン"
+          },
+          "koKR": {
+            "present": true,
+            "value": "구루바시 닭"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Kurak z Gurubaszów"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Galinha Gurubashi"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Курица Гурубаши"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ไก่กูรูบาชิ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "古拉巴什小鸡"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "古拉巴什雞"
+          }
+        },
+        "textContent": "\n\t\t\tGurubashigockel\n\t\t\tGurubashi Chicken\n\t\t\tPollo Gurubashi\n\t\t\tGallina gurubashi\n\t\t\tPoulet gurubashi\n\t\t\tGallina Gurubashi\n\t\t\tグルバシ・チキン\n\t\t\t구루바시 닭\n\t\t\tKurak z Gurubaszów\n\t\t\tGalinha Gurubashi\n\t\t\tКурица Гурубаши\n\t\t\tไก่กูรูบาชิ\n\t\t\t古拉巴什小鸡\n\t\t\t古拉巴什雞\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Überwältigen:</b>\nErhält +5 Angriff."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Overkill:</b> Gain +5 Attack."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Arrasar:</b>\nObtiene +5 p. de ataque."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Arrasar:</b> obtiene +5 de Ataque."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Brutalité :</b> gagne +5_ATQ."
+          },
+          "itIT": {
+            "present": true,
+            "value": "<b>Annientamento:</b>\nottiene +5 Attacco."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>血祭:</b>\n_攻撃力+5を獲得する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>압살:</b> 공격력을 +5 얻습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Rzeź:</b> Otrzymuje\n+5 do ataku."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Massacre:</b>\nReceba +5 de Ataque."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Сверхурон:</b>\nполучает +5 к атаке."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>สังหารโหด:</b> ได้รับพลังโจมตี +5"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>超杀：</b>\n获得+5攻击力。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>滅殺：</b>獲得+5攻擊力"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Überwältigen:</b>\nErhält +5 Angriff.\n\t\t\t<b>Overkill:</b> Gain +5 Attack.\n\t\t\t<b>Arrasar:</b>\nObtiene +5 p. de ataque.\n\t\t\t<b>Arrasar:</b> obtiene +5 de Ataque.\n\t\t\t<b>Brutalité :</b> gagne +5_ATQ.\n\t\t\t<b>Annientamento:</b>\nottiene +5 Attacco.\n\t\t\t[x]<b>血祭:</b>\n_攻撃力+5を獲得する。\n\t\t\t<b>압살:</b> 공격력을 +5 얻습니다.\n\t\t\t<b>Rzeź:</b> Otrzymuje\n+5 do ataku.\n\t\t\t<b>Massacre:</b>\nReceba +5 de Ataque.\n\t\t\t<b>Сверхурон:</b>\nполучает +5 к атаке.\n\t\t\t<b>สังหารโหด:</b> ได้รับพลังโจมตี +5\n\t\t\t<b>超杀：</b>\n获得+5攻击力。\n\t\t\t<b>滅殺：</b>獲得+5攻擊力\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "„Wenn's aussieht wie 'ne Axt, kann man's werf'n wie 'ne Axt.“"
+          },
+          "enUS": {
+            "present": true,
+            "value": "“Ya hold it by da feet, mon. Den ya THROW.”"
+          },
+          "esES": {
+            "present": true,
+            "value": "Intentaron retorcerle el cuello una vez... solo una."
+          },
+          "esMX": {
+            "present": true,
+            "value": "“Primero, la tomas de las pata'. Y luego, la LANZAS”."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Vous pouvez compter vos abattis… avant qu’il vous les tranche !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "\"La tieni per i piedi, cumpà, e poi la TIRI!\""
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「ヤー、うりの足つかめー、マン。で、投げるんさー！」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "압살했닭! 오늘 저녁은 치킨이닭!"
+          },
+          "plPL": {
+            "present": true,
+            "value": "„Łapiesz go za nogi, manusz, o tak. A potem RZUCASZ”."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "\"Tu segura pelos pés, cara. Depois tu JOGA.\""
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Не буди в ней КУРУ."
+          },
+          "thTH": {
+            "present": true,
+            "value": "“จับที่ขามันน่ะนาย แล้วก็เขวี้ยง”"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "“抓住它的脚，伙计。扔吧。”"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "「抓好它的兩隻腳，老兄。然後用力甩出去。」"
+          }
+        },
+        "textContent": "\n\t\t\t„Wenn's aussieht wie 'ne Axt, kann man's werf'n wie 'ne Axt.“\n\t\t\t“Ya hold it by da feet, mon. Den ya THROW.”\n\t\t\tIntentaron retorcerle el cuello una vez... solo una.\n\t\t\t“Primero, la tomas de las pata'. Y luego, la LANZAS”.\n\t\t\tVous pouvez compter vos abattis… avant qu’il vous les tranche !\n\t\t\t\"La tieni per i piedi, cumpà, e poi la TIRI!\"\n\t\t\t「ヤー、うりの足つかめー、マン。で、投げるんさー！」\n\t\t\t압살했닭! 오늘 저녁은 치킨이닭!\n\t\t\t„Łapiesz go za nogi, manusz, o tak. A potem RZUCASZ”.\n\t\t\t\"Tu segura pelos pés, cara. Depois tu JOGA.\"\n\t\t\tНе буди в ней КУРУ.\n\t\t\t“จับที่ขามันน่ะนาย แล้วก็เขวี้ยง”\n\t\t\t“抓住它的脚，伙计。扔吧。”\n\t\t\t「抓好它的兩隻腳，老兄。然後用力甩出去。」\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Ivan Fomin"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Gurubashigockel"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Gurubashi Chicken"
+          },
+          "esES": {
+            "present": true,
+            "value": "Pollo Gurubashi"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Gallina gurubashi"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Poulet gurubashi"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Gallina Gurubashi"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "グルバシ・チキン"
+          },
+          "koKR": {
+            "present": true,
+            "value": "구루바시 닭"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Kurak z Gurubaszów"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Galinha Gurubashi"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Курица Гурубаши"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ไก่กูรูบาชิ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "古拉巴什小鸡"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "古拉巴什雞"
+          }
+        },
+        "textContent": "\n\t\tGurubashigockel\n\t\tGurubashi Chicken\n\t\tPollo Gurubashi\n\t\tGallina gurubashi\n\t\tPoulet gurubashi\n\t\tGallina Gurubashi\n\t\tグルバシ・チキン\n\t\t구루바시 닭\n\t\tKurak z Gurubaszów\n\t\tGalinha Gurubashi\n\t\tКурица Гурубаши\n\t\tไก่กูรูบาชิ\n\t\t古拉巴什小鸡\n\t\t古拉巴什雞\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Überwältigen:</b>\nErhält +5 Angriff."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Overkill:</b> Gain +5 Attack."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Arrasar:</b>\nObtiene +5 p. de ataque."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Arrasar:</b> obtiene +5 de Ataque."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Brutalité :</b> gagne +5_ATQ."
+          },
+          "itIT": {
+            "present": true,
+            "value": "<b>Annientamento:</b>\nottiene +5 Attacco."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "<b>血祭:</b>\n攻撃力+5を\n獲得する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>압살:</b> 공격력을 +5 얻습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Rzeź:</b> Otrzymuje\n+5_do_ataku."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Massacre:</b>\nReceba +5 de Ataque."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Сверхурон:</b>\nполучает +5 к атаке."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>สังหารโหด:</b> ได้รับพลังโจมตี +5"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>超杀：</b>\n获得+5攻击力。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>滅殺：</b>獲得+5攻擊力"
+          }
+        },
+        "textContent": "\n\t\t<b>Überwältigen:</b>\nErhält +5 Angriff.\n\t\t<b>Overkill:</b> Gain +5 Attack.\n\t\t<b>Arrasar:</b>\nObtiene +5 p. de ataque.\n\t\t<b>Arrasar:</b> obtiene +5 de Ataque.\n\t\t<b>Brutalité :</b> gagne +5_ATQ.\n\t\t<b>Annientamento:</b>\nottiene +5 Attacco.\n\t\t<b>血祭:</b>\n攻撃力+5を\n獲得する。\n\t\t<b>압살:</b> 공격력을 +5 얻습니다.\n\t\t<b>Rzeź:</b> Otrzymuje\n+5_do_ataku.\n\t\t<b>Massacre:</b>\nReceba +5 de Ataque.\n\t\t<b>Сверхурон:</b>\nполучает +5 к атаке.\n\t\t<b>สังหารโหด:</b> ได้รับพลังโจมตี +5\n\t\t<b>超杀：</b>\n获得+5攻击力。\n\t\t<b>滅殺：</b>獲得+5攻擊力\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "„Wenn’s aussieht wie ’ne Axt, kann man’s werf’n wie ’ne Axt.“"
+          },
+          "enUS": {
+            "present": true,
+            "value": "“Ya hold it by da feet, mon. Den ya THROW.”"
+          },
+          "esES": {
+            "present": true,
+            "value": "Intentaron retorcerle el cuello una vez... solo una."
+          },
+          "esMX": {
+            "present": true,
+            "value": "“Primero, la tomas de las pata'. Y luego, la LANZAS”."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Vous pouvez compter vos abattis… avant qu’il vous les tranche !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "\"La tieni per i piedi, cumpà, e poi la TIRI!\""
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「ヤー、うりの足つかめー、マン。で、投げるんさー！」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "압살했닭! 오늘 저녁은 치킨이닭!"
+          },
+          "plPL": {
+            "present": true,
+            "value": "„Łapiesz go za nogi, manusz, o tak. A potem RZUCASZ”."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "\"Tu segura pelos pés, cara. Depois tu JOGA.\""
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Не буди в ней КУРУ."
+          },
+          "thTH": {
+            "present": true,
+            "value": "“จับที่ขามันน่ะนาย แล้วก็เขวี้ยง”"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "“抓住它的脚，伙计。扔吧。”"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "「抓好它的兩隻腳，老兄。然後用力甩出去。」"
+          }
+        },
+        "textContent": "\n\t\t„Wenn’s aussieht wie ’ne Axt, kann man’s werf’n wie ’ne Axt.“\n\t\t“Ya hold it by da feet, mon. Den ya THROW.”\n\t\tIntentaron retorcerle el cuello una vez... solo una.\n\t\t“Primero, la tomas de las pata'. Y luego, la LANZAS”.\n\t\tVous pouvez compter vos abattis… avant qu’il vous les tranche !\n\t\t\"La tieni per i piedi, cumpà, e poi la TIRI!\"\n\t\t「ヤー、うりの足つかめー、マン。で、投げるんさー！」\n\t\t압살했닭! 오늘 저녁은 치킨이닭!\n\t\t„Łapiesz go za nogi, manusz, o tak. A potem RZUCASZ”.\n\t\t\"Tu segura pelos pés, cara. Depois tu JOGA.\"\n\t\tНе буди в ней КУРУ.\n\t\t“จับที่ขามันน่ะนาย แล้วก็เขวี้ยง”\n\t\t“抓住它的脚，伙计。扔吧。”\n\t\t「抓好它的兩隻腳，老兄。然後用力甩出去。」\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Ivan Fomin"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "구루바시 닭",
+      "enUS": "Gurubashi Chicken"
+    },
+    "currentPrintedText": {
+      "koKR": "구루바시 닭",
+      "enUS": "Gurubashi Chicken"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_506",
+    "dbfId": 50380,
+    "name": "구루바시 닭",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "<b>압살:</b> 공격력을 +5 얻습니다.",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "압살했닭! 오늘 저녁은 치킨이닭!",
+    "spellSchool": "",
+    "portrait": "HS15-054_M.psd:07108fd9c52987544b3029ef5c34ca25",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 923,
+        "name": "압살",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/TRL_506.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_506",
+    "dbfId": 50380,
+    "name": "구루바시 닭",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "<b>압살:</b> 공격력을 +5 얻습니다.",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "압살했닭! 오늘 저녁은 치킨이닭!",
+    "spellSchool": "",
+    "portrait": "HS15-054_M.psd:07108fd9c52987544b3029ef5c34ca25",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 923,
+        "name": "압살",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/TRL_506.png"
+  }
+}

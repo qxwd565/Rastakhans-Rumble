@@ -1,1 +1,958 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_501","dbfId":50283,"name":"아키나이 환영","type":"MINION","cardClass":"PRIEST","rarity":"EPIC","collectible":true,"cost":2,"text":"<b>전투의 함성:</b> 이번 턴에<br></br>생명력을 회복시키는 내<br></br>카드와 능력들이 그만큼의<br></br>피해를 줍니다.","attack":3,"health":2,"durability":0,"armor":0,"flavor":"\"자, 여러분, 미리 치유하는 건 잊지 않으셨죠?\"","spellSchool":"","portrait":"HS15-040_M.psd:28a2b05674102774796ac4633a8afb79","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":2},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":6},{"id":200,"name":"종족","value":11},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":4},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1},{"id":2525,"name":"게임 태그 2525","value":1}],"races":["UNDEAD","DRAENEI"],"race":"언데드, 드레나이","classes":[],"art":"art/TRL_501.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-040_M.psd:28a2b05674102774796ac4633a8afb79","goldenMaterial":"TRL_501_PremiumCard.mat:022442da2a6c81047a3cd7570c8a4ccf","goldenAnimation":"TRL_501_PremiumCard.asset:cfd3fd88921e8434d8add3da8985d90c"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-040_M.psd:28a2b05674102774796ac4633a8afb79",
+        "goldenMaterial": "TRL_501_PremiumCard.mat:022442da2a6c81047a3cd7570c8a4ccf",
+        "goldenAnimation": "TRL_501_PremiumCard.asset:cfd3fd88921e8434d8add3da8985d90c"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-040_M.psd:28a2b05674102774796ac4633a8afb79",
+      "goldenMaterial": "TRL_501_PremiumCard.mat:022442da2a6c81047a3cd7570c8a4ccf",
+      "goldenAnimation": "TRL_501_PremiumCard.asset:cfd3fd88921e8434d8add3da8985d90c"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "6",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "6",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "11",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "2525": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Trugbild der Auchenai"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Auchenai Phantasm"
+          },
+          "esES": {
+            "present": true,
+            "value": "Fantasma Auchenai"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Fantasma auchenai"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Illusion auchenaï"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Fantasma Auchenai"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "オウケナイの幻影"
+          },
+          "koKR": {
+            "present": true,
+            "value": "아키나이 환영"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Auchenajskie widmo"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Fantasma Auchenai"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Аукенайский призрак"
+          },
+          "thTH": {
+            "present": true,
+            "value": "วิญญาณลวงตาออเคไน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "奥金尼幻象"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "奧奇奈亡魂"
+          }
+        },
+        "textContent": "\n\t\t\tTrugbild der Auchenai\n\t\t\tAuchenai Phantasm\n\t\t\tFantasma Auchenai\n\t\t\tFantasma auchenai\n\t\t\tIllusion auchenaï\n\t\t\tFantasma Auchenai\n\t\t\tオウケナイの幻影\n\t\t\t아키나이 환영\n\t\t\tAuchenajskie widmo\n\t\t\tFantasma Auchenai\n\t\t\tАукенайский призрак\n\t\t\tวิญญาณลวงตาออเคไน\n\t\t\t奥金尼幻象\n\t\t\t奧奇奈亡魂\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Kampfschrei:</b> In diesem Zug verursachen Eure Heileffekte stattdessen Schaden."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Battlecry:</b> This turn, your healing effects deal damage instead."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Grito de batalla:</b> Este turno,\ntus efectos de sanación infligirán\ndaño en vez de sanar."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b>\nen este turno, tus_efectos_de_sanación infligen_daño."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> durant ce tour, vos effets de soin infligent des dégâts à la place."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b>\nper questo turno, le tue carte\ne i tuoi poteri che rigenerano\n_Salute infliggono danni."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "<b>雄叫び:</b>\nこのターンの間\n自分の回復効果は代わりにダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]<b>전투의 함성:</b> 이번 턴에\n생명력을 회복시키는 내\n카드와 능력들이 그만큼의\n피해를 줍니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b> W tej turze twoje efekty uzdrawiające zamiast leczyć, zadają obrażenia."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b> Neste turno, seus efeitos de cura causam dano."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> на этом ходу ваши эффекты, восстанавливающие здоровье, вместо этого наносят урон."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b> เปลี่ยนการฟื้นฟู[b]พลังชีวิตของคุณเป็นการสร้าง[b]ความเสียหายในเทิร์นนี้"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>在本回合中，你的治疗效果转而造成等量的伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "[x]<b>戰吼：</b>本回合\n你的治療效果改為\n造成傷害"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Kampfschrei:</b> In diesem Zug verursachen Eure Heileffekte stattdessen Schaden.\n\t\t\t<b>Battlecry:</b> This turn, your healing effects deal damage instead.\n\t\t\t[x]<b>Grito de batalla:</b> Este turno,\ntus efectos de sanación infligirán\ndaño en vez de sanar.\n\t\t\t<b>Grito de batalla:</b>\nen este turno, tus_efectos_de_sanación infligen_daño.\n\t\t\t<b>Cri de guerre :</b> durant ce tour, vos effets de soin infligent des dégâts à la place.\n\t\t\t[x]<b>Grido di Battaglia:</b>\nper questo turno, le tue carte\ne i tuoi poteri che rigenerano\n_Salute infliggono danni.\n\t\t\t<b>雄叫び:</b>\nこのターンの間\n自分の回復効果は代わりにダメージを与える。\n\t\t\t[x]<b>전투의 함성:</b> 이번 턴에\n생명력을 회복시키는 내\n카드와 능력들이 그만큼의\n피해를 줍니다.\n\t\t\t<b>Okrzyk bojowy:</b> W tej turze twoje efekty uzdrawiające zamiast leczyć, zadają obrażenia.\n\t\t\t<b>Grito de Guerra:</b> Neste turno, seus efeitos de cura causam dano.\n\t\t\t<b>Боевой клич:</b> на этом ходу ваши эффекты, восстанавливающие здоровье, вместо этого наносят урон.\n\t\t\t<b>คำรามสู้ศึก:</b> เปลี่ยนการฟื้นฟู[b]พลังชีวิตของคุณเป็นการสร้าง[b]ความเสียหายในเทิร์นนี้\n\t\t\t<b>战吼：</b>在本回合中，你的治疗效果转而造成等量的伤害。\n\t\t\t[x]<b>戰吼：</b>本回合\n你的治療效果改為\n造成傷害\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Ein bisschen Heilung kann nicht schaden. Na ja, oder eben doch."
+          },
+          "enUS": {
+            "present": true,
+            "value": "“Okay kids did everyone remember to heal before we left?”"
+          },
+          "esES": {
+            "present": true,
+            "value": "«A ver, antes de salir, ¿ha ido todo el mundo a sanarse?»."
+          },
+          "esMX": {
+            "present": true,
+            "value": "“A ver, niños, ¿todos recordaron sanarse antes salir?”"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Vous avez tous pensé à vous soigner avant de partir, j’espère ?"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Aveva trovato lavoro come infermiera, ma l'hanno licenziata perché non la trovavano mai."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「みんな 回復は受けたな！！」\n「出すぞォ！！」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "\"자, 여러분, 미리 치유하는 건 잊지 않으셨죠?\""
+          },
+          "plPL": {
+            "present": true,
+            "value": "„Dobrze, dzieci, czy wszyscy się uleczyli przed wyjściem?”."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "\"OK, crianças. Todo mundo se curou antes de a gente ir?\""
+          },
+          "ruRU": {
+            "present": true,
+            "value": "«Надеюсь, все успели полечиться?»"
+          },
+          "thTH": {
+            "present": true,
+            "value": "\"เอ้า เด็กๆ เตรียมตัวฟื้นพลังชีวิตกันให้เรียบร้อยก่อนนะ\""
+          },
+          "zhCN": {
+            "present": true,
+            "value": "“宝宝们记得等我们走了再放治疗哦。”"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "「好啦，小朋友，大家出發前都已經治療好傷口了嗎？」"
+          }
+        },
+        "textContent": "\n\t\t\tEin bisschen Heilung kann nicht schaden. Na ja, oder eben doch.\n\t\t\t“Okay kids did everyone remember to heal before we left?”\n\t\t\t«A ver, antes de salir, ¿ha ido todo el mundo a sanarse?».\n\t\t\t“A ver, niños, ¿todos recordaron sanarse antes salir?”\n\t\t\tVous avez tous pensé à vous soigner avant de partir, j’espère ?\n\t\t\tAveva trovato lavoro come infermiera, ma l'hanno licenziata perché non la trovavano mai.\n\t\t\t「みんな 回復は受けたな！！」\n「出すぞォ！！」\n\t\t\t\"자, 여러분, 미리 치유하는 건 잊지 않으셨죠?\"\n\t\t\t„Dobrze, dzieci, czy wszyscy się uleczyli przed wyjściem?”.\n\t\t\t\"OK, crianças. Todo mundo se curou antes de a gente ir?\"\n\t\t\t«Надеюсь, все успели полечиться?»\n\t\t\t\"เอ้า เด็กๆ เตรียมตัวฟื้นพลังชีวิตกันให้เรียบร้อยก่อนนะ\"\n\t\t\t“宝宝们记得等我们走了再放治疗哦。”\n\t\t\t「好啦，小朋友，大家出發前都已經治療好傷口了嗎？」\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Lemon Sky"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Trugbild der Auchenai"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Auchenai Phantasm"
+          },
+          "esES": {
+            "present": true,
+            "value": "Fantasma Auchenai"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Fantasma auchenai"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Illusion auchenaï"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Fantasma Auchenai"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "オウケナイの幻影"
+          },
+          "koKR": {
+            "present": true,
+            "value": "아키나이 환영"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Auchenajskie widmo"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Fantasma Auchenai"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Аукенайский призрак"
+          },
+          "thTH": {
+            "present": true,
+            "value": "วิญญาณลวงตาออเคไน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "奥金尼幻象"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "奧奇奈亡魂"
+          }
+        },
+        "textContent": "\n\t\tTrugbild der Auchenai\n\t\tAuchenai Phantasm\n\t\tFantasma Auchenai\n\t\tFantasma auchenai\n\t\tIllusion auchenaï\n\t\tFantasma Auchenai\n\t\tオウケナイの幻影\n\t\t아키나이 환영\n\t\tAuchenajskie widmo\n\t\tFantasma Auchenai\n\t\tАукенайский призрак\n\t\tวิญญาณลวงตาออเคไน\n\t\t奥金尼幻象\n\t\t奧奇奈亡魂\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Kampfschrei:</b> In diesem Zug verursachen Eure Heileffekte stattdessen Schaden."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Battlecry:</b> This turn, your healing effects deal damage instead."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Grito de batalla:</b> Este turno,\ntus efectos de sanación infligirán\ndaño en vez de sanar."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b>\nen este turno, tus_efectos_de_sanación infligen_daño."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> durant ce tour, vos effets de soin infligent des dégâts à la place."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b>\nper questo turno, le tue carte\ne i tuoi poteri che rigenerano\n_Salute infliggono danni."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "<b>雄叫び:</b>\nこのターンの間\n自分の回復効果は代わりにダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]<b>전투의 함성:</b> 이번 턴에\n생명력을 회복시키는 내\n카드와 능력들이 그만큼의\n피해를 줍니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b> W tej turze twoje efekty uzdrawiające zamiast leczyć, zadają obrażenia."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b> Neste turno, seus efeitos de cura causam dano."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> на этом ходу ваши эффекты, восстанавливающие здоровье, вместо этого наносят урон."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b>_การฟื้นฟูพลัง[b]ชีวิตของคุณสร้างความ[b]เสียหายแทนในเทิร์นนี้"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>在本回合中，你的治疗效果转而造成等量的伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "[x]<b>戰吼：</b>本回合\n你的治療效果改為\n造成傷害"
+          }
+        },
+        "textContent": "\n\t\t<b>Kampfschrei:</b> In diesem Zug verursachen Eure Heileffekte stattdessen Schaden.\n\t\t<b>Battlecry:</b> This turn, your healing effects deal damage instead.\n\t\t[x]<b>Grito de batalla:</b> Este turno,\ntus efectos de sanación infligirán\ndaño en vez de sanar.\n\t\t<b>Grito de batalla:</b>\nen este turno, tus_efectos_de_sanación infligen_daño.\n\t\t<b>Cri de guerre :</b> durant ce tour, vos effets de soin infligent des dégâts à la place.\n\t\t[x]<b>Grido di Battaglia:</b>\nper questo turno, le tue carte\ne i tuoi poteri che rigenerano\n_Salute infliggono danni.\n\t\t<b>雄叫び:</b>\nこのターンの間\n自分の回復効果は代わりにダメージを与える。\n\t\t[x]<b>전투의 함성:</b> 이번 턴에\n생명력을 회복시키는 내\n카드와 능력들이 그만큼의\n피해를 줍니다.\n\t\t<b>Okrzyk bojowy:</b> W tej turze twoje efekty uzdrawiające zamiast leczyć, zadają obrażenia.\n\t\t<b>Grito de Guerra:</b> Neste turno, seus efeitos de cura causam dano.\n\t\t<b>Боевой клич:</b> на этом ходу ваши эффекты, восстанавливающие здоровье, вместо этого наносят урон.\n\t\t<b>คำรามสู้ศึก:</b>_การฟื้นฟูพลัง[b]ชีวิตของคุณสร้างความ[b]เสียหายแทนในเทิร์นนี้\n\t\t<b>战吼：</b>在本回合中，你的治疗效果转而造成等量的伤害。\n\t\t[x]<b>戰吼：</b>本回合\n你的治療效果改為\n造成傷害\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Ein bisschen Heilung kann nicht schaden. Na ja, oder eben doch."
+          },
+          "enUS": {
+            "present": true,
+            "value": "“Okay kids did everyone remember to heal before we left?”"
+          },
+          "esES": {
+            "present": true,
+            "value": "«A ver, antes de salir, ¿ha ido todo el mundo a sanarse?»."
+          },
+          "esMX": {
+            "present": true,
+            "value": "“A ver, niños, ¿todos recordaron sanarse antes salir?”"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Vous avez tous pensé à vous soigner avant de partir, j’espère ?"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Aveva trovato lavoro come infermiera, ma l'hanno licenziata perché non la trovavano mai."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「みんな 回復は受けたな！！」\n「出すぞォ！！」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "\"자, 여러분, 미리 치유하는 건 잊지 않으셨죠?\""
+          },
+          "plPL": {
+            "present": true,
+            "value": "„Dobrze, dzieci, czy wszyscy się uleczyli przed wyjściem?”."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "\"OK, crianças. Todo mundo se curou antes de a gente ir?\""
+          },
+          "ruRU": {
+            "present": true,
+            "value": "«Надеюсь, все успели полечиться?»"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เอ้า เด็กๆ เตรียมตัวฟื้นพลังชีวิตกันให้เรียบร้อยก่อนนะ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "“宝宝们记得等我们走了再放治疗哦。”"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "「好啦，小朋友，大家出發前都已經治療好傷口了嗎？」"
+          }
+        },
+        "textContent": "\n\t\tEin bisschen Heilung kann nicht schaden. Na ja, oder eben doch.\n\t\t“Okay kids did everyone remember to heal before we left?”\n\t\t«A ver, antes de salir, ¿ha ido todo el mundo a sanarse?».\n\t\t“A ver, niños, ¿todos recordaron sanarse antes salir?”\n\t\tVous avez tous pensé à vous soigner avant de partir, j’espère ?\n\t\tAveva trovato lavoro come infermiera, ma l'hanno licenziata perché non la trovavano mai.\n\t\t「みんな 回復は受けたな！！」\n「出すぞォ！！」\n\t\t\"자, 여러분, 미리 치유하는 건 잊지 않으셨죠?\"\n\t\t„Dobrze, dzieci, czy wszyscy się uleczyli przed wyjściem?”.\n\t\t\"OK, crianças. Todo mundo se curou antes de a gente ir?\"\n\t\t«Надеюсь, все успели полечиться?»\n\t\tเอ้า เด็กๆ เตรียมตัวฟื้นพลังชีวิตกันให้เรียบร้อยก่อนนะ\n\t\t“宝宝们记得等我们走了再放治疗哦。”\n\t\t「好啦，小朋友，大家出發前都已經治療好傷口了嗎？」\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Lemon Sky"
+      }
+    },
+    "undatedRawTagTransitions": [
+      {
+        "build": 158725,
+        "id": "TRL_501",
+        "dbfId": 50283,
+        "name": "아키나이 환영",
+        "rawDiff": {
+          "200": [
+            "ABSENT",
+            "11"
+          ]
+        },
+        "tagNames": {
+          "200": "CARDRACE"
+        },
+        "decision": "gameplay_tribe_change",
+        "relatedFindings": [
+          "RAST-BAL-E033"
+        ],
+        "note": "주 종족과 보조 종족 모두 판정. 기존 또는 누락 날짜 사건에 연결.",
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
+      },
+      {
+        "build": 210009,
+        "id": "TRL_501",
+        "dbfId": 50283,
+        "name": "아키나이 환영",
+        "rawDiff": {
+          "2525": [
+            "ABSENT",
+            "1"
+          ]
+        },
+        "tagNames": {
+          "2525": "1"
+        },
+        "decision": "gameplay_tribe_change",
+        "relatedFindings": [
+          "RAST-BAL-M004"
+        ],
+        "note": "주 종족과 보조 종족 모두 판정. 기존 또는 누락 날짜 사건에 연결.",
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/0a387d653f339297339625710e4df91f0c62b67b/CardDefs.xml"
+      }
+    ],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "아키나이 환영",
+      "enUS": "Auchenai Phantasm"
+    },
+    "currentPrintedText": {
+      "koKR": "아키나이 환영",
+      "enUS": "Auchenai Phantasm"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_501",
+    "dbfId": 50283,
+    "name": "아키나이 환영",
+    "type": "MINION",
+    "cardClass": "PRIEST",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>전투의 함성:</b> 이번 턴에<br></br>생명력을 회복시키는 내<br></br>카드와 능력들이 그만큼의<br></br>피해를 줍니다.",
+    "attack": 3,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"자, 여러분, 미리 치유하는 건 잊지 않으셨죠?\"",
+    "spellSchool": "",
+    "portrait": "HS15-040_M.psd:28a2b05674102774796ac4633a8afb79",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 2525,
+        "name": "게임 태그 2525",
+        "value": 1
+      }
+    ],
+    "races": [
+      "UNDEAD",
+      "DRAENEI"
+    ],
+    "race": "언데드, 드레나이",
+    "classes": [],
+    "art": "art/TRL_501.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_501",
+    "dbfId": 50283,
+    "name": "아키나이 환영",
+    "type": "MINION",
+    "cardClass": "PRIEST",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>전투의 함성:</b> 이번 턴에<br></br>생명력을 회복시키는 내<br></br>카드와 능력들이 그만큼의<br></br>피해를 줍니다.",
+    "attack": 3,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"자, 여러분, 미리 치유하는 건 잊지 않으셨죠?\"",
+    "spellSchool": "",
+    "portrait": "HS15-040_M.psd:28a2b05674102774796ac4633a8afb79",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 2525,
+        "name": "게임 태그 2525",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_501.png"
+  },
+  "2022-11-30": {
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ]
+  },
+  "2024-10-30": {
+    "races": [
+      "UNDEAD",
+      "DRAENEI"
+    ],
+    "race": "언데드, 드레나이",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 2525,
+        "name": "게임 태그 2525",
+        "value": 1
+      }
+    ],
+    "source": {
+      "findingId": "RAST-BAL-M004",
+      "confidence": "high"
+    }
+  }
+}

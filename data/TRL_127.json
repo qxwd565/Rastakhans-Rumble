@@ -1,1 +1,757 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_127","dbfId":50779,"name":"대포 포화","type":"SPELL","cardClass":"ROGUE","rarity":"EPIC","collectible":true,"cost":6,"text":"무작위 적에게 피해를 $3 줍니다.<br></br>내 해적의 수만큼 반복합니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"하늘에서 포탄이 빗발친다!","spellSchool":"","portrait":"HS15-120_S.psd:0bedea8680f07dd4eb14e399400dd186","set":"TROLL","nativeTags":[{"id":48,"name":"마나 비용","value":6},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":7},{"id":201,"name":"진영","value":3},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":4},{"id":268,"name":"게임 태그 268","value":2},{"id":321,"name":"수집 가능","value":1},{"id":330,"name":"효과 생성 시각 효과","value":0},{"id":331,"name":"효과 지속 시각 효과","value":0}],"races":[],"race":"","classes":[],"art":"art/TRL_127.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-120_S.psd:0bedea8680f07dd4eb14e399400dd186","goldenMaterial":"TRL_127_PremiumCard.mat:6c0b19d64c181ed46925e3b4e1344f63","goldenAnimation":"TRL_127_PremiumCard.asset:4dcccabfe428aa4498d70f0770702175"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-120_S.psd:0bedea8680f07dd4eb14e399400dd186",
+        "goldenMaterial": "TRL_127_PremiumCard.mat:6c0b19d64c181ed46925e3b4e1344f63",
+        "goldenAnimation": "TRL_127_PremiumCard.asset:4dcccabfe428aa4498d70f0770702175"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-120_S.psd:0bedea8680f07dd4eb14e399400dd186",
+      "goldenMaterial": "TRL_127_PremiumCard.mat:6c0b19d64c181ed46925e3b4e1344f63",
+      "goldenAnimation": "TRL_127_PremiumCard.asset:4dcccabfe428aa4498d70f0770702175"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "6",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "7",
+        "type": "Int"
+      },
+      "201": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "268": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "6",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "7",
+        "type": "Int"
+      },
+      "201": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "268": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Breitseite"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Cannon Barrage"
+          },
+          "esES": {
+            "present": true,
+            "value": "Tromba de cañón"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Cañonazos"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Barrage au canon"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Raffica di Cannone"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "大砲連射"
+          },
+          "koKR": {
+            "present": true,
+            "value": "대포 포화"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Salwa burtowa"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Barragem de Canhão"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Обстрел"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ปืนใหญ่กระหน่ำยิง"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "火炮弹幕"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "火砲彈幕"
+          }
+        },
+        "textContent": "\n\t\t\tBreitseite\n\t\t\tCannon Barrage\n\t\t\tTromba de cañón\n\t\t\tCañonazos\n\t\t\tBarrage au canon\n\t\t\tRaffica di Cannone\n\t\t\t大砲連射\n\t\t\t대포 포화\n\t\t\tSalwa burtowa\n\t\t\tBarragem de Canhão\n\t\t\tОбстрел\n\t\t\tปืนใหญ่กระหน่ำยิง\n\t\t\t火炮弹幕\n\t\t\t火砲彈幕\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "[x]Fügt einem zufälligen\nFeind $3 Schaden zu.\nWird für jeden Eurer\nPiraten wiederholt."
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]Deal $3 damage to a\nrandom enemy. Repeat\nfor each of your Pirates."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Inflige $3 p. de daño\na un enemigo aleatorio.\nSe repite por cada uno\nde tus piratas."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Inflige $3 de daño a un enemigo aleatorio. Repite el efecto por cada Pirata que controlas."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Inflige $3_|4(point,points) de dégâts à un adversaire aléatoire. Recommence pour chacun de vos pirates."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]Infligge $3 danni a\nun nemico casuale.\nRipete l'effetto per\nogni tuo Pirata."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]ランダムな敵1体に\n$3ダメージを与える。\n味方の海賊1体につき1回\nこれを繰り返す。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "무작위 적에게 피해를 $3 줍니다.\n내 해적의 수만큼 반복합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zadaj $3 pkt. obrażeń losowemu wrogowi. Powtarzaj za każdego twojego Pirata."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Cause $3 de dano a um inimigo aleatório. Repita para cada um dos seus Piratas."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Наносит $3 ед. урона случайному противнику. Эффект повторяется за каждого пирата под вашим контролем."
+          },
+          "thTH": {
+            "present": true,
+            "value": "สุ่มสร้างความเสียหาย $3_แต้มให้ศัตรูหนึ่งตัว ทำซ้ำตามจำนวนโจรสลัด[b]ที่คุณควบคุม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "随机对一个敌人造成$3点伤害。\n你每有一个海盗，重复一次。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "對一個隨機敵人造成$3點傷害，然後再依你場上海盜數量重複施放"
+          }
+        },
+        "textContent": "\n\t\t\t[x]Fügt einem zufälligen\nFeind $3 Schaden zu.\nWird für jeden Eurer\nPiraten wiederholt.\n\t\t\t[x]Deal $3 damage to a\nrandom enemy. Repeat\nfor each of your Pirates.\n\t\t\t[x]Inflige $3 p. de daño\na un enemigo aleatorio.\nSe repite por cada uno\nde tus piratas.\n\t\t\tInflige $3 de daño a un enemigo aleatorio. Repite el efecto por cada Pirata que controlas.\n\t\t\tInflige $3_|4(point,points) de dégâts à un adversaire aléatoire. Recommence pour chacun de vos pirates.\n\t\t\t[x]Infligge $3 danni a\nun nemico casuale.\nRipete l'effetto per\nogni tuo Pirata.\n\t\t\t[x]ランダムな敵1体に\n$3ダメージを与える。\n味方の海賊1体につき1回\nこれを繰り返す。\n\t\t\t무작위 적에게 피해를 $3 줍니다.\n내 해적의 수만큼 반복합니다.\n\t\t\tZadaj $3 pkt. obrażeń losowemu wrogowi. Powtarzaj za każdego twojego Pirata.\n\t\t\tCause $3 de dano a um inimigo aleatório. Repita para cada um dos seus Piratas.\n\t\t\tНаносит $3 ед. урона случайному противнику. Эффект повторяется за каждого пирата под вашим контролем.\n\t\t\tสุ่มสร้างความเสียหาย $3_แต้มให้ศัตรูหนึ่งตัว ทำซ้ำตามจำนวนโจรสลัด[b]ที่คุณควบคุม\n\t\t\t随机对一个敌人造成$3点伤害。\n你每有一个海盗，重复一次。\n\t\t\t對一個隨機敵人造成$3點傷害，然後再依你場上海盜數量重複施放\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Warum sollte man seine Kanonen strategisch abfeuern, wenn man sie genauso gut alle auf einmal abfeuern kann?"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Why fire your cannons strategically when you can fire them all at once?"
+          },
+          "esES": {
+            "present": true,
+            "value": "Ahí, desperdiciando munición por no pensar."
+          },
+          "esMX": {
+            "present": true,
+            "value": "¿Por qué disparar tus cañones estratégicamente si puedes dispararlos todos de una vez?"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Pourquoi se fatiguer à établir une stratégie quand on peut tirer avec tous ses canons en même temps ?"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Perché usare una strategia se si può sparare a caso?"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "大砲を、戦略的に撃つ…？全弾いっぺんに撃ちゃあいいじゃねぇか？"
+          },
+          "koKR": {
+            "present": true,
+            "value": "하늘에서 포탄이 빗발친다!"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Po co celować, skoro można po prostu wystrzelić z trzech naraz?"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Pra que disparar os canhões estrategicamente se você pode disparar todos ao mesmo tempo?"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Целиться — для салаг. Настоящие пираты стреляют «ну примерно в ту сторону»."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ยิงปืนใหญ่ตามยุทธวิธีไปเพื่ออะไร ในเมื่อคุณยิงทุกกระบอกพร้อมกันได้"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "既然能火力全开，干嘛还要省着点来？"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "可以火力全開的時候，幹嘛一發一發打！"
+          }
+        },
+        "textContent": "\n\t\t\tWarum sollte man seine Kanonen strategisch abfeuern, wenn man sie genauso gut alle auf einmal abfeuern kann?\n\t\t\tWhy fire your cannons strategically when you can fire them all at once?\n\t\t\tAhí, desperdiciando munición por no pensar.\n\t\t\t¿Por qué disparar tus cañones estratégicamente si puedes dispararlos todos de una vez?\n\t\t\tPourquoi se fatiguer à établir une stratégie quand on peut tirer avec tous ses canons en même temps ?\n\t\t\tPerché usare una strategia se si può sparare a caso?\n\t\t\t大砲を、戦略的に撃つ…？全弾いっぺんに撃ちゃあいいじゃねぇか？\n\t\t\t하늘에서 포탄이 빗발친다!\n\t\t\tPo co celować, skoro można po prostu wystrzelić z trzech naraz?\n\t\t\tPra que disparar os canhões estrategicamente se você pode disparar todos ao mesmo tempo?\n\t\t\tЦелиться — для салаг. Настоящие пираты стреляют «ну примерно в ту сторону».\n\t\t\tยิงปืนใหญ่ตามยุทธวิธีไปเพื่ออะไร ในเมื่อคุณยิงทุกกระบอกพร้อมกันได้\n\t\t\t既然能火力全开，干嘛还要省着点来？\n\t\t\t可以火力全開的時候，幹嘛一發一發打！\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Arthur Bozonnet"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Breitseite"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Cannon Barrage"
+          },
+          "esES": {
+            "present": true,
+            "value": "Tromba de cañón"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Cañonazos"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Barrage au canon"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Raffica di Cannone"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "大砲連射"
+          },
+          "koKR": {
+            "present": true,
+            "value": "대포 포화"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Salwa burtowa"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Barragem de Canhão"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Обстрел"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ปืนใหญ่กระหน่ำยิง"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "火炮弹幕"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "火砲彈幕"
+          }
+        },
+        "textContent": "\n\t\tBreitseite\n\t\tCannon Barrage\n\t\tTromba de cañón\n\t\tCañonazos\n\t\tBarrage au canon\n\t\tRaffica di Cannone\n\t\t大砲連射\n\t\t대포 포화\n\t\tSalwa burtowa\n\t\tBarragem de Canhão\n\t\tОбстрел\n\t\tปืนใหญ่กระหน่ำยิง\n\t\t火炮弹幕\n\t\t火砲彈幕\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "[x]Fügt einem zufälligen\nFeind $3 Schaden zu.\nWird für jeden Eurer\nPiraten wiederholt."
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]Deal $3 damage to a\nrandom enemy. Repeat\nfor each of your Pirates."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Inflige $3 p. de daño\na un enemigo aleatorio.\nSe repite por cada uno\nde tus piratas."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Inflige $3 de daño a un enemigo aleatorio. Repite el efecto por cada Pirata que controlas."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Inflige $3_|4(point,points) de dégâts à un adversaire aléatoire. Recommence pour chacun de vos Pirates."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]Infligge $3 danni a\nun nemico casuale.\nRipete l'effetto per\nogni tuo Pirata."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]ランダムな敵1体に\n$3ダメージを与える。\n味方の海賊1体につき1回\nこれを繰り返す。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "무작위 적에게 피해를 $3 줍니다.\n내 해적의 수만큼 반복합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zadaj $3 pkt. obrażeń losowemu wrogowi. Powtarzaj za każdego twojego Pirata."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Cause $3 de dano a um inimigo aleatório. Repita para cada um dos seus Piratas."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Наносит $3 ед. урона случайному противнику. Эффект повторяется за каждого пирата под вашим контролем."
+          },
+          "thTH": {
+            "present": true,
+            "value": "สุ่มสร้างความเสียหาย $3_แต้มให้ศัตรูหนึ่งตัว_ทำซ้ำ[b]ตามจำนวนโจรสลัดของคุณ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "随机对一个敌人造成$3点伤害。你每有一个海盗，就重复\n一次。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "對一個隨機敵人造成$3點傷害，然後再依你場上海盜數量重複施放"
+          }
+        },
+        "textContent": "\n\t\t[x]Fügt einem zufälligen\nFeind $3 Schaden zu.\nWird für jeden Eurer\nPiraten wiederholt.\n\t\t[x]Deal $3 damage to a\nrandom enemy. Repeat\nfor each of your Pirates.\n\t\t[x]Inflige $3 p. de daño\na un enemigo aleatorio.\nSe repite por cada uno\nde tus piratas.\n\t\tInflige $3 de daño a un enemigo aleatorio. Repite el efecto por cada Pirata que controlas.\n\t\tInflige $3_|4(point,points) de dégâts à un adversaire aléatoire. Recommence pour chacun de vos Pirates.\n\t\t[x]Infligge $3 danni a\nun nemico casuale.\nRipete l'effetto per\nogni tuo Pirata.\n\t\t[x]ランダムな敵1体に\n$3ダメージを与える。\n味方の海賊1体につき1回\nこれを繰り返す。\n\t\t무작위 적에게 피해를 $3 줍니다.\n내 해적의 수만큼 반복합니다.\n\t\tZadaj $3 pkt. obrażeń losowemu wrogowi. Powtarzaj za każdego twojego Pirata.\n\t\tCause $3 de dano a um inimigo aleatório. Repita para cada um dos seus Piratas.\n\t\tНаносит $3 ед. урона случайному противнику. Эффект повторяется за каждого пирата под вашим контролем.\n\t\tสุ่มสร้างความเสียหาย $3_แต้มให้ศัตรูหนึ่งตัว_ทำซ้ำ[b]ตามจำนวนโจรสลัดของคุณ\n\t\t随机对一个敌人造成$3点伤害。你每有一个海盗，就重复\n一次。\n\t\t對一個隨機敵人造成$3點傷害，然後再依你場上海盜數量重複施放\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Warum sollte man seine Kanonen strategisch abfeuern, wenn man sie genauso gut alle auf einmal abfeuern kann?"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Why fire your cannons strategically when you can fire them all at once?"
+          },
+          "esES": {
+            "present": true,
+            "value": "Ahí, desperdiciando munición por no pensar."
+          },
+          "esMX": {
+            "present": true,
+            "value": "¿Por qué disparar tus cañones estratégicamente si puedes dispararlos todos de una vez?"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Pourquoi se fatiguer à établir une stratégie quand on peut tirer avec tous ses canons en même temps ?"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Perché usare una strategia se si può sparare a caso?"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "大砲を、戦略的に撃つ…？全弾いっぺんに撃ちゃあいいじゃねぇか？"
+          },
+          "koKR": {
+            "present": true,
+            "value": "하늘에서 포탄이 빗발친다!"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Po co celować, skoro można po prostu wystrzelić z trzech naraz?"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Pra que disparar os canhões estrategicamente se você pode disparar todos ao mesmo tempo?"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Целиться — для салаг. Настоящие пираты стреляют «ну примерно в ту сторону»."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ยิงปืนใหญ่ตามยุทธวิธีไปเพื่ออะไร ในเมื่อคุณยิงทุกกระบอกพร้อมกันได้"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "既然能火力全开，干嘛还要省着点来？"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "可以火力全開的時候，幹嘛一發一發打！"
+          }
+        },
+        "textContent": "\n\t\tWarum sollte man seine Kanonen strategisch abfeuern, wenn man sie genauso gut alle auf einmal abfeuern kann?\n\t\tWhy fire your cannons strategically when you can fire them all at once?\n\t\tAhí, desperdiciando munición por no pensar.\n\t\t¿Por qué disparar tus cañones estratégicamente si puedes dispararlos todos de una vez?\n\t\tPourquoi se fatiguer à établir une stratégie quand on peut tirer avec tous ses canons en même temps ?\n\t\tPerché usare una strategia se si può sparare a caso?\n\t\t大砲を、戦略的に撃つ…？全弾いっぺんに撃ちゃあいいじゃねぇか？\n\t\t하늘에서 포탄이 빗발친다!\n\t\tPo co celować, skoro można po prostu wystrzelić z trzech naraz?\n\t\tPra que disparar os canhões estrategicamente se você pode disparar todos ao mesmo tempo?\n\t\tЦелиться — для салаг. Настоящие пираты стреляют «ну примерно в ту сторону».\n\t\tยิงปืนใหญ่ตามยุทธวิธีไปเพื่ออะไร ในเมื่อคุณยิงทุกกระบอกพร้อมกันได้\n\t\t既然能火力全开，干嘛还要省着点来？\n\t\t可以火力全開的時候，幹嘛一發一發打！\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Arthur Bozonnet"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "대포 포화",
+      "enUS": "Cannon Barrage"
+    },
+    "currentPrintedText": {
+      "koKR": "대포 포화",
+      "enUS": "Cannon Barrage"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_127",
+    "dbfId": 50779,
+    "name": "대포 포화",
+    "type": "SPELL",
+    "cardClass": "ROGUE",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 6,
+    "text": "무작위 적에게 피해를 $3 줍니다.<br></br>내 해적의 수만큼 반복합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "하늘에서 포탄이 빗발친다!",
+    "spellSchool": "",
+    "portrait": "HS15-120_S.psd:0bedea8680f07dd4eb14e399400dd186",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 268,
+        "name": "게임 태그 268",
+        "value": 2
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_127.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_127",
+    "dbfId": 50779,
+    "name": "대포 포화",
+    "type": "SPELL",
+    "cardClass": "ROGUE",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 6,
+    "text": "무작위 적에게 피해를 $3 줍니다.<br></br>내 해적의 수만큼 반복합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "하늘에서 포탄이 빗발친다!",
+    "spellSchool": "",
+    "portrait": "HS15-120_S.psd:0bedea8680f07dd4eb14e399400dd186",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 268,
+        "name": "게임 태그 268",
+        "value": 2
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_127.png"
+  }
+}

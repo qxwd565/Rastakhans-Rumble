@@ -1,1 +1,785 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_505","dbfId":50377,"name":"순진한 새끼 야수","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":1,"text":"<b>죽음의 메아리:</b> 내 손에 있는 무작위 야수의 비용이 (1) 감소합니다.","attack":1,"health":1,"durability":0,"armor":0,"flavor":"원문에도 없는 야수를 이름에 왜 붙였냐고요? 그야... 음...","spellSchool":"","portrait":"HS15-053_M.psd:9a1b857ef39e3234eb297d4c4c46a6ab","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":1},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":217,"name":"죽음의 메아리","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/TRL_505.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-053_M.psd:9a1b857ef39e3234eb297d4c4c46a6ab","goldenMaterial":"TRL_505_PremiumCard.mat:cd1150de430e21a48aa2532151025e4a","goldenAnimation":"TRL_505_PremiumCard.asset:a18fe1df904e85045b42746bb02a822a"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-053_M.psd:9a1b857ef39e3234eb297d4c4c46a6ab",
+        "goldenMaterial": "TRL_505_PremiumCard.mat:cd1150de430e21a48aa2532151025e4a",
+        "goldenAnimation": "TRL_505_PremiumCard.asset:a18fe1df904e85045b42746bb02a822a"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-053_M.psd:9a1b857ef39e3234eb297d4c4c46a6ab",
+      "goldenMaterial": "TRL_505_PremiumCard.mat:cd1150de430e21a48aa2532151025e4a",
+      "goldenAnimation": "TRL_505_PremiumCard.asset:a18fe1df904e85045b42746bb02a822a"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "20",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "217": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "20",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "217": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Hilfloses Jungtier"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Helpless Hatchling"
+          },
+          "esES": {
+            "present": true,
+            "value": "Cría indefensa"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Cría indefensa"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Jeune dragon sans défense"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Cucciolo Indifeso"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ひ弱なヒナ"
+          },
+          "koKR": {
+            "present": true,
+            "value": "순진한 새끼 야수"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Bezradne pisklę"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Filhote Indefeso"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Беспомощный детеныш"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ลูกสัตว์อ่อนแอ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "无助的幼雏"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "無助的幼獸"
+          }
+        },
+        "textContent": "\n\t\t\tHilfloses Jungtier\n\t\t\tHelpless Hatchling\n\t\t\tCría indefensa\n\t\t\tCría indefensa\n\t\t\tJeune dragon sans défense\n\t\t\tCucciolo Indifeso\n\t\t\tひ弱なヒナ\n\t\t\t순진한 새끼 야수\n\t\t\tBezradne pisklę\n\t\t\tFilhote Indefeso\n\t\t\tБеспомощный детеныш\n\t\t\tลูกสัตว์อ่อนแอ\n\t\t\t无助的幼雏\n\t\t\t無助的幼獸\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Todesröcheln:</b> Verringert die Kosten eines Wildtiers auf Eurer Hand um (1)."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Deathrattle:</b> Reduce the Cost of a Beast in your hand by (1)."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Último aliento:</b> Reduce en (1) cristal el coste de una bestia de tu mano."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Estertor:</b> reduce en (1) el Costo de una Bestia\nen tu mano."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Râle d’agonie :</b> réduit le coût d’une Bête de votre main de (1)_cristal."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Rantolo di Morte:</b>\nriduce di (1) il costo di una\n__Bestia nella tua mano."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "<b>断末魔:</b>\n自分の手札の\n獣1体のコストを（1）減らす。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>죽음의_메아리:</b> 내 손에 있는 무작위 야수의 비용이 (1) 감소합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Agonia:</b> Zmniejsz koszt jednej Bestii w twojej ręce_o (1)."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Último Suspiro:</b> Reduza em (1) o custo de uma Fera na sua mão."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Предсмертный хрип:</b> уменьшает стоимость случайного зверя в_руке на (1)."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>เสียงสุดท้าย:</b> ลดค่าร่ายของสัตว์หนึ่งใบ[b]ในมือคุณลง (1)"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>亡语：</b>使你手牌中的一张野兽牌法力值消耗减少（1）点。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>死亡之聲：</b>使你\n手中一個野獸的消耗降低(1)點"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Todesröcheln:</b> Verringert die Kosten eines Wildtiers auf Eurer Hand um (1).\n\t\t\t<b>Deathrattle:</b> Reduce the Cost of a Beast in your hand by (1).\n\t\t\t<b>Último aliento:</b> Reduce en (1) cristal el coste de una bestia de tu mano.\n\t\t\t<b>Estertor:</b> reduce en (1) el Costo de una Bestia\nen tu mano.\n\t\t\t<b>Râle d’agonie :</b> réduit le coût d’une Bête de votre main de (1)_cristal.\n\t\t\t[x]<b>Rantolo di Morte:</b>\nriduce di (1) il costo di una\n__Bestia nella tua mano.\n\t\t\t<b>断末魔:</b>\n自分の手札の\n獣1体のコストを（1）減らす。\n\t\t\t<b>죽음의_메아리:</b> 내 손에 있는 무작위 야수의 비용이 (1) 감소합니다.\n\t\t\t<b>Agonia:</b> Zmniejsz koszt jednej Bestii w twojej ręce_o (1).\n\t\t\t<b>Último Suspiro:</b> Reduza em (1) o custo de uma Fera na sua mão.\n\t\t\t<b>Предсмертный хрип:</b> уменьшает стоимость случайного зверя в_руке на (1).\n\t\t\t<b>เสียงสุดท้าย:</b> ลดค่าร่ายของสัตว์หนึ่งใบ[b]ในมือคุณลง (1)\n\t\t\t<b>亡语：</b>使你手牌中的一张野兽牌法力值消耗减少（1）点。\n\t\t\t<b>死亡之聲：</b>使你\n手中一個野獸的消耗降低(1)點\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Och, so ein kleines, hilfloses Utzi-Dutzi-Butzelchen. Schaut Euch mal diese süßen Flippi-Flappi-Flügelchen an."
+          },
+          "enUS": {
+            "present": true,
+            "value": "It can’t be all that helpful. Not wif dose widdle wings!"
+          },
+          "esES": {
+            "present": true,
+            "value": "Aún está intentando dominar lo de expulsar fuego por un solo extremo de su cuerpo."
+          },
+          "esMX": {
+            "present": true,
+            "value": "¡Cuando mis alas cdezcan, ya no sedé tan indefenso!"
+          },
+          "frFR": {
+            "present": true,
+            "value": "K’tor pas mignon ! Dragon !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Tenerissimo, a parte quando è l'ora del ruttino."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「こんなひ弱なヤツ、役に立つわけないさー。あんよも、ちゅばさも、くちばちも、こんなにちっちゃ～い！」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "원문에도 없는 야수를 이름에 왜 붙였냐고요? 그야... 음..."
+          },
+          "plPL": {
+            "present": true,
+            "value": "„Popatrz tylko na te malutkie ząbki! I te milusie skrzydełka!”."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "\"Quem é a coisinha mais feiosinha da mamãe?\""
+          },
+          "ruRU": {
+            "present": true,
+            "value": "«Какой миленький птенчик! Какие глазки! Какие крылышки! Какие... ЗУБИЩИ?!»"
+          },
+          "thTH": {
+            "present": true,
+            "value": "รอให้ข้ามีอายุครบสิบเดือนก่อนเถอะ!"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "卖萌也没用，不要再摆动小翅膀了嘤嘤嘤！"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "拾獲幼獸時，請馬上與D.E.H.T.A.聯絡，由我們來接手處理。"
+          }
+        },
+        "textContent": "\n\t\t\tOch, so ein kleines, hilfloses Utzi-Dutzi-Butzelchen. Schaut Euch mal diese süßen Flippi-Flappi-Flügelchen an.\n\t\t\tIt can’t be all that helpful. Not wif dose widdle wings!\n\t\t\tAún está intentando dominar lo de expulsar fuego por un solo extremo de su cuerpo.\n\t\t\t¡Cuando mis alas cdezcan, ya no sedé tan indefenso!\n\t\t\tK’tor pas mignon ! Dragon !\n\t\t\tTenerissimo, a parte quando è l'ora del ruttino.\n\t\t\t「こんなひ弱なヤツ、役に立つわけないさー。あんよも、ちゅばさも、くちばちも、こんなにちっちゃ～い！」\n\t\t\t원문에도 없는 야수를 이름에 왜 붙였냐고요? 그야... 음...\n\t\t\t„Popatrz tylko na te malutkie ząbki! I te milusie skrzydełka!”.\n\t\t\t\"Quem é a coisinha mais feiosinha da mamãe?\"\n\t\t\t«Какой миленький птенчик! Какие глазки! Какие крылышки! Какие... ЗУБИЩИ?!»\n\t\t\tรอให้ข้ามีอายุครบสิบเดือนก่อนเถอะ!\n\t\t\t卖萌也没用，不要再摆动小翅膀了嘤嘤嘤！\n\t\t\t拾獲幼獸時，請馬上與D.E.H.T.A.聯絡，由我們來接手處理。\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Matt Dixon"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Hilfloses Jungtier"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Helpless Hatchling"
+          },
+          "esES": {
+            "present": true,
+            "value": "Prole indefensa"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Cría indefensa"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Jeune dragon sans défense"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Cucciolo Indifeso"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ひ弱なヒナ"
+          },
+          "koKR": {
+            "present": true,
+            "value": "순진한 새끼 야수"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Bezradne pisklę"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Filhote Indefeso"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Беспомощный детеныш"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ลูกสัตว์อ่อนแอ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "无助的幼雏"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "無助的幼獸"
+          }
+        },
+        "textContent": "\n\t\tHilfloses Jungtier\n\t\tHelpless Hatchling\n\t\tProle indefensa\n\t\tCría indefensa\n\t\tJeune dragon sans défense\n\t\tCucciolo Indifeso\n\t\tひ弱なヒナ\n\t\t순진한 새끼 야수\n\t\tBezradne pisklę\n\t\tFilhote Indefeso\n\t\tБеспомощный детеныш\n\t\tลูกสัตว์อ่อนแอ\n\t\t无助的幼雏\n\t\t無助的幼獸\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Todesröcheln:</b> Verringert die Kosten eines Wildtiers auf Eurer Hand um (1)."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Deathrattle:</b> Reduce the Cost of a Beast in your hand by (1)."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Último aliento:</b> Reduce en (1) cristal el coste de una bestia de tu mano."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Estertor:</b> reduce en (1) el Costo de una Bestia\nen tu mano."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Râle d’agonie :</b> réduit le coût d’une Bête de votre main de (1)_cristal."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Rantolo di Morte:</b>\nriduce di (1) il costo di una\n__Bestia nella tua mano."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "<b>断末魔:</b>\n自分の手札の\n獣1体のコストを（1）減らす。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>죽음의_메아리:</b> 내 손에 있는 무작위 야수의 비용이 (1) 감소합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Agonia:</b> Zmniejsz koszt jednej Bestii w twojej ręce_o (1)."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Último Suspiro:</b> Reduza em (1) o Custo de uma Fera na sua mão."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Предсмертный хрип:</b> уменьшает стоимость случайного зверя в_руке на (1)."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>เสียงสุดท้าย:</b> ลดค่าร่ายของสัตว์หนึ่งใบ[b]ในมือคุณลง (1)"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>亡语：</b>使你手牌中的一张野兽牌法力值消耗减少（1）点。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>死亡之聲：</b>使你\n手中一個野獸的消耗降低(1)點"
+          }
+        },
+        "textContent": "\n\t\t<b>Todesröcheln:</b> Verringert die Kosten eines Wildtiers auf Eurer Hand um (1).\n\t\t<b>Deathrattle:</b> Reduce the Cost of a Beast in your hand by (1).\n\t\t<b>Último aliento:</b> Reduce en (1) cristal el coste de una bestia de tu mano.\n\t\t<b>Estertor:</b> reduce en (1) el Costo de una Bestia\nen tu mano.\n\t\t<b>Râle d’agonie :</b> réduit le coût d’une Bête de votre main de (1)_cristal.\n\t\t[x]<b>Rantolo di Morte:</b>\nriduce di (1) il costo di una\n__Bestia nella tua mano.\n\t\t<b>断末魔:</b>\n自分の手札の\n獣1体のコストを（1）減らす。\n\t\t<b>죽음의_메아리:</b> 내 손에 있는 무작위 야수의 비용이 (1) 감소합니다.\n\t\t<b>Agonia:</b> Zmniejsz koszt jednej Bestii w twojej ręce_o (1).\n\t\t<b>Último Suspiro:</b> Reduza em (1) o Custo de uma Fera na sua mão.\n\t\t<b>Предсмертный хрип:</b> уменьшает стоимость случайного зверя в_руке на (1).\n\t\t<b>เสียงสุดท้าย:</b> ลดค่าร่ายของสัตว์หนึ่งใบ[b]ในมือคุณลง (1)\n\t\t<b>亡语：</b>使你手牌中的一张野兽牌法力值消耗减少（1）点。\n\t\t<b>死亡之聲：</b>使你\n手中一個野獸的消耗降低(1)點\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Och, so ein kleines, hilfloses Utzi-Dutzi-Butzelchen. Schaut Euch mal diese süßen Flippi-Flappi-Flügelchen an."
+          },
+          "enUS": {
+            "present": true,
+            "value": "It can’t be all that helpful. Not wif dose widdle wings!"
+          },
+          "esES": {
+            "present": true,
+            "value": "Aún está intentando dominar lo de expulsar fuego por un solo extremo de su cuerpo."
+          },
+          "esMX": {
+            "present": true,
+            "value": "¡Cuando mis alas cdezcan, ya no sedé tan indefenso!"
+          },
+          "frFR": {
+            "present": true,
+            "value": "K’tor pas mignon ! Dragon !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Tenerissimo, a parte quando è l'ora del ruttino."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「こんなひ弱なヤツ、役に立つわけないさー。あんよも、ちゅばさも、くちばちも、こんなにちっちゃ～い！」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "원문에도 없는 야수를 이름에 왜 붙였냐고요? 그야... 음..."
+          },
+          "plPL": {
+            "present": true,
+            "value": "„Popatrz tylko na te malutkie ząbki! I te milusie skrzydełka!”."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "\"Quem é a coisinha mais feiosinha da mamãe?\""
+          },
+          "ruRU": {
+            "present": true,
+            "value": "«Какой миленький птенчик! Какие глазки! Какие крылышки! Какие... ЗУБИЩИ?!»"
+          },
+          "thTH": {
+            "present": true,
+            "value": "รอให้ข้ามีอายุครบสิบเดือนก่อนเถอะ!"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "卖萌也没用，不要再摆动小翅膀了嘤嘤嘤！"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "拾獲幼獸時，請馬上與D.E.H.T.A.聯絡，由我們來接手處理。"
+          }
+        },
+        "textContent": "\n\t\tOch, so ein kleines, hilfloses Utzi-Dutzi-Butzelchen. Schaut Euch mal diese süßen Flippi-Flappi-Flügelchen an.\n\t\tIt can’t be all that helpful. Not wif dose widdle wings!\n\t\tAún está intentando dominar lo de expulsar fuego por un solo extremo de su cuerpo.\n\t\t¡Cuando mis alas cdezcan, ya no sedé tan indefenso!\n\t\tK’tor pas mignon ! Dragon !\n\t\tTenerissimo, a parte quando è l'ora del ruttino.\n\t\t「こんなひ弱なヤツ、役に立つわけないさー。あんよも、ちゅばさも、くちばちも、こんなにちっちゃ～い！」\n\t\t원문에도 없는 야수를 이름에 왜 붙였냐고요? 그야... 음...\n\t\t„Popatrz tylko na te malutkie ząbki! I te milusie skrzydełka!”.\n\t\t\"Quem é a coisinha mais feiosinha da mamãe?\"\n\t\t«Какой миленький птенчик! Какие глазки! Какие крылышки! Какие... ЗУБИЩИ?!»\n\t\tรอให้ข้ามีอายุครบสิบเดือนก่อนเถอะ!\n\t\t卖萌也没用，不要再摆动小翅膀了嘤嘤嘤！\n\t\t拾獲幼獸時，請馬上與D.E.H.T.A.聯絡，由我們來接手處理。\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Matt Dixon"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "순진한 새끼 야수",
+      "enUS": "Helpless Hatchling"
+    },
+    "currentPrintedText": {
+      "koKR": "순진한 새끼 야수",
+      "enUS": "Helpless Hatchling"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_505",
+    "dbfId": 50377,
+    "name": "순진한 새끼 야수",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "<b>죽음의 메아리:</b> 내 손에 있는 무작위 야수의 비용이 (1) 감소합니다.",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "원문에도 없는 야수를 이름에 왜 붙였냐고요? 그야... 음...",
+    "spellSchool": "",
+    "portrait": "HS15-053_M.psd:9a1b857ef39e3234eb297d4c4c46a6ab",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/TRL_505.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_505",
+    "dbfId": 50377,
+    "name": "순진한 새끼 야수",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "<b>죽음의 메아리:</b> 내 손에 있는 무작위 야수의 비용이 (1) 감소합니다.",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "원문에도 없는 야수를 이름에 왜 붙였냐고요? 그야... 음...",
+    "spellSchool": "",
+    "portrait": "HS15-053_M.psd:9a1b857ef39e3234eb297d4c4c46a6ab",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/TRL_505.png"
+  }
+}

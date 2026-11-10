@@ -1,1 +1,759 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_515","dbfId":50395,"name":"성깔 있는 문지기","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":7,"text":"<b>도발</b>, 적 하수인<br></br>하나당 비용이 (1)씩 감소합니다.","attack":2,"health":7,"durability":0,"armor":0,"flavor":"\"여기가 어디라고 신발을 신고 들어와?!\"","spellSchool":"","portrait":"HS15-070_M.psd:f0611f54d06e54b44a7d65d490fbdd09","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":7},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":7},{"id":114,"name":"전설 속성","value":0},{"id":190,"name":"도발","value":1},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/TRL_515.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-070_M.psd:f0611f54d06e54b44a7d65d490fbdd09","goldenMaterial":"TRL_515_PremiumCard.mat:df14f2475de03894f962053ac16b8db5","goldenAnimation":"TRL_515_PremiumCard.asset:439ef9f1c82e3174a8f90f891fac3b96"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-070_M.psd:f0611f54d06e54b44a7d65d490fbdd09",
+        "goldenMaterial": "TRL_515_PremiumCard.mat:df14f2475de03894f962053ac16b8db5",
+        "goldenAnimation": "TRL_515_PremiumCard.asset:439ef9f1c82e3174a8f90f891fac3b96"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-070_M.psd:f0611f54d06e54b44a7d65d490fbdd09",
+      "goldenMaterial": "TRL_515_PremiumCard.mat:df14f2475de03894f962053ac16b8db5",
+      "goldenAnimation": "TRL_515_PremiumCard.asset:439ef9f1c82e3174a8f90f891fac3b96"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "7",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "7",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "190": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "7",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "7",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "190": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Rausschmeißerin"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Rabble Bouncer"
+          },
+          "esES": {
+            "present": true,
+            "value": "Gorila de la arena"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Gorila protectora"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Vide-grognons"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Buttafuori Antigentaglia"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "会場警備係"
+          },
+          "koKR": {
+            "present": true,
+            "value": "성깔 있는 문지기"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Nieugięta bramkarka"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Segurança de Multidão"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Эльфийка-вышибала"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ผู้ควบคุมฝูงชน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "场馆保镖"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "競技場保鑣"
+          }
+        },
+        "textContent": "\n\t\t\tRausschmeißerin\n\t\t\tRabble Bouncer\n\t\t\tGorila de la arena\n\t\t\tGorila protectora\n\t\t\tVide-grognons\n\t\t\tButtafuori Antigentaglia\n\t\t\t会場警備係\n\t\t\t성깔 있는 문지기\n\t\t\tNieugięta bramkarka\n\t\t\tSegurança de Multidão\n\t\t\tЭльфийка-вышибала\n\t\t\tผู้ควบคุมฝูงชน\n\t\t\t场馆保镖\n\t\t\t競技場保鑣\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Spott</b>. Kostet für jeden feindlichen Diener (1) weniger."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Taunt</b>\nCosts (1) less for each enemy minion."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Provocar</b>\nCuesta (1) cristal menos\npor_cada_esbirro enemigo."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Provocación</b> \nCuesta (1) menos por cada esbirro enemigo."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Provocation</b>\nCoûte (1)_cristal de moins pour_chaque_serviteur adverse."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Provocazione</b>.\nCosta (1) in meno per\nogni servitore nemico."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>挑発</b>\n敵のミニオン\n1体につきコストが\n（1）減る。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>도발</b>, 적 하수인\n하나당 비용이 (1)씩 감소합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Prowokacja</b>\nKosztuje (1) mniej za_każdego wrogiego stronnika."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Provocar</b>\nCusta (1) a menos para cada lacaio inimigo."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Провокация</b>\n Стоит на (1) меньше за каждое существо противника."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>ยั่วยุ</b>\nค่าร่ายลดลง (1) ต่อ[b]มินเนี่ยนศัตรูแต่ละตัว"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>嘲讽</b>\n每有一个敌方随从，该牌的法力值消耗减少（1）点。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>嘲諷</b>\n每個敵方手下使\n消耗減少(1)"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Spott</b>. Kostet für jeden feindlichen Diener (1) weniger.\n\t\t\t<b>Taunt</b>\nCosts (1) less for each enemy minion.\n\t\t\t<b>Provocar</b>\nCuesta (1) cristal menos\npor_cada_esbirro enemigo.\n\t\t\t<b>Provocación</b> \nCuesta (1) menos por cada esbirro enemigo.\n\t\t\t<b>Provocation</b>\nCoûte (1)_cristal de moins pour_chaque_serviteur adverse.\n\t\t\t[x]<b>Provocazione</b>.\nCosta (1) in meno per\nogni servitore nemico.\n\t\t\t[x]<b>挑発</b>\n敵のミニオン\n1体につきコストが\n（1）減る。\n\t\t\t<b>도발</b>, 적 하수인\n하나당 비용이 (1)씩 감소합니다.\n\t\t\t<b>Prowokacja</b>\nKosztuje (1) mniej za_każdego wrogiego stronnika.\n\t\t\t<b>Provocar</b>\nCusta (1) a menos para cada lacaio inimigo.\n\t\t\t<b>Провокация</b>\n Стоит на (1) меньше за каждое существо противника.\n\t\t\t<b>ยั่วยุ</b>\nค่าร่ายลดลง (1) ต่อ[b]มินเนี่ยนศัตรูแต่ละตัว\n\t\t\t<b>嘲讽</b>\n每有一个敌方随从，该牌的法力值消耗减少（1）点。\n\t\t\t<b>嘲諷</b>\n每個敵方手下使\n消耗減少(1)\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "„Also mit <i>der</i> Gegenstandsstufe kommt Ihr mir hier nicht rein.“"
+          },
+          "enUS": {
+            "present": true,
+            "value": "\"Shirt? Shoes!? No service!\""
+          },
+          "esES": {
+            "present": true,
+            "value": "«¿Camisa? ¿¡Zapatos!? ¡Así no entras!»."
+          },
+          "esMX": {
+            "present": true,
+            "value": "\"¿Camisa? ¡¿Zapatos?! ¡Largo de aquí!\""
+          },
+          "frFR": {
+            "present": true,
+            "value": "Pas de bras, pas de combat !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Non ti fa entrare se sei vestito male."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「シャツ着てる？靴を履いてるだと？！お断りだ！」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "\"여기가 어디라고 신발을 신고 들어와?!\""
+          },
+          "plPL": {
+            "present": true,
+            "value": "„Czysta koszula? Wypastowane buty? Takich nie obsługujemy”."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "\"Sem camisa? Sem sapato? Não pode entrar!\""
+          },
+          "ruRU": {
+            "present": true,
+            "value": "«В обуви не пускаем!»"
+          },
+          "thTH": {
+            "present": true,
+            "value": "\"เสื้อไม่ผ่าน รองเท้าก็ไม่ใส่ ห้ามเข้า!\""
+          },
+          "zhCN": {
+            "present": true,
+            "value": "赤脚人士谢绝入内。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "誰先上，都不怕，售票口就看我稱霸。"
+          }
+        },
+        "textContent": "\n\t\t\t„Also mit <i>der</i> Gegenstandsstufe kommt Ihr mir hier nicht rein.“\n\t\t\t\"Shirt? Shoes!? No service!\"\n\t\t\t«¿Camisa? ¿¡Zapatos!? ¡Así no entras!».\n\t\t\t\"¿Camisa? ¡¿Zapatos?! ¡Largo de aquí!\"\n\t\t\tPas de bras, pas de combat !\n\t\t\tNon ti fa entrare se sei vestito male.\n\t\t\t「シャツ着てる？靴を履いてるだと？！お断りだ！」\n\t\t\t\"여기가 어디라고 신발을 신고 들어와?!\"\n\t\t\t„Czysta koszula? Wypastowane buty? Takich nie obsługujemy”.\n\t\t\t\"Sem camisa? Sem sapato? Não pode entrar!\"\n\t\t\t«В обуви не пускаем!»\n\t\t\t\"เสื้อไม่ผ่าน รองเท้าก็ไม่ใส่ ห้ามเข้า!\"\n\t\t\t赤脚人士谢绝入内。\n\t\t\t誰先上，都不怕，售票口就看我稱霸。\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Paul Mafayon"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Rausschmeißerin"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Rabble Bouncer"
+          },
+          "esES": {
+            "present": true,
+            "value": "Gorila de la arena"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Gorila protectora"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Vide-grognons"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Buttafuori Antigentaglia"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "会場警備係"
+          },
+          "koKR": {
+            "present": true,
+            "value": "성깔 있는 문지기"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Nieugięta bramkarka"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Segurança de Multidão"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Эльфийка-вышибала"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ผู้ควบคุมฝูงชน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "场馆保镖"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "競技場保鑣"
+          }
+        },
+        "textContent": "\n\t\tRausschmeißerin\n\t\tRabble Bouncer\n\t\tGorila de la arena\n\t\tGorila protectora\n\t\tVide-grognons\n\t\tButtafuori Antigentaglia\n\t\t会場警備係\n\t\t성깔 있는 문지기\n\t\tNieugięta bramkarka\n\t\tSegurança de Multidão\n\t\tЭльфийка-вышибала\n\t\tผู้ควบคุมฝูงชน\n\t\t场馆保镖\n\t\t競技場保鑣\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Spott</b>. Kostet für jeden feindlichen Diener (1) weniger."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Taunt</b>\nCosts (1) less for each enemy minion."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Provocar</b>\nCuesta (1) cristal menos\npor_cada_esbirro enemigo."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Provocación</b> \nCuesta (1) menos por cada esbirro enemigo."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Provocation</b>\nCoûte (1)_cristal de moins pour_chaque_serviteur adverse."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Provocazione</b>.\nCosta (1) in meno per\nogni servitore nemico."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>挑発</b>\n敵のミニオン\n1体につきコストが\n（1）減る。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>도발</b>, 적 하수인\n하나당 비용이 (1)씩 감소합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Prowokacja</b>\nKosztuje (1) mniej za_każdego wrogiego stronnika."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Provocar</b>\nCusta (1) a menos para cada lacaio inimigo."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Провокация</b>\n Стоит на (1) меньше за каждое существо противника."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>ยั่วยุ</b>\nค่าร่ายลดลง (1) ต่อ[b]มินเนี่ยนศัตรูแต่ละตัว"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>嘲讽</b>\n每有一个敌方随从，本牌的法力值消耗便减少（1）点。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>嘲諷</b>\n每個敵方手下使\n消耗減少(1)"
+          }
+        },
+        "textContent": "\n\t\t<b>Spott</b>. Kostet für jeden feindlichen Diener (1) weniger.\n\t\t<b>Taunt</b>\nCosts (1) less for each enemy minion.\n\t\t<b>Provocar</b>\nCuesta (1) cristal menos\npor_cada_esbirro enemigo.\n\t\t<b>Provocación</b> \nCuesta (1) menos por cada esbirro enemigo.\n\t\t<b>Provocation</b>\nCoûte (1)_cristal de moins pour_chaque_serviteur adverse.\n\t\t[x]<b>Provocazione</b>.\nCosta (1) in meno per\nogni servitore nemico.\n\t\t[x]<b>挑発</b>\n敵のミニオン\n1体につきコストが\n（1）減る。\n\t\t<b>도발</b>, 적 하수인\n하나당 비용이 (1)씩 감소합니다.\n\t\t<b>Prowokacja</b>\nKosztuje (1) mniej za_każdego wrogiego stronnika.\n\t\t<b>Provocar</b>\nCusta (1) a menos para cada lacaio inimigo.\n\t\t<b>Провокация</b>\n Стоит на (1) меньше за каждое существо противника.\n\t\t<b>ยั่วยุ</b>\nค่าร่ายลดลง (1) ต่อ[b]มินเนี่ยนศัตรูแต่ละตัว\n\t\t<b>嘲讽</b>\n每有一个敌方随从，本牌的法力值消耗便减少（1）点。\n\t\t<b>嘲諷</b>\n每個敵方手下使\n消耗減少(1)\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "„Also mit <i>der</i> Gegenstandsstufe kommt Ihr mir hier nicht rein.“"
+          },
+          "enUS": {
+            "present": true,
+            "value": "\"Shirt? Shoes!? No service!\""
+          },
+          "esES": {
+            "present": true,
+            "value": "«¿Camisa? ¿¡Zapatos!? ¡Así no entras!»."
+          },
+          "esMX": {
+            "present": true,
+            "value": "\"¿Camisa? ¡¿Zapatos?! ¡Largo de aquí!\""
+          },
+          "frFR": {
+            "present": true,
+            "value": "Pas de bras, pas de combat !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Non ti fa entrare se sei vestito male."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「シャツ着てる？靴を履いてるだと？！お断りだ！」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "\"여기가 어디라고 신발을 신고 들어와?!\""
+          },
+          "plPL": {
+            "present": true,
+            "value": "„Czysta koszula? Wypastowane buty? Takich nie obsługujemy”."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "\"Sem camisa? Sem sapato? Não pode entrar!\""
+          },
+          "ruRU": {
+            "present": true,
+            "value": "«В обуви не пускаем!»"
+          },
+          "thTH": {
+            "present": true,
+            "value": "\"เสื้อไม่ผ่าน รองเท้าก็ไม่ใส่ ห้ามเข้า!\""
+          },
+          "zhCN": {
+            "present": true,
+            "value": "赤脚人士谢绝入内。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "誰先上，都不怕，售票口就看我稱霸。"
+          }
+        },
+        "textContent": "\n\t\t„Also mit <i>der</i> Gegenstandsstufe kommt Ihr mir hier nicht rein.“\n\t\t\"Shirt? Shoes!? No service!\"\n\t\t«¿Camisa? ¿¡Zapatos!? ¡Así no entras!».\n\t\t\"¿Camisa? ¡¿Zapatos?! ¡Largo de aquí!\"\n\t\tPas de bras, pas de combat !\n\t\tNon ti fa entrare se sei vestito male.\n\t\t「シャツ着てる？靴を履いてるだと？！お断りだ！」\n\t\t\"여기가 어디라고 신발을 신고 들어와?!\"\n\t\t„Czysta koszula? Wypastowane buty? Takich nie obsługujemy”.\n\t\t\"Sem camisa? Sem sapato? Não pode entrar!\"\n\t\t«В обуви не пускаем!»\n\t\t\"เสื้อไม่ผ่าน รองเท้าก็ไม่ใส่ ห้ามเข้า!\"\n\t\t赤脚人士谢绝入内。\n\t\t誰先上，都不怕，售票口就看我稱霸。\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Paul Mafayon"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "성깔 있는 문지기",
+      "enUS": "Rabble Bouncer"
+    },
+    "currentPrintedText": {
+      "koKR": "성깔 있는 문지기",
+      "enUS": "Rabble Bouncer"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_515",
+    "dbfId": 50395,
+    "name": "성깔 있는 문지기",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 7,
+    "text": "<b>도발</b>, 적 하수인<br></br>하나당 비용이 (1)씩 감소합니다.",
+    "attack": 2,
+    "health": 7,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"여기가 어디라고 신발을 신고 들어와?!\"",
+    "spellSchool": "",
+    "portrait": "HS15-070_M.psd:f0611f54d06e54b44a7d65d490fbdd09",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 7
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_515.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_515",
+    "dbfId": 50395,
+    "name": "성깔 있는 문지기",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 7,
+    "text": "<b>도발</b>, 적 하수인<br></br>하나당 비용이 (1)씩 감소합니다.",
+    "attack": 2,
+    "health": 7,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"여기가 어디라고 신발을 신고 들어와?!\"",
+    "spellSchool": "",
+    "portrait": "HS15-070_M.psd:f0611f54d06e54b44a7d65d490fbdd09",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 7
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_515.png"
+  }
+}

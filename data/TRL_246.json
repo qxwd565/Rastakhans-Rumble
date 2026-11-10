@@ -1,1 +1,796 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_246","dbfId":50004,"name":"공허의 서약","type":"SPELL","cardClass":"WARLOCK","rarity":"EPIC","collectible":true,"cost":8,"text":"각 플레이어의 덱을 절반씩 파괴합니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"\"이 주문을 시전하면 덱의 절반은 살아남을 것이다.\"","spellSchool":"SHADOW","portrait":"HS15-101_S.psd:ee297a054bb2a784b8651f5f5b01be3c","set":"TROLL","nativeTags":[{"id":48,"name":"마나 비용","value":8},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":9},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":4},{"id":321,"name":"수집 가능","value":1},{"id":330,"name":"효과 생성 시각 효과","value":0},{"id":331,"name":"효과 지속 시각 효과","value":0},{"id":1635,"name":"주문 속성","value":6}],"races":[],"race":"","classes":[],"art":"art/TRL_246.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-101_S.psd:ee297a054bb2a784b8651f5f5b01be3c","goldenMaterial":"TRL_246_PremiumCard.mat:6f2a4dd834b0a4244abb3cc65caef30e","goldenAnimation":"TRL_246_PremiumCard.asset:6f849bdc2b6743f4f9bb79e3247e21e9"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-101_S.psd:ee297a054bb2a784b8651f5f5b01be3c",
+        "goldenMaterial": "TRL_246_PremiumCard.mat:6f2a4dd834b0a4244abb3cc65caef30e",
+        "goldenAnimation": "TRL_246_PremiumCard.asset:6f849bdc2b6743f4f9bb79e3247e21e9"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-101_S.psd:ee297a054bb2a784b8651f5f5b01be3c",
+      "goldenMaterial": "TRL_246_PremiumCard.mat:6f2a4dd834b0a4244abb3cc65caef30e",
+      "goldenAnimation": "TRL_246_PremiumCard.asset:6f849bdc2b6743f4f9bb79e3247e21e9"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "8",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "9",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "8",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "9",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "1635": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "6",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Pakt der Leere"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Void Contract"
+          },
+          "esES": {
+            "present": true,
+            "value": "Pacto con el Vacío"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Contrato del Vacío"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Contrat du Vide"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Contratto col Vuoto"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "虚無の契約"
+          },
+          "koKR": {
+            "present": true,
+            "value": "공허의 서약"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Umowa z Pustką"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Contrato Caótico"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Сделка с Бездной"
+          },
+          "thTH": {
+            "present": true,
+            "value": "มิติมืดกลืนกิน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "虚空契约"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "虛無契約"
+          }
+        },
+        "textContent": "\n\t\t\tPakt der Leere\n\t\t\tVoid Contract\n\t\t\tPacto con el Vacío\n\t\t\tContrato del Vacío\n\t\t\tContrat du Vide\n\t\t\tContratto col Vuoto\n\t\t\t虚無の契約\n\t\t\t공허의 서약\n\t\t\tUmowa z Pustką\n\t\t\tContrato Caótico\n\t\t\tСделка с Бездной\n\t\t\tมิติมืดกลืนกิน\n\t\t\t虚空契约\n\t\t\t虛無契約\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Vernichtet das halbe Deck jedes Spielers."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Destroy half of each player's deck."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Destruye la mitad\ndel mazo de cada jugador."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Destruye la mitad del mazo de cada jugador."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Détruit_la_moitié_du_deck de chaque joueur."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Distrugge metà mazzo di ogni giocatore."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]各プレイヤーの\nデッキの半分を\n破壊する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "각 플레이어의 덱을 절반씩 파괴합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zniszcz połowę talii każdego gracza."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Destrua metade do deck de cada jogador."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Уничтожает половину колоды каждого игрока."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ทำลายเด็คครึ่งหนึ่ง[b]ของผู้เล่นทุกคน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "摧毁双方牌库中一半的牌。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "摧毀雙方牌堆中一半的牌"
+          }
+        },
+        "textContent": "\n\t\t\tVernichtet das halbe Deck jedes Spielers.\n\t\t\tDestroy half of each player's deck.\n\t\t\t[x]Destruye la mitad\ndel mazo de cada jugador.\n\t\t\tDestruye la mitad del mazo de cada jugador.\n\t\t\tDétruit_la_moitié_du_deck de chaque joueur.\n\t\t\tDistrugge metà mazzo di ogni giocatore.\n\t\t\t[x]各プレイヤーの\nデッキの半分を\n破壊する。\n\t\t\t각 플레이어의 덱을 절반씩 파괴합니다.\n\t\t\tZniszcz połowę talii każdego gracza.\n\t\t\tDestrua metade do deck de cada jogador.\n\t\t\tУничтожает половину колоды каждого игрока.\n\t\t\tทำลายเด็คครึ่งหนึ่ง[b]ของผู้เล่นทุกคน\n\t\t\t摧毁双方牌库中一半的牌。\n\t\t\t摧毀雙方牌堆中一半的牌\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "„Seid Ihr von allen guten Geistern verlassen? Wie könnt Ihr sowas nur unterschreiben?“"
+          },
+          "enUS": {
+            "present": true,
+            "value": "“YOU SIGNED WHAT?!”"
+          },
+          "esES": {
+            "present": true,
+            "value": "«¿QUE HAS PACTADO CON QUIÉN?»."
+          },
+          "esMX": {
+            "present": true,
+            "value": "“¡¿QUE FIRMASTE QUÉ?!”"
+          },
+          "frFR": {
+            "present": true,
+            "value": "« Vous n’avez quand même pas signé ça ? »"
+          },
+          "itIT": {
+            "present": true,
+            "value": "\"HAI FIRMATO CHE COSA?!?\""
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「あんた、何にサインしたって？！」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "\"이 주문을 시전하면 덱의 절반은 살아남을 것이다.\""
+          },
+          "plPL": {
+            "present": true,
+            "value": "„ŻE CO NIBY PODPISAŁEŚ?!”."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "\"E VOCÊ ASSINOU ISSO?!\""
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Нужно было читать примечание мелким шрифтом..."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ยังไงก็ไม่น่ากลัว[b]เท่ามิติมืดขับถ่าย"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "“你签的什么？玛拉基斯？！”"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "「你又亂簽了什麼！不是跟你說了字最小的地方一定要看嗎！」"
+          }
+        },
+        "textContent": "\n\t\t\t„Seid Ihr von allen guten Geistern verlassen? Wie könnt Ihr sowas nur unterschreiben?“\n\t\t\t“YOU SIGNED WHAT?!”\n\t\t\t«¿QUE HAS PACTADO CON QUIÉN?».\n\t\t\t“¡¿QUE FIRMASTE QUÉ?!”\n\t\t\t« Vous n’avez quand même pas signé ça ? »\n\t\t\t\"HAI FIRMATO CHE COSA?!?\"\n\t\t\t「あんた、何にサインしたって？！」\n\t\t\t\"이 주문을 시전하면 덱의 절반은 살아남을 것이다.\"\n\t\t\t„ŻE CO NIBY PODPISAŁEŚ?!”.\n\t\t\t\"E VOCÊ ASSINOU ISSO?!\"\n\t\t\tНужно было читать примечание мелким шрифтом...\n\t\t\tยังไงก็ไม่น่ากลัว[b]เท่ามิติมืดขับถ่าย\n\t\t\t“你签的什么？玛拉基斯？！”\n\t\t\t「你又亂簽了什麼！不是跟你說了字最小的地方一定要看嗎！」\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Alex Horley Orlandelli"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Pakt der Leere"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Void Contract"
+          },
+          "esES": {
+            "present": true,
+            "value": "Pacto con el Vacío"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Contrato del Vacío"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Contrat du Vide"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Contratto col Vuoto"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "虚無の契約"
+          },
+          "koKR": {
+            "present": true,
+            "value": "공허의 서약"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Umowa z Pustką"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Contrato Caótico"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Сделка с Бездной"
+          },
+          "thTH": {
+            "present": true,
+            "value": "มิติมืดกลืนกิน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "虚空契约"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "虛無契約"
+          }
+        },
+        "textContent": "\n\t\tPakt der Leere\n\t\tVoid Contract\n\t\tPacto con el Vacío\n\t\tContrato del Vacío\n\t\tContrat du Vide\n\t\tContratto col Vuoto\n\t\t虚無の契約\n\t\t공허의 서약\n\t\tUmowa z Pustką\n\t\tContrato Caótico\n\t\tСделка с Бездной\n\t\tมิติมืดกลืนกิน\n\t\t虚空契约\n\t\t虛無契約\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Vernichtet das halbe Deck jedes Spielers."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Destroy half of each player's deck."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Destruye la mitad\ndel mazo de cada jugador."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Destruye la mitad del mazo de cada jugador."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Détruit_la_moitié_du_deck de chaque joueur."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Distrugge metà mazzo di ogni giocatore."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]各プレイヤーの\nデッキの半分を\n破壊する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "각 플레이어의 덱을 절반씩 파괴합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zniszcz połowę talii każdego gracza."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Destrua metade do deck de cada jogador."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Уничтожает половину колоды каждого игрока."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ทำลายเด็คครึ่งหนึ่ง[b]ของผู้เล่นทุกคน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "摧毁双方牌库中一半的牌。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "摧毀雙方牌堆中一半的牌"
+          }
+        },
+        "textContent": "\n\t\tVernichtet das halbe Deck jedes Spielers.\n\t\tDestroy half of each player's deck.\n\t\t[x]Destruye la mitad\ndel mazo de cada jugador.\n\t\tDestruye la mitad del mazo de cada jugador.\n\t\tDétruit_la_moitié_du_deck de chaque joueur.\n\t\tDistrugge metà mazzo di ogni giocatore.\n\t\t[x]各プレイヤーの\nデッキの半分を\n破壊する。\n\t\t각 플레이어의 덱을 절반씩 파괴합니다.\n\t\tZniszcz połowę talii każdego gracza.\n\t\tDestrua metade do deck de cada jogador.\n\t\tУничтожает половину колоды каждого игрока.\n\t\tทำลายเด็คครึ่งหนึ่ง[b]ของผู้เล่นทุกคน\n\t\t摧毁双方牌库中一半的牌。\n\t\t摧毀雙方牌堆中一半的牌\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "„Seid Ihr von allen guten Geistern verlassen? Wie könnt Ihr sowas nur unterschreiben?“"
+          },
+          "enUS": {
+            "present": true,
+            "value": "“YOU SIGNED WHAT?!”"
+          },
+          "esES": {
+            "present": true,
+            "value": "«¿QUE HAS PACTADO CON QUIÉN?»."
+          },
+          "esMX": {
+            "present": true,
+            "value": "“¡¿QUE FIRMASTE QUÉ?!”"
+          },
+          "frFR": {
+            "present": true,
+            "value": "« Vous n’avez quand même pas signé ça ? »"
+          },
+          "itIT": {
+            "present": true,
+            "value": "\"HAI FIRMATO CHE COSA?!?\""
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「あんた、何にサインしたって？！」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "\"이 주문을 시전하면 덱의 절반은 살아남을 것이다.\""
+          },
+          "plPL": {
+            "present": true,
+            "value": "„ŻE CO NIBY PODPISAŁEŚ?!”."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "\"E VOCÊ ASSINOU ISSO?!\""
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Нужно было читать примечание мелким шрифтом..."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ยังไงก็ไม่น่ากลัว[b]เท่ามิติมืดขับถ่าย"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "“你签的什么？玛拉基斯？！”"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "「你又亂簽了什麼！不是跟你說了字最小的地方一定要看嗎！」"
+          }
+        },
+        "textContent": "\n\t\t„Seid Ihr von allen guten Geistern verlassen? Wie könnt Ihr sowas nur unterschreiben?“\n\t\t“YOU SIGNED WHAT?!”\n\t\t«¿QUE HAS PACTADO CON QUIÉN?».\n\t\t“¡¿QUE FIRMASTE QUÉ?!”\n\t\t« Vous n’avez quand même pas signé ça ? »\n\t\t\"HAI FIRMATO CHE COSA?!?\"\n\t\t「あんた、何にサインしたって？！」\n\t\t\"이 주문을 시전하면 덱의 절반은 살아남을 것이다.\"\n\t\t„ŻE CO NIBY PODPISAŁEŚ?!”.\n\t\t\"E VOCÊ ASSINOU ISSO?!\"\n\t\tНужно было читать примечание мелким шрифтом...\n\t\tยังไงก็ไม่น่ากลัว[b]เท่ามิติมืดขับถ่าย\n\t\t“你签的什么？玛拉基斯？！”\n\t\t「你又亂簽了什麼！不是跟你說了字最小的地方一定要看嗎！」\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Alex Horley Orlandelli"
+      }
+    },
+    "undatedRawTagTransitions": [
+      {
+        "build": 77662,
+        "id": "TRL_246",
+        "dbfId": 50004,
+        "name": "공허의 서약",
+        "rawDiff": {
+          "1635": [
+            "ABSENT",
+            "6"
+          ]
+        },
+        "tagNames": {
+          "1635": "SPELL_SCHOOL"
+        },
+        "decision": "gameplay_spell_school_added_recorded_correctly",
+        "relatedFindings": [
+          "RAST-BAL-E008"
+        ],
+        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+      }
+    ],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "공허의 서약",
+      "enUS": "Void Contract"
+    },
+    "currentPrintedText": {
+      "koKR": "공허의 서약",
+      "enUS": "Void Contract"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_246",
+    "dbfId": 50004,
+    "name": "공허의 서약",
+    "type": "SPELL",
+    "cardClass": "WARLOCK",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 8,
+    "text": "각 플레이어의 덱을 절반씩 파괴합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"이 주문을 시전하면 덱의 절반은 살아남을 것이다.\"",
+    "spellSchool": "SHADOW",
+    "portrait": "HS15-101_S.psd:ee297a054bb2a784b8651f5f5b01be3c",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_246.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_246",
+    "dbfId": 50004,
+    "name": "공허의 서약",
+    "type": "SPELL",
+    "cardClass": "WARLOCK",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 8,
+    "text": "각 플레이어의 덱을 절반씩 파괴합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"이 주문을 시전하면 덱의 절반은 살아남을 것이다.\"",
+    "spellSchool": "",
+    "portrait": "HS15-101_S.psd:ee297a054bb2a784b8651f5f5b01be3c",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_246.png"
+  },
+  "2021-03-26": {
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "spellSchool": "SHADOW"
+  }
+}

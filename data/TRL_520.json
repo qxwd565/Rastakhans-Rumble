@@ -1,1 +1,785 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_520","dbfId":50402,"name":"요리사 멀록","type":"MINION","cardClass":"NEUTRAL","rarity":"RARE","collectible":true,"cost":4,"text":"<b>죽음의 메아리:</b> 내 덱에서 멀록을 2마리 뽑습니다.","attack":3,"health":2,"durability":0,"armor":0,"flavor":"수프를 만들거나, 수프가 되거나...","spellSchool":"","portrait":"HS15-171_M.psd:0c70df53ea21d5b4f88aa555b0f97fab","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":4},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":14},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":217,"name":"죽음의 메아리","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["MURLOC"],"race":"멀록","classes":[],"art":"art/TRL_520.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-171_M.psd:0c70df53ea21d5b4f88aa555b0f97fab","goldenMaterial":"TRL_520_PremiumCard.mat:5f68cb62c8667ba4ba561f9db78f288e","goldenAnimation":"TRL_520_PremiumCard.asset:fe451342273de124f8ef6670b2c31467"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-171_M.psd:0c70df53ea21d5b4f88aa555b0f97fab",
+        "goldenMaterial": "TRL_520_PremiumCard.mat:5f68cb62c8667ba4ba561f9db78f288e",
+        "goldenAnimation": "TRL_520_PremiumCard.asset:fe451342273de124f8ef6670b2c31467"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-171_M.psd:0c70df53ea21d5b4f88aa555b0f97fab",
+      "goldenMaterial": "TRL_520_PremiumCard.mat:5f68cb62c8667ba4ba561f9db78f288e",
+      "goldenAnimation": "TRL_520_PremiumCard.asset:fe451342273de124f8ef6670b2c31467"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "14",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "217": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "14",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "217": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Murlocgourmet"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Murloc Tastyfin"
+          },
+          "esES": {
+            "present": true,
+            "value": "Múrloc aletarrica"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Múrloc aleta sabrosa"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Murloc aileron-gourmet"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Murloc Pinnagolosa"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "マーロック・テイスティーフィン"
+          },
+          "koKR": {
+            "present": true,
+            "value": "요리사 멀록"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Murlok Smacznopłetw"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Murloc Gostapina"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Повар-мурлок"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เมอร์ล็อคเทสตี้ฟิน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "鱼人大厨"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "饗鰭大廚"
+          }
+        },
+        "textContent": "\n\t\t\tMurlocgourmet\n\t\t\tMurloc Tastyfin\n\t\t\tMúrloc aletarrica\n\t\t\tMúrloc aleta sabrosa\n\t\t\tMurloc aileron-gourmet\n\t\t\tMurloc Pinnagolosa\n\t\t\tマーロック・テイスティーフィン\n\t\t\t요리사 멀록\n\t\t\tMurlok Smacznopłetw\n\t\t\tMurloc Gostapina\n\t\t\tПовар-мурлок\n\t\t\tเมอร์ล็อคเทสตี้ฟิน\n\t\t\t鱼人大厨\n\t\t\t饗鰭大廚\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Todesröcheln:</b> Zieht 2_Murlocs aus Eurem Deck."
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]<b>Deathrattle:</b> Draw 2 Murlocs\nfrom your deck."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Último aliento:</b>\nRoba 2 múrlocs\nde tu mazo."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Estertor:</b> roba 2 Múrlocs de tu mazo."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Râle d’agonie :</b> vous piochez 2_Murlocs dans votre deck."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Rantolo di Morte:</b>\npesca due Murloc\ndal tuo mazzo."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>断末魔:</b>\n自分のデッキから\n__マーロックを2体引く。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>죽음의 메아리:</b> 내 덱에서 멀록을 2마리 뽑습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Agonia:</b> Dobierz dwa Murloki z_twojej talii."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Último Suspiro:</b> Compre 2 Murlocs do seu deck."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Предсмертный хрип:</b>\nвы берете из колоды\n2_мурлоков."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>เสียงสุดท้าย:</b> จั่วการ์ดเมอร์ล็อค_2_ใบ[b]จากเด็คคุณ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>亡语：</b>从你的牌库中抽两张鱼人牌。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>死亡之聲：</b>從你的\n牌堆抽出2張魚人"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Todesröcheln:</b> Zieht 2_Murlocs aus Eurem Deck.\n\t\t\t[x]<b>Deathrattle:</b> Draw 2 Murlocs\nfrom your deck.\n\t\t\t[x]<b>Último aliento:</b>\nRoba 2 múrlocs\nde tu mazo.\n\t\t\t<b>Estertor:</b> roba 2 Múrlocs de tu mazo.\n\t\t\t<b>Râle d’agonie :</b> vous piochez 2_Murlocs dans votre deck.\n\t\t\t[x]<b>Rantolo di Morte:</b>\npesca due Murloc\ndal tuo mazzo.\n\t\t\t[x]<b>断末魔:</b>\n自分のデッキから\n__マーロックを2体引く。\n\t\t\t<b>죽음의 메아리:</b> 내 덱에서 멀록을 2마리 뽑습니다.\n\t\t\t<b>Agonia:</b> Dobierz dwa Murloki z_twojej talii.\n\t\t\t<b>Último Suspiro:</b> Compre 2 Murlocs do seu deck.\n\t\t\t<b>Предсмертный хрип:</b>\nвы берете из колоды\n2_мурлоков.\n\t\t\t<b>เสียงสุดท้าย:</b> จั่วการ์ดเมอร์ล็อค_2_ใบ[b]จากเด็คคุณ\n\t\t\t<b>亡语：</b>从你的牌库中抽两张鱼人牌。\n\t\t\t<b>死亡之聲：</b>從你的\n牌堆抽出2張魚人\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Lecker...schmecker?"
+          },
+          "enUS": {
+            "present": true,
+            "value": "He was destined for the soup. One way or another…"
+          },
+          "esES": {
+            "present": true,
+            "value": "A veces mata las cosas antes de cocinarlas."
+          },
+          "esMX": {
+            "present": true,
+            "value": "La sopa era su destino. De una u otra forma…"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Un gourmet tel que lui était destiné à finir dans une cuisine !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Era destinato alla zuppa, in un modo o nell'altro."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "彼はスープのために生まれてきた。どういう形であれ…"
+          },
+          "koKR": {
+            "present": true,
+            "value": "수프를 만들거나, 수프가 되거나..."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Wiedział, że zupa to jego przeznaczenie. Nie był tylko pewien szczegółów."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Sem dúvida, o negócio dele seria sopa: ou tomando sopa, ou virando sopa."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "«Ступай на кухню, храбрый мурлок! И возвращайся с кастрюлей... или в кастрюле»."
+          },
+          "thTH": {
+            "present": true,
+            "value": "เขามีชะตาให้ต้องทำซุปเป็น ไม่ก็ถูกทำเป็นซุป"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "这道汤品可少不了它。随你怎么理解了……"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "他是料理海鮮高湯不可或缺的角色…"
+          }
+        },
+        "textContent": "\n\t\t\tLecker...schmecker?\n\t\t\tHe was destined for the soup. One way or another…\n\t\t\tA veces mata las cosas antes de cocinarlas.\n\t\t\tLa sopa era su destino. De una u otra forma…\n\t\t\tUn gourmet tel que lui était destiné à finir dans une cuisine !\n\t\t\tEra destinato alla zuppa, in un modo o nell'altro.\n\t\t\t彼はスープのために生まれてきた。どういう形であれ…\n\t\t\t수프를 만들거나, 수프가 되거나...\n\t\t\tWiedział, że zupa to jego przeznaczenie. Nie był tylko pewien szczegółów.\n\t\t\tSem dúvida, o negócio dele seria sopa: ou tomando sopa, ou virando sopa.\n\t\t\t«Ступай на кухню, храбрый мурлок! И возвращайся с кастрюлей... или в кастрюле».\n\t\t\tเขามีชะตาให้ต้องทำซุปเป็น ไม่ก็ถูกทำเป็นซุป\n\t\t\t这道汤品可少不了它。随你怎么理解了……\n\t\t\t他是料理海鮮高湯不可或缺的角色…\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Matt Dixon"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Murlocgourmet"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Murloc Tastyfin"
+          },
+          "esES": {
+            "present": true,
+            "value": "Múrloc aletarrica"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Múrloc aleta sabrosa"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Murloc aileron-gourmet"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Murloc Pinnagolosa"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "マーロック・テイスティーフィン"
+          },
+          "koKR": {
+            "present": true,
+            "value": "요리사 멀록"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Murlok Smacznopłetw"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Murloc Gostapina"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Повар-мурлок"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เมอร์ล็อคเทสตี้ฟิน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "鱼人大厨"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "饗鰭大廚"
+          }
+        },
+        "textContent": "\n\t\tMurlocgourmet\n\t\tMurloc Tastyfin\n\t\tMúrloc aletarrica\n\t\tMúrloc aleta sabrosa\n\t\tMurloc aileron-gourmet\n\t\tMurloc Pinnagolosa\n\t\tマーロック・テイスティーフィン\n\t\t요리사 멀록\n\t\tMurlok Smacznopłetw\n\t\tMurloc Gostapina\n\t\tПовар-мурлок\n\t\tเมอร์ล็อคเทสตี้ฟิน\n\t\t鱼人大厨\n\t\t饗鰭大廚\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Todesröcheln:</b> Zieht 2_Murlocs aus Eurem Deck."
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]<b>Deathrattle:</b> Draw 2 Murlocs\nfrom your deck."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Último aliento:</b>\nRoba 2 múrlocs\nde tu mazo."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Estertor:</b> roba 2 Múrlocs de tu mazo."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Râle d’agonie :</b> vous piochez 2_Murlocs dans votre deck."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Rantolo di Morte:</b>\npesca due Murloc\ndal tuo mazzo."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>断末魔:</b>\n自分のデッキから\n__マーロックを2体引く。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>죽음의 메아리:</b> 내 덱에서 멀록을 2마리 뽑습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Agonia:</b> Dobierz dwa Murloki z_twojej talii."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Último Suspiro:</b> Compre 2 Murlocs do seu deck."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Предсмертный хрип:</b>\nвы берете из колоды\n2_мурлоков."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>เสียงสุดท้าย:</b> จั่วเมอร์ล็อค_2_ใบ[b]จากเด็คคุณ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>亡语：</b>从你的牌库中抽两张鱼人牌。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>死亡之聲：</b>從你的\n牌堆抽出2張魚人"
+          }
+        },
+        "textContent": "\n\t\t<b>Todesröcheln:</b> Zieht 2_Murlocs aus Eurem Deck.\n\t\t[x]<b>Deathrattle:</b> Draw 2 Murlocs\nfrom your deck.\n\t\t[x]<b>Último aliento:</b>\nRoba 2 múrlocs\nde tu mazo.\n\t\t<b>Estertor:</b> roba 2 Múrlocs de tu mazo.\n\t\t<b>Râle d’agonie :</b> vous piochez 2_Murlocs dans votre deck.\n\t\t[x]<b>Rantolo di Morte:</b>\npesca due Murloc\ndal tuo mazzo.\n\t\t[x]<b>断末魔:</b>\n自分のデッキから\n__マーロックを2体引く。\n\t\t<b>죽음의 메아리:</b> 내 덱에서 멀록을 2마리 뽑습니다.\n\t\t<b>Agonia:</b> Dobierz dwa Murloki z_twojej talii.\n\t\t<b>Último Suspiro:</b> Compre 2 Murlocs do seu deck.\n\t\t<b>Предсмертный хрип:</b>\nвы берете из колоды\n2_мурлоков.\n\t\t<b>เสียงสุดท้าย:</b> จั่วเมอร์ล็อค_2_ใบ[b]จากเด็คคุณ\n\t\t<b>亡语：</b>从你的牌库中抽两张鱼人牌。\n\t\t<b>死亡之聲：</b>從你的\n牌堆抽出2張魚人\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Lecker...schmecker?"
+          },
+          "enUS": {
+            "present": true,
+            "value": "He was destined for the soup. One way or another…"
+          },
+          "esES": {
+            "present": true,
+            "value": "A veces mata las cosas antes de cocinarlas."
+          },
+          "esMX": {
+            "present": true,
+            "value": "La sopa era su destino. De una u otra forma…"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Un gourmet tel que lui était destiné à finir dans une cuisine !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Era destinato alla zuppa, in un modo o nell'altro."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "彼はスープのために生まれてきた。どういう形であれ…"
+          },
+          "koKR": {
+            "present": true,
+            "value": "수프를 만들거나, 수프가 되거나..."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Wiedział, że zupa to jego przeznaczenie. Nie był tylko pewien szczegółów."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Sem dúvida, o negócio dele seria sopa: ou tomando sopa, ou virando sopa."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "«Ступай на кухню, храбрый мурлок! И возвращайся с кастрюлей... или в кастрюле»."
+          },
+          "thTH": {
+            "present": true,
+            "value": "เขามีชะตาให้ต้องทำซุปเป็น ไม่ก็ถูกทำเป็นซุป"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "这道汤品可少不了它。随你怎么理解了……"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "他是料理海鮮高湯不可或缺的角色…"
+          }
+        },
+        "textContent": "\n\t\tLecker...schmecker?\n\t\tHe was destined for the soup. One way or another…\n\t\tA veces mata las cosas antes de cocinarlas.\n\t\tLa sopa era su destino. De una u otra forma…\n\t\tUn gourmet tel que lui était destiné à finir dans une cuisine !\n\t\tEra destinato alla zuppa, in un modo o nell'altro.\n\t\t彼はスープのために生まれてきた。どういう形であれ…\n\t\t수프를 만들거나, 수프가 되거나...\n\t\tWiedział, że zupa to jego przeznaczenie. Nie był tylko pewien szczegółów.\n\t\tSem dúvida, o negócio dele seria sopa: ou tomando sopa, ou virando sopa.\n\t\t«Ступай на кухню, храбрый мурлок! И возвращайся с кастрюлей... или в кастрюле».\n\t\tเขามีชะตาให้ต้องทำซุปเป็น ไม่ก็ถูกทำเป็นซุป\n\t\t这道汤品可少不了它。随你怎么理解了……\n\t\t他是料理海鮮高湯不可或缺的角色…\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Matt Dixon"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "요리사 멀록",
+      "enUS": "Murloc Tastyfin"
+    },
+    "currentPrintedText": {
+      "koKR": "요리사 멀록",
+      "enUS": "Murloc Tastyfin"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_520",
+    "dbfId": 50402,
+    "name": "요리사 멀록",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>죽음의 메아리:</b> 내 덱에서 멀록을 2마리 뽑습니다.",
+    "attack": 3,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "수프를 만들거나, 수프가 되거나...",
+    "spellSchool": "",
+    "portrait": "HS15-171_M.psd:0c70df53ea21d5b4f88aa555b0f97fab",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 14
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "MURLOC"
+    ],
+    "race": "멀록",
+    "classes": [],
+    "art": "art/TRL_520.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_520",
+    "dbfId": 50402,
+    "name": "요리사 멀록",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>죽음의 메아리:</b> 내 덱에서 멀록을 2마리 뽑습니다.",
+    "attack": 3,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "수프를 만들거나, 수프가 되거나...",
+    "spellSchool": "",
+    "portrait": "HS15-171_M.psd:0c70df53ea21d5b4f88aa555b0f97fab",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 14
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "MURLOC"
+    ],
+    "race": "멀록",
+    "classes": [],
+    "art": "art/TRL_520.png"
+  }
+}

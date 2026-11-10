@@ -1,1 +1,960 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_360","dbfId":50595,"name":"대군주의 채찍","type":"WEAPON","cardClass":"WARRIOR","rarity":"COMMON","collectible":true,"cost":3,"text":"내가 하수인을 낸<br></br>후에, 그 하수인에게<br></br>피해를 1 줍니다.","attack":2,"health":0,"durability":4,"armor":0,"flavor":"\"이건 고통의 수행사제한테, 이건 검은울음 포탑한테, 이건 썩은얼굴한테...\"","spellSchool":"","portrait":"HS15-024_W.psd:01f2e4b766cbcf8488a8121f9e959024","set":"TROLL","nativeTags":[{"id":32,"name":"발동 효과 표시","value":1},{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":3},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":10},{"id":201,"name":"진영","value":3},{"id":202,"name":"카드 유형","value":7},{"id":203,"name":"희귀도","value":1},{"id":251,"name":"게임 태그 251","value":1},{"id":321,"name":"수집 가능","value":1},{"id":330,"name":"효과 생성 시각 효과","value":0},{"id":331,"name":"효과 지속 시각 효과","value":0}],"races":[],"race":"","classes":[],"art":"art/TRL_360.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-024_W.psd:01f2e4b766cbcf8488a8121f9e959024","goldenMaterial":"TRL_360_PremiumCard.mat:65d9aafbcfd611a4f97b71b349f73605","goldenAnimation":"TRL_360_PremiumCard.asset:5a3ad622d626d5046a7d17affc60892e"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-024_W.psd:01f2e4b766cbcf8488a8121f9e959024",
+        "goldenMaterial": "TRL_360_PremiumCard.mat:65d9aafbcfd611a4f97b71b349f73605",
+        "goldenAnimation": "TRL_360_PremiumCard.asset:5a3ad622d626d5046a7d17affc60892e"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-024_W.psd:01f2e4b766cbcf8488a8121f9e959024",
+      "goldenMaterial": "TRL_360_PremiumCard.mat:65d9aafbcfd611a4f97b71b349f73605",
+      "goldenAnimation": "TRL_360_PremiumCard.asset:5a3ad622d626d5046a7d17affc60892e"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "32": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "187": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "10",
+        "type": "Int"
+      },
+      "201": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "7",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "251": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "32": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "10",
+        "type": "Int"
+      },
+      "201": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "7",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "251": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Obermackerpeitsche"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Overlord's Whip"
+          },
+          "esES": {
+            "present": true,
+            "value": "Látigo de Señor Supremo"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Látigo de señor supremo"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Fouet du tyran"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Frusta del Supremo"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "暴君のムチ"
+          },
+          "koKR": {
+            "present": true,
+            "value": "대군주의 채찍"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Batog nadzorcy"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Chicote do Suserano"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Хлыст надсмотрщика"
+          },
+          "thTH": {
+            "present": true,
+            "value": "แส้โอเวอร์ลอร์ด"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "领主之鞭"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "霸主之鞭"
+          }
+        },
+        "textContent": "\n\t\t\tObermackerpeitsche\n\t\t\tOverlord's Whip\n\t\t\tLátigo de Señor Supremo\n\t\t\tLátigo de señor supremo\n\t\t\tFouet du tyran\n\t\t\tFrusta del Supremo\n\t\t\t暴君のムチ\n\t\t\t대군주의 채찍\n\t\t\tBatog nadzorcy\n\t\t\tChicote do Suserano\n\t\t\tХлыст надсмотрщика\n\t\t\tแส้โอเวอร์ลอร์ด\n\t\t\t领主之鞭\n\t\t\t霸主之鞭\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Nachdem Ihr einen Diener ausgespielt habt, wird ihm 1 Schaden zugefügt."
+          },
+          "enUS": {
+            "present": true,
+            "value": "After you play a minion, deal 1 damage to it."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Cuando juegas un esbirro,\nle inflige 1 p. de daño."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Después de que juegas un esbirro, le inflige 1 de daño."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Une fois que vous avez joué un serviteur, lui inflige 1_point de dégâts."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]Dopo che hai giocato\nun servitore, gli\ninfligge 1 danno."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]自分がミニオンを\n手札から使用した後\nそのミニオンに\n_______1ダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]내가 하수인을 낸\n후에, 그 하수인에게\n피해를 1 줍니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Gdy zagrasz stronnika, zadaj mu 1 pkt. obrażeń."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Depois que você jogar um lacaio, cause 1 de dano a ele."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "После того как вы разыгрываете существо, наносит ему 1 ед. урона."
+          },
+          "thTH": {
+            "present": true,
+            "value": "หลังจากที่คุณเล่นมินเนี่ยน สร้างความเสียหาย 1_แต้มให้มัน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "在你使用一张随从牌后，对被召唤的随从造成1点伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "[x]在你打出手下\n後，對打出的手下\n造成1點傷害"
+          }
+        },
+        "textContent": "\n\t\t\tNachdem Ihr einen Diener ausgespielt habt, wird ihm 1 Schaden zugefügt.\n\t\t\tAfter you play a minion, deal 1 damage to it.\n\t\t\t[x]Cuando juegas un esbirro,\nle inflige 1 p. de daño.\n\t\t\tDespués de que juegas un esbirro, le inflige 1 de daño.\n\t\t\tUne fois que vous avez joué un serviteur, lui inflige 1_point de dégâts.\n\t\t\t[x]Dopo che hai giocato\nun servitore, gli\ninfligge 1 danno.\n\t\t\t[x]自分がミニオンを\n手札から使用した後\nそのミニオンに\n_______1ダメージを与える。\n\t\t\t[x]내가 하수인을 낸\n후에, 그 하수인에게\n피해를 1 줍니다.\n\t\t\tGdy zagrasz stronnika, zadaj mu 1 pkt. obrażeń.\n\t\t\tDepois que você jogar um lacaio, cause 1 de dano a ele.\n\t\t\tПосле того как вы разыгрываете существо, наносит ему 1 ед. урона.\n\t\t\tหลังจากที่คุณเล่นมินเนี่ยน สร้างความเสียหาย 1_แต้มให้มัน\n\t\t\t在你使用一张随从牌后，对被召唤的随从造成1点伤害。\n\t\t\t[x]在你打出手下\n後，對打出的手下\n造成1點傷害\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Wenn man anderen Mackern klarmachen will, wer hier der Boss ist."
+          },
+          "enUS": {
+            "present": true,
+            "value": "\"This merit badge is for cruelty. This one's for whipping. And this one is for embroidery...\""
+          },
+          "esES": {
+            "present": true,
+            "value": "Cuando no está dando latigazos, disfruta con la crueldad ocasional y el ganchillo."
+          },
+          "esMX": {
+            "present": true,
+            "value": "\"Esta insignia al mérito es por crueldad. Esta es por latigazos. y esta es por bordado...\""
+          },
+          "frFR": {
+            "present": true,
+            "value": "« Un serviteur fouetté n’est pas un serviteur fouetté tant qu’il n’est pas fouetté avec un fouet, tout le monde sait ça. »"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Apprezzata per la sua crudeltà ed efficacia, ma soprattutto per la manifattura."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「これは残酷さのメリットバッジ。これはムチ打ちのバッジ。これは刺繍…」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "\"이건 고통의 수행사제한테, 이건 검은울음 포탑한테, 이건 썩은얼굴한테...\""
+          },
+          "plPL": {
+            "present": true,
+            "value": "„Tę odznakę dostałem za okrucieństwo, tę za batożenie, a tę za haftowanie...”."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "\"Este distintivo é por crueldade. Este é por chicotear. E este aqui é por bordar...\""
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Мягкий, но убедительный."
+          },
+          "thTH": {
+            "present": true,
+            "value": "\"ป้ายอันนั้นเป็นรางวัลความโหดเหี้ยม อันนั้นเป็นรางวัลจากการเฆี่ยน ส่วนอันนี้สำหรับงานเย็บปักถักร้อย...\""
+          },
+          "zhCN": {
+            "present": true,
+            "value": "“这些徽章来之不易。这个是挨鞭子拿到的，这个是挨针扎拿到的……”"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "霸主雖然愛抽鞭子，但對自己人還是有點節制的。"
+          }
+        },
+        "textContent": "\n\t\t\tWenn man anderen Mackern klarmachen will, wer hier der Boss ist.\n\t\t\t\"This merit badge is for cruelty. This one's for whipping. And this one is for embroidery...\"\n\t\t\tCuando no está dando latigazos, disfruta con la crueldad ocasional y el ganchillo.\n\t\t\t\"Esta insignia al mérito es por crueldad. Esta es por latigazos. y esta es por bordado...\"\n\t\t\t« Un serviteur fouetté n’est pas un serviteur fouetté tant qu’il n’est pas fouetté avec un fouet, tout le monde sait ça. »\n\t\t\tApprezzata per la sua crudeltà ed efficacia, ma soprattutto per la manifattura.\n\t\t\t「これは残酷さのメリットバッジ。これはムチ打ちのバッジ。これは刺繍…」\n\t\t\t\"이건 고통의 수행사제한테, 이건 검은울음 포탑한테, 이건 썩은얼굴한테...\"\n\t\t\t„Tę odznakę dostałem za okrucieństwo, tę za batożenie, a tę za haftowanie...”.\n\t\t\t\"Este distintivo é por crueldade. Este é por chicotear. E este aqui é por bordar...\"\n\t\t\tМягкий, но убедительный.\n\t\t\t\"ป้ายอันนั้นเป็นรางวัลความโหดเหี้ยม อันนั้นเป็นรางวัลจากการเฆี่ยน ส่วนอันนี้สำหรับงานเย็บปักถักร้อย...\"\n\t\t\t“这些徽章来之不易。这个是挨鞭子拿到的，这个是挨针扎拿到的……”\n\t\t\t霸主雖然愛抽鞭子，但對自己人還是有點節制的。\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Akkapoj T."
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Obermackerpeitsche"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Overlord's Whip"
+          },
+          "esES": {
+            "present": true,
+            "value": "Látigo de Señor Supremo"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Látigo de señor supremo"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Fouet du tyran"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Frusta del Supremo"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "暴君のムチ"
+          },
+          "koKR": {
+            "present": true,
+            "value": "대군주의 채찍"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Batog nadzorcy"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Chicote do Suserano"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Хлыст надсмотрщика"
+          },
+          "thTH": {
+            "present": true,
+            "value": "แส้โอเวอร์ลอร์ด"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "领主之鞭"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "霸主之鞭"
+          }
+        },
+        "textContent": "\n\t\tObermackerpeitsche\n\t\tOverlord's Whip\n\t\tLátigo de Señor Supremo\n\t\tLátigo de señor supremo\n\t\tFouet du tyran\n\t\tFrusta del Supremo\n\t\t暴君のムチ\n\t\t대군주의 채찍\n\t\tBatog nadzorcy\n\t\tChicote do Suserano\n\t\tХлыст надсмотрщика\n\t\tแส้โอเวอร์ลอร์ด\n\t\t领主之鞭\n\t\t霸主之鞭\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Nachdem Ihr einen Diener ausgespielt habt, wird ihm 1 Schaden zugefügt."
+          },
+          "enUS": {
+            "present": true,
+            "value": "After you play a minion, deal 1 damage to it."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Cuando juegas un esbirro,\nle inflige 1 p. de daño."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Después de que juegas un esbirro, le inflige 1 de daño."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Une fois que vous avez joué un serviteur, lui inflige 1_point de dégâts."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]Dopo che hai giocato\nun servitore, gli\ninfligge 1 danno."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]自分がミニオンを\n手札から使用した後\nそのミニオンに\n_______1ダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]내가 하수인을 낸\n후에, 그 하수인에게\n피해를 1 줍니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Gdy zagrasz stronnika, zadaj mu 1 pkt. obrażeń."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Depois que você jogar um lacaio, cause 1 de dano a ele."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "После того как вы разыгрываете существо, [x]___наносит ему 1_ед._урона.__"
+          },
+          "thTH": {
+            "present": true,
+            "value": "หลังจากที่คุณเล่นมินเนี่ยน สร้างความเสียหาย 1_แต้มให้มัน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "在你使用一张随从牌后，对其造成1点伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "[x]在你打出手下\n後，對打出的手下\n造成1點傷害"
+          }
+        },
+        "textContent": "\n\t\tNachdem Ihr einen Diener ausgespielt habt, wird ihm 1 Schaden zugefügt.\n\t\tAfter you play a minion, deal 1 damage to it.\n\t\t[x]Cuando juegas un esbirro,\nle inflige 1 p. de daño.\n\t\tDespués de que juegas un esbirro, le inflige 1 de daño.\n\t\tUne fois que vous avez joué un serviteur, lui inflige 1_point de dégâts.\n\t\t[x]Dopo che hai giocato\nun servitore, gli\ninfligge 1 danno.\n\t\t[x]自分がミニオンを\n手札から使用した後\nそのミニオンに\n_______1ダメージを与える。\n\t\t[x]내가 하수인을 낸\n후에, 그 하수인에게\n피해를 1 줍니다.\n\t\tGdy zagrasz stronnika, zadaj mu 1 pkt. obrażeń.\n\t\tDepois que você jogar um lacaio, cause 1 de dano a ele.\n\t\tПосле того как вы разыгрываете существо, [x]___наносит ему 1_ед._урона.__\n\t\tหลังจากที่คุณเล่นมินเนี่ยน สร้างความเสียหาย 1_แต้มให้มัน\n\t\t在你使用一张随从牌后，对其造成1点伤害。\n\t\t[x]在你打出手下\n後，對打出的手下\n造成1點傷害\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Wenn man anderen Mackern klarmachen will, wer hier der Boss ist."
+          },
+          "enUS": {
+            "present": true,
+            "value": "\"This merit badge is for cruelty. This one's for whipping. And this one is for embroidery...\""
+          },
+          "esES": {
+            "present": true,
+            "value": "Cuando no está dando latigazos, disfruta con la crueldad ocasional y el ganchillo."
+          },
+          "esMX": {
+            "present": true,
+            "value": "\"Esta insignia al mérito es por crueldad. Esta es por latigazos. y esta es por bordado...\""
+          },
+          "frFR": {
+            "present": true,
+            "value": "« Un serviteur fouetté n’est pas un serviteur fouetté tant qu’il n’est pas fouetté avec un fouet, tout le monde sait ça. »"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Apprezzata per la sua crudeltà ed efficacia, ma soprattutto per la manifattura."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「これは残酷さのメリットバッジ。これはムチ打ちのバッジ。これは刺繍…」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "\"이건 고통의 수행사제한테, 이건 검은울음 포탑한테, 이건 썩은얼굴한테...\""
+          },
+          "plPL": {
+            "present": true,
+            "value": "„Tę odznakę dostałem za okrucieństwo, tę za batożenie, a tę za haftowanie...”."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "\"Este distintivo é por crueldade. Este é por chicotear. E este aqui é por bordar...\""
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Мягкий, но убедительный."
+          },
+          "thTH": {
+            "present": true,
+            "value": "\"ป้ายอันนั้นเป็นรางวัลความโหดเหี้ยม อันนั้นเป็นรางวัลจากการเฆี่ยน ส่วนอันนี้สำหรับงานเย็บปักถักร้อย...\""
+          },
+          "zhCN": {
+            "present": true,
+            "value": "“这些徽章来之不易。这个是挨鞭子拿到的，这个是挨针扎拿到的……”"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "霸主雖然愛抽鞭子，但對自己人還是有點節制的。"
+          }
+        },
+        "textContent": "\n\t\tWenn man anderen Mackern klarmachen will, wer hier der Boss ist.\n\t\t\"This merit badge is for cruelty. This one's for whipping. And this one is for embroidery...\"\n\t\tCuando no está dando latigazos, disfruta con la crueldad ocasional y el ganchillo.\n\t\t\"Esta insignia al mérito es por crueldad. Esta es por latigazos. y esta es por bordado...\"\n\t\t« Un serviteur fouetté n’est pas un serviteur fouetté tant qu’il n’est pas fouetté avec un fouet, tout le monde sait ça. »\n\t\tApprezzata per la sua crudeltà ed efficacia, ma soprattutto per la manifattura.\n\t\t「これは残酷さのメリットバッジ。これはムチ打ちのバッジ。これは刺繍…」\n\t\t\"이건 고통의 수행사제한테, 이건 검은울음 포탑한테, 이건 썩은얼굴한테...\"\n\t\t„Tę odznakę dostałem za okrucieństwo, tę za batożenie, a tę za haftowanie...”.\n\t\t\"Este distintivo é por crueldade. Este é por chicotear. E este aqui é por bordar...\"\n\t\tМягкий, но убедительный.\n\t\t\"ป้ายอันนั้นเป็นรางวัลความโหดเหี้ยม อันนั้นเป็นรางวัลจากการเฆี่ยน ส่วนอันนี้สำหรับงานเย็บปักถักร้อย...\"\n\t\t“这些徽章来之不易。这个是挨鞭子拿到的，这个是挨针扎拿到的……”\n\t\t霸主雖然愛抽鞭子，但對自己人還是有點節制的。\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Akkapoj T."
+      }
+    },
+    "undatedRawTagTransitions": [
+      {
+        "build": 217964,
+        "id": "TRL_360",
+        "dbfId": 50595,
+        "name": "대군주의 채찍",
+        "rawDiff": {
+          "187": [
+            "4",
+            "ABSENT"
+          ],
+          "45": [
+            "ABSENT",
+            "4"
+          ]
+        },
+        "tagNames": {
+          "187": "DURABILITY",
+          "45": "HEALTH"
+        },
+        "decision": "weapon_durability_tag_migration_same_value",
+        "relatedFindings": [],
+        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
+      }
+    ],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "대군주의 채찍",
+      "enUS": "Overlord's Whip"
+    },
+    "currentPrintedText": {
+      "koKR": "대군주의 채찍",
+      "enUS": "Overlord's Whip"
+    },
+    "undatedCurrentDifferences": [],
+    "weaponDurabilityTagMigrationEvidence": {
+      "date": "2025-03-19",
+      "beforeBuild": 217489,
+      "afterBuild": 217964,
+      "beforeOwn": {
+        "187": "4",
+        "45": "ABSENT"
+      },
+      "afterOwn": {
+        "187": "ABSENT",
+        "45": "4"
+      },
+      "logicalDurabilityBefore": 4,
+      "logicalDurabilityAfter": 4,
+      "officialPatch": "32.0",
+      "officialPublishedUTC": "2025-03-17T17:00:00Z",
+      "officialSource": "https://news.blizzard.com/ko-kr/article/24187196/32-0",
+      "isGameplayBuff": false
+    }
+  },
+  "_current": {
+    "id": "TRL_360",
+    "dbfId": 50595,
+    "name": "대군주의 채찍",
+    "type": "WEAPON",
+    "cardClass": "WARRIOR",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 3,
+    "text": "내가 하수인을 낸<br></br>후에, 그 하수인에게<br></br>피해를 1 줍니다.",
+    "attack": 2,
+    "health": 0,
+    "durability": 4,
+    "armor": 0,
+    "flavor": "\"이건 고통의 수행사제한테, 이건 검은울음 포탑한테, 이건 썩은얼굴한테...\"",
+    "spellSchool": "",
+    "portrait": "HS15-024_W.psd:01f2e4b766cbcf8488a8121f9e959024",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_360.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_360",
+    "dbfId": 50595,
+    "name": "대군주의 채찍",
+    "type": "WEAPON",
+    "cardClass": "WARRIOR",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 3,
+    "text": "내가 하수인을 낸<br></br>후에, 그 하수인에게<br></br>피해를 1 줍니다.",
+    "attack": 2,
+    "health": 0,
+    "durability": 4,
+    "armor": 0,
+    "flavor": "\"이건 고통의 수행사제한테, 이건 검은울음 포탑한테, 이건 썩은얼굴한테...\"",
+    "spellSchool": "",
+    "portrait": "HS15-024_W.psd:01f2e4b766cbcf8488a8121f9e959024",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_360.png"
+  },
+  "2025-03-19": {
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      }
+    ],
+    "nativeTagRolesDelta": {
+      "owned": {
+        "removed": [
+          "187"
+        ],
+        "set": {
+          "45": "4"
+        }
+      },
+      "referenced": {
+        "removed": [],
+        "set": {}
+      }
+    },
+    "source": {
+      "findingId": "RAST-EXP-32-0",
+      "officialPatch": "32.0",
+      "buildBefore": 217489,
+      "buildAfter": 217964,
+      "durabilityBefore": 4,
+      "durabilityAfter": 4,
+      "isGameplayBuff": false,
+      "note": "Tag ownership migration only; no weapon durability buff"
+    }
+  }
+}

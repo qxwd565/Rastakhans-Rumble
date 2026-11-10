@@ -1,1 +1,781 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_010","dbfId":49049,"name":"장비 수집가","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":4,"text":"<b>은신</b>, <b>압살:</b> 방어도를<br></br>+3 얻습니다.","attack":3,"health":5,"durability":0,"armor":0,"flavor":"누군가의 쓰레기는 다른 누군가의 졸업템일 수도 있습니다.","spellSchool":"","portrait":"HS15-160_M.psd:a6e8ff816f751ac4cae532ddc802ed80","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":5},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":4},{"id":114,"name":"전설 속성","value":0},{"id":191,"name":"은신","value":1},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1},{"id":923,"name":"압살","value":1}],"races":[],"race":"","classes":[],"art":"art/TRL_010.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-160_M.psd:a6e8ff816f751ac4cae532ddc802ed80","goldenMaterial":"TRL_010_PremiumCard.mat:a090c423397c1744ea5524105079620d","goldenAnimation":"TRL_010_PremiumCard.asset:2b2352f992a1597438bbf83d95325342"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-160_M.psd:a6e8ff816f751ac4cae532ddc802ed80",
+        "goldenMaterial": "TRL_010_PremiumCard.mat:a090c423397c1744ea5524105079620d",
+        "goldenAnimation": "TRL_010_PremiumCard.asset:2b2352f992a1597438bbf83d95325342"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-160_M.psd:a6e8ff816f751ac4cae532ddc802ed80",
+      "goldenMaterial": "TRL_010_PremiumCard.mat:a090c423397c1744ea5524105079620d",
+      "goldenAnimation": "TRL_010_PremiumCard.asset:2b2352f992a1597438bbf83d95325342"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "191": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "923": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "191": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "923": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Halbzeitplünderin"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Half-Time Scavenger"
+          },
+          "esES": {
+            "present": true,
+            "value": "Rapiñadora en los descansos"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Carroñera de medio tiempo"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Pillarde à mi-temps"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Rovistatrice degli Spalti"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ハーフタイムの清掃員"
+          },
+          "koKR": {
+            "present": true,
+            "value": "장비 수집가"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zbieraczka fantów"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Catadora Temporária"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Мародер на полставки"
+          },
+          "thTH": {
+            "present": true,
+            "value": "นักเก็บกวาดช่วงพักครึ่ง"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "中场拾荒者"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "中場拾荒者"
+          }
+        },
+        "textContent": "\n\t\t\tHalbzeitplünderin\n\t\t\tHalf-Time Scavenger\n\t\t\tRapiñadora en los descansos\n\t\t\tCarroñera de medio tiempo\n\t\t\tPillarde à mi-temps\n\t\t\tRovistatrice degli Spalti\n\t\t\tハーフタイムの清掃員\n\t\t\t장비 수집가\n\t\t\tZbieraczka fantów\n\t\t\tCatadora Temporária\n\t\t\tМародер на полставки\n\t\t\tนักเก็บกวาดช่วงพักครึ่ง\n\t\t\t中场拾荒者\n\t\t\t中場拾荒者\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Verstohlenheit</b>. <b>Überwältigen:</b> Erhaltet 3_Rüstung."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Stealth</b>\n<b>Overkill</b>: Gain 3 Armor."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Sigilo</b>\n<b>Arrasar:</b> Obtienes 3 p. de armadura."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Sigilo</b>\n<b>Arrasar</b>: Obtienes 3\nde Armadura."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Camouflage</b>\n<b>Brutalité :</b> gagne 3_points d’armure."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Furtività</b>.\n<b>Annientamento:</b>\nfornisce 3 Armatura."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>隠れ身</b>、<b>血祭:</b>\n___装甲を3獲得する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>은신</b>, <b>압살:</b> 방어도를\n+3 얻습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Ukrycie</b>\n<b>Rzeź:</b> Otrzymujesz 3 pkt. pancerza."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Furtividade</b>\n<b>Massacre:</b> Receba 3\nde Armadura."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Маскировка</b>. <b>Сверхурон:</b> вы получаете +3 к броне."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>ซ่อนตัว</b>\n<b>สังหารโหด</b>: ได้รับเกราะ_3_แต้ม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>潜行</b>\n<b>超杀</b>：获得3点\n护甲值。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>潛行</b>\n<b>滅殺</b>：獲得3點\n護甲值"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Verstohlenheit</b>. <b>Überwältigen:</b> Erhaltet 3_Rüstung.\n\t\t\t<b>Stealth</b>\n<b>Overkill</b>: Gain 3 Armor.\n\t\t\t<b>Sigilo</b>\n<b>Arrasar:</b> Obtienes 3 p. de armadura.\n\t\t\t<b>Sigilo</b>\n<b>Arrasar</b>: Obtienes 3\nde Armadura.\n\t\t\t<b>Camouflage</b>\n<b>Brutalité :</b> gagne 3_points d’armure.\n\t\t\t[x]<b>Furtività</b>.\n<b>Annientamento:</b>\nfornisce 3 Armatura.\n\t\t\t[x]<b>隠れ身</b>、<b>血祭:</b>\n___装甲を3獲得する。\n\t\t\t<b>은신</b>, <b>압살:</b> 방어도를\n+3 얻습니다.\n\t\t\t<b>Ukrycie</b>\n<b>Rzeź:</b> Otrzymujesz 3 pkt. pancerza.\n\t\t\t<b>Furtividade</b>\n<b>Massacre:</b> Receba 3\nde Armadura.\n\t\t\t<b>Маскировка</b>. <b>Сверхурон:</b> вы получаете +3 к броне.\n\t\t\t<b>ซ่อนตัว</b>\n<b>สังหารโหด</b>: ได้รับเกราะ_3_แต้ม\n\t\t\t<b>潜行</b>\n<b>超杀</b>：获得3点\n护甲值。\n\t\t\t<b>潛行</b>\n<b>滅殺</b>：獲得3點\n護甲值\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "„Tut das Not, dass das hier so rumoxidiert?“"
+          },
+          "enUS": {
+            "present": true,
+            "value": "One player's trash is another's “Best In Slot”."
+          },
+          "esES": {
+            "present": true,
+            "value": "A la saca."
+          },
+          "esMX": {
+            "present": true,
+            "value": "¿Basura? Ven conmigo, ricura."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Elle ne fera pas ça toute sa vie, c’est uniquement pour payer ses études."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Le zanne di Troll andranno nell'umido o nell'indifferenziato?"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「清掃員という仕事は装備を集めるのに便利でな。こいつをお前の頭装備スロットに入れろ。すごいぞ、お前の装甲は数倍に跳ね上がる」\n「（こんな古い物を…父さん、マナ欠乏性にかかって）」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "누군가의 쓰레기는 다른 누군가의 졸업템일 수도 있습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Dla jednego śmieć, dla drugiego skarb!"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Nas horas vagas, ela cata. Durante o expediente, ela fica de pernas pro ar."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "В остальное время просто подворовывает."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ไอเท็มขยะของคนหนึ่งอาจเป็น “ของเทพ” ของอีกคน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "彼之砒霜，我之神装。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "這些沒人要的垃圾，是某些人眼裡的神裝。"
+          }
+        },
+        "textContent": "\n\t\t\t„Tut das Not, dass das hier so rumoxidiert?“\n\t\t\tOne player's trash is another's “Best In Slot”.\n\t\t\tA la saca.\n\t\t\t¿Basura? Ven conmigo, ricura.\n\t\t\tElle ne fera pas ça toute sa vie, c’est uniquement pour payer ses études.\n\t\t\tLe zanne di Troll andranno nell'umido o nell'indifferenziato?\n\t\t\t「清掃員という仕事は装備を集めるのに便利でな。こいつをお前の頭装備スロットに入れろ。すごいぞ、お前の装甲は数倍に跳ね上がる」\n「（こんな古い物を…父さん、マナ欠乏性にかかって）」\n\t\t\t누군가의 쓰레기는 다른 누군가의 졸업템일 수도 있습니다.\n\t\t\tDla jednego śmieć, dla drugiego skarb!\n\t\t\tNas horas vagas, ela cata. Durante o expediente, ela fica de pernas pro ar.\n\t\t\tВ остальное время просто подворовывает.\n\t\t\tไอเท็มขยะของคนหนึ่งอาจเป็น “ของเทพ” ของอีกคน\n\t\t\t彼之砒霜，我之神装。\n\t\t\t這些沒人要的垃圾，是某些人眼裡的神裝。\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Ivan Fomin"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Halbzeitplünderin"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Half-Time Scavenger"
+          },
+          "esES": {
+            "present": true,
+            "value": "Rapiñadora en los descansos"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Carroñera de medio tiempo"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Pillarde à mi-temps"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Rovistatrice degli Spalti"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ハーフタイムの清掃員"
+          },
+          "koKR": {
+            "present": true,
+            "value": "장비 수집가"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zbieraczka fantów"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Catadora Temporária"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Мародер на полставки"
+          },
+          "thTH": {
+            "present": true,
+            "value": "นักเก็บกวาดช่วงพักครึ่ง"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "中场拾荒者"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "中場拾荒者"
+          }
+        },
+        "textContent": "\n\t\tHalbzeitplünderin\n\t\tHalf-Time Scavenger\n\t\tRapiñadora en los descansos\n\t\tCarroñera de medio tiempo\n\t\tPillarde à mi-temps\n\t\tRovistatrice degli Spalti\n\t\tハーフタイムの清掃員\n\t\t장비 수집가\n\t\tZbieraczka fantów\n\t\tCatadora Temporária\n\t\tМародер на полставки\n\t\tนักเก็บกวาดช่วงพักครึ่ง\n\t\t中场拾荒者\n\t\t中場拾荒者\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Verstohlenheit</b>. <b>Überwältigen:</b> Erhaltet 3_Rüstung."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Stealth</b>\n<b>Overkill</b>: Gain 3 Armor."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Sigilo</b>\n<b>Arrasar:</b> Obtienes 3 p. de armadura."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Sigilo</b>\n<b>Arrasar</b>: Obtienes 3\nde Armadura."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Camouflage</b>\n<b>Brutalité :</b> gagne 3_points d’armure."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Furtività</b>.\n<b>Annientamento:</b>\nfornisce 3 Armatura."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>隠れ身</b>、<b>血祭:</b>\n___装甲を3獲得する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>은신</b>, <b>압살:</b> 방어도를\n+3 얻습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Ukrycie</b>\n<b>Rzeź:</b> Otrzymujesz 3 pkt. pancerza."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Furtividade</b>\n<b>Massacre:</b> Receba 3\nde Armadura."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Маскировка</b>. <b>Сверхурон:</b> вы получаете +3 к броне."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>ซ่อนตัว</b>_<b>สังหารโหด</b>: ได้รับเกราะ_3_แต้ม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>潜行</b>\n<b>超杀</b>：获得3点\n护甲值。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>潛行</b>\n<b>滅殺</b>：獲得3點\n護甲值"
+          }
+        },
+        "textContent": "\n\t\t<b>Verstohlenheit</b>. <b>Überwältigen:</b> Erhaltet 3_Rüstung.\n\t\t<b>Stealth</b>\n<b>Overkill</b>: Gain 3 Armor.\n\t\t<b>Sigilo</b>\n<b>Arrasar:</b> Obtienes 3 p. de armadura.\n\t\t<b>Sigilo</b>\n<b>Arrasar</b>: Obtienes 3\nde Armadura.\n\t\t<b>Camouflage</b>\n<b>Brutalité :</b> gagne 3_points d’armure.\n\t\t[x]<b>Furtività</b>.\n<b>Annientamento:</b>\nfornisce 3 Armatura.\n\t\t[x]<b>隠れ身</b>、<b>血祭:</b>\n___装甲を3獲得する。\n\t\t<b>은신</b>, <b>압살:</b> 방어도를\n+3 얻습니다.\n\t\t<b>Ukrycie</b>\n<b>Rzeź:</b> Otrzymujesz 3 pkt. pancerza.\n\t\t<b>Furtividade</b>\n<b>Massacre:</b> Receba 3\nde Armadura.\n\t\t<b>Маскировка</b>. <b>Сверхурон:</b> вы получаете +3 к броне.\n\t\t<b>ซ่อนตัว</b>_<b>สังหารโหด</b>: ได้รับเกราะ_3_แต้ม\n\t\t<b>潜行</b>\n<b>超杀</b>：获得3点\n护甲值。\n\t\t<b>潛行</b>\n<b>滅殺</b>：獲得3點\n護甲值\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "„Tut das Not, dass das hier so rumoxidiert?“"
+          },
+          "enUS": {
+            "present": true,
+            "value": "One player's trash is another's “Best In Slot”."
+          },
+          "esES": {
+            "present": true,
+            "value": "A la saca."
+          },
+          "esMX": {
+            "present": true,
+            "value": "¿Basura? Ven conmigo, ricura."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Elle ne fera pas ça toute sa vie, c’est uniquement pour payer ses études."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Le zanne di Troll andranno nell'umido o nell'indifferenziato?"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「清掃員という仕事は装備を集めるのに便利でな。こいつをお前の頭装備スロットに入れろ。すごいぞ、お前の装甲は数倍に跳ね上がる」\n「（こんな古い物を…父さん、マナ欠乏性にかかって）」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "누군가의 쓰레기는 다른 누군가의 졸업템일 수도 있습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Dla jednego śmieć, dla drugiego skarb!"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Nas horas vagas, ela cata. Durante o expediente, ela fica de pernas pro ar."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "В остальное время просто подворовывает."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ไอเท็มขยะของคนหนึ่งอาจเป็น “ของเทพ” ของอีกคน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "彼之砒霜，我之神装。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "這些沒人要的垃圾，是某些人眼裡的神裝。"
+          }
+        },
+        "textContent": "\n\t\t„Tut das Not, dass das hier so rumoxidiert?“\n\t\tOne player's trash is another's “Best In Slot”.\n\t\tA la saca.\n\t\t¿Basura? Ven conmigo, ricura.\n\t\tElle ne fera pas ça toute sa vie, c’est uniquement pour payer ses études.\n\t\tLe zanne di Troll andranno nell'umido o nell'indifferenziato?\n\t\t「清掃員という仕事は装備を集めるのに便利でな。こいつをお前の頭装備スロットに入れろ。すごいぞ、お前の装甲は数倍に跳ね上がる」\n「（こんな古い物を…父さん、マナ欠乏性にかかって）」\n\t\t누군가의 쓰레기는 다른 누군가의 졸업템일 수도 있습니다.\n\t\tDla jednego śmieć, dla drugiego skarb!\n\t\tNas horas vagas, ela cata. Durante o expediente, ela fica de pernas pro ar.\n\t\tВ остальное время просто подворовывает.\n\t\tไอเท็มขยะของคนหนึ่งอาจเป็น “ของเทพ” ของอีกคน\n\t\t彼之砒霜，我之神装。\n\t\t這些沒人要的垃圾，是某些人眼裡的神裝。\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Ivan Fomin"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "장비 수집가",
+      "enUS": "Half-Time Scavenger"
+    },
+    "currentPrintedText": {
+      "koKR": "장비 수집가",
+      "enUS": "Half-Time Scavenger"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_010",
+    "dbfId": 49049,
+    "name": "장비 수집가",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>은신</b>, <b>압살:</b> 방어도를<br></br>+3 얻습니다.",
+    "attack": 3,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "누군가의 쓰레기는 다른 누군가의 졸업템일 수도 있습니다.",
+    "spellSchool": "",
+    "portrait": "HS15-160_M.psd:a6e8ff816f751ac4cae532ddc802ed80",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 191,
+        "name": "은신",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 923,
+        "name": "압살",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_010.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_010",
+    "dbfId": 49049,
+    "name": "장비 수집가",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>은신</b>, <b>압살:</b> 방어도를<br></br>+3 얻습니다.",
+    "attack": 3,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "누군가의 쓰레기는 다른 누군가의 졸업템일 수도 있습니다.",
+    "spellSchool": "",
+    "portrait": "HS15-160_M.psd:a6e8ff816f751ac4cae532ddc802ed80",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 191,
+        "name": "은신",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 923,
+        "name": "압살",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_010.png"
+  }
+}

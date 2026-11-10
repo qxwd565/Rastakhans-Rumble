@@ -1,1 +1,693 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_321","dbfId":50040,"name":"압도","type":"SPELL","cardClass":"WARRIOR","rarity":"COMMON","collectible":true,"cost":1,"text":"피해를 받은 하수인에게 피해를 $4 줍니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"널 마무리할 수 없다면 압도해버리겠어.","spellSchool":"","portrait":"HS15-132_S.psd:8b931ec805488a14eba1a037382a772b","set":"TROLL","nativeTags":[{"id":48,"name":"마나 비용","value":1},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":10},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/TRL_321.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-132_S.psd:8b931ec805488a14eba1a037382a772b","goldenMaterial":"TRL_321_PremiumCard.mat:1a210565c151c5948b652059a21d367e","goldenAnimation":"TRL_321_PremiumCard.asset:96ec484edb0c01040aec91379760f277"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-132_S.psd:8b931ec805488a14eba1a037382a772b",
+        "goldenMaterial": "TRL_321_PremiumCard.mat:1a210565c151c5948b652059a21d367e",
+        "goldenAnimation": "TRL_321_PremiumCard.asset:96ec484edb0c01040aec91379760f277"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-132_S.psd:8b931ec805488a14eba1a037382a772b",
+      "goldenMaterial": "TRL_321_PremiumCard.mat:1a210565c151c5948b652059a21d367e",
+      "goldenAnimation": "TRL_321_PremiumCard.asset:96ec484edb0c01040aec91379760f277"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "10",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "10",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Verheeren"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Devastate"
+          },
+          "esES": {
+            "present": true,
+            "value": "Devastar"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Devastar"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Dévastation"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Sfondamento"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ダメ押し"
+          },
+          "koKR": {
+            "present": true,
+            "value": "압도"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Wykończenie"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Devastar"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Опустошение"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ทำลายไม่เหลือซาก"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "毁灭打击"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "挫敗"
+          }
+        },
+        "textContent": "\n\t\t\tVerheeren\n\t\t\tDevastate\n\t\t\tDevastar\n\t\t\tDevastar\n\t\t\tDévastation\n\t\t\tSfondamento\n\t\t\tダメ押し\n\t\t\t압도\n\t\t\tWykończenie\n\t\t\tDevastar\n\t\t\tОпустошение\n\t\t\tทำลายไม่เหลือซาก\n\t\t\t毁灭打击\n\t\t\t挫敗\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Fügt einem verletzten Diener $4 Schaden zu."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Deal $4 damage to a damaged minion."
+          },
+          "esES": {
+            "present": true,
+            "value": "Inflige $4 p. de daño\na un esbirro dañado."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Inflige $4 de daño a un esbirro dañado."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Inflige $4 |4(point,points) de dégâts à un serviteur blessé."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Infligge $4 danni a un servitore danneggiato."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]ダメージを受けている\nミニオン1体に\n$4ダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "피해를 받은 하수인에게 피해를 $4 줍니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zadaj $4 pkt. obrażeń rannemu stronnikowi."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Cause $4 de dano a um lacaio ferido."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Наносит $4 ед. урона существу с неполным здоровьем."
+          },
+          "thTH": {
+            "present": true,
+            "value": "สร้างความเสียหาย $4_แต้มให้มินเนี่ยน[b]ที่พลังชีวิตไม่เต็มหนึ่งตัว"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "对一个受伤的随从造成$4点\n伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "對一個受傷的手下造成$4點傷害"
+          }
+        },
+        "textContent": "\n\t\t\tFügt einem verletzten Diener $4 Schaden zu.\n\t\t\tDeal $4 damage to a damaged minion.\n\t\t\tInflige $4 p. de daño\na un esbirro dañado.\n\t\t\tInflige $4 de daño a un esbirro dañado.\n\t\t\tInflige $4 |4(point,points) de dégâts à un serviteur blessé.\n\t\t\tInfligge $4 danni a un servitore danneggiato.\n\t\t\t[x]ダメージを受けている\nミニオン1体に\n$4ダメージを与える。\n\t\t\t피해를 받은 하수인에게 피해를 $4 줍니다.\n\t\t\tZadaj $4 pkt. obrażeń rannemu stronnikowi.\n\t\t\tCause $4 de dano a um lacaio ferido.\n\t\t\tНаносит $4 ед. урона существу с неполным здоровьем.\n\t\t\tสร้างความเสียหาย $4_แต้มให้มินเนี่ยน[b]ที่พลังชีวิตไม่เต็มหนึ่งตัว\n\t\t\t对一个受伤的随从造成$4点\n伤害。\n\t\t\t對一個受傷的手下造成$4點傷害\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Es geht doch nichts über einen Snack so zwischendurch."
+          },
+          "enUS": {
+            "present": true,
+            "value": "No thanks, I already devast-ate."
+          },
+          "esES": {
+            "present": true,
+            "value": "Un dragón gigante por la espalda debe <i>devastar</i>."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Devastar, castigar, atacar, destruir todo..."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Vous allez déguster !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "E sfondatorace, e sfondagambe, e..."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "殺せた？ダメ？惜しい！"
+          },
+          "koKR": {
+            "present": true,
+            "value": "널 마무리할 수 없다면 압도해버리겠어."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Lepiej nie czekać, aż się wykrwawi."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Ah, menos mau. Achei que era \"devassar\"."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Возможно, розыгрыш с драконом был не лучшей идеей."
+          },
+          "thTH": {
+            "present": true,
+            "value": "สะอาดหมดจด ไม่เหลือซาก"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "巨龙口腔内的微生物是导致伤者感染的主要原因。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "現在放棄，就要被龍吃掉啦！"
+          }
+        },
+        "textContent": "\n\t\t\tEs geht doch nichts über einen Snack so zwischendurch.\n\t\t\tNo thanks, I already devast-ate.\n\t\t\tUn dragón gigante por la espalda debe <i>devastar</i>.\n\t\t\tDevastar, castigar, atacar, destruir todo...\n\t\t\tVous allez déguster !\n\t\t\tE sfondatorace, e sfondagambe, e...\n\t\t\t殺せた？ダメ？惜しい！\n\t\t\t널 마무리할 수 없다면 압도해버리겠어.\n\t\t\tLepiej nie czekać, aż się wykrwawi.\n\t\t\tAh, menos mau. Achei que era \"devassar\".\n\t\t\tВозможно, розыгрыш с драконом был не лучшей идеей.\n\t\t\tสะอาดหมดจด ไม่เหลือซาก\n\t\t\t巨龙口腔内的微生物是导致伤者感染的主要原因。\n\t\t\t現在放棄，就要被龍吃掉啦！\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Slawomir Maniak"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Verheeren"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Devastate"
+          },
+          "esES": {
+            "present": true,
+            "value": "Devastar"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Devastar"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Dévastation"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Sfondamento"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ダメ押し"
+          },
+          "koKR": {
+            "present": true,
+            "value": "압도"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Wykończenie"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Devastar"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Опустошение"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ทำลายไม่เหลือซาก"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "毁灭打击"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "挫敗"
+          }
+        },
+        "textContent": "\n\t\tVerheeren\n\t\tDevastate\n\t\tDevastar\n\t\tDevastar\n\t\tDévastation\n\t\tSfondamento\n\t\tダメ押し\n\t\t압도\n\t\tWykończenie\n\t\tDevastar\n\t\tОпустошение\n\t\tทำลายไม่เหลือซาก\n\t\t毁灭打击\n\t\t挫敗\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Fügt einem verletzten Diener $4 Schaden zu."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Deal $4 damage to a damaged minion."
+          },
+          "esES": {
+            "present": true,
+            "value": "Inflige $4 p. de daño\na un esbirro dañado."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Inflige $4 de daño a un esbirro dañado."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Inflige $4 |4(point,points) de dégâts à un serviteur blessé."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Infligge $4 danni a un servitore danneggiato."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]ダメージを受けている\nミニオン1体に\n$4ダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "피해를 받은 하수인에게 피해를 $4 줍니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zadaj $4 pkt. obrażeń rannemu stronnikowi."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Cause $4 de dano a um lacaio ferido."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Наносит $4 ед. урона существу с неполным здоровьем."
+          },
+          "thTH": {
+            "present": true,
+            "value": "สร้างความเสียหาย $4_แต้มให้มินเนี่ยน[b]ที่พลังชีวิตไม่เต็มหนึ่งตัว"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "对一个受伤的随从造成$4点\n伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "對一個受傷的手下造成$4點傷害"
+          }
+        },
+        "textContent": "\n\t\tFügt einem verletzten Diener $4 Schaden zu.\n\t\tDeal $4 damage to a damaged minion.\n\t\tInflige $4 p. de daño\na un esbirro dañado.\n\t\tInflige $4 de daño a un esbirro dañado.\n\t\tInflige $4 |4(point,points) de dégâts à un serviteur blessé.\n\t\tInfligge $4 danni a un servitore danneggiato.\n\t\t[x]ダメージを受けている\nミニオン1体に\n$4ダメージを与える。\n\t\t피해를 받은 하수인에게 피해를 $4 줍니다.\n\t\tZadaj $4 pkt. obrażeń rannemu stronnikowi.\n\t\tCause $4 de dano a um lacaio ferido.\n\t\tНаносит $4 ед. урона существу с неполным здоровьем.\n\t\tสร้างความเสียหาย $4_แต้มให้มินเนี่ยน[b]ที่พลังชีวิตไม่เต็มหนึ่งตัว\n\t\t对一个受伤的随从造成$4点\n伤害。\n\t\t對一個受傷的手下造成$4點傷害\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Es geht doch nichts über einen Snack so zwischendurch."
+          },
+          "enUS": {
+            "present": true,
+            "value": "No thanks, I already devast-ate."
+          },
+          "esES": {
+            "present": true,
+            "value": "Un dragón gigante por la espalda debe <i>devastar</i>."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Devastar, castigar, atacar, destruir todo..."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Vous allez déguster !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "E sfondatorace, e sfondagambe, e..."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "殺せた？ダメ？惜しい！"
+          },
+          "koKR": {
+            "present": true,
+            "value": "널 마무리할 수 없다면 압도해버리겠어."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Lepiej nie czekać, aż się wykrwawi."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Ah, menos mau. Achei que era \"devassar\"."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Возможно, розыгрыш с драконом был не лучшей идеей."
+          },
+          "thTH": {
+            "present": true,
+            "value": "สะอาดหมดจด ไม่เหลือซาก"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "巨龙口腔内的微生物是导致伤者感染的主要原因。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "現在放棄，就要被龍吃掉啦！"
+          }
+        },
+        "textContent": "\n\t\tEs geht doch nichts über einen Snack so zwischendurch.\n\t\tNo thanks, I already devast-ate.\n\t\tUn dragón gigante por la espalda debe <i>devastar</i>.\n\t\tDevastar, castigar, atacar, destruir todo...\n\t\tVous allez déguster !\n\t\tE sfondatorace, e sfondagambe, e...\n\t\t殺せた？ダメ？惜しい！\n\t\t널 마무리할 수 없다면 압도해버리겠어.\n\t\tLepiej nie czekać, aż się wykrwawi.\n\t\tAh, menos mau. Achei que era \"devassar\".\n\t\tВозможно, розыгрыш с драконом был не лучшей идеей.\n\t\tสะอาดหมดจด ไม่เหลือซาก\n\t\t巨龙口腔内的微生物是导致伤者感染的主要原因。\n\t\t現在放棄，就要被龍吃掉啦！\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Slawomir Maniak"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "압도",
+      "enUS": "Devastate"
+    },
+    "currentPrintedText": {
+      "koKR": "압도",
+      "enUS": "Devastate"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_321",
+    "dbfId": 50040,
+    "name": "압도",
+    "type": "SPELL",
+    "cardClass": "WARRIOR",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "피해를 받은 하수인에게 피해를 $4 줍니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "널 마무리할 수 없다면 압도해버리겠어.",
+    "spellSchool": "",
+    "portrait": "HS15-132_S.psd:8b931ec805488a14eba1a037382a772b",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_321.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_321",
+    "dbfId": 50040,
+    "name": "압도",
+    "type": "SPELL",
+    "cardClass": "WARRIOR",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "피해를 받은 하수인에게 피해를 $4 줍니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "널 마무리할 수 없다면 압도해버리겠어.",
+    "spellSchool": "",
+    "portrait": "HS15-132_S.psd:8b931ec805488a14eba1a037382a772b",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_321.png"
+  }
+}

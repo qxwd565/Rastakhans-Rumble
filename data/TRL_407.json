@@ -1,1 +1,779 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_407","dbfId":50497,"name":"물통 담당","type":"MINION","cardClass":"NEUTRAL","rarity":"RARE","collectible":true,"cost":2,"text":"<b>전투의 함성:</b> 이번 턴의<br></br>내 다음 영웅 능력의<br></br>비용이 (0)이 됩니다.","attack":2,"health":1,"durability":0,"armor":0,"flavor":"성분: 트롤의 땀 100%","spellSchool":"","portrait":"HS15-060_M.psd:98dcdfa8ee3427a40a8e57a4634c33d8","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":2},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1},{"id":330,"name":"효과 생성 시각 효과","value":0},{"id":331,"name":"효과 지속 시각 효과","value":0}],"races":[],"race":"","classes":[],"art":"art/TRL_407.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-060_M.psd:98dcdfa8ee3427a40a8e57a4634c33d8","goldenMaterial":"TRL_407_PremiumCard.mat:7472cf2609d576b4d875dfc8cf99c8da","goldenAnimation":"TRL_407_PremiumCard.asset:d38e997799958294da292568b902d932"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-060_M.psd:98dcdfa8ee3427a40a8e57a4634c33d8",
+        "goldenMaterial": "TRL_407_PremiumCard.mat:7472cf2609d576b4d875dfc8cf99c8da",
+        "goldenAnimation": "TRL_407_PremiumCard.asset:d38e997799958294da292568b902d932"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-060_M.psd:98dcdfa8ee3427a40a8e57a4634c33d8",
+      "goldenMaterial": "TRL_407_PremiumCard.mat:7472cf2609d576b4d875dfc8cf99c8da",
+      "goldenAnimation": "TRL_407_PremiumCard.asset:d38e997799958294da292568b902d932"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Wassergoblin"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Waterboy"
+          },
+          "esES": {
+            "present": true,
+            "value": "Aguador"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Aguatero"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Vendeur d’eau"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Goblin Vendiacqua"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "給水係"
+          },
+          "koKR": {
+            "present": true,
+            "value": "물통 담당"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Wodzianek"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Moleque da Água"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Водонос"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เด็กขายน้ำ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "茶水小弟"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "茶水小弟"
+          }
+        },
+        "textContent": "\n\t\t\tWassergoblin\n\t\t\tWaterboy\n\t\t\tAguador\n\t\t\tAguatero\n\t\t\tVendeur d’eau\n\t\t\tGoblin Vendiacqua\n\t\t\t給水係\n\t\t\t물통 담당\n\t\t\tWodzianek\n\t\t\tMoleque da Água\n\t\t\tВодонос\n\t\t\tเด็กขายน้ำ\n\t\t\t茶水小弟\n\t\t\t茶水小弟\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Kampfschrei:</b> Eure nächste Heldenfähigkeit in diesem Zug kostet (0)."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Battlecry:</b> Your next Hero Power this turn costs (0)."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Grito de batalla:</b>\nLa próxima vez que uses\ntu poder de héroe este turno,\ncostará (0) cristales."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> tu próximo Poder de héroe en este turno cuesta (0)."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> votre prochain pouvoir héroïque pendant ce tour coûte (0)_cristal."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b> il tuo\nprossimo Potere Eroe in\nquesto turno costa (0)."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>雄叫び:</b>\nこのターン中に自分が次に\n使用するヒーローパワーの\n_コストを（0）にする。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]<b>전투의 함성:</b> 이번 턴의\n내 다음 영웅 능력의\n비용이 (0)이 됩니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b>\nTwoja następna moc specjalna w_tej turze kosztuje (0)."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b> Seu próximo Poder Heroico neste turno \ncusta (0)."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> ваша следующая сила героя __на_этом_ходу_стоит_(0)."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b> พลังฮีโร่[b]ครั้งถัดไปของคุณในเทิร์นนี้[b]มีค่าร่ายเป็น_(0)"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>\n在本回合中，你的下一个英雄技能的法力值消耗为（0）点。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>戰吼：</b>本回合\n你的下一個英雄能力消耗為(0)"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Kampfschrei:</b> Eure nächste Heldenfähigkeit in diesem Zug kostet (0).\n\t\t\t<b>Battlecry:</b> Your next Hero Power this turn costs (0).\n\t\t\t[x]<b>Grito de batalla:</b>\nLa próxima vez que uses\ntu poder de héroe este turno,\ncostará (0) cristales.\n\t\t\t<b>Grito de batalla:</b> tu próximo Poder de héroe en este turno cuesta (0).\n\t\t\t<b>Cri de guerre :</b> votre prochain pouvoir héroïque pendant ce tour coûte (0)_cristal.\n\t\t\t[x]<b>Grido di Battaglia:</b> il tuo\nprossimo Potere Eroe in\nquesto turno costa (0).\n\t\t\t[x]<b>雄叫び:</b>\nこのターン中に自分が次に\n使用するヒーローパワーの\n_コストを（0）にする。\n\t\t\t[x]<b>전투의 함성:</b> 이번 턴의\n내 다음 영웅 능력의\n비용이 (0)이 됩니다.\n\t\t\t<b>Okrzyk bojowy:</b>\nTwoja następna moc specjalna w_tej turze kosztuje (0).\n\t\t\t<b>Grito de Guerra:</b> Seu próximo Poder Heroico neste turno \ncusta (0).\n\t\t\t<b>Боевой клич:</b> ваша следующая сила героя __на_этом_ходу_стоит_(0).\n\t\t\t<b>คำรามสู้ศึก:</b> พลังฮีโร่[b]ครั้งถัดไปของคุณในเทิร์นนี้[b]มีค่าร่ายเป็น_(0)\n\t\t\t<b>战吼：</b>\n在本回合中，你的下一个英雄技能的法力值消耗为（0）点。\n\t\t\t<b>戰吼：</b>本回合\n你的下一個英雄能力消耗為(0)\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "100 % Bio-Trollschweiß, von glücklichen Freilandtrollen aus der Region."
+          },
+          "enUS": {
+            "present": true,
+            "value": "100% organic troll sweat."
+          },
+          "esES": {
+            "present": true,
+            "value": "¿Y si no es agua? ¿Y si te está troleando?"
+          },
+          "esMX": {
+            "present": true,
+            "value": "100% sudor de trol orgánico."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Composée à 100% de sueur de Troll bio."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Sudore di troll 100% biologico."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "100%オーガニックのトロルの汗。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "성분: 트롤의 땀 100%"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Tak naprawdę to nie woda, lecz w 100% organiczny pot trolli, prosto ze źródła."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Suor de troll 100% orgânico."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Как продать пот тролля? Напишите на бутылке «крафтовый», «органический» и «100% натуральный»."
+          },
+          "thTH": {
+            "present": true,
+            "value": "เหงื่อโทรลล์ออร์แกนิค 100%"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "100%纯正有机的巨魔汗水。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "100%有機食人妖汗水。"
+          }
+        },
+        "textContent": "\n\t\t\t100 % Bio-Trollschweiß, von glücklichen Freilandtrollen aus der Region.\n\t\t\t100% organic troll sweat.\n\t\t\t¿Y si no es agua? ¿Y si te está troleando?\n\t\t\t100% sudor de trol orgánico.\n\t\t\tComposée à 100% de sueur de Troll bio.\n\t\t\tSudore di troll 100% biologico.\n\t\t\t100%オーガニックのトロルの汗。\n\t\t\t성분: 트롤의 땀 100%\n\t\t\tTak naprawdę to nie woda, lecz w 100% organiczny pot trolli, prosto ze źródła.\n\t\t\tSuor de troll 100% orgânico.\n\t\t\tКак продать пот тролля? Напишите на бутылке «крафтовый», «органический» и «100% натуральный».\n\t\t\tเหงื่อโทรลล์ออร์แกนิค 100%\n\t\t\t100%纯正有机的巨魔汗水。\n\t\t\t100%有機食人妖汗水。\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Ekaterina Shapovalova"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Wassergoblin"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Waterboy"
+          },
+          "esES": {
+            "present": true,
+            "value": "Aguador"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Aguatero"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Vendeur d’eau"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Goblin Vendiacqua"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "給水係"
+          },
+          "koKR": {
+            "present": true,
+            "value": "물통 담당"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Wodzianek"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Moleque da Água"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Водонос"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เด็กขายน้ำ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "茶水小弟"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "茶水小弟"
+          }
+        },
+        "textContent": "\n\t\tWassergoblin\n\t\tWaterboy\n\t\tAguador\n\t\tAguatero\n\t\tVendeur d’eau\n\t\tGoblin Vendiacqua\n\t\t給水係\n\t\t물통 담당\n\t\tWodzianek\n\t\tMoleque da Água\n\t\tВодонос\n\t\tเด็กขายน้ำ\n\t\t茶水小弟\n\t\t茶水小弟\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Kampfschrei:</b> Eure nächste Heldenfähigkeit in diesem Zug kostet (0)."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Battlecry:</b> Your next Hero Power this turn costs (0)."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Grito de batalla:</b>\nLa próxima vez que uses\ntu poder de héroe este turno,\ncostará (0) cristales."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> tu próximo Poder de héroe en este turno cuesta (0)."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> votre prochain pouvoir héroïque pendant ce tour coûte (0)_cristal."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b> il tuo\nprossimo Potere Eroe in\nquesto turno costa (0)."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>雄叫び:</b>\nこのターン中に自分が次に\n使用するヒーローパワーの\n_コストを（0）にする。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]<b>전투의 함성:</b> 이번 턴의\n내 다음 영웅 능력의\n비용이 (0)이 됩니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b>\nTwoja następna moc specjalna w_tej turze kosztuje (0)."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b> Seu próximo Poder Heroico neste turno \ncusta (0)."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> ваша следующая сила героя __на_этом_ходу_стоит_(0)."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b> พลังฮีโร่[b]ครั้งถัดไปของคุณในเทิร์นนี้[b]มีค่าร่ายเป็น_(0)"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>\n在本回合中，你的下一个英雄技能的法力值消耗为（0）点。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>戰吼：</b>本回合\n你的下一個英雄能力消耗為(0)"
+          }
+        },
+        "textContent": "\n\t\t<b>Kampfschrei:</b> Eure nächste Heldenfähigkeit in diesem Zug kostet (0).\n\t\t<b>Battlecry:</b> Your next Hero Power this turn costs (0).\n\t\t[x]<b>Grito de batalla:</b>\nLa próxima vez que uses\ntu poder de héroe este turno,\ncostará (0) cristales.\n\t\t<b>Grito de batalla:</b> tu próximo Poder de héroe en este turno cuesta (0).\n\t\t<b>Cri de guerre :</b> votre prochain pouvoir héroïque pendant ce tour coûte (0)_cristal.\n\t\t[x]<b>Grido di Battaglia:</b> il tuo\nprossimo Potere Eroe in\nquesto turno costa (0).\n\t\t[x]<b>雄叫び:</b>\nこのターン中に自分が次に\n使用するヒーローパワーの\n_コストを（0）にする。\n\t\t[x]<b>전투의 함성:</b> 이번 턴의\n내 다음 영웅 능력의\n비용이 (0)이 됩니다.\n\t\t<b>Okrzyk bojowy:</b>\nTwoja następna moc specjalna w_tej turze kosztuje (0).\n\t\t<b>Grito de Guerra:</b> Seu próximo Poder Heroico neste turno \ncusta (0).\n\t\t<b>Боевой клич:</b> ваша следующая сила героя __на_этом_ходу_стоит_(0).\n\t\t<b>คำรามสู้ศึก:</b> พลังฮีโร่[b]ครั้งถัดไปของคุณในเทิร์นนี้[b]มีค่าร่ายเป็น_(0)\n\t\t<b>战吼：</b>\n在本回合中，你的下一个英雄技能的法力值消耗为（0）点。\n\t\t<b>戰吼：</b>本回合\n你的下一個英雄能力消耗為(0)\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "100 % Bio-Trollschweiß, von glücklichen Freilandtrollen aus der Region."
+          },
+          "enUS": {
+            "present": true,
+            "value": "100% organic troll sweat."
+          },
+          "esES": {
+            "present": true,
+            "value": "¿Y si no es agua? ¿Y si te está troleando?"
+          },
+          "esMX": {
+            "present": true,
+            "value": "100% sudor de trol orgánico."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Composée à 100% de sueur de Troll bio."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Sudore di troll 100% biologico."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "100%オーガニックのトロルの汗。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "성분: 트롤의 땀 100%"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Tak naprawdę to nie woda, lecz w 100% organiczny pot trolli, prosto ze źródła."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Suor de troll 100% orgânico."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Как продать пот тролля? Напишите на бутылке «крафтовый», «органический» и «100% натуральный»."
+          },
+          "thTH": {
+            "present": true,
+            "value": "เหงื่อโทรลล์ออร์แกนิค 100%"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "100%纯正有机的巨魔汗水。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "100%有機食人妖汗水。"
+          }
+        },
+        "textContent": "\n\t\t100 % Bio-Trollschweiß, von glücklichen Freilandtrollen aus der Region.\n\t\t100% organic troll sweat.\n\t\t¿Y si no es agua? ¿Y si te está troleando?\n\t\t100% sudor de trol orgánico.\n\t\tComposée à 100% de sueur de Troll bio.\n\t\tSudore di troll 100% biologico.\n\t\t100%オーガニックのトロルの汗。\n\t\t성분: 트롤의 땀 100%\n\t\tTak naprawdę to nie woda, lecz w 100% organiczny pot trolli, prosto ze źródła.\n\t\tSuor de troll 100% orgânico.\n\t\tКак продать пот тролля? Напишите на бутылке «крафтовый», «органический» и «100% натуральный».\n\t\tเหงื่อโทรลล์ออร์แกนิค 100%\n\t\t100%纯正有机的巨魔汗水。\n\t\t100%有機食人妖汗水。\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Ekaterina Shapovalova"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "물통 담당",
+      "enUS": "Waterboy"
+    },
+    "currentPrintedText": {
+      "koKR": "물통 담당",
+      "enUS": "Waterboy"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_407",
+    "dbfId": 50497,
+    "name": "물통 담당",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>전투의 함성:</b> 이번 턴의<br></br>내 다음 영웅 능력의<br></br>비용이 (0)이 됩니다.",
+    "attack": 2,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "성분: 트롤의 땀 100%",
+    "spellSchool": "",
+    "portrait": "HS15-060_M.psd:98dcdfa8ee3427a40a8e57a4634c33d8",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_407.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_407",
+    "dbfId": 50497,
+    "name": "물통 담당",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>전투의 함성:</b> 이번 턴의<br></br>내 다음 영웅 능력의<br></br>비용이 (0)이 됩니다.",
+    "attack": 2,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "성분: 트롤의 땀 100%",
+    "spellSchool": "",
+    "portrait": "HS15-060_M.psd:98dcdfa8ee3427a40a8e57a4634c33d8",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_407.png"
+  }
+}

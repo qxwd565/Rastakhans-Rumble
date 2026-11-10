@@ -1,1 +1,893 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_537","dbfId":50443,"name":"언더테이카","type":"MINION","cardClass":"NEUTRAL","rarity":"LEGENDARY","collectible":true,"cost":8,"text":"<b>전투의 함성:</b> 이번 게임에서 죽은 무작위 아군 하수인 셋의 <b>죽음의 메아리</b> 능력을 얻습니다.","attack":8,"health":5,"durability":0,"armor":0,"flavor":"첫 번째 죽음의 메아리: 카드를 뽑습니다. 두 번째 죽음의 메아리: 카드를 2장 뽑습니다. 세 번째 죽음의 메아리: 16피트 높이의 철장에서 몬카인드를 아나운서의 탁자까지 던집니다.","spellSchool":"","portrait":"HS15-079_M.psd:ac440ae51f8973541b43e83755d9b235","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":5},{"id":47,"name":"공격력","value":8},{"id":48,"name":"마나 비용","value":8},{"id":114,"name":"전설 속성","value":1},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":11},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":5},{"id":217,"name":"죽음의 메아리","value":1},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["UNDEAD"],"race":"언데드","classes":[],"art":"art/TRL_537.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-079_M.psd:ac440ae51f8973541b43e83755d9b235","goldenMaterial":"TRL_537_PremiumCard.mat:ac572933ad6979a4eb5cc185aa095de7","goldenAnimation":"TRL_537_PremiumCard.asset:8ae2577674d411e40bfe696099ed0534"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-079_M.psd:ac440ae51f8973541b43e83755d9b235",
+        "goldenMaterial": "TRL_537_PremiumCard.mat:ac572933ad6979a4eb5cc185aa095de7",
+        "goldenAnimation": "TRL_537_PremiumCard.asset:8ae2577674d411e40bfe696099ed0534"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-079_M.psd:ac440ae51f8973541b43e83755d9b235",
+      "goldenMaterial": "TRL_537_PremiumCard.mat:ac572933ad6979a4eb5cc185aa095de7",
+      "goldenAnimation": "TRL_537_PremiumCard.asset:8ae2577674d411e40bfe696099ed0534"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "8",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "8",
+        "type": "Int"
+      },
+      "114": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {
+      "217": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "8",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "8",
+        "type": "Int"
+      },
+      "114": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "11",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {
+      "217": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Der Tot'ngräbah"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Da Undatakah"
+          },
+          "esES": {
+            "present": true,
+            "value": "El Enterraóh"
+          },
+          "esMX": {
+            "present": true,
+            "value": "El Enterrador"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Le Fossoyeur"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Lo Schiattamorti"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ダ・アンダテイカ"
+          },
+          "koKR": {
+            "present": true,
+            "value": "언더테이카"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Trupiciel"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "O Cava-covas"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Гробовщик"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ดา อันดาทากาห์"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "送葬者安德提卡"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "送葬者"
+          }
+        },
+        "textContent": "\n\t\t\tDer Tot'ngräbah\n\t\t\tDa Undatakah\n\t\t\tEl Enterraóh\n\t\t\tEl Enterrador\n\t\t\tLe Fossoyeur\n\t\t\tLo Schiattamorti\n\t\t\tダ・アンダテイカ\n\t\t\t언더테이카\n\t\t\tTrupiciel\n\t\t\tO Cava-covas\n\t\t\tГробовщик\n\t\t\tดา อันดาทากาห์\n\t\t\t送葬者安德提卡\n\t\t\t送葬者\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Kampfschrei:</b> Erhält die <b>Todesröcheln</b>-Effekte von 3_befreundeten Dienern, die in [x]diesem Spiel gestorben sind."
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]<b>Battlecry:</b> Gain the\n<b>Deathrattle</b> effects of\n3 friendly minions that\ndied this game."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> Obtiene\nlos efectos de <b>Último aliento</b> de 3 esbirros amistosos que hayan muerto en esta partida."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> obtiene los <b>Estertores</b> de 3 esbirros aliados que hayan muerto durante esta partida."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> gagne le <b>Râle d’agonie</b> de 3_serviteurs alliés morts pendant cette partie."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b>\nottiene i <b>Rantoli di Morte</b>\ndi tre tuoi servitori morti\nin questa partita."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>雄叫び:</b>\nこの対戦で死亡した\n味方のミニオン3体の\n_____<b>断末魔</b>を獲得する。_"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>전투의 함성:</b> 이번 게임에서 죽은 무작위 아군 하수인 셋의 <b>죽음의_메아리</b> 능력을 얻습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b> Otrzymuje <b>Agonie</b> 3 przyjaznych stronników, którzy zginęli w tej grze."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b> Receba os efeitos de <b>Último Suspiro</b> de 3 lacaios aliados mortos nesta partida."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> получает эффекты <b>«Предсмертных хрипов»</b> 3_ваших существ, погибших в_этом матче."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b> ได้รับ <b>เสียงสุดท้าย</b>_ของมินเนี่ยน[b]_ฝ่ายคุณ_3_ตัวที่ตายในเกมนี้_"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>获得本局对战中三个死亡的友方随从的<b>亡语</b>。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>戰吼：</b>獲得本賽局中死亡的3個友方手下的<b>死亡之聲</b>效果"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Kampfschrei:</b> Erhält die <b>Todesröcheln</b>-Effekte von 3_befreundeten Dienern, die in [x]diesem Spiel gestorben sind.\n\t\t\t[x]<b>Battlecry:</b> Gain the\n<b>Deathrattle</b> effects of\n3 friendly minions that\ndied this game.\n\t\t\t<b>Grito de batalla:</b> Obtiene\nlos efectos de <b>Último aliento</b> de 3 esbirros amistosos que hayan muerto en esta partida.\n\t\t\t<b>Grito de batalla:</b> obtiene los <b>Estertores</b> de 3 esbirros aliados que hayan muerto durante esta partida.\n\t\t\t<b>Cri de guerre :</b> gagne le <b>Râle d’agonie</b> de 3_serviteurs alliés morts pendant cette partie.\n\t\t\t[x]<b>Grido di Battaglia:</b>\nottiene i <b>Rantoli di Morte</b>\ndi tre tuoi servitori morti\nin questa partita.\n\t\t\t[x]<b>雄叫び:</b>\nこの対戦で死亡した\n味方のミニオン3体の\n_____<b>断末魔</b>を獲得する。_\n\t\t\t<b>전투의 함성:</b> 이번 게임에서 죽은 무작위 아군 하수인 셋의 <b>죽음의_메아리</b> 능력을 얻습니다.\n\t\t\t<b>Okrzyk bojowy:</b> Otrzymuje <b>Agonie</b> 3 przyjaznych stronników, którzy zginęli w tej grze.\n\t\t\t<b>Grito de Guerra:</b> Receba os efeitos de <b>Último Suspiro</b> de 3 lacaios aliados mortos nesta partida.\n\t\t\t<b>Боевой клич:</b> получает эффекты <b>«Предсмертных хрипов»</b> 3_ваших существ, погибших в_этом матче.\n\t\t\t<b>คำรามสู้ศึก:</b> ได้รับ <b>เสียงสุดท้าย</b>_ของมินเนี่ยน[b]_ฝ่ายคุณ_3_ตัวที่ตายในเกมนี้_\n\t\t\t<b>战吼：</b>获得本局对战中三个死亡的友方随从的<b>亡语</b>。\n\t\t\t<b>戰吼：</b>獲得本賽局中死亡的3個友方手下的<b>死亡之聲</b>效果\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Vergessen wir die Kranken[d]geschichte und kommen wir gleich zu den nächsten Angehörigen."
+          },
+          "enUS": {
+            "present": true,
+            "value": "First Deathrattle: Draw a card.\nSecond: Draw 2 cards.\nThird: Throw Mon'kind off a steel cage and plummet sixteen feet through an announcer’s table."
+          },
+          "esES": {
+            "present": true,
+            "value": "Él te entierra, lo de estar muerto es opcional."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Nunca digas a qué te dedicas en la primera cita."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Il va vous enterrer profond !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Per quando si vuole intascare due volte l'assicurazione sulla vita."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "第一の断末魔: カードを1枚引く。\n第二の断末魔: カードを2枚引く。\n第三の断末魔: ヤーマンカインドをケージの天井から16フィート下の実況テーブルに叩き落す。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "첫 번째 죽음의 메아리: 카드를 뽑습니다.\n두 번째 죽음의 메아리: 카드를 2장 뽑습니다.\n세 번째 죽음의 메아리: 16피트 높이의 철장에서 몬카인드를 아나운서의 탁자까지 던집니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Jak cię łupnie, to cię trupnie."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Em tempos de mortandade, ele sempre contrata uma escavadeira."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Точнее, получает эффекты предсмертных «ой-ей-ешенек»."
+          },
+          "thTH": {
+            "present": true,
+            "value": "เสียงสุดท้ายแรก: จั่วการ์ดหนึ่งใบ สอง: จั่วการ์ด 2 ใบ สาม: โยนมอนไคนด์ลงมาจากกรงเหล็กสูงเกือบห้าเมตร[b]จนหัวทิ่มปักโต๊ะผู้บรรยาย"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "亡语一：抽一张牌。亡语二：抽两张牌。亡语三：将对手扔下五米高的铁笼，直接击穿播报员的桌子。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "噢！送葬者使出了石碑落下！對手的<b>死亡之聲</b>喊得可大聲了！"
+          }
+        },
+        "textContent": "\n\t\t\tVergessen wir die Kranken[d]geschichte und kommen wir gleich zu den nächsten Angehörigen.\n\t\t\tFirst Deathrattle: Draw a card.\nSecond: Draw 2 cards.\nThird: Throw Mon'kind off a steel cage and plummet sixteen feet through an announcer’s table.\n\t\t\tÉl te entierra, lo de estar muerto es opcional.\n\t\t\tNunca digas a qué te dedicas en la primera cita.\n\t\t\tIl va vous enterrer profond !\n\t\t\tPer quando si vuole intascare due volte l'assicurazione sulla vita.\n\t\t\t第一の断末魔: カードを1枚引く。\n第二の断末魔: カードを2枚引く。\n第三の断末魔: ヤーマンカインドをケージの天井から16フィート下の実況テーブルに叩き落す。\n\t\t\t첫 번째 죽음의 메아리: 카드를 뽑습니다.\n두 번째 죽음의 메아리: 카드를 2장 뽑습니다.\n세 번째 죽음의 메아리: 16피트 높이의 철장에서 몬카인드를 아나운서의 탁자까지 던집니다.\n\t\t\tJak cię łupnie, to cię trupnie.\n\t\t\tEm tempos de mortandade, ele sempre contrata uma escavadeira.\n\t\t\tТочнее, получает эффекты предсмертных «ой-ей-ешенек».\n\t\t\tเสียงสุดท้ายแรก: จั่วการ์ดหนึ่งใบ สอง: จั่วการ์ด 2 ใบ สาม: โยนมอนไคนด์ลงมาจากกรงเหล็กสูงเกือบห้าเมตร[b]จนหัวทิ่มปักโต๊ะผู้บรรยาย\n\t\t\t亡语一：抽一张牌。亡语二：抽两张牌。亡语三：将对手扔下五米高的铁笼，直接击穿播报员的桌子。\n\t\t\t噢！送葬者使出了石碑落下！對手的<b>死亡之聲</b>喊得可大聲了！\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Clint Langley"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Der Tot’ngräbah"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Da Undatakah"
+          },
+          "esES": {
+            "present": true,
+            "value": "El Enterraóh"
+          },
+          "esMX": {
+            "present": true,
+            "value": "El Enterrador"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Le Fossoyeur"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Lo Schiattamorti"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ダ・アンダテイカ"
+          },
+          "koKR": {
+            "present": true,
+            "value": "언더테이카"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Trupiciel"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "O Cava-covas"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Гробовщик"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ดา อันดาทากาห์"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "送葬者安德提卡"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "送葬者"
+          }
+        },
+        "textContent": "\n\t\tDer Tot’ngräbah\n\t\tDa Undatakah\n\t\tEl Enterraóh\n\t\tEl Enterrador\n\t\tLe Fossoyeur\n\t\tLo Schiattamorti\n\t\tダ・アンダテイカ\n\t\t언더테이카\n\t\tTrupiciel\n\t\tO Cava-covas\n\t\tГробовщик\n\t\tดา อันดาทากาห์\n\t\t送葬者安德提卡\n\t\t送葬者\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Kampfschrei:</b> Erhält die <b>Todesröcheln</b>-Effekte von 3_befreundeten Dienern, die in [x]diesem Spiel gestorben sind."
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]<b>Battlecry:</b> Gain the\n<b>Deathrattle</b> effects of\n3 friendly minions that\ndied this game."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> Obtiene\nlos efectos de <b>Último aliento</b> de 3 esbirros amistosos que hayan muerto en esta partida."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> obtiene los <b>Estertores</b> de 3 esbirros aliados que hayan muerto durante esta partida."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> gagne le <b>Râle d’agonie</b> de 3_serviteurs alliés morts pendant cette partie."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b>\nottiene i <b>Rantoli di Morte</b>\ndi tre tuoi servitori morti\nin questa partita."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>雄叫び:</b>\nこの対戦で死亡した\n味方のミニオン3体の\n_____<b>断末魔</b>を獲得する。_"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>전투의 함성:</b> 이번 게임에서 죽은 무작위 아군 하수인 셋의 <b>죽음의_메아리</b> 능력을 얻습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b> Otrzymuje <b>Agonie</b> 3 przyjaznych stronników, którzy zginęli w tej grze."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b> Receba os efeitos de <b>Último Suspiro</b> de 3 lacaios aliados mortos nesta partida."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> получает эффекты <b>«Предсмертных хрипов»</b> 3_ваших существ, погибших в_этом матче."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b> ได้รับ <b>เสียงสุดท้าย</b>_ของมินเนี่ยน[b]_ฝ่ายคุณ_3_ตัวที่ตายในเกมนี้_"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>获得在本局对战中三个死亡的友方随从的<b>亡语</b>。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>戰吼：</b>獲得本賽局中死亡的3個友方手下的<b>死亡之聲</b>效果"
+          }
+        },
+        "textContent": "\n\t\t<b>Kampfschrei:</b> Erhält die <b>Todesröcheln</b>-Effekte von 3_befreundeten Dienern, die in [x]diesem Spiel gestorben sind.\n\t\t[x]<b>Battlecry:</b> Gain the\n<b>Deathrattle</b> effects of\n3 friendly minions that\ndied this game.\n\t\t<b>Grito de batalla:</b> Obtiene\nlos efectos de <b>Último aliento</b> de 3 esbirros amistosos que hayan muerto en esta partida.\n\t\t<b>Grito de batalla:</b> obtiene los <b>Estertores</b> de 3 esbirros aliados que hayan muerto durante esta partida.\n\t\t<b>Cri de guerre :</b> gagne le <b>Râle d’agonie</b> de 3_serviteurs alliés morts pendant cette partie.\n\t\t[x]<b>Grido di Battaglia:</b>\nottiene i <b>Rantoli di Morte</b>\ndi tre tuoi servitori morti\nin questa partita.\n\t\t[x]<b>雄叫び:</b>\nこの対戦で死亡した\n味方のミニオン3体の\n_____<b>断末魔</b>を獲得する。_\n\t\t<b>전투의 함성:</b> 이번 게임에서 죽은 무작위 아군 하수인 셋의 <b>죽음의_메아리</b> 능력을 얻습니다.\n\t\t<b>Okrzyk bojowy:</b> Otrzymuje <b>Agonie</b> 3 przyjaznych stronników, którzy zginęli w tej grze.\n\t\t<b>Grito de Guerra:</b> Receba os efeitos de <b>Último Suspiro</b> de 3 lacaios aliados mortos nesta partida.\n\t\t<b>Боевой клич:</b> получает эффекты <b>«Предсмертных хрипов»</b> 3_ваших существ, погибших в_этом матче.\n\t\t<b>คำรามสู้ศึก:</b> ได้รับ <b>เสียงสุดท้าย</b>_ของมินเนี่ยน[b]_ฝ่ายคุณ_3_ตัวที่ตายในเกมนี้_\n\t\t<b>战吼：</b>获得在本局对战中三个死亡的友方随从的<b>亡语</b>。\n\t\t<b>戰吼：</b>獲得本賽局中死亡的3個友方手下的<b>死亡之聲</b>效果\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Vergessen wir die Kranken[d]geschichte und kommen wir gleich zu den nächsten Angehörigen."
+          },
+          "enUS": {
+            "present": true,
+            "value": "First Deathrattle: Draw a card.\nSecond: Draw 2 cards.\nThird: Throw Mon'kind off a steel cage and plummet sixteen feet through an announcer’s table."
+          },
+          "esES": {
+            "present": true,
+            "value": "Él te entierra, lo de estar muerto es opcional."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Nunca digas a qué te dedicas en la primera cita."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Il va vous enterrer profond !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Per quando si vuole intascare due volte l'assicurazione sulla vita."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "第一の断末魔: カードを1枚引く。\n第二の断末魔: カードを2枚引く。\n第三の断末魔: ヤーマンカインドをケージの天井から16フィート下の実況テーブルに叩き落す。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "첫 번째 죽음의 메아리: 카드를 뽑습니다.\n두 번째 죽음의 메아리: 카드를 2장 뽑습니다.\n세 번째 죽음의 메아리: 16피트 높이의 철장에서 몬카인드를 아나운서의 탁자까지 던집니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Jak cię łupnie, to cię trupnie."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Em tempos de mortandade, ele sempre contrata uma escavadeira."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Точнее, получает эффекты предсмертных «ой-ей-ешенек»."
+          },
+          "thTH": {
+            "present": true,
+            "value": "เสียงสุดท้ายแรก: จั่วการ์ดหนึ่งใบ สอง: จั่วการ์ด 2 ใบ สาม: โยนมอนไคนด์ลงมาจากกรงเหล็กสูงเกือบห้าเมตร[b]จนหัวทิ่มปักโต๊ะผู้บรรยาย"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "亡语一：抽一张牌。亡语二：抽两张牌。亡语三：将对手扔下五米高的铁笼，直接击穿播报员的桌子。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "噢！送葬者使出了石碑落下！對手的<b>死亡之聲</b>喊得可大聲了！"
+          }
+        },
+        "textContent": "\n\t\tVergessen wir die Kranken[d]geschichte und kommen wir gleich zu den nächsten Angehörigen.\n\t\tFirst Deathrattle: Draw a card.\nSecond: Draw 2 cards.\nThird: Throw Mon'kind off a steel cage and plummet sixteen feet through an announcer’s table.\n\t\tÉl te entierra, lo de estar muerto es opcional.\n\t\tNunca digas a qué te dedicas en la primera cita.\n\t\tIl va vous enterrer profond !\n\t\tPer quando si vuole intascare due volte l'assicurazione sulla vita.\n\t\t第一の断末魔: カードを1枚引く。\n第二の断末魔: カードを2枚引く。\n第三の断末魔: ヤーマンカインドをケージの天井から16フィート下の実況テーブルに叩き落す。\n\t\t첫 번째 죽음의 메아리: 카드를 뽑습니다.\n두 번째 죽음의 메아리: 카드를 2장 뽑습니다.\n세 번째 죽음의 메아리: 16피트 높이의 철장에서 몬카인드를 아나운서의 탁자까지 던집니다.\n\t\tJak cię łupnie, to cię trupnie.\n\t\tEm tempos de mortandade, ele sempre contrata uma escavadeira.\n\t\tТочнее, получает эффекты предсмертных «ой-ей-ешенек».\n\t\tเสียงสุดท้ายแรก: จั่วการ์ดหนึ่งใบ สอง: จั่วการ์ด 2 ใบ สาม: โยนมอนไคนด์ลงมาจากกรงเหล็กสูงเกือบห้าเมตร[b]จนหัวทิ่มปักโต๊ะผู้บรรยาย\n\t\t亡语一：抽一张牌。亡语二：抽两张牌。亡语三：将对手扔下五米高的铁笼，直接击穿播报员的桌子。\n\t\t噢！送葬者使出了石碑落下！對手的<b>死亡之聲</b>喊得可大聲了！\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Clint Langley"
+      }
+    },
+    "undatedRawTagTransitions": [
+      {
+        "build": 158725,
+        "id": "TRL_537",
+        "dbfId": 50443,
+        "name": "언더테이카",
+        "rawDiff": {
+          "200": [
+            "ABSENT",
+            "11"
+          ]
+        },
+        "tagNames": {
+          "200": "CARDRACE"
+        },
+        "decision": "gameplay_tribe_change",
+        "relatedFindings": [
+          "RAST-BAL-E036"
+        ],
+        "note": "주 종족과 보조 종족 모두 판정. 기존 또는 누락 날짜 사건에 연결.",
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
+      }
+    ],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "언더테이카",
+      "enUS": "Da Undatakah"
+    },
+    "currentPrintedText": {
+      "koKR": "언더테이카",
+      "enUS": "Da Undatakah"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_537",
+    "dbfId": 50443,
+    "name": "언더테이카",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 8,
+    "text": "<b>전투의 함성:</b> 이번 게임에서 죽은 무작위 아군 하수인 셋의 <b>죽음의 메아리</b> 능력을 얻습니다.",
+    "attack": 8,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "첫 번째 죽음의 메아리: 카드를 뽑습니다. 두 번째 죽음의 메아리: 카드를 2장 뽑습니다. 세 번째 죽음의 메아리: 16피트 높이의 철장에서 몬카인드를 아나운서의 탁자까지 던집니다.",
+    "spellSchool": "",
+    "portrait": "HS15-079_M.psd:ac440ae51f8973541b43e83755d9b235",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 8
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/TRL_537.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_537",
+    "dbfId": 50443,
+    "name": "언더테이카",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 8,
+    "text": "<b>전투의 함성:</b> 이번 게임에서 죽은 무작위 아군 하수인 셋의 <b>죽음의 메아리</b> 능력을 얻습니다.",
+    "attack": 8,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "첫 번째 죽음의 메아리: 카드를 뽑습니다. 두 번째 죽음의 메아리: 카드를 2장 뽑습니다. 세 번째 죽음의 메아리: 16피트 높이의 철장에서 몬카인드를 아나운서의 탁자까지 던집니다.",
+    "spellSchool": "",
+    "portrait": "HS15-079_M.psd:ac440ae51f8973541b43e83755d9b235",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 8
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_537.png"
+  },
+  "2022-11-30": {
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 8
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ]
+  }
+}

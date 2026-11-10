@@ -1,1 +1,773 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_057","dbfId":49800,"name":"뱀의 수호물","type":"MINION","cardClass":"NEUTRAL","rarity":"RARE","collectible":true,"cost":2,"text":"내 턴이 끝날 때,<br></br>적 영웅에게 피해를<br></br>2 줍니다.","attack":0,"health":2,"durability":0,"armor":0,"flavor":"가끔은 뱀들도 수호받고 싶어 합니다.","spellSchool":"","portrait":"HS15-074_M.psd:77713487621233f498937f87f42bcaeb","set":"TROLL","nativeTags":[{"id":32,"name":"발동 효과 표시","value":1},{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":0},{"id":48,"name":"마나 비용","value":2},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":21},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":321,"name":"수집 가능","value":1}],"races":["TOTEM"],"race":"토템","classes":[],"art":"art/TRL_057.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-074_M.psd:77713487621233f498937f87f42bcaeb","goldenMaterial":"TRL_057_PremiumCard.mat:0be4eaa702ab82f4da5ee9e6128ab066","goldenAnimation":"TRL_057_PremiumCard.asset:c0272e52410c61a49afe47cd41ace980"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-074_M.psd:77713487621233f498937f87f42bcaeb",
+        "goldenMaterial": "TRL_057_PremiumCard.mat:0be4eaa702ab82f4da5ee9e6128ab066",
+        "goldenAnimation": "TRL_057_PremiumCard.asset:c0272e52410c61a49afe47cd41ace980"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-074_M.psd:77713487621233f498937f87f42bcaeb",
+      "goldenMaterial": "TRL_057_PremiumCard.mat:0be4eaa702ab82f4da5ee9e6128ab066",
+      "goldenAnimation": "TRL_057_PremiumCard.asset:c0272e52410c61a49afe47cd41ace980"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "32": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "21",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "32": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "21",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Schlangenzauberschutz"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Serpent Ward"
+          },
+          "esES": {
+            "present": true,
+            "value": "Resguardo serpiente"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Guardián serpiente"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Gardien serpent"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Protezione del Serpente"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ヘビの結界"
+          },
+          "koKR": {
+            "present": true,
+            "value": "뱀의 수호물"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Znak węża"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Proteção da Serpente"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Змеиный оберег"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เสาอสรพิษ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "毒蛇守卫"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "火蛇結界"
+          }
+        },
+        "textContent": "\n\t\t\tSchlangenzauberschutz\n\t\t\tSerpent Ward\n\t\t\tResguardo serpiente\n\t\t\tGuardián serpiente\n\t\t\tGardien serpent\n\t\t\tProtezione del Serpente\n\t\t\tヘビの結界\n\t\t\t뱀의 수호물\n\t\t\tZnak węża\n\t\t\tProteção da Serpente\n\t\t\tЗмеиный оберег\n\t\t\tเสาอสรพิษ\n\t\t\t毒蛇守卫\n\t\t\t火蛇結界\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Fügt dem feindlichen Helden am Ende Eures Zuges 2 Schaden zu."
+          },
+          "enUS": {
+            "present": true,
+            "value": "At the end of your turn,\ndeal 2 damage to the enemy hero."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Al final de tu turno,\ninflige 2 p. de daño\nal héroe enemigo."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Al final de tu turno,\ninflige 2 de daño\nal héroe enemigo."
+          },
+          "frFR": {
+            "present": true,
+            "value": "À la fin de votre tour, inflige 2_points de dégâts au héros adverse."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]Alla fine del tuo turno,\ninfligge 2 danni\nall'eroe nemico."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "自分のターンの終了時\n敵のヒーローに\n2ダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "내 턴이 끝날 때,\n적 영웅에게 피해를\n2 줍니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Na koniec twojej tury zadaj\n2 pkt. obrażeń wrogiemu bohaterowi."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "No final do seu turno, cause 2 de dano \nao herói inimigo."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "В конце вашего хода наносит 2_ед. урона герою противника."
+          },
+          "thTH": {
+            "present": true,
+            "value": "เมื่อจบเทิร์นของคุณ สร้างความเสียหาย_2_แต้ม[b]ให้ฮีโร่ศัตรู"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "在你的回合结束时，对敌方英雄造成2点\n伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "[x]在你的回合\n結束時，對敵方英雄\n造成2點傷害"
+          }
+        },
+        "textContent": "\n\t\t\tFügt dem feindlichen Helden am Ende Eures Zuges 2 Schaden zu.\n\t\t\tAt the end of your turn,\ndeal 2 damage to the enemy hero.\n\t\t\t[x]Al final de tu turno,\ninflige 2 p. de daño\nal héroe enemigo.\n\t\t\tAl final de tu turno,\ninflige 2 de daño\nal héroe enemigo.\n\t\t\tÀ la fin de votre tour, inflige 2_points de dégâts au héros adverse.\n\t\t\t[x]Alla fine del tuo turno,\ninfligge 2 danni\nall'eroe nemico.\n\t\t\t自分のターンの終了時\n敵のヒーローに\n2ダメージを与える。\n\t\t\t내 턴이 끝날 때,\n적 영웅에게 피해를\n2 줍니다.\n\t\t\tNa koniec twojej tury zadaj\n2 pkt. obrażeń wrogiemu bohaterowi.\n\t\t\tNo final do seu turno, cause 2 de dano \nao herói inimigo.\n\t\t\tВ конце вашего хода наносит 2_ед. урона герою противника.\n\t\t\tเมื่อจบเทิร์นของคุณ สร้างความเสียหาย_2_แต้ม[b]ให้ฮีโร่ศัตรู\n\t\t\t在你的回合结束时，对敌方英雄造成2点\n伤害。\n\t\t\t[x]在你的回合\n結束時，對敵方英雄\n造成2點傷害\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Achtung! Diese Schlangen stehen unter Naturzauberschutz!"
+          },
+          "enUS": {
+            "present": true,
+            "value": "When snakes get sick, they get sent to the Serpent Ward."
+          },
+          "esES": {
+            "present": true,
+            "value": "No tiene pelos en la lengua, se los quemó."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Si envenenan a una serpiente, ¿quién le saca el veneno?"
+          },
+          "frFR": {
+            "present": true,
+            "value": "« - Mais c’est dangereux comme serpent ?\n- Oui, le serpent, il donne la mort. »"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Alternativa molto efficace al sistema d'allarme."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "その少年が一晩中、指で穴を塞いでいたおかげで、結界が決壊して村にヘビの大群が溢れ出すのは防がれた。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "가끔은 뱀들도 수호받고 싶어 합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Wąż, który zieje ogniem. Brrr."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Aquela proteção marota pra quem não é cobra criada."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Для достижения эффекта достаточно пригреть его на груди."
+          },
+          "thTH": {
+            "present": true,
+            "value": "สามมานาดูเพลิน อะไรไม่เกินเสางู"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "有点像救护车的标志，也可以送你上救护车。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "在東方，這叫做結界‧火蛇之術"
+          }
+        },
+        "textContent": "\n\t\t\tAchtung! Diese Schlangen stehen unter Naturzauberschutz!\n\t\t\tWhen snakes get sick, they get sent to the Serpent Ward.\n\t\t\tNo tiene pelos en la lengua, se los quemó.\n\t\t\tSi envenenan a una serpiente, ¿quién le saca el veneno?\n\t\t\t« - Mais c’est dangereux comme serpent ?\n- Oui, le serpent, il donne la mort. »\n\t\t\tAlternativa molto efficace al sistema d'allarme.\n\t\t\tその少年が一晩中、指で穴を塞いでいたおかげで、結界が決壊して村にヘビの大群が溢れ出すのは防がれた。\n\t\t\t가끔은 뱀들도 수호받고 싶어 합니다.\n\t\t\tWąż, który zieje ogniem. Brrr.\n\t\t\tAquela proteção marota pra quem não é cobra criada.\n\t\t\tДля достижения эффекта достаточно пригреть его на груди.\n\t\t\tสามมานาดูเพลิน อะไรไม่เกินเสางู\n\t\t\t有点像救护车的标志，也可以送你上救护车。\n\t\t\t在東方，這叫做結界‧火蛇之術\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Cicily He"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Schlangenzauberschutz"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Serpent Ward"
+          },
+          "esES": {
+            "present": true,
+            "value": "Resguardo serpiente"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Guardián serpiente"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Gardien serpent"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Protezione del Serpente"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ヘビの結界"
+          },
+          "koKR": {
+            "present": true,
+            "value": "뱀의 수호물"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Znak węża"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Proteção da Serpente"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Змеиный оберег"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เสาอสรพิษ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "毒蛇守卫"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "火蛇結界"
+          }
+        },
+        "textContent": "\n\t\tSchlangenzauberschutz\n\t\tSerpent Ward\n\t\tResguardo serpiente\n\t\tGuardián serpiente\n\t\tGardien serpent\n\t\tProtezione del Serpente\n\t\tヘビの結界\n\t\t뱀의 수호물\n\t\tZnak węża\n\t\tProteção da Serpente\n\t\tЗмеиный оберег\n\t\tเสาอสรพิษ\n\t\t毒蛇守卫\n\t\t火蛇結界\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Fügt dem feindlichen Helden am Ende Eures Zuges 2 Schaden zu."
+          },
+          "enUS": {
+            "present": true,
+            "value": "At the end of your turn,\ndeal 2 damage to the enemy hero."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Al final de tu turno,\ninflige 2 p. de daño\nal héroe enemigo."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Al final de tu turno,\ninflige 2 de daño\nal héroe enemigo."
+          },
+          "frFR": {
+            "present": true,
+            "value": "À la fin de votre tour, inflige 2_points de dégâts au héros adverse."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]Alla fine del tuo turno,\ninfligge 2 danni\nall'eroe nemico."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "自分のターンの終了時\n敵のヒーローに\n2ダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "내 턴이 끝날 때,\n적 영웅에게 피해를\n2 줍니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Na koniec twojej tury zadaj\n2 pkt. obrażeń wrogiemu bohaterowi."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "No final do seu turno, cause 2 de dano \nao herói inimigo."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "В конце вашего хода наносит 2_ед. урона герою противника."
+          },
+          "thTH": {
+            "present": true,
+            "value": "เมื่อจบเทิร์นของคุณ สร้างความเสียหาย_2_แต้ม[b]ให้ฮีโร่ศัตรู"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "在你的回合结束时，对敌方英雄造成2点\n伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "[x]在你的回合\n結束時，對敵方英雄\n造成2點傷害"
+          }
+        },
+        "textContent": "\n\t\tFügt dem feindlichen Helden am Ende Eures Zuges 2 Schaden zu.\n\t\tAt the end of your turn,\ndeal 2 damage to the enemy hero.\n\t\t[x]Al final de tu turno,\ninflige 2 p. de daño\nal héroe enemigo.\n\t\tAl final de tu turno,\ninflige 2 de daño\nal héroe enemigo.\n\t\tÀ la fin de votre tour, inflige 2_points de dégâts au héros adverse.\n\t\t[x]Alla fine del tuo turno,\ninfligge 2 danni\nall'eroe nemico.\n\t\t自分のターンの終了時\n敵のヒーローに\n2ダメージを与える。\n\t\t내 턴이 끝날 때,\n적 영웅에게 피해를\n2 줍니다.\n\t\tNa koniec twojej tury zadaj\n2 pkt. obrażeń wrogiemu bohaterowi.\n\t\tNo final do seu turno, cause 2 de dano \nao herói inimigo.\n\t\tВ конце вашего хода наносит 2_ед. урона герою противника.\n\t\tเมื่อจบเทิร์นของคุณ สร้างความเสียหาย_2_แต้ม[b]ให้ฮีโร่ศัตรู\n\t\t在你的回合结束时，对敌方英雄造成2点\n伤害。\n\t\t[x]在你的回合\n結束時，對敵方英雄\n造成2點傷害\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Achtung! Diese Schlangen stehen unter Naturzauberschutz!"
+          },
+          "enUS": {
+            "present": true,
+            "value": "When snakes get sick, they get sent to the Serpent Ward."
+          },
+          "esES": {
+            "present": true,
+            "value": "No tiene pelos en la lengua, se los quemó."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Si envenenan a una serpiente, ¿quién le saca el veneno?"
+          },
+          "frFR": {
+            "present": true,
+            "value": "« - Mais c’est dangereux comme serpent ?\n- Oui, le serpent, il donne la mort. »"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Alternativa molto efficace al sistema d'allarme."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "その少年が一晩中、指で穴を塞いでいたおかげで、結界が決壊して村にヘビの大群が溢れ出すのは防がれた。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "가끔은 뱀들도 수호받고 싶어 합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Wąż, który zieje ogniem. Brrr."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Aquela proteção marota pra quem não é cobra criada."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Для достижения эффекта достаточно пригреть его на груди."
+          },
+          "thTH": {
+            "present": true,
+            "value": "สามมานาดูเพลิน อะไรไม่เกินเสางู"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "有点像救护车的标志，也可以送你上救护车。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "在東方，這叫做結界‧火蛇之術"
+          }
+        },
+        "textContent": "\n\t\tAchtung! Diese Schlangen stehen unter Naturzauberschutz!\n\t\tWhen snakes get sick, they get sent to the Serpent Ward.\n\t\tNo tiene pelos en la lengua, se los quemó.\n\t\tSi envenenan a una serpiente, ¿quién le saca el veneno?\n\t\t« - Mais c’est dangereux comme serpent ?\n- Oui, le serpent, il donne la mort. »\n\t\tAlternativa molto efficace al sistema d'allarme.\n\t\tその少年が一晩中、指で穴を塞いでいたおかげで、結界が決壊して村にヘビの大群が溢れ出すのは防がれた。\n\t\t가끔은 뱀들도 수호받고 싶어 합니다.\n\t\tWąż, który zieje ogniem. Brrr.\n\t\tAquela proteção marota pra quem não é cobra criada.\n\t\tДля достижения эффекта достаточно пригреть его на груди.\n\t\tสามมานาดูเพลิน อะไรไม่เกินเสางู\n\t\t有点像救护车的标志，也可以送你上救护车。\n\t\t在東方，這叫做結界‧火蛇之術\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Cicily He"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "뱀의 수호물",
+      "enUS": "Serpent Ward"
+    },
+    "currentPrintedText": {
+      "koKR": "뱀의 수호물",
+      "enUS": "Serpent Ward"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_057",
+    "dbfId": 49800,
+    "name": "뱀의 수호물",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 2,
+    "text": "내 턴이 끝날 때,<br></br>적 영웅에게 피해를<br></br>2 줍니다.",
+    "attack": 0,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "가끔은 뱀들도 수호받고 싶어 합니다.",
+    "spellSchool": "",
+    "portrait": "HS15-074_M.psd:77713487621233f498937f87f42bcaeb",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 0
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 21
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "TOTEM"
+    ],
+    "race": "토템",
+    "classes": [],
+    "art": "art/TRL_057.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_057",
+    "dbfId": 49800,
+    "name": "뱀의 수호물",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 2,
+    "text": "내 턴이 끝날 때,<br></br>적 영웅에게 피해를<br></br>2 줍니다.",
+    "attack": 0,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "가끔은 뱀들도 수호받고 싶어 합니다.",
+    "spellSchool": "",
+    "portrait": "HS15-074_M.psd:77713487621233f498937f87f42bcaeb",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 0
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 21
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "TOTEM"
+    ],
+    "race": "토템",
+    "classes": [],
+    "art": "art/TRL_057.png"
+  }
+}

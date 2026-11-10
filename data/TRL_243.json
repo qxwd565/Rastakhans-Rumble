@@ -1,1 +1,671 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_243","dbfId":49990,"name":"암습","type":"SPELL","cardClass":"DRUID","rarity":"COMMON","collectible":true,"cost":0,"text":"이번 턴에<br></br>내 영웅이 공격력을<br></br>+2 얻습니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"빈 상자 안에 뛰어 들어가려는 엄청난 충동을 가지고 있습니다.","spellSchool":"","portrait":"HS15-008_S.psd:3d20d7285dab69048a304badcdf21ed0","set":"TROLL","nativeTags":[{"id":48,"name":"마나 비용","value":0},{"id":199,"name":"직업","value":2},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/TRL_243.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-008_S.psd:3d20d7285dab69048a304badcdf21ed0","goldenMaterial":"TRL_243_PremiumCard.mat:ebacf096463827349b23794d28ee54ff","goldenAnimation":"TRL_243_PremiumCard.asset:6742458c4fb2c064783addccfa725dd2"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-008_S.psd:3d20d7285dab69048a304badcdf21ed0",
+        "goldenMaterial": "TRL_243_PremiumCard.mat:ebacf096463827349b23794d28ee54ff",
+        "goldenAnimation": "TRL_243_PremiumCard.asset:6742458c4fb2c064783addccfa725dd2"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-008_S.psd:3d20d7285dab69048a304badcdf21ed0",
+      "goldenMaterial": "TRL_243_PremiumCard.mat:ebacf096463827349b23794d28ee54ff",
+      "goldenAnimation": "TRL_243_PremiumCard.asset:6742458c4fb2c064783addccfa725dd2"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Sprungangriff"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Pounce"
+          },
+          "esES": {
+            "present": true,
+            "value": "Lanzarse"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Lanzarse"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Traquenard"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Agguato"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "飛び掛かり"
+          },
+          "koKR": {
+            "present": true,
+            "value": "암습"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Sus"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Pulo do Gato"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Наскок"
+          },
+          "thTH": {
+            "present": true,
+            "value": "กระโจน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "飞扑"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "撲襲"
+          }
+        },
+        "textContent": "\n\t\t\tSprungangriff\n\t\t\tPounce\n\t\t\tLanzarse\n\t\t\tLanzarse\n\t\t\tTraquenard\n\t\t\tAgguato\n\t\t\t飛び掛かり\n\t\t\t암습\n\t\t\tSus\n\t\t\tPulo do Gato\n\t\t\tНаскок\n\t\t\tกระโจน\n\t\t\t飞扑\n\t\t\t撲襲\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Verleiht Eurem Helden +2 Angriff in diesem Zug."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Give your hero +2_Attack this turn."
+          },
+          "esES": {
+            "present": true,
+            "value": "Otorga +2 p. de ataque\na tu héroe este turno."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Otorga +2 de Ataque a tu héroe en este turno."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Donne +2_ATQ à votre héros pendant ce tour."
+          },
+          "itIT": {
+            "present": true,
+            "value": "+2 Attacco al tuo eroe per questo turno."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]このターンの間\n自分のヒーローに\n攻撃力+2を付与する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "이번 턴에\n내 영웅이 공격력을\n+2 얻습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Daj twojemu bohaterowi +2 do ataku w_tej turze."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Conceda \n+2 de Ataque ao seu herói neste turno."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Ваш герой получает +2 к атаке до конца хода."
+          },
+          "thTH": {
+            "present": true,
+            "value": "มอบพลังโจมตี_+2_ให้[b]ฮีโร่ของคุณเฉพาะเทิร์นนี้"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "在本回合中，使你的英雄获得+2攻击力。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "本回合賦予你的英雄+2攻擊力"
+          }
+        },
+        "textContent": "\n\t\t\tVerleiht Eurem Helden +2 Angriff in diesem Zug.\n\t\t\tGive your hero +2_Attack this turn.\n\t\t\tOtorga +2 p. de ataque\na tu héroe este turno.\n\t\t\tOtorga +2 de Ataque a tu héroe en este turno.\n\t\t\tDonne +2_ATQ à votre héros pendant ce tour.\n\t\t\t+2 Attacco al tuo eroe per questo turno.\n\t\t\t[x]このターンの間\n自分のヒーローに\n攻撃力+2を付与する。\n\t\t\t이번 턴에\n내 영웅이 공격력을\n+2 얻습니다.\n\t\t\tDaj twojemu bohaterowi +2 do ataku w_tej turze.\n\t\t\tConceda \n+2 de Ataque ao seu herói neste turno.\n\t\t\tВаш герой получает +2 к атаке до конца хода.\n\t\t\tมอบพลังโจมตี_+2_ให้[b]ฮีโร่ของคุณเฉพาะเทิร์นนี้\n\t\t\t在本回合中，使你的英雄获得+2攻击力。\n\t\t\t本回合賦予你的英雄+2攻擊力\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Manchmal muss man einfach über seinen Schatten springen."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Comes with an overwhelming urge to jump into the nearest open box."
+          },
+          "esES": {
+            "present": true,
+            "value": "Creo que he visto un lindo gatito."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Tiene una necesidad incontrolable de saltar a la caja abierta más cercana."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Confère également une irrépressible envie de sauter dans le carton le plus proche."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Estremamente efficace sui topolini di pezza."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "最寄りの段ボール箱の中に飛び込みたくなる、ニャンともしがたい衝動のオマケつき。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "빈 상자 안에 뛰어 들어가려는 엄청난 충동을 가지고 있습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Wskakuje prosto do najbliższego pudełka."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "É quando dá uma vontade louca de pular dentro da caixa de papelão mais próxima."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Дарует вам рефлексы хищника, грацию кошки и необъяснимую боязнь огурцов."
+          },
+          "thTH": {
+            "present": true,
+            "value": "มาพร้อมความรู้สึกอยาก[b]กระโดดลงกล่องจนตัวสั่น"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "喵的一声就扑到了最近的盒子里。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "誰又把逗貓棒拿出來了！"
+          }
+        },
+        "textContent": "\n\t\t\tManchmal muss man einfach über seinen Schatten springen.\n\t\t\tComes with an overwhelming urge to jump into the nearest open box.\n\t\t\tCreo que he visto un lindo gatito.\n\t\t\tTiene una necesidad incontrolable de saltar a la caja abierta más cercana.\n\t\t\tConfère également une irrépressible envie de sauter dans le carton le plus proche.\n\t\t\tEstremamente efficace sui topolini di pezza.\n\t\t\t最寄りの段ボール箱の中に飛び込みたくなる、ニャンともしがたい衝動のオマケつき。\n\t\t\t빈 상자 안에 뛰어 들어가려는 엄청난 충동을 가지고 있습니다.\n\t\t\tWskakuje prosto do najbliższego pudełka.\n\t\t\tÉ quando dá uma vontade louca de pular dentro da caixa de papelão mais próxima.\n\t\t\tДарует вам рефлексы хищника, грацию кошки и необъяснимую боязнь огурцов.\n\t\t\tมาพร้อมความรู้สึกอยาก[b]กระโดดลงกล่องจนตัวสั่น\n\t\t\t喵的一声就扑到了最近的盒子里。\n\t\t\t誰又把逗貓棒拿出來了！\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Rudy Siswanto"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Sprungangriff"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Pounce"
+          },
+          "esES": {
+            "present": true,
+            "value": "Lanzarse"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Lanzarse"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Traquenard"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Agguato"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "飛び掛かり"
+          },
+          "koKR": {
+            "present": true,
+            "value": "암습"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Sus"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Pulo do Gato"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Наскок"
+          },
+          "thTH": {
+            "present": true,
+            "value": "กระโจน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "飞扑"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "撲襲"
+          }
+        },
+        "textContent": "\n\t\tSprungangriff\n\t\tPounce\n\t\tLanzarse\n\t\tLanzarse\n\t\tTraquenard\n\t\tAgguato\n\t\t飛び掛かり\n\t\t암습\n\t\tSus\n\t\tPulo do Gato\n\t\tНаскок\n\t\tกระโจน\n\t\t飞扑\n\t\t撲襲\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Verleiht Eurem Helden +2 Angriff in diesem Zug."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Give your hero +2_Attack this turn."
+          },
+          "esES": {
+            "present": true,
+            "value": "Otorga +2 p. de ataque\na tu héroe este turno."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Otorga +2 de Ataque a tu héroe en este turno."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Donne +2_ATQ à votre héros pendant ce tour."
+          },
+          "itIT": {
+            "present": true,
+            "value": "+2 Attacco al tuo eroe per questo turno."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]このターンの間\n自分のヒーローに\n攻撃力+2を付与する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "이번 턴에\n내 영웅이 공격력을\n+2 얻습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Daj twojemu bohaterowi +2 do ataku w_tej turze."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Conceda \n+2 de Ataque ao seu herói neste turno."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Ваш герой получает +2 к атаке до конца хода."
+          },
+          "thTH": {
+            "present": true,
+            "value": "มอบพลังโจมตี[b]_+2_ให้ฮีโร่ของคุณ[b]เฉพาะเทิร์นนี้_"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "在本回合中，使你的英雄获得+2攻击力。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "本回合賦予你的英雄+2攻擊力"
+          }
+        },
+        "textContent": "\n\t\tVerleiht Eurem Helden +2 Angriff in diesem Zug.\n\t\tGive your hero +2_Attack this turn.\n\t\tOtorga +2 p. de ataque\na tu héroe este turno.\n\t\tOtorga +2 de Ataque a tu héroe en este turno.\n\t\tDonne +2_ATQ à votre héros pendant ce tour.\n\t\t+2 Attacco al tuo eroe per questo turno.\n\t\t[x]このターンの間\n自分のヒーローに\n攻撃力+2を付与する。\n\t\t이번 턴에\n내 영웅이 공격력을\n+2 얻습니다.\n\t\tDaj twojemu bohaterowi +2 do ataku w_tej turze.\n\t\tConceda \n+2 de Ataque ao seu herói neste turno.\n\t\tВаш герой получает +2 к атаке до конца хода.\n\t\tมอบพลังโจมตี[b]_+2_ให้ฮีโร่ของคุณ[b]เฉพาะเทิร์นนี้_\n\t\t在本回合中，使你的英雄获得+2攻击力。\n\t\t本回合賦予你的英雄+2攻擊力\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Manchmal muss man einfach über seinen Schatten springen."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Comes with an overwhelming urge to jump into the nearest open box."
+          },
+          "esES": {
+            "present": true,
+            "value": "Creo que he visto un lindo gatito."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Tiene una necesidad incontrolable de saltar a la caja abierta más cercana."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Confère également une irrépressible envie de sauter dans le carton le plus proche."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Estremamente efficace sui topolini di pezza."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "最寄りの段ボール箱の中に飛び込みたくなる、ニャンともしがたい衝動のオマケつき。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "빈 상자 안에 뛰어 들어가려는 엄청난 충동을 가지고 있습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Wskakuje prosto do najbliższego pudełka."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "É quando dá uma vontade louca de pular dentro da caixa de papelão mais próxima."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Дарует вам рефлексы хищника, грацию кошки и необъяснимую боязнь огурцов."
+          },
+          "thTH": {
+            "present": true,
+            "value": "มาพร้อมความรู้สึกอยาก[b]กระโดดลงกล่องจนตัวสั่น"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "喵的一声就扑到了最近的盒子里。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "誰又把逗貓棒拿出來了！"
+          }
+        },
+        "textContent": "\n\t\tManchmal muss man einfach über seinen Schatten springen.\n\t\tComes with an overwhelming urge to jump into the nearest open box.\n\t\tCreo que he visto un lindo gatito.\n\t\tTiene una necesidad incontrolable de saltar a la caja abierta más cercana.\n\t\tConfère également une irrépressible envie de sauter dans le carton le plus proche.\n\t\tEstremamente efficace sui topolini di pezza.\n\t\t最寄りの段ボール箱の中に飛び込みたくなる、ニャンともしがたい衝動のオマケつき。\n\t\t빈 상자 안에 뛰어 들어가려는 엄청난 충동을 가지고 있습니다.\n\t\tWskakuje prosto do najbliższego pudełka.\n\t\tÉ quando dá uma vontade louca de pular dentro da caixa de papelão mais próxima.\n\t\tДарует вам рефлексы хищника, грацию кошки и необъяснимую боязнь огурцов.\n\t\tมาพร้อมความรู้สึกอยาก[b]กระโดดลงกล่องจนตัวสั่น\n\t\t喵的一声就扑到了最近的盒子里。\n\t\t誰又把逗貓棒拿出來了！\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Rudy Siswanto"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "암습",
+      "enUS": "Pounce"
+    },
+    "currentPrintedText": {
+      "koKR": "암습",
+      "enUS": "Pounce"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_243",
+    "dbfId": 49990,
+    "name": "암습",
+    "type": "SPELL",
+    "cardClass": "DRUID",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 0,
+    "text": "이번 턴에<br></br>내 영웅이 공격력을<br></br>+2 얻습니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "빈 상자 안에 뛰어 들어가려는 엄청난 충동을 가지고 있습니다.",
+    "spellSchool": "",
+    "portrait": "HS15-008_S.psd:3d20d7285dab69048a304badcdf21ed0",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_243.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_243",
+    "dbfId": 49990,
+    "name": "암습",
+    "type": "SPELL",
+    "cardClass": "DRUID",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 0,
+    "text": "이번 턴에<br></br>내 영웅이 공격력을<br></br>+2 얻습니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "빈 상자 안에 뛰어 들어가려는 엄청난 충동을 가지고 있습니다.",
+    "spellSchool": "",
+    "portrait": "HS15-008_S.psd:3d20d7285dab69048a304badcdf21ed0",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_243.png"
+  }
+}

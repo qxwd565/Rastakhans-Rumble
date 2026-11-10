@@ -1,1 +1,655 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_343dt1","dbfId":43314,"name":"라바사우루스","type":"MINION","cardClass":"DRUID","rarity":"LEGENDARY","collectible":false,"cost":3,"text":"<b>독성</b><br></br><b>은신</b>","attack":1,"health":2,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS15-116_M.psd:676f3733d982e1843b9787f8a6dc9692","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":3},{"id":114,"name":"전설 속성","value":1},{"id":191,"name":"은신","value":1},{"id":199,"name":"직업","value":2},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":5},{"id":363,"name":"독성","value":1}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/TRL_343dt1.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-116_M.psd:676f3733d982e1843b9787f8a6dc9692","goldenMaterial":"TRL_343dt1_PremiumCard.mat:a778f341316029242b0019a315728e49","goldenAnimation":"TRL_343dt1_PremiumCard.asset:11fd6478ba3928b44b0d25415150c771"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "estimated",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-116_M.psd:676f3733d982e1843b9787f8a6dc9692",
+        "goldenMaterial": "TRL_343dt1_PremiumCard.mat:a778f341316029242b0019a315728e49",
+        "goldenAnimation": "TRL_343dt1_PremiumCard.asset:11fd6478ba3928b44b0d25415150c771"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-116_M.psd:676f3733d982e1843b9787f8a6dc9692",
+      "goldenMaterial": "TRL_343dt1_PremiumCard.mat:a778f341316029242b0019a315728e49",
+      "goldenAnimation": "TRL_343dt1_PremiumCard.asset:11fd6478ba3928b44b0d25415150c771"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "114": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "191": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "20",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "363": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "114": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "191": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "20",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "363": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Ravasaurus"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Ravasaur"
+          },
+          "esES": {
+            "present": true,
+            "value": "Ravasaurio"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Ravasaurio"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Ravasaure"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Devasauro"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ラヴァサウルス"
+          },
+          "koKR": {
+            "present": true,
+            "value": "라바사우루스"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Rawazaur"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Ravassauro"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Равазавр"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ราเวซอร์"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "暴掠龙"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "暴掠龍"
+          }
+        },
+        "textContent": "\n\t\t\tRavasaurus\n\t\t\tRavasaur\n\t\t\tRavasaurio\n\t\t\tRavasaurio\n\t\t\tRavasaure\n\t\t\tDevasauro\n\t\t\tラヴァサウルス\n\t\t\t라바사우루스\n\t\t\tRawazaur\n\t\t\tRavassauro\n\t\t\tРавазавр\n\t\t\tราเวซอร์\n\t\t\t暴掠龙\n\t\t\t暴掠龍\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Giftig</b>, <b>Verstohlenheit</b>"
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Poisonous</b>, <b>Stealth</b>"
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Veneno</b>\n<b>Sigilo</b>"
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Venenoso</b>, <b>Sigilo</b>"
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Toxicité</b>\n<b>Camouflage</b>"
+          },
+          "itIT": {
+            "present": true,
+            "value": "<b>Veleno</b>.\n<b>Furtività</b>."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "<b>猛毒</b>、<b>隠れ身</b>"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>독성</b>\n<b>은신</b>"
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Trucizna</b>\n<b>Ukrycie</b>"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Venenoso</b>, <b>Furtividade</b>"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Яд</b>\n<b>Маскировка</b>"
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>พิษ</b> <b>ซ่อนตัว</b>"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>剧毒</b>\n<b>潜行</b>"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>致命劇毒</b>、<b>潛行</b>"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Giftig</b>, <b>Verstohlenheit</b>\n\t\t\t<b>Poisonous</b>, <b>Stealth</b>\n\t\t\t<b>Veneno</b>\n<b>Sigilo</b>\n\t\t\t<b>Venenoso</b>, <b>Sigilo</b>\n\t\t\t<b>Toxicité</b>\n<b>Camouflage</b>\n\t\t\t<b>Veleno</b>.\n<b>Furtività</b>.\n\t\t\t<b>猛毒</b>、<b>隠れ身</b>\n\t\t\t<b>독성</b>\n<b>은신</b>\n\t\t\t<b>Trucizna</b>\n<b>Ukrycie</b>\n\t\t\t<b>Venenoso</b>, <b>Furtividade</b>\n\t\t\t<b>Яд</b>\n<b>Маскировка</b>\n\t\t\t<b>พิษ</b> <b>ซ่อนตัว</b>\n\t\t\t<b>剧毒</b>\n<b>潜行</b>\n\t\t\t<b>致命劇毒</b>、<b>潛行</b>\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Zoltan Boros"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Ravasaurus"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Ravasaur"
+          },
+          "esES": {
+            "present": true,
+            "value": "Ravasaurio"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Ravasaurio"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Ravasaure"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Devasauro"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ラヴァサウルス"
+          },
+          "koKR": {
+            "present": true,
+            "value": "라바사우루스"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Rawazaur"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Ravassauro"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Равазавр"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ราเวซอร์"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "暴掠龙"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "暴掠龍"
+          }
+        },
+        "textContent": "\n\t\tRavasaurus\n\t\tRavasaur\n\t\tRavasaurio\n\t\tRavasaurio\n\t\tRavasaure\n\t\tDevasauro\n\t\tラヴァサウルス\n\t\t라바사우루스\n\t\tRawazaur\n\t\tRavassauro\n\t\tРавазавр\n\t\tราเวซอร์\n\t\t暴掠龙\n\t\t暴掠龍\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Giftig</b>, <b>Verstohlenheit</b>"
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Poisonous</b>, <b>Stealth</b>"
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Veneno</b>\n<b>Sigilo</b>"
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Venenoso</b>, <b>Sigilo</b>"
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Toxicité</b>\n<b>Camouflage</b>"
+          },
+          "itIT": {
+            "present": true,
+            "value": "<b>Veleno</b>.\n<b>Furtività</b>."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "<b>猛毒</b>、<b>隠れ身</b>"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>독성</b>\n<b>은신</b>"
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Trucizna</b>\n<b>Ukrycie</b>"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Venenoso</b>, <b>Furtividade</b>"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Яд</b>\n<b>Маскировка</b>"
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>พิษ</b> <b>ซ่อนตัว</b>"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>剧毒</b>\n<b>潜行</b>"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>致命劇毒</b>、<b>潛行</b>"
+          }
+        },
+        "textContent": "\n\t\t<b>Giftig</b>, <b>Verstohlenheit</b>\n\t\t<b>Poisonous</b>, <b>Stealth</b>\n\t\t<b>Veneno</b>\n<b>Sigilo</b>\n\t\t<b>Venenoso</b>, <b>Sigilo</b>\n\t\t<b>Toxicité</b>\n<b>Camouflage</b>\n\t\t<b>Veleno</b>.\n<b>Furtività</b>.\n\t\t<b>猛毒</b>、<b>隠れ身</b>\n\t\t<b>독성</b>\n<b>은신</b>\n\t\t<b>Trucizna</b>\n<b>Ukrycie</b>\n\t\t<b>Venenoso</b>, <b>Furtividade</b>\n\t\t<b>Яд</b>\n<b>Маскировка</b>\n\t\t<b>พิษ</b> <b>ซ่อนตัว</b>\n\t\t<b>剧毒</b>\n<b>潜行</b>\n\t\t<b>致命劇毒</b>、<b>潛行</b>\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Zoltan Boros"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "라바사우루스",
+      "enUS": "Ravasaur"
+    },
+    "currentPrintedText": {
+      "koKR": "라바사우루스",
+      "enUS": "Ravasaur"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_343dt1",
+    "dbfId": 43314,
+    "name": "라바사우루스",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "LEGENDARY",
+    "collectible": false,
+    "cost": 3,
+    "text": "<b>독성</b><br></br><b>은신</b>",
+    "attack": 1,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS15-116_M.psd:676f3733d982e1843b9787f8a6dc9692",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 191,
+        "name": "은신",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 363,
+        "name": "독성",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/TRL_343dt1.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_343dt1",
+    "dbfId": 43314,
+    "name": "라바사우루스",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "LEGENDARY",
+    "collectible": false,
+    "cost": 3,
+    "text": "<b>독성</b><br></br><b>은신</b>",
+    "attack": 1,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS15-116_M.psd:676f3733d982e1843b9787f8a6dc9692",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 191,
+        "name": "은신",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 363,
+        "name": "독성",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/TRL_343dt1.png"
+  }
+}

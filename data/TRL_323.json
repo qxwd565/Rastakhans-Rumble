@@ -1,1 +1,775 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_323","dbfId":50049,"name":"잿불비늘 비룡","type":"MINION","cardClass":"WARRIOR","rarity":"RARE","collectible":true,"cost":5,"text":"<b>전투의 함성:</b><br></br>내 손에 용족이 있으면,<br></br>방어도를 +5 얻습니다.","attack":5,"health":5,"durability":0,"armor":0,"flavor":"그 비늘... 비브라늄인가?","spellSchool":"","portrait":"HS15-025_M.psd:457c112fec69576419ab85f61fc8f1aa","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":5},{"id":47,"name":"공격력","value":5},{"id":48,"name":"마나 비용","value":5},{"id":199,"name":"직업","value":10},{"id":200,"name":"종족","value":24},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["DRAGON"],"race":"용족","classes":[],"art":"art/TRL_323.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-025_M.psd:457c112fec69576419ab85f61fc8f1aa","goldenMaterial":"TRL_323_PremiumCard.mat:7979f30c5901afb4398d29e9a8746487","goldenAnimation":"TRL_323_PremiumCard.asset:875fa8c48f8ef53489f5f837eeb612e5"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-025_M.psd:457c112fec69576419ab85f61fc8f1aa",
+        "goldenMaterial": "TRL_323_PremiumCard.mat:7979f30c5901afb4398d29e9a8746487",
+        "goldenAnimation": "TRL_323_PremiumCard.asset:875fa8c48f8ef53489f5f837eeb612e5"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-025_M.psd:457c112fec69576419ab85f61fc8f1aa",
+      "goldenMaterial": "TRL_323_PremiumCard.mat:7979f30c5901afb4398d29e9a8746487",
+      "goldenAnimation": "TRL_323_PremiumCard.asset:875fa8c48f8ef53489f5f837eeb612e5"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "10",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "24",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "10",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "24",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Glutschuppe"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Emberscale Drake"
+          },
+          "esES": {
+            "present": true,
+            "value": "Draco de escamas de ascuas"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Draco de escamas ígneas"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Drake écailles-de-braise"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Draco Scagliardente"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "エンバースケイル・ドレイク"
+          },
+          "koKR": {
+            "present": true,
+            "value": "잿불비늘 비룡"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Żarołuski smokowiec"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Draco Escamabrasa"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Пепельный дракон"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เดรคเอมเบอร์สเกล"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "烬鳞幼龙"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "燼鱗龍"
+          }
+        },
+        "textContent": "\n\t\t\tGlutschuppe\n\t\t\tEmberscale Drake\n\t\t\tDraco de escamas de ascuas\n\t\t\tDraco de escamas ígneas\n\t\t\tDrake écailles-de-braise\n\t\t\tDraco Scagliardente\n\t\t\tエンバースケイル・ドレイク\n\t\t\t잿불비늘 비룡\n\t\t\tŻarołuski smokowiec\n\t\t\tDraco Escamabrasa\n\t\t\tПепельный дракон\n\t\t\tเดรคเอมเบอร์สเกล\n\t\t\t烬鳞幼龙\n\t\t\t燼鱗龍\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Kampfschrei:</b> Erhaltet 5_Rüstung, wenn Ihr einen Drachen auf der Hand habt."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Battlecry:</b> If you're holding a Dragon, gain 5 Armor."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Grito de batalla:</b>\nSi hay un dragón\nen tu mano, obtienes\n5 p. de armadura."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> si tienes un Dragón en tu mano, obtienes_5_de_Armadura."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> gagne 5_points d’armure si vous avez_un_Dragon_en_main."
+          },
+          "itIT": {
+            "present": true,
+            "value": "<b>Grido di Battaglia:</b>\nfornisce 5 Armatura se hai un Drago in mano."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>雄叫び:</b>\n自分の手札に\nドラゴンがいる場合\n_____装甲を5獲得する。_"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]<b>전투의 함성:</b>\n내 손에 용족이 있으면,\n방어도를 +5 얻습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b> Otrzymujesz 5 pkt. pancerza, jeśli masz w ręce Smoka."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b>\nSe você tiver um Dragão na mão, receba 5 de Armadura."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> если у вас в_руке есть дракон, вы [x]получаете +5 к броне."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b> ถ้าคุณมีมังกรในมือ ได้รับเกราะ 5 แต้ม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>如果你的手牌中有龙牌，便获得5点护甲值。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>戰吼：</b>若你手中有龍類，獲得5點護甲值"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Kampfschrei:</b> Erhaltet 5_Rüstung, wenn Ihr einen Drachen auf der Hand habt.\n\t\t\t<b>Battlecry:</b> If you're holding a Dragon, gain 5 Armor.\n\t\t\t[x]<b>Grito de batalla:</b>\nSi hay un dragón\nen tu mano, obtienes\n5 p. de armadura.\n\t\t\t<b>Grito de batalla:</b> si tienes un Dragón en tu mano, obtienes_5_de_Armadura.\n\t\t\t<b>Cri de guerre :</b> gagne 5_points d’armure si vous avez_un_Dragon_en_main.\n\t\t\t<b>Grido di Battaglia:</b>\nfornisce 5 Armatura se hai un Drago in mano.\n\t\t\t[x]<b>雄叫び:</b>\n自分の手札に\nドラゴンがいる場合\n_____装甲を5獲得する。_\n\t\t\t[x]<b>전투의 함성:</b>\n내 손에 용족이 있으면,\n방어도를 +5 얻습니다.\n\t\t\t<b>Okrzyk bojowy:</b> Otrzymujesz 5 pkt. pancerza, jeśli masz w ręce Smoka.\n\t\t\t<b>Grito de Guerra:</b>\nSe você tiver um Dragão na mão, receba 5 de Armadura.\n\t\t\t<b>Боевой клич:</b> если у вас в_руке есть дракон, вы [x]получаете +5 к броне.\n\t\t\t<b>คำรามสู้ศึก:</b> ถ้าคุณมีมังกรในมือ ได้รับเกราะ 5 แต้ม\n\t\t\t<b>战吼：</b>如果你的手牌中有龙牌，便获得5点护甲值。\n\t\t\t<b>戰吼：</b>若你手中有龍類，獲得5點護甲值\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Die anderen Drachen machen sich heimlich lustig über ihn, weil er ein Fußkettchen trägt."
+          },
+          "enUS": {
+            "present": true,
+            "value": "The third little dragon made his armor out of adamantite."
+          },
+          "esES": {
+            "present": true,
+            "value": "Le cuentes lo que le cuentes, siempre lo dejas en ascuas."
+          },
+          "esMX": {
+            "present": true,
+            "value": "El tercer dragoncito forjó su armadura con adamantita."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Ce petit dragon fan d’Aile de mort a fabriqué sa propre armure en adamantite, sur son temps libre, au fond de sa grotte. Impressionnant !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Un ottimo cosplay di Alamorte."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "三匹目の子ドラゴンはアダマンタイトの鎧を作り、身にまといました。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "그 비늘... 비브라늄인가?"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Nie ma lepszego pancerza niż smocze łuski."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "O bom é que ele nunca precisa de casaco."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Он предпочитает называть этот цвет «серый металлик»."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ลูกมังกรตัวที่สามสร้างเกราะ[b]จากอดาแมนไทต์"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "第三头幼龙吸取了草鳞幼龙和木鳞幼龙的经验，精心打造了烬鳞铠甲。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "看過前兩隻小龍的下場以後，牠決定用堅鋼來打造護甲。"
+          }
+        },
+        "textContent": "\n\t\t\tDie anderen Drachen machen sich heimlich lustig über ihn, weil er ein Fußkettchen trägt.\n\t\t\tThe third little dragon made his armor out of adamantite.\n\t\t\tLe cuentes lo que le cuentes, siempre lo dejas en ascuas.\n\t\t\tEl tercer dragoncito forjó su armadura con adamantita.\n\t\t\tCe petit dragon fan d’Aile de mort a fabriqué sa propre armure en adamantite, sur son temps libre, au fond de sa grotte. Impressionnant !\n\t\t\tUn ottimo cosplay di Alamorte.\n\t\t\t三匹目の子ドラゴンはアダマンタイトの鎧を作り、身にまといました。\n\t\t\t그 비늘... 비브라늄인가?\n\t\t\tNie ma lepszego pancerza niż smocze łuski.\n\t\t\tO bom é que ele nunca precisa de casaco.\n\t\t\tОн предпочитает называть этот цвет «серый металлик».\n\t\t\tลูกมังกรตัวที่สามสร้างเกราะ[b]จากอดาแมนไทต์\n\t\t\t第三头幼龙吸取了草鳞幼龙和木鳞幼龙的经验，精心打造了烬鳞铠甲。\n\t\t\t看過前兩隻小龍的下場以後，牠決定用堅鋼來打造護甲。\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Alex Horley Orlandelli"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Glutschuppe"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Emberscale Drake"
+          },
+          "esES": {
+            "present": true,
+            "value": "Draco de escamas de ascuas"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Draco de escamas ígneas"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Drake écailles-de-braise"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Draco Scagliardente"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "エンバースケイル・ドレイク"
+          },
+          "koKR": {
+            "present": true,
+            "value": "잿불비늘 비룡"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Żarołuski smokowiec"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Draco Escamabrasa"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Пепельный дракон"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เดรคเอมเบอร์สเกล"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "烬鳞幼龙"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "燼鱗龍"
+          }
+        },
+        "textContent": "\n\t\tGlutschuppe\n\t\tEmberscale Drake\n\t\tDraco de escamas de ascuas\n\t\tDraco de escamas ígneas\n\t\tDrake écailles-de-braise\n\t\tDraco Scagliardente\n\t\tエンバースケイル・ドレイク\n\t\t잿불비늘 비룡\n\t\tŻarołuski smokowiec\n\t\tDraco Escamabrasa\n\t\tПепельный дракон\n\t\tเดรคเอมเบอร์สเกล\n\t\t烬鳞幼龙\n\t\t燼鱗龍\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Kampfschrei:</b> Erhaltet 5_Rüstung, wenn Ihr einen Drachen auf der Hand habt."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Battlecry:</b> If you're holding a Dragon, gain 5 Armor."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Grito de batalla:</b>\nSi hay un dragón\nen tu mano, obtienes\n5 p. de armadura."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> si tienes un Dragón en tu mano, obtienes_5_de_Armadura."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> gagne 5_points d’armure si vous avez_un_Dragon_en_main."
+          },
+          "itIT": {
+            "present": true,
+            "value": "<b>Grido di Battaglia:</b>\nfornisce 5 Armatura se hai un Drago in mano."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>雄叫び:</b>\n自分の手札に\nドラゴンがいる場合\n_____装甲を5獲得する。_"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]<b>전투의 함성:</b>\n내 손에 용족이 있으면,\n방어도를 +5 얻습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b> Otrzymujesz 5 pkt. pancerza, jeśli masz w ręce Smoka."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b>\nSe você tiver um Dragão na mão, receba 5 de Armadura."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> если у вас в_руке есть дракон, вы [x]получаете +5 к броне."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b> ถ้าคุณมีมังกรอยู่ในมือ ได้รับเกราะ 5 แต้ม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>如果你的手牌中有龙牌，便获得5点护甲值。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>戰吼：</b>若你手中有龍類，獲得5點護甲值"
+          }
+        },
+        "textContent": "\n\t\t<b>Kampfschrei:</b> Erhaltet 5_Rüstung, wenn Ihr einen Drachen auf der Hand habt.\n\t\t<b>Battlecry:</b> If you're holding a Dragon, gain 5 Armor.\n\t\t[x]<b>Grito de batalla:</b>\nSi hay un dragón\nen tu mano, obtienes\n5 p. de armadura.\n\t\t<b>Grito de batalla:</b> si tienes un Dragón en tu mano, obtienes_5_de_Armadura.\n\t\t<b>Cri de guerre :</b> gagne 5_points d’armure si vous avez_un_Dragon_en_main.\n\t\t<b>Grido di Battaglia:</b>\nfornisce 5 Armatura se hai un Drago in mano.\n\t\t[x]<b>雄叫び:</b>\n自分の手札に\nドラゴンがいる場合\n_____装甲を5獲得する。_\n\t\t[x]<b>전투의 함성:</b>\n내 손에 용족이 있으면,\n방어도를 +5 얻습니다.\n\t\t<b>Okrzyk bojowy:</b> Otrzymujesz 5 pkt. pancerza, jeśli masz w ręce Smoka.\n\t\t<b>Grito de Guerra:</b>\nSe você tiver um Dragão na mão, receba 5 de Armadura.\n\t\t<b>Боевой клич:</b> если у вас в_руке есть дракон, вы [x]получаете +5 к броне.\n\t\t<b>คำรามสู้ศึก:</b> ถ้าคุณมีมังกรอยู่ในมือ ได้รับเกราะ 5 แต้ม\n\t\t<b>战吼：</b>如果你的手牌中有龙牌，便获得5点护甲值。\n\t\t<b>戰吼：</b>若你手中有龍類，獲得5點護甲值\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Die anderen Drachen machen sich heimlich lustig über ihn, weil er ein Fußkettchen trägt."
+          },
+          "enUS": {
+            "present": true,
+            "value": "The third little dragon made his armor out of adamantite."
+          },
+          "esES": {
+            "present": true,
+            "value": "Le cuentes lo que le cuentes, siempre lo dejas en ascuas."
+          },
+          "esMX": {
+            "present": true,
+            "value": "El tercer dragoncito forjó su armadura con adamantita."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Ce petit dragon fan d’Aile de mort a fabriqué sa propre armure en adamantite, sur son temps libre, au fond de sa grotte. Impressionnant !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Un ottimo cosplay di Alamorte."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "三匹目の子ドラゴンはアダマンタイトの鎧を作り、身にまといました。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "그 비늘... 비브라늄인가?"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Nie ma lepszego pancerza niż smocze łuski."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "O bom é que ele nunca precisa de casaco."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Он предпочитает называть этот цвет «серый металлик»."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ลูกมังกรตัวที่สามสร้างเกราะ[b]จากอดาแมนไทต์"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "第三头幼龙吸取了草鳞幼龙和木鳞幼龙的经验，精心打造了烬鳞铠甲。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "看過前兩隻小龍的下場以後，牠決定用堅鋼來打造護甲。"
+          }
+        },
+        "textContent": "\n\t\tDie anderen Drachen machen sich heimlich lustig über ihn, weil er ein Fußkettchen trägt.\n\t\tThe third little dragon made his armor out of adamantite.\n\t\tLe cuentes lo que le cuentes, siempre lo dejas en ascuas.\n\t\tEl tercer dragoncito forjó su armadura con adamantita.\n\t\tCe petit dragon fan d’Aile de mort a fabriqué sa propre armure en adamantite, sur son temps libre, au fond de sa grotte. Impressionnant !\n\t\tUn ottimo cosplay di Alamorte.\n\t\t三匹目の子ドラゴンはアダマンタイトの鎧を作り、身にまといました。\n\t\t그 비늘... 비브라늄인가?\n\t\tNie ma lepszego pancerza niż smocze łuski.\n\t\tO bom é que ele nunca precisa de casaco.\n\t\tОн предпочитает называть этот цвет «серый металлик».\n\t\tลูกมังกรตัวที่สามสร้างเกราะ[b]จากอดาแมนไทต์\n\t\t第三头幼龙吸取了草鳞幼龙和木鳞幼龙的经验，精心打造了烬鳞铠甲。\n\t\t看過前兩隻小龍的下場以後，牠決定用堅鋼來打造護甲。\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Alex Horley Orlandelli"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "잿불비늘 비룡",
+      "enUS": "Emberscale Drake"
+    },
+    "currentPrintedText": {
+      "koKR": "잿불비늘 비룡",
+      "enUS": "Emberscale Drake"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_323",
+    "dbfId": 50049,
+    "name": "잿불비늘 비룡",
+    "type": "MINION",
+    "cardClass": "WARRIOR",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>전투의 함성:</b><br></br>내 손에 용족이 있으면,<br></br>방어도를 +5 얻습니다.",
+    "attack": 5,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "그 비늘... 비브라늄인가?",
+    "spellSchool": "",
+    "portrait": "HS15-025_M.psd:457c112fec69576419ab85f61fc8f1aa",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 24
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "DRAGON"
+    ],
+    "race": "용족",
+    "classes": [],
+    "art": "art/TRL_323.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_323",
+    "dbfId": 50049,
+    "name": "잿불비늘 비룡",
+    "type": "MINION",
+    "cardClass": "WARRIOR",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>전투의 함성:</b><br></br>내 손에 용족이 있으면,<br></br>방어도를 +5 얻습니다.",
+    "attack": 5,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "그 비늘... 비브라늄인가?",
+    "spellSchool": "",
+    "portrait": "HS15-025_M.psd:457c112fec69576419ab85f61fc8f1aa",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 24
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "DRAGON"
+    ],
+    "race": "용족",
+    "classes": [],
+    "art": "art/TRL_323.png"
+  }
+}

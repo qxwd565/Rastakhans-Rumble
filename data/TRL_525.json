@@ -1,1 +1,747 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_525","dbfId":50411,"name":"투기장 보물상자","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":4,"text":"<b>죽음의 메아리:</b><br></br>카드를 2장 뽑습니다.","attack":0,"health":4,"durability":0,"armor":0,"flavor":"이걸 여는 데 그렇게 오랜 시간이 걸릴 줄 누가 알았겠습니까.","spellSchool":"","portrait":"HS15-168_M.psd:5adec1f04eb119048a1f0dcda6ab1400","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":0},{"id":48,"name":"마나 비용","value":4},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":217,"name":"죽음의 메아리","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/TRL_525.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-168_M.psd:5adec1f04eb119048a1f0dcda6ab1400","goldenMaterial":"TRL_525_PremiumCard.mat:1f734b47c944b6d40867e2eb87bc75a3","goldenAnimation":"TRL_525_PremiumCard.asset:f30d887012c6f7f4d890da6e2a232ac0"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-168_M.psd:5adec1f04eb119048a1f0dcda6ab1400",
+        "goldenMaterial": "TRL_525_PremiumCard.mat:1f734b47c944b6d40867e2eb87bc75a3",
+        "goldenAnimation": "TRL_525_PremiumCard.asset:f30d887012c6f7f4d890da6e2a232ac0"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-168_M.psd:5adec1f04eb119048a1f0dcda6ab1400",
+      "goldenMaterial": "TRL_525_PremiumCard.mat:1f734b47c944b6d40867e2eb87bc75a3",
+      "goldenAnimation": "TRL_525_PremiumCard.asset:f30d887012c6f7f4d890da6e2a232ac0"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "217": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "217": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Arenaschatztruhe"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Arena Treasure Chest"
+          },
+          "esES": {
+            "present": true,
+            "value": "Cofre del tesoro de la arena"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Cofre del tesoro de la arena"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Coffre de l’arène"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Forziere dell'Arena"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "闘技場の宝箱"
+          },
+          "koKR": {
+            "present": true,
+            "value": "투기장 보물상자"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Arenowa skrzynia skarbów"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Baú do Tesouro da Arena"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Сундук арены"
+          },
+          "thTH": {
+            "present": true,
+            "value": "หีบสมบัติอารีน่า"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "竞技场财宝箱"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "競技場財寶箱"
+          }
+        },
+        "textContent": "\n\t\t\tArenaschatztruhe\n\t\t\tArena Treasure Chest\n\t\t\tCofre del tesoro de la arena\n\t\t\tCofre del tesoro de la arena\n\t\t\tCoffre de l’arène\n\t\t\tForziere dell'Arena\n\t\t\t闘技場の宝箱\n\t\t\t투기장 보물상자\n\t\t\tArenowa skrzynia skarbów\n\t\t\tBaú do Tesouro da Arena\n\t\t\tСундук арены\n\t\t\tหีบสมบัติอารีน่า\n\t\t\t竞技场财宝箱\n\t\t\t競技場財寶箱\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Todesröcheln:</b>\nZieht 2 Karten."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Deathrattle:</b> Draw 2 cards."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Último aliento:</b>\nRoba 2 cartas."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Estertor:</b> roba 2 cartas."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Râle d’agonie :</b> vous piochez 2_cartes."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Rantolo di Morte:</b>\npesca 2 carte."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "<b>断末魔:</b>\nカードを2枚引く。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>죽음의 메아리:</b>\n카드를 2장 뽑습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Agonia:</b> Dobierz 2 karty."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Último Suspiro:</b>\nCompre 2 cards."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Предсмертный хрип:</b>\nвы берете 2 карты."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>เสียงสุดท้าย:</b> จั่วการ์ด 2 ใบ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>亡语：</b>抽两张牌。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>死亡之聲：</b>抽2張牌"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Todesröcheln:</b>\nZieht 2 Karten.\n\t\t\t<b>Deathrattle:</b> Draw 2 cards.\n\t\t\t<b>Último aliento:</b>\nRoba 2 cartas.\n\t\t\t<b>Estertor:</b> roba 2 cartas.\n\t\t\t<b>Râle d’agonie :</b> vous piochez 2_cartes.\n\t\t\t[x]<b>Rantolo di Morte:</b>\npesca 2 carte.\n\t\t\t<b>断末魔:</b>\nカードを2枚引く。\n\t\t\t<b>죽음의 메아리:</b>\n카드를 2장 뽑습니다.\n\t\t\t<b>Agonia:</b> Dobierz 2 karty.\n\t\t\t<b>Último Suspiro:</b>\nCompre 2 cards.\n\t\t\t<b>Предсмертный хрип:</b>\nвы берете 2 карты.\n\t\t\t<b>เสียงสุดท้าย:</b> จั่วการ์ด 2 ใบ\n\t\t\t<b>亡语：</b>抽两张牌。\n\t\t\t<b>死亡之聲：</b>抽2張牌\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Wenn Ihr doch nur den verfluchten Schlüssel finden könntet_..."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Yeah it's great, but did you see the Arena Treasure Arms?!"
+          },
+          "esES": {
+            "present": true,
+            "value": "Bueno, habrá que abrirlo antes de hablar de tesoro."
+          },
+          "esMX": {
+            "present": true,
+            "value": "A quién le importa el cofre, ¡yo quiero ver los tesoros!"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Et encore, vous n’avez pas vu le coffre de la reine !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Più mobile di alcuni combattenti dell'arena."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「ひっかかるもんかよ　この宝箱をオレが大喜びで開けようとしたとたん\nギザギザの歯でガブッ！\nそんなこったろう！だまされねーぜ　ボケナスどもめ…」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "이걸 여는 데 그렇게 오랜 시간이 걸릴 줄 누가 알았겠습니까."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Kto wie, może znajdziesz w niej koszulkę swojej ulubionej drużyny?"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "O problema do vencedor é conseguir limpar o sangue das moedas."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "С тех пор как призовой сундук начали ставить прямо посреди арены, самой частой травмой на игрищах стали отбитые мизинцы."
+          },
+          "thTH": {
+            "present": true,
+            "value": "หีบมากมายหลายหีบยกหีบหนี\nหีบมากมีหนีหีบหนีบหนีหาย\nเห็นหนีหีบหนีบหนีกันมากมาย\nเห็นหีบหายหลายหีบหนีบหนีเอย"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "宝箱开出了胸甲特质装，不错，但你开出武器了吗？！"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "別搶啦！裡面沒有競技場大師飾物！"
+          }
+        },
+        "textContent": "\n\t\t\tWenn Ihr doch nur den verfluchten Schlüssel finden könntet_...\n\t\t\tYeah it's great, but did you see the Arena Treasure Arms?!\n\t\t\tBueno, habrá que abrirlo antes de hablar de tesoro.\n\t\t\tA quién le importa el cofre, ¡yo quiero ver los tesoros!\n\t\t\tEt encore, vous n’avez pas vu le coffre de la reine !\n\t\t\tPiù mobile di alcuni combattenti dell'arena.\n\t\t\t「ひっかかるもんかよ　この宝箱をオレが大喜びで開けようとしたとたん\nギザギザの歯でガブッ！\nそんなこったろう！だまされねーぜ　ボケナスどもめ…」\n\t\t\t이걸 여는 데 그렇게 오랜 시간이 걸릴 줄 누가 알았겠습니까.\n\t\t\tKto wie, może znajdziesz w niej koszulkę swojej ulubionej drużyny?\n\t\t\tO problema do vencedor é conseguir limpar o sangue das moedas.\n\t\t\tС тех пор как призовой сундук начали ставить прямо посреди арены, самой частой травмой на игрищах стали отбитые мизинцы.\n\t\t\tหีบมากมายหลายหีบยกหีบหนี\nหีบมากมีหนีหีบหนีบหนีหาย\nเห็นหนีหีบหนีบหนีกันมากมาย\nเห็นหีบหายหลายหีบหนีบหนีเอย\n\t\t\t宝箱开出了胸甲特质装，不错，但你开出武器了吗？！\n\t\t\t別搶啦！裡面沒有競技場大師飾物！\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "James Ryman"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Arenaschatztruhe"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Arena Treasure Chest"
+          },
+          "esES": {
+            "present": true,
+            "value": "Cofre del tesoro de la arena"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Cofre del tesoro de la arena"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Coffre de l’arène"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Forziere dell'Arena"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "闘技場の宝箱"
+          },
+          "koKR": {
+            "present": true,
+            "value": "투기장 보물상자"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Arenowa skrzynia skarbów"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Baú do Tesouro da Arena"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Сундук арены"
+          },
+          "thTH": {
+            "present": true,
+            "value": "หีบสมบัติอารีน่า"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "竞技场财宝箱"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "競技場財寶箱"
+          }
+        },
+        "textContent": "\n\t\tArenaschatztruhe\n\t\tArena Treasure Chest\n\t\tCofre del tesoro de la arena\n\t\tCofre del tesoro de la arena\n\t\tCoffre de l’arène\n\t\tForziere dell'Arena\n\t\t闘技場の宝箱\n\t\t투기장 보물상자\n\t\tArenowa skrzynia skarbów\n\t\tBaú do Tesouro da Arena\n\t\tСундук арены\n\t\tหีบสมบัติอารีน่า\n\t\t竞技场财宝箱\n\t\t競技場財寶箱\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Todesröcheln:</b>\nZieht 2 Karten."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Deathrattle:</b> Draw 2 cards."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Último aliento:</b>\nRoba 2 cartas."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Estertor:</b> roba 2 cartas."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Râle d’agonie :</b> vous piochez 2_cartes."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Rantolo di Morte:</b>\npesca 2 carte."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "<b>断末魔:</b>\nカードを2枚引く。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>죽음의 메아리:</b>\n카드를 2장 뽑습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Agonia:</b> Dobierz 2 karty."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Último Suspiro:</b>\nCompre 2 cards."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Предсмертный хрип:</b>\nвы берете 2 карты."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>เสียงสุดท้าย:</b> จั่วการ์ด 2 ใบ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>亡语：</b>抽两张牌。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>死亡之聲：</b>抽2張牌"
+          }
+        },
+        "textContent": "\n\t\t<b>Todesröcheln:</b>\nZieht 2 Karten.\n\t\t<b>Deathrattle:</b> Draw 2 cards.\n\t\t<b>Último aliento:</b>\nRoba 2 cartas.\n\t\t<b>Estertor:</b> roba 2 cartas.\n\t\t<b>Râle d’agonie :</b> vous piochez 2_cartes.\n\t\t[x]<b>Rantolo di Morte:</b>\npesca 2 carte.\n\t\t<b>断末魔:</b>\nカードを2枚引く。\n\t\t<b>죽음의 메아리:</b>\n카드를 2장 뽑습니다.\n\t\t<b>Agonia:</b> Dobierz 2 karty.\n\t\t<b>Último Suspiro:</b>\nCompre 2 cards.\n\t\t<b>Предсмертный хрип:</b>\nвы берете 2 карты.\n\t\t<b>เสียงสุดท้าย:</b> จั่วการ์ด 2 ใบ\n\t\t<b>亡语：</b>抽两张牌。\n\t\t<b>死亡之聲：</b>抽2張牌\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Wenn Ihr doch nur den verfluchten Schlüssel finden könntet_..."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Yeah it's great, but did you see the Arena Treasure Arms?!"
+          },
+          "esES": {
+            "present": true,
+            "value": "Bueno, habrá que abrirlo antes de hablar de tesoro."
+          },
+          "esMX": {
+            "present": true,
+            "value": "A quién le importa el cofre, ¡yo quiero ver los tesoros!"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Et encore, vous n’avez pas vu le coffre de la reine !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Più mobile di alcuni combattenti dell'arena."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「ひっかかるもんかよ　この宝箱をオレが大喜びで開けようとしたとたん\nギザギザの歯でガブッ！\nそんなこったろう！だまされねーぜ　ボケナスどもめ…」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "이걸 여는 데 그렇게 오랜 시간이 걸릴 줄 누가 알았겠습니까."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Kto wie, może znajdziesz w niej koszulkę swojej ulubionej drużyny?"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "O problema do vencedor é conseguir limpar o sangue das moedas."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "С тех пор как призовой сундук начали ставить прямо посреди арены, самой частой травмой на игрищах стали отбитые мизинцы."
+          },
+          "thTH": {
+            "present": true,
+            "value": "หีบมากมายหลายหีบยกหีบหนี\nหีบมากมีหนีหีบหนีบหนีหาย\nเห็นหนีหีบหนีบหนีกันมากมาย\nเห็นหีบหายหลายหีบหนีบหนีเอย"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "宝箱开出了胸甲特质装，不错，但你开出武器了吗？！"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "別搶啦！裡面沒有競技場大師飾物！"
+          }
+        },
+        "textContent": "\n\t\tWenn Ihr doch nur den verfluchten Schlüssel finden könntet_...\n\t\tYeah it's great, but did you see the Arena Treasure Arms?!\n\t\tBueno, habrá que abrirlo antes de hablar de tesoro.\n\t\tA quién le importa el cofre, ¡yo quiero ver los tesoros!\n\t\tEt encore, vous n’avez pas vu le coffre de la reine !\n\t\tPiù mobile di alcuni combattenti dell'arena.\n\t\t「ひっかかるもんかよ　この宝箱をオレが大喜びで開けようとしたとたん\nギザギザの歯でガブッ！\nそんなこったろう！だまされねーぜ　ボケナスどもめ…」\n\t\t이걸 여는 데 그렇게 오랜 시간이 걸릴 줄 누가 알았겠습니까.\n\t\tKto wie, może znajdziesz w niej koszulkę swojej ulubionej drużyny?\n\t\tO problema do vencedor é conseguir limpar o sangue das moedas.\n\t\tС тех пор как призовой сундук начали ставить прямо посреди арены, самой частой травмой на игрищах стали отбитые мизинцы.\n\t\tหีบมากมายหลายหีบยกหีบหนี\nหีบมากมีหนีหีบหนีบหนีหาย\nเห็นหนีหีบหนีบหนีกันมากมาย\nเห็นหีบหายหลายหีบหนีบหนีเอย\n\t\t宝箱开出了胸甲特质装，不错，但你开出武器了吗？！\n\t\t別搶啦！裡面沒有競技場大師飾物！\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "James Ryman"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "투기장 보물상자",
+      "enUS": "Arena Treasure Chest"
+    },
+    "currentPrintedText": {
+      "koKR": "투기장 보물상자",
+      "enUS": "Arena Treasure Chest"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_525",
+    "dbfId": 50411,
+    "name": "투기장 보물상자",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>죽음의 메아리:</b><br></br>카드를 2장 뽑습니다.",
+    "attack": 0,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "이걸 여는 데 그렇게 오랜 시간이 걸릴 줄 누가 알았겠습니까.",
+    "spellSchool": "",
+    "portrait": "HS15-168_M.psd:5adec1f04eb119048a1f0dcda6ab1400",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 0
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_525.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_525",
+    "dbfId": 50411,
+    "name": "투기장 보물상자",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>죽음의 메아리:</b><br></br>카드를 2장 뽑습니다.",
+    "attack": 0,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "이걸 여는 데 그렇게 오랜 시간이 걸릴 줄 누가 알았겠습니까.",
+    "spellSchool": "",
+    "portrait": "HS15-168_M.psd:5adec1f04eb119048a1f0dcda6ab1400",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 0
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_525.png"
+  }
+}

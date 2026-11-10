@@ -1,1 +1,417 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_151t","dbfId":50738,"name":"유망주","type":"MINION","cardClass":"NEUTRAL","collectible":false,"cost":5,"text":"","attack":5,"health":5,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS15-162_M.psd:a9c2c854c98fa8e4482d799f32684ec1","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":5},{"id":47,"name":"공격력","value":5},{"id":48,"name":"마나 비용","value":5},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":321,"name":"수집 가능","value":0}],"races":[],"race":"","classes":[],"art":"art/TRL_151t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-162_M.psd:a9c2c854c98fa8e4482d799f32684ec1","goldenMaterial":"TRL_151t_PremiumCard.mat:b48f7729831d5c94ca78861ff270d9c5","goldenAnimation":"TRL_151t_PremiumCard.asset:9e64066194ffef04e99b3af2de1ccc9a"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "estimated",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-162_M.psd:a9c2c854c98fa8e4482d799f32684ec1",
+        "goldenMaterial": "TRL_151t_PremiumCard.mat:b48f7729831d5c94ca78861ff270d9c5",
+        "goldenAnimation": "TRL_151t_PremiumCard.asset:9e64066194ffef04e99b3af2de1ccc9a"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-162_M.psd:a9c2c854c98fa8e4482d799f32684ec1",
+      "goldenMaterial": "TRL_151t_PremiumCard.mat:b48f7729831d5c94ca78861ff270d9c5",
+      "goldenAnimation": "TRL_151t_PremiumCard.asset:9e64066194ffef04e99b3af2de1ccc9a"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Jungspund"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Hotshot"
+          },
+          "esES": {
+            "present": true,
+            "value": "Figura"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Fanfarrón"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Étoile montante"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Asso dell'Arena"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "期待の新人"
+          },
+          "koKR": {
+            "present": true,
+            "value": "유망주"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Młodzik"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Manda-Chuva"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Ученик чемпиона"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ดาวรุ่ง"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "赛场新秀"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "賽場新秀"
+          }
+        },
+        "textContent": "\n\t\t\tJungspund\n\t\t\tHotshot\n\t\t\tFigura\n\t\t\tFanfarrón\n\t\t\tÉtoile montante\n\t\t\tAsso dell'Arena\n\t\t\t期待の新人\n\t\t\t유망주\n\t\t\tMłodzik\n\t\t\tManda-Chuva\n\t\t\tУченик чемпиона\n\t\t\tดาวรุ่ง\n\t\t\t赛场新秀\n\t\t\t賽場新秀\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Mike Azevedo"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Jungspund"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Hotshot"
+          },
+          "esES": {
+            "present": true,
+            "value": "Figura"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Fanfarrón"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Étoile montante"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Asso dell'Arena"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "期待の新人"
+          },
+          "koKR": {
+            "present": true,
+            "value": "유망주"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Młodzik"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Manda-Chuva"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Ученик чемпиона"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ดาวรุ่ง"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "赛场新秀"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "賽場新秀"
+          }
+        },
+        "textContent": "\n\t\tJungspund\n\t\tHotshot\n\t\tFigura\n\t\tFanfarrón\n\t\tÉtoile montante\n\t\tAsso dell'Arena\n\t\t期待の新人\n\t\t유망주\n\t\tMłodzik\n\t\tManda-Chuva\n\t\tУченик чемпиона\n\t\tดาวรุ่ง\n\t\t赛场新秀\n\t\t賽場新秀\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Mike Azevedo"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "유망주",
+      "enUS": "Hotshot"
+    },
+    "currentPrintedText": {
+      "koKR": "유망주",
+      "enUS": "Hotshot"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_151t",
+    "dbfId": 50738,
+    "name": "유망주",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "collectible": false,
+    "cost": 5,
+    "text": "",
+    "attack": 5,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS15-162_M.psd:a9c2c854c98fa8e4482d799f32684ec1",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_151t.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_151t",
+    "dbfId": 50738,
+    "name": "유망주",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "collectible": false,
+    "cost": 5,
+    "text": "",
+    "attack": 5,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS15-162_M.psd:a9c2c854c98fa8e4482d799f32684ec1",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_151t.png"
+  }
+}

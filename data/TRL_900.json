@@ -1,1 +1,4559 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_900","dbfId":50659,"name":"스라소니 할라지","type":"MINION","cardClass":"HUNTER","rarity":"LEGENDARY","collectible":true,"cost":4,"text":"<b>속공</b>, <b>전투의 함성</b>: 내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다.","attack":4,"health":2,"durability":0,"armor":0,"flavor":"너만 제때 잡으면 4공물인데!","spellSchool":"","portrait":"HS15-020_M.psd:9e30526e79c20a94485ae423d5405231","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":4},{"id":48,"name":"마나 비용","value":4},{"id":114,"name":"전설 속성","value":1},{"id":199,"name":"직업","value":3},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":5},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1},{"id":791,"name":"속공","value":1},{"id":1452,"name":"수집품 관련 카드 데이터베이스 ID","value":50213},{"id":1584,"name":"게임 태그 1584","value":1},{"id":4533,"name":"제작 결과 능력","value":1}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/TRL_900.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-020_M.psd:9e30526e79c20a94485ae423d5405231","goldenMaterial":"TRL_900_PremiumCard.mat:8dfd7cca00c724048832264cb92c10d3","goldenAnimation":"TRL_900_PremiumCard.asset:7e4c1ce0305ae6c41968cf421ae54210"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-020_M.psd:9e30526e79c20a94485ae423d5405231",
+        "goldenMaterial": "TRL_900_PremiumCard.mat:8dfd7cca00c724048832264cb92c10d3",
+        "goldenAnimation": "TRL_900_PremiumCard.asset:7e4c1ce0305ae6c41968cf421ae54210"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-020_M.psd:9e30526e79c20a94485ae423d5405231",
+      "goldenMaterial": "TRL_900_PremiumCard.mat:8dfd7cca00c724048832264cb92c10d3",
+      "goldenAnimation": "TRL_900_PremiumCard.asset:7e4c1ce0305ae6c41968cf421ae54210"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [
+      {
+        "field": "own Tag 791",
+        "firstObservedBuild": 247416,
+        "date": null,
+        "launchReferencedRush": true,
+        "actualFirstEffectiveDay": null,
+        "interpretation": "observation is not an effective-date proof; missing own tag does not prove no operation"
+      }
+    ],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "114": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "20",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {
+      "791": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "114": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "20",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "791": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "1452": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "50213",
+        "type": "Int"
+      },
+      "1584": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "4533": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Halazzi der Luchs"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Halazzi, the Lynx"
+          },
+          "esES": {
+            "present": true,
+            "value": "Halazzi, el lince"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Halazzi, el lince"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Halazzi, le lynx"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Halazzi, la Lince"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "オオヤマネコのロア・ハラッジ"
+          },
+          "koKR": {
+            "present": true,
+            "value": "스라소니 할라지"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Ryś Halazi"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Halazzi, o Lince"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Халаззи, лоа-рысь"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เทพแมวป่า ฮาลาซซี"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "哈尔拉兹，山猫之神"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "『山貓』哈拉齊"
+          }
+        },
+        "textContent": "\n\t\t\tHalazzi der Luchs\n\t\t\tHalazzi, the Lynx\n\t\t\tHalazzi, el lince\n\t\t\tHalazzi, el lince\n\t\t\tHalazzi, le lynx\n\t\t\tHalazzi, la Lince\n\t\t\tオオヤマネコのロア・ハラッジ\n\t\t\t스라소니 할라지\n\t\t\tRyś Halazi\n\t\t\tHalazzi, o Lince\n\t\t\tХалаззи, лоа-рысь\n\t\t\tเทพแมวป่า ฮาลาซซี\n\t\t\t哈尔拉兹，山猫之神\n\t\t\t『山貓』哈拉齊\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Kampfschrei:</b> Füllt Eure Hand mit Luchsen (1/1), die <b>Eifer</b> haben."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Grito de batalla:</b> Llena\ntu mano de linces 1/1\ncon <b>Embestir</b>."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> llena tu mano de Linces 1/1 con <b>Acometida</b>."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> remplit votre main de lynx_1/1 avec <b>Ruée</b>."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b>\nriempie la tua mano di\nLinci 1/1 con <b>Assalto</b>."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>雄叫び:</b>\n自分の手札を<b>急襲</b>を持つ\n1/1の「オオヤマネコ」で\nいっぱいにする。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>전투의_함성:</b> 내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b> Zapełnij twoją rękę Rysiami 1/1 ze_<b>Zrywem</b>."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b> Encha sua mão com Linces 1/1 que têm <b>Rapidez</b>."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> заполняет руку рысями 1/1 с_<b>«Натиском»</b>."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b> เพิ่มแมวป่า_1/1 ที่มี <b>จู่โจม</b> จนเต็มมือคุณ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>将1/1并具有<b>突袭</b>的山猫置入你的手牌，直到你的手牌数量达到上限。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>戰吼：</b>用有<b>衝刺</b>的1/1山貓塞滿你的手牌"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Kampfschrei:</b> Füllt Eure Hand mit Luchsen (1/1), die <b>Eifer</b> haben.\n\t\t\t<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.\n\t\t\t[x]<b>Grito de batalla:</b> Llena\ntu mano de linces 1/1\ncon <b>Embestir</b>.\n\t\t\t<b>Grito de batalla:</b> llena tu mano de Linces 1/1 con <b>Acometida</b>.\n\t\t\t<b>Cri de guerre :</b> remplit votre main de lynx_1/1 avec <b>Ruée</b>.\n\t\t\t[x]<b>Grido di Battaglia:</b>\nriempie la tua mano di\nLinci 1/1 con <b>Assalto</b>.\n\t\t\t[x]<b>雄叫び:</b>\n自分の手札を<b>急襲</b>を持つ\n1/1の「オオヤマネコ」で\nいっぱいにする。\n\t\t\t<b>전투의_함성:</b> 내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다.\n\t\t\t<b>Okrzyk bojowy:</b> Zapełnij twoją rękę Rysiami 1/1 ze_<b>Zrywem</b>.\n\t\t\t<b>Grito de Guerra:</b> Encha sua mão com Linces 1/1 que têm <b>Rapidez</b>.\n\t\t\t<b>Боевой клич:</b> заполняет руку рысями 1/1 с_<b>«Натиском»</b>.\n\t\t\t<b>คำรามสู้ศึก:</b> เพิ่มแมวป่า_1/1 ที่มี <b>จู่โจม</b> จนเต็มมือคุณ\n\t\t\t<b>战吼：</b>将1/1并具有<b>突袭</b>的山猫置入你的手牌，直到你的手牌数量达到上限。\n\t\t\t<b>戰吼：</b>用有<b>衝刺</b>的1/1山貓塞滿你的手牌\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Nennt ihn nicht Katze_– sonst wird er luchsteufelswild!"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Remember, you’re only as strong as your weakest lynx."
+          },
+          "esES": {
+            "present": true,
+            "value": "Lince real y metafórico."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Quizás necesite manicura, pero jamás un oculista."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Un chat peut en cacher un autre… ou plusieurs !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "L'etimologia della parola linciare, secondo i Troll, proviene da Halazzi."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "闘技場の王者を目指して決闘するオオヤマネコ、つまり…\n闘技…王…デュエル…リン…おっとこれ以上はいけねぇ。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "너만 제때 잡으면 4공물인데!"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Gdy ktoś stroi sobie żarty z jego pędzelków, budzi się w nim bestia."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Ele tem orelha pontuda, mas não vá comprar gato por lebre."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "До сих пор не любит оказываться в одной коллекции с Малакрассом."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ฮาลาซซีมีลูกแมวเหมียว ลูกแมวเหมียวเต็มมือ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "山猫种群的强度取决于最弱的那一只。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "上一個叫哈拉齊去鏟土的人已經慘死在他的爪下。"
+          }
+        },
+        "textContent": "\n\t\t\tNennt ihn nicht Katze_– sonst wird er luchsteufelswild!\n\t\t\tRemember, you’re only as strong as your weakest lynx.\n\t\t\tLince real y metafórico.\n\t\t\tQuizás necesite manicura, pero jamás un oculista.\n\t\t\tUn chat peut en cacher un autre… ou plusieurs !\n\t\t\tL'etimologia della parola linciare, secondo i Troll, proviene da Halazzi.\n\t\t\t闘技場の王者を目指して決闘するオオヤマネコ、つまり…\n闘技…王…デュエル…リン…おっとこれ以上はいけねぇ。\n\t\t\t너만 제때 잡으면 4공물인데!\n\t\t\tGdy ktoś stroi sobie żarty z jego pędzelków, budzi się w nim bestia.\n\t\t\tEle tem orelha pontuda, mas não vá comprar gato por lebre.\n\t\t\tДо сих пор не любит оказываться в одной коллекции с Малакрассом.\n\t\t\tฮาลาซซีมีลูกแมวเหมียว ลูกแมวเหมียวเต็มมือ\n\t\t\t山猫种群的强度取决于最弱的那一只。\n\t\t\t上一個叫哈拉齊去鏟土的人已經慘死在他的爪下。\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Arthur Bozonnet"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Halazzi der Luchs"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Halazzi, the Lynx"
+          },
+          "esES": {
+            "present": true,
+            "value": "Halazzi, el lince"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Halazzi, el lince"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Halazzi, le lynx"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Halazzi, la Lince"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "オオヤマネコのロア・ハラッジ"
+          },
+          "koKR": {
+            "present": true,
+            "value": "스라소니 할라지"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Ryś Halazi"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Halazzi, o Lince"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Халаззи, лоа-рысь"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เทพแมวป่า ฮาลาซซี"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "哈尔拉兹，山猫之神"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "『山貓』哈拉齊"
+          }
+        },
+        "textContent": "\n\t\tHalazzi der Luchs\n\t\tHalazzi, the Lynx\n\t\tHalazzi, el lince\n\t\tHalazzi, el lince\n\t\tHalazzi, le lynx\n\t\tHalazzi, la Lince\n\t\tオオヤマネコのロア・ハラッジ\n\t\t스라소니 할라지\n\t\tRyś Halazi\n\t\tHalazzi, o Lince\n\t\tХалаззи, лоа-рысь\n\t\tเทพแมวป่า ฮาลาซซี\n\t\t哈尔拉兹，山猫之神\n\t\t『山貓』哈拉齊\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Eifer</b>. <b>Kampfschrei:</b>& Füllt Eure Hand mit Luchsen (1/1), die <b>Eifer</b> haben."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Rush</b>. <b>Battlecry:</b>& Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Embestir</b> <b>Grito de batalla:</b>& Llena tu mano de linces 1/1 con <b>Embestir</b>."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Acometida</b>\n<b>Grito de batalla:</b>& llena tu mano de Linces 1/1 con <b>Acometida</b>."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Ruée</b>\n<b>Cri de guerre_:</b>& remplit votre main de lynx_1/1 avec <b>Ruée</b>."
+          },
+          "itIT": {
+            "present": true,
+            "value": "<b>Assalto</b>. <b>Grido di Battaglia:</b>& riempie la tua mano di Linci 1/1 con <b>Assalto</b>."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>急襲</b>、\n<b>雄叫び:</b>&\n自分の手札を<b>急襲</b>を持つ\n1/1の「オオヤマネコ」で\nいっぱいにする。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>속공</b>, <b>전투의 함성</b>:& 내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Zryw</b>\n<b>Okrzyk bojowy:</b>& zapełnij twoją_rękę Rysiami_1/1 ze_<b>Zrywem</b>."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Rapidez</b>. <b>Grito de Guerra:</b>& Encha sua mão com Linces 1/1 que têm <b>Rapidez</b>."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Натиск</b>. <b>Боевой клич:</b>& заполняет руку рысями 1/1 с_<b>«Натиском»</b>."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>จู่โจม</b>_<b>คำรามสู้ศึก:</b>&_[b]เพิ่มแมวป่า_1/1_ที่มี <b>จู่โจม</b>_จนเต็มมือคุณ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>突袭</b>。<b>战吼：</b>&用1/1并具有<b>突袭</b>的山猫填满你的手牌。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>衝刺</b>\n<b>戰吼：</b>&用有<b>衝刺</b>的1/1山貓塞滿你的手牌"
+          }
+        },
+        "textContent": "\n\t\t<b>Eifer</b>. <b>Kampfschrei:</b>& Füllt Eure Hand mit Luchsen (1/1), die <b>Eifer</b> haben.\n\t\t<b>Rush</b>. <b>Battlecry:</b>& Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.\n\t\t<b>Embestir</b> <b>Grito de batalla:</b>& Llena tu mano de linces 1/1 con <b>Embestir</b>.\n\t\t<b>Acometida</b>\n<b>Grito de batalla:</b>& llena tu mano de Linces 1/1 con <b>Acometida</b>.\n\t\t<b>Ruée</b>\n<b>Cri de guerre_:</b>& remplit votre main de lynx_1/1 avec <b>Ruée</b>.\n\t\t<b>Assalto</b>. <b>Grido di Battaglia:</b>& riempie la tua mano di Linci 1/1 con <b>Assalto</b>.\n\t\t[x]<b>急襲</b>、\n<b>雄叫び:</b>&\n自分の手札を<b>急襲</b>を持つ\n1/1の「オオヤマネコ」で\nいっぱいにする。\n\t\t<b>속공</b>, <b>전투의 함성</b>:& 내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다.\n\t\t<b>Zryw</b>\n<b>Okrzyk bojowy:</b>& zapełnij twoją_rękę Rysiami_1/1 ze_<b>Zrywem</b>.\n\t\t<b>Rapidez</b>. <b>Grito de Guerra:</b>& Encha sua mão com Linces 1/1 que têm <b>Rapidez</b>.\n\t\t<b>Натиск</b>. <b>Боевой клич:</b>& заполняет руку рысями 1/1 с_<b>«Натиском»</b>.\n\t\t<b>จู่โจม</b>_<b>คำรามสู้ศึก:</b>&_[b]เพิ่มแมวป่า_1/1_ที่มี <b>จู่โจม</b>_จนเต็มมือคุณ\n\t\t<b>突袭</b>。<b>战吼：</b>&用1/1并具有<b>突袭</b>的山猫填满你的手牌。\n\t\t<b>衝刺</b>\n<b>戰吼：</b>&用有<b>衝刺</b>的1/1山貓塞滿你的手牌\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Nennt ihn nicht Katze_– sonst wird er luchsteufelswild!"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Remember, you’re only as strong as your weakest lynx."
+          },
+          "esES": {
+            "present": true,
+            "value": "Lince real y metafórico."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Quizás necesite manicura, pero jamás un oculista."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Un chat peut en cacher un autre… ou plusieurs !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "L'etimologia della parola linciare, secondo i Troll, proviene da Halazzi."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "闘技場の王者を目指して決闘するオオヤマネコ、つまり…\n闘技…王…デュエル…リン…おっとこれ以上はいけねぇ。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "너만 제때 잡으면 4공물인데!"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Gdy ktoś stroi sobie żarty z jego pędzelków, budzi się w nim bestia."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Ele tem orelha pontuda, mas não vá comprar gato por lebre."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "До сих пор не любит оказываться в одной коллекции с Малакрассом."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ฮาลาซซีมีลูกแมวเหมียว ลูกแมวเหมียวเต็มมือ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "山猫种群的强度取决于最弱的那一只。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "上一個叫哈拉齊去鏟土的人已經慘死在他的爪下。"
+          }
+        },
+        "textContent": "\n\t\tNennt ihn nicht Katze_– sonst wird er luchsteufelswild!\n\t\tRemember, you’re only as strong as your weakest lynx.\n\t\tLince real y metafórico.\n\t\tQuizás necesite manicura, pero jamás un oculista.\n\t\tUn chat peut en cacher un autre… ou plusieurs !\n\t\tL'etimologia della parola linciare, secondo i Troll, proviene da Halazzi.\n\t\t闘技場の王者を目指して決闘するオオヤマネコ、つまり…\n闘技…王…デュエル…リン…おっとこれ以上はいけねぇ。\n\t\t너만 제때 잡으면 4공물인데!\n\t\tGdy ktoś stroi sobie żarty z jego pędzelków, budzi się w nim bestia.\n\t\tEle tem orelha pontuda, mas não vá comprar gato por lebre.\n\t\tДо сих пор не любит оказываться в одной коллекции с Малакрассом.\n\t\tฮาลาซซีมีลูกแมวเหมียว ลูกแมวเหมียวเต็มมือ\n\t\t山猫种群的强度取决于最弱的那一只。\n\t\t上一個叫哈拉齊去鏟土的人已經慘死在他的爪下。\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Arthur Bozonnet"
+      }
+    },
+    "undatedRawTagTransitions": [
+      {
+        "build": 54613,
+        "id": "TRL_900",
+        "dbfId": 50659,
+        "name": "스라소니 할라지",
+        "rawDiff": {
+          "1584": [
+            "ABSENT",
+            "1"
+          ]
+        },
+        "tagNames": {
+          "1584": "1"
+        },
+        "decision": "native_bookkeeping_or_other_mode_not_balance",
+        "relatedFindings": [],
+        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/9b95dea77dbb4d116e861df8b650d80b1b4385d1/CardDefs.xml"
+      },
+      {
+        "build": 170824,
+        "id": "TRL_900",
+        "dbfId": 50659,
+        "name": "스라소니 할라지",
+        "rawDiff": {
+          "1452": [
+            "ABSENT",
+            "50213"
+          ]
+        },
+        "tagNames": {
+          "1452": "COLLECTION_RELATED_CARD_DATABASE_ID"
+        },
+        "decision": "native_bookkeeping_or_other_mode_not_balance",
+        "relatedFindings": [],
+        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml"
+      },
+      {
+        "build": 237510,
+        "id": "TRL_900",
+        "dbfId": 50659,
+        "name": "스라소니 할라지",
+        "rawDiff": {
+          "47": [
+            "3",
+            "4"
+          ],
+          "48": [
+            "5",
+            "4"
+          ]
+        },
+        "tagNames": {
+          "47": "ATK",
+          "48": "COST"
+        },
+        "decision": "gameplay_stat_change",
+        "relatedFindings": [
+          "RAST-BAL-M005"
+        ],
+        "note": "공식 변경 공지와 원본 ID 전후 비교로 확정. 출시일/Core 개방일과 구별.",
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/a770d899b7ea12594f2edfc7d097f6ee0a858eb8/CardDefs.xml"
+      },
+      {
+        "build": 247416,
+        "id": "TRL_900",
+        "dbfId": 50659,
+        "name": "스라소니 할라지",
+        "rawDiff": {
+          "791": [
+            "ABSENT",
+            "1"
+          ]
+        },
+        "tagNames": {
+          "791": "RUSH"
+        },
+        "decision": "rush_ownership_transition_actual_effective_day_unresolved",
+        "relatedFindings": [],
+        "note": "자체/참조 속공 태그 이동. 실제 속공 작동이 이날 시작되었다는 증거로 삼지 않음.",
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/cc80e8aa220f39632c9c742f8587265f7569c5ef/CardDefs.xml"
+      },
+      {
+        "build": 254477,
+        "id": "TRL_900",
+        "dbfId": 50659,
+        "name": "스라소니 할라지",
+        "rawDiff": {
+          "4533": [
+            "ABSENT",
+            "1"
+          ]
+        },
+        "tagNames": {
+          "4533": "1"
+        },
+        "decision": "native_bookkeeping_or_other_mode_not_balance",
+        "relatedFindings": [],
+        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/7fce0fa55971169c7dc17915e689f6e525419fb1/CardDefs.xml"
+      }
+    ],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "스라소니 할라지",
+      "enUS": "Halazzi, the Lynx"
+    },
+    "currentPrintedText": {
+      "koKR": "스라소니 할라지",
+      "enUS": "Halazzi, the Lynx"
+    },
+    "undatedCurrentDifferences": [],
+    "halazziRushEvidence": {
+      "officialIntentAndPrintedTextDate": "2026-03-11",
+      "firstObservedOwnedTagBuild": 247416,
+      "actualFirstFunctioningOwnRushKoreanDate": null,
+      "absenceAloneProvesNoRush": false,
+      "allBuildTimeline": [
+        {
+          "build": 27845,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/0565689bc30e7fe550053066d033958f1f90033f/CardDefs.xml"
+        },
+        {
+          "build": 28116,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/3419809a95fe35eb4647c4a88fb82b9b9ac50bb4/CardDefs.xml"
+        },
+        {
+          "build": 28242,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/1a69a81aa9bbe99d9fc6ee7048fc32614b5fe44d/CardDefs.xml"
+        },
+        {
+          "build": 28329,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/e6f83dcccd27eebb11dfa9bd0b35f93d31da61fe/CardDefs.xml"
+        },
+        {
+          "build": 28556,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/f9d936096897c6fd4d723102381769efd8b9be89/CardDefs.xml"
+        },
+        {
+          "build": 28855,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/aeffaf09cdbba14654c4543792558fab68cee363/CardDefs.xml"
+        },
+        {
+          "build": 29349,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/ae1e5de11d7172cf286132df21585bb54ed77d9e/CardDefs.xml"
+        },
+        {
+          "build": 29933,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/ac324ef2563b800a8427758e1f47367007ce41e1/CardDefs.xml"
+        },
+        {
+          "build": 30103,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/3e1a03e9c4206c1cff264d1b7d9fcb522ed8a059/CardDefs.xml"
+        },
+        {
+          "build": 30795,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/32c8b31a69662efc5984a09f7ba5eaced12ff4c8/CardDefs.xml"
+        },
+        {
+          "build": 31022,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/089a94c2fc524cc52ee7697ad4430fd52240d6a0/CardDefs.xml"
+        },
+        {
+          "build": 31268,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/d4dcf70622f19beddd0d6d56fdd5f053da99d223/CardDefs.xml"
+        },
+        {
+          "build": 31353,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/357fd33c354c4435c0b6a5f3ae68cd6e46601605/CardDefs.xml"
+        },
+        {
+          "build": 31532,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/94a000b99a9d10fa4141c37de8834ba7b663e73b/CardDefs.xml"
+        },
+        {
+          "build": 31761,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/02522f4d57def8c5c72deb6dfd537cbab6f819de/CardDefs.xml"
+        },
+        {
+          "build": 32708,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/adedd63ac6a9181d379fcf320648fa4c7fb9ebf2/CardDefs.xml"
+        },
+        {
+          "build": 33157,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/85b5a219afe49d5015725c344fd7412945a346b7/CardDefs.xml"
+        },
+        {
+          "build": 33402,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/dd224aedef671a1bad6479df2a0e9cb2ea6da3cc/CardDefs.xml"
+        },
+        {
+          "build": 33717,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/cbb57f87b5d16b6349ff53903feb92f5b855c654/CardDefs.xml"
+        },
+        {
+          "build": 34104,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/c75778093ab53d66d6e4dc2e9d96d5cf8e8872d4/CardDefs.xml"
+        },
+        {
+          "build": 34670,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/52c5db4b0561d772f697c523a93ca9ee759374e1/CardDefs.xml"
+        },
+        {
+          "build": 35057,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/46f259cb170cfe8c40385925449f7c702e0b0577/CardDefs.xml"
+        },
+        {
+          "build": 35747,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/dc7133a2a1bcec082f69d4dc465625f45bba5e18/CardDefs.xml"
+        },
+        {
+          "build": 36393,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/e6cdbc5b1aa76a4759bdb18c877c2ad9cf3f327b/CardDefs.xml"
+        },
+        {
+          "build": 37060,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/ea858f4b4257bc400bcb6f64906c95292b27aac2/CardDefs.xml"
+        },
+        {
+          "build": 38034,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/68a7c044b27f782ae6e9f8dd08590da080b93c21/CardDefs.xml"
+        },
+        {
+          "build": 38203,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/688060edfdee2c77a0f007204de267b9b7b0f98e/CardDefs.xml"
+        },
+        {
+          "build": 38377,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/77c6445438a4d05131cfd50964cecfc851adc418/CardDefs.xml"
+        },
+        {
+          "build": 39282,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/69db370907715f67ae40854a78ffdef55b853a56/CardDefs.xml"
+        },
+        {
+          "build": 39954,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/0c091072d23d7b05fc8eb4f42af74dd6b1e22488/CardDefs.xml"
+        },
+        {
+          "build": 40734,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/8122b306aa284fa829f42347e5ea464cf28eea2c/CardDefs.xml"
+        },
+        {
+          "build": 42174,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/87826d798af6dc58dace839774a708e0cd1e46ca/CardDefs.xml"
+        },
+        {
+          "build": 43246,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/880a9c120d53c05432593e9b3007ecf29f3ccb88/CardDefs.xml"
+        },
+        {
+          "build": 44222,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/fc67953f6f6eee064badde3f4a7bd07011508642/CardDefs.xml"
+        },
+        {
+          "build": 44582,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/682af4a038a26cc2f8ba383cdd639c21900f69a2/CardDefs.xml"
+        },
+        {
+          "build": 45310,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/d80b283f68916e124a4aa1fdfc833f296d8eb9bd/CardDefs.xml"
+        },
+        {
+          "build": 45932,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/aabc9af539d7c540539f2678b16bcc5007c9f6dd/CardDefs.xml"
+        },
+        {
+          "build": 47374,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/5917d30ad2bb049d99b8f70c77c13c796420ddf1/CardDefs.xml"
+        },
+        {
+          "build": 48313,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/e308a1e98919368b3bc91f76640fb49e65dfe775/CardDefs.xml"
+        },
+        {
+          "build": 48705,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/3c95d5d838cd95a37139beb83201f6eb8e028844/CardDefs.xml"
+        },
+        {
+          "build": 49534,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/e721b446d72fa20fd58139da93f7af31e5eb2333/CardDefs.xml"
+        },
+        {
+          "build": 51510,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/69ddd393569c409865ab92d306e6da06d7639cb5/CardDefs.xml"
+        },
+        {
+          "build": 53261,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/94361f34f3bb9177be08b0b2d35d348ebdc99b55/CardDefs.xml"
+        },
+        {
+          "build": 54613,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9b95dea77dbb4d116e861df8b650d80b1b4385d1/CardDefs.xml"
+        },
+        {
+          "build": 56359,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/81bb9aa5306b3d66db6a597eee81f961426bab5d/CardDefs.xml"
+        },
+        {
+          "build": 58213,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/eda4d1fccf073b30a65a966fa0ce8f9b78a56de1/CardDefs.xml"
+        },
+        {
+          "build": 58638,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/38f3341eee213b86b036f4e23e5c3e7157767863/CardDefs.xml"
+        },
+        {
+          "build": 60352,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/1c14ec33e287845131b5178f4d7578e8716984c2/CardDefs.xml"
+        },
+        {
+          "build": 62331,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/eba597678135f7ee4c9407f098518eb707dcc5e7/CardDefs.xml"
+        },
+        {
+          "build": 63160,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/5395fa418ceaedd6f4328cf3ed28afae1a0fc3b1/CardDefs.xml"
+        },
+        {
+          "build": 65000,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/97e337b5216f03c118cc1ddeca65eda5699b1b65/CardDefs.xml"
+        },
+        {
+          "build": 65614,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/ba5a33b9b97044b5ee0f1583724dd6ea198cdd20/CardDefs.xml"
+        },
+        {
+          "build": 66927,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/f1deab0132184fa17e4249b17b012a7b23154842/CardDefs.xml"
+        },
+        {
+          "build": 68600,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/cb9444afd722a16112745e5510ec191d8c813c07/CardDefs.xml"
+        },
+        {
+          "build": 70828,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/f3df9bffdda2229826511fdc10ff7dbf8a3e4f2e/CardDefs.xml"
+        },
+        {
+          "build": 70986,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/3d365015c58e43de5a4afdadccad8e726d9c16d2/CardDefs.xml"
+        },
+        {
+          "build": 71003,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/018efa398fbdb3dcd223319c36105652a59120ae/CardDefs.xml"
+        },
+        {
+          "build": 71603,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/2f78484cea990616bacc98ec870087f30ba9ed12/CardDefs.xml"
+        },
+        {
+          "build": 72661,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/72fe3b08d3225f37110f49e3712b1dbbf80f9e7a/CardDefs.xml"
+        },
+        {
+          "build": 73652,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/48f9590ce66d87b30530b411ed7fe18a0fa10db1/CardDefs.xml"
+        },
+        {
+          "build": 74257,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/132c8a94327896bbd9b911d7ee26086df7089290/CardDefs.xml"
+        },
+        {
+          "build": 77662,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+        },
+        {
+          "build": 79904,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/20a0a559866f43d3f9814a1ebef8c340d5f12c53/CardDefs.xml"
+        },
+        {
+          "build": 81706,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/ff28eca10bb7024bd9f7c92a3fa0e2ab63a5e78d/CardDefs.xml"
+        },
+        {
+          "build": 82994,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/2628f7f1b878f7511d7e47f28e22ab41f33313ea/CardDefs.xml"
+        },
+        {
+          "build": 83143,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/e1e99f1d22d8a2b11742f8a9892bfeb81e9b1c44/CardDefs.xml"
+        },
+        {
+          "build": 84593,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/fa74387378b5cae08cf023e71eab31514401f716/CardDefs.xml"
+        },
+        {
+          "build": 86314,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/ff4a358b71f1c38692d162b0e2d7982dd3afab63/CardDefs.xml"
+        },
+        {
+          "build": 86601,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/11eb357a620fba9f95b89cd3c592783d3cb1383a/CardDefs.xml"
+        },
+        {
+          "build": 88605,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/e314b8a1ed5a21c8b7d91277a11977764eb93392/CardDefs.xml"
+        },
+        {
+          "build": 88998,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/d90c4ef03b3749f69ae4626cfcc2ccbd01c76cf6/CardDefs.xml"
+        },
+        {
+          "build": 91040,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/99201f9ebe38f144a631d6a67b30b356d0f05110/CardDefs.xml"
+        },
+        {
+          "build": 91456,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/5b712b56565f78fc7f143e753e435c9f3a8eb8cf/CardDefs.xml"
+        },
+        {
+          "build": 93227,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/8485dc6e19cb244e5a49ff49e54b9d31432e31b5/CardDefs.xml"
+        },
+        {
+          "build": 93849,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/fbbe91a74adc940ef83c9187464d1a640db2bddb/CardDefs.xml"
+        },
+        {
+          "build": 95431,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/e8bb5c0cbcbf8ad19c4153508106540b56adc60a/CardDefs.xml"
+        },
+        {
+          "build": 121569,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/12d16f3fb3e3888a5d57278fedb52398d1018c6c/CardDefs.xml"
+        },
+        {
+          "build": 124497,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/46a75b25a9f532b18171cd8f336cd18ba2ed85d6/CardDefs.xml"
+        },
+        {
+          "build": 126299,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/0c209c9a2df9cda1e9a8e239667a34bab8a08bf5/CardDefs.xml"
+        },
+        {
+          "build": 126451,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/06ac4d03d8513ba8ab10862a60eb0df01ea5bdb8/CardDefs.xml"
+        },
+        {
+          "build": 126807,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/4c0e0aa6a3e46dbe7b294c985124fbbc9871b43b/CardDefs.xml"
+        },
+        {
+          "build": 127581,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/bd593235b5828d9463ca8182055bf010358a2f1c/CardDefs.xml"
+        },
+        {
+          "build": 128654,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/e7f2358de4198ecf539f2a9597656d165ee6d16f/CardDefs.xml"
+        },
+        {
+          "build": 130051,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/254bb46a7c879a0d339ecb08684f21999e7202b7/CardDefs.xml"
+        },
+        {
+          "build": 131337,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/7f8f6d7730829f34549314f3a66f27589dd86332/CardDefs.xml"
+        },
+        {
+          "build": 131660,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/533b0d8559a9e60b1b4a26c764a4c8ad0e91993e/CardDefs.xml"
+        },
+        {
+          "build": 133122,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/e4b1878c73c1672885ad09f8df00d29d99d2aa22/CardDefs.xml"
+        },
+        {
+          "build": 133923,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/4c2407dfc9872007f884342531a16608caec528b/CardDefs.xml"
+        },
+        {
+          "build": 134558,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/d48f0a5642df703653cfe141e94310dfb78b5642/CardDefs.xml"
+        },
+        {
+          "build": 135540,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9016168146cc3ce0369e8cbc54eb8395afba75a0/CardDefs.xml"
+        },
+        {
+          "build": 137436,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/08bac5520bd01f1c4d9493debc9b3e5b26197153/CardDefs.xml"
+        },
+        {
+          "build": 137922,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/bc1c29a1052a8acb2aa1f0d374807924a2dfa139/CardDefs.xml"
+        },
+        {
+          "build": 138759,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/f091c9dac2c463417d3bacf847803138287b97d1/CardDefs.xml"
+        },
+        {
+          "build": 139522,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/7600910a8bfbab6ba5b7deea5910ab01f1108ac0/CardDefs.xml"
+        },
+        {
+          "build": 139719,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/f6627cada01e8defa46d94d60f646f7ec4ab55f0/CardDefs.xml"
+        },
+        {
+          "build": 139963,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/d95f1fcf75d638bdcc4b8ee3714e46473a068f33/CardDefs.xml"
+        },
+        {
+          "build": 141643,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/bdbccfdb08b8535178575d712f4fbfde13ccbed8/CardDefs.xml"
+        },
+        {
+          "build": 142295,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/086ce5a8c3e96e883f59c4449e8099a61e85aa21/CardDefs.xml"
+        },
+        {
+          "build": 143410,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/4fe259fab7746620800bdcfe0eed566879b25ae4/CardDefs.xml"
+        },
+        {
+          "build": 144772,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/931adabee4043c498162ea8e302ab2b3157dcf4c/CardDefs.xml"
+        },
+        {
+          "build": 145077,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9bb8141a10a96678a8377dc94856a709ba6bcfdb/CardDefs.xml"
+        },
+        {
+          "build": 147348,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/fa264cc2d1267d71a8de6f5163f3e0b6550bba4a/CardDefs.xml"
+        },
+        {
+          "build": 148211,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/6b7df5ac4d7f2ba95338ebd731e6085ae8d01abb/CardDefs.xml"
+        },
+        {
+          "build": 148526,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/714a8780ea5f9c32b635d3f44f48596713b10b18/CardDefs.xml"
+        },
+        {
+          "build": 149417,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/48c009522f83553f941af53266b41bd6c74f1ee9/CardDefs.xml"
+        },
+        {
+          "build": 150659,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/7a12a91074f6db066452cd038da2868f6b3eca49/CardDefs.xml"
+        },
+        {
+          "build": 152904,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/137007cb4afdd3bb160b9a1ffeab79cfc79a4f73/CardDefs.xml"
+        },
+        {
+          "build": 154203,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9250bfdc7e5caedea2732988dbfa2b4a4ba256a0/CardDefs.xml"
+        },
+        {
+          "build": 154818,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/fa7f2559f97b5d9d5f1b32d7596b1c21db6bd8c1/CardDefs.xml"
+        },
+        {
+          "build": 155409,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/beaa46cc24c1332ad91d4f7ae096024f6ff7d394/CardDefs.xml"
+        },
+        {
+          "build": 158725,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
+        },
+        {
+          "build": 159202,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/742c0010782909dbfc3ee689d46e71bbb94e3c15/CardDefs.xml"
+        },
+        {
+          "build": 160183,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/42e9758ece330a191806fd40b9985edeb846a184/CardDefs.xml"
+        },
+        {
+          "build": 160910,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/784f4fe867a913e4e1d287c11877173d6d5996b0/CardDefs.xml"
+        },
+        {
+          "build": 162171,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/a7e82f3f29bccdd90746ebc4e36d5fdcd009040d/CardDefs.xml"
+        },
+        {
+          "build": 162867,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/fef2909009d6c9e9d47c31446f65bd71f37216a0/CardDefs.xml"
+        },
+        {
+          "build": 163976,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/cf08a2eee9159a63ff589cfe2deabc4035673871/CardDefs.xml"
+        },
+        {
+          "build": 165029,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/ef8297aadee616ea2ffbc941a7b55a84b6cfc819/CardDefs.xml"
+        },
+        {
+          "build": 168129,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/63bdc035f2d50bc3857d01f88ad13d79b235a0c0/CardDefs.xml"
+        },
+        {
+          "build": 168788,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/0c2c469a3285c149bd57576c91bef49a6f1deb02/CardDefs.xml"
+        },
+        {
+          "build": 170126,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/da8f2db996f1e7191e501ebe2943af5636697e06/CardDefs.xml"
+        },
+        {
+          "build": 170824,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml"
+        },
+        {
+          "build": 172421,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9b76feb3155f6416239b5bc13c8977974b5225eb/CardDefs.xml"
+        },
+        {
+          "build": 173781,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/0238602958c2a3f362858704e07db42e078dc193/CardDefs.xml"
+        },
+        {
+          "build": 174258,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/be4dc7e9fcdcc90b2488a80d6f29c39b071da0d8/CardDefs.xml"
+        },
+        {
+          "build": 175913,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/b804d8717034f8dcba9e24f72dbb675734bba4f1/CardDefs.xml"
+        },
+        {
+          "build": 176014,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/5cbc5d9833705f25ccc356241b706856041b435a/CardDefs.xml"
+        },
+        {
+          "build": 178555,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/822275750a26fd5ec93f31a5318669d0607e199d/CardDefs.xml"
+        },
+        {
+          "build": 179020,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/68ba2349654e7d27de9695e30f177e4dc370af94/CardDefs.xml"
+        },
+        {
+          "build": 180614,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/8d75b318f31f3d4d1faf06f666cde029f0d140ac/CardDefs.xml"
+        },
+        {
+          "build": 181554,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/1a884ec23e99e4daa26637df99433c6e17bba63c/CardDefs.xml"
+        },
+        {
+          "build": 182995,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/87694e6f4330f111523f166d20988272bf7e857f/CardDefs.xml"
+        },
+        {
+          "build": 183433,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/8e245b2261e8ad268fdc1b6be514a9116cf2fef4/CardDefs.xml"
+        },
+        {
+          "build": 183876,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/0403e1f741685c19216e432ca8f097e07c7ff32e/CardDefs.xml"
+        },
+        {
+          "build": 184727,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/37115531586dce2fa79c984c84dc0537ad0183a2/CardDefs.xml"
+        },
+        {
+          "build": 184968,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/b9121adb586e9f0a381bcd34621c80742c213c59/CardDefs.xml"
+        },
+        {
+          "build": 185054,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/61eb4127e7466feced9e42727f77d1b2187554c3/CardDefs.xml"
+        },
+        {
+          "build": 185749,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/fc83e4997d376540fa853cf375580636baddd35d/CardDefs.xml"
+        },
+        {
+          "build": 186852,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/8ccc0f4629c876f2491af3ed8ae42b93877f98c7/CardDefs.xml"
+        },
+        {
+          "build": 187190,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/b0fbaba63b00c585aa58210accad20152ddcbd20/CardDefs.xml"
+        },
+        {
+          "build": 188645,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/d7ed66f4cef80d4bd4b9eb0614472642adee9189/CardDefs.xml"
+        },
+        {
+          "build": 189017,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/6a795ece148dd7f5657d3e932acc0358526c8e82/CardDefs.xml"
+        },
+        {
+          "build": 190145,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/d54c305705382070765ab101f8be4a9695098964/CardDefs.xml"
+        },
+        {
+          "build": 190416,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/d317cab9f15d7d14b44951cc5b9be01a56999455/CardDefs.xml"
+        },
+        {
+          "build": 190920,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/5399acff8b873ce1ae4457fc60118493d7e022f2/CardDefs.xml"
+        },
+        {
+          "build": 191554,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/7cf19a32f41d0b6ce5d3ef1b1ad5bf14c536d118/CardDefs.xml"
+        },
+        {
+          "build": 192412,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/939d7b5cfa554a5befc3077873574bb016ac2d42/CardDefs.xml"
+        },
+        {
+          "build": 192896,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/82d8156c5a1345bd7d5b8d211993539f2934c3f1/CardDefs.xml"
+        },
+        {
+          "build": 193128,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/373c4fc1212e9f6f66b2c0f3e25777879e91f6a8/CardDefs.xml"
+        },
+        {
+          "build": 193541,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/c3b395eca877e283473a9b7e9a8e851e9bb8cd0d/CardDefs.xml"
+        },
+        {
+          "build": 194648,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/21a49557ddd97ff2102871ff15c553cc5997223e/CardDefs.xml"
+        },
+        {
+          "build": 195316,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/b0d06776272138cab032979722d18ca4de6545f0/CardDefs.xml"
+        },
+        {
+          "build": 195635,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/e072e5d302a93dc6fb33542e7c528ae4d39560f0/CardDefs.xml"
+        },
+        {
+          "build": 197064,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/e73eeb8d2c284af5fcddc2db5fce692c77434cd8/CardDefs.xml"
+        },
+        {
+          "build": 198037,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/45e2335b6c1b64ec7cd553c5d1f911061d560ff0/CardDefs.xml"
+        },
+        {
+          "build": 198314,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/ddc1e086647527fc739452d94d45a5c6c420b5f5/CardDefs.xml"
+        },
+        {
+          "build": 198608,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/006fdf0942b023459dded469f95aa613d81579c8/CardDefs.xml"
+        },
+        {
+          "build": 198711,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/e84ad0af1cb6b1f40326f8d8cfc867e9f798103b/CardDefs.xml"
+        },
+        {
+          "build": 198933,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/d23ce14dc3ed90a2293a1c3b61f7a6a23d69ee88/CardDefs.xml"
+        },
+        {
+          "build": 199503,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/17a50502e6db1e46529c87ede9b4240d48e4f350/CardDefs.xml"
+        },
+        {
+          "build": 200097,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/d39cd253bed8684d32a3bec380054e0ecccab5f5/CardDefs.xml"
+        },
+        {
+          "build": 201108,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/d06f56cf223ebc40590c28d1b5b20cd522853130/CardDefs.xml"
+        },
+        {
+          "build": 201392,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/920a5e879b8744d4da82e7f8c262565734860151/CardDefs.xml"
+        },
+        {
+          "build": 202360,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/c8ac9ef48363e455e32ddcc4b5a179b8fb05c364/CardDefs.xml"
+        },
+        {
+          "build": 203120,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/e1be76d35321e673770e5e3424e7a4d16ba5753d/CardDefs.xml"
+        },
+        {
+          "build": 204283,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/a5e5be159e788d91c450d54643a32591a47e9faf/CardDefs.xml"
+        },
+        {
+          "build": 205031,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/196fbc9986661621013f697c0e66f52cd51750aa/CardDefs.xml"
+        },
+        {
+          "build": 205267,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/fe52442759f6e20ce43cef0b1ae62efeb7fe12a4/CardDefs.xml"
+        },
+        {
+          "build": 206433,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/34a8789f978b1219b71ae7e34e9c4bc4ccad09ea/CardDefs.xml"
+        },
+        {
+          "build": 206605,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/fa1e19923f57546cdb623a6aa30e34cea8b57b21/CardDefs.xml"
+        },
+        {
+          "build": 208182,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/c9bfd18b2ff534b13de0a4fa1ea11d87ff741afa/CardDefs.xml"
+        },
+        {
+          "build": 208591,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/37797c6c5e9af546306299ade90189454f2b16ac/CardDefs.xml"
+        },
+        {
+          "build": 209698,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/e6b9c5e51678d5035d1188f63c246326bb221c60/CardDefs.xml"
+        },
+        {
+          "build": 210009,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/0a387d653f339297339625710e4df91f0c62b67b/CardDefs.xml"
+        },
+        {
+          "build": 210640,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/e126d7460035edc7a5c66ed3d9afdd1260e85b9e/CardDefs.xml"
+        },
+        {
+          "build": 212031,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdeb9e0e03fd40bcef498dc6a396daf7956fd0a8/CardDefs.xml"
+        },
+        {
+          "build": 212197,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/f33c13329522d75a76313cd8def4b03058d81c78/CardDefs.xml"
+        },
+        {
+          "build": 213490,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/080221c0910f6f3991368f5d65bc634d21243462/CardDefs.xml"
+        },
+        {
+          "build": 213852,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/f26de4079261da86afd70b5a28b0a5abf20e7837/CardDefs.xml"
+        },
+        {
+          "build": 214839,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/624ca3b216661274e0101638dc458ce1f807fbc6/CardDefs.xml"
+        },
+        {
+          "build": 216149,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/937f34993d9f0c97070ca60963a6c7d6884c09d3/CardDefs.xml"
+        },
+        {
+          "build": 216423,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/a7f254963f3ff465d46967bf7869590f65c4cbc7/CardDefs.xml"
+        },
+        {
+          "build": 217489,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/62cc0f00dbed73f2d48ccefca6f611e6f8898986/CardDefs.xml"
+        },
+        {
+          "build": 217964,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
+        },
+        {
+          "build": 219197,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/00dcbf53dcf6cc4e6ea67c7c54f8cd012904fc74/CardDefs.xml"
+        },
+        {
+          "build": 219846,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/3949e70634365cc283f777ab176b1d8fa6b199c3/CardDefs.xml"
+        },
+        {
+          "build": 221175,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/b8d706a01ad07425fccac0386fda3e4002e47654/CardDefs.xml"
+        },
+        {
+          "build": 221850,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/b4a35db050f92c681f2932d002a4768b7f69e10a/CardDefs.xml"
+        },
+        {
+          "build": 221908,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/c19c0f1741cd1b1ac2042de3f3a99f9701ceb8a1/CardDefs.xml"
+        },
+        {
+          "build": 223184,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/5b6de70063e35de4eec7a75b3eba53d3f7b7760c/CardDefs.xml"
+        },
+        {
+          "build": 223542,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/b5c75290dd3b26c4f7935485d1465e2702177396/CardDefs.xml"
+        },
+        {
+          "build": 225000,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/f7e80e44cf0d02b5c6e6de2817d4d920cdcb9cb2/CardDefs.xml"
+        },
+        {
+          "build": 225406,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/41ea093bb24eb610f81c023f7d8a1eaaf8f204b3/CardDefs.xml"
+        },
+        {
+          "build": 226021,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/36651ef836036d155d5f5711fa138a707904919c/CardDefs.xml"
+        },
+        {
+          "build": 226642,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/2a7cd4f8f45665238f02b5a58f7d18e3c93c80ec/CardDefs.xml"
+        },
+        {
+          "build": 226928,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/0031c08679c8695eebe69e6634122f49542c1938/CardDefs.xml"
+        },
+        {
+          "build": 228373,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/d665997b4f20bf6f554f077827c7e9df4338d460/CardDefs.xml"
+        },
+        {
+          "build": 228587,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/f69196f9c296a0e1a1004be0cfb04e1a24e0e3d2/CardDefs.xml"
+        },
+        {
+          "build": 229238,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/f2174df7ab604eb359f1eb52375c4ae3e7531c82/CardDefs.xml"
+        },
+        {
+          "build": 229543,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/bdb21b7e1d31b3bfcd76e8c5d771d0ecc69d4906/CardDefs.xml"
+        },
+        {
+          "build": 229984,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/7eb0d118c1b8d6d465b5169af0c61e189b3e06fa/CardDefs.xml"
+        },
+        {
+          "build": 231191,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/1bcf802ffdd50731c53a2a06dd6e9da43caf858a/CardDefs.xml"
+        },
+        {
+          "build": 231720,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/fa70a9832bef837f20f11f419228ad3d82b46815/CardDefs.xml"
+        },
+        {
+          "build": 233025,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/1ae046d7159c901671d5ba0ae4545bc05d01deab/CardDefs.xml"
+        },
+        {
+          "build": 233275,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/eb55ef6bfc3441940555985c8875a102be327666/CardDefs.xml"
+        },
+        {
+          "build": 234747,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/98f5d9349a8d993ca01c049734a0ec25707140f0/CardDefs.xml"
+        },
+        {
+          "build": 235290,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/382ab7f189586f73a4fab4e11a3bc4e1d6827a08/CardDefs.xml"
+        },
+        {
+          "build": 236529,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "5",
+          "attack": "3",
+          "health": "2",
+          "text": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/0a5a61e3867ae9eea535bdbd4df714671ff87910/CardDefs.xml"
+        },
+        {
+          "build": 237510,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/a770d899b7ea12594f2edfc7d097f6ee0a858eb8/CardDefs.xml"
+        },
+        {
+          "build": 238003,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/b33fc0dc2bfac846a02a1272a7e90712cc09f2ae/CardDefs.xml"
+        },
+        {
+          "build": 238087,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/5e6e25dc87f430ff9604ffbceef0f3b9b7ac23ab/CardDefs.xml"
+        },
+        {
+          "build": 239422,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/552bca16aca965b882c1614b4673afa0f93d3f6e/CardDefs.xml"
+        },
+        {
+          "build": 239550,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/8616eadbbd159acd6009e50bce099b806d1467e1/CardDefs.xml"
+        },
+        {
+          "build": 240397,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/62b1db99f9ce03d0ef608164b007462566232196/CardDefs.xml"
+        },
+        {
+          "build": 240818,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/0c48b3cbe897e7cff6ef5f5722d0421c3711430e/CardDefs.xml"
+        },
+        {
+          "build": 241135,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/6ffe8675fdc725ebee1d90f469363812848f2240/CardDefs.xml"
+        },
+        {
+          "build": 241170,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/4e0a10f68ee3329bfda2e61bf7ab8bc5a191c0c3/CardDefs.xml"
+        },
+        {
+          "build": 241958,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/3b4b051a478011645936cde5ec47230768658033/CardDefs.xml"
+        },
+        {
+          "build": 242566,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/50e1a32a3285ed9f4b905420b532fd58d9c7392a/CardDefs.xml"
+        },
+        {
+          "build": 243002,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/f20ef234ef004ee4fa455ccebfd2781515203385/CardDefs.xml"
+        },
+        {
+          "build": 244584,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/38f2bde2391a663603a0f97b8e0c70e0a7c2fd2c/CardDefs.xml"
+        },
+        {
+          "build": 245096,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/0d639c98fc7a6f3e9a32ea35ebb512015f45e01d/CardDefs.xml"
+        },
+        {
+          "build": 245258,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/da2c40bb20e72fbbe5f7fae17bdf884d3cded930/CardDefs.xml"
+        },
+        {
+          "build": 246003,
+          "ownRush": "ABSENT",
+          "referencedRush": "1",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/59c1e1229b3e48ecbc4436fda2fb0a22030d3808/CardDefs.xml"
+        },
+        {
+          "build": 247416,
+          "ownRush": "1",
+          "referencedRush": "ABSENT",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/cc80e8aa220f39632c9c742f8587265f7569c5ef/CardDefs.xml"
+        },
+        {
+          "build": 248348,
+          "ownRush": "1",
+          "referencedRush": "ABSENT",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/51a0fc969353e1deae96aff363a8c9a4eb9eb388/CardDefs.xml"
+        },
+        {
+          "build": 249896,
+          "ownRush": "1",
+          "referencedRush": "ABSENT",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/061b452166bc85e231051f2f2553a5dece6ad928/CardDefs.xml"
+        },
+        {
+          "build": 250339,
+          "ownRush": "1",
+          "referencedRush": "ABSENT",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/bc742d57e0b057326b8cbf74fdf5f995310720f3/CardDefs.xml"
+        },
+        {
+          "build": 251332,
+          "ownRush": "1",
+          "referencedRush": "ABSENT",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/dee8a641ef8427cf853ca707c2e427e752a1e11f/CardDefs.xml"
+        },
+        {
+          "build": 251951,
+          "ownRush": "1",
+          "referencedRush": "ABSENT",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/e5df71047330658f85b73f7c908c457b06def6d5/CardDefs.xml"
+        },
+        {
+          "build": 251952,
+          "ownRush": "1",
+          "referencedRush": "ABSENT",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/5212f4e1783b54dca934f65174b9e3798107c6e7/CardDefs.xml"
+        },
+        {
+          "build": 253216,
+          "ownRush": "1",
+          "referencedRush": "ABSENT",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/5e9743bc97bbfd0195eb63a30c18bf9eea32814b/CardDefs.xml"
+        },
+        {
+          "build": 253932,
+          "ownRush": "1",
+          "referencedRush": "ABSENT",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/27fbd2323aec20cab1c6ecc7d5f55cf12729f956/CardDefs.xml"
+        },
+        {
+          "build": 254477,
+          "ownRush": "1",
+          "referencedRush": "ABSENT",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b>& Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/7fce0fa55971169c7dc17915e689f6e525419fb1/CardDefs.xml"
+        },
+        {
+          "build": 255026,
+          "ownRush": "1",
+          "referencedRush": "ABSENT",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b>& Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/be4ef28ef9bd9e613045d495138061ba31a6d2f9/CardDefs.xml"
+        },
+        {
+          "build": 255130,
+          "ownRush": "1",
+          "referencedRush": "ABSENT",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b>& Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/e456d49d2147358dec6764cffb963c8e8d748d12/CardDefs.xml"
+        },
+        {
+          "build": 255790,
+          "ownRush": "1",
+          "referencedRush": "ABSENT",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b>& Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/6ebd160cc0c685b10265f4d6bfe2ef69c3a0f226/CardDefs.xml"
+        },
+        {
+          "build": 256589,
+          "ownRush": "1",
+          "referencedRush": "ABSENT",
+          "cost": "4",
+          "attack": "4",
+          "health": "2",
+          "text": "<b>Rush</b>. <b>Battlecry:</b>& Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+          "generatedLynxID": "TRL_348t",
+          "generatedLynxOwnRush": "1",
+          "sourceURL": "https://github.com/HearthSim/hsdata/blob/31b034c26f24b8a66ece845ffd03c1ca397b9a02/CardDefs.xml"
+        }
+      ],
+      "selectedOriginalAndCoreComparison": [
+        {
+          "build": 237510,
+          "source": "https://github.com/HearthSim/hsdata/blob/a770d899b7ea12594f2edfc7d097f6ee0a858eb8/CardDefs.xml",
+          "bytes": 101814239,
+          "sha256": "a86b5126943a91ceb1e18decca646ce533f0a06c3fec34e12dc11f45e602c3e6",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "9d80ec16ec05dab7b242002c3d7beb8db405b37d"
+        },
+        {
+          "build": 238003,
+          "source": "https://github.com/HearthSim/hsdata/blob/b33fc0dc2bfac846a02a1272a7e90712cc09f2ae/CardDefs.xml",
+          "bytes": 101814229,
+          "sha256": "dac409004e8ea18873441f4771083600e4847f2e33a86fd62a80a675333099da",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "ac9ced6d72723fa975826bb376cb4ab95535f0e8"
+        },
+        {
+          "build": 238087,
+          "source": "https://github.com/HearthSim/hsdata/blob/5e6e25dc87f430ff9604ffbceef0f3b9b7ac23ab/CardDefs.xml",
+          "bytes": 101814229,
+          "sha256": "b29627d23fbf2104e665002414d8c34d74bdddd7caf3d5232b904875d28c6766",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "e891acf6c416e039bb378a70c4a1b6d29d99c356"
+        },
+        {
+          "build": 239422,
+          "source": "https://github.com/HearthSim/hsdata/blob/552bca16aca965b882c1614b4673afa0f93d3f6e/CardDefs.xml",
+          "bytes": 101816138,
+          "sha256": "d61d1d97381ccfdeafb2841dcf8d8a1f8fe3bc932768e9c08c76b7ff19e03d92",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "0cf167a78ccb82c8f16b7bb29e638192e462f727"
+        },
+        {
+          "build": 239550,
+          "source": "https://github.com/HearthSim/hsdata/blob/8616eadbbd159acd6009e50bce099b806d1467e1/CardDefs.xml",
+          "bytes": 102762308,
+          "sha256": "df17828c509e4a24f6ad86128192f7a7f1de5c26829f8d3a91b424dbd0f5bf0c",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "4a4b9c2abfd33146fbf218269f282dd49726715c"
+        },
+        {
+          "build": 240397,
+          "source": "https://github.com/HearthSim/hsdata/blob/62b1db99f9ce03d0ef608164b007462566232196/CardDefs.xml",
+          "bytes": 102762701,
+          "sha256": "ebb54b3513e2e0f3fc6b43d76ceb5f5c3920d8e56cf6dcfb7bfda1f980fdbfdb",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "94cae557b2fec1226fd5f4f41d46675a4156d7b0"
+        },
+        {
+          "build": 240818,
+          "source": "https://github.com/HearthSim/hsdata/blob/0c48b3cbe897e7cff6ef5f5722d0421c3711430e/CardDefs.xml",
+          "bytes": 102760726,
+          "sha256": "41f9a950f967df4e187876cdd3c4dbbde1db92fc8b4b785bfe2587e6539c0859",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "d60780c9bd9d7bcf280a97c75281d66e6b8d7118"
+        },
+        {
+          "build": 241135,
+          "source": "https://github.com/HearthSim/hsdata/blob/6ffe8675fdc725ebee1d90f469363812848f2240/CardDefs.xml",
+          "bytes": 102758408,
+          "sha256": "e510f23ef5f6be269ef06149aeb36a2f1278f99330b22cf2f45f7cfd7f1ebcc6",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "0f4235ac9071aa9807a6b7b9ebafcd9a87a5a94b"
+        },
+        {
+          "build": 241170,
+          "source": "https://github.com/HearthSim/hsdata/blob/4e0a10f68ee3329bfda2e61bf7ab8bc5a191c0c3/CardDefs.xml",
+          "bytes": 102994060,
+          "sha256": "be02a056eff4d2a6222a44aea5ad74396f439259ac9f1dc54083e6943376c455",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "5da19bc7d34cc0150bbd286be79fd1f01f6f33b4"
+        },
+        {
+          "build": 241958,
+          "source": "https://github.com/HearthSim/hsdata/blob/3b4b051a478011645936cde5ec47230768658033/CardDefs.xml",
+          "bytes": 102994060,
+          "sha256": "0bb8d973f5078b66bd3a995ed075e0e9fa008788bd94f4801a6540b713a26468",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "c3e5b511fc3fa7fcb7611c2ad6f3e61d4f763b20"
+        },
+        {
+          "build": 242566,
+          "source": "https://github.com/HearthSim/hsdata/blob/50e1a32a3285ed9f4b905420b532fd58d9c7392a/CardDefs.xml",
+          "bytes": 102990503,
+          "sha256": "163892f54a89ee8f5307bf13d006e2fae412e301773987df1f09c8d84b718d24",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "53c8fb337c5afcd244fa268a2709b9a90d0d0ef6"
+        },
+        {
+          "build": 243002,
+          "source": "https://github.com/HearthSim/hsdata/blob/f20ef234ef004ee4fa455ccebfd2781515203385/CardDefs.xml",
+          "bytes": 103264517,
+          "sha256": "64bf717f62e38542675e5306b35b8aedeaa5dd593bee8f29441e6cbfacf0b8ad",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "5fdd1725a2b91a6d20dbd9a9b5df8400bf441335"
+        },
+        {
+          "build": 244584,
+          "source": "https://github.com/HearthSim/hsdata/blob/38f2bde2391a663603a0f97b8e0c70e0a7c2fd2c/CardDefs.xml",
+          "bytes": 103263611,
+          "sha256": "1e2d422a4f143176b0042b717d9ae2351c4948c23cc052523288dc9c54ba5657",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "8452ef31582301e51066ddd86603b32a68780c52"
+        },
+        {
+          "build": 245096,
+          "source": "https://github.com/HearthSim/hsdata/blob/0d639c98fc7a6f3e9a32ea35ebb512015f45e01d/CardDefs.xml",
+          "bytes": 103263684,
+          "sha256": "7bfaea50ce01592b289bccc2ece52d0ac6fedfb1673dc04bef05e7cad14b1f75",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "cefbb0ce114eaaccfdc7f20eb920dbda9f6fa93f"
+        },
+        {
+          "build": 245258,
+          "source": "https://github.com/HearthSim/hsdata/blob/da2c40bb20e72fbbe5f7fae17bdf884d3cded930/CardDefs.xml",
+          "bytes": 104243416,
+          "sha256": "a379c53550aff1f73da158ca08483a775af73bee67120c417622f144f3dae8d0",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "cfd8c12f73404174e852c3b52922a951aaf744f9"
+        },
+        {
+          "build": 246003,
+          "source": "https://github.com/HearthSim/hsdata/blob/59c1e1229b3e48ecbc4436fda2fb0a22030d3808/CardDefs.xml",
+          "bytes": 104243761,
+          "sha256": "0ecabaa56386e967fa16f7595a022b391d2627f1e0a7892f4326f6d125232d83",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": false,
+              "referencedRush": true,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "fc13ecd8f4079eb93a126d222b56c0d57de1e138"
+        },
+        {
+          "build": 247416,
+          "source": "https://github.com/HearthSim/hsdata/blob/cc80e8aa220f39632c9c742f8587265f7569c5ef/CardDefs.xml",
+          "bytes": 104239425,
+          "sha256": "a3b0e3dcd112626aa47ba16ede1b26506eed175b1fda288c1b6952065c06aac4",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "ae617414dabe0312c0e863592aaca5c25982db6f"
+        },
+        {
+          "build": 248348,
+          "source": "https://github.com/HearthSim/hsdata/blob/51a0fc969353e1deae96aff363a8c9a4eb9eb388/CardDefs.xml",
+          "bytes": 103770840,
+          "sha256": "c2ad96c8b51488ccd7899ef663ea3844485e9c04dd7725e13f2562f3b3ff2620",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "2b1fbe6c35d17d1e48c42f79b75c1b5e58b19b16"
+        },
+        {
+          "build": 249896,
+          "source": "https://github.com/HearthSim/hsdata/blob/061b452166bc85e231051f2f2553a5dece6ad928/CardDefs.xml",
+          "bytes": 103774774,
+          "sha256": "d404143b43b195622aa536d45d58a849f313287b809a4a1a838c533098658943",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "9d9756afb9a63801e7d9010521541c5f5a68c75c"
+        },
+        {
+          "build": 250339,
+          "source": "https://github.com/HearthSim/hsdata/blob/bc742d57e0b057326b8cbf74fdf5f995310720f3/CardDefs.xml",
+          "bytes": 69153018,
+          "sha256": "b767ffdccfbb0392e37c799bfc84f7e21dd72acc3dd622e76a67969a456e3ca6",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "4023d5d8973fa4d86eb3d7466ec045b57a8bfd09"
+        },
+        {
+          "build": 251332,
+          "source": "https://github.com/HearthSim/hsdata/blob/dee8a641ef8427cf853ca707c2e427e752a1e11f/CardDefs.xml",
+          "bytes": 69153185,
+          "sha256": "267bd48488bb9419d12289a11c1245bc299e2ccb07e63651423696e112f5b342",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "2b9ba2c606210d5eff6d31a65cf3dd1e650df10d"
+        },
+        {
+          "build": 251951,
+          "source": "https://github.com/HearthSim/hsdata/blob/e5df71047330658f85b73f7c908c457b06def6d5/CardDefs.xml",
+          "bytes": 69153185,
+          "sha256": "b50b10d7d2d6ec3820e8d8c3495e0b527f495d8c0d9b95cc2e8e6a52b46fd220",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "bc4b5b9f5028684fd9df3e871f2aa52784a20382"
+        },
+        {
+          "build": 251952,
+          "source": "https://github.com/HearthSim/hsdata/blob/5212f4e1783b54dca934f65174b9e3798107c6e7/CardDefs.xml",
+          "bytes": 69274915,
+          "sha256": "cf1a321d73ebcf28b8d4086b610e2403dca3ec8fce3a8d3253ee23a33e8c25ed",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "776c24436048cf5f26f0a23d43f5d807b6bbcd3f"
+        },
+        {
+          "build": 253216,
+          "source": "https://github.com/HearthSim/hsdata/blob/5e9743bc97bbfd0195eb63a30c18bf9eea32814b/CardDefs.xml",
+          "bytes": 69274915,
+          "sha256": "efc142a3b8f3f423776d0c46f1022c9eac0013338684a15849187fffabc7f66b",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "66e69e307bf4b8474bd7527b0e36a37d61547eed"
+        },
+        {
+          "build": 253932,
+          "source": "https://github.com/HearthSim/hsdata/blob/27fbd2323aec20cab1c6ecc7d5f55cf12729f956/CardDefs.xml",
+          "bytes": 69276033,
+          "sha256": "6d75f63414c9ea0c1edaad9e2549aae7322cc0fde0f7953748ceb9c91ac1f419",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "22f2c3216463bb64283e1bf526559e045cfe937f"
+        },
+        {
+          "build": 254477,
+          "source": "https://github.com/HearthSim/hsdata/blob/7fce0fa55971169c7dc17915e689f6e525419fb1/CardDefs.xml",
+          "bytes": 70502087,
+          "sha256": "de717fc210614be2033152cffae6052fb1cd6b85812dc598218ce75263ca9df3",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b>& Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b>& Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "85a0d27024fe13b227765bb622b407deabd78c8c"
+        },
+        {
+          "build": 255026,
+          "source": "https://github.com/HearthSim/hsdata/blob/be4ef28ef9bd9e613045d495138061ba31a6d2f9/CardDefs.xml",
+          "bytes": 70509374,
+          "sha256": "d55d66eee4cd97a5114ef7c7db0e486601f92154f9415fa901e5a714d9445e62",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b>& Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b>& Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "1ee84c96f414ae662a99781be48392ab485b068f"
+        },
+        {
+          "build": 255130,
+          "source": "https://github.com/HearthSim/hsdata/blob/e456d49d2147358dec6764cffb963c8e8d748d12/CardDefs.xml",
+          "bytes": 70509381,
+          "sha256": "c7863b8fc7dd109d3e67230bf2efda319b175f8bd9ddfa955b5f4cb5cb267f0f",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b>& Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b>& Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "7a1cd5fd7f5bef7992a9bd370b45be12ef9a5328"
+        },
+        {
+          "build": 255790,
+          "source": "https://github.com/HearthSim/hsdata/blob/6ebd160cc0c685b10265f4d6bfe2ef69c3a0f226/CardDefs.xml",
+          "bytes": 70509381,
+          "sha256": "f951cda7eb91dced049ad515adb714bf787f32b1590d21a308578fa34807b9fa",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b>& Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b>& Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "b46fca8bf4217e63b92104d058e492304740fca3"
+        },
+        {
+          "build": 256589,
+          "source": "https://github.com/HearthSim/hsdata/blob/31b034c26f24b8a66ece845ffd03c1ca397b9a02/CardDefs.xml",
+          "bytes": 70507724,
+          "sha256": "420224a8c02eeea4ce7d3f1b39f50d5754b2b869118d4d215ef7c5ca1526594c",
+          "cards": {
+            "TRL_900": {
+              "dbfId": 50659,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b>& Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "CORE_TRL_900": {
+              "dbfId": 126891,
+              "ownRush": true,
+              "referencedRush": false,
+              "enText": "<b>Rush</b>. <b>Battlecry:</b>& Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            }
+          },
+          "gitBlobSHA": "85cb9ab112ea0be4e98350c68ad650606ec45c66"
+        }
+      ],
+      "assessment": "원본 능력치 변경일은 확정. 자체 속공 실제 최초 작동일은 미확정으로 별도 유지."
+    }
+  },
+  "_current": {
+    "id": "TRL_900",
+    "dbfId": 50659,
+    "name": "스라소니 할라지",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>속공</b>, <b>전투의 함성</b>: 내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다.",
+    "attack": 4,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "너만 제때 잡으면 4공물인데!",
+    "spellSchool": "",
+    "portrait": "HS15-020_M.psd:9e30526e79c20a94485ae423d5405231",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "수집품 관련 카드 데이터베이스 ID",
+        "value": 50213
+      },
+      {
+        "id": 1584,
+        "name": "게임 태그 1584",
+        "value": 1
+      },
+      {
+        "id": 4533,
+        "name": "제작 결과 능력",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/TRL_900.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_900",
+    "dbfId": 50659,
+    "name": "스라소니 할라지",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>전투의 함성:</b> 내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다.",
+    "attack": 3,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "너만 제때 잡으면 4공물인데!",
+    "spellSchool": "",
+    "portrait": "HS15-020_M.psd:9e30526e79c20a94485ae423d5405231",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "수집품 관련 카드 데이터베이스 ID",
+        "value": 50213
+      },
+      {
+        "id": 1584,
+        "name": "게임 태그 1584",
+        "value": 1
+      },
+      {
+        "id": 4533,
+        "name": "제작 결과 능력",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/TRL_900.png"
+  },
+  "2026-03-11": {
+    "cost": 4,
+    "attack": 4,
+    "text": "<b>속공</b>, <b>전투의 함성</b>: 내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "수집품 관련 카드 데이터베이스 ID",
+        "value": 50213
+      },
+      {
+        "id": 1584,
+        "name": "게임 태그 1584",
+        "value": 1
+      },
+      {
+        "id": 4533,
+        "name": "제작 결과 능력",
+        "value": 1
+      }
+    ],
+    "source": {
+      "findingId": "RAST-BAL-M005",
+      "confidence": "high",
+      "officialIntent": "35.0 adds Rush to Halazzi; first effective operation day remains unresolved"
+    }
+  }
+}

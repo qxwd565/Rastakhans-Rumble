@@ -1,1 +1,433 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_341t","dbfId":51868,"name":"고대정령","type":"MINION","cardClass":"DRUID","collectible":false,"cost":5,"text":"","attack":5,"health":5,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS15-111_M.psd:b48f3878045163a4c87416e7fb71cd0e","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":5},{"id":47,"name":"공격력","value":5},{"id":48,"name":"마나 비용","value":5},{"id":199,"name":"직업","value":2},{"id":202,"name":"카드 유형","value":4},{"id":2871,"name":"게임 태그 2871","value":1}],"races":[],"race":"","classes":[],"art":"art/TRL_341t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-111_M.psd:b48f3878045163a4c87416e7fb71cd0e","goldenMaterial":"TRL_341t_PremiumCard.mat:44961b0be0cb08f48b81e46fdd9146e3","goldenAnimation":"TRL_341t_PremiumCard.asset:044396df6ba1e7146accf54c7fd80234"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "estimated",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-111_M.psd:b48f3878045163a4c87416e7fb71cd0e",
+        "goldenMaterial": "TRL_341t_PremiumCard.mat:44961b0be0cb08f48b81e46fdd9146e3",
+        "goldenAnimation": "TRL_341t_PremiumCard.asset:044396df6ba1e7146accf54c7fd80234"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-111_M.psd:b48f3878045163a4c87416e7fb71cd0e",
+      "goldenMaterial": "TRL_341t_PremiumCard.mat:44961b0be0cb08f48b81e46fdd9146e3",
+      "goldenAnimation": "TRL_341t_PremiumCard.asset:044396df6ba1e7146accf54c7fd80234"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "2871": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Urtum"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Ancient"
+          },
+          "esES": {
+            "present": true,
+            "value": "Ancestro"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Anciano"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Ancien"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Antico"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "古代樹"
+          },
+          "koKR": {
+            "present": true,
+            "value": "고대정령"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Pradrzewiec"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Anciente"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Древо"
+          },
+          "thTH": {
+            "present": true,
+            "value": "บรรพชน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "古树"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "古樹"
+          }
+        },
+        "textContent": "\n\t\t\tUrtum\n\t\t\tAncient\n\t\t\tAncestro\n\t\t\tAnciano\n\t\t\tAncien\n\t\t\tAntico\n\t\t\t古代樹\n\t\t\t고대정령\n\t\t\tPradrzewiec\n\t\t\tAnciente\n\t\t\tДрево\n\t\t\tบรรพชน\n\t\t\t古树\n\t\t\t古樹\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Charlene Le Scanff"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Urtum"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Ancient"
+          },
+          "esES": {
+            "present": true,
+            "value": "Ancestro"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Anciano"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Ancien"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Antico"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "古代樹"
+          },
+          "koKR": {
+            "present": true,
+            "value": "고대정령"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Pradrzewiec"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Anciente"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Древо"
+          },
+          "thTH": {
+            "present": true,
+            "value": "บรรพชน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "古树"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "古樹"
+          }
+        },
+        "textContent": "\n\t\tUrtum\n\t\tAncient\n\t\tAncestro\n\t\tAnciano\n\t\tAncien\n\t\tAntico\n\t\t古代樹\n\t\t고대정령\n\t\tPradrzewiec\n\t\tAnciente\n\t\tДрево\n\t\tบรรพชน\n\t\t古树\n\t\t古樹\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Charlene Le Scanff"
+      }
+    },
+    "undatedRawTagTransitions": [
+      {
+        "build": 181554,
+        "id": "TRL_341t",
+        "dbfId": 51868,
+        "name": "고대정령",
+        "rawDiff": {
+          "2871": [
+            "ABSENT",
+            "1"
+          ]
+        },
+        "tagNames": {
+          "2871": "1"
+        },
+        "decision": "native_bookkeeping_or_other_mode_not_balance",
+        "relatedFindings": [],
+        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/1a884ec23e99e4daa26637df99433c6e17bba63c/CardDefs.xml"
+      }
+    ],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "고대정령",
+      "enUS": "Ancient"
+    },
+    "currentPrintedText": {
+      "koKR": "고대정령",
+      "enUS": "Ancient"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_341t",
+    "dbfId": 51868,
+    "name": "고대정령",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "collectible": false,
+    "cost": 5,
+    "text": "",
+    "attack": 5,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS15-111_M.psd:b48f3878045163a4c87416e7fb71cd0e",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 2871,
+        "name": "게임 태그 2871",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_341t.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_341t",
+    "dbfId": 51868,
+    "name": "고대정령",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "collectible": false,
+    "cost": 5,
+    "text": "",
+    "attack": 5,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS15-111_M.psd:b48f3878045163a4c87416e7fb71cd0e",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 2871,
+        "name": "게임 태그 2871",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_341t.png"
+  }
+}

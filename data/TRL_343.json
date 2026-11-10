@@ -1,1 +1,771 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_343","dbfId":43310,"name":"전쟁드루이드 로티","type":"MINION","cardClass":"DRUID","rarity":"LEGENDARY","collectible":true,"cost":3,"text":"<b>선택 - </b>네 가지 공룡 중 하나로 변신합니다.","attack":1,"health":2,"durability":0,"armor":0,"flavor":"\"라바사우루스!\" \"무섭겠네.\" \"...블라모닥스!\" \"그런 공룡이 있어?\" \"스맥소돈!\" \"...이제 그냥 막 만들어내네.\"","spellSchool":"","portrait":"HS15-112_M.psd:7d2a48519e053c4428f66719a9e73b59","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":3},{"id":114,"name":"전설 속성","value":1},{"id":199,"name":"직업","value":2},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":5},{"id":321,"name":"수집 가능","value":1},{"id":443,"name":"선택","value":1}],"races":[],"race":"","classes":[],"art":"art/TRL_343.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-112_M.psd:7d2a48519e053c4428f66719a9e73b59","goldenMaterial":"TRL_343_PremiumCard.mat:1e03bc70497358f40bca09854f2f310f","goldenAnimation":"TRL_343_PremiumCard.asset:5c5a7ee3e1244614cb10f74cd421a082"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-112_M.psd:7d2a48519e053c4428f66719a9e73b59",
+        "goldenMaterial": "TRL_343_PremiumCard.mat:1e03bc70497358f40bca09854f2f310f",
+        "goldenAnimation": "TRL_343_PremiumCard.asset:5c5a7ee3e1244614cb10f74cd421a082"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-112_M.psd:7d2a48519e053c4428f66719a9e73b59",
+      "goldenMaterial": "TRL_343_PremiumCard.mat:1e03bc70497358f40bca09854f2f310f",
+      "goldenAnimation": "TRL_343_PremiumCard.asset:5c5a7ee3e1244614cb10f74cd421a082"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "114": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "443": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "114": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "443": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Kriegsdruidin Loti"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Wardruid Loti"
+          },
+          "esES": {
+            "present": true,
+            "value": "Druida de guerra Loti"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Druida guerrera Loti"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Druidesse de guerre Loti"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Druida da Guerra Loti"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "戦ドルイド・ローティ"
+          },
+          "koKR": {
+            "present": true,
+            "value": "전쟁드루이드 로티"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Druidka Bojowa Loti"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Druidesa-de-Guerra Loti"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Боевой друид Лоти"
+          },
+          "thTH": {
+            "present": true,
+            "value": "วอร์ดรูอิดโลที"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "战争德鲁伊罗缇"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "戰鬥德魯伊蘿蒂"
+          }
+        },
+        "textContent": "\n\t\t\tKriegsdruidin Loti\n\t\t\tWardruid Loti\n\t\t\tDruida de guerra Loti\n\t\t\tDruida guerrera Loti\n\t\t\tDruidesse de guerre Loti\n\t\t\tDruida da Guerra Loti\n\t\t\t戦ドルイド・ローティ\n\t\t\t전쟁드루이드 로티\n\t\t\tDruidka Bojowa Loti\n\t\t\tDruidesa-de-Guerra Loti\n\t\t\tБоевой друид Лоти\n\t\t\tวอร์ดรูอิดโลที\n\t\t\t战争德鲁伊罗缇\n\t\t\t戰鬥德魯伊蘿蒂\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Wählt aus:</b> Verwandelt\nsich in eine ihrer vier Dinosauriergestalten."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Choose One - </b>Transform into one of Loti's four dinosaur forms."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Elige una:</b> Se transforma\nen una de las cuatro formas\nde dinosaurio de Loti."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Elige una opción:</b> Se transforma en una de las cuatro formas de dinosaurio de Loti."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Choix des armes :</b> se transforme en une des quatre formes de dinosaure de Loti."
+          },
+          "itIT": {
+            "present": true,
+            "value": "<b>Scegli:</b> si trasforma in una delle quattro forme da dinosauro di Loti."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>選択:</b>\nローティの4つの\n恐竜形態の1つに\n変身する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>선택 - </b>네 가지 공룡 중 하나로 변신합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Wybierz jedno:</b>\nPrzemień w jedną\nz czterech dinozaurzych postaci Loti."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Escolha Um - </b>\nTransforme-se em uma das_quatro formas de dinossauro de Loti."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "[x]<b>Выберите эффект:</b>\nпринимает один из четырех\nдинозавровых обликов."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>เลือกหนึ่งอย่าง - </b>เปลี่ยนร่างเป็นหนึ่งในรูปลักษณ์[b]ไดโนเสาร์ทั้งสี่ของโลที"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>抉择：</b>将该随从变形成为罗缇的四种恐龙形态之一。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>四選一：</b>變形成蘿蒂的其中一種恐龍型態"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Wählt aus:</b> Verwandelt\nsich in eine ihrer vier Dinosauriergestalten.\n\t\t\t<b>Choose One - </b>Transform into one of Loti's four dinosaur forms.\n\t\t\t[x]<b>Elige una:</b> Se transforma\nen una de las cuatro formas\nde dinosaurio de Loti.\n\t\t\t<b>Elige una opción:</b> Se transforma en una de las cuatro formas de dinosaurio de Loti.\n\t\t\t<b>Choix des armes :</b> se transforme en une des quatre formes de dinosaure de Loti.\n\t\t\t<b>Scegli:</b> si trasforma in una delle quattro forme da dinosauro di Loti.\n\t\t\t[x]<b>選択:</b>\nローティの4つの\n恐竜形態の1つに\n変身する。\n\t\t\t<b>선택 - </b>네 가지 공룡 중 하나로 변신합니다.\n\t\t\t<b>Wybierz jedno:</b>\nPrzemień w jedną\nz czterech dinozaurzych postaci Loti.\n\t\t\t<b>Escolha Um - </b>\nTransforme-se em uma das_quatro formas de dinossauro de Loti.\n\t\t\t[x]<b>Выберите эффект:</b>\nпринимает один из четырех\nдинозавровых обликов.\n\t\t\t<b>เลือกหนึ่งอย่าง - </b>เปลี่ยนร่างเป็นหนึ่งในรูปลักษณ์[b]ไดโนเสาร์ทั้งสี่ของโลที\n\t\t\t<b>抉择：</b>将该随从变形成为罗缇的四种恐龙形态之一。\n\t\t\t<b>四選一：</b>變形成蘿蒂的其中一種恐龍型態\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "„Ravasaurier!“_– „Oh, gefährlich!“\n„Krokodokus!“_– „Gibt's den wirklich?“\n„Stampfodon!“_– „Moment, den habt Ihr Euch grad ausgedacht!“"
+          },
+          "enUS": {
+            "present": true,
+            "value": "“Ravasaur!”\n“Pretty scary”\n“…Blammodax!”\n“Is that a thing?”\n“SMAXODON!”\n“….now you’re just making those up.”"
+          },
+          "esES": {
+            "present": true,
+            "value": "Si juntara todas sus formas podría crear un robot dinosaurio gigante."
+          },
+          "esMX": {
+            "present": true,
+            "value": "“Ravasaurio!” “Qué miedo” “¡Blamodáctilo!” “¿Eso existe?” “¡ABOFETADÓN!” “….Ahora estás inventando.”"
+          },
+          "frFR": {
+            "present": true,
+            "value": "« - Ravasaure !\n- Ça fait super peur !\n- Boumodactyle !\n- Ça existe vraiment, ça ?\n- Frappodon !\n- Non, là, tu inventes, c’est sûr ! »"
+          },
+          "itIT": {
+            "present": true,
+            "value": "\"Devasauro!\"\n\"Oh, che paura...\"\n\"Distruziosauro!\"\n\"Esiste?\"\n\"SFRANTUMADONTE!\"\n\"...va be', questo te lo sei inventato.\""
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「ラヴァサウルス！」「おっかないねぇ」\n「…ブラモダックス！」「そんなのいるの？」\n「スマックソドン！」「…でたらめ言ってるだろ」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "\"라바사우루스!\" \"무섭겠네.\" \"...블라모닥스!\" \"그런 공룡이 있어?\" \"스맥소돈!\" \"...이제 그냥 막 만들어내네.\""
+          },
+          "plPL": {
+            "present": true,
+            "value": "– „Rawazaur!”. – „Brzmi strasznie”. – „Blamodaks!”. – „Aby na pewno istnieje?”. –  „SMAKSODON!”. – „Teraz to już ściemniasz”."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "\"Ravassauro!\" \"É, dá medo.”\n \"... Blammodax!\" \"Isso existe?\" \"SMAXODONTE!\" \"Isso já está indo longe demais...\""
+          },
+          "ruRU": {
+            "present": true,
+            "value": "«Раздвоение личности? А как тебе РАСЧЕТВЕРЕНИЕ ЯЩЕРИЧНОСТИ?!»"
+          },
+          "thTH": {
+            "present": true,
+            "value": "\"ราเวซอร์!\" \"น่ากลัวดี\" \"...แบลมโมแดกซ์!\" \"มีจริงๆ เหรอ\" \"สแมกโซดอน!!!\" \"…นี่มั่วขึ้นมาเองใช่ไหม\""
+          },
+          "zhCN": {
+            "present": true,
+            "value": "“暴掠龙！太吓人了……巴拉蒙多龙！这是什么鬼？斯马克顿龙！嗯……就决定是你了！”"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "她幾乎一個人就可以湊齊一支戰隊。"
+          }
+        },
+        "textContent": "\n\t\t\t„Ravasaurier!“_– „Oh, gefährlich!“\n„Krokodokus!“_– „Gibt's den wirklich?“\n„Stampfodon!“_– „Moment, den habt Ihr Euch grad ausgedacht!“\n\t\t\t“Ravasaur!”\n“Pretty scary”\n“…Blammodax!”\n“Is that a thing?”\n“SMAXODON!”\n“….now you’re just making those up.”\n\t\t\tSi juntara todas sus formas podría crear un robot dinosaurio gigante.\n\t\t\t“Ravasaurio!” “Qué miedo” “¡Blamodáctilo!” “¿Eso existe?” “¡ABOFETADÓN!” “….Ahora estás inventando.”\n\t\t\t« - Ravasaure !\n- Ça fait super peur !\n- Boumodactyle !\n- Ça existe vraiment, ça ?\n- Frappodon !\n- Non, là, tu inventes, c’est sûr ! »\n\t\t\t\"Devasauro!\"\n\"Oh, che paura...\"\n\"Distruziosauro!\"\n\"Esiste?\"\n\"SFRANTUMADONTE!\"\n\"...va be', questo te lo sei inventato.\"\n\t\t\t「ラヴァサウルス！」「おっかないねぇ」\n「…ブラモダックス！」「そんなのいるの？」\n「スマックソドン！」「…でたらめ言ってるだろ」\n\t\t\t\"라바사우루스!\" \"무섭겠네.\" \"...블라모닥스!\" \"그런 공룡이 있어?\" \"스맥소돈!\" \"...이제 그냥 막 만들어내네.\"\n\t\t\t– „Rawazaur!”. – „Brzmi strasznie”. – „Blamodaks!”. – „Aby na pewno istnieje?”. –  „SMAKSODON!”. – „Teraz to już ściemniasz”.\n\t\t\t\"Ravassauro!\" \"É, dá medo.”\n \"... Blammodax!\" \"Isso existe?\" \"SMAXODONTE!\" \"Isso já está indo longe demais...\"\n\t\t\t«Раздвоение личности? А как тебе РАСЧЕТВЕРЕНИЕ ЯЩЕРИЧНОСТИ?!»\n\t\t\t\"ราเวซอร์!\" \"น่ากลัวดี\" \"...แบลมโมแดกซ์!\" \"มีจริงๆ เหรอ\" \"สแมกโซดอน!!!\" \"…นี่มั่วขึ้นมาเองใช่ไหม\"\n\t\t\t“暴掠龙！太吓人了……巴拉蒙多龙！这是什么鬼？斯马克顿龙！嗯……就决定是你了！”\n\t\t\t她幾乎一個人就可以湊齊一支戰隊。\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Zoltan Boros"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Kriegsdruidin Loti"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Wardruid Loti"
+          },
+          "esES": {
+            "present": true,
+            "value": "Druida de guerra Loti"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Druida guerrera Loti"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Druidesse de guerre Loti"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Druida da Guerra Loti"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "戦ドルイド・ローティ"
+          },
+          "koKR": {
+            "present": true,
+            "value": "전쟁드루이드 로티"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Druidka Bojowa Loti"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Druidesa-de-Guerra Loti"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Боевой друид Лоти"
+          },
+          "thTH": {
+            "present": true,
+            "value": "วอร์ดรูอิดโลที"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "战争德鲁伊罗缇"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "戰鬥德魯伊蘿蒂"
+          }
+        },
+        "textContent": "\n\t\tKriegsdruidin Loti\n\t\tWardruid Loti\n\t\tDruida de guerra Loti\n\t\tDruida guerrera Loti\n\t\tDruidesse de guerre Loti\n\t\tDruida da Guerra Loti\n\t\t戦ドルイド・ローティ\n\t\t전쟁드루이드 로티\n\t\tDruidka Bojowa Loti\n\t\tDruidesa-de-Guerra Loti\n\t\tБоевой друид Лоти\n\t\tวอร์ดรูอิดโลที\n\t\t战争德鲁伊罗缇\n\t\t戰鬥德魯伊蘿蒂\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Wählt aus:</b> Verwandelt\nsich in eine ihrer vier Dinosauriergestalten."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Choose One - </b>Transform into one of Loti's four dinosaur forms."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Elige una:</b> Se transforma\nen una de las cuatro formas\nde dinosaurio de Loti."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Elige una opción:</b> se transforma en una de las cuatro formas de dinosaurio de Loti."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Choix des armes_:</b> se transforme en une des quatre formes de dinosaure de Loti."
+          },
+          "itIT": {
+            "present": true,
+            "value": "<b>Scegli:</b> si trasforma in una delle quattro forme da dinosauro di Loti."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>選択:</b>\nローティの4つの\n恐竜形態の1つに\n変身する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>선택 - </b>네 가지 공룡 중 하나로 변신합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Wybierz jedno:</b>\nPrzemień w jedną\nz czterech dinozaurzych postaci Loti."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Escolha Um - </b>\nTransforme em uma das_quatro formas de dinossauro de Loti."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "[x]<b>Выберите эффект:</b>\nпринимает один из четырех\nдинозавровых обликов."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>เลือกหนึ่งอย่าง - </b>เปลี่ยนร่าง[b]เป็นหนึ่งในรูปลักษณ์[b]ไดโนเสาร์ทั้งสี่ของโลที"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>抉择：</b>变形成为罗缇的四种恐龙形态之一。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>四選一：</b>變形成蘿蒂的其中一種恐龍型態"
+          }
+        },
+        "textContent": "\n\t\t<b>Wählt aus:</b> Verwandelt\nsich in eine ihrer vier Dinosauriergestalten.\n\t\t<b>Choose One - </b>Transform into one of Loti's four dinosaur forms.\n\t\t[x]<b>Elige una:</b> Se transforma\nen una de las cuatro formas\nde dinosaurio de Loti.\n\t\t<b>Elige una opción:</b> se transforma en una de las cuatro formas de dinosaurio de Loti.\n\t\t<b>Choix des armes_:</b> se transforme en une des quatre formes de dinosaure de Loti.\n\t\t<b>Scegli:</b> si trasforma in una delle quattro forme da dinosauro di Loti.\n\t\t[x]<b>選択:</b>\nローティの4つの\n恐竜形態の1つに\n変身する。\n\t\t<b>선택 - </b>네 가지 공룡 중 하나로 변신합니다.\n\t\t<b>Wybierz jedno:</b>\nPrzemień w jedną\nz czterech dinozaurzych postaci Loti.\n\t\t<b>Escolha Um - </b>\nTransforme em uma das_quatro formas de dinossauro de Loti.\n\t\t[x]<b>Выберите эффект:</b>\nпринимает один из четырех\nдинозавровых обликов.\n\t\t<b>เลือกหนึ่งอย่าง - </b>เปลี่ยนร่าง[b]เป็นหนึ่งในรูปลักษณ์[b]ไดโนเสาร์ทั้งสี่ของโลที\n\t\t<b>抉择：</b>变形成为罗缇的四种恐龙形态之一。\n\t\t<b>四選一：</b>變形成蘿蒂的其中一種恐龍型態\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "„Ravasaurier!“_– „Oh, gefährlich!“\n„Krokodokus!“_– „Gibt’s den wirklich?“\n„Stampfodon!“_– „Moment, den habt Ihr Euch grad ausgedacht!“"
+          },
+          "enUS": {
+            "present": true,
+            "value": "“Ravasaur!”\n“Pretty scary”\n“…Blammodax!”\n“Is that a thing?”\n“SMAXODON!”\n“….now you’re just making those up.”"
+          },
+          "esES": {
+            "present": true,
+            "value": "Si juntara todas sus formas podría crear un robot dinosaurio gigante."
+          },
+          "esMX": {
+            "present": true,
+            "value": "“Ravasaurio!” “Qué miedo” “¡Blamodáctilo!” “¿Eso existe?” “¡ABOFETADÓN!” “….Ahora estás inventando.”"
+          },
+          "frFR": {
+            "present": true,
+            "value": "« - Ravasaure !\n- Ça fait super peur !\n- Boumodactyle !\n- Ça existe vraiment, ça ?\n- Frappodon !\n- Non, là, tu inventes, c’est sûr ! »"
+          },
+          "itIT": {
+            "present": true,
+            "value": "\"Devasauro!\"\n\"Oh, che paura...\"\n\"Distruziosauro!\"\n\"Esiste?\"\n\"SFRANTUMADONTE!\"\n\"...va be', questo te lo sei inventato.\""
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「ラヴァサウルス！」「おっかないねぇ」\n「…ブラモダックス！」「そんなのいるの？」\n「スマックソドン！」「…でたらめ言ってるだろ」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "\"라바사우루스!\" \"무섭겠네.\" \"...블라모닥스!\" \"그런 공룡이 있어?\" \"스맥소돈!\" \"...이제 그냥 막 만들어내네.\""
+          },
+          "plPL": {
+            "present": true,
+            "value": "– „Rawazaur!”. – „Brzmi strasznie”. – „Blamodaks!”. – „Aby na pewno istnieje?”. –  „SMAKSODON!”. – „Teraz to już ściemniasz”."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "\"Ravassauro!\" \"É, dá medo.”\n \"... Blammodax!\" \"Isso existe?\" \"SMAXODONTE!\" \"Isso já está indo longe demais...\""
+          },
+          "ruRU": {
+            "present": true,
+            "value": "«Раздвоение личности? А как тебе РАСЧЕТВЕРЕНИЕ ЯЩЕРИЧНОСТИ?!»"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ราเวซอร์! \"น่ากลัวดี\" \"...แบลมโมแดกซ์!\" \"มีจริงๆ เหรอ\" \"สแมกโซดอน!!!\" \"…นี่มั่วขึ้นมาเองใช่ไหม\""
+          },
+          "zhCN": {
+            "present": true,
+            "value": "“暴掠龙！太吓人了……巴拉蒙多龙！这是什么鬼？斯马克顿龙！嗯……就决定是你了！”"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "她幾乎一個人就可以湊齊一支戰隊。"
+          }
+        },
+        "textContent": "\n\t\t„Ravasaurier!“_– „Oh, gefährlich!“\n„Krokodokus!“_– „Gibt’s den wirklich?“\n„Stampfodon!“_– „Moment, den habt Ihr Euch grad ausgedacht!“\n\t\t“Ravasaur!”\n“Pretty scary”\n“…Blammodax!”\n“Is that a thing?”\n“SMAXODON!”\n“….now you’re just making those up.”\n\t\tSi juntara todas sus formas podría crear un robot dinosaurio gigante.\n\t\t“Ravasaurio!” “Qué miedo” “¡Blamodáctilo!” “¿Eso existe?” “¡ABOFETADÓN!” “….Ahora estás inventando.”\n\t\t« - Ravasaure !\n- Ça fait super peur !\n- Boumodactyle !\n- Ça existe vraiment, ça ?\n- Frappodon !\n- Non, là, tu inventes, c’est sûr ! »\n\t\t\"Devasauro!\"\n\"Oh, che paura...\"\n\"Distruziosauro!\"\n\"Esiste?\"\n\"SFRANTUMADONTE!\"\n\"...va be', questo te lo sei inventato.\"\n\t\t「ラヴァサウルス！」「おっかないねぇ」\n「…ブラモダックス！」「そんなのいるの？」\n「スマックソドン！」「…でたらめ言ってるだろ」\n\t\t\"라바사우루스!\" \"무섭겠네.\" \"...블라모닥스!\" \"그런 공룡이 있어?\" \"스맥소돈!\" \"...이제 그냥 막 만들어내네.\"\n\t\t– „Rawazaur!”. – „Brzmi strasznie”. – „Blamodaks!”. – „Aby na pewno istnieje?”. –  „SMAKSODON!”. – „Teraz to już ściemniasz”.\n\t\t\"Ravassauro!\" \"É, dá medo.”\n \"... Blammodax!\" \"Isso existe?\" \"SMAXODONTE!\" \"Isso já está indo longe demais...\"\n\t\t«Раздвоение личности? А как тебе РАСЧЕТВЕРЕНИЕ ЯЩЕРИЧНОСТИ?!»\n\t\tราเวซอร์! \"น่ากลัวดี\" \"...แบลมโมแดกซ์!\" \"มีจริงๆ เหรอ\" \"สแมกโซดอน!!!\" \"…นี่มั่วขึ้นมาเองใช่ไหม\"\n\t\t“暴掠龙！太吓人了……巴拉蒙多龙！这是什么鬼？斯马克顿龙！嗯……就决定是你了！”\n\t\t她幾乎一個人就可以湊齊一支戰隊。\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Zoltan Boros"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "전쟁드루이드 로티",
+      "enUS": "Wardruid Loti"
+    },
+    "currentPrintedText": {
+      "koKR": "전쟁드루이드 로티",
+      "enUS": "Wardruid Loti"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_343",
+    "dbfId": 43310,
+    "name": "전쟁드루이드 로티",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>선택 - </b>네 가지 공룡 중 하나로 변신합니다.",
+    "attack": 1,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"라바사우루스!\" \"무섭겠네.\" \"...블라모닥스!\" \"그런 공룡이 있어?\" \"스맥소돈!\" \"...이제 그냥 막 만들어내네.\"",
+    "spellSchool": "",
+    "portrait": "HS15-112_M.psd:7d2a48519e053c4428f66719a9e73b59",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 443,
+        "name": "선택",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_343.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_343",
+    "dbfId": 43310,
+    "name": "전쟁드루이드 로티",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>선택 - </b>네 가지 공룡 중 하나로 변신합니다.",
+    "attack": 1,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"라바사우루스!\" \"무섭겠네.\" \"...블라모닥스!\" \"그런 공룡이 있어?\" \"스맥소돈!\" \"...이제 그냥 막 만들어내네.\"",
+    "spellSchool": "",
+    "portrait": "HS15-112_M.psd:7d2a48519e053c4428f66719a9e73b59",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 443,
+        "name": "선택",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_343.png"
+  }
+}

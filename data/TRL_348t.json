@@ -1,1 +1,687 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_348t","dbfId":50213,"name":"스라소니","type":"MINION","cardClass":"HUNTER","collectible":false,"cost":1,"text":"<b>속공</b>","attack":1,"health":1,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS15-021_M.psd:8bf6c620a4e07214f89a147c3c5d207a","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":1},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":3},{"id":200,"name":"종족","value":20},{"id":201,"name":"진영","value":3},{"id":202,"name":"카드 유형","value":4},{"id":251,"name":"게임 태그 251","value":1},{"id":321,"name":"수집 가능","value":0},{"id":791,"name":"속공","value":1},{"id":1584,"name":"게임 태그 1584","value":1}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/TRL_348t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-021_M.psd:8bf6c620a4e07214f89a147c3c5d207a","goldenMaterial":"TRL_348t_PremiumCard.mat:fca2e9164ac873b40b109959d90aeaeb","goldenAnimation":"TRL_348t_PremiumCard.asset:5e0c682662b6ecf4891e9447f0bff05b"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "estimated",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-021_M.psd:8bf6c620a4e07214f89a147c3c5d207a",
+        "goldenMaterial": "TRL_348t_PremiumCard.mat:fca2e9164ac873b40b109959d90aeaeb",
+        "goldenAnimation": "TRL_348t_PremiumCard.asset:5e0c682662b6ecf4891e9447f0bff05b"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-021_M.psd:8bf6c620a4e07214f89a147c3c5d207a",
+      "goldenMaterial": "TRL_348t_PremiumCard.mat:fca2e9164ac873b40b109959d90aeaeb",
+      "goldenAnimation": "TRL_348t_PremiumCard.asset:5e0c682662b6ecf4891e9447f0bff05b"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "20",
+        "type": "Int"
+      },
+      "201": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "251": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "791": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "20",
+        "type": "Int"
+      },
+      "201": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "251": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "791": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "1584": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Luchs"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Lynx"
+          },
+          "esES": {
+            "present": true,
+            "value": "Lince"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Lince"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Lynx"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Lince"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "オオヤマネコ"
+          },
+          "koKR": {
+            "present": true,
+            "value": "스라소니"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Ryś"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Lince"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Рысь"
+          },
+          "thTH": {
+            "present": true,
+            "value": "แมวป่า"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "山猫"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "山貓"
+          }
+        },
+        "textContent": "\n\t\t\tLuchs\n\t\t\tLynx\n\t\t\tLince\n\t\t\tLince\n\t\t\tLynx\n\t\t\tLince\n\t\t\tオオヤマネコ\n\t\t\t스라소니\n\t\t\tRyś\n\t\t\tLince\n\t\t\tРысь\n\t\t\tแมวป่า\n\t\t\t山猫\n\t\t\t山貓\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Eifer</b>"
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Rush</b>"
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Embestir</b>"
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Acometida</b>"
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Ruée</b>"
+          },
+          "itIT": {
+            "present": true,
+            "value": "<b>Assalto</b>"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "<b>急襲</b>"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>속공</b>"
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Zryw</b>"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Rapidez</b>"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Натиск</b>"
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>จู่โจม</b>"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>突袭</b>"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>衝刺</b>"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Eifer</b>\n\t\t\t<b>Rush</b>\n\t\t\t<b>Embestir</b>\n\t\t\t<b>Acometida</b>\n\t\t\t<b>Ruée</b>\n\t\t\t<b>Assalto</b>\n\t\t\t<b>急襲</b>\n\t\t\t<b>속공</b>\n\t\t\t<b>Zryw</b>\n\t\t\t<b>Rapidez</b>\n\t\t\t<b>Натиск</b>\n\t\t\t<b>จู่โจม</b>\n\t\t\t<b>突袭</b>\n\t\t\t<b>衝刺</b>\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Lemon Sky"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Luchs"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Lynx"
+          },
+          "esES": {
+            "present": true,
+            "value": "Lince"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Lince"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Lynx"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Lince"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "オオヤマネコ"
+          },
+          "koKR": {
+            "present": true,
+            "value": "스라소니"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Ryś"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Lince"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Рысь"
+          },
+          "thTH": {
+            "present": true,
+            "value": "แมวป่า"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "山猫"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "山貓"
+          }
+        },
+        "textContent": "\n\t\tLuchs\n\t\tLynx\n\t\tLince\n\t\tLince\n\t\tLynx\n\t\tLince\n\t\tオオヤマネコ\n\t\t스라소니\n\t\tRyś\n\t\tLince\n\t\tРысь\n\t\tแมวป่า\n\t\t山猫\n\t\t山貓\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Eifer</b>"
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Rush</b>"
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Embestir</b>"
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Acometida</b>"
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Ruée</b>"
+          },
+          "itIT": {
+            "present": true,
+            "value": "<b>Assalto</b>"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "<b>急襲</b>"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>속공</b>"
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Zryw</b>"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Rapidez</b>"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Натиск</b>"
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>จู่โจม</b>"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>突袭</b>"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>衝刺</b>"
+          }
+        },
+        "textContent": "\n\t\t<b>Eifer</b>\n\t\t<b>Rush</b>\n\t\t<b>Embestir</b>\n\t\t<b>Acometida</b>\n\t\t<b>Ruée</b>\n\t\t<b>Assalto</b>\n\t\t<b>急襲</b>\n\t\t<b>속공</b>\n\t\t<b>Zryw</b>\n\t\t<b>Rapidez</b>\n\t\t<b>Натиск</b>\n\t\t<b>จู่โจม</b>\n\t\t<b>突袭</b>\n\t\t<b>衝刺</b>\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Lemon Sky"
+      }
+    },
+    "undatedRawTagTransitions": [
+      {
+        "build": 54613,
+        "id": "TRL_348t",
+        "dbfId": 50213,
+        "name": "스라소니",
+        "rawDiff": {
+          "1584": [
+            "ABSENT",
+            "1"
+          ]
+        },
+        "tagNames": {
+          "1584": "1"
+        },
+        "decision": "native_bookkeeping_or_other_mode_not_balance",
+        "relatedFindings": [],
+        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/9b95dea77dbb4d116e861df8b650d80b1b4385d1/CardDefs.xml"
+      }
+    ],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "스라소니",
+      "enUS": "Lynx"
+    },
+    "currentPrintedText": {
+      "koKR": "스라소니",
+      "enUS": "Lynx"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_348t",
+    "dbfId": 50213,
+    "name": "스라소니",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "collectible": false,
+    "cost": 1,
+    "text": "<b>속공</b>",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS15-021_M.psd:8bf6c620a4e07214f89a147c3c5d207a",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      },
+      {
+        "id": 1584,
+        "name": "게임 태그 1584",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/TRL_348t.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_348t",
+    "dbfId": 50213,
+    "name": "스라소니",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "collectible": false,
+    "cost": 1,
+    "text": "<b>속공</b>",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS15-021_M.psd:8bf6c620a4e07214f89a147c3c5d207a",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      },
+      {
+        "id": 1584,
+        "name": "게임 태그 1584",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/TRL_348t.png"
+  }
+}

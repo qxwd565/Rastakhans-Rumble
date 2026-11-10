@@ -1,1 +1,766 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_249","dbfId":50012,"name":"냉혹한 집결","type":"SPELL","cardClass":"WARLOCK","rarity":"RARE","collectible":true,"cost":1,"text":"아군 하수인을 처치합니다.<br></br>내 하수인들에게 +1/+1을 부여합니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"\"다 좋은데 말이야, 자네만 없으면 좋겠군.\"","spellSchool":"SHADOW","portrait":"HS15-102_S.psd:61794aed8f6190048934dbc4f39adb27","set":"TROLL","nativeTags":[{"id":48,"name":"마나 비용","value":1},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":9},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":3},{"id":321,"name":"수집 가능","value":1},{"id":1635,"name":"주문 속성","value":6}],"races":[],"race":"","classes":[],"art":"art/TRL_249.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-102_S.psd:61794aed8f6190048934dbc4f39adb27","goldenMaterial":"TRL_249_PremiumCard.mat:b909a205747243b40945d72d01a67525","goldenAnimation":"TRL_249_PremiumCard.asset:e101f93816b3aba4aa21858c9b43abc0"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-102_S.psd:61794aed8f6190048934dbc4f39adb27",
+        "goldenMaterial": "TRL_249_PremiumCard.mat:b909a205747243b40945d72d01a67525",
+        "goldenAnimation": "TRL_249_PremiumCard.asset:e101f93816b3aba4aa21858c9b43abc0"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-102_S.psd:61794aed8f6190048934dbc4f39adb27",
+      "goldenMaterial": "TRL_249_PremiumCard.mat:b909a205747243b40945d72d01a67525",
+      "goldenAnimation": "TRL_249_PremiumCard.asset:e101f93816b3aba4aa21858c9b43abc0"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "9",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "9",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "1635": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "6",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Grausames Opfer"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Grim Rally"
+          },
+          "esES": {
+            "present": true,
+            "value": "Reunión funesta"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Reclutamiento tenebroso"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Ralliement sinistre"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Adunata Bieca"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "人身御供"
+          },
+          "koKR": {
+            "present": true,
+            "value": "냉혹한 집결"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Mroczna mobilizacja"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Agrupamento Macabro"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Жестокий обмен"
+          },
+          "thTH": {
+            "present": true,
+            "value": "สังหารปลุกขวัญ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "残酷集结"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "殘酷的鼓勵"
+          }
+        },
+        "textContent": "\n\t\t\tGrausames Opfer\n\t\t\tGrim Rally\n\t\t\tReunión funesta\n\t\t\tReclutamiento tenebroso\n\t\t\tRalliement sinistre\n\t\t\tAdunata Bieca\n\t\t\t人身御供\n\t\t\t냉혹한 집결\n\t\t\tMroczna mobilizacja\n\t\t\tAgrupamento Macabro\n\t\t\tЖестокий обмен\n\t\t\tสังหารปลุกขวัญ\n\t\t\t残酷集结\n\t\t\t殘酷的鼓勵\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Vernichtet einen befreundeten Diener. Verleiht Euren Dienern +1/+1."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Destroy a friendly minion. Give your minions +1/+1."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Destruye\na un esbirro amistoso.\nOtorga a tus esbirros\n+1/+1."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Destruye un esbirro aliado. Otorga +1/+1 a tus esbirros."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Détruit un serviteur allié. Donne +1/+1 à vos serviteurs."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Distrugge un tuo servitore. +1/+1 ai tuoi servitori."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]味方のミニオン1体を\n破壊する。\n味方のミニオン全てに\n+1/+1を付与する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "아군 하수인을 처치합니다.\n내 하수인들에게 +1/+1을 부여합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zniszcz przyjaznego stronnika. Daj twoim stronnikom +1/+1."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Destrua um lacaio aliado. Conceda +1/+1 aos seus lacaios."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Уничтожает ваше существо. Ваши существа получают +1/+1."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ทำลายมินเนี่ยนฝ่ายคุณ[b]หนึ่งตัว_มอบ_+1/+1 ให้มินเนี่ยนทั้งหมดของคุณ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "消灭一个友方随从。使你的随从获得+1/+1。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "摧毀一個友方手下。賦予你的\n手下+1/+1"
+          }
+        },
+        "textContent": "\n\t\t\tVernichtet einen befreundeten Diener. Verleiht Euren Dienern +1/+1.\n\t\t\tDestroy a friendly minion. Give your minions +1/+1.\n\t\t\t[x]Destruye\na un esbirro amistoso.\nOtorga a tus esbirros\n+1/+1.\n\t\t\tDestruye un esbirro aliado. Otorga +1/+1 a tus esbirros.\n\t\t\tDétruit un serviteur allié. Donne +1/+1 à vos serviteurs.\n\t\t\tDistrugge un tuo servitore. +1/+1 ai tuoi servitori.\n\t\t\t[x]味方のミニオン1体を\n破壊する。\n味方のミニオン全てに\n+1/+1を付与する。\n\t\t\t아군 하수인을 처치합니다.\n내 하수인들에게 +1/+1을 부여합니다.\n\t\t\tZniszcz przyjaznego stronnika. Daj twoim stronnikom +1/+1.\n\t\t\tDestrua um lacaio aliado. Conceda +1/+1 aos seus lacaios.\n\t\t\tУничтожает ваше существо. Ваши существа получают +1/+1.\n\t\t\tทำลายมินเนี่ยนฝ่ายคุณ[b]หนึ่งตัว_มอบ_+1/+1 ให้มินเนี่ยนทั้งหมดของคุณ\n\t\t\t消灭一个友方随从。使你的随从获得+1/+1。\n\t\t\t摧毀一個友方手下。賦予你的\n手下+1/+1\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Sieben kleine Hexerdiener wollten gerne erben. Damit es was zu erben gab, musste einer sterben."
+          },
+          "enUS": {
+            "present": true,
+            "value": "There’s no “Aiiiieeee” in “Team.”"
+          },
+          "esES": {
+            "present": true,
+            "value": "¿Hay reuniones que no lo sean?"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Por más que lo intente, nunca logra reclutar a nadie."
+          },
+          "frFR": {
+            "present": true,
+            "value": "« - Où est le point de ralliement ?\n- N’importe où, sauf ici ! »"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Un morto per tutti, tutti +1/+1!"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「TEAM」に「I」という文字はない、というけれど、このチームには愛がない。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "\"다 좋은데 말이야, 자네만 없으면 좋겠군.\""
+          },
+          "plPL": {
+            "present": true,
+            "value": "Czasem trzeba kogoś poświęcić dla drużyny."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Chegaram a fazer um agrupamento risonho, mas não deu muita mídia."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "На этой карте не написано «Гуманный обмен» или «Справедливый обмен». Вы знали, на что идете."
+          },
+          "thTH": {
+            "present": true,
+            "value": "คนเดียวหัวหาย สามคนเพื่อนตาย"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "“我们的团队”中没有“我”。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "「讓我們感謝這位同志無私的奉獻，我們懷念他。」"
+          }
+        },
+        "textContent": "\n\t\t\tSieben kleine Hexerdiener wollten gerne erben. Damit es was zu erben gab, musste einer sterben.\n\t\t\tThere’s no “Aiiiieeee” in “Team.”\n\t\t\t¿Hay reuniones que no lo sean?\n\t\t\tPor más que lo intente, nunca logra reclutar a nadie.\n\t\t\t« - Où est le point de ralliement ?\n- N’importe où, sauf ici ! »\n\t\t\tUn morto per tutti, tutti +1/+1!\n\t\t\t「TEAM」に「I」という文字はない、というけれど、このチームには愛がない。\n\t\t\t\"다 좋은데 말이야, 자네만 없으면 좋겠군.\"\n\t\t\tCzasem trzeba kogoś poświęcić dla drużyny.\n\t\t\tChegaram a fazer um agrupamento risonho, mas não deu muita mídia.\n\t\t\tНа этой карте не написано «Гуманный обмен» или «Справедливый обмен». Вы знали, на что идете.\n\t\t\tคนเดียวหัวหาย สามคนเพื่อนตาย\n\t\t\t“我们的团队”中没有“我”。\n\t\t\t「讓我們感謝這位同志無私的奉獻，我們懷念他。」\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Skan Srisuwan"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Grausames Opfer"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Grim Rally"
+          },
+          "esES": {
+            "present": true,
+            "value": "Reunión funesta"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Reclutamiento tenebroso"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Ralliement sinistre"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Adunata Bieca"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "人身御供"
+          },
+          "koKR": {
+            "present": true,
+            "value": "냉혹한 집결"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Mroczna mobilizacja"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Agrupamento Macabro"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Жестокий обмен"
+          },
+          "thTH": {
+            "present": true,
+            "value": "สังหารปลุกขวัญ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "残酷集结"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "殘酷的鼓勵"
+          }
+        },
+        "textContent": "\n\t\tGrausames Opfer\n\t\tGrim Rally\n\t\tReunión funesta\n\t\tReclutamiento tenebroso\n\t\tRalliement sinistre\n\t\tAdunata Bieca\n\t\t人身御供\n\t\t냉혹한 집결\n\t\tMroczna mobilizacja\n\t\tAgrupamento Macabro\n\t\tЖестокий обмен\n\t\tสังหารปลุกขวัญ\n\t\t残酷集结\n\t\t殘酷的鼓勵\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Vernichtet einen befreundeten Diener. Verleiht Euren Dienern +1/+1."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Destroy a friendly minion. Give your minions +1/+1."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Destruye\na un esbirro amistoso.\nOtorga a tus esbirros\n+1/+1."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Destruye un esbirro aliado. Otorga +1/+1 a tus esbirros."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Détruit un serviteur allié. Donne +1/+1 à vos serviteurs."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Distrugge un tuo servitore. +1/+1 ai tuoi servitori."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]味方のミニオン1体を\n破壊する。\n味方のミニオン全てに\n+1/+1を付与する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "아군 하수인을 처치합니다.\n내 하수인들에게 +1/+1을 부여합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zniszcz przyjaznego stronnika. Daj twoim stronnikom +1/+1."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Destrua um lacaio aliado. Conceda +1/+1 aos seus lacaios."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Уничтожает ваше существо. Ваши существа получают +1/+1."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ทำลายมินเนี่ยนฝ่ายคุณ[b]หนึ่งตัว_มอบ_+1/+1 ให้[b]มินเนี่ยนทั้งหมดของคุณ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "消灭一个友方随从。使你的所有随从获得+1/+1。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "摧毀一個友方手下。賦予你的\n手下+1/+1"
+          }
+        },
+        "textContent": "\n\t\tVernichtet einen befreundeten Diener. Verleiht Euren Dienern +1/+1.\n\t\tDestroy a friendly minion. Give your minions +1/+1.\n\t\t[x]Destruye\na un esbirro amistoso.\nOtorga a tus esbirros\n+1/+1.\n\t\tDestruye un esbirro aliado. Otorga +1/+1 a tus esbirros.\n\t\tDétruit un serviteur allié. Donne +1/+1 à vos serviteurs.\n\t\tDistrugge un tuo servitore. +1/+1 ai tuoi servitori.\n\t\t[x]味方のミニオン1体を\n破壊する。\n味方のミニオン全てに\n+1/+1を付与する。\n\t\t아군 하수인을 처치합니다.\n내 하수인들에게 +1/+1을 부여합니다.\n\t\tZniszcz przyjaznego stronnika. Daj twoim stronnikom +1/+1.\n\t\tDestrua um lacaio aliado. Conceda +1/+1 aos seus lacaios.\n\t\tУничтожает ваше существо. Ваши существа получают +1/+1.\n\t\tทำลายมินเนี่ยนฝ่ายคุณ[b]หนึ่งตัว_มอบ_+1/+1 ให้[b]มินเนี่ยนทั้งหมดของคุณ\n\t\t消灭一个友方随从。使你的所有随从获得+1/+1。\n\t\t摧毀一個友方手下。賦予你的\n手下+1/+1\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Sieben kleine Hexerdiener wollten gerne erben. Damit es was zu erben gab, musste einer sterben."
+          },
+          "enUS": {
+            "present": true,
+            "value": "There’s no “Aiiiieeee” in “Team.”"
+          },
+          "esES": {
+            "present": true,
+            "value": "¿Hay reuniones que no lo sean?"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Por más que lo intente, nunca logra reclutar a nadie."
+          },
+          "frFR": {
+            "present": true,
+            "value": "« - Où est le point de ralliement ?\n- N’importe où, sauf ici ! »"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Un morto per tutti, tutti +1/+1!"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「TEAM」に「I」という文字はない、というけれど、このチームには愛がない。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "\"다 좋은데 말이야, 자네만 없으면 좋겠군.\""
+          },
+          "plPL": {
+            "present": true,
+            "value": "Czasem trzeba kogoś poświęcić dla drużyny."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Chegaram a fazer um agrupamento risonho, mas não deu muita mídia."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "На этой карте не написано «Гуманный обмен» или «Справедливый обмен». Вы знали, на что идете."
+          },
+          "thTH": {
+            "present": true,
+            "value": "คนเดียวหัวหาย สามคนเพื่อนตาย"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "“我们的团队”中没有“我”。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "「讓我們感謝這位同志無私的奉獻，我們懷念他。」"
+          }
+        },
+        "textContent": "\n\t\tSieben kleine Hexerdiener wollten gerne erben. Damit es was zu erben gab, musste einer sterben.\n\t\tThere’s no “Aiiiieeee” in “Team.”\n\t\t¿Hay reuniones que no lo sean?\n\t\tPor más que lo intente, nunca logra reclutar a nadie.\n\t\t« - Où est le point de ralliement ?\n- N’importe où, sauf ici ! »\n\t\tUn morto per tutti, tutti +1/+1!\n\t\t「TEAM」に「I」という文字はない、というけれど、このチームには愛がない。\n\t\t\"다 좋은데 말이야, 자네만 없으면 좋겠군.\"\n\t\tCzasem trzeba kogoś poświęcić dla drużyny.\n\t\tChegaram a fazer um agrupamento risonho, mas não deu muita mídia.\n\t\tНа этой карте не написано «Гуманный обмен» или «Справедливый обмен». Вы знали, на что идете.\n\t\tคนเดียวหัวหาย สามคนเพื่อนตาย\n\t\t“我们的团队”中没有“我”。\n\t\t「讓我們感謝這位同志無私的奉獻，我們懷念他。」\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Skan Srisuwan"
+      }
+    },
+    "undatedRawTagTransitions": [
+      {
+        "build": 77662,
+        "id": "TRL_249",
+        "dbfId": 50012,
+        "name": "냉혹한 집결",
+        "rawDiff": {
+          "1635": [
+            "ABSENT",
+            "6"
+          ]
+        },
+        "tagNames": {
+          "1635": "SPELL_SCHOOL"
+        },
+        "decision": "gameplay_spell_school_added_recorded_correctly",
+        "relatedFindings": [
+          "RAST-BAL-E009"
+        ],
+        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+      }
+    ],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "냉혹한 집결",
+      "enUS": "Grim Rally"
+    },
+    "currentPrintedText": {
+      "koKR": "냉혹한 집결",
+      "enUS": "Grim Rally"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_249",
+    "dbfId": 50012,
+    "name": "냉혹한 집결",
+    "type": "SPELL",
+    "cardClass": "WARLOCK",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 1,
+    "text": "아군 하수인을 처치합니다.<br></br>내 하수인들에게 +1/+1을 부여합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"다 좋은데 말이야, 자네만 없으면 좋겠군.\"",
+    "spellSchool": "SHADOW",
+    "portrait": "HS15-102_S.psd:61794aed8f6190048934dbc4f39adb27",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_249.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_249",
+    "dbfId": 50012,
+    "name": "냉혹한 집결",
+    "type": "SPELL",
+    "cardClass": "WARLOCK",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 1,
+    "text": "아군 하수인을 처치합니다.<br></br>내 하수인들에게 +1/+1을 부여합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"다 좋은데 말이야, 자네만 없으면 좋겠군.\"",
+    "spellSchool": "",
+    "portrait": "HS15-102_S.psd:61794aed8f6190048934dbc4f39adb27",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_249.png"
+  },
+  "2021-03-26": {
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "spellSchool": "SHADOW"
+  }
+}

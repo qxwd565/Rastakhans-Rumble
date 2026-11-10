@@ -1,1 +1,793 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_065","dbfId":49819,"name":"줄진","type":"HERO","cardClass":"HUNTER","rarity":"LEGENDARY","collectible":true,"cost":10,"text":"<b>전투의 함성:</b><br></br>이번 게임에서 내가 낸<br></br>모든 주문을 시전합니다.<br></br><i>(대상은 무작위로 선택)</i>","attack":0,"health":30,"durability":0,"armor":5,"flavor":"도끼를 피할 수 있다면 공도 피할 수 있어.","spellSchool":"","portrait":"HS15-022_H.psd:a759b89274f0e9245be480f99cb12817","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":30},{"id":48,"name":"마나 비용","value":10},{"id":114,"name":"전설 속성","value":1},{"id":199,"name":"직업","value":3},{"id":202,"name":"카드 유형","value":3},{"id":203,"name":"희귀도","value":5},{"id":218,"name":"전투의 함성","value":1},{"id":292,"name":"방어도","value":5},{"id":321,"name":"수집 가능","value":1},{"id":380,"name":"영웅 능력","value":50579}],"races":[],"race":"","classes":[],"art":"art/TRL_065.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-022_H.psd:a759b89274f0e9245be480f99cb12817","goldenMaterial":"TRL_065_PremiumCard.mat:f2fcb32e69785924186f07ae6b3b43dd","goldenAnimation":"TRL_065_PremiumCard.asset:d8568a72fd6942645ace7298f45da4f8"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-022_H.psd:a759b89274f0e9245be480f99cb12817",
+        "goldenMaterial": "TRL_065_PremiumCard.mat:f2fcb32e69785924186f07ae6b3b43dd",
+        "goldenAnimation": "TRL_065_PremiumCard.asset:d8568a72fd6942645ace7298f45da4f8"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-022_H.psd:a759b89274f0e9245be480f99cb12817",
+      "goldenMaterial": "TRL_065_PremiumCard.mat:f2fcb32e69785924186f07ae6b3b43dd",
+      "goldenAnimation": "TRL_065_PremiumCard.asset:d8568a72fd6942645ace7298f45da4f8"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "30",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "10",
+        "type": "Int"
+      },
+      "114": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "292": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "380": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "50579",
+        "type": "Card"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "30",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "10",
+        "type": "Int"
+      },
+      "114": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "292": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "380": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "50579",
+        "type": "Card"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Zul'jin"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Zul'jin"
+          },
+          "esES": {
+            "present": true,
+            "value": "Zul'jin"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Zul'jin"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Zul’jin"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Zul'jin"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ズルジン"
+          },
+          "koKR": {
+            "present": true,
+            "value": "줄진"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zul'jin"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Zul'jin"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Зул'джин"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ซูลจิน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "祖尔金"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "祖爾金"
+          }
+        },
+        "textContent": "\n\t\t\tZul'jin\n\t\t\tZul'jin\n\t\t\tZul'jin\n\t\t\tZul'jin\n\t\t\tZul’jin\n\t\t\tZul'jin\n\t\t\tズルジン\n\t\t\t줄진\n\t\t\tZul'jin\n\t\t\tZul'jin\n\t\t\tЗул'джин\n\t\t\tซูลจิน\n\t\t\t祖尔金\n\t\t\t祖爾金\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "[x]<b>Kampfschrei:</b> Wirkt alle\nZauber, die Ihr in diesem\nSpiel ausgespielt habt.\n<i>(Zufällige Zielauswahl)</i>"
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]<b>Battlecry:</b> Cast all spells\nyou've played this game\n<i>(targets chosen randomly)</i>."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Grito de batalla:</b> Lanza\ntodos los hechizos que hayas\nusado en esta partida\n <i>(a objetivos aleatorios)</i>."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> lanza todos los hechizos que hayas lanzado en la partida\n<i>(objetivos_elegidos_al_azar)</i>."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> lance tous les sorts que vous avez joués pendant cette partie <i>(cibles choisies au hasard)</i>."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b>\nlancia su bersagli casuali\nle Magie che hai giocato\nin questa partita."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>雄叫び:</b>\nこの対戦で自分が使用した\n呪文を全て使用する\n_<i>（対象はランダムに選択）</i>。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]<b>전투의 함성:</b>\n이번 게임에서 내가 낸\n모든 주문을 시전합니다.\n<i>(대상은 무작위로 선택)</i>"
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b>\nRzuć wszystkie zaklęcia zagrane przez ciebie w tej grze_<i>(cele_wybrane_losowo)</i>."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b> Lance todos os feitiços que você tiver lançado \nnesta partida <i>(alvos escolhidos aleatoriamente)</i>."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> разыгрывает все заклинания, разыгранные вами в этом матче\n<i>(цели выбираются случайно).</i>"
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b>_ร่ายเวทมนตร์[b]ทั้งหมด[b]ที่คุณเล่นในเกมนี้ <i>(สุ่มเลือกเป้าหมาย)</i>"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>\n施放你在本局对战中使用过的所有法术<i>（目标随机而定）</i>。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "[x]<b>戰吼：</b>施放你在本賽\n局中打過的所有法術\n<i>(隨機選擇目標)</i>"
+          }
+        },
+        "textContent": "\n\t\t\t[x]<b>Kampfschrei:</b> Wirkt alle\nZauber, die Ihr in diesem\nSpiel ausgespielt habt.\n<i>(Zufällige Zielauswahl)</i>\n\t\t\t[x]<b>Battlecry:</b> Cast all spells\nyou've played this game\n<i>(targets chosen randomly)</i>.\n\t\t\t[x]<b>Grito de batalla:</b> Lanza\ntodos los hechizos que hayas\nusado en esta partida\n <i>(a objetivos aleatorios)</i>.\n\t\t\t<b>Grito de batalla:</b> lanza todos los hechizos que hayas lanzado en la partida\n<i>(objetivos_elegidos_al_azar)</i>.\n\t\t\t<b>Cri de guerre :</b> lance tous les sorts que vous avez joués pendant cette partie <i>(cibles choisies au hasard)</i>.\n\t\t\t[x]<b>Grido di Battaglia:</b>\nlancia su bersagli casuali\nle Magie che hai giocato\nin questa partita.\n\t\t\t[x]<b>雄叫び:</b>\nこの対戦で自分が使用した\n呪文を全て使用する\n_<i>（対象はランダムに選択）</i>。\n\t\t\t[x]<b>전투의 함성:</b>\n이번 게임에서 내가 낸\n모든 주문을 시전합니다.\n<i>(대상은 무작위로 선택)</i>\n\t\t\t<b>Okrzyk bojowy:</b>\nRzuć wszystkie zaklęcia zagrane przez ciebie w tej grze_<i>(cele_wybrane_losowo)</i>.\n\t\t\t<b>Grito de Guerra:</b> Lance todos os feitiços que você tiver lançado \nnesta partida <i>(alvos escolhidos aleatoriamente)</i>.\n\t\t\t<b>Боевой клич:</b> разыгрывает все заклинания, разыгранные вами в этом матче\n<i>(цели выбираются случайно).</i>\n\t\t\t<b>คำรามสู้ศึก:</b>_ร่ายเวทมนตร์[b]ทั้งหมด[b]ที่คุณเล่นในเกมนี้ <i>(สุ่มเลือกเป้าหมาย)</i>\n\t\t\t<b>战吼：</b>\n施放你在本局对战中使用过的所有法术<i>（目标随机而定）</i>。\n\t\t\t[x]<b>戰吼：</b>施放你在本賽\n局中打過的所有法術\n<i>(隨機選擇目標)</i>\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Wenn Ihr 'ner Axt ausweichen könnt, könnt Ihr auch 'nem Ball ausweichen."
+          },
+          "enUS": {
+            "present": true,
+            "value": "If you can dodge an axe, you can dodge a ball."
+          },
+          "esES": {
+            "present": true,
+            "value": "Si esquiváis un hacha, esquivaréis las pelotas."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Si puedes esquivar un hacha, puedes esquivar un balón."
+          },
+          "frFR": {
+            "present": true,
+            "value": "« Da Amani di chuka ! »"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Il suo programma preferito era \"L'ascia o raddoppia\"."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ドッジボールに「顔面セーフ」があるように、ドッジアックスもルール上は「顔面セーフ」だが、選手は死ぬ。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "도끼를 피할 수 있다면 공도 피할 수 있어."
+          },
+          "plPL": {
+            "present": true,
+            "value": "„Chytaj toporek! Chytaj, mówiłem!”."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Se você consegue escapar de um machado, você consegue escapar de uma bola."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Что отделяет голову от туловища? ТОПОР!"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เวทมนตร์สามตะกร้า มันต้องปาถูกบ้างล่ะ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "你要连斧头都能躲，还躲不过一个球吗？"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "躲得過我的斧頭，就能躲開躲避球。"
+          }
+        },
+        "textContent": "\n\t\t\tWenn Ihr 'ner Axt ausweichen könnt, könnt Ihr auch 'nem Ball ausweichen.\n\t\t\tIf you can dodge an axe, you can dodge a ball.\n\t\t\tSi esquiváis un hacha, esquivaréis las pelotas.\n\t\t\tSi puedes esquivar un hacha, puedes esquivar un balón.\n\t\t\t« Da Amani di chuka ! »\n\t\t\tIl suo programma preferito era \"L'ascia o raddoppia\".\n\t\t\tドッジボールに「顔面セーフ」があるように、ドッジアックスもルール上は「顔面セーフ」だが、選手は死ぬ。\n\t\t\t도끼를 피할 수 있다면 공도 피할 수 있어.\n\t\t\t„Chytaj toporek! Chytaj, mówiłem!”.\n\t\t\tSe você consegue escapar de um machado, você consegue escapar de uma bola.\n\t\t\tЧто отделяет голову от туловища? ТОПОР!\n\t\t\tเวทมนตร์สามตะกร้า มันต้องปาถูกบ้างล่ะ\n\t\t\t你要连斧头都能躲，还躲不过一个球吗？\n\t\t\t躲得過我的斧頭，就能躲開躲避球。\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Alex Horley Orlandelli"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Zul’jin"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Zul'jin"
+          },
+          "esES": {
+            "present": true,
+            "value": "Zul'jin"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Zul'jin"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Zul’jin"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Zul'jin"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ズルジン"
+          },
+          "koKR": {
+            "present": true,
+            "value": "줄진"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zul'jin"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Zul'jin"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Зул'джин"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ซูลจิน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "祖尔金"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "祖爾金"
+          }
+        },
+        "textContent": "\n\t\tZul’jin\n\t\tZul'jin\n\t\tZul'jin\n\t\tZul'jin\n\t\tZul’jin\n\t\tZul'jin\n\t\tズルジン\n\t\t줄진\n\t\tZul'jin\n\t\tZul'jin\n\t\tЗул'джин\n\t\tซูลจิน\n\t\t祖尔金\n\t\t祖爾金\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "[x]<b>Kampfschrei:</b> Wirkt alle\nZauber, die Ihr in diesem\nSpiel ausgespielt habt.\n<i>(Zufällige Zielauswahl)</i>"
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]<b>Battlecry:</b> Cast all spells\nyou've played this game\n<i>(targets chosen randomly)</i>."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Grito de batalla:</b> Lanza\ntodos los hechizos que hayas\nusado en esta partida\n <i>(a objetivos aleatorios)</i>."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> lanza todos los hechizos que hayas lanzado en la partida. <i>(Objetivos_elegidos_al_azar)</i>."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> lance tous les sorts que vous avez joués pendant cette partie <i>(cibles choisies au hasard)</i>."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b>\nlancia su bersagli casuali\nle Magie che hai giocato\nin questa partita."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>雄叫び:</b>\nこの対戦で自分が使用した\n呪文を全て使用する。\n_<i>（対象はランダムに選択）</i>"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]<b>전투의 함성:</b>\n이번 게임에서 내가 낸\n모든 주문을 시전합니다.\n<i>(대상은 무작위로 선택)</i>"
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b>\nRzuć wszystkie zaklęcia zagrane przez ciebie w tej grze_<i>(cele_wybrane_losowo)</i>."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b> Lance todos os feitiços que você tiver lançado \nnesta partida <i>(alvos escolhidos aleatoriamente)</i>."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> применяет все_заклинания, разыгранные вами в этом матче <i>(цели выбираются случайно).</i>"
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b>_ร่ายเวทมนตร์[b]ทั้งหมดที่คุณเคยเล่นในเกม[b]นี้_<i>(สุ่มเลือกเป้าหมาย)</i>"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>\n施放你在本局对战中使用过的所有法术<i>（目标随机而定）</i>。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "[x]<b>戰吼：</b>施放你在本賽\n局中打過的所有法術\n<i>(隨機選擇目標)</i>"
+          }
+        },
+        "textContent": "\n\t\t[x]<b>Kampfschrei:</b> Wirkt alle\nZauber, die Ihr in diesem\nSpiel ausgespielt habt.\n<i>(Zufällige Zielauswahl)</i>\n\t\t[x]<b>Battlecry:</b> Cast all spells\nyou've played this game\n<i>(targets chosen randomly)</i>.\n\t\t[x]<b>Grito de batalla:</b> Lanza\ntodos los hechizos que hayas\nusado en esta partida\n <i>(a objetivos aleatorios)</i>.\n\t\t<b>Grito de batalla:</b> lanza todos los hechizos que hayas lanzado en la partida. <i>(Objetivos_elegidos_al_azar)</i>.\n\t\t<b>Cri de guerre :</b> lance tous les sorts que vous avez joués pendant cette partie <i>(cibles choisies au hasard)</i>.\n\t\t[x]<b>Grido di Battaglia:</b>\nlancia su bersagli casuali\nle Magie che hai giocato\nin questa partita.\n\t\t[x]<b>雄叫び:</b>\nこの対戦で自分が使用した\n呪文を全て使用する。\n_<i>（対象はランダムに選択）</i>\n\t\t[x]<b>전투의 함성:</b>\n이번 게임에서 내가 낸\n모든 주문을 시전합니다.\n<i>(대상은 무작위로 선택)</i>\n\t\t<b>Okrzyk bojowy:</b>\nRzuć wszystkie zaklęcia zagrane przez ciebie w tej grze_<i>(cele_wybrane_losowo)</i>.\n\t\t<b>Grito de Guerra:</b> Lance todos os feitiços que você tiver lançado \nnesta partida <i>(alvos escolhidos aleatoriamente)</i>.\n\t\t<b>Боевой клич:</b> применяет все_заклинания, разыгранные вами в этом матче <i>(цели выбираются случайно).</i>\n\t\t<b>คำรามสู้ศึก:</b>_ร่ายเวทมนตร์[b]ทั้งหมดที่คุณเคยเล่นในเกม[b]นี้_<i>(สุ่มเลือกเป้าหมาย)</i>\n\t\t<b>战吼：</b>\n施放你在本局对战中使用过的所有法术<i>（目标随机而定）</i>。\n\t\t[x]<b>戰吼：</b>施放你在本賽\n局中打過的所有法術\n<i>(隨機選擇目標)</i>\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Wenn Ihr ’ner Axt ausweichen könnt, könnt Ihr auch ’nem Ball ausweichen."
+          },
+          "enUS": {
+            "present": true,
+            "value": "If you can dodge an axe, you can dodge a ball."
+          },
+          "esES": {
+            "present": true,
+            "value": "Si esquiváis un hacha, esquivaréis las pelotas."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Si puedes esquivar un hacha, puedes esquivar un balón."
+          },
+          "frFR": {
+            "present": true,
+            "value": "« Da Amani di chuka ! »"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Il suo programma preferito era \"L'ascia o raddoppia\"."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ドッジボールに「顔面セーフ」があるように、ドッジアックスもルール上は「顔面セーフ」だが、選手は死ぬ。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "도끼를 피할 수 있다면 공도 피할 수 있어."
+          },
+          "plPL": {
+            "present": true,
+            "value": "„Chytaj toporek! Chytaj, mówiłem!”."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Se você consegue escapar de um machado, você consegue escapar de uma bola."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Что отделяет голову от туловища? ТОПОР!"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เวทมนตร์สามตะกร้า มันต้องปาถูกบ้างล่ะ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "你要连斧头都能躲，还躲不过一个球吗？"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "躲得過我的斧頭，就能躲開躲避球。"
+          }
+        },
+        "textContent": "\n\t\tWenn Ihr ’ner Axt ausweichen könnt, könnt Ihr auch ’nem Ball ausweichen.\n\t\tIf you can dodge an axe, you can dodge a ball.\n\t\tSi esquiváis un hacha, esquivaréis las pelotas.\n\t\tSi puedes esquivar un hacha, puedes esquivar un balón.\n\t\t« Da Amani di chuka ! »\n\t\tIl suo programma preferito era \"L'ascia o raddoppia\".\n\t\tドッジボールに「顔面セーフ」があるように、ドッジアックスもルール上は「顔面セーフ」だが、選手は死ぬ。\n\t\t도끼를 피할 수 있다면 공도 피할 수 있어.\n\t\t„Chytaj toporek! Chytaj, mówiłem!”.\n\t\tSe você consegue escapar de um machado, você consegue escapar de uma bola.\n\t\tЧто отделяет голову от туловища? ТОПОР!\n\t\tเวทมนตร์สามตะกร้า มันต้องปาถูกบ้างล่ะ\n\t\t你要连斧头都能躲，还躲不过一个球吗？\n\t\t躲得過我的斧頭，就能躲開躲避球。\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Alex Horley Orlandelli"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "줄진",
+      "enUS": "Zul'jin"
+    },
+    "currentPrintedText": {
+      "koKR": "줄진",
+      "enUS": "Zul'jin"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_065",
+    "dbfId": 49819,
+    "name": "줄진",
+    "type": "HERO",
+    "cardClass": "HUNTER",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 10,
+    "text": "<b>전투의 함성:</b><br></br>이번 게임에서 내가 낸<br></br>모든 주문을 시전합니다.<br></br><i>(대상은 무작위로 선택)</i>",
+    "attack": 0,
+    "health": 30,
+    "durability": 0,
+    "armor": 5,
+    "flavor": "도끼를 피할 수 있다면 공도 피할 수 있어.",
+    "spellSchool": "",
+    "portrait": "HS15-022_H.psd:a759b89274f0e9245be480f99cb12817",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 30
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 10
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 3
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 292,
+        "name": "방어도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 380,
+        "name": "영웅 능력",
+        "value": 50579
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_065.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_065",
+    "dbfId": 49819,
+    "name": "줄진",
+    "type": "HERO",
+    "cardClass": "HUNTER",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 10,
+    "text": "<b>전투의 함성:</b><br></br>이번 게임에서 내가 낸<br></br>모든 주문을 시전합니다.<br></br><i>(대상은 무작위로 선택)</i>",
+    "attack": 0,
+    "health": 30,
+    "durability": 0,
+    "armor": 5,
+    "flavor": "도끼를 피할 수 있다면 공도 피할 수 있어.",
+    "spellSchool": "",
+    "portrait": "HS15-022_H.psd:a759b89274f0e9245be480f99cb12817",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 30
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 10
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 3
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 292,
+        "name": "방어도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 380,
+        "name": "영웅 능력",
+        "value": 50579
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_065.png"
+  }
+}

@@ -1,1 +1,795 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_151","dbfId":50731,"name":"왕년의 최강자","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":5,"text":"<b>전투의 함성:</b><br></br>5/5 유망주를 소환합니다.","attack":1,"health":1,"durability":0,"armor":0,"flavor":"장의사가 메타를 지배할 때를 기억한다는군요.","spellSchool":"","portrait":"HS15-161_M.tif:cc6430a80735e904298fdfb284438714","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":5},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1},{"id":1452,"name":"수집품 관련 카드 데이터베이스 ID","value":50738}],"races":[],"race":"","classes":[],"art":"art/TRL_151.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-161_M.tif:cc6430a80735e904298fdfb284438714","goldenMaterial":"TRL_151_PremiumCard.mat:ee6ed0fca876fc64695e446da6481cf7","goldenAnimation":"TRL_151_PremiumCard.asset:79e8b4e1cc35bba428047c67b7498a82"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-161_M.tif:cc6430a80735e904298fdfb284438714",
+        "goldenMaterial": "TRL_151_PremiumCard.mat:ee6ed0fca876fc64695e446da6481cf7",
+        "goldenAnimation": "TRL_151_PremiumCard.asset:79e8b4e1cc35bba428047c67b7498a82"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-161_M.tif:cc6430a80735e904298fdfb284438714",
+      "goldenMaterial": "TRL_151_PremiumCard.mat:ee6ed0fca876fc64695e446da6481cf7",
+      "goldenAnimation": "TRL_151_PremiumCard.asset:79e8b4e1cc35bba428047c67b7498a82"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "1452": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "50738",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Ehemaliger Champion"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Former Champ"
+          },
+          "esES": {
+            "present": true,
+            "value": "Antiguo campeón"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Excampeón"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Gloire passée"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Vecchio Campione"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "元チャンピオン"
+          },
+          "koKR": {
+            "present": true,
+            "value": "왕년의 최강자"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Stary miszcz"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Antigo Campeão"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Бывший чемпион"
+          },
+          "thTH": {
+            "present": true,
+            "value": "อดีตแชมป์"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "退役冠军"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "前任冠軍"
+          }
+        },
+        "textContent": "\n\t\t\tEhemaliger Champion\n\t\t\tFormer Champ\n\t\t\tAntiguo campeón\n\t\t\tExcampeón\n\t\t\tGloire passée\n\t\t\tVecchio Campione\n\t\t\t元チャンピオン\n\t\t\t왕년의 최강자\n\t\t\tStary miszcz\n\t\t\tAntigo Campeão\n\t\t\tБывший чемпион\n\t\t\tอดีตแชมป์\n\t\t\t退役冠军\n\t\t\t前任冠軍\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Kampfschrei:</b> Ruft einen Jungspund (5/5) herbei."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Battlecry:</b> Summon a 5/5_Hotshot."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Grito de batalla:</b>\nInvoca a un Figura 5/5."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> invoca un Fanfarrón 5/5."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> invoque une étoile montante_5/5."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b> evoca\nun Asso dell'Arena 5/5."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>雄叫び:</b>\n5/5の\n「期待の新人」を\n1体召喚する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>전투의 함성:</b>\n5/5 유망주를 소환합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b> Przyzwij Młodzika 5/5."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b> Evoque um Manda-Chuva 5/5."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b>\nпризывает ученика чемпиона_5/5."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b> เรียกดาวรุ่ง 5/5"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>召唤一个5/5的赛场新秀。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>戰吼：</b>召喚一個\n5/5賽場新秀"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Kampfschrei:</b> Ruft einen Jungspund (5/5) herbei.\n\t\t\t<b>Battlecry:</b> Summon a 5/5_Hotshot.\n\t\t\t[x]<b>Grito de batalla:</b>\nInvoca a un Figura 5/5.\n\t\t\t<b>Grito de batalla:</b> invoca un Fanfarrón 5/5.\n\t\t\t<b>Cri de guerre :</b> invoque une étoile montante_5/5.\n\t\t\t[x]<b>Grido di Battaglia:</b> evoca\nun Asso dell'Arena 5/5.\n\t\t\t[x]<b>雄叫び:</b>\n5/5の\n「期待の新人」を\n1体召喚する。\n\t\t\t<b>전투의 함성:</b>\n5/5 유망주를 소환합니다.\n\t\t\t<b>Okrzyk bojowy:</b> Przyzwij Młodzika 5/5.\n\t\t\t<b>Grito de Guerra:</b> Evoque um Manda-Chuva 5/5.\n\t\t\t<b>Боевой клич:</b>\nпризывает ученика чемпиона_5/5.\n\t\t\t<b>คำรามสู้ศึก:</b> เรียกดาวรุ่ง 5/5\n\t\t\t<b>战吼：</b>召唤一个5/5的赛场新秀。\n\t\t\t<b>戰吼：</b>召喚一個\n5/5賽場新秀\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Zu seiner Zeit hatte noch jeder den Totengräber im Deck."
+          },
+          "enUS": {
+            "present": true,
+            "value": "The last time he saw action, Undertaker ruled the meta."
+          },
+          "esES": {
+            "present": true,
+            "value": "La última vez que peleó, Enterrador era de lo más popular."
+          },
+          "esMX": {
+            "present": true,
+            "value": "La última vez que vio un poco de acción, el Enterrador era amo y señor del meta."
+          },
+          "frFR": {
+            "present": true,
+            "value": "La dernière fois qu’il a participé à un combat, le voleur miracle de Naxxramas avait encore la cote."
+          },
+          "itIT": {
+            "present": true,
+            "value": "L'ultima volta che ha combattuto, il Becchino era in tutti i mazzi."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "彼が現役だったのは、「墓掘り人」がメタを席巻していた頃だった。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "장의사가 메타를 지배할 때를 기억한다는군요."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Jak ostatnio walczył na arenie, metagrą rządził Grabarz."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Da última vez que ele lutou, o Coveiro dominava o meta."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Это его четвертый прощальный тур."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ครั้งสุดท้ายที่เขาลงสนาม สัปเหร่อยังครองเมต้าอยู่เลย"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "他退役的时候，送葬者还是赛场一霸。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "他上次上場的時候，那個幫人送葬的傢伙還很活躍。"
+          }
+        },
+        "textContent": "\n\t\t\tZu seiner Zeit hatte noch jeder den Totengräber im Deck.\n\t\t\tThe last time he saw action, Undertaker ruled the meta.\n\t\t\tLa última vez que peleó, Enterrador era de lo más popular.\n\t\t\tLa última vez que vio un poco de acción, el Enterrador era amo y señor del meta.\n\t\t\tLa dernière fois qu’il a participé à un combat, le voleur miracle de Naxxramas avait encore la cote.\n\t\t\tL'ultima volta che ha combattuto, il Becchino era in tutti i mazzi.\n\t\t\t彼が現役だったのは、「墓掘り人」がメタを席巻していた頃だった。\n\t\t\t장의사가 메타를 지배할 때를 기억한다는군요.\n\t\t\tJak ostatnio walczył na arenie, metagrą rządził Grabarz.\n\t\t\tDa última vez que ele lutou, o Coveiro dominava o meta.\n\t\t\tЭто его четвертый прощальный тур.\n\t\t\tครั้งสุดท้ายที่เขาลงสนาม สัปเหร่อยังครองเมต้าอยู่เลย\n\t\t\t他退役的时候，送葬者还是赛场一霸。\n\t\t\t他上次上場的時候，那個幫人送葬的傢伙還很活躍。\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Peter Stapleton"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Ehemaliger Champion"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Former Champ"
+          },
+          "esES": {
+            "present": true,
+            "value": "Antiguo campeón"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Excampeón"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Gloire passée"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Vecchio Campione"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "元チャンピオン"
+          },
+          "koKR": {
+            "present": true,
+            "value": "왕년의 최강자"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Stary miszcz"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Antigo Campeão"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Бывший чемпион"
+          },
+          "thTH": {
+            "present": true,
+            "value": "อดีตแชมป์"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "退役冠军"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "前任冠軍"
+          }
+        },
+        "textContent": "\n\t\tEhemaliger Champion\n\t\tFormer Champ\n\t\tAntiguo campeón\n\t\tExcampeón\n\t\tGloire passée\n\t\tVecchio Campione\n\t\t元チャンピオン\n\t\t왕년의 최강자\n\t\tStary miszcz\n\t\tAntigo Campeão\n\t\tБывший чемпион\n\t\tอดีตแชมป์\n\t\t退役冠军\n\t\t前任冠軍\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Kampfschrei:</b> Ruft einen Jungspund (5/5) herbei."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Battlecry:</b> Summon a 5/5_Hotshot."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Grito de batalla:</b>\nInvoca a un Figura 5/5."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> invoca un Fanfarrón 5/5."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> invoque une étoile montante_5/5."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b> evoca\nun Asso dell'Arena 5/5."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>雄叫び:</b>\n5/5の\n「期待の新人」を\n1体召喚する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>전투의 함성:</b>\n5/5 유망주를 소환합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b> Przyzwij Młodzika 5/5."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b> Evoque um Manda-Chuva 5/5."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b>\nпризывает ученика чемпиона_5/5."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b> เรียกดาวรุ่ง 5/5"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>召唤一个5/5的赛场新秀。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>戰吼：</b>召喚一個\n5/5賽場新秀"
+          }
+        },
+        "textContent": "\n\t\t<b>Kampfschrei:</b> Ruft einen Jungspund (5/5) herbei.\n\t\t<b>Battlecry:</b> Summon a 5/5_Hotshot.\n\t\t[x]<b>Grito de batalla:</b>\nInvoca a un Figura 5/5.\n\t\t<b>Grito de batalla:</b> invoca un Fanfarrón 5/5.\n\t\t<b>Cri de guerre :</b> invoque une étoile montante_5/5.\n\t\t[x]<b>Grido di Battaglia:</b> evoca\nun Asso dell'Arena 5/5.\n\t\t[x]<b>雄叫び:</b>\n5/5の\n「期待の新人」を\n1体召喚する。\n\t\t<b>전투의 함성:</b>\n5/5 유망주를 소환합니다.\n\t\t<b>Okrzyk bojowy:</b> Przyzwij Młodzika 5/5.\n\t\t<b>Grito de Guerra:</b> Evoque um Manda-Chuva 5/5.\n\t\t<b>Боевой клич:</b>\nпризывает ученика чемпиона_5/5.\n\t\t<b>คำรามสู้ศึก:</b> เรียกดาวรุ่ง 5/5\n\t\t<b>战吼：</b>召唤一个5/5的赛场新秀。\n\t\t<b>戰吼：</b>召喚一個\n5/5賽場新秀\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Zu seiner Zeit hatte noch jeder den Totengräber im Deck."
+          },
+          "enUS": {
+            "present": true,
+            "value": "The last time he saw action, Undertaker ruled the meta."
+          },
+          "esES": {
+            "present": true,
+            "value": "La última vez que peleó, Enterrador era de lo más popular."
+          },
+          "esMX": {
+            "present": true,
+            "value": "La última vez que vio un poco de acción, el Enterrador era amo y señor del meta."
+          },
+          "frFR": {
+            "present": true,
+            "value": "La dernière fois qu’il a participé à un combat, le voleur miracle de Naxxramas avait encore la cote."
+          },
+          "itIT": {
+            "present": true,
+            "value": "L'ultima volta che ha combattuto, il Becchino era in tutti i mazzi."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "彼が現役だったのは、「墓掘り人」がメタを席巻していた頃だった。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "장의사가 메타를 지배할 때를 기억한다는군요."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Jak ostatnio walczył na arenie, metagrą rządził Grabarz."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Da última vez que ele lutou, o Coveiro dominava o meta."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Это его четвертый прощальный тур."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ครั้งสุดท้ายที่เขาลงสนาม สัปเหร่อยังครองเมต้าอยู่เลย"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "他退役的时候，送葬者还是赛场一霸。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "他上次上場的時候，那個幫人送葬的傢伙還很活躍。"
+          }
+        },
+        "textContent": "\n\t\tZu seiner Zeit hatte noch jeder den Totengräber im Deck.\n\t\tThe last time he saw action, Undertaker ruled the meta.\n\t\tLa última vez que peleó, Enterrador era de lo más popular.\n\t\tLa última vez que vio un poco de acción, el Enterrador era amo y señor del meta.\n\t\tLa dernière fois qu’il a participé à un combat, le voleur miracle de Naxxramas avait encore la cote.\n\t\tL'ultima volta che ha combattuto, il Becchino era in tutti i mazzi.\n\t\t彼が現役だったのは、「墓掘り人」がメタを席巻していた頃だった。\n\t\t장의사가 메타를 지배할 때를 기억한다는군요.\n\t\tJak ostatnio walczył na arenie, metagrą rządził Grabarz.\n\t\tDa última vez que ele lutou, o Coveiro dominava o meta.\n\t\tЭто его четвертый прощальный тур.\n\t\tครั้งสุดท้ายที่เขาลงสนาม สัปเหร่อยังครองเมต้าอยู่เลย\n\t\t他退役的时候，送葬者还是赛场一霸。\n\t\t他上次上場的時候，那個幫人送葬的傢伙還很活躍。\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Peter Stapleton"
+      }
+    },
+    "undatedRawTagTransitions": [
+      {
+        "build": 170824,
+        "id": "TRL_151",
+        "dbfId": 50731,
+        "name": "왕년의 최강자",
+        "rawDiff": {
+          "1452": [
+            "ABSENT",
+            "50738"
+          ]
+        },
+        "tagNames": {
+          "1452": "COLLECTION_RELATED_CARD_DATABASE_ID"
+        },
+        "decision": "native_bookkeeping_or_other_mode_not_balance",
+        "relatedFindings": [],
+        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml"
+      }
+    ],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "왕년의 최강자",
+      "enUS": "Former Champ"
+    },
+    "currentPrintedText": {
+      "koKR": "왕년의 최강자",
+      "enUS": "Former Champ"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_151",
+    "dbfId": 50731,
+    "name": "왕년의 최강자",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>전투의 함성:</b><br></br>5/5 유망주를 소환합니다.",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "장의사가 메타를 지배할 때를 기억한다는군요.",
+    "spellSchool": "",
+    "portrait": "HS15-161_M.tif:cc6430a80735e904298fdfb284438714",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "수집품 관련 카드 데이터베이스 ID",
+        "value": 50738
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_151.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_151",
+    "dbfId": 50731,
+    "name": "왕년의 최강자",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>전투의 함성:</b><br></br>5/5 유망주를 소환합니다.",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "장의사가 메타를 지배할 때를 기억한다는군요.",
+    "spellSchool": "",
+    "portrait": "HS15-161_M.tif:cc6430a80735e904298fdfb284438714",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "수집품 관련 카드 데이터베이스 ID",
+        "value": 50738
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_151.png"
+  }
+}

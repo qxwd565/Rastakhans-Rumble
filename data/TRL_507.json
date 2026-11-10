@@ -1,1 +1,821 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_507","dbfId":50383,"name":"상어팀 구경꾼","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":2,"text":"내 영웅이 공격한 후에 1/1 해적을 소환합니다.","attack":2,"health":2,"durability":0,"armor":0,"flavor":"뚜루루 뚜루!","spellSchool":"","portrait":"HS15-057_M.psd:16cac12f40075324595c2459d0f9b4f1","set":"TROLL","nativeTags":[{"id":32,"name":"발동 효과 표시","value":1},{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":2},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":23},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1},{"id":1452,"name":"수집품 관련 카드 데이터베이스 ID","value":50833}],"races":["PIRATE"],"race":"해적","classes":[],"art":"art/TRL_507.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-057_M.psd:16cac12f40075324595c2459d0f9b4f1","goldenMaterial":"TRL_507_PremiumCard.mat:1511103121461eb4cbd83e01f7fc6fba","goldenAnimation":"TRL_507_PremiumCard.asset:35fcc3245543ad14bae3198f0a702299"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-057_M.psd:16cac12f40075324595c2459d0f9b4f1",
+        "goldenMaterial": "TRL_507_PremiumCard.mat:1511103121461eb4cbd83e01f7fc6fba",
+        "goldenAnimation": "TRL_507_PremiumCard.asset:35fcc3245543ad14bae3198f0a702299"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-057_M.psd:16cac12f40075324595c2459d0f9b4f1",
+      "goldenMaterial": "TRL_507_PremiumCard.mat:1511103121461eb4cbd83e01f7fc6fba",
+      "goldenAnimation": "TRL_507_PremiumCard.asset:35fcc3245543ad14bae3198f0a702299"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "32": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "23",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "32": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "23",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "1452": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "50833",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Haifischflossenfan"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Sharkfin Fan"
+          },
+          "esES": {
+            "present": true,
+            "value": "Fan de Aleta de Tiburón"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Fan de los tiburones"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Fan des Requins"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Tifoso Pinnasqualo"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "シャークフィンのファン"
+          },
+          "koKR": {
+            "present": true,
+            "value": "상어팀 구경꾼"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Fan Rekinich Płetw"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Torcedor dos Tubarões"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Фанат «Акул»"
+          },
+          "thTH": {
+            "present": true,
+            "value": "แฟนคลับชาร์คฟิน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "鲨鳍后援"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "鯊魚幫粉絲"
+          }
+        },
+        "textContent": "\n\t\t\tHaifischflossenfan\n\t\t\tSharkfin Fan\n\t\t\tFan de Aleta de Tiburón\n\t\t\tFan de los tiburones\n\t\t\tFan des Requins\n\t\t\tTifoso Pinnasqualo\n\t\t\tシャークフィンのファン\n\t\t\t상어팀 구경꾼\n\t\t\tFan Rekinich Płetw\n\t\t\tTorcedor dos Tubarões\n\t\t\tФанат «Акул»\n\t\t\tแฟนคลับชาร์คฟิน\n\t\t\t鲨鳍后援\n\t\t\t鯊魚幫粉絲\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Ruft einen Piraten (1/1) herbei, nachdem Euer Held angegriffen hat."
+          },
+          "enUS": {
+            "present": true,
+            "value": "After your hero attacks, summon a 1/1 Pirate."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Cada vez que tu héroe ataca,\ninvoca a un pirata 1/1."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Después de que tu héroe ataca, invoca un Pirata_1/1."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Une fois que votre héros a attaqué, invoque un pirate_1/1."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]Dopo che il tuo eroe\nha attaccato, evoca\nun Pirata 1/1."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]自分のヒーローが\n攻撃した後\n1/1の海賊を\n1体召喚する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "내 영웅이 공격한 후에 1/1 해적을 소환합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Gdy twój bohater zaatakuje, przyzwij Pirata_1/1."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Depois que seu herói atacar, evoque \num Pirata 1/1."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "После того как ваш_герой [x]атакует, призывает\nпирата 1/1."
+          },
+          "thTH": {
+            "present": true,
+            "value": "หลังจากฮีโร่ของคุณโจมตี เรียกโจรสลัด 1/1"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "在你的英雄攻击后，召唤一个1/1的海盗。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "[x]在你的英雄\n攻擊後，召喚一個\n1/1海盜"
+          }
+        },
+        "textContent": "\n\t\t\tRuft einen Piraten (1/1) herbei, nachdem Euer Held angegriffen hat.\n\t\t\tAfter your hero attacks, summon a 1/1 Pirate.\n\t\t\t[x]Cada vez que tu héroe ataca,\ninvoca a un pirata 1/1.\n\t\t\tDespués de que tu héroe ataca, invoca un Pirata_1/1.\n\t\t\tUne fois que votre héros a attaqué, invoque un pirate_1/1.\n\t\t\t[x]Dopo che il tuo eroe\nha attaccato, evoca\nun Pirata 1/1.\n\t\t\t[x]自分のヒーローが\n攻撃した後\n1/1の海賊を\n1体召喚する。\n\t\t\t내 영웅이 공격한 후에 1/1 해적을 소환합니다.\n\t\t\tGdy twój bohater zaatakuje, przyzwij Pirata_1/1.\n\t\t\tDepois que seu herói atacar, evoque \num Pirata 1/1.\n\t\t\tПосле того как ваш_герой [x]атакует, призывает\nпирата 1/1.\n\t\t\tหลังจากฮีโร่ของคุณโจมตี เรียกโจรสลัด 1/1\n\t\t\t在你的英雄攻击后，召唤一个1/1的海盗。\n\t\t\t[x]在你的英雄\n攻擊後，召喚一個\n1/1海盜\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Wenn man erst einmal auf den Geschmack gekommen ist_..."
+          },
+          "enUS": {
+            "present": true,
+            "value": "His taste in soup is criminal."
+          },
+          "esES": {
+            "present": true,
+            "value": "Su hermano murió de una colleja."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Aguazul, martillo, peregrino, coralino, ¡le encantan todos por igual!"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Les places au premier rang coûtent les yeux de la tête (voire un bras), mais c’est pas ça qui arrête un vrai fan !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "È quello che sta sempre in piedi e non ti fa vedere NIENTE."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "その通り、不快で非礼なファンなわけだ。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "뚜루루 뚜루!"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Wydał majątek na akcesoria z logo swoich ulubieńców."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Mesmo após o infeliz acidente com a mão, ele continua fã dos tubarões."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "При этом не откажется от акульего супчика."
+          },
+          "thTH": {
+            "present": true,
+            "value": "หูฉลามก็คือครีบของฉลาม แต่หูหมูไม่ใช่ครีบของหมูนะ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "他喜欢的那款汤违反了动物保护法。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "請認明外觀的鯊魚標記，才是正港的鯊魚幫粉絲。"
+          }
+        },
+        "textContent": "\n\t\t\tWenn man erst einmal auf den Geschmack gekommen ist_...\n\t\t\tHis taste in soup is criminal.\n\t\t\tSu hermano murió de una colleja.\n\t\t\tAguazul, martillo, peregrino, coralino, ¡le encantan todos por igual!\n\t\t\tLes places au premier rang coûtent les yeux de la tête (voire un bras), mais c’est pas ça qui arrête un vrai fan !\n\t\t\tÈ quello che sta sempre in piedi e non ti fa vedere NIENTE.\n\t\t\tその通り、不快で非礼なファンなわけだ。\n\t\t\t뚜루루 뚜루!\n\t\t\tWydał majątek na akcesoria z logo swoich ulubieńców.\n\t\t\tMesmo após o infeliz acidente com a mão, ele continua fã dos tubarões.\n\t\t\tПри этом не откажется от акульего супчика.\n\t\t\tหูฉลามก็คือครีบของฉลาม แต่หูหมูไม่ใช่ครีบของหมูนะ\n\t\t\t他喜欢的那款汤违反了动物保护法。\n\t\t\t請認明外觀的鯊魚標記，才是正港的鯊魚幫粉絲。\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Peter Stapleton"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Haifischflossenfan"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Sharkfin Fan"
+          },
+          "esES": {
+            "present": true,
+            "value": "Fan de Aleta de Tiburón"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Fan de los tiburones"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Fan des Requins"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Tifoso Pinnasqualo"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "シャークフィンのファン"
+          },
+          "koKR": {
+            "present": true,
+            "value": "상어팀 구경꾼"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Fan Rekinich Płetw"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Torcedor dos Tubarões"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Фанат «Акул»"
+          },
+          "thTH": {
+            "present": true,
+            "value": "แฟนคลับชาร์คฟิน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "鲨鳍后援"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "鯊魚幫粉絲"
+          }
+        },
+        "textContent": "\n\t\tHaifischflossenfan\n\t\tSharkfin Fan\n\t\tFan de Aleta de Tiburón\n\t\tFan de los tiburones\n\t\tFan des Requins\n\t\tTifoso Pinnasqualo\n\t\tシャークフィンのファン\n\t\t상어팀 구경꾼\n\t\tFan Rekinich Płetw\n\t\tTorcedor dos Tubarões\n\t\tФанат «Акул»\n\t\tแฟนคลับชาร์คฟิน\n\t\t鲨鳍后援\n\t\t鯊魚幫粉絲\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Ruft einen Piraten (1/1) herbei, nachdem Euer Held angegriffen hat."
+          },
+          "enUS": {
+            "present": true,
+            "value": "After your hero attacks, summon a 1/1 Pirate."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Cada vez que tu héroe ataca,\ninvoca a un pirata 1/1."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Después de que tu héroe ataca, invoca un Pirata_1/1."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Une fois que votre héros a attaqué, invoque un Pirate_1/1."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]Dopo che il tuo eroe\nha attaccato, evoca\nun Pirata 1/1."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]自分のヒーローが\n攻撃した後\n1/1の海賊を\n1体召喚する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "내 영웅이 공격한 후에 1/1 해적을 소환합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Gdy twój bohater zaatakuje, przyzwij Pirata_1/1."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Depois que seu herói atacar, evoque \num Pirata 1/1."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "После того как ваш_герой [x]атакует, призывает\nпирата 1/1."
+          },
+          "thTH": {
+            "present": true,
+            "value": "หลังจากฮีโร่ของคุณโจมตี เรียกโจรสลัด 1/1"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "在你的英雄攻击后，召唤一个1/1的海盗。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "[x]在你的英雄\n攻擊後，召喚一個\n1/1海盜"
+          }
+        },
+        "textContent": "\n\t\tRuft einen Piraten (1/1) herbei, nachdem Euer Held angegriffen hat.\n\t\tAfter your hero attacks, summon a 1/1 Pirate.\n\t\t[x]Cada vez que tu héroe ataca,\ninvoca a un pirata 1/1.\n\t\tDespués de que tu héroe ataca, invoca un Pirata_1/1.\n\t\tUne fois que votre héros a attaqué, invoque un Pirate_1/1.\n\t\t[x]Dopo che il tuo eroe\nha attaccato, evoca\nun Pirata 1/1.\n\t\t[x]自分のヒーローが\n攻撃した後\n1/1の海賊を\n1体召喚する。\n\t\t내 영웅이 공격한 후에 1/1 해적을 소환합니다.\n\t\tGdy twój bohater zaatakuje, przyzwij Pirata_1/1.\n\t\tDepois que seu herói atacar, evoque \num Pirata 1/1.\n\t\tПосле того как ваш_герой [x]атакует, призывает\nпирата 1/1.\n\t\tหลังจากฮีโร่ของคุณโจมตี เรียกโจรสลัด 1/1\n\t\t在你的英雄攻击后，召唤一个1/1的海盗。\n\t\t[x]在你的英雄\n攻擊後，召喚一個\n1/1海盜\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Wenn man erst einmal auf den Geschmack gekommen ist_..."
+          },
+          "enUS": {
+            "present": true,
+            "value": "His taste in soup is criminal."
+          },
+          "esES": {
+            "present": true,
+            "value": "Su hermano murió de una colleja."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Aguazul, martillo, peregrino, coralino, ¡le encantan todos por igual!"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Les places au premier rang coûtent les yeux de la tête (voire un bras), mais c’est pas ça qui arrête un vrai fan !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "È quello che sta sempre in piedi e non ti fa vedere NIENTE."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "その通り、不快で非礼なファンなわけだ。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "뚜루루 뚜루!"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Wydał majątek na akcesoria z logo swoich ulubieńców."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Mesmo após o infeliz acidente com a mão, ele continua fã dos tubarões."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "При этом не откажется от акульего супчика."
+          },
+          "thTH": {
+            "present": true,
+            "value": "หูฉลามก็คือครีบของฉลาม แต่หูหมูไม่ใช่ครีบของหมูนะ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "他喜欢的那款汤违反了动物保护法。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "請認明外觀的鯊魚標記，才是正港的鯊魚幫粉絲。"
+          }
+        },
+        "textContent": "\n\t\tWenn man erst einmal auf den Geschmack gekommen ist_...\n\t\tHis taste in soup is criminal.\n\t\tSu hermano murió de una colleja.\n\t\tAguazul, martillo, peregrino, coralino, ¡le encantan todos por igual!\n\t\tLes places au premier rang coûtent les yeux de la tête (voire un bras), mais c’est pas ça qui arrête un vrai fan !\n\t\tÈ quello che sta sempre in piedi e non ti fa vedere NIENTE.\n\t\tその通り、不快で非礼なファンなわけだ。\n\t\t뚜루루 뚜루!\n\t\tWydał majątek na akcesoria z logo swoich ulubieńców.\n\t\tMesmo após o infeliz acidente com a mão, ele continua fã dos tubarões.\n\t\tПри этом не откажется от акульего супчика.\n\t\tหูฉลามก็คือครีบของฉลาม แต่หูหมูไม่ใช่ครีบของหมูนะ\n\t\t他喜欢的那款汤违反了动物保护法。\n\t\t請認明外觀的鯊魚標記，才是正港的鯊魚幫粉絲。\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Peter Stapleton"
+      }
+    },
+    "undatedRawTagTransitions": [
+      {
+        "build": 170824,
+        "id": "TRL_507",
+        "dbfId": 50383,
+        "name": "상어팀 구경꾼",
+        "rawDiff": {
+          "1452": [
+            "ABSENT",
+            "50833"
+          ]
+        },
+        "tagNames": {
+          "1452": "COLLECTION_RELATED_CARD_DATABASE_ID"
+        },
+        "decision": "native_bookkeeping_or_other_mode_not_balance",
+        "relatedFindings": [],
+        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml"
+      }
+    ],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "상어팀 구경꾼",
+      "enUS": "Sharkfin Fan"
+    },
+    "currentPrintedText": {
+      "koKR": "상어팀 구경꾼",
+      "enUS": "Sharkfin Fan"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_507",
+    "dbfId": 50383,
+    "name": "상어팀 구경꾼",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "내 영웅이 공격한 후에 1/1 해적을 소환합니다.",
+    "attack": 2,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "뚜루루 뚜루!",
+    "spellSchool": "",
+    "portrait": "HS15-057_M.psd:16cac12f40075324595c2459d0f9b4f1",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 23
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "수집품 관련 카드 데이터베이스 ID",
+        "value": 50833
+      }
+    ],
+    "races": [
+      "PIRATE"
+    ],
+    "race": "해적",
+    "classes": [],
+    "art": "art/TRL_507.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_507",
+    "dbfId": 50383,
+    "name": "상어팀 구경꾼",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "내 영웅이 공격한 후에 1/1 해적을 소환합니다.",
+    "attack": 2,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "뚜루루 뚜루!",
+    "spellSchool": "",
+    "portrait": "HS15-057_M.psd:16cac12f40075324595c2459d0f9b4f1",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 23
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "수집품 관련 카드 데이터베이스 ID",
+        "value": 50833
+      }
+    ],
+    "races": [
+      "PIRATE"
+    ],
+    "race": "해적",
+    "classes": [],
+    "art": "art/TRL_507.png"
+  }
+}

@@ -1,1 +1,463 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_347t","dbfId":50467,"name":"데빌사우루스","type":"MINION","cardClass":"HUNTER","collectible":false,"cost":5,"text":"","attack":5,"health":5,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS15-124_M.psd:829ae644b958a9f4dba20ba676acb88c","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":5},{"id":47,"name":"공격력","value":5},{"id":48,"name":"마나 비용","value":5},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":3},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":321,"name":"수집 가능","value":0},{"id":330,"name":"효과 생성 시각 효과","value":0},{"id":331,"name":"효과 지속 시각 효과","value":0}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/TRL_347t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-124_M.psd:829ae644b958a9f4dba20ba676acb88c","goldenMaterial":"TRL_347t_PremiumCard.mat:878598b9a799c824ba40a51644fb4ca9","goldenAnimation":"TRL_347t_PremiumCard.asset:46a981339d5f0af4eb1129513746abd5"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "estimated",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-124_M.psd:829ae644b958a9f4dba20ba676acb88c",
+        "goldenMaterial": "TRL_347t_PremiumCard.mat:878598b9a799c824ba40a51644fb4ca9",
+        "goldenAnimation": "TRL_347t_PremiumCard.asset:46a981339d5f0af4eb1129513746abd5"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-124_M.psd:829ae644b958a9f4dba20ba676acb88c",
+      "goldenMaterial": "TRL_347t_PremiumCard.mat:878598b9a799c824ba40a51644fb4ca9",
+      "goldenAnimation": "TRL_347t_PremiumCard.asset:46a981339d5f0af4eb1129513746abd5"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "20",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "20",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Teufelssaurier"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Devilsaur"
+          },
+          "esES": {
+            "present": true,
+            "value": "Demosaurio"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Demosaurio"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Diablosaure"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Gigantosauro"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "デビルサウルス"
+          },
+          "koKR": {
+            "present": true,
+            "value": "데빌사우루스"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Diabłozaur"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Demossauro"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Дьявозавр"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เดวิลซอร์"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "魔暴龙"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "魔暴龍"
+          }
+        },
+        "textContent": "\n\t\t\tTeufelssaurier\n\t\t\tDevilsaur\n\t\t\tDemosaurio\n\t\t\tDemosaurio\n\t\t\tDiablosaure\n\t\t\tGigantosauro\n\t\t\tデビルサウルス\n\t\t\t데빌사우루스\n\t\t\tDiabłozaur\n\t\t\tDemossauro\n\t\t\tДьявозавр\n\t\t\tเดวิลซอร์\n\t\t\t魔暴龙\n\t\t\t魔暴龍\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Anton Zemskov"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Teufelssaurier"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Devilsaur"
+          },
+          "esES": {
+            "present": true,
+            "value": "Demosaurio"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Demosaurio"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Diablosaure"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Gigantosauro"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "デビルサウルス"
+          },
+          "koKR": {
+            "present": true,
+            "value": "데빌사우루스"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Diabłozaur"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Demossauro"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Дьявозавр"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เดวิลซอร์"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "魔暴龙"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "魔暴龍"
+          }
+        },
+        "textContent": "\n\t\tTeufelssaurier\n\t\tDevilsaur\n\t\tDemosaurio\n\t\tDemosaurio\n\t\tDiablosaure\n\t\tGigantosauro\n\t\tデビルサウルス\n\t\t데빌사우루스\n\t\tDiabłozaur\n\t\tDemossauro\n\t\tДьявозавр\n\t\tเดวิลซอร์\n\t\t魔暴龙\n\t\t魔暴龍\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Anton Zemskov"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "데빌사우루스",
+      "enUS": "Devilsaur"
+    },
+    "currentPrintedText": {
+      "koKR": "데빌사우루스",
+      "enUS": "Devilsaur"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_347t",
+    "dbfId": 50467,
+    "name": "데빌사우루스",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "collectible": false,
+    "cost": 5,
+    "text": "",
+    "attack": 5,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS15-124_M.psd:829ae644b958a9f4dba20ba676acb88c",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/TRL_347t.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_347t",
+    "dbfId": 50467,
+    "name": "데빌사우루스",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "collectible": false,
+    "cost": 5,
+    "text": "",
+    "attack": 5,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS15-124_M.psd:829ae644b958a9f4dba20ba676acb88c",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/TRL_347t.png"
+  }
+}

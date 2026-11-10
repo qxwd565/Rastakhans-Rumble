@@ -1,1 +1,901 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_326","dbfId":50059,"name":"가시불꽃 창병","type":"MINION","cardClass":"WARRIOR","rarity":"EPIC","collectible":true,"cost":3,"text":"<b>전투의 함성:</b> 내 손에<br></br>용족이 있으면, 피해를 받은<br></br>적 하수인을 처치합니다.","attack":3,"health":2,"durability":0,"armor":0,"flavor":"이쯤 되면 별명이 무엇이 될지 짐작이 가는군요.","spellSchool":"","portrait":"HS15-133_M.psd:906fdaf3c53756146b089dca5ffefca0","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":3},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":10},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":4},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/TRL_326.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-133_M.psd:906fdaf3c53756146b089dca5ffefca0","goldenMaterial":"TRL_326_PremiumCard.mat:8b3291b30b7bdea48bbbdea2a48c39f3","goldenAnimation":"TRL_326_PremiumCard.asset:2d66caa33ba600746a8131cd34478dbe"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-133_M.psd:906fdaf3c53756146b089dca5ffefca0",
+        "goldenMaterial": "TRL_326_PremiumCard.mat:8b3291b30b7bdea48bbbdea2a48c39f3",
+        "goldenAnimation": "TRL_326_PremiumCard.asset:2d66caa33ba600746a8131cd34478dbe"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-133_M.psd:906fdaf3c53756146b089dca5ffefca0",
+      "goldenMaterial": "TRL_326_PremiumCard.mat:8b3291b30b7bdea48bbbdea2a48c39f3",
+      "goldenAnimation": "TRL_326_PremiumCard.asset:2d66caa33ba600746a8131cd34478dbe"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "325": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "10",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "325": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "10",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Gluthauerlanzerin"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Smolderthorn Lancer"
+          },
+          "esES": {
+            "present": true,
+            "value": "Lancera Espina Ahumada"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Lancera Espina Ahumada"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Lancier brûleronce"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Lanciera Bruciaspina"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "スモルダーソーンの槍騎兵"
+          },
+          "koKR": {
+            "present": true,
+            "value": "가시불꽃 창병"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Wojowniczka z Żarokolców"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Lanceira Fumocardo"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Тролль-копейщица"
+          },
+          "thTH": {
+            "present": true,
+            "value": "พลหอกสโมลเดอร์ธอร์น"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "燃棘枪兵"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "燃棘矛兵"
+          }
+        },
+        "textContent": "\n\t\t\tGluthauerlanzerin\n\t\t\tSmolderthorn Lancer\n\t\t\tLancera Espina Ahumada\n\t\t\tLancera Espina Ahumada\n\t\t\tLancier brûleronce\n\t\t\tLanciera Bruciaspina\n\t\t\tスモルダーソーンの槍騎兵\n\t\t\t가시불꽃 창병\n\t\t\tWojowniczka z Żarokolców\n\t\t\tLanceira Fumocardo\n\t\t\tТролль-копейщица\n\t\t\tพลหอกสโมลเดอร์ธอร์น\n\t\t\t燃棘枪兵\n\t\t\t燃棘矛兵\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Kampfschrei:</b> Vernichtet einen verletzten feindlichen Diener, wenn Ihr einen Drachen auf der Hand habt."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Battlecry:</b> If you're holding a Dragon, destroy a damaged enemy minion."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> Si hay un dragón en tu mano,\ndestruye a un esbirro enemigo dañado."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> si tienes un Dragón en tu mano, destruye un esbirro enemigo dañado."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> détruit un serviteur adverse blessé si vous avez un Dragon en_main."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b>\ndistrugge un servitore\nnemico danneggiato se\n_hai un Drago in mano."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>雄叫び:</b>\n自分の手札に\nドラゴンがいる場合\nダメージを受けている\n_____敵のミニオン1体を破壊する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]<b>전투의 함성:</b> 내 손에\n용족이 있으면, 피해를 받은\n적 하수인을 처치합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b> Zniszcz rannego wrogiego stronnika, jeśli masz w ręce Smoka."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b> \nSe tiver um Dragão na mão, destrua um lacaio inimigo ferido."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> если у вас в руке есть дракон, уничтожает существо противника [x]с неполным здоровьем."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b> ถ้าคุณมีมังกร[b]ในมือ ทำลายมินเนี่ยนศัตรู[b]หนึ่งตัวที่พลังชีวิตไม่เต็ม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>如果你的手牌中有龙牌，则消灭一个受伤的敌方随从。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>戰吼：</b>若你手中有龍類，摧毀一個受傷的敵方手下"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Kampfschrei:</b> Vernichtet einen verletzten feindlichen Diener, wenn Ihr einen Drachen auf der Hand habt.\n\t\t\t<b>Battlecry:</b> If you're holding a Dragon, destroy a damaged enemy minion.\n\t\t\t<b>Grito de batalla:</b> Si hay un dragón en tu mano,\ndestruye a un esbirro enemigo dañado.\n\t\t\t<b>Grito de batalla:</b> si tienes un Dragón en tu mano, destruye un esbirro enemigo dañado.\n\t\t\t<b>Cri de guerre :</b> détruit un serviteur adverse blessé si vous avez un Dragon en_main.\n\t\t\t[x]<b>Grido di Battaglia:</b>\ndistrugge un servitore\nnemico danneggiato se\n_hai un Drago in mano.\n\t\t\t[x]<b>雄叫び:</b>\n自分の手札に\nドラゴンがいる場合\nダメージを受けている\n_____敵のミニオン1体を破壊する。\n\t\t\t[x]<b>전투의 함성:</b> 내 손에\n용족이 있으면, 피해를 받은\n적 하수인을 처치합니다.\n\t\t\t<b>Okrzyk bojowy:</b> Zniszcz rannego wrogiego stronnika, jeśli masz w ręce Smoka.\n\t\t\t<b>Grito de Guerra:</b> \nSe tiver um Dragão na mão, destrua um lacaio inimigo ferido.\n\t\t\t<b>Боевой клич:</b> если у вас в руке есть дракон, уничтожает существо противника [x]с неполным здоровьем.\n\t\t\t<b>คำรามสู้ศึก:</b> ถ้าคุณมีมังกร[b]ในมือ ทำลายมินเนี่ยนศัตรู[b]หนึ่งตัวที่พลังชีวิตไม่เต็ม\n\t\t\t<b>战吼：</b>如果你的手牌中有龙牌，则消灭一个受伤的敌方随从。\n\t\t\t<b>戰吼：</b>若你手中有龍類，摧毀一個受傷的敵方手下\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Feindliche Diener eignen sich hervorragend als Drachenleckerli. Und je schwerer gepanzert, desto besser: Die Rüstung funktioniert wie ein Kauknochen und deckt zudem den Eisenbedarf Eures Lieblings."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Here comes “The Smolder.”"
+          },
+          "esES": {
+            "present": true,
+            "value": "Es el alma de las barbacoas."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Tan furiosa que echa humo."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Je vais vous allumer !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Può mandarti a fuoco, trapassarti, percuoterti, morderti o tutte le cose insieme."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「フッ、いくら進化したと言えど、この至近距離からの雄叫びではひとたまりも……なにっ？！」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "이쯤 되면 별명이 무엇이 될지 짐작이 가는군요."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Posieka, podpali, a na koniec nakarmi tobą pupila."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Sempre com um novo lançamento."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Ее главные качества — пронзительность и проницательность."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ถ้าหอกหักแล้วต้องเปลี่ยนไปใช้อาวุธอื่น จะยังเรียกว่าเป็นพลหอกได้ไหม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "糟糕，是扎心的感觉。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "「<i>Dracar...</i>」\n「抱歉，我忘了這裡是艾澤拉斯」"
+          }
+        },
+        "textContent": "\n\t\t\tFeindliche Diener eignen sich hervorragend als Drachenleckerli. Und je schwerer gepanzert, desto besser: Die Rüstung funktioniert wie ein Kauknochen und deckt zudem den Eisenbedarf Eures Lieblings.\n\t\t\tHere comes “The Smolder.”\n\t\t\tEs el alma de las barbacoas.\n\t\t\tTan furiosa que echa humo.\n\t\t\tJe vais vous allumer !\n\t\t\tPuò mandarti a fuoco, trapassarti, percuoterti, morderti o tutte le cose insieme.\n\t\t\t「フッ、いくら進化したと言えど、この至近距離からの雄叫びではひとたまりも……なにっ？！」\n\t\t\t이쯤 되면 별명이 무엇이 될지 짐작이 가는군요.\n\t\t\tPosieka, podpali, a na koniec nakarmi tobą pupila.\n\t\t\tSempre com um novo lançamento.\n\t\t\tЕе главные качества — пронзительность и проницательность.\n\t\t\tถ้าหอกหักแล้วต้องเปลี่ยนไปใช้อาวุธอื่น จะยังเรียกว่าเป็นพลหอกได้ไหม\n\t\t\t糟糕，是扎心的感觉。\n\t\t\t「<i>Dracar...</i>」\n「抱歉，我忘了這裡是艾澤拉斯」\n\t\t"
+      },
+      "325": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Vernichtet einen verletzten Diener."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Destroy a damaged minion."
+          },
+          "esES": {
+            "present": true,
+            "value": "Destruye\na un esbirro dañado."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Destruye un esbirro dañado."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Détruit un serviteur blessé."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Distrugge un servitore danneggiato."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ダメージを受けているミニオン1体を破壊する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "피해를 받은 적 하수인 처치"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zniszcz rannego wrogiego stronnika."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Destrua um lacaio ferido."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Уничтожить существо противника с неполным здоровьем."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ทำลายมินเนี่ยนหนึ่งตัว[b]ที่พลังชีวิตไม่เต็ม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "消灭一个受伤的随从。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "摧毀一個受傷的手下"
+          }
+        },
+        "textContent": "\n\t\t\tVernichtet einen verletzten Diener.\n\t\t\tDestroy a damaged minion.\n\t\t\tDestruye\na un esbirro dañado.\n\t\t\tDestruye un esbirro dañado.\n\t\t\tDétruit un serviteur blessé.\n\t\t\tDistrugge un servitore danneggiato.\n\t\t\tダメージを受けているミニオン1体を破壊する。\n\t\t\t피해를 받은 적 하수인 처치\n\t\t\tZniszcz rannego wrogiego stronnika.\n\t\t\tDestrua um lacaio ferido.\n\t\t\tУничтожить существо противника с неполным здоровьем.\n\t\t\tทำลายมินเนี่ยนหนึ่งตัว[b]ที่พลังชีวิตไม่เต็ม\n\t\t\t消灭一个受伤的随从。\n\t\t\t摧毀一個受傷的手下\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Dave Allsop"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Gluthauerlanzerin"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Smolderthorn Lancer"
+          },
+          "esES": {
+            "present": true,
+            "value": "Lancera Espina Ahumada"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Lancera Espina Ahumada"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Lancier brûleronce"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Lanciera Bruciaspina"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "スモルダーソーンの槍騎兵"
+          },
+          "koKR": {
+            "present": true,
+            "value": "가시불꽃 창병"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Wojowniczka z Żarokolców"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Lanceira Fumocardo"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Тролль-копейщица"
+          },
+          "thTH": {
+            "present": true,
+            "value": "พลหอกสโมลเดอร์ธอร์น"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "燃棘枪兵"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "燃棘矛兵"
+          }
+        },
+        "textContent": "\n\t\tGluthauerlanzerin\n\t\tSmolderthorn Lancer\n\t\tLancera Espina Ahumada\n\t\tLancera Espina Ahumada\n\t\tLancier brûleronce\n\t\tLanciera Bruciaspina\n\t\tスモルダーソーンの槍騎兵\n\t\t가시불꽃 창병\n\t\tWojowniczka z Żarokolców\n\t\tLanceira Fumocardo\n\t\tТролль-копейщица\n\t\tพลหอกสโมลเดอร์ธอร์น\n\t\t燃棘枪兵\n\t\t燃棘矛兵\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Kampfschrei:</b> Vernichtet einen verletzten feindlichen Diener, wenn Ihr einen Drachen auf der Hand habt."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Battlecry:</b> If you're holding a Dragon, destroy a damaged enemy minion."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> Si hay un dragón en tu mano,\ndestruye a un esbirro enemigo dañado."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> si tienes un Dragón en tu mano, destruye un esbirro enemigo dañado."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> détruit un serviteur adverse blessé si vous avez un Dragon en_main."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b>\ndistrugge un servitore\nnemico danneggiato se\n_hai un Drago in mano."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>雄叫び:</b>\n自分の手札に\nドラゴンがいる場合\nダメージを受けている\n_____敵のミニオン1体を破壊する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]<b>전투의 함성:</b> 내 손에\n용족이 있으면, 피해를 받은\n적 하수인을 처치합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b> Zniszcz rannego wrogiego stronnika, jeśli masz w ręce Smoka."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b> \nSe tiver um Dragão na mão, destrua um lacaio inimigo ferido."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> если у вас в руке есть дракон, уничтожает существо противника [x]с неполным здоровьем."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b> ถ้าคุณมีมังกร[b]อยู่ในมือ ทำลายมินเนี่ยน[b]ศัตรูหนึ่งตัวที่พลังชีวิตไม่เต็ม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>如果你的手牌中有龙牌，则消灭一个受伤的敌方随从。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>戰吼：</b>若你手中有龍類，摧毀一個受傷的敵方手下"
+          }
+        },
+        "textContent": "\n\t\t<b>Kampfschrei:</b> Vernichtet einen verletzten feindlichen Diener, wenn Ihr einen Drachen auf der Hand habt.\n\t\t<b>Battlecry:</b> If you're holding a Dragon, destroy a damaged enemy minion.\n\t\t<b>Grito de batalla:</b> Si hay un dragón en tu mano,\ndestruye a un esbirro enemigo dañado.\n\t\t<b>Grito de batalla:</b> si tienes un Dragón en tu mano, destruye un esbirro enemigo dañado.\n\t\t<b>Cri de guerre :</b> détruit un serviteur adverse blessé si vous avez un Dragon en_main.\n\t\t[x]<b>Grido di Battaglia:</b>\ndistrugge un servitore\nnemico danneggiato se\n_hai un Drago in mano.\n\t\t[x]<b>雄叫び:</b>\n自分の手札に\nドラゴンがいる場合\nダメージを受けている\n_____敵のミニオン1体を破壊する。\n\t\t[x]<b>전투의 함성:</b> 내 손에\n용족이 있으면, 피해를 받은\n적 하수인을 처치합니다.\n\t\t<b>Okrzyk bojowy:</b> Zniszcz rannego wrogiego stronnika, jeśli masz w ręce Smoka.\n\t\t<b>Grito de Guerra:</b> \nSe tiver um Dragão na mão, destrua um lacaio inimigo ferido.\n\t\t<b>Боевой клич:</b> если у вас в руке есть дракон, уничтожает существо противника [x]с неполным здоровьем.\n\t\t<b>คำรามสู้ศึก:</b> ถ้าคุณมีมังกร[b]อยู่ในมือ ทำลายมินเนี่ยน[b]ศัตรูหนึ่งตัวที่พลังชีวิตไม่เต็ม\n\t\t<b>战吼：</b>如果你的手牌中有龙牌，则消灭一个受伤的敌方随从。\n\t\t<b>戰吼：</b>若你手中有龍類，摧毀一個受傷的敵方手下\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Feindliche Diener eignen sich hervorragend als Drachenleckerli. Und je schwerer gepanzert, desto besser: Die Rüstung funktioniert wie ein Kauknochen und deckt zudem den Eisenbedarf Eures Lieblings."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Here comes “The Smolder.”"
+          },
+          "esES": {
+            "present": true,
+            "value": "Es el alma de las barbacoas."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Tan furiosa que echa humo."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Je vais vous allumer !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Può mandarti a fuoco, trapassarti, percuoterti, morderti o tutte le cose insieme."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「フッ、いくら進化したと言えど、この至近距離からの雄叫びではひとたまりも……なにっ？！」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "이쯤 되면 별명이 무엇이 될지 짐작이 가는군요."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Posieka, podpali, a na koniec nakarmi tobą pupila."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Sempre com um novo lançamento."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Ее главные качества — пронзительность и проницательность."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ถ้าหอกหักแล้วต้องเปลี่ยนไปใช้อาวุธอื่น จะยังเรียกว่าเป็นพลหอกได้ไหม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "糟糕，是扎心的感觉。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "「<i>Dracar...</i>」\n「抱歉，我忘了這裡是艾澤拉斯」"
+          }
+        },
+        "textContent": "\n\t\tFeindliche Diener eignen sich hervorragend als Drachenleckerli. Und je schwerer gepanzert, desto besser: Die Rüstung funktioniert wie ein Kauknochen und deckt zudem den Eisenbedarf Eures Lieblings.\n\t\tHere comes “The Smolder.”\n\t\tEs el alma de las barbacoas.\n\t\tTan furiosa que echa humo.\n\t\tJe vais vous allumer !\n\t\tPuò mandarti a fuoco, trapassarti, percuoterti, morderti o tutte le cose insieme.\n\t\t「フッ、いくら進化したと言えど、この至近距離からの雄叫びではひとたまりも……なにっ？！」\n\t\t이쯤 되면 별명이 무엇이 될지 짐작이 가는군요.\n\t\tPosieka, podpali, a na koniec nakarmi tobą pupila.\n\t\tSempre com um novo lançamento.\n\t\tЕе главные качества — пронзительность и проницательность.\n\t\tถ้าหอกหักแล้วต้องเปลี่ยนไปใช้อาวุธอื่น จะยังเรียกว่าเป็นพลหอกได้ไหม\n\t\t糟糕，是扎心的感觉。\n\t\t「<i>Dracar...</i>」\n「抱歉，我忘了這裡是艾澤拉斯」\n\t"
+      },
+      "325": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Vernichtet einen verletzten Diener."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Destroy a damaged minion."
+          },
+          "esES": {
+            "present": true,
+            "value": "Destruye\na un esbirro dañado."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Destruye un esbirro dañado."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Détruit un serviteur blessé."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Distrugge un servitore danneggiato."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ダメージを受けているミニオン1体を破壊する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "피해를 받은 적 하수인 처치"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zniszcz rannego wrogiego stronnika."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Destrua um lacaio ferido."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Уничтожить существо противника с неполным здоровьем."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ทำลายมินเนี่ยนหนึ่งตัว[b]ที่พลังชีวิตไม่เต็ม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "消灭一个受伤的随从。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "摧毀一個受傷的手下"
+          }
+        },
+        "textContent": "\n\t\tVernichtet einen verletzten Diener.\n\t\tDestroy a damaged minion.\n\t\tDestruye\na un esbirro dañado.\n\t\tDestruye un esbirro dañado.\n\t\tDétruit un serviteur blessé.\n\t\tDistrugge un servitore danneggiato.\n\t\tダメージを受けているミニオン1体を破壊する。\n\t\t피해를 받은 적 하수인 처치\n\t\tZniszcz rannego wrogiego stronnika.\n\t\tDestrua um lacaio ferido.\n\t\tУничтожить существо противника с неполным здоровьем.\n\t\tทำลายมินเนี่ยนหนึ่งตัว[b]ที่พลังชีวิตไม่เต็ม\n\t\t消灭一个受伤的随从。\n\t\t摧毀一個受傷的手下\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Dave Allsop"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "가시불꽃 창병",
+      "enUS": "Smolderthorn Lancer"
+    },
+    "currentPrintedText": {
+      "koKR": "가시불꽃 창병",
+      "enUS": "Smolderthorn Lancer"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_326",
+    "dbfId": 50059,
+    "name": "가시불꽃 창병",
+    "type": "MINION",
+    "cardClass": "WARRIOR",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>전투의 함성:</b> 내 손에<br></br>용족이 있으면, 피해를 받은<br></br>적 하수인을 처치합니다.",
+    "attack": 3,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "이쯤 되면 별명이 무엇이 될지 짐작이 가는군요.",
+    "spellSchool": "",
+    "portrait": "HS15-133_M.psd:906fdaf3c53756146b089dca5ffefca0",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_326.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_326",
+    "dbfId": 50059,
+    "name": "가시불꽃 창병",
+    "type": "MINION",
+    "cardClass": "WARRIOR",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>전투의 함성:</b> 내 손에<br></br>용족이 있으면, 피해를 받은<br></br>적 하수인을 처치합니다.",
+    "attack": 3,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "이쯤 되면 별명이 무엇이 될지 짐작이 가는군요.",
+    "spellSchool": "",
+    "portrait": "HS15-133_M.psd:906fdaf3c53756146b089dca5ffefca0",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_326.png"
+  }
+}

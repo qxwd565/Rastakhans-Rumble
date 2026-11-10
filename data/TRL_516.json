@@ -1,1 +1,769 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_516","dbfId":50396,"name":"구루바시 공물","type":"MINION","cardClass":"NEUTRAL","rarity":"EPIC","collectible":true,"cost":1,"text":"내 턴이 시작될 때,<br></br>이 하수인을 파괴하고<br></br>방어도를 +8 얻습니다.","attack":0,"health":2,"durability":0,"armor":0,"flavor":"한정된 기간 동안 로아의 축복 1+1 행사를 하고 있습니다. (제물에 따라 유효하지 않을 수 있습니다.)","spellSchool":"","portrait":"HS15-158_M.psd:889c76a7df23305478e5621b7831822a","set":"TROLL","nativeTags":[{"id":32,"name":"발동 효과 표시","value":1},{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":0},{"id":48,"name":"마나 비용","value":1},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":4},{"id":321,"name":"수집 가능","value":1},{"id":886,"name":"게임 태그 886","value":1}],"races":[],"race":"","classes":[],"art":"art/TRL_516.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-158_M.psd:889c76a7df23305478e5621b7831822a","goldenMaterial":"TRL_516_PremiumCard.mat:0e0b68ed2f87abc4aaf8d88cad0f20fa","goldenAnimation":"TRL_516_PremiumCard.asset:400c4d9327387204097ae15f5d3fcc9c"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-158_M.psd:889c76a7df23305478e5621b7831822a",
+        "goldenMaterial": "TRL_516_PremiumCard.mat:0e0b68ed2f87abc4aaf8d88cad0f20fa",
+        "goldenAnimation": "TRL_516_PremiumCard.asset:400c4d9327387204097ae15f5d3fcc9c"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-158_M.psd:889c76a7df23305478e5621b7831822a",
+      "goldenMaterial": "TRL_516_PremiumCard.mat:0e0b68ed2f87abc4aaf8d88cad0f20fa",
+      "goldenAnimation": "TRL_516_PremiumCard.asset:400c4d9327387204097ae15f5d3fcc9c"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "32": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "886": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "32": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "886": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Gurubashi-Opfergabe"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Gurubashi Offering"
+          },
+          "esES": {
+            "present": true,
+            "value": "Ofrenda Gurubashi"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Ofrenda gurubashi"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Offrande gurubashi"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Offerta dei Gurubashi"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "グルバシの供物"
+          },
+          "koKR": {
+            "present": true,
+            "value": "구루바시 공물"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Ofiara Gurubaszów"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Oferenda Gurubashi"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Дар Гурубаши"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เครื่องบูชากูรูบาชิ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "古拉巴什供品"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "古拉巴什供品"
+          }
+        },
+        "textContent": "\n\t\t\tGurubashi-Opfergabe\n\t\t\tGurubashi Offering\n\t\t\tOfrenda Gurubashi\n\t\t\tOfrenda gurubashi\n\t\t\tOffrande gurubashi\n\t\t\tOfferta dei Gurubashi\n\t\t\tグルバシの供物\n\t\t\t구루바시 공물\n\t\t\tOfiara Gurubaszów\n\t\t\tOferenda Gurubashi\n\t\t\tДар Гурубаши\n\t\t\tเครื่องบูชากูรูบาชิ\n\t\t\t古拉巴什供品\n\t\t\t古拉巴什供品\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Vernichtet zu Beginn Eures Zuges diesen Diener und erhaltet 8 Rüstung."
+          },
+          "enUS": {
+            "present": true,
+            "value": "At the start of your turn, destroy this and gain 8_Armor."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Al principio de tu turno,\nse destruye y obtienes\n8_p. de armadura."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Al comienzo de tu turno, destruye este esbirro y obtienes 8 de Armadura."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Au début de votre tour, détruit cette carte. Gagne 8_points d’armure."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]All'inizio del tuo turno,\nviene distrutto e\nfornisce 8 Armatura."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]自分のターンの開始時\nこのミニオンを破壊し\n装甲を8獲得する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]내 턴이 시작될 때,\n이 하수인을 파괴하고\n방어도를 +8 얻습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Na początku twojej tury zniszcz tę kartę. Otrzymujesz 8 pkt. pancerza."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "No início do seu turno, destrua este lacaio e receba 8\nde Armadura."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "В начале вашего хода это существо будет уничтожено. Вы получите 8 ед. брони."
+          },
+          "thTH": {
+            "present": true,
+            "value": "_เมื่อเริ่มเทิร์นของคุณ ทำลายมินเนี่ยนตัวนี้และ[b]ได้รับเกราะ 8 แต้ม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "在你的回合开始时，消灭该随从，并获得\n8点护甲值。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "在你的回合開始時，摧毀這個手下，並且獲得8點護甲值"
+          }
+        },
+        "textContent": "\n\t\t\tVernichtet zu Beginn Eures Zuges diesen Diener und erhaltet 8 Rüstung.\n\t\t\tAt the start of your turn, destroy this and gain 8_Armor.\n\t\t\t[x]Al principio de tu turno,\nse destruye y obtienes\n8_p. de armadura.\n\t\t\tAl comienzo de tu turno, destruye este esbirro y obtienes 8 de Armadura.\n\t\t\tAu début de votre tour, détruit cette carte. Gagne 8_points d’armure.\n\t\t\t[x]All'inizio del tuo turno,\nviene distrutto e\nfornisce 8 Armatura.\n\t\t\t[x]自分のターンの開始時\nこのミニオンを破壊し\n装甲を8獲得する。\n\t\t\t[x]내 턴이 시작될 때,\n이 하수인을 파괴하고\n방어도를 +8 얻습니다.\n\t\t\tNa początku twojej tury zniszcz tę kartę. Otrzymujesz 8 pkt. pancerza.\n\t\t\tNo início do seu turno, destrua este lacaio e receba 8\nde Armadura.\n\t\t\tВ начале вашего хода это существо будет уничтожено. Вы получите 8 ед. брони.\n\t\t\t_เมื่อเริ่มเทิร์นของคุณ ทำลายมินเนี่ยนตัวนี้และ[b]ได้รับเกราะ 8 แต้ม\n\t\t\t在你的回合开始时，消灭该随从，并获得\n8点护甲值。\n\t\t\t在你的回合開始時，摧毀這個手下，並且獲得8點護甲值\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Bei Loasegen gibt es jetzt für kurze Zeit 20_% auf alles (außer Tiernahrung)."
+          },
+          "enUS": {
+            "present": true,
+            "value": "For a limited time, loa blessings are on a pray-one-get-two deal (on selected sacrifices only)."
+          },
+          "esES": {
+            "present": true,
+            "value": "Oferta exclusiva: esta primavera, los loa otorgarán dos bendiciones por plegaria (según el sacrificio)."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Oferta por tiempo limitado en bendiciones de loa: reza por una y consigue dos (solo para sacrificios seleccionados)."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Mettez la nourriture sur la pierre à offrandes et retournez dans l’arène."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Approfitta dell'offerta a tempo limitato, due benedizioni al prezzo di una sola preghiera!"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "期間限定！お祈り1回で、ロアの祝福ガチャ11回引ける！\n※お供え物の種類に一定の条件があります。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "한정된 기간 동안 로아의 축복 1+1 행사를 하고 있습니다. (제물에 따라 유효하지 않을 수 있습니다.)"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Przez ograniczony czas błogosławieństwa loa dostępne są w pakietach po dwa w cenie jednego (za ofiary wskazane w załączniku)."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Promoção de bênção de loa: reze-uma-leve-duas (válido somente para alguns sacrifícios e por tempo limitado)."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "«Только сегодня и только у нас! Два благословения за одно пожертвование!»"
+          },
+          "thTH": {
+            "present": true,
+            "value": "โลอาจัดโปรโมชั่นจำกัดเวลา ขอพรหนึ่งได้ถึงสอง (เฉพาะเครื่องบูชาที่กำหนดเท่านั้น)"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "供品限时特惠，一次献祭，双倍祝福（受益人仅限祭品本人）！"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "「讓鬥士打久一點，票才賣的多。」"
+          }
+        },
+        "textContent": "\n\t\t\tBei Loasegen gibt es jetzt für kurze Zeit 20_% auf alles (außer Tiernahrung).\n\t\t\tFor a limited time, loa blessings are on a pray-one-get-two deal (on selected sacrifices only).\n\t\t\tOferta exclusiva: esta primavera, los loa otorgarán dos bendiciones por plegaria (según el sacrificio).\n\t\t\tOferta por tiempo limitado en bendiciones de loa: reza por una y consigue dos (solo para sacrificios seleccionados).\n\t\t\tMettez la nourriture sur la pierre à offrandes et retournez dans l’arène.\n\t\t\tApprofitta dell'offerta a tempo limitato, due benedizioni al prezzo di una sola preghiera!\n\t\t\t期間限定！お祈り1回で、ロアの祝福ガチャ11回引ける！\n※お供え物の種類に一定の条件があります。\n\t\t\t한정된 기간 동안 로아의 축복 1+1 행사를 하고 있습니다. (제물에 따라 유효하지 않을 수 있습니다.)\n\t\t\tPrzez ograniczony czas błogosławieństwa loa dostępne są w pakietach po dwa w cenie jednego (za ofiary wskazane w załączniku).\n\t\t\tPromoção de bênção de loa: reze-uma-leve-duas (válido somente para alguns sacrifícios e por tempo limitado).\n\t\t\t«Только сегодня и только у нас! Два благословения за одно пожертвование!»\n\t\t\tโลอาจัดโปรโมชั่นจำกัดเวลา ขอพรหนึ่งได้ถึงสอง (เฉพาะเครื่องบูชาที่กำหนดเท่านั้น)\n\t\t\t供品限时特惠，一次献祭，双倍祝福（受益人仅限祭品本人）！\n\t\t\t「讓鬥士打久一點，票才賣的多。」\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Izzy Hoover"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Gurubashi-Opfergabe"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Gurubashi Offering"
+          },
+          "esES": {
+            "present": true,
+            "value": "Ofrenda Gurubashi"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Ofrenda gurubashi"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Offrande gurubashi"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Offerta dei Gurubashi"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "グルバシの供物"
+          },
+          "koKR": {
+            "present": true,
+            "value": "구루바시 공물"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Ofiara Gurubaszów"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Oferenda Gurubashi"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Дар Гурубаши"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เครื่องบูชากูรูบาชิ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "古拉巴什供品"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "古拉巴什供品"
+          }
+        },
+        "textContent": "\n\t\tGurubashi-Opfergabe\n\t\tGurubashi Offering\n\t\tOfrenda Gurubashi\n\t\tOfrenda gurubashi\n\t\tOffrande gurubashi\n\t\tOfferta dei Gurubashi\n\t\tグルバシの供物\n\t\t구루바시 공물\n\t\tOfiara Gurubaszów\n\t\tOferenda Gurubashi\n\t\tДар Гурубаши\n\t\tเครื่องบูชากูรูบาชิ\n\t\t古拉巴什供品\n\t\t古拉巴什供品\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Vernichtet zu Beginn Eures Zuges diesen Diener und erhaltet 8 Rüstung."
+          },
+          "enUS": {
+            "present": true,
+            "value": "At the start of your turn, destroy this and gain 8_Armor."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Al principio de tu turno,\nse destruye y obtienes\n8_p. de armadura."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Al comienzo de tu turno, destruye este esbirro y obtienes 8 de Armadura."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Au début de votre tour, détruit cette carte. Gagne 8_points d’armure."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]All'inizio del tuo turno,\nviene distrutto e\nfornisce 8 Armatura."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]自分のターンの開始時\nこのミニオンを破壊し\n装甲を8獲得する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]내 턴이 시작될 때,\n이 하수인을 파괴하고\n방어도를 +8 얻습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Na początku twojej tury zniszcz tę kartę. Otrzymujesz 8 pkt. pancerza."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "No início do seu turno, destrua este lacaio e receba 8\nde Armadura."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "В начале вашего хода это существо будет уничтожено. Вы получите 8 ед. брони."
+          },
+          "thTH": {
+            "present": true,
+            "value": "_เมื่อเริ่มเทิร์นของคุณ ทำลายมินเนี่ยนตัวนี้และ[b]ได้รับเกราะ 8 แต้ม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "在你的回合开始时，消灭本随从，并获得\n8点护甲值。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "在你的回合開始時，摧毀這個手下，並且獲得8點護甲值"
+          }
+        },
+        "textContent": "\n\t\tVernichtet zu Beginn Eures Zuges diesen Diener und erhaltet 8 Rüstung.\n\t\tAt the start of your turn, destroy this and gain 8_Armor.\n\t\t[x]Al principio de tu turno,\nse destruye y obtienes\n8_p. de armadura.\n\t\tAl comienzo de tu turno, destruye este esbirro y obtienes 8 de Armadura.\n\t\tAu début de votre tour, détruit cette carte. Gagne 8_points d’armure.\n\t\t[x]All'inizio del tuo turno,\nviene distrutto e\nfornisce 8 Armatura.\n\t\t[x]自分のターンの開始時\nこのミニオンを破壊し\n装甲を8獲得する。\n\t\t[x]내 턴이 시작될 때,\n이 하수인을 파괴하고\n방어도를 +8 얻습니다.\n\t\tNa początku twojej tury zniszcz tę kartę. Otrzymujesz 8 pkt. pancerza.\n\t\tNo início do seu turno, destrua este lacaio e receba 8\nde Armadura.\n\t\tВ начале вашего хода это существо будет уничтожено. Вы получите 8 ед. брони.\n\t\t_เมื่อเริ่มเทิร์นของคุณ ทำลายมินเนี่ยนตัวนี้และ[b]ได้รับเกราะ 8 แต้ม\n\t\t在你的回合开始时，消灭本随从，并获得\n8点护甲值。\n\t\t在你的回合開始時，摧毀這個手下，並且獲得8點護甲值\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Bei Loasegen gibt es jetzt für kurze Zeit 20_% auf alles (außer Tiernahrung)."
+          },
+          "enUS": {
+            "present": true,
+            "value": "For a limited time, loa blessings are on a pray-one-get-two deal (on selected sacrifices only)."
+          },
+          "esES": {
+            "present": true,
+            "value": "Oferta exclusiva: esta primavera, los loa otorgarán dos bendiciones por plegaria (según el sacrificio)."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Oferta por tiempo limitado en bendiciones de loa: reza por una y consigue dos (solo para sacrificios seleccionados)."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Mettez la nourriture sur la pierre à offrandes et retournez dans l’arène."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Approfitta dell'offerta a tempo limitato, due benedizioni al prezzo di una sola preghiera!"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "期間限定！お祈り1回で、ロアの祝福ガチャ11回引ける！\n※お供え物の種類に一定の条件があります。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "한정된 기간 동안 로아의 축복 1+1 행사를 하고 있습니다. (제물에 따라 유효하지 않을 수 있습니다.)"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Przez ograniczony czas błogosławieństwa loa dostępne są w pakietach po dwa w cenie jednego (za ofiary wskazane w załączniku)."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Promoção de bênção de loa: reze-uma-leve-duas (válido somente para alguns sacrifícios e por tempo limitado)."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "«Только сегодня и только у нас! Два благословения за одно пожертвование!»"
+          },
+          "thTH": {
+            "present": true,
+            "value": "โลอาจัดโปรโมชั่นจำกัดเวลา ขอพรหนึ่งได้ถึงสอง (เฉพาะเครื่องบูชาที่กำหนดเท่านั้น)"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "供品限时特惠，一次献祭，双倍祝福（受益人仅限祭品本人）！"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "「讓鬥士打久一點，票才賣的多。」"
+          }
+        },
+        "textContent": "\n\t\tBei Loasegen gibt es jetzt für kurze Zeit 20_% auf alles (außer Tiernahrung).\n\t\tFor a limited time, loa blessings are on a pray-one-get-two deal (on selected sacrifices only).\n\t\tOferta exclusiva: esta primavera, los loa otorgarán dos bendiciones por plegaria (según el sacrificio).\n\t\tOferta por tiempo limitado en bendiciones de loa: reza por una y consigue dos (solo para sacrificios seleccionados).\n\t\tMettez la nourriture sur la pierre à offrandes et retournez dans l’arène.\n\t\tApprofitta dell'offerta a tempo limitato, due benedizioni al prezzo di una sola preghiera!\n\t\t期間限定！お祈り1回で、ロアの祝福ガチャ11回引ける！\n※お供え物の種類に一定の条件があります。\n\t\t한정된 기간 동안 로아의 축복 1+1 행사를 하고 있습니다. (제물에 따라 유효하지 않을 수 있습니다.)\n\t\tPrzez ograniczony czas błogosławieństwa loa dostępne są w pakietach po dwa w cenie jednego (za ofiary wskazane w załączniku).\n\t\tPromoção de bênção de loa: reze-uma-leve-duas (válido somente para alguns sacrifícios e por tempo limitado).\n\t\t«Только сегодня и только у нас! Два благословения за одно пожертвование!»\n\t\tโลอาจัดโปรโมชั่นจำกัดเวลา ขอพรหนึ่งได้ถึงสอง (เฉพาะเครื่องบูชาที่กำหนดเท่านั้น)\n\t\t供品限时特惠，一次献祭，双倍祝福（受益人仅限祭品本人）！\n\t\t「讓鬥士打久一點，票才賣的多。」\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Izzy Hoover"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "구루바시 공물",
+      "enUS": "Gurubashi Offering"
+    },
+    "currentPrintedText": {
+      "koKR": "구루바시 공물",
+      "enUS": "Gurubashi Offering"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_516",
+    "dbfId": 50396,
+    "name": "구루바시 공물",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 1,
+    "text": "내 턴이 시작될 때,<br></br>이 하수인을 파괴하고<br></br>방어도를 +8 얻습니다.",
+    "attack": 0,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "한정된 기간 동안 로아의 축복 1+1 행사를 하고 있습니다. (제물에 따라 유효하지 않을 수 있습니다.)",
+    "spellSchool": "",
+    "portrait": "HS15-158_M.psd:889c76a7df23305478e5621b7831822a",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 0
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 886,
+        "name": "게임 태그 886",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_516.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_516",
+    "dbfId": 50396,
+    "name": "구루바시 공물",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 1,
+    "text": "내 턴이 시작될 때,<br></br>이 하수인을 파괴하고<br></br>방어도를 +8 얻습니다.",
+    "attack": 0,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "한정된 기간 동안 로아의 축복 1+1 행사를 하고 있습니다. (제물에 따라 유효하지 않을 수 있습니다.)",
+    "spellSchool": "",
+    "portrait": "HS15-158_M.psd:889c76a7df23305478e5621b7831822a",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 0
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 886,
+        "name": "게임 태그 886",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_516.png"
+  }
+}

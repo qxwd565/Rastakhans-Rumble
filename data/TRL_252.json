@@ -1,1 +1,901 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_252","dbfId":50032,"name":"대여사제 제클릭","type":"MINION","cardClass":"WARLOCK","rarity":"LEGENDARY","collectible":true,"cost":4,"text":"<b>도발</b>, <b>생명력 흡수</b><br></br>이 하수인을 버리면, 이 하수인을 둘 복사하여 내 손으로 가져옵니다.","attack":3,"health":5,"durability":0,"armor":0,"flavor":"\"이런 미친 게임을 봤나!\"","spellSchool":"","portrait":"HS15-005_M.psd:37ac59b5e1a88c041bd4c89265ea67d4","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":5},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":4},{"id":114,"name":"전설 속성","value":1},{"id":190,"name":"도발","value":1},{"id":199,"name":"직업","value":9},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":5},{"id":321,"name":"수집 가능","value":1},{"id":335,"name":"게임 태그 335","value":1},{"id":685,"name":"생명력 흡수","value":1}],"races":[],"race":"","classes":[],"art":"art/TRL_252.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-005_M.psd:37ac59b5e1a88c041bd4c89265ea67d4","goldenMaterial":"TRL_252_PremiumCard.mat:0969400f3bc68c747bb994b79ee1f5f0","goldenAnimation":"TRL_252_PremiumCard.asset:b40d55992bc30934eaaf5a8e0827a3ba"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-005_M.psd:37ac59b5e1a88c041bd4c89265ea67d4",
+        "goldenMaterial": "TRL_252_PremiumCard.mat:0969400f3bc68c747bb994b79ee1f5f0",
+        "goldenAnimation": "TRL_252_PremiumCard.asset:b40d55992bc30934eaaf5a8e0827a3ba"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-005_M.psd:37ac59b5e1a88c041bd4c89265ea67d4",
+      "goldenMaterial": "TRL_252_PremiumCard.mat:0969400f3bc68c747bb994b79ee1f5f0",
+      "goldenAnimation": "TRL_252_PremiumCard.asset:b40d55992bc30934eaaf5a8e0827a3ba"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "114": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "190": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "9",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "335": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "685": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "114": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "190": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "9",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "335": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "685": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Hohepriesterin Jeklik"
+          },
+          "enUS": {
+            "present": true,
+            "value": "High Priestess Jeklik"
+          },
+          "esES": {
+            "present": true,
+            "value": "Suma Sacerdotisa Jeklik"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Suma sacerdotisa Jeklik"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Grande prêtresse Jeklik"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Gran Sacerdotessa Jeklik"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "女大祭司ジェクリック"
+          },
+          "koKR": {
+            "present": true,
+            "value": "대여사제 제클릭"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Wielka Kapłanka Jeklik"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Alta-Sacerdotisa Jeklik"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Верховная жрица Джеклик"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ไฮพรีสเตสเจคลิค"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "高阶祭司耶克里克"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "高階祭司耶克里克"
+          }
+        },
+        "textContent": "\n\t\t\tHohepriesterin Jeklik\n\t\t\tHigh Priestess Jeklik\n\t\t\tSuma Sacerdotisa Jeklik\n\t\t\tSuma sacerdotisa Jeklik\n\t\t\tGrande prêtresse Jeklik\n\t\t\tGran Sacerdotessa Jeklik\n\t\t\t女大祭司ジェクリック\n\t\t\t대여사제 제클릭\n\t\t\tWielka Kapłanka Jeklik\n\t\t\tAlta-Sacerdotisa Jeklik\n\t\t\tВерховная жрица Джеклик\n\t\t\tไฮพรีสเตสเจคลิค\n\t\t\t高阶祭司耶克里克\n\t\t\t高階祭司耶克里克\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Spott</b>, <b>Lebensentzug</b>. Wenn Ihr diese Karte abwerft, erhaltet Ihr 2 Kopien davon auf die Hand."
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]<b>Taunt</b>, <b>Lifesteal</b>\nWhen you discard this,\nadd 2 copies of it to\nyour hand."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Provocar</b>. <b>Robo de vida</b>.\nCuando la descartas,\nañade 2 copias suyas\na tu mano."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Provocación</b>, <b>Robavida</b>\nCuando descartas esta carta, agrega 2 copias de ella a tu mano."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Provocation</b>, <b>Vol de vie</b>\nQuand vous vous en défaussez, en place 2_copies dans votre main."
+          },
+          "itIT": {
+            "present": true,
+            "value": "<b>Provocazione</b>. <b>Furto Vitale</b>. Quando scarti questa carta, ne mette due copie nella tua mano."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>挑発</b>、<b>生命奪取</b>\nこのカードを破棄した時\nそのコピー2枚を自分の\n手札に追加する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>도발</b>, <b>생명력 흡수</b>\n이 하수인을 버리면, 이 하수인을 둘 복사하여 내 손으로 가져옵니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Prowokacja</b>\n<b>Kradzież życia</b>\nGdy odrzucisz tę kartę, dodaj jej 2 kopie do twojej ręki."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Provocar</b>, <b>Roubar Vida</b>\nQuando você descartar este card, adicione 2 cópias dele à sua mão."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "[x]<b>Провокация</b>. <b>Похищение\nжизни.</b> Когда вы сбра-\nсываете эту карту, вы кла-\n____дете в_руку 2 ее копии."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>ยั่วยุ</b> <b>สูบชีวิต</b>\nเมื่อคุณทิ้งการ์ดนี้_เพิ่มก๊อปปี้[b]ของมัน 2 ใบในมือคุณ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>嘲讽，吸血</b>\n当你弃掉这张牌时，将这张牌的两张复制置入你的手牌。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>嘲諷</b>，<b>生命竊取</b>\n當你捨棄這張牌，放2張相同的牌到你手中"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Spott</b>, <b>Lebensentzug</b>. Wenn Ihr diese Karte abwerft, erhaltet Ihr 2 Kopien davon auf die Hand.\n\t\t\t[x]<b>Taunt</b>, <b>Lifesteal</b>\nWhen you discard this,\nadd 2 copies of it to\nyour hand.\n\t\t\t[x]<b>Provocar</b>. <b>Robo de vida</b>.\nCuando la descartas,\nañade 2 copias suyas\na tu mano.\n\t\t\t<b>Provocación</b>, <b>Robavida</b>\nCuando descartas esta carta, agrega 2 copias de ella a tu mano.\n\t\t\t<b>Provocation</b>, <b>Vol de vie</b>\nQuand vous vous en défaussez, en place 2_copies dans votre main.\n\t\t\t<b>Provocazione</b>. <b>Furto Vitale</b>. Quando scarti questa carta, ne mette due copie nella tua mano.\n\t\t\t[x]<b>挑発</b>、<b>生命奪取</b>\nこのカードを破棄した時\nそのコピー2枚を自分の\n手札に追加する。\n\t\t\t<b>도발</b>, <b>생명력 흡수</b>\n이 하수인을 버리면, 이 하수인을 둘 복사하여 내 손으로 가져옵니다.\n\t\t\t<b>Prowokacja</b>\n<b>Kradzież życia</b>\nGdy odrzucisz tę kartę, dodaj jej 2 kopie do twojej ręki.\n\t\t\t<b>Provocar</b>, <b>Roubar Vida</b>\nQuando você descartar este card, adicione 2 cópias dele à sua mão.\n\t\t\t[x]<b>Провокация</b>. <b>Похищение\nжизни.</b> Когда вы сбра-\nсываете эту карту, вы кла-\n____дете в_руку 2 ее копии.\n\t\t\t<b>ยั่วยุ</b> <b>สูบชีวิต</b>\nเมื่อคุณทิ้งการ์ดนี้_เพิ่มก๊อปปี้[b]ของมัน 2 ใบในมือคุณ\n\t\t\t<b>嘲讽，吸血</b>\n当你弃掉这张牌时，将这张牌的两张复制置入你的手牌。\n\t\t\t<b>嘲諷</b>，<b>生命竊取</b>\n當你捨棄這張牌，放2張相同的牌到你手中\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Und täglich grüßt die Fledermaus_..."
+          },
+          "enUS": {
+            "present": true,
+            "value": "If you love Jeklik, set her free. YOU CAN'T GET RID OF HER."
+          },
+          "esES": {
+            "present": true,
+            "value": "Muchos aires, pero en el barrio sigue siendo la Jeklik."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Si amas a Jeklik, déjala libre. NO PUEDES DESHACERTE DE ELLA."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Vous aurez beau essayer de vous en débarrasser, elle reviendra toujours !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Jeklik non si scarta, è lei che scarta te."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ジェクリックを愛しているのなら、自由にしてあげなさい。どちらにせよ、彼女からは決して逃れられない。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "\"이런 미친 게임을 봤나!\""
+          },
+          "plPL": {
+            "present": true,
+            "value": "Jeśli kochasz Jeklik, puść ją wolno. INACZEJ SIĘ JEJ NIE POZBĘDZIESZ."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Se você ama Jeklik, deixe ela ir. SENÃO, ELA NÃO VAI EMBORA NUNCA."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "...а еще находите от нее записку у двери, пять пропущенных звонков, две эсэмэски и двадцать сообщений в соцсетях."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ถ้าคุณรักเจคลิค ปล่อยเธอไป คุณกำจัดเธอไม่ได้หรอก!"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "如果你爱她，就给她自由。反正你也摆脱不了她。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "她吸的可不只有雞血、豬血和自己的血。"
+          }
+        },
+        "textContent": "\n\t\t\tUnd täglich grüßt die Fledermaus_...\n\t\t\tIf you love Jeklik, set her free. YOU CAN'T GET RID OF HER.\n\t\t\tMuchos aires, pero en el barrio sigue siendo la Jeklik.\n\t\t\tSi amas a Jeklik, déjala libre. NO PUEDES DESHACERTE DE ELLA.\n\t\t\tVous aurez beau essayer de vous en débarrasser, elle reviendra toujours !\n\t\t\tJeklik non si scarta, è lei che scarta te.\n\t\t\tジェクリックを愛しているのなら、自由にしてあげなさい。どちらにせよ、彼女からは決して逃れられない。\n\t\t\t\"이런 미친 게임을 봤나!\"\n\t\t\tJeśli kochasz Jeklik, puść ją wolno. INACZEJ SIĘ JEJ NIE POZBĘDZIESZ.\n\t\t\tSe você ama Jeklik, deixe ela ir. SENÃO, ELA NÃO VAI EMBORA NUNCA.\n\t\t\t...а еще находите от нее записку у двери, пять пропущенных звонков, две эсэмэски и двадцать сообщений в соцсетях.\n\t\t\tถ้าคุณรักเจคลิค ปล่อยเธอไป คุณกำจัดเธอไม่ได้หรอก!\n\t\t\t如果你爱她，就给她自由。反正你也摆脱不了她。\n\t\t\t她吸的可不只有雞血、豬血和自己的血。\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "James Ryman"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Hohepriesterin Jeklik"
+          },
+          "enUS": {
+            "present": true,
+            "value": "High Priestess Jeklik"
+          },
+          "esES": {
+            "present": true,
+            "value": "Suma Sacerdotisa Jeklik"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Suma sacerdotisa Jeklik"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Grande prêtresse Jeklik"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Gran Sacerdotessa Jeklik"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "女大祭司ジェクリック"
+          },
+          "koKR": {
+            "present": true,
+            "value": "대여사제 제클릭"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Wielka Kapłanka Jeklik"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Alta-Sacerdotisa Jeklik"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Верховная жрица Джеклик"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ไฮพรีสเตสเจคลิค"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "高阶祭司耶克里克"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "高階祭司耶克里克"
+          }
+        },
+        "textContent": "\n\t\tHohepriesterin Jeklik\n\t\tHigh Priestess Jeklik\n\t\tSuma Sacerdotisa Jeklik\n\t\tSuma sacerdotisa Jeklik\n\t\tGrande prêtresse Jeklik\n\t\tGran Sacerdotessa Jeklik\n\t\t女大祭司ジェクリック\n\t\t대여사제 제클릭\n\t\tWielka Kapłanka Jeklik\n\t\tAlta-Sacerdotisa Jeklik\n\t\tВерховная жрица Джеклик\n\t\tไฮพรีสเตสเจคลิค\n\t\t高阶祭司耶克里克\n\t\t高階祭司耶克里克\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Spott</b>, <b>Lebensentzug</b>. Wenn Ihr diese Karte abwerft, erhaltet Ihr 2 Kopien davon auf die Hand."
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]<b>Taunt</b>, <b>Lifesteal</b>\nWhen you discard this,\nadd 2 copies of it to\nyour hand."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Provocar</b>. <b>Robo de vida</b>.\nCuando la descartas,\nañade 2 copias suyas\na tu mano."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Provocación</b>, <b>Robavida</b>\nCuando descartas esta carta, agrega 2 copias de ella a tu mano."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Provocation</b>, <b>Vol de vie</b>\nQuand vous vous en défaussez, en place 2_copies dans votre main."
+          },
+          "itIT": {
+            "present": true,
+            "value": "<b>Provocazione</b>. <b>Furto Vitale</b>. Quando scarti questa carta, ne mette due copie nella tua mano."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>挑発</b>、<b>生命奪取</b>\nこのカードを破棄した時\nそのコピー2枚を自分の\n手札に追加する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>도발</b>, <b>생명력 흡수</b>\n이 하수인을 버리면, 이 하수인을 둘 복사하여 내 손으로 가져옵니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Prowokacja</b>\n<b>Kradzież życia</b>\nGdy odrzucisz tę kartę, dodaj jej 2 kopie do twojej ręki."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Provocar</b>, <b>Roubar Vida</b>\nQuando você descartar este card, adicione 2 cópias dele à sua mão."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "[x]<b>Провокация</b>. <b>Похищение\nжизни.</b> Когда вы сбра-\nсываете эту карту, вы кла-\n____дете в_руку 2 ее копии."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>ยั่วยุ</b> <b>สูบชีวิต</b>\nเมื่อคุณทิ้งการ์ดนี้_เพิ่มก๊อปปี้[b]ของมัน 2 ใบในมือคุณ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>嘲讽，吸血</b>\n当你弃掉这张牌时，将这张牌的两张复制置入你的手牌。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>嘲諷</b>、<b>生命竊取</b>\n當你捨棄這張牌，放2張相同的牌到你手中"
+          }
+        },
+        "textContent": "\n\t\t<b>Spott</b>, <b>Lebensentzug</b>. Wenn Ihr diese Karte abwerft, erhaltet Ihr 2 Kopien davon auf die Hand.\n\t\t[x]<b>Taunt</b>, <b>Lifesteal</b>\nWhen you discard this,\nadd 2 copies of it to\nyour hand.\n\t\t[x]<b>Provocar</b>. <b>Robo de vida</b>.\nCuando la descartas,\nañade 2 copias suyas\na tu mano.\n\t\t<b>Provocación</b>, <b>Robavida</b>\nCuando descartas esta carta, agrega 2 copias de ella a tu mano.\n\t\t<b>Provocation</b>, <b>Vol de vie</b>\nQuand vous vous en défaussez, en place 2_copies dans votre main.\n\t\t<b>Provocazione</b>. <b>Furto Vitale</b>. Quando scarti questa carta, ne mette due copie nella tua mano.\n\t\t[x]<b>挑発</b>、<b>生命奪取</b>\nこのカードを破棄した時\nそのコピー2枚を自分の\n手札に追加する。\n\t\t<b>도발</b>, <b>생명력 흡수</b>\n이 하수인을 버리면, 이 하수인을 둘 복사하여 내 손으로 가져옵니다.\n\t\t<b>Prowokacja</b>\n<b>Kradzież życia</b>\nGdy odrzucisz tę kartę, dodaj jej 2 kopie do twojej ręki.\n\t\t<b>Provocar</b>, <b>Roubar Vida</b>\nQuando você descartar este card, adicione 2 cópias dele à sua mão.\n\t\t[x]<b>Провокация</b>. <b>Похищение\nжизни.</b> Когда вы сбра-\nсываете эту карту, вы кла-\n____дете в_руку 2 ее копии.\n\t\t<b>ยั่วยุ</b> <b>สูบชีวิต</b>\nเมื่อคุณทิ้งการ์ดนี้_เพิ่มก๊อปปี้[b]ของมัน 2 ใบในมือคุณ\n\t\t<b>嘲讽，吸血</b>\n当你弃掉这张牌时，将这张牌的两张复制置入你的手牌。\n\t\t<b>嘲諷</b>、<b>生命竊取</b>\n當你捨棄這張牌，放2張相同的牌到你手中\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Und täglich grüßt die Fledermaus_..."
+          },
+          "enUS": {
+            "present": true,
+            "value": "If you love Jeklik, set her free. YOU CAN'T GET RID OF HER."
+          },
+          "esES": {
+            "present": true,
+            "value": "Muchos aires, pero en el barrio sigue siendo la Jeklik."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Si amas a Jeklik, déjala libre. NO PUEDES DESHACERTE DE ELLA."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Vous aurez beau essayer de vous en débarrasser, elle reviendra toujours !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Jeklik non si scarta, è lei che scarta te."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ジェクリックを愛しているのなら、自由にしてあげなさい。どちらにせよ、彼女からは決して逃れられない。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "\"이런 미친 게임을 봤나!\""
+          },
+          "plPL": {
+            "present": true,
+            "value": "Jeśli kochasz Jeklik, puść ją wolno. INACZEJ SIĘ JEJ NIE POZBĘDZIESZ."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Se você ama Jeklik, deixe ela ir. SENÃO, ELA NÃO VAI EMBORA NUNCA."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "...а еще находите от нее записку у двери, пять пропущенных звонков, две эсэмэски и двадцать сообщений в соцсетях."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ถ้าคุณรักเจคลิค ปล่อยเธอไป คุณกำจัดเธอไม่ได้หรอก!"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "如果你爱她，就给她自由。反正你也摆脱不了她。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "她吸的可不只有雞血、豬血和自己的血。"
+          }
+        },
+        "textContent": "\n\t\tUnd täglich grüßt die Fledermaus_...\n\t\tIf you love Jeklik, set her free. YOU CAN'T GET RID OF HER.\n\t\tMuchos aires, pero en el barrio sigue siendo la Jeklik.\n\t\tSi amas a Jeklik, déjala libre. NO PUEDES DESHACERTE DE ELLA.\n\t\tVous aurez beau essayer de vous en débarrasser, elle reviendra toujours !\n\t\tJeklik non si scarta, è lei che scarta te.\n\t\tジェクリックを愛しているのなら、自由にしてあげなさい。どちらにせよ、彼女からは決して逃れられない。\n\t\t\"이런 미친 게임을 봤나!\"\n\t\tJeśli kochasz Jeklik, puść ją wolno. INACZEJ SIĘ JEJ NIE POZBĘDZIESZ.\n\t\tSe você ama Jeklik, deixe ela ir. SENÃO, ELA NÃO VAI EMBORA NUNCA.\n\t\t...а еще находите от нее записку у двери, пять пропущенных звонков, две эсэмэски и двадцать сообщений в соцсетях.\n\t\tถ้าคุณรักเจคลิค ปล่อยเธอไป คุณกำจัดเธอไม่ได้หรอก!\n\t\t如果你爱她，就给她自由。反正你也摆脱不了她。\n\t\t她吸的可不只有雞血、豬血和自己的血。\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "James Ryman"
+      }
+    },
+    "undatedRawTagTransitions": [
+      {
+        "build": 135540,
+        "id": "TRL_252",
+        "dbfId": 50032,
+        "name": "대여사제 제클릭",
+        "rawDiff": {
+          "45": [
+            "4",
+            "5"
+          ]
+        },
+        "tagNames": {
+          "45": "HEALTH"
+        },
+        "decision": "gameplay_stat_change",
+        "relatedFindings": [
+          "RAST-BAL-M001"
+        ],
+        "note": "공식 변경 공지와 원본 ID 전후 비교로 확정. 출시일/Core 개방일과 구별.",
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/9016168146cc3ce0369e8cbc54eb8395afba75a0/CardDefs.xml"
+      }
+    ],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "대여사제 제클릭",
+      "enUS": "High Priestess Jeklik"
+    },
+    "currentPrintedText": {
+      "koKR": "대여사제 제클릭",
+      "enUS": "High Priestess Jeklik"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_252",
+    "dbfId": 50032,
+    "name": "대여사제 제클릭",
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>도발</b>, <b>생명력 흡수</b><br></br>이 하수인을 버리면, 이 하수인을 둘 복사하여 내 손으로 가져옵니다.",
+    "attack": 3,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"이런 미친 게임을 봤나!\"",
+    "spellSchool": "",
+    "portrait": "HS15-005_M.psd:37ac59b5e1a88c041bd4c89265ea67d4",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 335,
+        "name": "게임 태그 335",
+        "value": 1
+      },
+      {
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_252.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_252",
+    "dbfId": 50032,
+    "name": "대여사제 제클릭",
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>도발</b>, <b>생명력 흡수</b><br></br>이 하수인을 버리면, 이 하수인을 둘 복사하여 내 손으로 가져옵니다.",
+    "attack": 3,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"이런 미친 게임을 봤나!\"",
+    "spellSchool": "",
+    "portrait": "HS15-005_M.psd:37ac59b5e1a88c041bd4c89265ea67d4",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 335,
+        "name": "게임 태그 335",
+        "value": 1
+      },
+      {
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_252.png"
+  },
+  "2022-04-06": {
+    "health": 5,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 335,
+        "name": "게임 태그 335",
+        "value": 1
+      },
+      {
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
+      }
+    ],
+    "source": {
+      "findingId": "RAST-BAL-M001",
+      "confidence": "high"
+    }
+  }
+}

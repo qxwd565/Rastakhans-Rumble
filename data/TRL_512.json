@@ -1,1 +1,923 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_512","dbfId":50391,"name":"약삭빠른 발목깨물이","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":2,"text":"<b>생명력 흡수</b>, <b>전투의 함성:</b> 피해를 1 줍니다.","attack":2,"health":1,"durability":0,"armor":0,"flavor":"무시무시한 아킬레사우루스를 사냥하는 자입니다.","spellSchool":"","portrait":"HS15-164_M.psd:9470f41b9a73f4a40a1fbc4eeeec3736","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":2},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1},{"id":685,"name":"생명력 흡수","value":1}],"races":[],"race":"","classes":[],"art":"art/TRL_512.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-164_M.psd:9470f41b9a73f4a40a1fbc4eeeec3736","goldenMaterial":"TRL_512_PremiumCard.mat:83ae7c348798e8845bd40fa7bd00c46f","goldenAnimation":"TRL_512_PremiumCard.asset:d7b9d678f2b1fdf42b5e18933975c87e"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-164_M.psd:9470f41b9a73f4a40a1fbc4eeeec3736",
+        "goldenMaterial": "TRL_512_PremiumCard.mat:83ae7c348798e8845bd40fa7bd00c46f",
+        "goldenAnimation": "TRL_512_PremiumCard.asset:d7b9d678f2b1fdf42b5e18933975c87e"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-164_M.psd:9470f41b9a73f4a40a1fbc4eeeec3736",
+      "goldenMaterial": "TRL_512_PremiumCard.mat:83ae7c348798e8845bd40fa7bd00c46f",
+      "goldenAnimation": "TRL_512_PremiumCard.asset:d7b9d678f2b1fdf42b5e18933975c87e"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "325": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "685": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "325": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "685": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Wilde Wadenbeißerin"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Cheaty Anklebiter"
+          },
+          "esES": {
+            "present": true,
+            "value": "Muerdetobillos tramposa"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Mordedora tramposa"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Demi-portion sournoise"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Peste Imbrogliona"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "小ずるい足噛み魔"
+          },
+          "koKR": {
+            "present": true,
+            "value": "약삭빠른 발목깨물이"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Cwana podgryzaczka"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Morde-Calcanhar Sacana"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Подлая кусака"
+          },
+          "thTH": {
+            "present": true,
+            "value": "โนมป่าจอมตุกติก"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "调皮的噬踝者"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "啃腳狂"
+          }
+        },
+        "textContent": "\n\t\t\tWilde Wadenbeißerin\n\t\t\tCheaty Anklebiter\n\t\t\tMuerdetobillos tramposa\n\t\t\tMordedora tramposa\n\t\t\tDemi-portion sournoise\n\t\t\tPeste Imbrogliona\n\t\t\t小ずるい足噛み魔\n\t\t\t약삭빠른 발목깨물이\n\t\t\tCwana podgryzaczka\n\t\t\tMorde-Calcanhar Sacana\n\t\t\tПодлая кусака\n\t\t\tโนมป่าจอมตุกติก\n\t\t\t调皮的噬踝者\n\t\t\t啃腳狂\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Lebensentzug</b>.\n<b>Kampfschrei:</b>\nVerursacht 1 Schaden."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Lifesteal</b>\n<b>Battlecry:</b> Deal 1 damage."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Robo de vida</b>\n<b>Grito de batalla:</b> Inflige 1_p. de daño."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Robavida</b>\n<b>Grito de batalla:</b> inflige 1 de daño."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Vol de vie</b>\n<b>Cri de guerre :</b> inflige 1_point_de_dégâts."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Furto Vitale</b>.\n<b>Grido di Battaglia:</b>\ninfligge 1 danno."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>生命奪取</b>、<b>雄叫び:</b>\n__1ダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>생명력 흡수</b>, <b>전투의 함성:</b> 피해를 1 줍니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Kradzież życia</b>\n<b>Okrzyk bojowy:</b> Zadaj\n1 pkt. obrażeń."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Roubar Vida</b>\n<b>Grito de Guerra:</b> \nCause 1 de dano."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Похищение жизни</b>\n<b>Боевой клич:</b> наносит\n 1_ед._урона."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>สูบชีวิต</b> <b>คำรามสู้ศึก:</b> สร้างความเสียหาย 1_แต้ม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>吸血</b>\n<b>战吼：</b>造成1点伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>生命竊取</b>\n<b>戰吼：</b>造成1點傷害"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Lebensentzug</b>.\n<b>Kampfschrei:</b>\nVerursacht 1 Schaden.\n\t\t\t<b>Lifesteal</b>\n<b>Battlecry:</b> Deal 1 damage.\n\t\t\t<b>Robo de vida</b>\n<b>Grito de batalla:</b> Inflige 1_p. de daño.\n\t\t\t<b>Robavida</b>\n<b>Grito de batalla:</b> inflige 1 de daño.\n\t\t\t<b>Vol de vie</b>\n<b>Cri de guerre :</b> inflige 1_point_de_dégâts.\n\t\t\t[x]<b>Furto Vitale</b>.\n<b>Grido di Battaglia:</b>\ninfligge 1 danno.\n\t\t\t[x]<b>生命奪取</b>、<b>雄叫び:</b>\n__1ダメージを与える。\n\t\t\t<b>생명력 흡수</b>, <b>전투의 함성:</b> 피해를 1 줍니다.\n\t\t\t<b>Kradzież życia</b>\n<b>Okrzyk bojowy:</b> Zadaj\n1 pkt. obrażeń.\n\t\t\t<b>Roubar Vida</b>\n<b>Grito de Guerra:</b> \nCause 1 de dano.\n\t\t\t<b>Похищение жизни</b>\n<b>Боевой клич:</b> наносит\n 1_ед._урона.\n\t\t\t<b>สูบชีวิต</b> <b>คำรามสู้ศึก:</b> สร้างความเสียหาย 1_แต้ม\n\t\t\t<b>吸血</b>\n<b>战吼：</b>造成1点伤害。\n\t\t\t<b>生命竊取</b>\n<b>戰吼：</b>造成1點傷害\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Und deshalb solltet Ihr im Dschungel immer Beinschützer tragen."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Famed hunter of the deadly Achilliosaur."
+          },
+          "esES": {
+            "present": true,
+            "value": "Con ese tamaño no es trampa, es estrategia."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Ya tenía fama de tramposa antes de empezar a morder"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Le jour où son champion préféré l’a traitée de demi-portion, elle a perdu la tête et s’est enfuie dans la jungle de Strangleronce. Depuis, elle rôde dans les bois, prête à vous planter un couteau dans le dos à la première occasion."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Spesso usata come soprammobile dai giocatori di poker."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "恐るべきアキレサウルスの狩り手として有名。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "무시무시한 아킬레사우루스를 사냥하는 자입니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Z mikrego wzrostu uczyniła swój atut."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Famoso por ter matado o mortífero Aquilessauro."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Предпочитает охотиться на ахиллозавров."
+          },
+          "thTH": {
+            "present": true,
+            "value": "เขาบอกว่าโตไปไม่โกง แต่ในเมื่อทำยังไงก็ไม่โต เพราะฉะนั้นโกงได้"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "阿喀琉斯案犯罪嫌疑人。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "吮趾回味樂無窮，嗑骨銘心難忘踝。"
+          }
+        },
+        "textContent": "\n\t\t\tUnd deshalb solltet Ihr im Dschungel immer Beinschützer tragen.\n\t\t\tFamed hunter of the deadly Achilliosaur.\n\t\t\tCon ese tamaño no es trampa, es estrategia.\n\t\t\tYa tenía fama de tramposa antes de empezar a morder\n\t\t\tLe jour où son champion préféré l’a traitée de demi-portion, elle a perdu la tête et s’est enfuie dans la jungle de Strangleronce. Depuis, elle rôde dans les bois, prête à vous planter un couteau dans le dos à la première occasion.\n\t\t\tSpesso usata come soprammobile dai giocatori di poker.\n\t\t\t恐るべきアキレサウルスの狩り手として有名。\n\t\t\t무시무시한 아킬레사우루스를 사냥하는 자입니다.\n\t\t\tZ mikrego wzrostu uczyniła swój atut.\n\t\t\tFamoso por ter matado o mortífero Aquilessauro.\n\t\t\tПредпочитает охотиться на ахиллозавров.\n\t\t\tเขาบอกว่าโตไปไม่โกง แต่ในเมื่อทำยังไงก็ไม่โต เพราะฉะนั้นโกงได้\n\t\t\t阿喀琉斯案犯罪嫌疑人。\n\t\t\t吮趾回味樂無窮，嗑骨銘心難忘踝。\n\t\t"
+      },
+      "325": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Verursacht 1 Schaden."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Deal 1 damage."
+          },
+          "esES": {
+            "present": true,
+            "value": "Inflige 1 p. de daño."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Inflige 1 de daño."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Inflige 1_point de dégâts."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Infligge 1 danno."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "1ダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "피해 1"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zadaj 1 pkt. obrażeń."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Cause 1 de dano."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Нанести 1 ед. урона."
+          },
+          "thTH": {
+            "present": true,
+            "value": "สร้างความเสียหาย 1_แต้ม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "造成1点伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "造成1點傷害"
+          }
+        },
+        "textContent": "\n\t\t\tVerursacht 1 Schaden.\n\t\t\tDeal 1 damage.\n\t\t\tInflige 1 p. de daño.\n\t\t\tInflige 1 de daño.\n\t\t\tInflige 1_point de dégâts.\n\t\t\tInfligge 1 danno.\n\t\t\t1ダメージを与える。\n\t\t\t피해 1\n\t\t\tZadaj 1 pkt. obrażeń.\n\t\t\tCause 1 de dano.\n\t\t\tНанести 1 ед. урона.\n\t\t\tสร้างความเสียหาย 1_แต้ม\n\t\t\t造成1点伤害。\n\t\t\t造成1點傷害\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Ekaterina Shapovalova"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Wilde Wadenbeißerin"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Cheaty Anklebiter"
+          },
+          "esES": {
+            "present": true,
+            "value": "Muerdetobillos tramposa"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Mordedora tramposa"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Demi-portion sournoise"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Peste Imbrogliona"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "小ずるい足噛み魔"
+          },
+          "koKR": {
+            "present": true,
+            "value": "약삭빠른 발목깨물이"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Cwana podgryzaczka"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Morde-Calcanhar Sacana"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Подлая кусака"
+          },
+          "thTH": {
+            "present": true,
+            "value": "โนมป่าจอมตุกติก"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "调皮的噬踝者"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "啃腳狂"
+          }
+        },
+        "textContent": "\n\t\tWilde Wadenbeißerin\n\t\tCheaty Anklebiter\n\t\tMuerdetobillos tramposa\n\t\tMordedora tramposa\n\t\tDemi-portion sournoise\n\t\tPeste Imbrogliona\n\t\t小ずるい足噛み魔\n\t\t약삭빠른 발목깨물이\n\t\tCwana podgryzaczka\n\t\tMorde-Calcanhar Sacana\n\t\tПодлая кусака\n\t\tโนมป่าจอมตุกติก\n\t\t调皮的噬踝者\n\t\t啃腳狂\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Lebensentzug</b>.\n<b>Kampfschrei:</b>\nVerursacht 1 Schaden."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Lifesteal</b>\n<b>Battlecry:</b> Deal 1 damage."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Robo de vida</b>\n<b>Grito de batalla:</b> Inflige 1_p. de daño."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Robavida</b>\n<b>Grito de batalla:</b> inflige 1 de daño."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Vol de vie</b>\n<b>Cri de guerre :</b> inflige 1_point_de_dégâts."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Furto Vitale</b>.\n<b>Grido di Battaglia:</b>\ninfligge 1 danno."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>生命奪取</b>、<b>雄叫び:</b>\n__1ダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>생명력 흡수</b>, <b>전투의 함성:</b> 피해를 1 줍니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Kradzież życia</b>\n<b>Okrzyk bojowy:</b> Zadaj\n1 pkt. obrażeń."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Roubar Vida</b>\n<b>Grito de Guerra:</b> \nCause 1 de dano."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Похищение жизни</b>\n<b>Боевой клич:</b> наносит\n 1_ед._урона."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>สูบชีวิต</b> <b>คำรามสู้ศึก:</b> สร้างความเสียหาย 1_แต้ม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>吸血</b>\n<b>战吼：</b>造成1点伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>生命竊取</b>\n<b>戰吼：</b>造成1點傷害"
+          }
+        },
+        "textContent": "\n\t\t<b>Lebensentzug</b>.\n<b>Kampfschrei:</b>\nVerursacht 1 Schaden.\n\t\t<b>Lifesteal</b>\n<b>Battlecry:</b> Deal 1 damage.\n\t\t<b>Robo de vida</b>\n<b>Grito de batalla:</b> Inflige 1_p. de daño.\n\t\t<b>Robavida</b>\n<b>Grito de batalla:</b> inflige 1 de daño.\n\t\t<b>Vol de vie</b>\n<b>Cri de guerre :</b> inflige 1_point_de_dégâts.\n\t\t[x]<b>Furto Vitale</b>.\n<b>Grido di Battaglia:</b>\ninfligge 1 danno.\n\t\t[x]<b>生命奪取</b>、<b>雄叫び:</b>\n__1ダメージを与える。\n\t\t<b>생명력 흡수</b>, <b>전투의 함성:</b> 피해를 1 줍니다.\n\t\t<b>Kradzież życia</b>\n<b>Okrzyk bojowy:</b> Zadaj\n1 pkt. obrażeń.\n\t\t<b>Roubar Vida</b>\n<b>Grito de Guerra:</b> \nCause 1 de dano.\n\t\t<b>Похищение жизни</b>\n<b>Боевой клич:</b> наносит\n 1_ед._урона.\n\t\t<b>สูบชีวิต</b> <b>คำรามสู้ศึก:</b> สร้างความเสียหาย 1_แต้ม\n\t\t<b>吸血</b>\n<b>战吼：</b>造成1点伤害。\n\t\t<b>生命竊取</b>\n<b>戰吼：</b>造成1點傷害\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Und deshalb solltet Ihr im Dschungel immer Beinschützer tragen."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Famed hunter of the deadly Achilliosaur."
+          },
+          "esES": {
+            "present": true,
+            "value": "Con ese tamaño no es trampa, es estrategia."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Ya tenía fama de tramposa antes de empezar a morder"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Le jour où son champion préféré l’a traitée de demi-portion, elle a perdu la tête et s’est enfuie dans la jungle de Strangleronce. Depuis, elle rôde dans les bois, prête à vous planter un couteau dans le dos à la première occasion."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Spesso usata come soprammobile dai giocatori di poker."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "恐るべきアキレサウルスの狩り手として有名。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "무시무시한 아킬레사우루스를 사냥하는 자입니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Z mikrego wzrostu uczyniła swój atut."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Famoso por ter matado o mortífero Aquilessauro."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Предпочитает охотиться на ахиллозавров."
+          },
+          "thTH": {
+            "present": true,
+            "value": "เขาบอกว่าโตไปไม่โกง แต่ในเมื่อทำยังไงก็ไม่โต เพราะฉะนั้นโกงได้"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "阿喀琉斯案犯罪嫌疑人。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "吮趾回味樂無窮，嗑骨銘心難忘踝。"
+          }
+        },
+        "textContent": "\n\t\tUnd deshalb solltet Ihr im Dschungel immer Beinschützer tragen.\n\t\tFamed hunter of the deadly Achilliosaur.\n\t\tCon ese tamaño no es trampa, es estrategia.\n\t\tYa tenía fama de tramposa antes de empezar a morder\n\t\tLe jour où son champion préféré l’a traitée de demi-portion, elle a perdu la tête et s’est enfuie dans la jungle de Strangleronce. Depuis, elle rôde dans les bois, prête à vous planter un couteau dans le dos à la première occasion.\n\t\tSpesso usata come soprammobile dai giocatori di poker.\n\t\t恐るべきアキレサウルスの狩り手として有名。\n\t\t무시무시한 아킬레사우루스를 사냥하는 자입니다.\n\t\tZ mikrego wzrostu uczyniła swój atut.\n\t\tFamoso por ter matado o mortífero Aquilessauro.\n\t\tПредпочитает охотиться на ахиллозавров.\n\t\tเขาบอกว่าโตไปไม่โกง แต่ในเมื่อทำยังไงก็ไม่โต เพราะฉะนั้นโกงได้\n\t\t阿喀琉斯案犯罪嫌疑人。\n\t\t吮趾回味樂無窮，嗑骨銘心難忘踝。\n\t"
+      },
+      "325": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Verursacht 1 Schaden."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Deal 1 damage."
+          },
+          "esES": {
+            "present": true,
+            "value": "Inflige 1 p. de daño."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Inflige 1 de daño."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Inflige 1_point de dégâts."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Infligge 1 danno."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "1ダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "피해 1"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zadaj 1 pkt. obrażeń."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Cause 1 de dano."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Нанести 1 ед. урона."
+          },
+          "thTH": {
+            "present": true,
+            "value": "สร้างความเสียหาย 1_แต้ม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "造成1点伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "造成1點傷害"
+          }
+        },
+        "textContent": "\n\t\tVerursacht 1 Schaden.\n\t\tDeal 1 damage.\n\t\tInflige 1 p. de daño.\n\t\tInflige 1 de daño.\n\t\tInflige 1_point de dégâts.\n\t\tInfligge 1 danno.\n\t\t1ダメージを与える。\n\t\t피해 1\n\t\tZadaj 1 pkt. obrażeń.\n\t\tCause 1 de dano.\n\t\tНанести 1 ед. урона.\n\t\tสร้างความเสียหาย 1_แต้ม\n\t\t造成1点伤害。\n\t\t造成1點傷害\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Ekaterina Shapovalova"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "약삭빠른 발목깨물이",
+      "enUS": "Cheaty Anklebiter"
+    },
+    "currentPrintedText": {
+      "koKR": "약삭빠른 발목깨물이",
+      "enUS": "Cheaty Anklebiter"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_512",
+    "dbfId": 50391,
+    "name": "약삭빠른 발목깨물이",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>생명력 흡수</b>, <b>전투의 함성:</b> 피해를 1 줍니다.",
+    "attack": 2,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "무시무시한 아킬레사우루스를 사냥하는 자입니다.",
+    "spellSchool": "",
+    "portrait": "HS15-164_M.psd:9470f41b9a73f4a40a1fbc4eeeec3736",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_512.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_512",
+    "dbfId": 50391,
+    "name": "약삭빠른 발목깨물이",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>생명력 흡수</b>, <b>전투의 함성:</b> 피해를 1 줍니다.",
+    "attack": 2,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "무시무시한 아킬레사우루스를 사냥하는 자입니다.",
+    "spellSchool": "",
+    "portrait": "HS15-164_M.psd:9470f41b9a73f4a40a1fbc4eeeec3736",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_512.png"
+  }
+}

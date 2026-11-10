@@ -1,1 +1,823 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_313","dbfId":50122,"name":"불태우기","type":"SPELL","cardClass":"MAGE","rarity":"RARE","collectible":true,"cost":4,"text":"하수인에게 피해를<br></br>$4 줍니다. 내가 이전<br></br>턴에 정령을 냈다면,<br></br>비용이 (1)이 됩니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"불태우기로 뿔 태우는 중","spellSchool":"FIRE","portrait":"HS15-033_S.psd:ea0d5be8ca020f34eb1cb30cd0d2d107","set":"TROLL","nativeTags":[{"id":48,"name":"마나 비용","value":4},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":4},{"id":201,"name":"진영","value":3},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":3},{"id":321,"name":"수집 가능","value":1},{"id":330,"name":"효과 생성 시각 효과","value":0},{"id":331,"name":"효과 지속 시각 효과","value":0},{"id":1635,"name":"주문 속성","value":2}],"races":[],"race":"","classes":[],"art":"art/TRL_313.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-033_S.psd:ea0d5be8ca020f34eb1cb30cd0d2d107","goldenMaterial":"TRL_313_PremiumCard.mat:f2c34aacfb2f668499344fc0e851d5ea","goldenAnimation":"TRL_313_PremiumCard.asset:8c733b268e8b19442b00262a5284fed3"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-033_S.psd:ea0d5be8ca020f34eb1cb30cd0d2d107",
+        "goldenMaterial": "TRL_313_PremiumCard.mat:f2c34aacfb2f668499344fc0e851d5ea",
+        "goldenAnimation": "TRL_313_PremiumCard.asset:8c733b268e8b19442b00262a5284fed3"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-033_S.psd:ea0d5be8ca020f34eb1cb30cd0d2d107",
+      "goldenMaterial": "TRL_313_PremiumCard.mat:f2c34aacfb2f668499344fc0e851d5ea",
+      "goldenAnimation": "TRL_313_PremiumCard.asset:8c733b268e8b19442b00262a5284fed3"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "201": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "201": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "1635": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Versengen"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Scorch"
+          },
+          "esES": {
+            "present": true,
+            "value": "Agostar"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Calcinar"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Brûlure"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Bruciatura"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "灼熱"
+          },
+          "koKR": {
+            "present": true,
+            "value": "불태우기"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Poparzenie"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Calcinar"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Ожог"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เผาผลาญ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "灼烧"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "灼燒"
+          }
+        },
+        "textContent": "\n\t\t\tVersengen\n\t\t\tScorch\n\t\t\tAgostar\n\t\t\tCalcinar\n\t\t\tBrûlure\n\t\t\tBruciatura\n\t\t\t灼熱\n\t\t\t불태우기\n\t\t\tPoparzenie\n\t\t\tCalcinar\n\t\t\tОжог\n\t\t\tเผาผลาญ\n\t\t\t灼烧\n\t\t\t灼燒\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Fügt einem Diener\n$4 Schaden zu. Kostet (1), wenn Ihr im letzten Zug einen Elementar ausgespielt habt."
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]Deal $4 damage to a\nminion. Costs (1) if you\nplayed an Elemental\nlast turn."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Inflige $4 p. de daño\na un esbirro. Cuesta (1) cristal\nsi jugaste un elemental\nen el turno anterior."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Inflige $4 de daño a un esbirro. Cuesta (1) si jugaste un Elemental el turno anterior."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Inflige $4_|4(point,points) de dégâts à un serviteur. Coûte (1)_cristal si vous avez joué un élémentaire au tour précédent."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Infligge $4 danni a un servitore. Costa (1) se hai giocato un Elementale nel turno precedente."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]ミニオン1体に\n$4ダメージを与える。\n前のターンに手札から\nエレメンタルを使用した場合\nコストが（1）になる。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]하수인에게 피해를\n$4 줍니다. 내가 이전\n턴에 정령을 냈다면,\n비용이 (1)이 됩니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zadaj $4 pkt. obrażeń stronnikowi. Kosztuje (1), jeśli w poprzedniej turze udało ci się zagrać Żywiołaka."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Cause $4 de dano a um lacaio. Custa (1) se você jogou um Elemental no último turno."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Наносит $4 ед. урона выбранному существу.\nЕсли на прошлом ходу вы разыграли элементаля,\nстоит (1)."
+          },
+          "thTH": {
+            "present": true,
+            "value": "สร้างความเสียหาย $4_แต้มให้มินเนี่ยนหนึ่งตัว ค่าร่ายเป็น_(1)_ถ้าเทิร์นที่แล้ว[b]คุณเล่นวิญญาณธาตุ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "对一个随从造成$4点伤害。如果你在上个回合使用过元素牌，则法力值消耗变为（1）点。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "對一個手下\n造成$4點傷害。若你\n上回合打出元素，則消耗為(1)"
+          }
+        },
+        "textContent": "\n\t\t\tFügt einem Diener\n$4 Schaden zu. Kostet (1), wenn Ihr im letzten Zug einen Elementar ausgespielt habt.\n\t\t\t[x]Deal $4 damage to a\nminion. Costs (1) if you\nplayed an Elemental\nlast turn.\n\t\t\t[x]Inflige $4 p. de daño\na un esbirro. Cuesta (1) cristal\nsi jugaste un elemental\nen el turno anterior.\n\t\t\tInflige $4 de daño a un esbirro. Cuesta (1) si jugaste un Elemental el turno anterior.\n\t\t\tInflige $4_|4(point,points) de dégâts à un serviteur. Coûte (1)_cristal si vous avez joué un élémentaire au tour précédent.\n\t\t\tInfligge $4 danni a un servitore. Costa (1) se hai giocato un Elementale nel turno precedente.\n\t\t\t[x]ミニオン1体に\n$4ダメージを与える。\n前のターンに手札から\nエレメンタルを使用した場合\nコストが（1）になる。\n\t\t\t[x]하수인에게 피해를\n$4 줍니다. 내가 이전\n턴에 정령을 냈다면,\n비용이 (1)이 됩니다.\n\t\t\tZadaj $4 pkt. obrażeń stronnikowi. Kosztuje (1), jeśli w poprzedniej turze udało ci się zagrać Żywiołaka.\n\t\t\tCause $4 de dano a um lacaio. Custa (1) se você jogou um Elemental no último turno.\n\t\t\tНаносит $4 ед. урона выбранному существу.\nЕсли на прошлом ходу вы разыграли элементаля,\nстоит (1).\n\t\t\tสร้างความเสียหาย $4_แต้มให้มินเนี่ยนหนึ่งตัว ค่าร่ายเป็น_(1)_ถ้าเทิร์นที่แล้ว[b]คุณเล่นวิญญาณธาตุ\n\t\t\t对一个随从造成$4点伤害。如果你在上个回合使用过元素牌，则法力值消耗变为（1）点。\n\t\t\t對一個手下\n造成$4點傷害。若你\n上回合打出元素，則消耗為(1)\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Feuer ist ein lebendes Wesen_– es atmet, es frisst, es steht auf E.T.C.!"
+          },
+          "enUS": {
+            "present": true,
+            "value": "The hoof.\nThe hoof.\nThe hoof is on fire."
+          },
+          "esES": {
+            "present": true,
+            "value": "Y se queda tan agostito."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Calcíname, mujer, calcíname. ¡Todos a mover las pezuñas!"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Certains ne rêvent que de voir le monde brûler."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Ottima per il barbecue."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "スコォォォ～チが全てを貪るであろう！"
+          },
+          "koKR": {
+            "present": true,
+            "value": "불태우기로 뿔 태우는 중"
+          },
+          "plPL": {
+            "present": true,
+            "value": "„O nie, moje warkocze!”."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "E disseram que era só fogo de palha."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Страсти на арене действительно накалились."
+          },
+          "thTH": {
+            "present": true,
+            "value": "เผาผลาญไว ไม่ต้องไปฟิตเนส"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "你就像那冬天里的一把火。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "「誰再叫我燒蹄子的我一個一個抓出來燒！」"
+          }
+        },
+        "textContent": "\n\t\t\tFeuer ist ein lebendes Wesen_– es atmet, es frisst, es steht auf E.T.C.!\n\t\t\tThe hoof.\nThe hoof.\nThe hoof is on fire.\n\t\t\tY se queda tan agostito.\n\t\t\tCalcíname, mujer, calcíname. ¡Todos a mover las pezuñas!\n\t\t\tCertains ne rêvent que de voir le monde brûler.\n\t\t\tOttima per il barbecue.\n\t\t\tスコォォォ～チが全てを貪るであろう！\n\t\t\t불태우기로 뿔 태우는 중\n\t\t\t„O nie, moje warkocze!”.\n\t\t\tE disseram que era só fogo de palha.\n\t\t\tСтрасти на арене действительно накалились.\n\t\t\tเผาผลาญไว ไม่ต้องไปฟิตเนส\n\t\t\t你就像那冬天里的一把火。\n\t\t\t「誰再叫我燒蹄子的我一個一個抓出來燒！」\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Zoltan Boros"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Versengen"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Scorch"
+          },
+          "esES": {
+            "present": true,
+            "value": "Agostar"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Calcinar"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Brûlure"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Bruciatura"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "灼熱"
+          },
+          "koKR": {
+            "present": true,
+            "value": "불태우기"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Poparzenie"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Calcinar"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Ожог"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เผาผลาญ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "灼烧"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "灼燒"
+          }
+        },
+        "textContent": "\n\t\tVersengen\n\t\tScorch\n\t\tAgostar\n\t\tCalcinar\n\t\tBrûlure\n\t\tBruciatura\n\t\t灼熱\n\t\t불태우기\n\t\tPoparzenie\n\t\tCalcinar\n\t\tОжог\n\t\tเผาผลาญ\n\t\t灼烧\n\t\t灼燒\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Fügt einem Diener\n$4 Schaden zu. Kostet (1), wenn Ihr im letzten Zug einen Elementar ausgespielt habt."
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]Deal $4 damage to a\nminion. Costs (1) if you\nplayed an Elemental\nlast turn."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Inflige $4 p. de daño\na un esbirro. Cuesta (1) cristal\nsi jugaste un elemental\nen el turno anterior."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Inflige $4 de daño a un esbirro. Cuesta (1) si jugaste un Elemental el turno anterior."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Inflige $4_|4(point,points) de dégâts à un serviteur. Coûte (1)_cristal si vous avez joué un Élémentaire au tour précédent."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Infligge $4 danni a un servitore. Costa (1) se hai giocato un Elementale nel turno precedente."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]ミニオン1体に$4ダメージを\n与える。前のターンに\n手札からエレメンタルを\n使用していた場合\n__コストが（1）になる。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]하수인에게 피해를\n$4 줍니다. 내가 이전\n턴에 정령을 냈다면,\n비용이 (1)이 됩니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zadaj $4 pkt. obrażeń stronnikowi. Kosztuje (1), jeśli w poprzedniej turze udało ci się zagrać Żywiołaka."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Cause $4 de dano a um lacaio. Custa (1) se você jogou um Elemental no último turno."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Наносит $4 ед. урона существу. Если на прошлом ходу вы разыграли элементаля, стоит (1)."
+          },
+          "thTH": {
+            "present": true,
+            "value": "สร้างความเสียหาย $4_แต้มให้มินเนี่ยนหนึ่งตัว ค่าร่ายเป็น_(1)_ถ้าเทิร์นที่แล้ว[b]คุณเล่นวิญญาณธาตุ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "对一个随从造成$4点伤害。如果你在上个回合使用过元素牌，则法力值消耗变为（1）点。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "對一個手下\n造成$4點傷害。若你\n上回合打出元素，則消耗為(1)"
+          }
+        },
+        "textContent": "\n\t\tFügt einem Diener\n$4 Schaden zu. Kostet (1), wenn Ihr im letzten Zug einen Elementar ausgespielt habt.\n\t\t[x]Deal $4 damage to a\nminion. Costs (1) if you\nplayed an Elemental\nlast turn.\n\t\t[x]Inflige $4 p. de daño\na un esbirro. Cuesta (1) cristal\nsi jugaste un elemental\nen el turno anterior.\n\t\tInflige $4 de daño a un esbirro. Cuesta (1) si jugaste un Elemental el turno anterior.\n\t\tInflige $4_|4(point,points) de dégâts à un serviteur. Coûte (1)_cristal si vous avez joué un Élémentaire au tour précédent.\n\t\tInfligge $4 danni a un servitore. Costa (1) se hai giocato un Elementale nel turno precedente.\n\t\t[x]ミニオン1体に$4ダメージを\n与える。前のターンに\n手札からエレメンタルを\n使用していた場合\n__コストが（1）になる。\n\t\t[x]하수인에게 피해를\n$4 줍니다. 내가 이전\n턴에 정령을 냈다면,\n비용이 (1)이 됩니다.\n\t\tZadaj $4 pkt. obrażeń stronnikowi. Kosztuje (1), jeśli w poprzedniej turze udało ci się zagrać Żywiołaka.\n\t\tCause $4 de dano a um lacaio. Custa (1) se você jogou um Elemental no último turno.\n\t\tНаносит $4 ед. урона существу. Если на прошлом ходу вы разыграли элементаля, стоит (1).\n\t\tสร้างความเสียหาย $4_แต้มให้มินเนี่ยนหนึ่งตัว ค่าร่ายเป็น_(1)_ถ้าเทิร์นที่แล้ว[b]คุณเล่นวิญญาณธาตุ\n\t\t对一个随从造成$4点伤害。如果你在上个回合使用过元素牌，则法力值消耗变为（1）点。\n\t\t對一個手下\n造成$4點傷害。若你\n上回合打出元素，則消耗為(1)\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Feuer ist ein lebendes Wesen_– es atmet, es frisst, es steht auf E.T.C.!"
+          },
+          "enUS": {
+            "present": true,
+            "value": "The hoof.\nThe hoof.\nThe hoof is on fire."
+          },
+          "esES": {
+            "present": true,
+            "value": "Y se queda tan agostito."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Calcíname, mujer, calcíname. ¡Todos a mover las pezuñas!"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Certains ne rêvent que de voir le monde brûler."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Ottima per il barbecue."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "スコォォォ～チが全てを貪るであろう！"
+          },
+          "koKR": {
+            "present": true,
+            "value": "불태우기로 뿔 태우는 중"
+          },
+          "plPL": {
+            "present": true,
+            "value": "„O nie, moje warkocze!”."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "E disseram que era só fogo de palha."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Страсти на арене действительно накалились."
+          },
+          "thTH": {
+            "present": true,
+            "value": "เผาผลาญไว ไม่ต้องไปฟิตเนส"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "你就像那冬天里的一把火。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "「誰再叫我燒蹄子的我一個一個抓出來燒！」"
+          }
+        },
+        "textContent": "\n\t\tFeuer ist ein lebendes Wesen_– es atmet, es frisst, es steht auf E.T.C.!\n\t\tThe hoof.\nThe hoof.\nThe hoof is on fire.\n\t\tY se queda tan agostito.\n\t\tCalcíname, mujer, calcíname. ¡Todos a mover las pezuñas!\n\t\tCertains ne rêvent que de voir le monde brûler.\n\t\tOttima per il barbecue.\n\t\tスコォォォ～チが全てを貪るであろう！\n\t\t불태우기로 뿔 태우는 중\n\t\t„O nie, moje warkocze!”.\n\t\tE disseram que era só fogo de palha.\n\t\tСтрасти на арене действительно накалились.\n\t\tเผาผลาญไว ไม่ต้องไปฟิตเนส\n\t\t你就像那冬天里的一把火。\n\t\t「誰再叫我燒蹄子的我一個一個抓出來燒！」\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Zoltan Boros"
+      }
+    },
+    "undatedRawTagTransitions": [
+      {
+        "build": 77662,
+        "id": "TRL_313",
+        "dbfId": 50122,
+        "name": "불태우기",
+        "rawDiff": {
+          "1635": [
+            "ABSENT",
+            "2"
+          ]
+        },
+        "tagNames": {
+          "1635": "SPELL_SCHOOL"
+        },
+        "decision": "gameplay_spell_school_added_recorded_correctly",
+        "relatedFindings": [
+          "RAST-BAL-E016"
+        ],
+        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+      }
+    ],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "불태우기",
+      "enUS": "Scorch"
+    },
+    "currentPrintedText": {
+      "koKR": "불태우기",
+      "enUS": "Scorch"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_313",
+    "dbfId": 50122,
+    "name": "불태우기",
+    "type": "SPELL",
+    "cardClass": "MAGE",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "text": "하수인에게 피해를<br></br>$4 줍니다. 내가 이전<br></br>턴에 정령을 냈다면,<br></br>비용이 (1)이 됩니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "불태우기로 뿔 태우는 중",
+    "spellSchool": "FIRE",
+    "portrait": "HS15-033_S.psd:ea0d5be8ca020f34eb1cb30cd0d2d107",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 2
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_313.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_313",
+    "dbfId": 50122,
+    "name": "불태우기",
+    "type": "SPELL",
+    "cardClass": "MAGE",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "text": "하수인에게 피해를<br></br>$4 줍니다. 내가 이전<br></br>턴에 정령을 냈다면,<br></br>비용이 (1)이 됩니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "불태우기로 뿔 태우는 중",
+    "spellSchool": "",
+    "portrait": "HS15-033_S.psd:ea0d5be8ca020f34eb1cb30cd0d2d107",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_313.png"
+  },
+  "2021-03-26": {
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 2
+      }
+    ],
+    "spellSchool": "FIRE"
+  }
+}

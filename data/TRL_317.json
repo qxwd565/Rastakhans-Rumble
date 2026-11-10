@@ -1,1 +1,877 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_317","dbfId":50086,"name":"화염 폭풍","type":"SPELL","cardClass":"MAGE","rarity":"EPIC","collectible":true,"cost":5,"text":"<b>모든</b> 하수인에게 피해를 $2 줍니다.<br></br><b>압살</b>: 무작위 마법사 주문을 내 손으로 가져옵니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"실례합니다만 지금 불타고들 계십니다.","spellSchool":"FIRE","portrait":"HS15-034_S.psd:8b025cb0373c7bc47809def139e3227a","set":"TROLL","nativeTags":[{"id":48,"name":"마나 비용","value":5},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":4},{"id":201,"name":"진영","value":3},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":4},{"id":251,"name":"게임 태그 251","value":1},{"id":321,"name":"수집 가능","value":1},{"id":330,"name":"효과 생성 시각 효과","value":0},{"id":331,"name":"효과 지속 시각 효과","value":0},{"id":923,"name":"압살","value":1},{"id":1635,"name":"주문 속성","value":2}],"races":[],"race":"","classes":[],"art":"art/TRL_317.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-034_S.psd:8b025cb0373c7bc47809def139e3227a","goldenMaterial":"TRL_317_PremiumCard.mat:d4b96a59288d45b49b26291f6432c1f3","goldenAnimation":"TRL_317_PremiumCard.asset:e6c12160d95ff944faa35d5467ed895c"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-034_S.psd:8b025cb0373c7bc47809def139e3227a",
+        "goldenMaterial": "TRL_317_PremiumCard.mat:d4b96a59288d45b49b26291f6432c1f3",
+        "goldenAnimation": "TRL_317_PremiumCard.asset:e6c12160d95ff944faa35d5467ed895c"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-034_S.psd:8b025cb0373c7bc47809def139e3227a",
+      "goldenMaterial": "TRL_317_PremiumCard.mat:d4b96a59288d45b49b26291f6432c1f3",
+      "goldenAnimation": "TRL_317_PremiumCard.asset:e6c12160d95ff944faa35d5467ed895c"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "201": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "251": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "923": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "201": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "251": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "923": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "1635": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Feuerwalze"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Blast Wave"
+          },
+          "esES": {
+            "present": true,
+            "value": "Ola explosiva"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Onda explosiva"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Vague explosive"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Ondata di Fuoco"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "爆炎波"
+          },
+          "koKR": {
+            "present": true,
+            "value": "화염 폭풍"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Fala uderzeniowa"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Onda de Impacto"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Взрывная волна"
+          },
+          "thTH": {
+            "present": true,
+            "value": "คลื่นระเบิด"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "冲击波"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "衝擊波"
+          }
+        },
+        "textContent": "\n\t\t\tFeuerwalze\n\t\t\tBlast Wave\n\t\t\tOla explosiva\n\t\t\tOnda explosiva\n\t\t\tVague explosive\n\t\t\tOndata di Fuoco\n\t\t\t爆炎波\n\t\t\t화염 폭풍\n\t\t\tFala uderzeniowa\n\t\t\tOnda de Impacto\n\t\t\tВзрывная волна\n\t\t\tคลื่นระเบิด\n\t\t\t冲击波\n\t\t\t衝擊波\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Fügt allen Dienern\n$2 Schaden zu. <b>Überwältigen:</b>\nErhaltet einen zufälligen\nMagierzauber auf die Hand."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Deal $2 damage to_all minions.\n<b>Overkill</b>: Add a random Mage spell to your hand."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Inflige $2 p. de daño\na todos los esbirros.\n<b>Arrasar:</b> Añade un hechizo\nde mago aleatorio\na tu mano."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Inflige $2 de daño a todos los esbirros.\n<b>Arrasar</b>: agrega un hechizo de_Mago aleatorio a tu mano."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Inflige $2_|4(point,points) de dégâts à tous les serviteurs.\n<b>Brutalité :</b> ajoute un sort de mage aléatoire dans votre main."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]Infligge $2 danni a TUTTI\ni servitori. <b>Annientamento:</b>\nmette nella tua mano una\nMagia casuale del Mago."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "全てのミニオンに\n$2ダメージを与える。\n<b>血祭:</b>ランダムなメイジの\n呪文1枚を自分の手札に追加する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>모든</b> 하수인에게 피해를 $2 줍니다.\n<b>압살</b>: 무작위 마법사 주문을 내 손으로 가져옵니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zadaj $2 pkt. obrażeń wszystkim stronnikom.\n<b>Rzeź:</b> Dodaj losowe zaklęcie maga do_twojej ręki."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Cause $2 de dano a todos os lacaios. <b>Massacre:</b> Adicione um feitiço de Mago aleatório à sua mão."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Наносит $2 ед. урона всем существам. <b>Сверхурон:</b> вы кладете в руку случайное заклинание мага."
+          },
+          "thTH": {
+            "present": true,
+            "value": "สร้างความเสียหาย $2_แต้มให้มินเนี่ยนทั้งหมด <b>สังหารโหด</b>:_สุ่มเพิ่มเวทมนตร์[b]ของเมจหนึ่งใบในมือคุณ_"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "对所有随从造成$2点伤害。<b>超杀</b>：随机将一张法师法术牌置入你的手牌。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "對全部手下造成\n$2點傷害\n<b>滅殺</b>：放一張隨機法師法術牌到你的手中"
+          }
+        },
+        "textContent": "\n\t\t\tFügt allen Dienern\n$2 Schaden zu. <b>Überwältigen:</b>\nErhaltet einen zufälligen\nMagierzauber auf die Hand.\n\t\t\tDeal $2 damage to_all minions.\n<b>Overkill</b>: Add a random Mage spell to your hand.\n\t\t\t[x]Inflige $2 p. de daño\na todos los esbirros.\n<b>Arrasar:</b> Añade un hechizo\nde mago aleatorio\na tu mano.\n\t\t\tInflige $2 de daño a todos los esbirros.\n<b>Arrasar</b>: agrega un hechizo de_Mago aleatorio a tu mano.\n\t\t\tInflige $2_|4(point,points) de dégâts à tous les serviteurs.\n<b>Brutalité :</b> ajoute un sort de mage aléatoire dans votre main.\n\t\t\t[x]Infligge $2 danni a TUTTI\ni servitori. <b>Annientamento:</b>\nmette nella tua mano una\nMagia casuale del Mago.\n\t\t\t全てのミニオンに\n$2ダメージを与える。\n<b>血祭:</b>ランダムなメイジの\n呪文1枚を自分の手札に追加する。\n\t\t\t<b>모든</b> 하수인에게 피해를 $2 줍니다.\n<b>압살</b>: 무작위 마법사 주문을 내 손으로 가져옵니다.\n\t\t\tZadaj $2 pkt. obrażeń wszystkim stronnikom.\n<b>Rzeź:</b> Dodaj losowe zaklęcie maga do_twojej ręki.\n\t\t\tCause $2 de dano a todos os lacaios. <b>Massacre:</b> Adicione um feitiço de Mago aleatório à sua mão.\n\t\t\tНаносит $2 ед. урона всем существам. <b>Сверхурон:</b> вы кладете в руку случайное заклинание мага.\n\t\t\tสร้างความเสียหาย $2_แต้มให้มินเนี่ยนทั้งหมด <b>สังหารโหด</b>:_สุ่มเพิ่มเวทมนตร์[b]ของเมจหนึ่งใบในมือคุณ_\n\t\t\t对所有随从造成$2点伤害。<b>超杀</b>：随机将一张法师法术牌置入你的手牌。\n\t\t\t對全部手下造成\n$2點傷害\n<b>滅殺</b>：放一張隨機法師法術牌到你的手中\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Wenn du in Flammen stehst, dann klatsche in die Hand!"
+          },
+          "enUS": {
+            "present": true,
+            "value": "If you’re burning and you know it, wave your hands!"
+          },
+          "esES": {
+            "present": true,
+            "value": "Zambúllete, está calentita."
+          },
+          "esMX": {
+            "present": true,
+            "value": "¡A que no captas esta onda!"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Les sorts lui brûlent les doigts."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Se vai a fuoco e tu lo sai, scalda le mani!"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "昔は炎を5色出せれば十分だったが、今ではシーズン中盤から追加戦士が登場するのが当たり前になっているのが、ステージメイジの密かな頭痛の種。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "실례합니다만 지금 불타고들 계십니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Uważaj, bo spali ci rzęsy!"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Ninguém quer surfar nessa onda."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Гасит... все живое."
+          },
+          "thTH": {
+            "present": true,
+            "value": "หากว่าเราโดนเผาด้วยไฟ จงโบกมือพลัน!"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "如果感到燥热你就挥挥手！"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "等場上有14個幽光，你就知道了！"
+          }
+        },
+        "textContent": "\n\t\t\tWenn du in Flammen stehst, dann klatsche in die Hand!\n\t\t\tIf you’re burning and you know it, wave your hands!\n\t\t\tZambúllete, está calentita.\n\t\t\t¡A que no captas esta onda!\n\t\t\tLes sorts lui brûlent les doigts.\n\t\t\tSe vai a fuoco e tu lo sai, scalda le mani!\n\t\t\t昔は炎を5色出せれば十分だったが、今ではシーズン中盤から追加戦士が登場するのが当たり前になっているのが、ステージメイジの密かな頭痛の種。\n\t\t\t실례합니다만 지금 불타고들 계십니다.\n\t\t\tUważaj, bo spali ci rzęsy!\n\t\t\tNinguém quer surfar nessa onda.\n\t\t\tГасит... все живое.\n\t\t\tหากว่าเราโดนเผาด้วยไฟ จงโบกมือพลัน!\n\t\t\t如果感到燥热你就挥挥手！\n\t\t\t等場上有14個幽光，你就知道了！\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "J. Axer"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Feuerwalze"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Blast Wave"
+          },
+          "esES": {
+            "present": true,
+            "value": "Ola explosiva"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Onda explosiva"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Vague explosive"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Ondata di Fuoco"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "爆炎波"
+          },
+          "koKR": {
+            "present": true,
+            "value": "화염 폭풍"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Fala uderzeniowa"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Onda de Impacto"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Взрывная волна"
+          },
+          "thTH": {
+            "present": true,
+            "value": "คลื่นระเบิด"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "冲击波"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "衝擊波"
+          }
+        },
+        "textContent": "\n\t\tFeuerwalze\n\t\tBlast Wave\n\t\tOla explosiva\n\t\tOnda explosiva\n\t\tVague explosive\n\t\tOndata di Fuoco\n\t\t爆炎波\n\t\t화염 폭풍\n\t\tFala uderzeniowa\n\t\tOnda de Impacto\n\t\tВзрывная волна\n\t\tคลื่นระเบิด\n\t\t冲击波\n\t\t衝擊波\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Fügt allen Dienern\n$2 Schaden zu. <b>Überwältigen:</b>\nErhaltet einen zufälligen\nMagierzauber auf die Hand."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Deal $2 damage to_all minions.\n<b>Overkill</b>: Add a random Mage spell to your hand."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Inflige $2 p. de daño\na todos los esbirros.\n<b>Arrasar:</b> Añade un hechizo\nde mago aleatorio\na tu mano."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Inflige $2 de daño a todos los esbirros.\n<b>Arrasar</b>: agrega un hechizo de_Mago aleatorio a tu mano."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Inflige $2_|4(point,points) de dégâts à tous les serviteurs.\n<b>Brutalité :</b> ajoute un sort de mage aléatoire dans votre main."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]Infligge $2 danni a TUTTI\ni servitori. <b>Annientamento:</b>\nmette nella tua mano una\nMagia casuale del Mago."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "全てのミニオンに\n$2ダメージを与える。\n<b>血祭:</b>ランダムなメイジの\n呪文1枚を自分の手札に追加する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>모든</b> 하수인에게 피해를 $2 줍니다.\n<b>압살</b>: 무작위 마법사 주문을 내 손으로 가져옵니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zadaj $2 pkt. obrażeń wszystkim stronnikom.\n<b>Rzeź:</b> Dodaj losowe zaklęcie maga do_twojej ręki."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Cause $2 de dano a todos os lacaios. <b>Massacre:</b> Adicione um feitiço aleatório de Mago à sua mão."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Наносит $2 ед. урона всем существам. <b>Сверхурон:</b> вы кладете в руку случайное заклинание мага."
+          },
+          "thTH": {
+            "present": true,
+            "value": "สร้างความเสียหาย $2_แต้มให้มินเนี่ยนทั้งหมด <b>สังหารโหด</b>:_สุ่มเพิ่มเวทมนตร์[b]ของเมจหนึ่งใบในมือคุณ_"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "对所有随从造成$2点伤害。<b>超杀</b>：随机将一张法师法术牌置入你的手牌。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "對全部手下造成\n$2點傷害\n<b>滅殺</b>：放一張隨機法師法術到你的手中"
+          }
+        },
+        "textContent": "\n\t\tFügt allen Dienern\n$2 Schaden zu. <b>Überwältigen:</b>\nErhaltet einen zufälligen\nMagierzauber auf die Hand.\n\t\tDeal $2 damage to_all minions.\n<b>Overkill</b>: Add a random Mage spell to your hand.\n\t\t[x]Inflige $2 p. de daño\na todos los esbirros.\n<b>Arrasar:</b> Añade un hechizo\nde mago aleatorio\na tu mano.\n\t\tInflige $2 de daño a todos los esbirros.\n<b>Arrasar</b>: agrega un hechizo de_Mago aleatorio a tu mano.\n\t\tInflige $2_|4(point,points) de dégâts à tous les serviteurs.\n<b>Brutalité :</b> ajoute un sort de mage aléatoire dans votre main.\n\t\t[x]Infligge $2 danni a TUTTI\ni servitori. <b>Annientamento:</b>\nmette nella tua mano una\nMagia casuale del Mago.\n\t\t全てのミニオンに\n$2ダメージを与える。\n<b>血祭:</b>ランダムなメイジの\n呪文1枚を自分の手札に追加する。\n\t\t<b>모든</b> 하수인에게 피해를 $2 줍니다.\n<b>압살</b>: 무작위 마법사 주문을 내 손으로 가져옵니다.\n\t\tZadaj $2 pkt. obrażeń wszystkim stronnikom.\n<b>Rzeź:</b> Dodaj losowe zaklęcie maga do_twojej ręki.\n\t\tCause $2 de dano a todos os lacaios. <b>Massacre:</b> Adicione um feitiço aleatório de Mago à sua mão.\n\t\tНаносит $2 ед. урона всем существам. <b>Сверхурон:</b> вы кладете в руку случайное заклинание мага.\n\t\tสร้างความเสียหาย $2_แต้มให้มินเนี่ยนทั้งหมด <b>สังหารโหด</b>:_สุ่มเพิ่มเวทมนตร์[b]ของเมจหนึ่งใบในมือคุณ_\n\t\t对所有随从造成$2点伤害。<b>超杀</b>：随机将一张法师法术牌置入你的手牌。\n\t\t對全部手下造成\n$2點傷害\n<b>滅殺</b>：放一張隨機法師法術到你的手中\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Wenn du in Flammen stehst, dann klatsche in die Hand!"
+          },
+          "enUS": {
+            "present": true,
+            "value": "If you’re burning and you know it, wave your hands!"
+          },
+          "esES": {
+            "present": true,
+            "value": "Zambúllete, está calentita."
+          },
+          "esMX": {
+            "present": true,
+            "value": "¡A que no captas esta onda!"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Les sorts lui brûlent les doigts."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Se vai a fuoco e tu lo sai, scalda le mani!"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "昔は炎を5色出せれば十分だったが、今ではシーズン中盤から追加戦士が登場するのが当たり前になっているのが、ステージメイジの密かな頭痛の種。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "실례합니다만 지금 불타고들 계십니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Uważaj, bo spali ci rzęsy!"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Ninguém quer surfar nessa onda."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Гасит... все живое."
+          },
+          "thTH": {
+            "present": true,
+            "value": "หากว่าเราโดนเผาด้วยไฟ จงโบกมือพลัน!"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "如果感到燥热你就挥挥手！"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "等場上有14個幽光，你就知道了！"
+          }
+        },
+        "textContent": "\n\t\tWenn du in Flammen stehst, dann klatsche in die Hand!\n\t\tIf you’re burning and you know it, wave your hands!\n\t\tZambúllete, está calentita.\n\t\t¡A que no captas esta onda!\n\t\tLes sorts lui brûlent les doigts.\n\t\tSe vai a fuoco e tu lo sai, scalda le mani!\n\t\t昔は炎を5色出せれば十分だったが、今ではシーズン中盤から追加戦士が登場するのが当たり前になっているのが、ステージメイジの密かな頭痛の種。\n\t\t실례합니다만 지금 불타고들 계십니다.\n\t\tUważaj, bo spali ci rzęsy!\n\t\tNinguém quer surfar nessa onda.\n\t\tГасит... все живое.\n\t\tหากว่าเราโดนเผาด้วยไฟ จงโบกมือพลัน!\n\t\t如果感到燥热你就挥挥手！\n\t\t等場上有14個幽光，你就知道了！\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "J. Axer"
+      }
+    },
+    "undatedRawTagTransitions": [
+      {
+        "build": 77662,
+        "id": "TRL_317",
+        "dbfId": 50086,
+        "name": "화염 폭풍",
+        "rawDiff": {
+          "1635": [
+            "ABSENT",
+            "2"
+          ]
+        },
+        "tagNames": {
+          "1635": "SPELL_SCHOOL"
+        },
+        "decision": "gameplay_spell_school_added_recorded_correctly",
+        "relatedFindings": [
+          "RAST-BAL-E017"
+        ],
+        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+      }
+    ],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "화염 폭풍",
+      "enUS": "Blast Wave"
+    },
+    "currentPrintedText": {
+      "koKR": "화염 폭풍",
+      "enUS": "Blast Wave"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_317",
+    "dbfId": 50086,
+    "name": "화염 폭풍",
+    "type": "SPELL",
+    "cardClass": "MAGE",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>모든</b> 하수인에게 피해를 $2 줍니다.<br></br><b>압살</b>: 무작위 마법사 주문을 내 손으로 가져옵니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "실례합니다만 지금 불타고들 계십니다.",
+    "spellSchool": "FIRE",
+    "portrait": "HS15-034_S.psd:8b025cb0373c7bc47809def139e3227a",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 923,
+        "name": "압살",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 2
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_317.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_317",
+    "dbfId": 50086,
+    "name": "화염 폭풍",
+    "type": "SPELL",
+    "cardClass": "MAGE",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>모든</b> 하수인에게 피해를 $2 줍니다.<br></br><b>압살</b>: 무작위 마법사 주문을 내 손으로 가져옵니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "실례합니다만 지금 불타고들 계십니다.",
+    "spellSchool": "",
+    "portrait": "HS15-034_S.psd:8b025cb0373c7bc47809def139e3227a",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 923,
+        "name": "압살",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_317.png"
+  },
+  "2021-03-26": {
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 923,
+        "name": "압살",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 2
+      }
+    ],
+    "spellSchool": "FIRE"
+  }
+}

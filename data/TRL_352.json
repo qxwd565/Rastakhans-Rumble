@@ -1,1 +1,935 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_352","dbfId":50550,"name":"츄르릅 봉","type":"WEAPON","cardClass":"SHAMAN","rarity":"RARE","collectible":true,"cost":2,"text":"내 마나 수정이 <b>과부하</b>된 동안 공격력을 +2 얻습니다.","attack":1,"health":0,"durability":3,"armor":0,"flavor":"강아지들이 좋아합니다.","spellSchool":"","portrait":"HS15-044_W.psd:a6b7ac6c236e2d54d9cc298008b05134","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":3},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":2},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":8},{"id":202,"name":"카드 유형","value":7},{"id":203,"name":"희귀도","value":3},{"id":215,"name":"과부하","value":1},{"id":321,"name":"수집 가능","value":1},{"id":330,"name":"효과 생성 시각 효과","value":0},{"id":331,"name":"효과 지속 시각 효과","value":0},{"id":362,"name":"지속 효과","value":1}],"races":[],"race":"","classes":[],"art":"art/TRL_352.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-044_W.psd:a6b7ac6c236e2d54d9cc298008b05134","goldenMaterial":"TRL_352_PremiumCard.mat:b6b3bc2f41079ba49a552226108b7d7d","goldenAnimation":"TRL_352_PremiumCard.asset:37cc83961a6715b49b462870ccbcfedb"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-044_W.psd:a6b7ac6c236e2d54d9cc298008b05134",
+        "goldenMaterial": "TRL_352_PremiumCard.mat:b6b3bc2f41079ba49a552226108b7d7d",
+        "goldenAnimation": "TRL_352_PremiumCard.asset:37cc83961a6715b49b462870ccbcfedb"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-044_W.psd:a6b7ac6c236e2d54d9cc298008b05134",
+      "goldenMaterial": "TRL_352_PremiumCard.mat:b6b3bc2f41079ba49a552226108b7d7d",
+      "goldenAnimation": "TRL_352_PremiumCard.asset:37cc83961a6715b49b462870ccbcfedb"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "187": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "8",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "7",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "362": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {
+      "215": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "8",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "7",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "362": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {
+      "215": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Lutscha"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Likkim"
+          },
+          "esES": {
+            "present": true,
+            "value": "Lengüecilla"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Lamidum"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Roi-lèche"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Leccostecco"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ベロベーロ"
+          },
+          "koKR": {
+            "present": true,
+            "value": "츄르릅 봉"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Lizzak"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Lambim"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Лиззун"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ลิคคิม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "舔舔魔杖"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "長舌魔棒"
+          }
+        },
+        "textContent": "\n\t\t\tLutscha\n\t\t\tLikkim\n\t\t\tLengüecilla\n\t\t\tLamidum\n\t\t\tRoi-lèche\n\t\t\tLeccostecco\n\t\t\tベロベーロ\n\t\t\t츄르릅 봉\n\t\t\tLizzak\n\t\t\tLambim\n\t\t\tЛиззун\n\t\t\tลิคคิม\n\t\t\t舔舔魔杖\n\t\t\t長舌魔棒\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Hat +2 Angriff, wenn Ihr [x]<b>überladene</b> Mana[d]kristalle habt."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Has +2 Attack while you have <b>Overloaded</b> Mana Crystals."
+          },
+          "esES": {
+            "present": true,
+            "value": "Tiene +2 p. de ataque mientras tengas\ncristales de maná <b>sobrecargados</b>."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Tiene +2 de Ataque mientras tengas Cristales de maná <b>Sobrecargados</b>."
+          },
+          "frFR": {
+            "present": true,
+            "value": "A +2_ATQ tant que vous avez  des cristaux de mana_en_<b>Surcharge</b>."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]Ha +2 Attacco finché hai\ndei Cristalli di Mana\nin <b>Sovraccarico</b>."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]自分のマナクリスタルが\n<b>オーバーロード</b>\nしている場合\n___攻撃力+2を得る。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "내 마나 수정이 <b>과부하</b>된 동안 공격력을 +2 얻습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Ma +2 do ataku, jeśli masz_<b>Przeciążone</b> kryształy many."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Ganha +2 de Ataque enquanto você tiver \nCristais de Mana <b>Sobrecarregados</b>."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Получает +2 к атаке, пока у вас есть <b>перегруженные</b> кристаллы маны."
+          },
+          "thTH": {
+            "present": true,
+            "value": "พลังโจมตี_+2_ระหว่างที่[b]คริสตัลมานาของคุณ <b>โอเวอร์โหลด</b>"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "当你有<b>过载</b>的法力水晶时，获得+2攻击力。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "[x]若你有<b>超載</b>的\n法力水晶，獲得\n+2攻擊力"
+          }
+        },
+        "textContent": "\n\t\t\tHat +2 Angriff, wenn Ihr [x]<b>überladene</b> Mana[d]kristalle habt.\n\t\t\tHas +2 Attack while you have <b>Overloaded</b> Mana Crystals.\n\t\t\tTiene +2 p. de ataque mientras tengas\ncristales de maná <b>sobrecargados</b>.\n\t\t\tTiene +2 de Ataque mientras tengas Cristales de maná <b>Sobrecargados</b>.\n\t\t\tA +2_ATQ tant que vous avez  des cristaux de mana_en_<b>Surcharge</b>.\n\t\t\t[x]Ha +2 Attacco finché hai\ndei Cristalli di Mana\nin <b>Sovraccarico</b>.\n\t\t\t[x]自分のマナクリスタルが\n<b>オーバーロード</b>\nしている場合\n___攻撃力+2を得る。\n\t\t\t내 마나 수정이 <b>과부하</b>된 동안 공격력을 +2 얻습니다.\n\t\t\tMa +2 do ataku, jeśli masz_<b>Przeciążone</b> kryształy many.\n\t\t\tGanha +2 de Ataque enquanto você tiver \nCristais de Mana <b>Sobrecarregados</b>.\n\t\t\tПолучает +2 к атаке, пока у вас есть <b>перегруженные</b> кристаллы маны.\n\t\t\tพลังโจมตี_+2_ระหว่างที่[b]คริสตัลมานาของคุณ <b>โอเวอร์โหลด</b>\n\t\t\t当你有<b>过载</b>的法力水晶时，获得+2攻击力。\n\t\t\t[x]若你有<b>超載</b>的\n法力水晶，獲得\n+2攻擊力\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Neeein! Nein! Schlagt Euch das gleich wieder aus dem Kopf!"
+          },
+          "enUS": {
+            "present": true,
+            "value": "\"I double frog dare you!\""
+          },
+          "esES": {
+            "present": true,
+            "value": "Si no estás luchando, también la puedes utilizar para pegar sellos."
+          },
+          "esMX": {
+            "present": true,
+            "value": "\"¡Saluden al hipnosapo!\""
+          },
+          "frFR": {
+            "present": true,
+            "value": "Pour faire de la lèche, c’est le roi !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Il nuovo gusto dell'estate a Dazar'alor!"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ゲロゲ～ロ　ゲロゲ～ロ\nベロベ～ロ　ベロベ～ロ"
+          },
+          "koKR": {
+            "present": true,
+            "value": "강아지들이 좋아합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Nawet nie zauważysz, jak wyrwie ci jedzenie z dłoni."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "O pior dano é o da lambida."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Студенистый. Склизкий. Твой."
+          },
+          "thTH": {
+            "present": true,
+            "value": "เล่นกับกบ กบเลียปาก"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "什么？只要过载就能提高2点攻击力？那还不舔爆？！"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "超載啦！那我還不舔爆！"
+          }
+        },
+        "textContent": "\n\t\t\tNeeein! Nein! Schlagt Euch das gleich wieder aus dem Kopf!\n\t\t\t\"I double frog dare you!\"\n\t\t\tSi no estás luchando, también la puedes utilizar para pegar sellos.\n\t\t\t\"¡Saluden al hipnosapo!\"\n\t\t\tPour faire de la lèche, c’est le roi !\n\t\t\tIl nuovo gusto dell'estate a Dazar'alor!\n\t\t\tゲロゲ～ロ　ゲロゲ～ロ\nベロベ～ロ　ベロベ～ロ\n\t\t\t강아지들이 좋아합니다.\n\t\t\tNawet nie zauważysz, jak wyrwie ci jedzenie z dłoni.\n\t\t\tO pior dano é o da lambida.\n\t\t\tСтуденистый. Склизкий. Твой.\n\t\t\tเล่นกับกบ กบเลียปาก\n\t\t\t什么？只要过载就能提高2点攻击力？那还不舔爆？！\n\t\t\t超載啦！那我還不舔爆！\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Jakub Kasber"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Lutscha"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Likkim"
+          },
+          "esES": {
+            "present": true,
+            "value": "Lengüecilla"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Lamidum"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Roi-lèche"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Leccostecco"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ベロベーロ"
+          },
+          "koKR": {
+            "present": true,
+            "value": "츄르릅 봉"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Lizzak"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Lambim"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Лиззун"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ลิคคิม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "舔舔魔杖"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "長舌魔棒"
+          }
+        },
+        "textContent": "\n\t\tLutscha\n\t\tLikkim\n\t\tLengüecilla\n\t\tLamidum\n\t\tRoi-lèche\n\t\tLeccostecco\n\t\tベロベーロ\n\t\t츄르릅 봉\n\t\tLizzak\n\t\tLambim\n\t\tЛиззун\n\t\tลิคคิม\n\t\t舔舔魔杖\n\t\t長舌魔棒\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Hat +2 Angriff, wenn Ihr <b>überladene</b> Mana-\nkristalle_habt."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Has +2 Attack while you have <b>Overloaded</b> Mana Crystals."
+          },
+          "esES": {
+            "present": true,
+            "value": "Tiene +2 p. de ataque mientras tengas\ncristales de maná <b>sobrecargados</b>."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Tiene +2 de Ataque mientras tengas Cristales de maná <b>Sobrecargados</b>."
+          },
+          "frFR": {
+            "present": true,
+            "value": "A +2_ATQ tant que vous avez des cristaux de mana_en_<b>Surcharge</b>."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]Ha +2 Attacco finché hai\ndei Cristalli di Mana\nin <b>Sovraccarico</b>."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]自分のマナクリスタルが\n<b>オーバーロード</b>\nしている場合\n___攻撃力+2を得る。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "내 마나 수정이 <b>과부하</b>된 동안 공격력을 +2 얻습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Ma +2 do ataku, jeśli masz_<b>Przeciążone</b> kryształy many."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Ganha +2 de Ataque enquanto você tiver \nCristais de Mana <b>Sobrecarregados</b>."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Получает +2 к атаке, пока у вас есть <b>перегруженные</b> кристаллы маны."
+          },
+          "thTH": {
+            "present": true,
+            "value": "พลังโจมตี_+2_ระหว่างที่[b]คริสตัลมานาของคุณ <b>โอเวอร์โหลด</b>"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "当你有<b>过载</b>的法力水晶时，拥有+2攻击力。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "[x]若你有<b>超載</b>的\n法力水晶，獲得\n+2攻擊力"
+          }
+        },
+        "textContent": "\n\t\tHat +2 Angriff, wenn Ihr <b>überladene</b> Mana-\nkristalle_habt.\n\t\tHas +2 Attack while you have <b>Overloaded</b> Mana Crystals.\n\t\tTiene +2 p. de ataque mientras tengas\ncristales de maná <b>sobrecargados</b>.\n\t\tTiene +2 de Ataque mientras tengas Cristales de maná <b>Sobrecargados</b>.\n\t\tA +2_ATQ tant que vous avez des cristaux de mana_en_<b>Surcharge</b>.\n\t\t[x]Ha +2 Attacco finché hai\ndei Cristalli di Mana\nin <b>Sovraccarico</b>.\n\t\t[x]自分のマナクリスタルが\n<b>オーバーロード</b>\nしている場合\n___攻撃力+2を得る。\n\t\t내 마나 수정이 <b>과부하</b>된 동안 공격력을 +2 얻습니다.\n\t\tMa +2 do ataku, jeśli masz_<b>Przeciążone</b> kryształy many.\n\t\tGanha +2 de Ataque enquanto você tiver \nCristais de Mana <b>Sobrecarregados</b>.\n\t\tПолучает +2 к атаке, пока у вас есть <b>перегруженные</b> кристаллы маны.\n\t\tพลังโจมตี_+2_ระหว่างที่[b]คริสตัลมานาของคุณ <b>โอเวอร์โหลด</b>\n\t\t当你有<b>过载</b>的法力水晶时，拥有+2攻击力。\n\t\t[x]若你有<b>超載</b>的\n法力水晶，獲得\n+2攻擊力\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Neeein! Nein! Schlagt Euch das gleich wieder aus dem Kopf!"
+          },
+          "enUS": {
+            "present": true,
+            "value": "\"I double frog dare you!\""
+          },
+          "esES": {
+            "present": true,
+            "value": "Si no estás luchando, también la puedes utilizar para pegar sellos."
+          },
+          "esMX": {
+            "present": true,
+            "value": "\"¡Saluden al hipnosapo!\""
+          },
+          "frFR": {
+            "present": true,
+            "value": "Pour faire de la lèche, c’est le roi !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Il nuovo gusto dell'estate a Dazar'alor!"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ゲロゲ～ロ　ゲロゲ～ロ\nベロベ～ロ　ベロベ～ロ"
+          },
+          "koKR": {
+            "present": true,
+            "value": "강아지들이 좋아합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Nawet nie zauważysz, jak wyrwie ci jedzenie z dłoni."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "O pior dano é o da lambida."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Студенистый. Склизкий. Твой."
+          },
+          "thTH": {
+            "present": true,
+            "value": "\"เล่นกับกบ กบเลียปาก\""
+          },
+          "zhCN": {
+            "present": true,
+            "value": "什么？只要过载就能提高2点攻击力？那还不舔爆？！"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "超載啦！那我還不舔爆！"
+          }
+        },
+        "textContent": "\n\t\tNeeein! Nein! Schlagt Euch das gleich wieder aus dem Kopf!\n\t\t\"I double frog dare you!\"\n\t\tSi no estás luchando, también la puedes utilizar para pegar sellos.\n\t\t\"¡Saluden al hipnosapo!\"\n\t\tPour faire de la lèche, c’est le roi !\n\t\tIl nuovo gusto dell'estate a Dazar'alor!\n\t\tゲロゲ～ロ　ゲロゲ～ロ\nベロベ～ロ　ベロベ～ロ\n\t\t강아지들이 좋아합니다.\n\t\tNawet nie zauważysz, jak wyrwie ci jedzenie z dłoni.\n\t\tO pior dano é o da lambida.\n\t\tСтуденистый. Склизкий. Твой.\n\t\t\"เล่นกับกบ กบเลียปาก\"\n\t\t什么？只要过载就能提高2点攻击力？那还不舔爆？！\n\t\t超載啦！那我還不舔爆！\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Jakub Kasper"
+      }
+    },
+    "undatedRawTagTransitions": [
+      {
+        "build": 217964,
+        "id": "TRL_352",
+        "dbfId": 50550,
+        "name": "츄르릅 봉",
+        "rawDiff": {
+          "187": [
+            "3",
+            "ABSENT"
+          ],
+          "45": [
+            "ABSENT",
+            "3"
+          ]
+        },
+        "tagNames": {
+          "187": "DURABILITY",
+          "45": "HEALTH"
+        },
+        "decision": "weapon_durability_tag_migration_same_value",
+        "relatedFindings": [],
+        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
+      }
+    ],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "츄르릅 봉",
+      "enUS": "Likkim"
+    },
+    "currentPrintedText": {
+      "koKR": "츄르릅 봉",
+      "enUS": "Likkim"
+    },
+    "undatedCurrentDifferences": [],
+    "weaponDurabilityTagMigrationEvidence": {
+      "date": "2025-03-19",
+      "beforeBuild": 217489,
+      "afterBuild": 217964,
+      "beforeOwn": {
+        "187": "3",
+        "45": "ABSENT"
+      },
+      "afterOwn": {
+        "187": "ABSENT",
+        "45": "3"
+      },
+      "logicalDurabilityBefore": 3,
+      "logicalDurabilityAfter": 3,
+      "officialPatch": "32.0",
+      "officialPublishedUTC": "2025-03-17T17:00:00Z",
+      "officialSource": "https://news.blizzard.com/ko-kr/article/24187196/32-0",
+      "isGameplayBuff": false
+    }
+  },
+  "_current": {
+    "id": "TRL_352",
+    "dbfId": 50550,
+    "name": "츄르릅 봉",
+    "type": "WEAPON",
+    "cardClass": "SHAMAN",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 2,
+    "text": "내 마나 수정이 <b>과부하</b>된 동안 공격력을 +2 얻습니다.",
+    "attack": 1,
+    "health": 0,
+    "durability": 3,
+    "armor": 0,
+    "flavor": "강아지들이 좋아합니다.",
+    "spellSchool": "",
+    "portrait": "HS15-044_W.psd:a6b7ac6c236e2d54d9cc298008b05134",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 215,
+        "name": "과부하",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 362,
+        "name": "지속 효과",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_352.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_352",
+    "dbfId": 50550,
+    "name": "츄르릅 봉",
+    "type": "WEAPON",
+    "cardClass": "SHAMAN",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 2,
+    "text": "내 마나 수정이 <b>과부하</b>된 동안 공격력을 +2 얻습니다.",
+    "attack": 1,
+    "health": 0,
+    "durability": 3,
+    "armor": 0,
+    "flavor": "강아지들이 좋아합니다.",
+    "spellSchool": "",
+    "portrait": "HS15-044_W.psd:a6b7ac6c236e2d54d9cc298008b05134",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 215,
+        "name": "과부하",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 362,
+        "name": "지속 효과",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_352.png"
+  },
+  "2025-03-19": {
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 215,
+        "name": "과부하",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 362,
+        "name": "지속 효과",
+        "value": 1
+      }
+    ],
+    "nativeTagRolesDelta": {
+      "owned": {
+        "removed": [
+          "187"
+        ],
+        "set": {
+          "45": "3"
+        }
+      },
+      "referenced": {
+        "removed": [],
+        "set": {}
+      }
+    },
+    "source": {
+      "findingId": "RAST-EXP-32-0",
+      "officialPatch": "32.0",
+      "buildBefore": 217489,
+      "buildAfter": 217964,
+      "durabilityBefore": 3,
+      "durabilityAfter": 3,
+      "isGameplayBuff": false,
+      "note": "Tag ownership migration only; no weapon durability buff"
+    }
+  }
+}

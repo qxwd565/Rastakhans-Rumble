@@ -1,1 +1,443 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_020t","dbfId":49087,"name":"박쥐","type":"MINION","cardClass":"NEUTRAL","collectible":false,"cost":1,"text":"","attack":1,"health":1,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS15-069_M.psd:ca81ae67de63eed4f881286162f777a0","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":1},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":321,"name":"수집 가능","value":0}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/TRL_020t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-069_M.psd:ca81ae67de63eed4f881286162f777a0","goldenMaterial":"TRL_020t_PremiumCard.mat:79b9102b77d55f449ac97aaf82c7ad39","goldenAnimation":"TRL_020t_PremiumCard.asset:70dbeccd170fa8d4791c6e29edc0800a"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "estimated",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-069_M.psd:ca81ae67de63eed4f881286162f777a0",
+        "goldenMaterial": "TRL_020t_PremiumCard.mat:79b9102b77d55f449ac97aaf82c7ad39",
+        "goldenAnimation": "TRL_020t_PremiumCard.asset:70dbeccd170fa8d4791c6e29edc0800a"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-069_M.psd:ca81ae67de63eed4f881286162f777a0",
+      "goldenMaterial": "TRL_020t_PremiumCard.mat:79b9102b77d55f449ac97aaf82c7ad39",
+      "goldenAnimation": "TRL_020t_PremiumCard.asset:70dbeccd170fa8d4791c6e29edc0800a"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "20",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "20",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Fledermaus"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Bat"
+          },
+          "esES": {
+            "present": true,
+            "value": "Murciélago"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Murciélago"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Chauve-souris"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Pipistrello"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "コウモリ"
+          },
+          "koKR": {
+            "present": true,
+            "value": "박쥐"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Nietoperz"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Morcego"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Нетопырь"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ค้างคาว"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "蝙蝠"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "蝙蝠"
+          }
+        },
+        "textContent": "\n\t\t\tFledermaus\n\t\t\tBat\n\t\t\tMurciélago\n\t\t\tMurciélago\n\t\t\tChauve-souris\n\t\t\tPipistrello\n\t\t\tコウモリ\n\t\t\t박쥐\n\t\t\tNietoperz\n\t\t\tMorcego\n\t\t\tНетопырь\n\t\t\tค้างคาว\n\t\t\t蝙蝠\n\t\t\t蝙蝠\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Jiajun Tian"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Fledermaus"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Bat"
+          },
+          "esES": {
+            "present": true,
+            "value": "Murciélago"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Murciélago"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Chauve-souris"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Pipistrello"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "コウモリ"
+          },
+          "koKR": {
+            "present": true,
+            "value": "박쥐"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Nietoperz"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Morcego"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Летучая мышь"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ค้างคาว"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "蝙蝠"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "蝙蝠"
+          }
+        },
+        "textContent": "\n\t\tFledermaus\n\t\tBat\n\t\tMurciélago\n\t\tMurciélago\n\t\tChauve-souris\n\t\tPipistrello\n\t\tコウモリ\n\t\t박쥐\n\t\tNietoperz\n\t\tMorcego\n\t\tЛетучая мышь\n\t\tค้างคาว\n\t\t蝙蝠\n\t\t蝙蝠\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Jiajun Tian"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "박쥐",
+      "enUS": "Bat"
+    },
+    "currentPrintedText": {
+      "koKR": "박쥐",
+      "enUS": "Bat"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_020t",
+    "dbfId": 49087,
+    "name": "박쥐",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "collectible": false,
+    "cost": 1,
+    "text": "",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS15-069_M.psd:ca81ae67de63eed4f881286162f777a0",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/TRL_020t.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_020t",
+    "dbfId": 49087,
+    "name": "박쥐",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "collectible": false,
+    "cost": 1,
+    "text": "",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS15-069_M.psd:ca81ae67de63eed4f881286162f777a0",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/TRL_020t.png"
+  }
+}

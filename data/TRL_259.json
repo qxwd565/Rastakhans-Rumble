@@ -1,1 +1,771 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_259","dbfId":50082,"name":"공주 탈란지","type":"MINION","cardClass":"PRIEST","rarity":"LEGENDARY","collectible":true,"cost":8,"text":"<b>전투의 함성:</b> 내 손에서<br></br>게임이 시작됐을 때<br></br>내 덱에 없던 모든<br></br> 하수인을 소환합니다.","attack":7,"health":5,"durability":0,"armor":0,"flavor":"누구나 공주가 되고 싶어 하죠. 머리 장식의 무게는 전혀 생각하지 않고.","spellSchool":"","portrait":"HS15-143_M.psd:7f1d33b8fc5f65f4da5300208dab4b0c","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":5},{"id":47,"name":"공격력","value":7},{"id":48,"name":"마나 비용","value":8},{"id":114,"name":"전설 속성","value":1},{"id":199,"name":"직업","value":6},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":5},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/TRL_259.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-143_M.psd:7f1d33b8fc5f65f4da5300208dab4b0c","goldenMaterial":"TRL_259_PremiumCard.mat:6ab33eac81d28b0409a65f3d78123c25","goldenAnimation":"TRL_259_PremiumCard.asset:564e2cb27b1183343b934aa6d78b7d89"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-143_M.psd:7f1d33b8fc5f65f4da5300208dab4b0c",
+        "goldenMaterial": "TRL_259_PremiumCard.mat:6ab33eac81d28b0409a65f3d78123c25",
+        "goldenAnimation": "TRL_259_PremiumCard.asset:564e2cb27b1183343b934aa6d78b7d89"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-143_M.psd:7f1d33b8fc5f65f4da5300208dab4b0c",
+      "goldenMaterial": "TRL_259_PremiumCard.mat:6ab33eac81d28b0409a65f3d78123c25",
+      "goldenAnimation": "TRL_259_PremiumCard.asset:564e2cb27b1183343b934aa6d78b7d89"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "7",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "8",
+        "type": "Int"
+      },
+      "114": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "6",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "7",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "8",
+        "type": "Int"
+      },
+      "114": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "6",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Prinzessin Talanji"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Princess Talanji"
+          },
+          "esES": {
+            "present": true,
+            "value": "Princesa Talanji"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Princesa Talanji"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Princesse Talanji"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Principessa Talanji"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "タランジ王女"
+          },
+          "koKR": {
+            "present": true,
+            "value": "공주 탈란지"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Księżniczka Talanji"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Princesa Talanji"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Принцесса Таланджи"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เจ้าหญิงทาลันจี"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "塔兰吉公主"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "塔蘭姬公主"
+          }
+        },
+        "textContent": "\n\t\t\tPrinzessin Talanji\n\t\t\tPrincess Talanji\n\t\t\tPrincesa Talanji\n\t\t\tPrincesa Talanji\n\t\t\tPrincesse Talanji\n\t\t\tPrincipessa Talanji\n\t\t\tタランジ王女\n\t\t\t공주 탈란지\n\t\t\tKsiężniczka Talanji\n\t\t\tPrincesa Talanji\n\t\t\tПринцесса Таланджи\n\t\t\tเจ้าหญิงทาลันจี\n\t\t\t塔兰吉公主\n\t\t\t塔蘭姬公主\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "[x]<b>Kampfschrei:</b> Ruft aus Eurer\nHand alle Diener herbei,\ndie nicht zu Spielbeginn in\nEurem Deck waren."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Battlecry:</b> Summon all minions from your hand that_didn't start in your_deck."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Grito de batalla:</b>\nInvoca a todos los esbirros\nde tu mano que no estuvieran en\ntu mazo inicial."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> invoca todos los esbirros de tu mano que no estaban en tu mazo inicial."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> invoque tous les serviteurs de votre main ne venant pas directement de votre_deck."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b> evoca\ndalla tua mano i servitori\nnon presenti nel tuo\nmazzo originale."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>雄叫び:</b>\n自分の手札から\n対戦開始時に自分のデッキに\n入っていなかった\n_____ミニオンを全て召喚する。_"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]<b>전투의 함성:</b> 내 손에서\n게임이 시작됐을 때\n내 덱에 없던 모든\n 하수인을 소환합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b> Przyzwij z twojej ręki wszystkich stronników, których nie było w_twojej talii na_początku gry."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b> Evoque todos os lacaios da sua mão que não tenham começado no seu deck."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "[x]<b>Боевой клич:</b> призывает\nиз руки всех существ,\nкоторых не было в вашей\n___колоде в начале матча."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b> เรียกมินเนี่ยน[b]ที่ไม่ได้อยู่ในเด็คของคุณ[b]_แต่แรกทั้งหมดจากมือคุณ_"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>\n召唤你的手牌中所有你的套牌之外的\n随从。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>戰吼：</b>召喚你手中非起始套牌的全部手下"
+          }
+        },
+        "textContent": "\n\t\t\t[x]<b>Kampfschrei:</b> Ruft aus Eurer\nHand alle Diener herbei,\ndie nicht zu Spielbeginn in\nEurem Deck waren.\n\t\t\t<b>Battlecry:</b> Summon all minions from your hand that_didn't start in your_deck.\n\t\t\t[x]<b>Grito de batalla:</b>\nInvoca a todos los esbirros\nde tu mano que no estuvieran en\ntu mazo inicial.\n\t\t\t<b>Grito de batalla:</b> invoca todos los esbirros de tu mano que no estaban en tu mazo inicial.\n\t\t\t<b>Cri de guerre :</b> invoque tous les serviteurs de votre main ne venant pas directement de votre_deck.\n\t\t\t[x]<b>Grido di Battaglia:</b> evoca\ndalla tua mano i servitori\nnon presenti nel tuo\nmazzo originale.\n\t\t\t[x]<b>雄叫び:</b>\n自分の手札から\n対戦開始時に自分のデッキに\n入っていなかった\n_____ミニオンを全て召喚する。_\n\t\t\t[x]<b>전투의 함성:</b> 내 손에서\n게임이 시작됐을 때\n내 덱에 없던 모든\n 하수인을 소환합니다.\n\t\t\t<b>Okrzyk bojowy:</b> Przyzwij z twojej ręki wszystkich stronników, których nie było w_twojej talii na_początku gry.\n\t\t\t<b>Grito de Guerra:</b> Evoque todos os lacaios da sua mão que não tenham começado no seu deck.\n\t\t\t[x]<b>Боевой клич:</b> призывает\nиз руки всех существ,\nкоторых не было в вашей\n___колоде в начале матча.\n\t\t\t<b>คำรามสู้ศึก:</b> เรียกมินเนี่ยน[b]ที่ไม่ได้อยู่ในเด็คของคุณ[b]_แต่แรกทั้งหมดจากมือคุณ_\n\t\t\t<b>战吼：</b>\n召唤你的手牌中所有你的套牌之外的\n随从。\n\t\t\t<b>戰吼：</b>召喚你手中非起始套牌的全部手下\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Wer wäre nicht gerne eine Prinzessin? Aber man sollte bedenken, was man sich dafür auf den Kopf setzen muss."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Everyone wants to be a princess, but nobody ever considers the size of the hat."
+          },
+          "esES": {
+            "present": true,
+            "value": "El título de princesa no es hereditario, se lo dan a la que aguante más tiempo con ese sombrero."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Todas quieren ser princesas, pero nadie piensa jamás en el tamaño del sombrero."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Vous avez vu la taille de cette couronne ? Elle porte vraiment le poids du monde sur ses épaules !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Tutte le bambine sognano di diventare principesse, ma nessuna considera mai la dimensione del cappello."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "王女様になりたい、と誰もが夢見るが、その重さについては考えもしない。例えば、あの帽子の。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "누구나 공주가 되고 싶어 하죠. 머리 장식의 무게는 전혀 생각하지 않고."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Dla tej księżniczki tiara to za mało."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Todo mundo quer ser princesa, mas ninguém pensa no tamanho do chapéu."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Кто ж знал, что, будучи принцессой, придется носить такую шапку."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ใครๆ ก็อยากเป็นเจ้าหญิง แต่ไม่มีใครนึกว่าหมวกมันจะใหญ่ขนาดนี้"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "欲戴王冠，必承其重。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "想當公主，你得先學會怎麼戴我們的皇家帽子！"
+          }
+        },
+        "textContent": "\n\t\t\tWer wäre nicht gerne eine Prinzessin? Aber man sollte bedenken, was man sich dafür auf den Kopf setzen muss.\n\t\t\tEveryone wants to be a princess, but nobody ever considers the size of the hat.\n\t\t\tEl título de princesa no es hereditario, se lo dan a la que aguante más tiempo con ese sombrero.\n\t\t\tTodas quieren ser princesas, pero nadie piensa jamás en el tamaño del sombrero.\n\t\t\tVous avez vu la taille de cette couronne ? Elle porte vraiment le poids du monde sur ses épaules !\n\t\t\tTutte le bambine sognano di diventare principesse, ma nessuna considera mai la dimensione del cappello.\n\t\t\t王女様になりたい、と誰もが夢見るが、その重さについては考えもしない。例えば、あの帽子の。\n\t\t\t누구나 공주가 되고 싶어 하죠. 머리 장식의 무게는 전혀 생각하지 않고.\n\t\t\tDla tej księżniczki tiara to za mało.\n\t\t\tTodo mundo quer ser princesa, mas ninguém pensa no tamanho do chapéu.\n\t\t\tКто ж знал, что, будучи принцессой, придется носить такую шапку.\n\t\t\tใครๆ ก็อยากเป็นเจ้าหญิง แต่ไม่มีใครนึกว่าหมวกมันจะใหญ่ขนาดนี้\n\t\t\t欲戴王冠，必承其重。\n\t\t\t想當公主，你得先學會怎麼戴我們的皇家帽子！\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Alex Horley Ormandelli"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Prinzessin Talanji"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Princess Talanji"
+          },
+          "esES": {
+            "present": true,
+            "value": "Princesa Talanji"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Princesa Talanji"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Princesse Talanji"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Principessa Talanji"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "タランジ王女"
+          },
+          "koKR": {
+            "present": true,
+            "value": "공주 탈란지"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Księżniczka Talanji"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Princesa Talanji"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Принцесса Таланджи"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เจ้าหญิงทาลันจี"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "塔兰吉公主"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "塔蘭姬公主"
+          }
+        },
+        "textContent": "\n\t\tPrinzessin Talanji\n\t\tPrincess Talanji\n\t\tPrincesa Talanji\n\t\tPrincesa Talanji\n\t\tPrincesse Talanji\n\t\tPrincipessa Talanji\n\t\tタランジ王女\n\t\t공주 탈란지\n\t\tKsiężniczka Talanji\n\t\tPrincesa Talanji\n\t\tПринцесса Таланджи\n\t\tเจ้าหญิงทาลันจี\n\t\t塔兰吉公主\n\t\t塔蘭姬公主\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "[x]<b>Kampfschrei:</b> Ruft aus Eurer\nHand alle Diener herbei,\ndie nicht zu Spielbeginn in\nEurem Deck waren."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Battlecry:</b> Summon all minions from your hand that_didn't start in your_deck."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]<b>Grito de batalla:</b>\nInvoca a todos los esbirros\nde tu mano que no estuvieran en\ntu mazo inicial."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> invoca todos los esbirros de tu mano que no estaban en tu mazo inicial."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> invoque tous les serviteurs de votre main ne venant pas directement de votre_deck."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b> evoca\ndalla tua mano i servitori\nnon presenti nel tuo\nmazzo originale."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>雄叫び:</b>\n自分の手札から\n対戦開始時に自分のデッキに\n入っていなかった\n_____ミニオンを全て召喚する。_"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]<b>전투의 함성:</b> 내 손에서\n게임이 시작됐을 때\n내 덱에 없던 모든\n 하수인을 소환합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b> Przyzwij z twojej ręki wszystkich stronników, których nie było w_twojej talii na_początku gry."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b> Evoque todos os lacaios da sua mão que não tenham começado no seu deck."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> призывает из вашей руки всех существ, которых не было в вашей колоде в начале матча."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b> เรียกมินเนี่ยน[b]ที่ไม่ได้อยู่ในเด็คคุณแต่แรก[b]ทั้งหมดจากมือคุณ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>\n召唤你的手牌中所有你的套牌之外的\n随从。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>戰吼：</b>召喚你手中非起始套牌的全部手下"
+          }
+        },
+        "textContent": "\n\t\t[x]<b>Kampfschrei:</b> Ruft aus Eurer\nHand alle Diener herbei,\ndie nicht zu Spielbeginn in\nEurem Deck waren.\n\t\t<b>Battlecry:</b> Summon all minions from your hand that_didn't start in your_deck.\n\t\t[x]<b>Grito de batalla:</b>\nInvoca a todos los esbirros\nde tu mano que no estuvieran en\ntu mazo inicial.\n\t\t<b>Grito de batalla:</b> invoca todos los esbirros de tu mano que no estaban en tu mazo inicial.\n\t\t<b>Cri de guerre :</b> invoque tous les serviteurs de votre main ne venant pas directement de votre_deck.\n\t\t[x]<b>Grido di Battaglia:</b> evoca\ndalla tua mano i servitori\nnon presenti nel tuo\nmazzo originale.\n\t\t[x]<b>雄叫び:</b>\n自分の手札から\n対戦開始時に自分のデッキに\n入っていなかった\n_____ミニオンを全て召喚する。_\n\t\t[x]<b>전투의 함성:</b> 내 손에서\n게임이 시작됐을 때\n내 덱에 없던 모든\n 하수인을 소환합니다.\n\t\t<b>Okrzyk bojowy:</b> Przyzwij z twojej ręki wszystkich stronników, których nie było w_twojej talii na_początku gry.\n\t\t<b>Grito de Guerra:</b> Evoque todos os lacaios da sua mão que não tenham começado no seu deck.\n\t\t<b>Боевой клич:</b> призывает из вашей руки всех существ, которых не было в вашей колоде в начале матча.\n\t\t<b>คำรามสู้ศึก:</b> เรียกมินเนี่ยน[b]ที่ไม่ได้อยู่ในเด็คคุณแต่แรก[b]ทั้งหมดจากมือคุณ\n\t\t<b>战吼：</b>\n召唤你的手牌中所有你的套牌之外的\n随从。\n\t\t<b>戰吼：</b>召喚你手中非起始套牌的全部手下\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Wer wäre nicht gerne eine Prinzessin? Aber man sollte bedenken, was man sich dafür auf den Kopf setzen muss."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Everyone wants to be a princess, but nobody ever considers the size of the hat."
+          },
+          "esES": {
+            "present": true,
+            "value": "El título de princesa no es hereditario, se lo dan a la que aguante más tiempo con ese sombrero."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Todas quieren ser princesas, pero nadie piensa jamás en el tamaño del sombrero."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Vous avez vu la taille de cette couronne ? Elle porte vraiment le poids du monde sur ses épaules !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Tutte le bambine sognano di diventare principesse, ma nessuna considera mai la dimensione del cappello."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "王女様になりたい、と誰もが夢見るが、その重さについては考えもしない。例えば、あの帽子の。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "누구나 공주가 되고 싶어 하죠. 머리 장식의 무게는 전혀 생각하지 않고."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Dla tej księżniczki tiara to za mało."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Todo mundo quer ser princesa, mas ninguém pensa no tamanho do chapéu."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Кто ж знал, что, будучи принцессой, придется носить такую шапку."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ใครๆ ก็อยากเป็นเจ้าหญิง แต่ไม่มีใครนึกว่าหมวกมันจะใหญ่ขนาดนี้"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "欲戴王冠，必承其重。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "想當公主，你得先學會怎麼戴我們的皇家帽子！"
+          }
+        },
+        "textContent": "\n\t\tWer wäre nicht gerne eine Prinzessin? Aber man sollte bedenken, was man sich dafür auf den Kopf setzen muss.\n\t\tEveryone wants to be a princess, but nobody ever considers the size of the hat.\n\t\tEl título de princesa no es hereditario, se lo dan a la que aguante más tiempo con ese sombrero.\n\t\tTodas quieren ser princesas, pero nadie piensa jamás en el tamaño del sombrero.\n\t\tVous avez vu la taille de cette couronne ? Elle porte vraiment le poids du monde sur ses épaules !\n\t\tTutte le bambine sognano di diventare principesse, ma nessuna considera mai la dimensione del cappello.\n\t\t王女様になりたい、と誰もが夢見るが、その重さについては考えもしない。例えば、あの帽子の。\n\t\t누구나 공주가 되고 싶어 하죠. 머리 장식의 무게는 전혀 생각하지 않고.\n\t\tDla tej księżniczki tiara to za mało.\n\t\tTodo mundo quer ser princesa, mas ninguém pensa no tamanho do chapéu.\n\t\tКто ж знал, что, будучи принцессой, придется носить такую шапку.\n\t\tใครๆ ก็อยากเป็นเจ้าหญิง แต่ไม่มีใครนึกว่าหมวกมันจะใหญ่ขนาดนี้\n\t\t欲戴王冠，必承其重。\n\t\t想當公主，你得先學會怎麼戴我們的皇家帽子！\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Alex Horley Ormandelli"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "공주 탈란지",
+      "enUS": "Princess Talanji"
+    },
+    "currentPrintedText": {
+      "koKR": "공주 탈란지",
+      "enUS": "Princess Talanji"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_259",
+    "dbfId": 50082,
+    "name": "공주 탈란지",
+    "type": "MINION",
+    "cardClass": "PRIEST",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 8,
+    "text": "<b>전투의 함성:</b> 내 손에서<br></br>게임이 시작됐을 때<br></br>내 덱에 없던 모든<br></br> 하수인을 소환합니다.",
+    "attack": 7,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "누구나 공주가 되고 싶어 하죠. 머리 장식의 무게는 전혀 생각하지 않고.",
+    "spellSchool": "",
+    "portrait": "HS15-143_M.psd:7f1d33b8fc5f65f4da5300208dab4b0c",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 7
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_259.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_259",
+    "dbfId": 50082,
+    "name": "공주 탈란지",
+    "type": "MINION",
+    "cardClass": "PRIEST",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 8,
+    "text": "<b>전투의 함성:</b> 내 손에서<br></br>게임이 시작됐을 때<br></br>내 덱에 없던 모든<br></br> 하수인을 소환합니다.",
+    "attack": 7,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "누구나 공주가 되고 싶어 하죠. 머리 장식의 무게는 전혀 생각하지 않고.",
+    "spellSchool": "",
+    "portrait": "HS15-143_M.psd:7f1d33b8fc5f65f4da5300208dab4b0c",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 7
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_259.png"
+  }
+}

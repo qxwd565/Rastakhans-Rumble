@@ -1,1 +1,766 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_555","dbfId":50991,"name":"악마 화살","type":"SPELL","cardClass":"WARLOCK","rarity":"COMMON","collectible":true,"cost":8,"text":"하수인을 처치합니다.<br></br>내 하수인 하나당 비용이<br></br>(1)씩 감소합니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"하수인(이었던 것)","spellSchool":"SHADOW","portrait":"HS15-100_S.psd:6fddd224fe008f9419846b3d7acdeacf","set":"TROLL","nativeTags":[{"id":48,"name":"마나 비용","value":8},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":9},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1},{"id":1635,"name":"주문 속성","value":6}],"races":[],"race":"","classes":[],"art":"art/TRL_555.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-100_S.psd:6fddd224fe008f9419846b3d7acdeacf","goldenMaterial":"TRL_555_PremiumCard.mat:c67e9728bd906134d991df53600819dc","goldenAnimation":"TRL_555_PremiumCard.asset:5516c65dcef6cfa4b80deda49c1b7d7f"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-100_S.psd:6fddd224fe008f9419846b3d7acdeacf",
+        "goldenMaterial": "TRL_555_PremiumCard.mat:c67e9728bd906134d991df53600819dc",
+        "goldenAnimation": "TRL_555_PremiumCard.asset:5516c65dcef6cfa4b80deda49c1b7d7f"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-100_S.psd:6fddd224fe008f9419846b3d7acdeacf",
+      "goldenMaterial": "TRL_555_PremiumCard.mat:c67e9728bd906134d991df53600819dc",
+      "goldenAnimation": "TRL_555_PremiumCard.asset:5516c65dcef6cfa4b80deda49c1b7d7f"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "8",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "9",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "8",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "9",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "1635": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "6",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Dämonenblitz"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Demonbolt"
+          },
+          "esES": {
+            "present": true,
+            "value": "Descarga de demonio"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Descarga demoníaca"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Trait démoniaque"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Dardo Demoniaco"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "悪魔弾"
+          },
+          "koKR": {
+            "present": true,
+            "value": "악마 화살"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Demoniczny pocisk"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Seta Demoníaca"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Демонический заряд"
+          },
+          "thTH": {
+            "present": true,
+            "value": "คลื่นพลังปีศาจ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "恶魔之箭"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "惡魔箭"
+          }
+        },
+        "textContent": "\n\t\t\tDämonenblitz\n\t\t\tDemonbolt\n\t\t\tDescarga de demonio\n\t\t\tDescarga demoníaca\n\t\t\tTrait démoniaque\n\t\t\tDardo Demoniaco\n\t\t\t悪魔弾\n\t\t\t악마 화살\n\t\t\tDemoniczny pocisk\n\t\t\tSeta Demoníaca\n\t\t\tДемонический заряд\n\t\t\tคลื่นพลังปีศาจ\n\t\t\t恶魔之箭\n\t\t\t惡魔箭\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Vernichtet einen Diener. Kostet (1) weniger für jeden Diener, den Ihr kontrolliert."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Destroy a minion. Costs (1) less for each minion you control."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Destruye a un esbirro.\nCuesta (1) cristal por cada\nesbirro que controles."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Destruye un esbirro. Cuesta (1) menos por cada esbirro que controles."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Détruit un serviteur. Coûte (1)_cristal de moins pour chaque serviteur que vous contrôlez."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]Distrugge un servitore.\nCosta (1) in meno per ogni\nservitore che controlli."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]ミニオン1体を破壊する。\n味方のミニオン1体につき\n__コストが（1）減る。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]하수인을 처치합니다.\n내 전장에 있는 하수인\n하나당 비용이 (1)씩\n감소합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zniszcz stronnika. Kosztuje (1) mniej za każdego stronnika, jakiego kontrolujesz."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Destrua um lacaio. \nCusta (1) a menos para cada lacaio sob seu controle."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Уничтожает выбранное существо. Стоит на (1) меньше за каждое существо под вашим контролем."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ทำลายมินเนี่ยนหนึ่งตัว ค่าร่ายลดลง (1) ต่อมินเนี่ยน[b]แต่ละตัวที่คุณควบคุม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "消灭一个随从。你每有一个随从，该牌的法力值消耗便减少（1）点。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "摧毀一個手下。你場上每個手下使消耗減少(1)"
+          }
+        },
+        "textContent": "\n\t\t\tVernichtet einen Diener. Kostet (1) weniger für jeden Diener, den Ihr kontrolliert.\n\t\t\tDestroy a minion. Costs (1) less for each minion you control.\n\t\t\t[x]Destruye a un esbirro.\nCuesta (1) cristal por cada\nesbirro que controles.\n\t\t\tDestruye un esbirro. Cuesta (1) menos por cada esbirro que controles.\n\t\t\tDétruit un serviteur. Coûte (1)_cristal de moins pour chaque serviteur que vous contrôlez.\n\t\t\t[x]Distrugge un servitore.\nCosta (1) in meno per ogni\nservitore che controlli.\n\t\t\t[x]ミニオン1体を破壊する。\n味方のミニオン1体につき\n__コストが（1）減る。\n\t\t\t[x]하수인을 처치합니다.\n내 전장에 있는 하수인\n하나당 비용이 (1)씩\n감소합니다.\n\t\t\tZniszcz stronnika. Kosztuje (1) mniej za każdego stronnika, jakiego kontrolujesz.\n\t\t\tDestrua um lacaio. \nCusta (1) a menos para cada lacaio sob seu controle.\n\t\t\tУничтожает выбранное существо. Стоит на (1) меньше за каждое существо под вашим контролем.\n\t\t\tทำลายมินเนี่ยนหนึ่งตัว ค่าร่ายลดลง (1) ต่อมินเนี่ยน[b]แต่ละตัวที่คุณควบคุม\n\t\t\t消灭一个随从。你每有一个随从，该牌的法力值消耗便减少（1）点。\n\t\t\t摧毀一個手下。你場上每個手下使消耗減少(1)\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Ja, ja, ich weiß, es sieht gar nicht aus wie ein Blitz. Aber wenn Ihr davon getroffen werdet, merkt Ihr keinen Unterschied."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Or as it’s known in troll, “De bolt, mon.”"
+          },
+          "esES": {
+            "present": true,
+            "value": "Ha tenido que cambiar recientemente su plan de datos porque las efigies distorsionan la señal de la arena."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Los trols la llaman “Colega demoníaca”."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Il est vraiment très démoniaque !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Tecnicamente sono due, uno arancione e uno viola."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "トロルにはよく「悪だー、マン！」と呼ばれてる呪文。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "하수인(이었던 것)"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Ale pocisk!"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Quando você quer entrar à direita, ela sinaliza à esquerda."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Бес — птица гордая, не пнешь — не полетит."
+          },
+          "thTH": {
+            "present": true,
+            "value": "มอยร่าไหมล่ะ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "“我不管，反正我人多！”"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "打惡魔箭最好有七人，七個手下的靈魂，七點法力不用了，術士覺得好興奮。"
+          }
+        },
+        "textContent": "\n\t\t\tJa, ja, ich weiß, es sieht gar nicht aus wie ein Blitz. Aber wenn Ihr davon getroffen werdet, merkt Ihr keinen Unterschied.\n\t\t\tOr as it’s known in troll, “De bolt, mon.”\n\t\t\tHa tenido que cambiar recientemente su plan de datos porque las efigies distorsionan la señal de la arena.\n\t\t\tLos trols la llaman “Colega demoníaca”.\n\t\t\tIl est vraiment très démoniaque !\n\t\t\tTecnicamente sono due, uno arancione e uno viola.\n\t\t\tトロルにはよく「悪だー、マン！」と呼ばれてる呪文。\n\t\t\t하수인(이었던 것)\n\t\t\tAle pocisk!\n\t\t\tQuando você quer entrar à direita, ela sinaliza à esquerda.\n\t\t\tБес — птица гордая, не пнешь — не полетит.\n\t\t\tมอยร่าไหมล่ะ\n\t\t\t“我不管，反正我人多！”\n\t\t\t打惡魔箭最好有七人，七個手下的靈魂，七點法力不用了，術士覺得好興奮。\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Akkapoj T."
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Dämonenblitz"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Demonbolt"
+          },
+          "esES": {
+            "present": true,
+            "value": "Descarga de demonio"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Descarga demoníaca"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Trait démoniaque"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Dardo Demoniaco"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "悪魔弾"
+          },
+          "koKR": {
+            "present": true,
+            "value": "악마 화살"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Demoniczny pocisk"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Seta Demoníaca"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Демонический заряд"
+          },
+          "thTH": {
+            "present": true,
+            "value": "คลื่นพลังปีศาจ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "恶魔之箭"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "惡魔箭"
+          }
+        },
+        "textContent": "\n\t\tDämonenblitz\n\t\tDemonbolt\n\t\tDescarga de demonio\n\t\tDescarga demoníaca\n\t\tTrait démoniaque\n\t\tDardo Demoniaco\n\t\t悪魔弾\n\t\t악마 화살\n\t\tDemoniczny pocisk\n\t\tSeta Demoníaca\n\t\tДемонический заряд\n\t\tคลื่นพลังปีศาจ\n\t\t恶魔之箭\n\t\t惡魔箭\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Vernichtet einen Diener. Kostet (1) weniger für jeden Diener, den Ihr kontrolliert."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Destroy a minion. Costs (1) less for each minion you control."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Destruye a un esbirro.\nCuesta (1) cristal menos por cada\nesbirro que controles."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Destruye un esbirro. Cuesta (1) menos por cada esbirro que controles."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Détruit un serviteur. Coûte (1)_cristal de moins pour chaque serviteur que vous contrôlez."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]Distrugge un servitore.\nCosta (1) in meno per ogni\nservitore che controlli."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]ミニオン1体を破壊する。\n味方のミニオン1体につき\n__コストが（1）減る。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]하수인을 처치합니다.\n내 하수인 하나당 비용이\n(1)씩 감소합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zniszcz stronnika. Kosztuje (1) mniej za każdego stronnika, jakiego kontrolujesz."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Destrua um lacaio. \nCusta (1) a menos para cada lacaio sob seu controle."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Уничтожает существо. Стоит на (1) меньше за каждое существо под вашим контролем."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ทำลายมินเนี่ยนหนึ่งตัว ค่าร่ายลดลง_(1)_ต่อมินเนี่ยน[b]แต่ละตัวในสนามฝั่งคุณ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "消灭一个随从。你每控制一个随从，本牌的法力值消耗便减少（1）点。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "摧毀一個手下。你場上每個手下使消耗減少(1)"
+          }
+        },
+        "textContent": "\n\t\tVernichtet einen Diener. Kostet (1) weniger für jeden Diener, den Ihr kontrolliert.\n\t\tDestroy a minion. Costs (1) less for each minion you control.\n\t\t[x]Destruye a un esbirro.\nCuesta (1) cristal menos por cada\nesbirro que controles.\n\t\tDestruye un esbirro. Cuesta (1) menos por cada esbirro que controles.\n\t\tDétruit un serviteur. Coûte (1)_cristal de moins pour chaque serviteur que vous contrôlez.\n\t\t[x]Distrugge un servitore.\nCosta (1) in meno per ogni\nservitore che controlli.\n\t\t[x]ミニオン1体を破壊する。\n味方のミニオン1体につき\n__コストが（1）減る。\n\t\t[x]하수인을 처치합니다.\n내 하수인 하나당 비용이\n(1)씩 감소합니다.\n\t\tZniszcz stronnika. Kosztuje (1) mniej za każdego stronnika, jakiego kontrolujesz.\n\t\tDestrua um lacaio. \nCusta (1) a menos para cada lacaio sob seu controle.\n\t\tУничтожает существо. Стоит на (1) меньше за каждое существо под вашим контролем.\n\t\tทำลายมินเนี่ยนหนึ่งตัว ค่าร่ายลดลง_(1)_ต่อมินเนี่ยน[b]แต่ละตัวในสนามฝั่งคุณ\n\t\t消灭一个随从。你每控制一个随从，本牌的法力值消耗便减少（1）点。\n\t\t摧毀一個手下。你場上每個手下使消耗減少(1)\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Ja, ja, ich weiß, es sieht gar nicht aus wie ein Blitz. Aber wenn Ihr davon getroffen werdet, merkt Ihr keinen Unterschied."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Or as it’s known in troll, “De bolt, mon.”"
+          },
+          "esES": {
+            "present": true,
+            "value": "Ha tenido que cambiar recientemente su plan de datos porque las efigies distorsionan la señal de la arena."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Los trols la llaman “Colega demoníaca”."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Il est vraiment très démoniaque !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Tecnicamente sono due, uno arancione e uno viola."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "トロルにはよく「悪だー、マン！」と呼ばれてる呪文。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "하수인(이었던 것)"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Ale pocisk!"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Quando você quer entrar à direita, ela sinaliza à esquerda."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Бес — птица гордая, не пнешь — не полетит."
+          },
+          "thTH": {
+            "present": true,
+            "value": "มอยร่าไหมล่ะ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "“我不管，反正我人多！”"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "打惡魔箭最好有七人，七個手下的靈魂，七點法力不用了，術士覺得好興奮。"
+          }
+        },
+        "textContent": "\n\t\tJa, ja, ich weiß, es sieht gar nicht aus wie ein Blitz. Aber wenn Ihr davon getroffen werdet, merkt Ihr keinen Unterschied.\n\t\tOr as it’s known in troll, “De bolt, mon.”\n\t\tHa tenido que cambiar recientemente su plan de datos porque las efigies distorsionan la señal de la arena.\n\t\tLos trols la llaman “Colega demoníaca”.\n\t\tIl est vraiment très démoniaque !\n\t\tTecnicamente sono due, uno arancione e uno viola.\n\t\tトロルにはよく「悪だー、マン！」と呼ばれてる呪文。\n\t\t하수인(이었던 것)\n\t\tAle pocisk!\n\t\tQuando você quer entrar à direita, ela sinaliza à esquerda.\n\t\tБес — птица гордая, не пнешь — не полетит.\n\t\tมอยร่าไหมล่ะ\n\t\t“我不管，反正我人多！”\n\t\t打惡魔箭最好有七人，七個手下的靈魂，七點法力不用了，術士覺得好興奮。\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Akkapoj T."
+      }
+    },
+    "undatedRawTagTransitions": [
+      {
+        "build": 77662,
+        "id": "TRL_555",
+        "dbfId": 50991,
+        "name": "악마 화살",
+        "rawDiff": {
+          "1635": [
+            "ABSENT",
+            "6"
+          ]
+        },
+        "tagNames": {
+          "1635": "SPELL_SCHOOL"
+        },
+        "decision": "gameplay_spell_school_added_recorded_correctly",
+        "relatedFindings": [
+          "RAST-BAL-E021"
+        ],
+        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+      }
+    ],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "악마 화살",
+      "enUS": "Demonbolt"
+    },
+    "currentPrintedText": {
+      "koKR": "악마 화살",
+      "enUS": "Demonbolt"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_555",
+    "dbfId": 50991,
+    "name": "악마 화살",
+    "type": "SPELL",
+    "cardClass": "WARLOCK",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 8,
+    "text": "하수인을 처치합니다.<br></br>내 하수인 하나당 비용이<br></br>(1)씩 감소합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "하수인(이었던 것)",
+    "spellSchool": "SHADOW",
+    "portrait": "HS15-100_S.psd:6fddd224fe008f9419846b3d7acdeacf",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_555.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_555",
+    "dbfId": 50991,
+    "name": "악마 화살",
+    "type": "SPELL",
+    "cardClass": "WARLOCK",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 8,
+    "text": "하수인을 처치합니다.<br></br>내 하수인 하나당 비용이<br></br>(1)씩 감소합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "하수인(이었던 것)",
+    "spellSchool": "",
+    "portrait": "HS15-100_S.psd:6fddd224fe008f9419846b3d7acdeacf",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_555.png"
+  },
+  "2021-03-26": {
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "spellSchool": "SHADOW"
+  }
+}

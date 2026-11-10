@@ -1,1 +1,901 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_522","dbfId":50405,"name":"종양 전염꾼","type":"MINION","cardClass":"SHAMAN","rarity":"COMMON","collectible":true,"cost":1,"text":"<b>전투의 함성:</b><br></br>내가 이번 턴에 주문을 2번 냈다면,<br></br>피해를 2 줍니다.","attack":2,"health":1,"durability":0,"armor":0,"flavor":"\"야! 2뎀도 많이 준 거야!\"","spellSchool":"","portrait":"HS15-042_M.psd:183cfcb900079bb47b4a7bff1a810d36","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":1},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":8},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/TRL_522.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-042_M.psd:183cfcb900079bb47b4a7bff1a810d36","goldenMaterial":"TRL_522_PremiumCard.mat:4c493cf293209d74392e90e68e739ad7","goldenAnimation":"TRL_522_PremiumCard.asset:d2770ce7598fdbd4e85ef3b8d3e9ae2e"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-042_M.psd:183cfcb900079bb47b4a7bff1a810d36",
+        "goldenMaterial": "TRL_522_PremiumCard.mat:4c493cf293209d74392e90e68e739ad7",
+        "goldenAnimation": "TRL_522_PremiumCard.asset:d2770ce7598fdbd4e85ef3b8d3e9ae2e"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-042_M.psd:183cfcb900079bb47b4a7bff1a810d36",
+      "goldenMaterial": "TRL_522_PremiumCard.mat:4c493cf293209d74392e90e68e739ad7",
+      "goldenAnimation": "TRL_522_PremiumCard.asset:d2770ce7598fdbd4e85ef3b8d3e9ae2e"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "325": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "8",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "325": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "8",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Warzenhexe"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Wartbringer"
+          },
+          "esES": {
+            "present": true,
+            "value": "Verrugaria"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Verrugaria"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Malacné"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Portatrice di Verruche"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "イボの魔女"
+          },
+          "koKR": {
+            "present": true,
+            "value": "종양 전염꾼"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Kurzajkowa wiedźma"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Cria-Verrugas"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Бородавочница"
+          },
+          "thTH": {
+            "present": true,
+            "value": "วอร์ตบริงเกอร์"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "疾疫使者"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "毒疣女巫"
+          }
+        },
+        "textContent": "\n\t\t\tWarzenhexe\n\t\t\tWartbringer\n\t\t\tVerrugaria\n\t\t\tVerrugaria\n\t\t\tMalacné\n\t\t\tPortatrice di Verruche\n\t\t\tイボの魔女\n\t\t\t종양 전염꾼\n\t\t\tKurzajkowa wiedźma\n\t\t\tCria-Verrugas\n\t\t\tБородавочница\n\t\t\tวอร์ตบริงเกอร์\n\t\t\t疾疫使者\n\t\t\t毒疣女巫\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "[x]<b>Kampfschrei:</b> Verursacht\n2 Schaden, wenn Ihr\nin diesem Zug 2 Zauber\ngewirkt habt."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Battlecry:</b> If you played 2_spells this turn, deal 2_damage."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> Si has jugado 2 hechizos\nen este turno, inflige 2 p. de daño."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> si jugaste 2 hechizos este turno, inflige 2 de daño."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> si vous avez joué 2_sorts pendant ce tour, inflige_2_points de dégâts."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b> infligge\n2 danni se hai giocato 2\nMagie in questo turno."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>雄叫び:</b>\nこのターンに自分が\n呪文を2回使用した場合\n_____2ダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>전투의 함성:</b>\n내가 이번 턴에 주문을 2번 냈다면,\n피해를 2 줍니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b> Zadaj 2 pkt. obrażeń, jeśli w tej turze udało ci się rzucić 2_zaklęcia."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra</b>: Se você jogou 2 feitiços neste turno, cause 2 de dano."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> если вы разыграли 2 заклинания [x]на этом ходу,\nнаносит 2 ед. урона."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b> ถ้าเทิร์นนี้[b]คุณเล่นเวทมนตร์[b]ไปแล้ว 2 ใบ สร้างความเสียหาย_2_แต้ม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>如果你在本回合施放了两个法术，则造成2点伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "[x]<b>戰吼：</b>若你本回合\n打出2個法術，造成\n2點傷害"
+          }
+        },
+        "textContent": "\n\t\t\t[x]<b>Kampfschrei:</b> Verursacht\n2 Schaden, wenn Ihr\nin diesem Zug 2 Zauber\ngewirkt habt.\n\t\t\t<b>Battlecry:</b> If you played 2_spells this turn, deal 2_damage.\n\t\t\t<b>Grito de batalla:</b> Si has jugado 2 hechizos\nen este turno, inflige 2 p. de daño.\n\t\t\t<b>Grito de batalla:</b> si jugaste 2 hechizos este turno, inflige 2 de daño.\n\t\t\t<b>Cri de guerre :</b> si vous avez joué 2_sorts pendant ce tour, inflige_2_points de dégâts.\n\t\t\t[x]<b>Grido di Battaglia:</b> infligge\n2 danni se hai giocato 2\nMagie in questo turno.\n\t\t\t[x]<b>雄叫び:</b>\nこのターンに自分が\n呪文を2回使用した場合\n_____2ダメージを与える。\n\t\t\t<b>전투의 함성:</b>\n내가 이번 턴에 주문을 2번 냈다면,\n피해를 2 줍니다.\n\t\t\t<b>Okrzyk bojowy:</b> Zadaj 2 pkt. obrażeń, jeśli w tej turze udało ci się rzucić 2_zaklęcia.\n\t\t\t<b>Grito de Guerra</b>: Se você jogou 2 feitiços neste turno, cause 2 de dano.\n\t\t\t<b>Боевой клич:</b> если вы разыграли 2 заклинания [x]на этом ходу,\nнаносит 2 ед. урона.\n\t\t\t<b>คำรามสู้ศึก:</b> ถ้าเทิร์นนี้[b]คุณเล่นเวทมนตร์[b]ไปแล้ว 2 ใบ สร้างความเสียหาย_2_แต้ม\n\t\t\t<b>战吼：</b>如果你在本回合施放了两个法术，则造成2点伤害。\n\t\t\t[x]<b>戰吼：</b>若你本回合\n打出2個法術，造成\n2點傷害\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Hext sie Warzen? Verhext sie Warzen? Oder ist sie gar eine Hexe mit Warzen?"
+          },
+          "enUS": {
+            "present": true,
+            "value": "“Does she cause them with magic, or just…like have a bucket she brings with her?”"
+          },
+          "esES": {
+            "present": true,
+            "value": "¿La llamaron así por sus verrugas, o está llena de verrugas porque la llamaron así?"
+          },
+          "esMX": {
+            "present": true,
+            "value": "¿De dónde saca tantas verrugas? ¿Es por una magia...? ¿O acaso tiene un balde lleno?"
+          },
+          "frFR": {
+            "present": true,
+            "value": "La pauvre, elle se maquille vraiment à la truelle !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "\"Ma le crea con una magia o se le porta da casa?\""
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「つまり…魔法でイボを作るの？それとも…イボに魔力があるの？」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "\"야! 2뎀도 많이 준 거야!\""
+          },
+          "plPL": {
+            "present": true,
+            "value": "Tak po prostu rozdaje te kurzajki za pomocą magii czy... nosi je ze sobą w wiadrze?."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "\"Ela cria fazendo magia ou ela obriga você a apontar pra uma estrela?\""
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Большая поклонница диких свиней и сурикатов."
+          },
+          "thTH": {
+            "present": true,
+            "value": "\"เธอใช้เวทมนตร์สร้างหูดเหรอ หรือเอาหูดใส่ตะกร้าห้อยแขนมาล่ะ\""
+          },
+          "zhCN": {
+            "present": true,
+            "value": "“那么，她是怎么带来疾病的呢？用魔法？还是用什么载体装起来的？”"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "巫醫們都對那些疣束手無策，直到有個天才用閃電箭來「電燒」為止。"
+          }
+        },
+        "textContent": "\n\t\t\tHext sie Warzen? Verhext sie Warzen? Oder ist sie gar eine Hexe mit Warzen?\n\t\t\t“Does she cause them with magic, or just…like have a bucket she brings with her?”\n\t\t\t¿La llamaron así por sus verrugas, o está llena de verrugas porque la llamaron así?\n\t\t\t¿De dónde saca tantas verrugas? ¿Es por una magia...? ¿O acaso tiene un balde lleno?\n\t\t\tLa pauvre, elle se maquille vraiment à la truelle !\n\t\t\t\"Ma le crea con una magia o se le porta da casa?\"\n\t\t\t「つまり…魔法でイボを作るの？それとも…イボに魔力があるの？」\n\t\t\t\"야! 2뎀도 많이 준 거야!\"\n\t\t\tTak po prostu rozdaje te kurzajki za pomocą magii czy... nosi je ze sobą w wiadrze?.\n\t\t\t\"Ela cria fazendo magia ou ela obriga você a apontar pra uma estrela?\"\n\t\t\tБольшая поклонница диких свиней и сурикатов.\n\t\t\t\"เธอใช้เวทมนตร์สร้างหูดเหรอ หรือเอาหูดใส่ตะกร้าห้อยแขนมาล่ะ\"\n\t\t\t“那么，她是怎么带来疾病的呢？用魔法？还是用什么载体装起来的？”\n\t\t\t巫醫們都對那些疣束手無策，直到有個天才用閃電箭來「電燒」為止。\n\t\t"
+      },
+      "325": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Verursacht 2 Schaden."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Deal 2 damage."
+          },
+          "esES": {
+            "present": true,
+            "value": "Inflige 2 p. de daño."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Inflige 2 de daño."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Inflige 2_points de dégâts."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Infligge 2 danni."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "2ダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "피해 2"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zadaj 2 pkt. obrażeń."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Cause 2 de dano."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Нанести 2 ед. урона."
+          },
+          "thTH": {
+            "present": true,
+            "value": "สร้างความเสียหาย_2_แต้ม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "造成2点伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "造成2點傷害"
+          }
+        },
+        "textContent": "\n\t\t\tVerursacht 2 Schaden.\n\t\t\tDeal 2 damage.\n\t\t\tInflige 2 p. de daño.\n\t\t\tInflige 2 de daño.\n\t\t\tInflige 2_points de dégâts.\n\t\t\tInfligge 2 danni.\n\t\t\t2ダメージを与える。\n\t\t\t피해 2\n\t\t\tZadaj 2 pkt. obrażeń.\n\t\t\tCause 2 de dano.\n\t\t\tНанести 2 ед. урона.\n\t\t\tสร้างความเสียหาย_2_แต้ม\n\t\t\t造成2点伤害。\n\t\t\t造成2點傷害\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "J. Axer"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Warzenhexe"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Wartbringer"
+          },
+          "esES": {
+            "present": true,
+            "value": "Verrugaria"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Verrugaria"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Malacné"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Portatrice di Verruche"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "イボの魔女"
+          },
+          "koKR": {
+            "present": true,
+            "value": "종양 전염꾼"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Kurzajkowa wiedźma"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Cria-Verrugas"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Бородавочница"
+          },
+          "thTH": {
+            "present": true,
+            "value": "วอร์ตบริงเกอร์"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "疾疫使者"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "毒疣女巫"
+          }
+        },
+        "textContent": "\n\t\tWarzenhexe\n\t\tWartbringer\n\t\tVerrugaria\n\t\tVerrugaria\n\t\tMalacné\n\t\tPortatrice di Verruche\n\t\tイボの魔女\n\t\t종양 전염꾼\n\t\tKurzajkowa wiedźma\n\t\tCria-Verrugas\n\t\tБородавочница\n\t\tวอร์ตบริงเกอร์\n\t\t疾疫使者\n\t\t毒疣女巫\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "[x]<b>Kampfschrei:</b> Verursacht\n2 Schaden, wenn Ihr\nin diesem Zug 2 Zauber\ngewirkt habt."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Battlecry:</b> If you played 2_spells this turn, deal 2_damage."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> Si has jugado 2 hechizos\nen este turno, inflige 2 p. de daño."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> si jugaste 2 hechizos este turno, inflige 2 de daño."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> si vous avez joué 2_sorts pendant ce tour, inflige_2_points de dégâts."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b> infligge\n2 danni se hai giocato 2\nMagie in questo turno."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>雄叫び:</b>\nこのターンに自分が\n呪文を2回使用していた場合\n_____2ダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>전투의 함성:</b>\n내가 이번 턴에 주문을 2번 냈다면,\n피해를 2 줍니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b> Zadaj 2 pkt. obrażeń, jeśli w tej turze udało ci się rzucić 2_zaklęcia."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra</b>: Se você jogou 2 feitiços neste turno, cause 2 de dano."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> если вы разыграли 2 заклинания [x]на этом ходу,\nнаносит 2 ед. урона."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b> ถ้าเทิร์นนี้คุณ[b]เล่นเวทมนตร์[b]ไปแล้ว 2 ใบ _สร้างความเสียหาย_2_แต้ม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>如果你在本回合施放了两个法术，则造成2点伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "[x]<b>戰吼：</b>若你本回合\n打出2個法術，造成\n2點傷害"
+          }
+        },
+        "textContent": "\n\t\t[x]<b>Kampfschrei:</b> Verursacht\n2 Schaden, wenn Ihr\nin diesem Zug 2 Zauber\ngewirkt habt.\n\t\t<b>Battlecry:</b> If you played 2_spells this turn, deal 2_damage.\n\t\t<b>Grito de batalla:</b> Si has jugado 2 hechizos\nen este turno, inflige 2 p. de daño.\n\t\t<b>Grito de batalla:</b> si jugaste 2 hechizos este turno, inflige 2 de daño.\n\t\t<b>Cri de guerre :</b> si vous avez joué 2_sorts pendant ce tour, inflige_2_points de dégâts.\n\t\t[x]<b>Grido di Battaglia:</b> infligge\n2 danni se hai giocato 2\nMagie in questo turno.\n\t\t[x]<b>雄叫び:</b>\nこのターンに自分が\n呪文を2回使用していた場合\n_____2ダメージを与える。\n\t\t<b>전투의 함성:</b>\n내가 이번 턴에 주문을 2번 냈다면,\n피해를 2 줍니다.\n\t\t<b>Okrzyk bojowy:</b> Zadaj 2 pkt. obrażeń, jeśli w tej turze udało ci się rzucić 2_zaklęcia.\n\t\t<b>Grito de Guerra</b>: Se você jogou 2 feitiços neste turno, cause 2 de dano.\n\t\t<b>Боевой клич:</b> если вы разыграли 2 заклинания [x]на этом ходу,\nнаносит 2 ед. урона.\n\t\t<b>คำรามสู้ศึก:</b> ถ้าเทิร์นนี้คุณ[b]เล่นเวทมนตร์[b]ไปแล้ว 2 ใบ _สร้างความเสียหาย_2_แต้ม\n\t\t<b>战吼：</b>如果你在本回合施放了两个法术，则造成2点伤害。\n\t\t[x]<b>戰吼：</b>若你本回合\n打出2個法術，造成\n2點傷害\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Hext sie Warzen? Verhext sie Warzen? Oder ist sie gar eine Hexe mit Warzen?"
+          },
+          "enUS": {
+            "present": true,
+            "value": "“Does she cause them with magic, or just…like have a bucket she brings with her?”"
+          },
+          "esES": {
+            "present": true,
+            "value": "¿La llamaron así por sus verrugas, o está llena de verrugas porque la llamaron así?"
+          },
+          "esMX": {
+            "present": true,
+            "value": "¿De dónde saca tantas verrugas? ¿Es por una magia...? ¿O acaso tiene un balde lleno?"
+          },
+          "frFR": {
+            "present": true,
+            "value": "La pauvre, elle se maquille vraiment à la truelle !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "\"Ma le crea con una magia o se le porta da casa?\""
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「つまり…魔法でイボを作るの？それとも…イボに魔力があるの？」"
+          },
+          "koKR": {
+            "present": true,
+            "value": "\"야! 2뎀도 많이 준 거야!\""
+          },
+          "plPL": {
+            "present": true,
+            "value": "Tak po prostu rozdaje te kurzajki za pomocą magii czy... nosi je ze sobą w wiadrze?."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "\"Ela cria fazendo magia ou ela obriga você a apontar pra uma estrela?\""
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Большая поклонница диких свиней и сурикатов."
+          },
+          "thTH": {
+            "present": true,
+            "value": "เธอใช้เวทมนตร์สร้างหูดเหรอ หรือเอาหูดใส่ตะกร้าห้อยแขนมาล่ะ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "“那么，她是怎么带来疾病的呢？用魔法？还是用什么载体装起来的？”"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "巫醫們都對那些疣束手無策，直到有個天才用閃電箭來「電燒」為止。"
+          }
+        },
+        "textContent": "\n\t\tHext sie Warzen? Verhext sie Warzen? Oder ist sie gar eine Hexe mit Warzen?\n\t\t“Does she cause them with magic, or just…like have a bucket she brings with her?”\n\t\t¿La llamaron así por sus verrugas, o está llena de verrugas porque la llamaron así?\n\t\t¿De dónde saca tantas verrugas? ¿Es por una magia...? ¿O acaso tiene un balde lleno?\n\t\tLa pauvre, elle se maquille vraiment à la truelle !\n\t\t\"Ma le crea con una magia o se le porta da casa?\"\n\t\t「つまり…魔法でイボを作るの？それとも…イボに魔力があるの？」\n\t\t\"야! 2뎀도 많이 준 거야!\"\n\t\tTak po prostu rozdaje te kurzajki za pomocą magii czy... nosi je ze sobą w wiadrze?.\n\t\t\"Ela cria fazendo magia ou ela obriga você a apontar pra uma estrela?\"\n\t\tБольшая поклонница диких свиней и сурикатов.\n\t\tเธอใช้เวทมนตร์สร้างหูดเหรอ หรือเอาหูดใส่ตะกร้าห้อยแขนมาล่ะ\n\t\t“那么，她是怎么带来疾病的呢？用魔法？还是用什么载体装起来的？”\n\t\t巫醫們都對那些疣束手無策，直到有個天才用閃電箭來「電燒」為止。\n\t"
+      },
+      "325": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Verursacht 2 Schaden."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Deal 2 damage."
+          },
+          "esES": {
+            "present": true,
+            "value": "Inflige 2 p. de daño."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Inflige 2 de daño."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Inflige 2_points de dégâts."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Infligge 2 danni."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "2ダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "피해 2"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zadaj 2 pkt. obrażeń."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Cause 2 de dano."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Нанести 2 ед. урона."
+          },
+          "thTH": {
+            "present": true,
+            "value": "สร้างความเสียหาย_2_แต้ม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "造成2点伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "造成2點傷害"
+          }
+        },
+        "textContent": "\n\t\tVerursacht 2 Schaden.\n\t\tDeal 2 damage.\n\t\tInflige 2 p. de daño.\n\t\tInflige 2 de daño.\n\t\tInflige 2_points de dégâts.\n\t\tInfligge 2 danni.\n\t\t2ダメージを与える。\n\t\t피해 2\n\t\tZadaj 2 pkt. obrażeń.\n\t\tCause 2 de dano.\n\t\tНанести 2 ед. урона.\n\t\tสร้างความเสียหาย_2_แต้ม\n\t\t造成2点伤害。\n\t\t造成2點傷害\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "J. Axer"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "종양 전염꾼",
+      "enUS": "Wartbringer"
+    },
+    "currentPrintedText": {
+      "koKR": "종양 전염꾼",
+      "enUS": "Wartbringer"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_522",
+    "dbfId": 50405,
+    "name": "종양 전염꾼",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "<b>전투의 함성:</b><br></br>내가 이번 턴에 주문을 2번 냈다면,<br></br>피해를 2 줍니다.",
+    "attack": 2,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"야! 2뎀도 많이 준 거야!\"",
+    "spellSchool": "",
+    "portrait": "HS15-042_M.psd:183cfcb900079bb47b4a7bff1a810d36",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_522.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_522",
+    "dbfId": 50405,
+    "name": "종양 전염꾼",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "<b>전투의 함성:</b><br></br>내가 이번 턴에 주문을 2번 냈다면,<br></br>피해를 2 줍니다.",
+    "attack": 2,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"야! 2뎀도 많이 준 거야!\"",
+    "spellSchool": "",
+    "portrait": "HS15-042_M.psd:183cfcb900079bb47b4a7bff1a810d36",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_522.png"
+  }
+}

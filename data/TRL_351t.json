@@ -1,1 +1,607 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_351t","dbfId":50906,"name":"두꺼비","type":"MINION","cardClass":"SHAMAN","collectible":false,"cost":3,"text":"<b>도발</b>","attack":2,"health":4,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS15-146_M.psd:2d4eb4a4a3e7493439d4439a1403ea14","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":3},{"id":114,"name":"전설 속성","value":0},{"id":190,"name":"도발","value":1},{"id":199,"name":"직업","value":8},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":321,"name":"수집 가능","value":0}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/TRL_351t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-146_M.psd:2d4eb4a4a3e7493439d4439a1403ea14","goldenMaterial":"TRL_351t_PremiumCard.mat:852c8de3f4a1b85458fd55df7d2b6600","goldenAnimation":"TRL_351t_PremiumCard.asset:cbb80fe72c00cc743aecf30c0bdf6000"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "estimated",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-146_M.psd:2d4eb4a4a3e7493439d4439a1403ea14",
+        "goldenMaterial": "TRL_351t_PremiumCard.mat:852c8de3f4a1b85458fd55df7d2b6600",
+        "goldenAnimation": "TRL_351t_PremiumCard.asset:cbb80fe72c00cc743aecf30c0bdf6000"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-146_M.psd:2d4eb4a4a3e7493439d4439a1403ea14",
+      "goldenMaterial": "TRL_351t_PremiumCard.mat:852c8de3f4a1b85458fd55df7d2b6600",
+      "goldenAnimation": "TRL_351t_PremiumCard.asset:cbb80fe72c00cc743aecf30c0bdf6000"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "190": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "8",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "20",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "190": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "8",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "20",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Kröte"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Toad"
+          },
+          "esES": {
+            "present": true,
+            "value": "Sapo"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Sapo"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Crapaud"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Rospo"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ヒキガエル"
+          },
+          "koKR": {
+            "present": true,
+            "value": "두꺼비"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Ropucha"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Sapo"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Жаба"
+          },
+          "thTH": {
+            "present": true,
+            "value": "คางคก"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "蟾蜍"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "蟾蜍"
+          }
+        },
+        "textContent": "\n\t\t\tKröte\n\t\t\tToad\n\t\t\tSapo\n\t\t\tSapo\n\t\t\tCrapaud\n\t\t\tRospo\n\t\t\tヒキガエル\n\t\t\t두꺼비\n\t\t\tRopucha\n\t\t\tSapo\n\t\t\tЖаба\n\t\t\tคางคก\n\t\t\t蟾蜍\n\t\t\t蟾蜍\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Spott</b>"
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Taunt</b>"
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Provocar</b>"
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Provocación</b>"
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Provocation</b>"
+          },
+          "itIT": {
+            "present": true,
+            "value": "<b>Provocazione</b>"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "<b>挑発</b>"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>도발</b>"
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Prowokacja</b>"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Provocar</b>"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Провокация</b>"
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>ยั่วยุ</b>"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>嘲讽</b>"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>嘲諷</b>"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Spott</b>\n\t\t\t<b>Taunt</b>\n\t\t\t<b>Provocar</b>\n\t\t\t<b>Provocación</b>\n\t\t\t<b>Provocation</b>\n\t\t\t<b>Provocazione</b>\n\t\t\t<b>挑発</b>\n\t\t\t<b>도발</b>\n\t\t\t<b>Prowokacja</b>\n\t\t\t<b>Provocar</b>\n\t\t\t<b>Провокация</b>\n\t\t\t<b>ยั่วยุ</b>\n\t\t\t<b>嘲讽</b>\n\t\t\t<b>嘲諷</b>\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Cicily He"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Kröte"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Toad"
+          },
+          "esES": {
+            "present": true,
+            "value": "Sapo"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Sapo"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Crapaud"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Rospo"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ヒキガエル"
+          },
+          "koKR": {
+            "present": true,
+            "value": "두꺼비"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Ropucha"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Sapo"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Жаба"
+          },
+          "thTH": {
+            "present": true,
+            "value": "คางคก"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "蟾蜍"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "蟾蜍"
+          }
+        },
+        "textContent": "\n\t\tKröte\n\t\tToad\n\t\tSapo\n\t\tSapo\n\t\tCrapaud\n\t\tRospo\n\t\tヒキガエル\n\t\t두꺼비\n\t\tRopucha\n\t\tSapo\n\t\tЖаба\n\t\tคางคก\n\t\t蟾蜍\n\t\t蟾蜍\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Spott</b>"
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Taunt</b>"
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Provocar</b>"
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Provocación</b>"
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Provocation</b>"
+          },
+          "itIT": {
+            "present": true,
+            "value": "<b>Provocazione</b>"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "<b>挑発</b>"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>도발</b>"
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Prowokacja</b>"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Provocar</b>"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Провокация</b>"
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>ยั่วยุ</b>"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>嘲讽</b>"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>嘲諷</b>"
+          }
+        },
+        "textContent": "\n\t\t<b>Spott</b>\n\t\t<b>Taunt</b>\n\t\t<b>Provocar</b>\n\t\t<b>Provocación</b>\n\t\t<b>Provocation</b>\n\t\t<b>Provocazione</b>\n\t\t<b>挑発</b>\n\t\t<b>도발</b>\n\t\t<b>Prowokacja</b>\n\t\t<b>Provocar</b>\n\t\t<b>Провокация</b>\n\t\t<b>ยั่วยุ</b>\n\t\t<b>嘲讽</b>\n\t\t<b>嘲諷</b>\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Cicily He"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "두꺼비",
+      "enUS": "Toad"
+    },
+    "currentPrintedText": {
+      "koKR": "두꺼비",
+      "enUS": "Toad"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_351t",
+    "dbfId": 50906,
+    "name": "두꺼비",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "collectible": false,
+    "cost": 3,
+    "text": "<b>도발</b>",
+    "attack": 2,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS15-146_M.psd:2d4eb4a4a3e7493439d4439a1403ea14",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/TRL_351t.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_351t",
+    "dbfId": 50906,
+    "name": "두꺼비",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "collectible": false,
+    "cost": 3,
+    "text": "<b>도발</b>",
+    "attack": 2,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS15-146_M.psd:2d4eb4a4a3e7493439d4439a1403ea14",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 0
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/TRL_351t.png"
+  }
+}

@@ -1,1 +1,927 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_569","dbfId":51816,"name":"난동을 피우는 용","type":"MINION","cardClass":"NEUTRAL","rarity":"EPIC","collectible":true,"cost":7,"text":"<b>전투의 함성:</b><br></br>내 손에 용족이 있으면,<br></br>적 하수인에게<br></br>피해를 7 줍니다.","attack":7,"health":4,"durability":0,"armor":0,"flavor":"분위기를 뜨겁게 만드는 데에 제격이죠.","spellSchool":"","portrait":"HS15-173_M.psd:a847f099856099d40956e695561be8ae","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":7},{"id":48,"name":"마나 비용","value":7},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":24},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":4},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["DRAGON"],"race":"용족","classes":[],"art":"art/TRL_569.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-173_M.psd:a847f099856099d40956e695561be8ae","goldenMaterial":"TRL_569_PremiumCard.mat:b3e82f3f4c4465e4d972b341ef5b39dd","goldenAnimation":"TRL_569_PremiumCard.asset:de667e43e4ddeb44a9920b3003e6502d"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-173_M.psd:a847f099856099d40956e695561be8ae",
+        "goldenMaterial": "TRL_569_PremiumCard.mat:b3e82f3f4c4465e4d972b341ef5b39dd",
+        "goldenAnimation": "TRL_569_PremiumCard.asset:de667e43e4ddeb44a9920b3003e6502d"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-173_M.psd:a847f099856099d40956e695561be8ae",
+      "goldenMaterial": "TRL_569_PremiumCard.mat:b3e82f3f4c4465e4d972b341ef5b39dd",
+      "goldenAnimation": "TRL_569_PremiumCard.asset:de667e43e4ddeb44a9920b3003e6502d"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "325": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "7",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "7",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "24",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "325": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "7",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "7",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "24",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Anheizer"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Crowd Roaster"
+          },
+          "esES": {
+            "present": true,
+            "value": "Caldeador de ambiente"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Rostizagente"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Rôtisseur de foule"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Bruciatore della Folla"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ドッカンドラゴン"
+          },
+          "koKR": {
+            "present": true,
+            "value": "난동을 피우는 용"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zagrzewacz tłumu"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Incendiador de Torcida"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Подогреватель толпы"
+          },
+          "thTH": {
+            "present": true,
+            "value": "มังกรปลุกใจ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "看台喷火龙"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "熱場龍"
+          }
+        },
+        "textContent": "\n\t\t\tAnheizer\n\t\t\tCrowd Roaster\n\t\t\tCaldeador de ambiente\n\t\t\tRostizagente\n\t\t\tRôtisseur de foule\n\t\t\tBruciatore della Folla\n\t\t\tドッカンドラゴン\n\t\t\t난동을 피우는 용\n\t\t\tZagrzewacz tłumu\n\t\t\tIncendiador de Torcida\n\t\t\tПодогреватель толпы\n\t\t\tมังกรปลุกใจ\n\t\t\t看台喷火龙\n\t\t\t熱場龍\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "[x]<b>Kampfschrei:</b> Fügt einem\nfeindlichen Diener 7 Schaden\nzu, wenn Ihr einen Drachen\nauf der Hand habt."
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]<b>Battlecry:</b> If you're holding\na Dragon, deal 7 damage\nto an enemy minion."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b>\nSi hay un dragón en tu mano, inflige 7_p. de daño a un esbirro enemigo."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> si tienes un Dragón en la mano, inflige 7 de daño a un esbirro enemigo."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> inflige 7_points de dégâts à un serviteur adverse si vous avez un Dragon en main."
+          },
+          "itIT": {
+            "present": true,
+            "value": "<b>Grido di Battaglia:</b>\ninfligge 7 danni a un servitore nemico se hai un Drago in mano."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "<b>雄叫び:</b>\n自分の手札に\nドラゴンがいる場合\n敵のミニオン1体に\n__7ダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]<b>전투의 함성:</b>\n내 손에 용족이 있으면,\n적 하수인에게\n피해를 7 줍니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b> Zadaj 7 pkt. obrażeń wrogiemu stronnikowi, jeśli masz w ręce Smoka."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra</b>: \nSe você tiver um Dragão na mão, cause 7 de dano a um lacaio inimigo."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> наносит 7 ед. урона существу противника, если у вас в руке есть дракон."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b>\nถ้าคุณมีมังกรในมือ สร้างความเสียหาย 7 แต้ม[b]ให้มินเนี่ยนศัตรูหนึ่งตัว"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>\n如果你的手牌中有龙牌，则对一个敌方随从造成7点伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>戰吼：</b>若你手中有龍類，對一個敵方手下造成7點傷害"
+          }
+        },
+        "textContent": "\n\t\t\t[x]<b>Kampfschrei:</b> Fügt einem\nfeindlichen Diener 7 Schaden\nzu, wenn Ihr einen Drachen\nauf der Hand habt.\n\t\t\t[x]<b>Battlecry:</b> If you're holding\na Dragon, deal 7 damage\nto an enemy minion.\n\t\t\t<b>Grito de batalla:</b>\nSi hay un dragón en tu mano, inflige 7_p. de daño a un esbirro enemigo.\n\t\t\t<b>Grito de batalla:</b> si tienes un Dragón en la mano, inflige 7 de daño a un esbirro enemigo.\n\t\t\t<b>Cri de guerre :</b> inflige 7_points de dégâts à un serviteur adverse si vous avez un Dragon en main.\n\t\t\t<b>Grido di Battaglia:</b>\ninfligge 7 danni a un servitore nemico se hai un Drago in mano.\n\t\t\t<b>雄叫び:</b>\n自分の手札に\nドラゴンがいる場合\n敵のミニオン1体に\n__7ダメージを与える。\n\t\t\t[x]<b>전투의 함성:</b>\n내 손에 용족이 있으면,\n적 하수인에게\n피해를 7 줍니다.\n\t\t\t<b>Okrzyk bojowy:</b> Zadaj 7 pkt. obrażeń wrogiemu stronnikowi, jeśli masz w ręce Smoka.\n\t\t\t<b>Grito de Guerra</b>: \nSe você tiver um Dragão na mão, cause 7 de dano a um lacaio inimigo.\n\t\t\t<b>Боевой клич:</b> наносит 7 ед. урона существу противника, если у вас в руке есть дракон.\n\t\t\t<b>คำรามสู้ศึก:</b>\nถ้าคุณมีมังกรในมือ สร้างความเสียหาย 7 แต้ม[b]ให้มินเนี่ยนศัตรูหนึ่งตัว\n\t\t\t<b>战吼：</b>\n如果你的手牌中有龙牌，则对一个敌方随从造成7点伤害。\n\t\t\t<b>戰吼：</b>若你手中有龍類，對一個敵方手下造成7點傷害\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Vor jeder großen Show muss erstmal jemand die Menge anheizen."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Every major show has an opening act to warm up the crowd."
+          },
+          "esES": {
+            "present": true,
+            "value": "Te caldea pero bien."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Se ha tomado lo de \"entrar en calor\" muy en serio. Quizás demasiado."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Chez les Trolls, y a pas que dans l’arène que ça chauffe !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "In ogni grande spettacolo c'è qualcuno che si occupa di scaldare il pubblico."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "お笑い芸人を目指していたそのドラゴンは、今日も会場をドッカンドッカン言わせている。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "분위기를 뜨겁게 만드는 데에 제격이죠."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Skutecznie podnosi temperaturę na widowni."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Todo espetáculo que se preze tem uma atração antes da principal pra esquentar o público."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Когда он перестарается, в дело вступит охладитель толпы."
+          },
+          "thTH": {
+            "present": true,
+            "value": "โชว์ใหญ่ๆ ต้องมีการแสดงเปิดงานเพื่อเพิ่มความร้อนแรง"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "重要赛事前总要有人暖场。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "每個大活動都要請他來開場。"
+          }
+        },
+        "textContent": "\n\t\t\tVor jeder großen Show muss erstmal jemand die Menge anheizen.\n\t\t\tEvery major show has an opening act to warm up the crowd.\n\t\t\tTe caldea pero bien.\n\t\t\tSe ha tomado lo de \"entrar en calor\" muy en serio. Quizás demasiado.\n\t\t\tChez les Trolls, y a pas que dans l’arène que ça chauffe !\n\t\t\tIn ogni grande spettacolo c'è qualcuno che si occupa di scaldare il pubblico.\n\t\t\tお笑い芸人を目指していたそのドラゴンは、今日も会場をドッカンドッカン言わせている。\n\t\t\t분위기를 뜨겁게 만드는 데에 제격이죠.\n\t\t\tSkutecznie podnosi temperaturę na widowni.\n\t\t\tTodo espetáculo que se preze tem uma atração antes da principal pra esquentar o público.\n\t\t\tКогда он перестарается, в дело вступит охладитель толпы.\n\t\t\tโชว์ใหญ่ๆ ต้องมีการแสดงเปิดงานเพื่อเพิ่มความร้อนแรง\n\t\t\t重要赛事前总要有人暖场。\n\t\t\t每個大活動都要請他來開場。\n\t\t"
+      },
+      "325": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Fügt einem feindlichen Diener 7 Schaden zu."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Deal 7 damage to an enemy minion."
+          },
+          "esES": {
+            "present": true,
+            "value": "Inflige 7 p. de daño\na un esbirro enemigo."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Inflige 7 de daño a un esbirro enemigo."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Inflige 7_points de dégâts à un serviteur adverse."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Infligge 7 danni a un servitore nemico."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]敵のミニオン1体に\n__7ダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "적 하수인에게 피해 7"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zadaj 7 pkt. obrażeń wrogiemu stronnikowi."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Cause 7 de dano a um lacaio inimigo."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Нанести 7 ед. урона существу противника."
+          },
+          "thTH": {
+            "present": true,
+            "value": "สร้างความเสียหาย_7_แต้ม[b]ให้มินเนี่ยน[b]ศัตรู[b]หนึ่งตัว"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "对一个敌方随从\n造成7点伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "對一個敵方手下造成7點傷害"
+          }
+        },
+        "textContent": "\n\t\t\tFügt einem feindlichen Diener 7 Schaden zu.\n\t\t\tDeal 7 damage to an enemy minion.\n\t\t\tInflige 7 p. de daño\na un esbirro enemigo.\n\t\t\tInflige 7 de daño a un esbirro enemigo.\n\t\t\tInflige 7_points de dégâts à un serviteur adverse.\n\t\t\tInfligge 7 danni a un servitore nemico.\n\t\t\t[x]敵のミニオン1体に\n__7ダメージを与える。\n\t\t\t적 하수인에게 피해 7\n\t\t\tZadaj 7 pkt. obrażeń wrogiemu stronnikowi.\n\t\t\tCause 7 de dano a um lacaio inimigo.\n\t\t\tНанести 7 ед. урона существу противника.\n\t\t\tสร้างความเสียหาย_7_แต้ม[b]ให้มินเนี่ยน[b]ศัตรู[b]หนึ่งตัว\n\t\t\t对一个敌方随从\n造成7点伤害。\n\t\t\t對一個敵方手下造成7點傷害\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Mike Sass"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Anheizer"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Crowd Roaster"
+          },
+          "esES": {
+            "present": true,
+            "value": "Caldeador de ambiente"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Rostizagente"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Rôtisseur de foule"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Bruciatore della Folla"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ドッカンドラゴン"
+          },
+          "koKR": {
+            "present": true,
+            "value": "난동을 피우는 용"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zagrzewacz tłumu"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Incendiador de Torcida"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Подогреватель толпы"
+          },
+          "thTH": {
+            "present": true,
+            "value": "มังกรปลุกใจ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "看台喷火龙"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "熱場龍"
+          }
+        },
+        "textContent": "\n\t\tAnheizer\n\t\tCrowd Roaster\n\t\tCaldeador de ambiente\n\t\tRostizagente\n\t\tRôtisseur de foule\n\t\tBruciatore della Folla\n\t\tドッカンドラゴン\n\t\t난동을 피우는 용\n\t\tZagrzewacz tłumu\n\t\tIncendiador de Torcida\n\t\tПодогреватель толпы\n\t\tมังกรปลุกใจ\n\t\t看台喷火龙\n\t\t熱場龍\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "[x]<b>Kampfschrei:</b> Fügt einem\nfeindlichen Diener 7 Schaden\nzu, wenn Ihr einen Drachen\nauf der Hand habt."
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]<b>Battlecry:</b> If you're holding\na Dragon, deal 7 damage\nto an enemy minion."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b>\nSi hay un dragón en tu mano, inflige 7_p. de daño a un esbirro enemigo."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> si tienes un Dragón en la mano, inflige 7 de daño a un esbirro enemigo."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> inflige 7_points de dégâts à un serviteur adverse si vous avez un Dragon en main."
+          },
+          "itIT": {
+            "present": true,
+            "value": "<b>Grido di Battaglia:</b>\ninfligge 7 danni a un servitore nemico se hai un Drago in mano."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "<b>雄叫び:</b>\n自分の手札に\nドラゴンがいる場合\n敵のミニオン1体に\n__7ダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]<b>전투의 함성:</b>\n내 손에 용족이 있으면,\n적 하수인에게\n피해를 7 줍니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b> Zadaj 7 pkt. obrażeń wrogiemu stronnikowi, jeśli masz w ręce Smoka."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra</b>: \nSe você tiver um Dragão na mão, cause 7 de dano a um lacaio inimigo."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> наносит 7 ед. урона существу противника, если у вас в руке есть дракон."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b>_ถ้าคุณมีมังกร[b]อยู่ในมือ สร้างความเสียหาย 7_แต้มให้มินเนี่ยนศัตรูหนึ่งตัว"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>\n如果你的手牌中有龙牌，则对一个敌方随从造成7点伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>戰吼：</b>若你手中有龍類，對一個敵方手下造成7點傷害"
+          }
+        },
+        "textContent": "\n\t\t[x]<b>Kampfschrei:</b> Fügt einem\nfeindlichen Diener 7 Schaden\nzu, wenn Ihr einen Drachen\nauf der Hand habt.\n\t\t[x]<b>Battlecry:</b> If you're holding\na Dragon, deal 7 damage\nto an enemy minion.\n\t\t<b>Grito de batalla:</b>\nSi hay un dragón en tu mano, inflige 7_p. de daño a un esbirro enemigo.\n\t\t<b>Grito de batalla:</b> si tienes un Dragón en la mano, inflige 7 de daño a un esbirro enemigo.\n\t\t<b>Cri de guerre :</b> inflige 7_points de dégâts à un serviteur adverse si vous avez un Dragon en main.\n\t\t<b>Grido di Battaglia:</b>\ninfligge 7 danni a un servitore nemico se hai un Drago in mano.\n\t\t<b>雄叫び:</b>\n自分の手札に\nドラゴンがいる場合\n敵のミニオン1体に\n__7ダメージを与える。\n\t\t[x]<b>전투의 함성:</b>\n내 손에 용족이 있으면,\n적 하수인에게\n피해를 7 줍니다.\n\t\t<b>Okrzyk bojowy:</b> Zadaj 7 pkt. obrażeń wrogiemu stronnikowi, jeśli masz w ręce Smoka.\n\t\t<b>Grito de Guerra</b>: \nSe você tiver um Dragão na mão, cause 7 de dano a um lacaio inimigo.\n\t\t<b>Боевой клич:</b> наносит 7 ед. урона существу противника, если у вас в руке есть дракон.\n\t\t<b>คำรามสู้ศึก:</b>_ถ้าคุณมีมังกร[b]อยู่ในมือ สร้างความเสียหาย 7_แต้มให้มินเนี่ยนศัตรูหนึ่งตัว\n\t\t<b>战吼：</b>\n如果你的手牌中有龙牌，则对一个敌方随从造成7点伤害。\n\t\t<b>戰吼：</b>若你手中有龍類，對一個敵方手下造成7點傷害\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Vor jeder großen Show muss erstmal jemand die Menge anheizen."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Every major show has an opening act to warm up the crowd."
+          },
+          "esES": {
+            "present": true,
+            "value": "Te caldea pero bien."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Se ha tomado lo de \"entrar en calor\" muy en serio. Quizás demasiado."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Chez les Trolls, y a pas que dans l’arène que ça chauffe !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "In ogni grande spettacolo c'è qualcuno che si occupa di scaldare il pubblico."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "お笑い芸人を目指していたそのドラゴンは、今日も会場をドッカンドッカン言わせている。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "분위기를 뜨겁게 만드는 데에 제격이죠."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Skutecznie podnosi temperaturę na widowni."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Todo espetáculo que se preze tem uma atração antes da principal pra esquentar o público."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Когда он перестарается, в дело вступит охладитель толпы."
+          },
+          "thTH": {
+            "present": true,
+            "value": "โชว์ใหญ่ๆ ต้องมีการแสดงเปิดงานเพื่อเพิ่มความร้อนแรง"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "重要赛事前总要有人暖场。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "每個大活動都要請他來開場。"
+          }
+        },
+        "textContent": "\n\t\tVor jeder großen Show muss erstmal jemand die Menge anheizen.\n\t\tEvery major show has an opening act to warm up the crowd.\n\t\tTe caldea pero bien.\n\t\tSe ha tomado lo de \"entrar en calor\" muy en serio. Quizás demasiado.\n\t\tChez les Trolls, y a pas que dans l’arène que ça chauffe !\n\t\tIn ogni grande spettacolo c'è qualcuno che si occupa di scaldare il pubblico.\n\t\tお笑い芸人を目指していたそのドラゴンは、今日も会場をドッカンドッカン言わせている。\n\t\t분위기를 뜨겁게 만드는 데에 제격이죠.\n\t\tSkutecznie podnosi temperaturę na widowni.\n\t\tTodo espetáculo que se preze tem uma atração antes da principal pra esquentar o público.\n\t\tКогда он перестарается, в дело вступит охладитель толпы.\n\t\tโชว์ใหญ่ๆ ต้องมีการแสดงเปิดงานเพื่อเพิ่มความร้อนแรง\n\t\t重要赛事前总要有人暖场。\n\t\t每個大活動都要請他來開場。\n\t"
+      },
+      "325": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Fügt einem feindlichen Diener 7 Schaden zu."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Deal 7 damage to an enemy minion."
+          },
+          "esES": {
+            "present": true,
+            "value": "Inflige 7 p. de daño\na un esbirro enemigo."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Inflige 7 de daño a un esbirro enemigo."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Inflige 7_points de dégâts à un serviteur adverse."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Infligge 7 danni a un servitore nemico."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]敵のミニオン1体に\n__7ダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "적 하수인에게 피해 7"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zadaj 7 pkt. obrażeń wrogiemu stronnikowi."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Cause 7 de dano a um lacaio inimigo."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Нанести 7 ед. урона существу противника."
+          },
+          "thTH": {
+            "present": true,
+            "value": "สร้างความเสียหาย_7_แต้ม[b]ให้มินเนี่ยน[b]ศัตรู[b]หนึ่งตัว"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "对一个敌方随从\n造成7点伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "對一個敵方手下造成7點傷害"
+          }
+        },
+        "textContent": "\n\t\tFügt einem feindlichen Diener 7 Schaden zu.\n\t\tDeal 7 damage to an enemy minion.\n\t\tInflige 7 p. de daño\na un esbirro enemigo.\n\t\tInflige 7 de daño a un esbirro enemigo.\n\t\tInflige 7_points de dégâts à un serviteur adverse.\n\t\tInfligge 7 danni a un servitore nemico.\n\t\t[x]敵のミニオン1体に\n__7ダメージを与える。\n\t\t적 하수인에게 피해 7\n\t\tZadaj 7 pkt. obrażeń wrogiemu stronnikowi.\n\t\tCause 7 de dano a um lacaio inimigo.\n\t\tНанести 7 ед. урона существу противника.\n\t\tสร้างความเสียหาย_7_แต้ม[b]ให้มินเนี่ยน[b]ศัตรู[b]หนึ่งตัว\n\t\t对一个敌方随从\n造成7点伤害。\n\t\t對一個敵方手下造成7點傷害\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Mike Sass"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "난동을 피우는 용",
+      "enUS": "Crowd Roaster"
+    },
+    "currentPrintedText": {
+      "koKR": "난동을 피우는 용",
+      "enUS": "Crowd Roaster"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_569",
+    "dbfId": 51816,
+    "name": "난동을 피우는 용",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 7,
+    "text": "<b>전투의 함성:</b><br></br>내 손에 용족이 있으면,<br></br>적 하수인에게<br></br>피해를 7 줍니다.",
+    "attack": 7,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "분위기를 뜨겁게 만드는 데에 제격이죠.",
+    "spellSchool": "",
+    "portrait": "HS15-173_M.psd:a847f099856099d40956e695561be8ae",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 7
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 24
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "DRAGON"
+    ],
+    "race": "용족",
+    "classes": [],
+    "art": "art/TRL_569.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_569",
+    "dbfId": 51816,
+    "name": "난동을 피우는 용",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 7,
+    "text": "<b>전투의 함성:</b><br></br>내 손에 용족이 있으면,<br></br>적 하수인에게<br></br>피해를 7 줍니다.",
+    "attack": 7,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "분위기를 뜨겁게 만드는 데에 제격이죠.",
+    "spellSchool": "",
+    "portrait": "HS15-173_M.psd:a847f099856099d40956e695561be8ae",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 7
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 24
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "DRAGON"
+    ],
+    "race": "용족",
+    "classes": [],
+    "art": "art/TRL_569.png"
+  }
+}

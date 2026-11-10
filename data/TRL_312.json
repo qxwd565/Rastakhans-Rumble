@@ -1,1 +1,781 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_312","dbfId":50083,"name":"주문 광전사","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":2,"text":"피해를 받은 상태면 <b>주문 공격력 +2</b>를 얻습니다.","attack":2,"health":3,"durability":0,"armor":0,"flavor":"지금까지 이 정도로 격렬한 분노를 느낀 적이 없었어.","spellSchool":"","portrait":"HS15-055_M.psd:340c1b7d0a026b54495e1e1e7894e33f","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":3},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":2},{"id":114,"name":"전설 속성","value":0},{"id":192,"name":"주문 공격력","value":1},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1},{"id":330,"name":"효과 생성 시각 효과","value":0},{"id":331,"name":"효과 지속 시각 효과","value":0}],"races":[],"race":"","classes":[],"art":"art/TRL_312.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-055_M.psd:340c1b7d0a026b54495e1e1e7894e33f","goldenMaterial":"TRL_312_PremiumCard.mat:9e03832c288283048ad8ea170409fe4f","goldenAnimation":"TRL_312_PremiumCard.asset:e35d1fe43177be94884803489a9e5167"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-055_M.psd:340c1b7d0a026b54495e1e1e7894e33f",
+        "goldenMaterial": "TRL_312_PremiumCard.mat:9e03832c288283048ad8ea170409fe4f",
+        "goldenAnimation": "TRL_312_PremiumCard.asset:e35d1fe43177be94884803489a9e5167"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-055_M.psd:340c1b7d0a026b54495e1e1e7894e33f",
+      "goldenMaterial": "TRL_312_PremiumCard.mat:9e03832c288283048ad8ea170409fe4f",
+      "goldenAnimation": "TRL_312_PremiumCard.asset:e35d1fe43177be94884803489a9e5167"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {
+      "192": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "2",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {
+      "192": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Zauberfurie"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Spellzerker"
+          },
+          "esES": {
+            "present": true,
+            "value": "Hechicera rabiosa"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Hechicera rabiosa"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Sorcière berserker"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Maga Berserker"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "強仙師"
+          },
+          "koKR": {
+            "present": true,
+            "value": "주문 광전사"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Wiedźma berserker"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Feiticeira Beserker"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Бешеный маг"
+          },
+          "thTH": {
+            "present": true,
+            "value": "สเปลเซิร์กเกอร์"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "狂暴咒术师"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "狂暴法師"
+          }
+        },
+        "textContent": "\n\t\t\tZauberfurie\n\t\t\tSpellzerker\n\t\t\tHechicera rabiosa\n\t\t\tHechicera rabiosa\n\t\t\tSorcière berserker\n\t\t\tMaga Berserker\n\t\t\t強仙師\n\t\t\t주문 광전사\n\t\t\tWiedźma berserker\n\t\t\tFeiticeira Beserker\n\t\t\tБешеный маг\n\t\t\tสเปลเซิร์กเกอร์\n\t\t\t狂暴咒术师\n\t\t\t狂暴法師\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Zauberschaden +2</b>, wenn sie verletzt ist."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Has <b>Spell Damage +2</b> while damaged."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Tiene <b>+2 p. de daño\ncon hechizos</b> mientras\nestá dañada."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Tiene <b>+2 de Daño de hechizo</b> cuando\nestá dañada."
+          },
+          "frFR": {
+            "present": true,
+            "value": "A <b>+2 aux dégâts des sorts</b> tant qu’elle est blessée."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]Ha <b>+2 Danni Magici</b>\nfinché è danneggiato."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ダメージを\n受けている間は\n<b>呪文ダメージ+2</b>\nを得る。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "피해를 받은 상태면 <b>주문_공격력_+2</b>를 얻습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Ma <b>Obrażenia zaklęć_+2</b>, gdy jest ranna."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Tem <b>+2 de Dano Mágico</b> enquanto estiver ferida."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Урон от заклинаний +2</b>,\nесли у этого существа неполное_здоровье."
+          },
+          "thTH": {
+            "present": true,
+            "value": "มี <b>ความเสียหายเวท +2</b> ถ้าพลังชีวิตไม่เต็ม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "受伤时具有\n<b>法术伤害+2</b>。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "受傷時<b>法術傷害+2</b>"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Zauberschaden +2</b>, wenn sie verletzt ist.\n\t\t\tHas <b>Spell Damage +2</b> while damaged.\n\t\t\t[x]Tiene <b>+2 p. de daño\ncon hechizos</b> mientras\nestá dañada.\n\t\t\tTiene <b>+2 de Daño de hechizo</b> cuando\nestá dañada.\n\t\t\tA <b>+2 aux dégâts des sorts</b> tant qu’elle est blessée.\n\t\t\t[x]Ha <b>+2 Danni Magici</b>\nfinché è danneggiato.\n\t\t\tダメージを\n受けている間は\n<b>呪文ダメージ+2</b>\nを得る。\n\t\t\t피해를 받은 상태면 <b>주문_공격력_+2</b>를 얻습니다.\n\t\t\tMa <b>Obrażenia zaklęć_+2</b>, gdy jest ranna.\n\t\t\tTem <b>+2 de Dano Mágico</b> enquanto estiver ferida.\n\t\t\t<b>Урон от заклинаний +2</b>,\nесли у этого существа неполное_здоровье.\n\t\t\tมี <b>ความเสียหายเวท +2</b> ถ้าพลังชีวิตไม่เต็ม\n\t\t\t受伤时具有\n<b>法术伤害+2</b>。\n\t\t\t受傷時<b>法術傷害+2</b>\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Sorgt furios für Furore."
+          },
+          "enUS": {
+            "present": true,
+            "value": "But don’t ask her to use it in a sentence."
+          },
+          "esES": {
+            "present": true,
+            "value": "Nunca se dejó vacunar."
+          },
+          "esMX": {
+            "present": true,
+            "value": "No dejes que te hechice... ni te muerda."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Ne l’énervez pas, ou elle va se fâcher toute bleue !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Non ditelo a nessuno, ma non riesce a scrivere il suo nome correttamente."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「狂戦士」とどう聞き分けるかって？気にするな、どうせどっちも今日戦死するんだから。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "지금까지 이 정도로 격렬한 분노를 느낀 적이 없었어."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Mag bojowy w trollowym wydaniu."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Beserker é só uma forma de dizer que ela não curte que mexam no grimório dela."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "«Бесишься? Я старалась»."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ผู้ชนะการแข่งขันสเปลลิ่งบี[b]สามสมัยซ้อน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "受伤的时候念咒声音特别大，因为疼。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "修滿狂戰八星和法師八星才能轉職。"
+          }
+        },
+        "textContent": "\n\t\t\tSorgt furios für Furore.\n\t\t\tBut don’t ask her to use it in a sentence.\n\t\t\tNunca se dejó vacunar.\n\t\t\tNo dejes que te hechice... ni te muerda.\n\t\t\tNe l’énervez pas, ou elle va se fâcher toute bleue !\n\t\t\tNon ditelo a nessuno, ma non riesce a scrivere il suo nome correttamente.\n\t\t\t「狂戦士」とどう聞き分けるかって？気にするな、どうせどっちも今日戦死するんだから。\n\t\t\t지금까지 이 정도로 격렬한 분노를 느낀 적이 없었어.\n\t\t\tMag bojowy w trollowym wydaniu.\n\t\t\tBeserker é só uma forma de dizer que ela não curte que mexam no grimório dela.\n\t\t\t«Бесишься? Я старалась».\n\t\t\tผู้ชนะการแข่งขันสเปลลิ่งบี[b]สามสมัยซ้อน\n\t\t\t受伤的时候念咒声音特别大，因为疼。\n\t\t\t修滿狂戰八星和法師八星才能轉職。\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Arthur Bozonnet"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Zauberfurie"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Spellzerker"
+          },
+          "esES": {
+            "present": true,
+            "value": "Hechicera rabiosa"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Hechicera rabiosa"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Sorcière berserker"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Maga Berserker"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "強仙師"
+          },
+          "koKR": {
+            "present": true,
+            "value": "주문 광전사"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Wiedźma berserker"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Feiticeira Berserker"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Бешеный маг"
+          },
+          "thTH": {
+            "present": true,
+            "value": "สเปลเซิร์กเกอร์"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "狂暴咒术师"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "狂暴法師"
+          }
+        },
+        "textContent": "\n\t\tZauberfurie\n\t\tSpellzerker\n\t\tHechicera rabiosa\n\t\tHechicera rabiosa\n\t\tSorcière berserker\n\t\tMaga Berserker\n\t\t強仙師\n\t\t주문 광전사\n\t\tWiedźma berserker\n\t\tFeiticeira Berserker\n\t\tБешеный маг\n\t\tสเปลเซิร์กเกอร์\n\t\t狂暴咒术师\n\t\t狂暴法師\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Zauberschaden +2</b>, wenn sie verletzt ist."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Has <b>Spell Damage +2</b> while damaged."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Tiene <b>+2 p. de daño\ncon hechizos</b> mientras\nestá dañada."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Tiene <b>+2 de Daño de hechizo</b> cuando\nestá dañada."
+          },
+          "frFR": {
+            "present": true,
+            "value": "A <b>+2 aux dégâts des sorts</b> tant qu’elle est blessée."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]Ha <b>+2 Danni Magici</b>\nfinché è danneggiato."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ダメージを\n受けている間は\n<b>呪文ダメージ+2</b>\nを得る。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "피해를 받은 상태면 <b>주문_공격력_+2</b>를 얻습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Ma <b>Obrażenia zaklęć_+2</b>, gdy jest ranna."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Tem <b>+2 de Dano Mágico</b> enquanto estiver ferida."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Урон от заклинаний +2</b>,\nесли у этого существа неполное_здоровье."
+          },
+          "thTH": {
+            "present": true,
+            "value": "มี <b>ความเสียหายเวท +2</b> ถ้าพลังชีวิตไม่เต็ม"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "受伤时拥有\n<b>法术伤害+2</b>。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "受傷時<b>法術傷害+2</b>"
+          }
+        },
+        "textContent": "\n\t\t<b>Zauberschaden +2</b>, wenn sie verletzt ist.\n\t\tHas <b>Spell Damage +2</b> while damaged.\n\t\t[x]Tiene <b>+2 p. de daño\ncon hechizos</b> mientras\nestá dañada.\n\t\tTiene <b>+2 de Daño de hechizo</b> cuando\nestá dañada.\n\t\tA <b>+2 aux dégâts des sorts</b> tant qu’elle est blessée.\n\t\t[x]Ha <b>+2 Danni Magici</b>\nfinché è danneggiato.\n\t\tダメージを\n受けている間は\n<b>呪文ダメージ+2</b>\nを得る。\n\t\t피해를 받은 상태면 <b>주문_공격력_+2</b>를 얻습니다.\n\t\tMa <b>Obrażenia zaklęć_+2</b>, gdy jest ranna.\n\t\tTem <b>+2 de Dano Mágico</b> enquanto estiver ferida.\n\t\t<b>Урон от заклинаний +2</b>,\nесли у этого существа неполное_здоровье.\n\t\tมี <b>ความเสียหายเวท +2</b> ถ้าพลังชีวิตไม่เต็ม\n\t\t受伤时拥有\n<b>法术伤害+2</b>。\n\t\t受傷時<b>法術傷害+2</b>\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Sorgt furios für Furore."
+          },
+          "enUS": {
+            "present": true,
+            "value": "But don’t ask her to use it in a sentence."
+          },
+          "esES": {
+            "present": true,
+            "value": "Nunca se dejó vacunar."
+          },
+          "esMX": {
+            "present": true,
+            "value": "No dejes que te hechice... ni te muerda."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Ne l’énervez pas, ou elle va se fâcher toute bleue !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Non ditelo a nessuno, ma non riesce a scrivere il suo nome correttamente."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "「狂戦士」とどう聞き分けるかって？気にするな、どうせどっちも今日戦死するんだから。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "지금까지 이 정도로 격렬한 분노를 느낀 적이 없었어."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Mag bojowy w trollowym wydaniu."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Berserker é só uma forma de dizer que ela não curte que mexam no grimório dela."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "«Бесишься? Я старалась»."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ผู้ชนะการแข่งขันสเปลลิ่งบี[b]สามสมัยซ้อน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "受伤的时候念咒声音特别大，因为疼。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "修滿狂戰八星和法師八星才能轉職。"
+          }
+        },
+        "textContent": "\n\t\tSorgt furios für Furore.\n\t\tBut don’t ask her to use it in a sentence.\n\t\tNunca se dejó vacunar.\n\t\tNo dejes que te hechice... ni te muerda.\n\t\tNe l’énervez pas, ou elle va se fâcher toute bleue !\n\t\tNon ditelo a nessuno, ma non riesce a scrivere il suo nome correttamente.\n\t\t「狂戦士」とどう聞き分けるかって？気にするな、どうせどっちも今日戦死するんだから。\n\t\t지금까지 이 정도로 격렬한 분노를 느낀 적이 없었어.\n\t\tMag bojowy w trollowym wydaniu.\n\t\tBerserker é só uma forma de dizer que ela não curte que mexam no grimório dela.\n\t\t«Бесишься? Я старалась».\n\t\tผู้ชนะการแข่งขันสเปลลิ่งบี[b]สามสมัยซ้อน\n\t\t受伤的时候念咒声音特别大，因为疼。\n\t\t修滿狂戰八星和法師八星才能轉職。\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Arthur Bozonnet"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "주문 광전사",
+      "enUS": "Spellzerker"
+    },
+    "currentPrintedText": {
+      "koKR": "주문 광전사",
+      "enUS": "Spellzerker"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_312",
+    "dbfId": 50083,
+    "name": "주문 광전사",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "피해를 받은 상태면 <b>주문 공격력 +2</b>를 얻습니다.",
+    "attack": 2,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "지금까지 이 정도로 격렬한 분노를 느낀 적이 없었어.",
+    "spellSchool": "",
+    "portrait": "HS15-055_M.psd:340c1b7d0a026b54495e1e1e7894e33f",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 192,
+        "name": "주문 공격력",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_312.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_312",
+    "dbfId": 50083,
+    "name": "주문 광전사",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "피해를 받은 상태면 <b>주문 공격력 +2</b>를 얻습니다.",
+    "attack": 2,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "지금까지 이 정도로 격렬한 분노를 느낀 적이 없었어.",
+    "spellSchool": "",
+    "portrait": "HS15-055_M.psd:340c1b7d0a026b54495e1e1e7894e33f",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 192,
+        "name": "주문 공격력",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 330,
+        "name": "효과 생성 시각 효과",
+        "value": 0
+      },
+      {
+        "id": 331,
+        "name": "효과 지속 시각 효과",
+        "value": 0
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_312.png"
+  }
+}

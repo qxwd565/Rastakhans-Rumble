@@ -1,1 +1,877 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_300","dbfId":49981,"name":"호랑이 시르밸라","type":"MINION","cardClass":"PALADIN","rarity":"LEGENDARY","collectible":true,"cost":25,"text":"<b>천상의 보호막</b>, <b>속공</b>, <b>생명력 흡수</b><br></br>내가 주문에 소모한 마나만큼 비용이 감소합니다.","attack":7,"health":5,"durability":0,"armor":0,"flavor":"데칼은 무릎을 꿇고 자신의 무기를 시르밸라의 제단에 놓았습니다. 그의 헌신에 감명받은 시르밸라는 앞발로 천천히 무기를 제단에서 떨어트렸습니다.","spellSchool":"","portrait":"HS15-052_M.psd:b2730fb98f86e8040b462a8f946b0a4d","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":5},{"id":47,"name":"공격력","value":7},{"id":48,"name":"마나 비용","value":25},{"id":114,"name":"전설 속성","value":1},{"id":194,"name":"천상의 보호막","value":1},{"id":199,"name":"직업","value":5},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":5},{"id":321,"name":"수집 가능","value":1},{"id":685,"name":"생명력 흡수","value":1},{"id":791,"name":"속공","value":1},{"id":1584,"name":"게임 태그 1584","value":1}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/TRL_300.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-052_M.psd:b2730fb98f86e8040b462a8f946b0a4d","goldenMaterial":"TRL_300_PremiumCard.mat:b5776c7c4135a4c4a9cb0901b04e9469","goldenAnimation":"TRL_300_PremiumCard.asset:bf9e39b3a0067f743ae1852d35b685a1"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-052_M.psd:b2730fb98f86e8040b462a8f946b0a4d",
+        "goldenMaterial": "TRL_300_PremiumCard.mat:b5776c7c4135a4c4a9cb0901b04e9469",
+        "goldenAnimation": "TRL_300_PremiumCard.asset:bf9e39b3a0067f743ae1852d35b685a1"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-052_M.psd:b2730fb98f86e8040b462a8f946b0a4d",
+      "goldenMaterial": "TRL_300_PremiumCard.mat:b5776c7c4135a4c4a9cb0901b04e9469",
+      "goldenAnimation": "TRL_300_PremiumCard.asset:bf9e39b3a0067f743ae1852d35b685a1"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "7",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "25",
+        "type": "Int"
+      },
+      "114": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "194": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "20",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "685": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "791": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "7",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "25",
+        "type": "Int"
+      },
+      "114": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "194": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "20",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "685": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "791": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "1584": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Shirvallah der Tiger"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Shirvallah, the Tiger"
+          },
+          "esES": {
+            "present": true,
+            "value": "Shirvallah, la tigresa"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Shirvallah, la tigresa"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Shirvallah, la tigresse"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Shirvallah, la Tigre"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "トラのロア・シャヴァーラ"
+          },
+          "koKR": {
+            "present": true,
+            "value": "호랑이 시르밸라"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Tygrysica Szirwala"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Shirvallah, a Tigresa"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Ширвалла, лоа-тигрица"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เทพเสือ เชอร์วาลลาห์"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "西瓦尔拉，猛虎之神"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "『老虎』希爾瓦拉"
+          }
+        },
+        "textContent": "\n\t\t\tShirvallah der Tiger\n\t\t\tShirvallah, the Tiger\n\t\t\tShirvallah, la tigresa\n\t\t\tShirvallah, la tigresa\n\t\t\tShirvallah, la tigresse\n\t\t\tShirvallah, la Tigre\n\t\t\tトラのロア・シャヴァーラ\n\t\t\t호랑이 시르밸라\n\t\t\tTygrysica Szirwala\n\t\t\tShirvallah, a Tigresa\n\t\t\tШирвалла, лоа-тигрица\n\t\t\tเทพเสือ เชอร์วาลลาห์\n\t\t\t西瓦尔拉，猛虎之神\n\t\t\t『老虎』希爾瓦拉\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Gottesschild</b>, <b>Eifer</b>, <b>Lebensentzug</b>.\nKostet (1) weniger für jedes\nMana, das Ihr für Zauber verbraucht habt."
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]<b>Divine Shield</b>, <b>Rush</b>, <b>Lifesteal</b>\n Costs (1) less for each Mana\nyou've spent on spells."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Escudo divino</b>. <b>Embestir</b>.\n<b>Robo de vida</b>.\nCuesta (1) cristal de maná menos por cada cristal que hayas gastado en hechizos."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Escudo divino</b>, <b>Acometida</b>, <b>Robavida</b>\nCuesta (1) menos por cada maná_que_hayas_gastado en_hechizos."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Bouclier divin</b>, <b>Ruée</b>, <b>Vol de vie</b>. Coûte (1)_cristal de moins pour chacun dépensé pour des sorts."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Scudo Divino</b>. <b>Assalto</b>.\n<b>Furto Vitale</b>. Costa (1) in\nmeno per ogni Mana che\n__hai usato per le Magie."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>聖なる盾</b>、<b>急襲</b>、<b>生命奪取</b>\n自分が呪文のために\n消費したマナ1点につき\nコストが（1）減る。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>천상의 보호막</b>, <b>속공</b>, <b>생명력_흡수</b>\n내가 주문에 소모한 마나만큼 비용이 감소합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Boska tarcza</b>\n<b>Zryw</b>, <b>Kradzież życia</b>\nKosztuje (1) mniej za każdy kryształ many wydany na zaklęcia."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Escudo Divino</b>, \n<b>Rapidez</b>, <b>Roubar Vida</b>\nCusta (1) a menos para cada mana que você tiver gastado em feitiços."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Божественный щит</b>, <b>Натиск</b>, <b>Похищение жизни</b>. Стоит на (1) меньше за каждую единицу маны,_потраченную_вами на заклинания."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>โล่ศักดิ์สิทธิ์</b>_<b>จู่โจม</b>_<b>สูบชีวิต</b> ค่าร่ายลดลง_(1)_ต่อมานาแต่ละ[b]หน่วยที่คุณใช้ร่ายเวทมนตร์"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>圣盾，突袭，吸血</b>\n每当你消耗1点法力值用于法术牌上，这张牌的法力值消耗减少（1）点。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "[x]<b>聖盾術</b>、<b>衝刺</b>\n<b>生命竊取</b>\n你花費在法術上的每點\n法力使消耗減少(1)"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Gottesschild</b>, <b>Eifer</b>, <b>Lebensentzug</b>.\nKostet (1) weniger für jedes\nMana, das Ihr für Zauber verbraucht habt.\n\t\t\t[x]<b>Divine Shield</b>, <b>Rush</b>, <b>Lifesteal</b>\n Costs (1) less for each Mana\nyou've spent on spells.\n\t\t\t<b>Escudo divino</b>. <b>Embestir</b>.\n<b>Robo de vida</b>.\nCuesta (1) cristal de maná menos por cada cristal que hayas gastado en hechizos.\n\t\t\t<b>Escudo divino</b>, <b>Acometida</b>, <b>Robavida</b>\nCuesta (1) menos por cada maná_que_hayas_gastado en_hechizos.\n\t\t\t<b>Bouclier divin</b>, <b>Ruée</b>, <b>Vol de vie</b>. Coûte (1)_cristal de moins pour chacun dépensé pour des sorts.\n\t\t\t[x]<b>Scudo Divino</b>. <b>Assalto</b>.\n<b>Furto Vitale</b>. Costa (1) in\nmeno per ogni Mana che\n__hai usato per le Magie.\n\t\t\t[x]<b>聖なる盾</b>、<b>急襲</b>、<b>生命奪取</b>\n自分が呪文のために\n消費したマナ1点につき\nコストが（1）減る。\n\t\t\t<b>천상의 보호막</b>, <b>속공</b>, <b>생명력_흡수</b>\n내가 주문에 소모한 마나만큼 비용이 감소합니다.\n\t\t\t<b>Boska tarcza</b>\n<b>Zryw</b>, <b>Kradzież życia</b>\nKosztuje (1) mniej za każdy kryształ many wydany na zaklęcia.\n\t\t\t<b>Escudo Divino</b>, \n<b>Rapidez</b>, <b>Roubar Vida</b>\nCusta (1) a menos para cada mana que você tiver gastado em feitiços.\n\t\t\t<b>Божественный щит</b>, <b>Натиск</b>, <b>Похищение жизни</b>. Стоит на (1) меньше за каждую единицу маны,_потраченную_вами на заклинания.\n\t\t\t<b>โล่ศักดิ์สิทธิ์</b>_<b>จู่โจม</b>_<b>สูบชีวิต</b> ค่าร่ายลดลง_(1)_ต่อมานาแต่ละ[b]หน่วยที่คุณใช้ร่ายเวทมนตร์\n\t\t\t<b>圣盾，突袭，吸血</b>\n每当你消耗1点法力值用于法术牌上，这张牌的法力值消耗减少（1）点。\n\t\t\t[x]<b>聖盾術</b>、<b>衝刺</b>\n<b>生命竊取</b>\n你花費在法術上的每點\n法力使消耗減少(1)\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Demütig und voller Ehrfurcht legte Thekal seine Waffe sorgsam auf Shirvallahs Altar, woraufhin diese sie langsam mit ihrer Pfote von der Kante schubste."
+          },
+          "enUS": {
+            "present": true,
+            "value": "On bended knee Thekal placed his weapon upon Shirvallah’s altar, whereupon she slowly knocked it off with her paw."
+          },
+          "esES": {
+            "present": true,
+            "value": "Su pasatiempo favorito consiste en tirar con la zarpa lo que le colocan en el altar."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Hincado de rodillas, Thekal colocó su arma en el altar de Shirvallah, y luego ella la tiró al suelo con su pata."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Après s’être agenouillé, Thekal déposa son arme sur l’autel de Shirvallah, qui la repoussa lentement de la patte en le regardant droit dans les yeux."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Inginocchiatosi, Thekal posò la sua arma sull'altare di Shirvallah. Un momento dopo, essa la fece cadere con una zampa."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ジカールは膝をつき、恭しくその武器を掲げ、シャヴァーラの祭壇に収めた。シャヴァーラは事もなげに、ゆっくりと前足で払い落とした。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "데칼은 무릎을 꿇고 자신의 무기를 시르밸라의 제단에 놓았습니다. 그의 헌신에 감명받은 시르밸라는 앞발로 천천히 무기를 제단에서 떨어트렸습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Tekal z szacunkiem umieścił oręż na ołtarzu Szirwali, a ona strąciła go powolnym ruchem łapy."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "De joelhos, Thekal depositou sua arma no altar de Shirvallah, diante do que ela, ato contínuo, derrubou com a pata."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Втайне любит гоняться за бантиком."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ธีคัลคุกเข่าแล้ววางอาวุธ[b]บนแท่นบูชาของเชอร์วาลลาห์ ซึ่งนางค่อยๆ ใช้อุ้งมือปัดจนกระเด็น"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "塞卡尔跪在神龛前摆好了供品，西瓦尔拉总会用小爪子把它拨到地上。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "對他來說法術就像貓薄荷一樣，有致命的吸引力。"
+          }
+        },
+        "textContent": "\n\t\t\tDemütig und voller Ehrfurcht legte Thekal seine Waffe sorgsam auf Shirvallahs Altar, woraufhin diese sie langsam mit ihrer Pfote von der Kante schubste.\n\t\t\tOn bended knee Thekal placed his weapon upon Shirvallah’s altar, whereupon she slowly knocked it off with her paw.\n\t\t\tSu pasatiempo favorito consiste en tirar con la zarpa lo que le colocan en el altar.\n\t\t\tHincado de rodillas, Thekal colocó su arma en el altar de Shirvallah, y luego ella la tiró al suelo con su pata.\n\t\t\tAprès s’être agenouillé, Thekal déposa son arme sur l’autel de Shirvallah, qui la repoussa lentement de la patte en le regardant droit dans les yeux.\n\t\t\tInginocchiatosi, Thekal posò la sua arma sull'altare di Shirvallah. Un momento dopo, essa la fece cadere con una zampa.\n\t\t\tジカールは膝をつき、恭しくその武器を掲げ、シャヴァーラの祭壇に収めた。シャヴァーラは事もなげに、ゆっくりと前足で払い落とした。\n\t\t\t데칼은 무릎을 꿇고 자신의 무기를 시르밸라의 제단에 놓았습니다. 그의 헌신에 감명받은 시르밸라는 앞발로 천천히 무기를 제단에서 떨어트렸습니다.\n\t\t\tTekal z szacunkiem umieścił oręż na ołtarzu Szirwali, a ona strąciła go powolnym ruchem łapy.\n\t\t\tDe joelhos, Thekal depositou sua arma no altar de Shirvallah, diante do que ela, ato contínuo, derrubou com a pata.\n\t\t\tВтайне любит гоняться за бантиком.\n\t\t\tธีคัลคุกเข่าแล้ววางอาวุธ[b]บนแท่นบูชาของเชอร์วาลลาห์ ซึ่งนางค่อยๆ ใช้อุ้งมือปัดจนกระเด็น\n\t\t\t塞卡尔跪在神龛前摆好了供品，西瓦尔拉总会用小爪子把它拨到地上。\n\t\t\t對他來說法術就像貓薄荷一樣，有致命的吸引力。\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Arthur Gimaldinov"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Shirvallah der Tiger"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Shirvallah, the Tiger"
+          },
+          "esES": {
+            "present": true,
+            "value": "Shirvallah, la tigresa"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Shirvallah, la tigresa"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Shirvallah, le tigre"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Shirvallah, la Tigre"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "トラのロア・シャヴァーラ"
+          },
+          "koKR": {
+            "present": true,
+            "value": "호랑이 시르밸라"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Tygrysica Szirwala"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Shirvallah, a Tigresa"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Ширвалла, лоа-тигрица"
+          },
+          "thTH": {
+            "present": true,
+            "value": "เทพเสือ เชอร์วาลลาห์"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "西瓦尔拉，猛虎之神"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "『老虎』希爾瓦拉"
+          }
+        },
+        "textContent": "\n\t\tShirvallah der Tiger\n\t\tShirvallah, the Tiger\n\t\tShirvallah, la tigresa\n\t\tShirvallah, la tigresa\n\t\tShirvallah, le tigre\n\t\tShirvallah, la Tigre\n\t\tトラのロア・シャヴァーラ\n\t\t호랑이 시르밸라\n\t\tTygrysica Szirwala\n\t\tShirvallah, a Tigresa\n\t\tШирвалла, лоа-тигрица\n\t\tเทพเสือ เชอร์วาลลาห์\n\t\t西瓦尔拉，猛虎之神\n\t\t『老虎』希爾瓦拉\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Gottesschild</b>, <b>Eifer</b>, <b>Lebensentzug</b>.\nKostet (1) weniger für jedes\nMana, das Ihr für Zauber verbraucht habt."
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]<b>Divine Shield</b>, <b>Rush</b>, <b>Lifesteal</b>\n Costs (1) less for each Mana\nyou've spent on spells."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Escudo divino</b>. <b>Embestir</b>.\n<b>Robo de vida</b>.\nCuesta (1) cristal de maná menos por cada cristal que hayas gastado en hechizos."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Escudo divino</b>, <b>Acometida</b>, <b>Robavida</b>\nCuesta (1) menos por cada maná_que_hayas_gastado en_hechizos."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Bouclier divin</b>, <b>Ruée</b>, <b>Vol de vie</b>. Coûte (1)_cristal de moins pour chacun dépensé pour des sorts."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Scudo Divino</b>. <b>Assalto</b>.\n<b>Furto Vitale</b>. Costa (1) in\nmeno per ogni Mana che\n__hai usato per le Magie."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>聖なる盾</b>、<b>急襲</b>、<b>生命奪取</b>\n自分が呪文のために\n消費したマナ1点につき\nコストが（1）減る。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "<b>천상의 보호막</b>, <b>속공</b>, <b>생명력_흡수</b>\n내가 주문에 소모한 마나만큼 비용이 감소합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Boska tarcza</b>\n<b>Zryw</b>, <b>Kradzież życia</b>\nKosztuje (1) mniej za każdy kryształ many wydany na zaklęcia."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Escudo Divino</b>, \n<b>Rapidez</b>, <b>Roubar Vida</b>\nCusta (1) a menos para cada mana que você tiver gastado em feitiços."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Божественный щит</b>, <b>Натиск</b>, <b>Похищение жизни</b>. Стоит на (1) меньше за каждую единицу маны,_потраченную_вами на заклинания."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>โล่ศักดิ์สิทธิ์</b>_<b>จู่โจม</b>_<b>สูบชีวิต</b> ค่าร่ายลดลง_(1)_ต่อแต่ละ[b]_มานาที่คุณใช้ร่ายเวทมนตร์"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>圣盾，突袭，吸血</b>\n你每消耗1点法力值用于法术牌上，本牌的法力值消耗便减少（1）点。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "[x]<b>聖盾術</b>、<b>衝刺</b>\n<b>生命竊取</b>\n你花費在法術上的每點\n法力使消耗減少(1)"
+          }
+        },
+        "textContent": "\n\t\t<b>Gottesschild</b>, <b>Eifer</b>, <b>Lebensentzug</b>.\nKostet (1) weniger für jedes\nMana, das Ihr für Zauber verbraucht habt.\n\t\t[x]<b>Divine Shield</b>, <b>Rush</b>, <b>Lifesteal</b>\n Costs (1) less for each Mana\nyou've spent on spells.\n\t\t<b>Escudo divino</b>. <b>Embestir</b>.\n<b>Robo de vida</b>.\nCuesta (1) cristal de maná menos por cada cristal que hayas gastado en hechizos.\n\t\t<b>Escudo divino</b>, <b>Acometida</b>, <b>Robavida</b>\nCuesta (1) menos por cada maná_que_hayas_gastado en_hechizos.\n\t\t<b>Bouclier divin</b>, <b>Ruée</b>, <b>Vol de vie</b>. Coûte (1)_cristal de moins pour chacun dépensé pour des sorts.\n\t\t[x]<b>Scudo Divino</b>. <b>Assalto</b>.\n<b>Furto Vitale</b>. Costa (1) in\nmeno per ogni Mana che\n__hai usato per le Magie.\n\t\t[x]<b>聖なる盾</b>、<b>急襲</b>、<b>生命奪取</b>\n自分が呪文のために\n消費したマナ1点につき\nコストが（1）減る。\n\t\t<b>천상의 보호막</b>, <b>속공</b>, <b>생명력_흡수</b>\n내가 주문에 소모한 마나만큼 비용이 감소합니다.\n\t\t<b>Boska tarcza</b>\n<b>Zryw</b>, <b>Kradzież życia</b>\nKosztuje (1) mniej za każdy kryształ many wydany na zaklęcia.\n\t\t<b>Escudo Divino</b>, \n<b>Rapidez</b>, <b>Roubar Vida</b>\nCusta (1) a menos para cada mana que você tiver gastado em feitiços.\n\t\t<b>Божественный щит</b>, <b>Натиск</b>, <b>Похищение жизни</b>. Стоит на (1) меньше за каждую единицу маны,_потраченную_вами на заклинания.\n\t\t<b>โล่ศักดิ์สิทธิ์</b>_<b>จู่โจม</b>_<b>สูบชีวิต</b> ค่าร่ายลดลง_(1)_ต่อแต่ละ[b]_มานาที่คุณใช้ร่ายเวทมนตร์\n\t\t<b>圣盾，突袭，吸血</b>\n你每消耗1点法力值用于法术牌上，本牌的法力值消耗便减少（1）点。\n\t\t[x]<b>聖盾術</b>、<b>衝刺</b>\n<b>生命竊取</b>\n你花費在法術上的每點\n法力使消耗減少(1)\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Demütig und voller Ehrfurcht legte Thekal seine Waffe sorgsam auf Shirvallahs Altar, woraufhin diese sie langsam mit ihrer Pfote von der Kante schubste."
+          },
+          "enUS": {
+            "present": true,
+            "value": "On bended knee Thekal placed his weapon upon Shirvallah’s altar, whereupon she slowly knocked it off with her paw."
+          },
+          "esES": {
+            "present": true,
+            "value": "Su pasatiempo favorito consiste en tirar con la zarpa lo que le colocan en el altar."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Hincado de rodillas, Thekal colocó su arma en el altar de Shirvallah, y luego ella la tiró al suelo con su pata."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Après s’être agenouillé, Thekal déposa son arme sur l’autel de Shirvallah, qui la repoussa lentement de la patte en le regardant droit dans les yeux."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Inginocchiatosi, Thekal posò la sua arma sull'altare di Shirvallah. Un momento dopo, essa la fece cadere con una zampa."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ジカールは膝をつき、恭しくその武器を掲げ、シャヴァーラの祭壇に収めた。シャヴァーラは事もなげに、ゆっくりと前足で払い落とした。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "데칼은 무릎을 꿇고 자신의 무기를 시르밸라의 제단에 놓았습니다. 그의 헌신에 감명받은 시르밸라는 앞발로 천천히 무기를 제단에서 떨어트렸습니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Tekal z szacunkiem umieścił oręż na ołtarzu Szirwali, a ona strąciła go powolnym ruchem łapy."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "De joelhos, Thekal depositou sua arma no altar de Shirvallah, diante do que ela, ato contínuo, derrubou com a pata."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Втайне любит гоняться за бантиком."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ธีคัลคุกเข่าแล้ววางอาวุธ[b]บนแท่นบูชาของเชอร์วาลลาห์ ซึ่งนางค่อยๆ ใช้อุ้งมือปัดจนกระเด็น"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "塞卡尔跪在神龛前摆好了供品，西瓦尔拉总会用小爪子把它拨到地上。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "對他來說法術就像貓薄荷一樣，有致命的吸引力。"
+          }
+        },
+        "textContent": "\n\t\tDemütig und voller Ehrfurcht legte Thekal seine Waffe sorgsam auf Shirvallahs Altar, woraufhin diese sie langsam mit ihrer Pfote von der Kante schubste.\n\t\tOn bended knee Thekal placed his weapon upon Shirvallah’s altar, whereupon she slowly knocked it off with her paw.\n\t\tSu pasatiempo favorito consiste en tirar con la zarpa lo que le colocan en el altar.\n\t\tHincado de rodillas, Thekal colocó su arma en el altar de Shirvallah, y luego ella la tiró al suelo con su pata.\n\t\tAprès s’être agenouillé, Thekal déposa son arme sur l’autel de Shirvallah, qui la repoussa lentement de la patte en le regardant droit dans les yeux.\n\t\tInginocchiatosi, Thekal posò la sua arma sull'altare di Shirvallah. Un momento dopo, essa la fece cadere con una zampa.\n\t\tジカールは膝をつき、恭しくその武器を掲げ、シャヴァーラの祭壇に収めた。シャヴァーラは事もなげに、ゆっくりと前足で払い落とした。\n\t\t데칼은 무릎을 꿇고 자신의 무기를 시르밸라의 제단에 놓았습니다. 그의 헌신에 감명받은 시르밸라는 앞발로 천천히 무기를 제단에서 떨어트렸습니다.\n\t\tTekal z szacunkiem umieścił oręż na ołtarzu Szirwali, a ona strąciła go powolnym ruchem łapy.\n\t\tDe joelhos, Thekal depositou sua arma no altar de Shirvallah, diante do que ela, ato contínuo, derrubou com a pata.\n\t\tВтайне любит гоняться за бантиком.\n\t\tธีคัลคุกเข่าแล้ววางอาวุธ[b]บนแท่นบูชาของเชอร์วาลลาห์ ซึ่งนางค่อยๆ ใช้อุ้งมือปัดจนกระเด็น\n\t\t塞卡尔跪在神龛前摆好了供品，西瓦尔拉总会用小爪子把它拨到地上。\n\t\t對他來說法術就像貓薄荷一樣，有致命的吸引力。\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Arthur Gimaldinov"
+      }
+    },
+    "undatedRawTagTransitions": [
+      {
+        "build": 54613,
+        "id": "TRL_300",
+        "dbfId": 49981,
+        "name": "호랑이 시르밸라",
+        "rawDiff": {
+          "1584": [
+            "ABSENT",
+            "1"
+          ]
+        },
+        "tagNames": {
+          "1584": "1"
+        },
+        "decision": "native_bookkeeping_or_other_mode_not_balance",
+        "relatedFindings": [],
+        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/9b95dea77dbb4d116e861df8b650d80b1b4385d1/CardDefs.xml"
+      }
+    ],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "호랑이 시르밸라",
+      "enUS": "Shirvallah, the Tiger"
+    },
+    "currentPrintedText": {
+      "koKR": "호랑이 시르밸라",
+      "enUS": "Shirvallah, the Tiger"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_300",
+    "dbfId": 49981,
+    "name": "호랑이 시르밸라",
+    "type": "MINION",
+    "cardClass": "PALADIN",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 25,
+    "text": "<b>천상의 보호막</b>, <b>속공</b>, <b>생명력 흡수</b><br></br>내가 주문에 소모한 마나만큼 비용이 감소합니다.",
+    "attack": 7,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "데칼은 무릎을 꿇고 자신의 무기를 시르밸라의 제단에 놓았습니다. 그의 헌신에 감명받은 시르밸라는 앞발로 천천히 무기를 제단에서 떨어트렸습니다.",
+    "spellSchool": "",
+    "portrait": "HS15-052_M.psd:b2730fb98f86e8040b462a8f946b0a4d",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 7
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 25
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 194,
+        "name": "천상의 보호막",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      },
+      {
+        "id": 1584,
+        "name": "게임 태그 1584",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/TRL_300.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_300",
+    "dbfId": 49981,
+    "name": "호랑이 시르밸라",
+    "type": "MINION",
+    "cardClass": "PALADIN",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 25,
+    "text": "<b>천상의 보호막</b>, <b>속공</b>, <b>생명력 흡수</b><br></br>내가 주문에 소모한 마나만큼 비용이 감소합니다.",
+    "attack": 7,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "데칼은 무릎을 꿇고 자신의 무기를 시르밸라의 제단에 놓았습니다. 그의 헌신에 감명받은 시르밸라는 앞발로 천천히 무기를 제단에서 떨어트렸습니다.",
+    "spellSchool": "",
+    "portrait": "HS15-052_M.psd:b2730fb98f86e8040b462a8f946b0a4d",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 7
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 25
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 194,
+        "name": "천상의 보호막",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 685,
+        "name": "생명력 흡수",
+        "value": 1
+      },
+      {
+        "id": 791,
+        "name": "속공",
+        "value": 1
+      },
+      {
+        "id": 1584,
+        "name": "게임 태그 1584",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/TRL_300.png"
+  }
+}

@@ -1,1 +1,766 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_500","dbfId":50282,"name":"광기에 굴복하라","type":"SPELL","cardClass":"PRIEST","rarity":"EPIC","collectible":true,"cost":3,"text":"내 마나 수정을 3개 파괴합니다. 내 덱에 있는 모든 하수인에게 +2/+2를 부여합니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"포기하지 마세요. 굴복하세요!","spellSchool":"SHADOW","portrait":"HS15-142_S.psd:fc9bfa34d3abd7a46b767530f9003231","set":"TROLL","nativeTags":[{"id":48,"name":"마나 비용","value":3},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":6},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":4},{"id":321,"name":"수집 가능","value":1},{"id":1635,"name":"주문 속성","value":6}],"races":[],"race":"","classes":[],"art":"art/TRL_500.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-142_S.psd:fc9bfa34d3abd7a46b767530f9003231","goldenMaterial":"TRL_500_PremiumCard.mat:d896f8494e650c748b760eb60e8b6c33","goldenAnimation":"TRL_500_PremiumCard.asset:8517272eba7255548b310ac4475a23eb"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-142_S.psd:fc9bfa34d3abd7a46b767530f9003231",
+        "goldenMaterial": "TRL_500_PremiumCard.mat:d896f8494e650c748b760eb60e8b6c33",
+        "goldenAnimation": "TRL_500_PremiumCard.asset:8517272eba7255548b310ac4475a23eb"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-142_S.psd:fc9bfa34d3abd7a46b767530f9003231",
+      "goldenMaterial": "TRL_500_PremiumCard.mat:d896f8494e650c748b760eb60e8b6c33",
+      "goldenAnimation": "TRL_500_PremiumCard.asset:8517272eba7255548b310ac4475a23eb"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "6",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "6",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "1635": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "6",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Abstieg in den Wahnsinn"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Surrender to Madness"
+          },
+          "esES": {
+            "present": true,
+            "value": "Rendirse a la locura"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Entrégate a la locura"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Sombre dans la folie"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Resa alla Pazzia"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "怪力乱心"
+          },
+          "koKR": {
+            "present": true,
+            "value": "광기에 굴복하라"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Objęcia szaleństwa"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Submissão à Loucura"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Полное безумие"
+          },
+          "thTH": {
+            "present": true,
+            "value": "จำนนต่อความบ้าคลั่ง"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "疯入膏肓"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "獻身瘋狂"
+          }
+        },
+        "textContent": "\n\t\t\tAbstieg in den Wahnsinn\n\t\t\tSurrender to Madness\n\t\t\tRendirse a la locura\n\t\t\tEntrégate a la locura\n\t\t\tSombre dans la folie\n\t\t\tResa alla Pazzia\n\t\t\t怪力乱心\n\t\t\t광기에 굴복하라\n\t\t\tObjęcia szaleństwa\n\t\t\tSubmissão à Loucura\n\t\t\tПолное безумие\n\t\t\tจำนนต่อความบ้าคลั่ง\n\t\t\t疯入膏肓\n\t\t\t獻身瘋狂\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Zerstört 3 Eurer Manakristalle. Verleiht allen Dienern in Eurem Deck +2/+2."
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]Destroy 3 of your Mana\nCrystals. Give all minions\nin your deck +2/+2."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Destruye 3 de tus cristales\nde maná. Otorga a todos\nlos esbirros de tu mazo\n+2/+2."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Destruye 3 de tus Cristales de maná. Le otorga a todos los esbirros de tu mazo +2/+2."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Détruit 3 de vos cristaux de mana. Donne_+2/+2 à tous les serviteurs de votre deck."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Distrugge 3 tuoi Cristalli di Mana. +2/+2 ai servitori nel tuo mazzo."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]自分のマナクリスタルを\n3個破壊する。自分の\nデッキのミニオン全てに\n+2/+2を付与する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "내 마나 수정을 3개 파괴합니다. 내 덱에 있는 모든 하수인에게 +2/+2를 부여합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zniszcz 3 z twoich kryształów many. Daj wszystkim stronnikom w_twojej talii +2/+2."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Destrua 3 dos seus Cristais de Mana. Conceda +2/+2 a todos os lacaios do seu deck."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Уничтожает_3_ваших кристалла маны. Все существа в колоде получают +2/+2."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ทำลายคริสตัลมานาของคุณ 3_อัน มอบ +2/+2 ให้[b]มินเนี่ยนทั้งหมดในเด็คคุณ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "摧毁你的三个法力水晶。使你牌库中的所有随从牌获得+2/+2。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "摧毀3個你的法力水晶。賦予你牌堆中所有手下+2/+2"
+          }
+        },
+        "textContent": "\n\t\t\tZerstört 3 Eurer Manakristalle. Verleiht allen Dienern in Eurem Deck +2/+2.\n\t\t\t[x]Destroy 3 of your Mana\nCrystals. Give all minions\nin your deck +2/+2.\n\t\t\t[x]Destruye 3 de tus cristales\nde maná. Otorga a todos\nlos esbirros de tu mazo\n+2/+2.\n\t\t\tDestruye 3 de tus Cristales de maná. Le otorga a todos los esbirros de tu mazo +2/+2.\n\t\t\tDétruit 3 de vos cristaux de mana. Donne_+2/+2 à tous les serviteurs de votre deck.\n\t\t\tDistrugge 3 tuoi Cristalli di Mana. +2/+2 ai servitori nel tuo mazzo.\n\t\t\t[x]自分のマナクリスタルを\n3個破壊する。自分の\nデッキのミニオン全てに\n+2/+2を付与する。\n\t\t\t내 마나 수정을 3개 파괴합니다. 내 덱에 있는 모든 하수인에게 +2/+2를 부여합니다.\n\t\t\tZniszcz 3 z twoich kryształów many. Daj wszystkim stronnikom w_twojej talii +2/+2.\n\t\t\tDestrua 3 dos seus Cristais de Mana. Conceda +2/+2 a todos os lacaios do seu deck.\n\t\t\tУничтожает_3_ваших кристалла маны. Все существа в колоде получают +2/+2.\n\t\t\tทำลายคริสตัลมานาของคุณ 3_อัน มอบ +2/+2 ให้[b]มินเนี่ยนทั้งหมดในเด็คคุณ\n\t\t\t摧毁你的三个法力水晶。使你牌库中的所有随从牌获得+2/+2。\n\t\t\t摧毀3個你的法力水晶。賦予你牌堆中所有手下+2/+2\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Wenn er nicht von alleine kommt, muss man den Wahnsinn eben holen gehen."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Never give up, always surrender!"
+          },
+          "esES": {
+            "present": true,
+            "value": "Mejor que rendirse al adversario."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Retroceder, nunca. Rendirse, jamás. Entregarse... ¡siempre!"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Montre-moi ton côté sombre !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Include un pacchetto di dieci visite dallo psicologo."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "狂人のマナとてクリスタルを砕かば、即ち狂人なり。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "포기하지 마세요. 굴복하세요!"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Nie ma słodszego uścisku."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Desistir nunca, render-se sempre!"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Если безумие нельзя остановить, его нужно возглавить."
+          },
+          "thTH": {
+            "present": true,
+            "value": "อย่ายอมแพ้ แต่จงยอมจำนน!"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "永不言弃，直接屈服！"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "「三顆水晶？有誰願意這樣犧牲？」\n「我是不是在哪裡聽過這句話？」"
+          }
+        },
+        "textContent": "\n\t\t\tWenn er nicht von alleine kommt, muss man den Wahnsinn eben holen gehen.\n\t\t\tNever give up, always surrender!\n\t\t\tMejor que rendirse al adversario.\n\t\t\tRetroceder, nunca. Rendirse, jamás. Entregarse... ¡siempre!\n\t\t\tMontre-moi ton côté sombre !\n\t\t\tInclude un pacchetto di dieci visite dallo psicologo.\n\t\t\t狂人のマナとてクリスタルを砕かば、即ち狂人なり。\n\t\t\t포기하지 마세요. 굴복하세요!\n\t\t\tNie ma słodszego uścisku.\n\t\t\tDesistir nunca, render-se sempre!\n\t\t\tЕсли безумие нельзя остановить, его нужно возглавить.\n\t\t\tอย่ายอมแพ้ แต่จงยอมจำนน!\n\t\t\t永不言弃，直接屈服！\n\t\t\t「三顆水晶？有誰願意這樣犧牲？」\n「我是不是在哪裡聽過這句話？」\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Maria Trepalina"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Abstieg in den Wahnsinn"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Surrender to Madness"
+          },
+          "esES": {
+            "present": true,
+            "value": "Rendirse a la locura"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Entrégate a la locura"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Sombre dans la folie"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Resa alla Pazzia"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "怪力乱心"
+          },
+          "koKR": {
+            "present": true,
+            "value": "광기에 굴복하라"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Objęcia szaleństwa"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Submissão à Loucura"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Полное безумие"
+          },
+          "thTH": {
+            "present": true,
+            "value": "จำนนต่อความบ้าคลั่ง"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "疯入膏肓"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "獻身瘋狂"
+          }
+        },
+        "textContent": "\n\t\tAbstieg in den Wahnsinn\n\t\tSurrender to Madness\n\t\tRendirse a la locura\n\t\tEntrégate a la locura\n\t\tSombre dans la folie\n\t\tResa alla Pazzia\n\t\t怪力乱心\n\t\t광기에 굴복하라\n\t\tObjęcia szaleństwa\n\t\tSubmissão à Loucura\n\t\tПолное безумие\n\t\tจำนนต่อความบ้าคลั่ง\n\t\t疯入膏肓\n\t\t獻身瘋狂\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Zerstört 3 Eurer Manakristalle. Verleiht allen Dienern in Eurem Deck +2/+2."
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]Destroy 3 of your Mana\nCrystals. Give all minions\nin your deck +2/+2."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Destruye 3 de tus cristales\nde maná. Otorga a todos\nlos esbirros de tu mazo\n+2/+2."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Destruye 3 de tus Cristales de maná. Le otorga a todos los esbirros de tu mazo +2/+2."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Détruit 3 de vos cristaux de mana. Donne_+2/+2 à tous les serviteurs de votre deck."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Distrugge 3 tuoi Cristalli di Mana. +2/+2 ai servitori nel tuo mazzo."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]自分のマナクリスタルを\n3個破壊する。自分の\nデッキのミニオン全てに\n+2/+2を付与する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "내 마나 수정을 3개 파괴합니다. 내 덱에 있는 모든 하수인에게 +2/+2를 부여합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Zniszcz 3 z twoich kryształów many. Daj wszystkim stronnikom w_twojej talii +2/+2."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Destrua 3 dos seus Cristais de Mana. Conceda +2/+2 a todos os lacaios do seu deck."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Уничтожает_3_ваших кристалла маны. Существа в колоде получают +2/+2."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ทำลายคริสตัลมานาของคุณ 3_อัน มอบ +2/+2 ให้[b]มินเนี่ยนทั้งหมดในเด็คคุณ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "摧毁你的三个法力水晶。使你牌库中的所有随从牌获得+2/+2。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "摧毀3個你的法力水晶。賦予你牌堆中所有手下+2/+2"
+          }
+        },
+        "textContent": "\n\t\tZerstört 3 Eurer Manakristalle. Verleiht allen Dienern in Eurem Deck +2/+2.\n\t\t[x]Destroy 3 of your Mana\nCrystals. Give all minions\nin your deck +2/+2.\n\t\t[x]Destruye 3 de tus cristales\nde maná. Otorga a todos\nlos esbirros de tu mazo\n+2/+2.\n\t\tDestruye 3 de tus Cristales de maná. Le otorga a todos los esbirros de tu mazo +2/+2.\n\t\tDétruit 3 de vos cristaux de mana. Donne_+2/+2 à tous les serviteurs de votre deck.\n\t\tDistrugge 3 tuoi Cristalli di Mana. +2/+2 ai servitori nel tuo mazzo.\n\t\t[x]自分のマナクリスタルを\n3個破壊する。自分の\nデッキのミニオン全てに\n+2/+2を付与する。\n\t\t내 마나 수정을 3개 파괴합니다. 내 덱에 있는 모든 하수인에게 +2/+2를 부여합니다.\n\t\tZniszcz 3 z twoich kryształów many. Daj wszystkim stronnikom w_twojej talii +2/+2.\n\t\tDestrua 3 dos seus Cristais de Mana. Conceda +2/+2 a todos os lacaios do seu deck.\n\t\tУничтожает_3_ваших кристалла маны. Существа в колоде получают +2/+2.\n\t\tทำลายคริสตัลมานาของคุณ 3_อัน มอบ +2/+2 ให้[b]มินเนี่ยนทั้งหมดในเด็คคุณ\n\t\t摧毁你的三个法力水晶。使你牌库中的所有随从牌获得+2/+2。\n\t\t摧毀3個你的法力水晶。賦予你牌堆中所有手下+2/+2\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Wenn er nicht von alleine kommt, muss man den Wahnsinn eben holen gehen."
+          },
+          "enUS": {
+            "present": true,
+            "value": "Never give up, always surrender!"
+          },
+          "esES": {
+            "present": true,
+            "value": "Mejor que rendirse al adversario."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Retroceder, nunca. Rendirse, jamás. Entregarse... ¡siempre!"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Montre-moi ton côté sombre !"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Include un pacchetto di dieci visite dallo psicologo."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "狂人のマナとてクリスタルを砕かば、即ち狂人なり。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "포기하지 마세요. 굴복하세요!"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Nie ma słodszego uścisku."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Desistir nunca, render-se sempre!"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Если безумие нельзя остановить, его нужно возглавить."
+          },
+          "thTH": {
+            "present": true,
+            "value": "อย่ายอมแพ้ แต่จงยอมจำนน!"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "永不言弃，直接屈服！"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "「三顆水晶？有誰願意這樣犧牲？」\n「我是不是在哪裡聽過這句話？」"
+          }
+        },
+        "textContent": "\n\t\tWenn er nicht von alleine kommt, muss man den Wahnsinn eben holen gehen.\n\t\tNever give up, always surrender!\n\t\tMejor que rendirse al adversario.\n\t\tRetroceder, nunca. Rendirse, jamás. Entregarse... ¡siempre!\n\t\tMontre-moi ton côté sombre !\n\t\tInclude un pacchetto di dieci visite dallo psicologo.\n\t\t狂人のマナとてクリスタルを砕かば、即ち狂人なり。\n\t\t포기하지 마세요. 굴복하세요!\n\t\tNie ma słodszego uścisku.\n\t\tDesistir nunca, render-se sempre!\n\t\tЕсли безумие нельзя остановить, его нужно возглавить.\n\t\tอย่ายอมแพ้ แต่จงยอมจำนน!\n\t\t永不言弃，直接屈服！\n\t\t「三顆水晶？有誰願意這樣犧牲？」\n「我是不是在哪裡聽過這句話？」\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Maria Trepalina"
+      }
+    },
+    "undatedRawTagTransitions": [
+      {
+        "build": 77662,
+        "id": "TRL_500",
+        "dbfId": 50282,
+        "name": "광기에 굴복하라",
+        "rawDiff": {
+          "1635": [
+            "ABSENT",
+            "6"
+          ]
+        },
+        "tagNames": {
+          "1635": "SPELL_SCHOOL"
+        },
+        "decision": "gameplay_spell_school_added_recorded_correctly",
+        "relatedFindings": [
+          "RAST-BAL-E019"
+        ],
+        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+      }
+    ],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "광기에 굴복하라",
+      "enUS": "Surrender to Madness"
+    },
+    "currentPrintedText": {
+      "koKR": "광기에 굴복하라",
+      "enUS": "Surrender to Madness"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_500",
+    "dbfId": 50282,
+    "name": "광기에 굴복하라",
+    "type": "SPELL",
+    "cardClass": "PRIEST",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 3,
+    "text": "내 마나 수정을 3개 파괴합니다. 내 덱에 있는 모든 하수인에게 +2/+2를 부여합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "포기하지 마세요. 굴복하세요!",
+    "spellSchool": "SHADOW",
+    "portrait": "HS15-142_S.psd:fc9bfa34d3abd7a46b767530f9003231",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_500.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_500",
+    "dbfId": 50282,
+    "name": "광기에 굴복하라",
+    "type": "SPELL",
+    "cardClass": "PRIEST",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 3,
+    "text": "내 마나 수정을 3개 파괴합니다. 내 덱에 있는 모든 하수인에게 +2/+2를 부여합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "포기하지 마세요. 굴복하세요!",
+    "spellSchool": "",
+    "portrait": "HS15-142_S.psd:fc9bfa34d3abd7a46b767530f9003231",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_500.png"
+  },
+  "2021-03-26": {
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "spellSchool": "SHADOW"
+  }
+}

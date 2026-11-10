@@ -1,1 +1,759 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_532","dbfId":50430,"name":"모쉬오그 진행자","type":"MINION","cardClass":"NEUTRAL","rarity":"EPIC","collectible":true,"cost":5,"text":"이 하수인을 공격하는 적은 50%의 확률로 엉뚱한 캐릭터를 공격합니다.","attack":6,"health":5,"durability":0,"armor":0,"flavor":"삶은 그저 0과 1의 조합이 아닙니다. 하지만 앞에 K가 붙으면 아주 끝내주는 진행자라 할 수 있죠.","spellSchool":"","portrait":"HS15-077_M.psd:84c22ff1e0d804844b9fe739bed90ca3","set":"TROLL","nativeTags":[{"id":32,"name":"발동 효과 표시","value":1},{"id":45,"name":"생명력","value":5},{"id":47,"name":"공격력","value":6},{"id":48,"name":"마나 비용","value":5},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":4},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/TRL_532.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-077_M.psd:84c22ff1e0d804844b9fe739bed90ca3","goldenMaterial":"TRL_532_PremiumCard.mat:17d206c6ea450344caa35e478524aae1","goldenAnimation":"TRL_532_PremiumCard.asset:d662e23c192ca9142aec269973e4cdc6"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-077_M.psd:84c22ff1e0d804844b9fe739bed90ca3",
+        "goldenMaterial": "TRL_532_PremiumCard.mat:17d206c6ea450344caa35e478524aae1",
+        "goldenAnimation": "TRL_532_PremiumCard.asset:d662e23c192ca9142aec269973e4cdc6"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-077_M.psd:84c22ff1e0d804844b9fe739bed90ca3",
+      "goldenMaterial": "TRL_532_PremiumCard.mat:17d206c6ea450344caa35e478524aae1",
+      "goldenAnimation": "TRL_532_PremiumCard.asset:d662e23c192ca9142aec269973e4cdc6"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "32": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "6",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "32": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "6",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Mosh'Ogg-Ansager"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Mosh'Ogg Announcer"
+          },
+          "esES": {
+            "present": true,
+            "value": "Comentarista Mosh'Ogg"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Presentador mosh'ogg"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Présentateur mosh’Ogg"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Annunciatore Mosh'ogg"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "モッシュオグのアナウンサー"
+          },
+          "koKR": {
+            "present": true,
+            "value": "모쉬오그 진행자"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Mosz'ogg komentator"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Narrador Mosh'ogg"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Комментатор Мош'Огг"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ผู้บรรยายมอชอ็อก"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "莫什奥格播报员"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "莫什奧格播報員"
+          }
+        },
+        "textContent": "\n\t\t\tMosh'Ogg-Ansager\n\t\t\tMosh'Ogg Announcer\n\t\t\tComentarista Mosh'Ogg\n\t\t\tPresentador mosh'ogg\n\t\t\tPrésentateur mosh’Ogg\n\t\t\tAnnunciatore Mosh'ogg\n\t\t\tモッシュオグのアナウンサー\n\t\t\t모쉬오그 진행자\n\t\t\tMosz'ogg komentator\n\t\t\tNarrador Mosh'ogg\n\t\t\tКомментатор Мош'Огг\n\t\t\tผู้บรรยายมอชอ็อก\n\t\t\t莫什奥格播报员\n\t\t\t莫什奧格播報員\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "[x]Feinde, die diesen Diener\nangreifen, haben eine Chance\nvon 50_%, einen anderen\nCharakter anzugreifen."
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]Enemies attacking this\nhave a 50% chance to\nattack someone else."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Los enemigos que vayan\na atacar a este esbirro tienen\nun 50% de probabilidad de\natacar a otro personaje."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Los enemigos que ataquen a este esbirro tienen un 50% de probabilidad de atacar a otro personaje."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Les adversaires attaquant cette carte ont 50% de chance d’attaquer un autre personnage."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]I nemici che attaccano questo\nservitore hanno una probabilità\ndel 50% di attaccare un\naltro tuo personaggio."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]このミニオンを\n攻撃する敵は\n50%の確率で\n_____別の誰かを攻撃する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "이 하수인을 공격하는 적은 50%의 확률로 엉뚱한 캐릭터를 공격합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Wrogowie, którzy go atakują, mają 50% szans na zaatakowanie kogoś innego."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Os inimigos que atacarem este lacaio têm 50% de chance de atacar outro personagem."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Атака по этому существу с_вероятностью 50% будет перенаправлена на_другую цель."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ศัตรูที่โจมตีมินเนี่ยนตัวนี้[b]มีโอกาส 50% ที่จะ[b]โจมตีตัวละครอื่นแทน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "攻击该随从的敌人有50%几率攻击其他角色。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "[x]攻擊這張牌的\n敵人，有50%機率\n攻擊其它角色"
+          }
+        },
+        "textContent": "\n\t\t\t[x]Feinde, die diesen Diener\nangreifen, haben eine Chance\nvon 50_%, einen anderen\nCharakter anzugreifen.\n\t\t\t[x]Enemies attacking this\nhave a 50% chance to\nattack someone else.\n\t\t\t[x]Los enemigos que vayan\na atacar a este esbirro tienen\nun 50% de probabilidad de\natacar a otro personaje.\n\t\t\tLos enemigos que ataquen a este esbirro tienen un 50% de probabilidad de atacar a otro personaje.\n\t\t\tLes adversaires attaquant cette carte ont 50% de chance d’attaquer un autre personnage.\n\t\t\t[x]I nemici che attaccano questo\nservitore hanno una probabilità\ndel 50% di attaccare un\naltro tuo personaggio.\n\t\t\t[x]このミニオンを\n攻撃する敵は\n50%の確率で\n_____別の誰かを攻撃する。\n\t\t\t이 하수인을 공격하는 적은 50%의 확률로 엉뚱한 캐릭터를 공격합니다.\n\t\t\tWrogowie, którzy go atakują, mają 50% szans na zaatakowanie kogoś innego.\n\t\t\tOs inimigos que atacarem este lacaio têm 50% de chance de atacar outro personagem.\n\t\t\tАтака по этому существу с_вероятностью 50% будет перенаправлена на_другую цель.\n\t\t\tศัตรูที่โจมตีมินเนี่ยนตัวนี้[b]มีโอกาส 50% ที่จะ[b]โจมตีตัวละครอื่นแทน\n\t\t\t攻击该随从的敌人有50%几率攻击其他角色。\n\t\t\t[x]攻擊這張牌的\n敵人，有50%機率\n攻擊其它角色\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Zählt es überhaupt als Kommentatorenduo, wenn sie sich beide denselben Körper teilen?"
+          },
+          "enUS": {
+            "present": true,
+            "value": "One's play-by-play. The other is off-color."
+          },
+          "esES": {
+            "present": true,
+            "value": "Uno comenta la jugada y el otro escupe chascarrillos."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Uno relata todas las jugadas. Y el otro les quita la diversión."
+          },
+          "frFR": {
+            "present": true,
+            "value": "L’un des deux est un commentateur enthousiaste mais l’autre a l’air totalement blasé."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Una testa fa da commentatore e l'altra da assistente."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "一人は実況担当。一人は解説非担当。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "삶은 그저 0과 1의 조합이 아닙니다. 하지만 앞에 K가 붙으면 아주 끝내주는 진행자라 할 수 있죠."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Jeden komentuje akcję, drugi sypie dowcipami."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Um narra. O outro comenta."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Одна голова — хорошо, а две — хорошо-хорошо."
+          },
+          "thTH": {
+            "present": true,
+            "value": "\"โอ้โห แหม่ ถ้าลูกนี้ยิงเข้า เป็นประตูแน่นอนครับ\""
+          },
+          "zhCN": {
+            "present": true,
+            "value": "“我觉得可以。”“我觉得不行。”"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "「喜愛混戰(熱愛混戰)！沒有混戰就吃不下飯(就睡不著覺)！甚至就會活不下去的混戰痴(混戰狂)朋友，大家好！」"
+          }
+        },
+        "textContent": "\n\t\t\tZählt es überhaupt als Kommentatorenduo, wenn sie sich beide denselben Körper teilen?\n\t\t\tOne's play-by-play. The other is off-color.\n\t\t\tUno comenta la jugada y el otro escupe chascarrillos.\n\t\t\tUno relata todas las jugadas. Y el otro les quita la diversión.\n\t\t\tL’un des deux est un commentateur enthousiaste mais l’autre a l’air totalement blasé.\n\t\t\tUna testa fa da commentatore e l'altra da assistente.\n\t\t\t一人は実況担当。一人は解説非担当。\n\t\t\t삶은 그저 0과 1의 조합이 아닙니다. 하지만 앞에 K가 붙으면 아주 끝내주는 진행자라 할 수 있죠.\n\t\t\tJeden komentuje akcję, drugi sypie dowcipami.\n\t\t\tUm narra. O outro comenta.\n\t\t\tОдна голова — хорошо, а две — хорошо-хорошо.\n\t\t\t\"โอ้โห แหม่ ถ้าลูกนี้ยิงเข้า เป็นประตูแน่นอนครับ\"\n\t\t\t“我觉得可以。”“我觉得不行。”\n\t\t\t「喜愛混戰(熱愛混戰)！沒有混戰就吃不下飯(就睡不著覺)！甚至就會活不下去的混戰痴(混戰狂)朋友，大家好！」\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Steve Prescott"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Mosh’Ogg-Ansager"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Mosh'Ogg Announcer"
+          },
+          "esES": {
+            "present": true,
+            "value": "Comentarista Mosh'Ogg"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Presentador mosh'ogg"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Présentateur mosh’Ogg"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Annunciatore Mosh'ogg"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "モッシュオグのアナウンサー"
+          },
+          "koKR": {
+            "present": true,
+            "value": "모쉬오그 진행자"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Mosz'ogg komentator"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Narrador Mosh'ogg"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Комментатор Мош'Огг"
+          },
+          "thTH": {
+            "present": true,
+            "value": "ผู้บรรยายมอชอ็อก"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "莫什奥格播报员"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "莫什奧格播報員"
+          }
+        },
+        "textContent": "\n\t\tMosh’Ogg-Ansager\n\t\tMosh'Ogg Announcer\n\t\tComentarista Mosh'Ogg\n\t\tPresentador mosh'ogg\n\t\tPrésentateur mosh’Ogg\n\t\tAnnunciatore Mosh'ogg\n\t\tモッシュオグのアナウンサー\n\t\t모쉬오그 진행자\n\t\tMosz'ogg komentator\n\t\tNarrador Mosh'ogg\n\t\tКомментатор Мош'Огг\n\t\tผู้บรรยายมอชอ็อก\n\t\t莫什奥格播报员\n\t\t莫什奧格播報員\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "[x]Feinde, die diesen Diener\nangreifen, haben eine Chance\nvon 50_%, einen anderen\nCharakter anzugreifen."
+          },
+          "enUS": {
+            "present": true,
+            "value": "[x]Enemies attacking this\nhave a 50% chance to\nattack someone else."
+          },
+          "esES": {
+            "present": true,
+            "value": "[x]Los enemigos que vayan\na atacar a este esbirro tienen\nun 50% de probabilidad de\natacar a otro personaje."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Los enemigos que ataquen a este esbirro tienen un 50% de probabilidad de atacar a otro personaje."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Les adversaires attaquant cette carte ont 50% de chance d’attaquer un autre personnage."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]I nemici che attaccano questo\nservitore hanno una probabilità\ndel 50% di attaccare un\naltro tuo personaggio."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]このミニオンを\n攻撃する敵は\n50%の確率で\n_____別の誰かを攻撃する。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "이 하수인을 공격하는 적은 50%의 확률로 엉뚱한 캐릭터를 공격합니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Wrogowie, którzy go atakują, mają 50% szans na zaatakowanie kogoś innego."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Os inimigos que atacarem este lacaio têm 50% de chance de atacar outro personagem."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Атака по этому существу с_50%-й вероятностью будет перенаправлена на_другую цель."
+          },
+          "thTH": {
+            "present": true,
+            "value": "ศัตรูที่โจมตีมินเนี่ยนตัวนี้[b]มีโอกาส 50% ที่จะ[b]โจมตีตัวละครอื่นแทน"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "攻击本随从的敌人有50%几率攻击其他角色。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "[x]攻擊這張牌的\n敵人，有50%機率\n攻擊其它角色"
+          }
+        },
+        "textContent": "\n\t\t[x]Feinde, die diesen Diener\nangreifen, haben eine Chance\nvon 50_%, einen anderen\nCharakter anzugreifen.\n\t\t[x]Enemies attacking this\nhave a 50% chance to\nattack someone else.\n\t\t[x]Los enemigos que vayan\na atacar a este esbirro tienen\nun 50% de probabilidad de\natacar a otro personaje.\n\t\tLos enemigos que ataquen a este esbirro tienen un 50% de probabilidad de atacar a otro personaje.\n\t\tLes adversaires attaquant cette carte ont 50% de chance d’attaquer un autre personnage.\n\t\t[x]I nemici che attaccano questo\nservitore hanno una probabilità\ndel 50% di attaccare un\naltro tuo personaggio.\n\t\t[x]このミニオンを\n攻撃する敵は\n50%の確率で\n_____別の誰かを攻撃する。\n\t\t이 하수인을 공격하는 적은 50%의 확률로 엉뚱한 캐릭터를 공격합니다.\n\t\tWrogowie, którzy go atakują, mają 50% szans na zaatakowanie kogoś innego.\n\t\tOs inimigos que atacarem este lacaio têm 50% de chance de atacar outro personagem.\n\t\tАтака по этому существу с_50%-й вероятностью будет перенаправлена на_другую цель.\n\t\tศัตรูที่โจมตีมินเนี่ยนตัวนี้[b]มีโอกาส 50% ที่จะ[b]โจมตีตัวละครอื่นแทน\n\t\t攻击本随从的敌人有50%几率攻击其他角色。\n\t\t[x]攻擊這張牌的\n敵人，有50%機率\n攻擊其它角色\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Zählt es überhaupt als Kommentatorenduo, wenn sie sich beide denselben Körper teilen?"
+          },
+          "enUS": {
+            "present": true,
+            "value": "One's play-by-play. The other is off-color."
+          },
+          "esES": {
+            "present": true,
+            "value": "Uno comenta la jugada y el otro escupe chascarrillos."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Uno relata todas las jugadas. Y el otro les quita la diversión."
+          },
+          "frFR": {
+            "present": true,
+            "value": "L’un des deux est un commentateur enthousiaste mais l’autre a l’air totalement blasé."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Una testa fa da commentatore e l'altra da assistente."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "一人は実況担当。一人は解説非担当。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "삶은 그저 0과 1의 조합이 아닙니다. 하지만 앞에 K가 붙으면 아주 끝내주는 진행자라 할 수 있죠."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Jeden komentuje akcję, drugi sypie dowcipami."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Um narra. O outro comenta."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Одна голова — хорошо, а две — хорошо-хорошо."
+          },
+          "thTH": {
+            "present": true,
+            "value": "โอ้โห แหม่ ถ้าลูกนี้ยิงเข้า เป็นประตูแน่นอนครับ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "“我觉得可以。”“我觉得不行。”"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "「喜愛混戰(熱愛混戰)！沒有混戰就吃不下飯(就睡不著覺)！甚至就會活不下去的混戰痴(混戰狂)朋友，大家好！」"
+          }
+        },
+        "textContent": "\n\t\tZählt es überhaupt als Kommentatorenduo, wenn sie sich beide denselben Körper teilen?\n\t\tOne's play-by-play. The other is off-color.\n\t\tUno comenta la jugada y el otro escupe chascarrillos.\n\t\tUno relata todas las jugadas. Y el otro les quita la diversión.\n\t\tL’un des deux est un commentateur enthousiaste mais l’autre a l’air totalement blasé.\n\t\tUna testa fa da commentatore e l'altra da assistente.\n\t\t一人は実況担当。一人は解説非担当。\n\t\t삶은 그저 0과 1의 조합이 아닙니다. 하지만 앞에 K가 붙으면 아주 끝내주는 진행자라 할 수 있죠.\n\t\tJeden komentuje akcję, drugi sypie dowcipami.\n\t\tUm narra. O outro comenta.\n\t\tОдна голова — хорошо, а две — хорошо-хорошо.\n\t\tโอ้โห แหม่ ถ้าลูกนี้ยิงเข้า เป็นประตูแน่นอนครับ\n\t\t“我觉得可以。”“我觉得不行。”\n\t\t「喜愛混戰(熱愛混戰)！沒有混戰就吃不下飯(就睡不著覺)！甚至就會活不下去的混戰痴(混戰狂)朋友，大家好！」\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Steve Prescott"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "모쉬오그 진행자",
+      "enUS": "Mosh'Ogg Announcer"
+    },
+    "currentPrintedText": {
+      "koKR": "모쉬오그 진행자",
+      "enUS": "Mosh'Ogg Announcer"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_532",
+    "dbfId": 50430,
+    "name": "모쉬오그 진행자",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 5,
+    "text": "이 하수인을 공격하는 적은 50%의 확률로 엉뚱한 캐릭터를 공격합니다.",
+    "attack": 6,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "삶은 그저 0과 1의 조합이 아닙니다. 하지만 앞에 K가 붙으면 아주 끝내주는 진행자라 할 수 있죠.",
+    "spellSchool": "",
+    "portrait": "HS15-077_M.psd:84c22ff1e0d804844b9fe739bed90ca3",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 6
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_532.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_532",
+    "dbfId": 50430,
+    "name": "모쉬오그 진행자",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 5,
+    "text": "이 하수인을 공격하는 적은 50%의 확률로 엉뚱한 캐릭터를 공격합니다.",
+    "attack": 6,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "삶은 그저 0과 1의 조합이 아닙니다. 하지만 앞에 K가 붙으면 아주 끝내주는 진행자라 할 수 있죠.",
+    "spellSchool": "",
+    "portrait": "HS15-077_M.psd:84c22ff1e0d804844b9fe739bed90ca3",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 6
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/TRL_532.png"
+  }
+}

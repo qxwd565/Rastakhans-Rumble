@@ -1,1 +1,785 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"TRL_526","dbfId":50412,"name":"용아귀 화염용","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":5,"text":"<b>전투의 함성:</b><br></br>다른 <b>모든</b> 하수인에게<br></br>피해를 1 줍니다.","attack":3,"health":6,"durability":0,"armor":0,"flavor":"알라나에게서 도망간 녀석이 어디 갔나 했더니...","spellSchool":"","portrait":"HS15-075_M.psd:85a3bbea921fd814f8ccb291a84920e6","set":"TROLL","nativeTags":[{"id":45,"name":"생명력","value":6},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":5},{"id":114,"name":"전설 속성","value":0},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":24},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["DRAGON"],"race":"용족","classes":[],"art":"art/TRL_526.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS15-075_M.psd:85a3bbea921fd814f8ccb291a84920e6","goldenMaterial":"TRL_526_PremiumCard.mat:6f9b3acca1fe4fb45be8d021dfe2362a","goldenAnimation":"TRL_526_PremiumCard.asset:5c66eec3babbf2345a1a97c9f58ed3d5"}}
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "schemaVersion": 2,
+    "timezone": "Asia/Seoul",
+    "releaseDate": "2018-12-05",
+    "releaseConfidence": "verified",
+    "launchSource": {
+      "build": 27845,
+      "commit": "0565689bc30e7fe550053066d033958f1f90033f"
+    },
+    "currentSource": {
+      "build": 256589,
+      "commit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02"
+    },
+    "originalFourKeySource": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-075_M.psd:85a3bbea921fd814f8ccb291a84920e6",
+        "goldenMaterial": "TRL_526_PremiumCard.mat:6f9b3acca1fe4fb45be8d021dfe2362a",
+        "goldenAnimation": "TRL_526_PremiumCard.asset:5c66eec3babbf2345a1a97c9f58ed3d5"
+      }
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS15-075_M.psd:85a3bbea921fd814f8ccb291a84920e6",
+      "goldenMaterial": "TRL_526_PremiumCard.mat:6f9b3acca1fe4fb45be8d021dfe2362a",
+      "goldenAnimation": "TRL_526_PremiumCard.asset:5c66eec3babbf2345a1a97c9f58ed3d5"
+    },
+    "undatedFieldObservations": [],
+    "nativeTagCorrections": [],
+    "undatedGameplayObservations": [],
+    "launchNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "6",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "24",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "launchNativeTagsReferenced": {},
+    "currentNativeTagsOwned": {
+      "185": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "184": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "351": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "LocString"
+      },
+      "342": {
+        "present": true,
+        "valueAttributePresent": false,
+        "value": null,
+        "type": "String"
+      },
+      "45": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "6",
+        "type": "Int"
+      },
+      "47": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "3",
+        "type": "Int"
+      },
+      "48": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "5",
+        "type": "Int"
+      },
+      "183": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1129",
+        "type": "Int"
+      },
+      "199": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "12",
+        "type": "Int"
+      },
+      "200": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "24",
+        "type": "Int"
+      },
+      "202": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "4",
+        "type": "Int"
+      },
+      "203": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "218": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      },
+      "321": {
+        "present": true,
+        "valueAttributePresent": true,
+        "value": "1",
+        "type": "Int"
+      }
+    },
+    "currentNativeTagsReferenced": {},
+    "launchStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Drachenmalversenger"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Dragonmaw Scorcher"
+          },
+          "esES": {
+            "present": true,
+            "value": "Calcinador Faucedraco"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Incinerador faucedraco"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Brûleur gueule-de-dragon"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Drago Infuocato"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ドラゴンモーの爆炎竜"
+          },
+          "koKR": {
+            "present": true,
+            "value": "용아귀 화염용"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Pupil Smoczej Paszczy"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Calcinador Presa do Dragão"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Дракон-поджигатель"
+          },
+          "thTH": {
+            "present": true,
+            "value": "มังกรไฟดราก้อนมอว์"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "龙喉喷火者"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "龍喉灼燒者"
+          }
+        },
+        "textContent": "\n\t\t\tDrachenmalversenger\n\t\t\tDragonmaw Scorcher\n\t\t\tCalcinador Faucedraco\n\t\t\tIncinerador faucedraco\n\t\t\tBrûleur gueule-de-dragon\n\t\t\tDrago Infuocato\n\t\t\tドラゴンモーの爆炎竜\n\t\t\t용아귀 화염용\n\t\t\tPupil Smoczej Paszczy\n\t\t\tCalcinador Presa do Dragão\n\t\t\tДракон-поджигатель\n\t\t\tมังกรไฟดราก้อนมอว์\n\t\t\t龙喉喷火者\n\t\t\t龍喉灼燒者\n\t\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Kampfschrei:</b>\nFügt allen anderen Dienern 1 Schaden zu."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Battlecry:</b> Deal 1 damage to all other minions."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> Inflige\n1 p. de daño a todos los demás esbirros."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> inflige 1 de daño a todos los demás esbirros."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> inflige 1_point de dégâts à tous les_autres_serviteurs."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b>\ninfligge 1 danno a TUTTI\ngli altri servitori."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>雄叫び:</b>\n自身を除く\n全てのミニオンに\n______1ダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]<b>전투의 함성:</b>\n다른 <b>모든</b> 하수인에게\n피해를 1 줍니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b> Zadaj\n1 pkt. obrażeń wszystkim __pozostałym_stronnikom."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b>\nCause 1 de dano a todos os outros lacaios."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b>\nнаносит 1 ед. урона всем другим существам."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b> สร้างความเสียหาย_1_แต้ม[b]ให้[b]มินเนี่ยน[b]ตัวอื่นทั้งหมด"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>对所有其他随从造成1点伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>戰吼：</b>對全部\n其他手下造成1點傷害"
+          }
+        },
+        "textContent": "\n\t\t\t<b>Kampfschrei:</b>\nFügt allen anderen Dienern 1 Schaden zu.\n\t\t\t<b>Battlecry:</b> Deal 1 damage to all other minions.\n\t\t\t<b>Grito de batalla:</b> Inflige\n1 p. de daño a todos los demás esbirros.\n\t\t\t<b>Grito de batalla:</b> inflige 1 de daño a todos los demás esbirros.\n\t\t\t<b>Cri de guerre :</b> inflige 1_point de dégâts à tous les_autres_serviteurs.\n\t\t\t[x]<b>Grido di Battaglia:</b>\ninfligge 1 danno a TUTTI\ngli altri servitori.\n\t\t\t[x]<b>雄叫び:</b>\n自身を除く\n全てのミニオンに\n______1ダメージを与える。\n\t\t\t[x]<b>전투의 함성:</b>\n다른 <b>모든</b> 하수인에게\n피해를 1 줍니다.\n\t\t\t<b>Okrzyk bojowy:</b> Zadaj\n1 pkt. obrażeń wszystkim __pozostałym_stronnikom.\n\t\t\t<b>Grito de Guerra:</b>\nCause 1 de dano a todos os outros lacaios.\n\t\t\t<b>Боевой клич:</b>\nнаносит 1 ед. урона всем другим существам.\n\t\t\t<b>คำรามสู้ศึก:</b> สร้างความเสียหาย_1_แต้ม[b]ให้[b]มินเนี่ยน[b]ตัวอื่นทั้งหมด\n\t\t\t<b>战吼：</b>对所有其他随从造成1点伤害。\n\t\t\t<b>戰吼：</b>對全部\n其他手下造成1點傷害\n\t\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Was nicht brennt, wird brennend gemacht!"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Caution: Contains Flammable Material"
+          },
+          "esES": {
+            "present": true,
+            "value": "Altamente inflamable."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Advertencia: contiene material inflamable."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Attention : contient des matériaux inflammables."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Attenzione: materiale infiammabile."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "注意: 可燃性物質"
+          },
+          "koKR": {
+            "present": true,
+            "value": "알라나에게서 도망간 녀석이 어디 갔나 했더니..."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Uwaga: łatwopalny materiał."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Cuidado: contém material inflamável"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Если приглядеться, на одном из щитков можно увидеть надпись «ПОРОШОК УХОДИ»."
+          },
+          "thTH": {
+            "present": true,
+            "value": "คำเตือน: บรรจุวัตถุไวไฟ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "注意：易燃易爆炸"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "警告：內有可燃物質"
+          }
+        },
+        "textContent": "\n\t\t\tWas nicht brennt, wird brennend gemacht!\n\t\t\tCaution: Contains Flammable Material\n\t\t\tAltamente inflamable.\n\t\t\tAdvertencia: contiene material inflamable.\n\t\t\tAttention : contient des matériaux inflammables.\n\t\t\tAttenzione: materiale infiammabile.\n\t\t\t注意: 可燃性物質\n\t\t\t알라나에게서 도망간 녀석이 어디 갔나 했더니...\n\t\t\tUwaga: łatwopalny materiał.\n\t\t\tCuidado: contém material inflamável\n\t\t\tЕсли приглядеться, на одном из щитков можно увидеть надпись «ПОРОШОК УХОДИ».\n\t\t\tคำเตือน: บรรจุวัตถุไวไฟ\n\t\t\t注意：易燃易爆炸\n\t\t\t警告：內有可燃物質\n\t\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Maurico Herrera"
+      }
+    },
+    "currentStringTags": {
+      "185": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Drachenmalversenger"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Dragonmaw Scorcher"
+          },
+          "esES": {
+            "present": true,
+            "value": "Calcinador Faucedraco"
+          },
+          "esMX": {
+            "present": true,
+            "value": "Incinerador faucedraco"
+          },
+          "frFR": {
+            "present": true,
+            "value": "Brûleur gueule-de-dragon"
+          },
+          "itIT": {
+            "present": true,
+            "value": "Drago Infuocato"
+          },
+          "jaJP": {
+            "present": true,
+            "value": "ドラゴンモーの爆炎竜"
+          },
+          "koKR": {
+            "present": true,
+            "value": "용아귀 화염용"
+          },
+          "plPL": {
+            "present": true,
+            "value": "Pupil Smoczej Paszczy"
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Calcinador Presa do Dragão"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Дракон-поджигатель"
+          },
+          "thTH": {
+            "present": true,
+            "value": "มังกรไฟดราก้อนมอว์"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "龙喉喷火者"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "龍喉灼燒者"
+          }
+        },
+        "textContent": "\n\t\tDrachenmalversenger\n\t\tDragonmaw Scorcher\n\t\tCalcinador Faucedraco\n\t\tIncinerador faucedraco\n\t\tBrûleur gueule-de-dragon\n\t\tDrago Infuocato\n\t\tドラゴンモーの爆炎竜\n\t\t용아귀 화염용\n\t\tPupil Smoczej Paszczy\n\t\tCalcinador Presa do Dragão\n\t\tДракон-поджигатель\n\t\tมังกรไฟดราก้อนมอว์\n\t\t龙喉喷火者\n\t\t龍喉灼燒者\n\t"
+      },
+      "184": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "<b>Kampfschrei:</b>\nFügt allen anderen Dienern 1 Schaden zu."
+          },
+          "enUS": {
+            "present": true,
+            "value": "<b>Battlecry:</b> Deal 1 damage to all other minions."
+          },
+          "esES": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> Inflige\n1 p. de daño a todos los demás esbirros."
+          },
+          "esMX": {
+            "present": true,
+            "value": "<b>Grito de batalla:</b> inflige 1 de daño a todos los demás esbirros."
+          },
+          "frFR": {
+            "present": true,
+            "value": "<b>Cri de guerre :</b> inflige 1_point de dégâts à tous les_autres_serviteurs."
+          },
+          "itIT": {
+            "present": true,
+            "value": "[x]<b>Grido di Battaglia:</b>\ninfligge 1 danno a TUTTI\ngli altri servitori."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "[x]<b>雄叫び:</b>\n自身を除く\n全てのミニオンに\n______1ダメージを与える。"
+          },
+          "koKR": {
+            "present": true,
+            "value": "[x]<b>전투의 함성:</b>\n다른 <b>모든</b> 하수인에게\n피해를 1 줍니다."
+          },
+          "plPL": {
+            "present": true,
+            "value": "<b>Okrzyk bojowy:</b> Zadaj\n1 pkt. obrażeń wszystkim __pozostałym_stronnikom."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "<b>Grito de Guerra:</b>\nCause 1 de dano a todos os outros lacaios."
+          },
+          "ruRU": {
+            "present": true,
+            "value": "<b>Боевой клич:</b> наносит 1_ед. урона прочим существам."
+          },
+          "thTH": {
+            "present": true,
+            "value": "<b>คำรามสู้ศึก:</b> สร้าง[b]ความเสียหาย_1_แต้ม[b]_ให้มินเนี่ยนตัวอื่นทั้งหมด_"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "<b>战吼：</b>对所有其他随从造成1点伤害。"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "<b>戰吼：</b>對全部\n其他手下造成1點傷害"
+          }
+        },
+        "textContent": "\n\t\t<b>Kampfschrei:</b>\nFügt allen anderen Dienern 1 Schaden zu.\n\t\t<b>Battlecry:</b> Deal 1 damage to all other minions.\n\t\t<b>Grito de batalla:</b> Inflige\n1 p. de daño a todos los demás esbirros.\n\t\t<b>Grito de batalla:</b> inflige 1 de daño a todos los demás esbirros.\n\t\t<b>Cri de guerre :</b> inflige 1_point de dégâts à tous les_autres_serviteurs.\n\t\t[x]<b>Grido di Battaglia:</b>\ninfligge 1 danno a TUTTI\ngli altri servitori.\n\t\t[x]<b>雄叫び:</b>\n自身を除く\n全てのミニオンに\n______1ダメージを与える。\n\t\t[x]<b>전투의 함성:</b>\n다른 <b>모든</b> 하수인에게\n피해를 1 줍니다.\n\t\t<b>Okrzyk bojowy:</b> Zadaj\n1 pkt. obrażeń wszystkim __pozostałym_stronnikom.\n\t\t<b>Grito de Guerra:</b>\nCause 1 de dano a todos os outros lacaios.\n\t\t<b>Боевой клич:</b> наносит 1_ед. урона прочим существам.\n\t\t<b>คำรามสู้ศึก:</b> สร้าง[b]ความเสียหาย_1_แต้ม[b]_ให้มินเนี่ยนตัวอื่นทั้งหมด_\n\t\t<b>战吼：</b>对所有其他随从造成1点伤害。\n\t\t<b>戰吼：</b>對全部\n其他手下造成1點傷害\n\t"
+      },
+      "351": {
+        "present": true,
+        "type": "LocString",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {
+          "deDE": {
+            "present": true,
+            "value": "Was nicht brennt, wird brennend gemacht!"
+          },
+          "enUS": {
+            "present": true,
+            "value": "Caution: Contains Flammable Material"
+          },
+          "esES": {
+            "present": true,
+            "value": "Altamente inflamable."
+          },
+          "esMX": {
+            "present": true,
+            "value": "Advertencia: contiene material inflamable."
+          },
+          "frFR": {
+            "present": true,
+            "value": "Attention : contient des matériaux inflammables."
+          },
+          "itIT": {
+            "present": true,
+            "value": "Attenzione: materiale infiammabile."
+          },
+          "jaJP": {
+            "present": true,
+            "value": "注意: 可燃性物質"
+          },
+          "koKR": {
+            "present": true,
+            "value": "알라나에게서 도망간 녀석이 어디 갔나 했더니..."
+          },
+          "plPL": {
+            "present": true,
+            "value": "Uwaga: łatwopalny materiał."
+          },
+          "ptBR": {
+            "present": true,
+            "value": "Cuidado: contém material inflamável"
+          },
+          "ruRU": {
+            "present": true,
+            "value": "Если приглядеться, на одном из щитков можно увидеть надпись «ПОРОШОК УХОДИ»."
+          },
+          "thTH": {
+            "present": true,
+            "value": "คำเตือน: บรรจุวัตถุไวไฟ"
+          },
+          "zhCN": {
+            "present": true,
+            "value": "注意：易燃易爆炸"
+          },
+          "zhTW": {
+            "present": true,
+            "value": "警告：內有可燃物質"
+          }
+        },
+        "textContent": "\n\t\tWas nicht brennt, wird brennend gemacht!\n\t\tCaution: Contains Flammable Material\n\t\tAltamente inflamable.\n\t\tAdvertencia: contiene material inflamable.\n\t\tAttention : contient des matériaux inflammables.\n\t\tAttenzione: materiale infiammabile.\n\t\t注意: 可燃性物質\n\t\t알라나에게서 도망간 녀석이 어디 갔나 했더니...\n\t\tUwaga: łatwopalny materiał.\n\t\tCuidado: contém material inflamável\n\t\tЕсли приглядеться, на одном из щитков можно увидеть надпись «ПОРОШОК УХОДИ».\n\t\tคำเตือน: บรรจุวัตถุไวไฟ\n\t\t注意：易燃易爆炸\n\t\t警告：內有可燃物質\n\t"
+      },
+      "342": {
+        "present": true,
+        "type": "String",
+        "valueAttributePresent": false,
+        "valueAttribute": null,
+        "locales": {},
+        "textContent": "Mauricio Herrera"
+      }
+    },
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [],
+    "launchPrintedText": {
+      "koKR": "용아귀 화염용",
+      "enUS": "Dragonmaw Scorcher"
+    },
+    "currentPrintedText": {
+      "koKR": "용아귀 화염용",
+      "enUS": "Dragonmaw Scorcher"
+    },
+    "undatedCurrentDifferences": []
+  },
+  "_current": {
+    "id": "TRL_526",
+    "dbfId": 50412,
+    "name": "용아귀 화염용",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>전투의 함성:</b><br></br>다른 <b>모든</b> 하수인에게<br></br>피해를 1 줍니다.",
+    "attack": 3,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "알라나에게서 도망간 녀석이 어디 갔나 했더니...",
+    "spellSchool": "",
+    "portrait": "HS15-075_M.psd:85a3bbea921fd814f8ccb291a84920e6",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 24
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "DRAGON"
+    ],
+    "race": "용족",
+    "classes": [],
+    "art": "art/TRL_526.png"
+  },
+  "2018-12-05": {
+    "id": "TRL_526",
+    "dbfId": 50412,
+    "name": "용아귀 화염용",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>전투의 함성:</b><br></br>다른 <b>모든</b> 하수인에게<br></br>피해를 1 줍니다.",
+    "attack": 3,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "알라나에게서 도망간 녀석이 어디 갔나 했더니...",
+    "spellSchool": "",
+    "portrait": "HS15-075_M.psd:85a3bbea921fd814f8ccb291a84920e6",
+    "set": "TROLL",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 0
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 24
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "DRAGON"
+    ],
+    "race": "용족",
+    "classes": [],
+    "art": "art/TRL_526.png"
+  }
+}
