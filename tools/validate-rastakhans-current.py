@@ -83,6 +83,9 @@ def main():
     before_xml=parse_xml(xml_dir/"xml-217489.xml",manifest[217489]["xmlSha256"],164,ids)
     after_xml=parse_xml(xml_dir/"xml-217964.xml",manifest[217964]["xmlSha256"],164,ids)
     assert len(manifest)==238 and ev["summaryCounts"]["originalCardObservations"]==39032
+    for cid in ids:
+        assert before_xml[cid]["dbfId"]==cards[cid]["dbfId"]
+        assert after_xml[cid]["dbfId"]==cards[cid]["dbfId"]
     catalog=read(ROOT/"cards.json"); render=read(ROOT/"render.json"); legacy=read(ROOT/"history.json")
     central=read(DATA/"history.json")
     cards={x["id"]:x for x in catalog["cards"]}
@@ -121,6 +124,16 @@ def main():
         for field in ("id","dbfId","name","type","cardClass","rarity","collectible","cost","text","attack","health","durability","armor","art","races","race","spellSchool","set","nativeTags","mechanics","watermark","classes"):
             if field in src["_current"]:assert rc.get(field)==src["_current"][field],(cid,field,"render current")
         meta=src["_meta"]
+        baseline_raw=subprocess.check_output(["git","show",f"{BASE}:data/{cid}.json"],cwd=ROOT)
+        baseline_doc=json.loads(baseline_raw)
+        assert meta["originalFourKeySourceRaw"]==baseline_raw.decode("utf-8")
+        assert meta["originalFourKeySourceSnapshot"]==baseline_doc
+        assert meta["originalFourKeySourceSha256"]==hashlib.sha256(baseline_raw).hexdigest()
+        baseline_card=copy.deepcopy(baseline_doc["card"])
+        if cid=="TRL_351":
+            for item in baseline_card["nativeTags"]:
+                if int(item["id"])==215:item["value"]=3
+        assert baseline_card==src["_current"],(cid,"original four-key current card preservation")
         assert central["observations"]["undatedCurrentDifferences"].get(cid,[])==meta.get("undatedCurrentDifferences",[])
         assert central["observations"]["undatedRawTags"].get(cid,[])==meta.get("undatedRawTagTransitions",[])
         assert central["observations"]["undatedReferencedTags"].get(cid,[])==meta.get("undatedReferencedTagTransitions",[])

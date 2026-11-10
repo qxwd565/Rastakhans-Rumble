@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """Enrich canonical card sources with immutable raw Tag/ReferencedTag and strings."""
 from __future__ import annotations
-import copy,hashlib,json,xml.etree.ElementTree as ET,os
+import copy,hashlib,json,xml.etree.ElementTree as ET,os,subprocess
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"data"
 XML_DIR=Path(os.environ.get("RASTAKHANS_XML_DIR",str(ROOT/"sources")))
 LOCALES=("deDE","enUS","esES","esMX","frFR","itIT","jaJP","koKR","plPL","ptBR","ruRU","thTH","zhCN","zhTW")
+BASELINE_COMMIT="379a359058b8de937219cc317ee55f7186ea7528"
 WEAPONS={"TRL_074":3,"TRL_111":2,"TRL_304":3,"TRL_325":4,"TRL_352":3,"TRL_360":4,"TRL_543":2}
 
 def read(p): return json.loads(p.read_text(encoding="utf-8"))
@@ -63,10 +64,14 @@ def main():
     manifest={int(x["build"]):x for x in archive["archiveManifest"]}
     cards=read(ROOT/"cards.json")["cards"]
     ids={c["id"] for c in cards}
+    dbfs={c["id"]:c["dbfId"] for c in cards}
     initial=extract_xml(XML_DIR/"xml-27845.xml",manifest[27845]["xmlSha256"],164,ids)
     current=extract_xml(XML_DIR/"xml-256589.xml",manifest[256589]["xmlSha256"],164,ids)
     before=extract_xml(XML_DIR/"xml-217489.xml",manifest[217489]["xmlSha256"],164,ids)
     after=extract_xml(XML_DIR/"xml-217964.xml",manifest[217964]["xmlSha256"],164,ids)
+    for cid in ids:
+        if before[cid]["dbfId"]!=dbfs[cid] or after[cid]["dbfId"]!=dbfs[cid]:
+            raise ValueError(f"{cid}: 217489/217964 immutable DBF mismatch")
     raw_transitions=archive.get("observedRawTransitionReview",[])
     ref_transitions=archive.get("observedReferencedTagTransitions",[])
     updated=0
@@ -76,6 +81,22 @@ def main():
         if src["_current"].get("dbfId")!=initial[cid]["dbfId"] or src["_current"].get("dbfId")!=current[cid]["dbfId"]:
             raise ValueError(f"{cid}: immutable launch/current DBF mismatch")
         meta=src["_meta"]
+        # Preserve the complete original four-key JSON exactly; never regenerate
+        # canonical dates from this baseline snapshot.
+        baseline_raw=subprocess.check_output(
+            ["git","show",f"{BASELINE_COMMIT}:data/{cid}.json"],cwd=ROOT)
+        baseline_doc=json.loads(baseline_raw)
+        if set(baseline_doc)!={"schemaVersion","mode","card","artworkProvenance"}:
+            raise ValueError(f"{cid}: original four-key source shape changed")
+        baseline_card=copy.deepcopy(baseline_doc["card"])
+        if cid=="TRL_351":
+            for item in baseline_card["nativeTags"]:
+                if int(item["id"])==215:item["value"]=3
+        if baseline_card!=src["_current"]:
+            raise ValueError(f"{cid}: current state differs from original four-key card beyond allowed Tag 215 correction")
+        meta["originalFourKeySourceRaw"]=baseline_raw.decode("utf-8")
+        meta["originalFourKeySourceSnapshot"]=baseline_doc
+        meta["originalFourKeySourceSha256"]=hashlib.sha256(baseline_raw).hexdigest()
         meta["launchNativeTagsOwned"]=copy.deepcopy(initial[cid]["owned"])
         meta["launchNativeTagsReferenced"]=copy.deepcopy(initial[cid]["referenced"])
         meta["currentNativeTagsOwned"]=copy.deepcopy(current[cid]["owned"])
