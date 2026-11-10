@@ -350,6 +350,7 @@ def main():
             assert meta["undatedStringTagObservations"]==central["observations"]["undatedStringTagsByObservation"][cid]
             assert rc["nativeStringTags"]["undatedObservations"]==meta["undatedStringTagObservations"]
             assert {x["locale"] for x in meta["undatedStringTagObservations"][0]["differences"]}=={"thTH","zhCN"}
+            assert meta["undatedStringTagObservations"][0]["differences"]==expected_undated_locales
             assert all(x["date"] is None for x in meta["undatedStringTagObservations"][0]["differences"])
             assert meta["halazziPrePatchStringTagSnapshot"]==halazzi_before_xml[cid]["stringTags"]["184"]
             assert rc["nativeStringTags"]["undatedObservations"]==meta["undatedStringTagObservations"]
