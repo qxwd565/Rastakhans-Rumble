@@ -87,7 +87,7 @@ def extract_xml(path,expected_sha,expected_count,ids):
     if len(result)!=expected_count: raise ValueError(f"{path.name}: {len(result)} cards != {expected_count}")
     return result
 
-def replay_raw_evidence(initial,raw_transitions,ref_transitions):
+def replay_raw_evidence(initial,raw_transitions,ref_transitions,current):
     state={"owned":{cid:raw_value_map(x["owned"]) for cid,x in initial.items()},
            "referenced":{cid:raw_value_map(x["referenced"]) for cid,x in initial.items()}}
     timeline=[]
