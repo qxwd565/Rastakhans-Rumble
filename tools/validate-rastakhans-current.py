@@ -70,7 +70,7 @@ def replay(src):
             else:state[k]=copy.deepcopy(v)
     return dates,state
 
-def set_tag(tags,tid,value):
+def set_tag(tags,tid):
     return next((str(x["value"]) for x in tags if int(x["id"])==tid),"ABSENT")
 
 def main():
