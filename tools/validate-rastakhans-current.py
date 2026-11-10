@@ -188,8 +188,8 @@ def main():
     assert halazzi_before_xml["TRL_900"]["stringTags"]["184"]==launch_xml["TRL_900"]["stringTags"]["184"]
     halazzi_mid=halazzi_after_xml["TRL_900"]["stringTags"]["184"]
     assert halazzi_mid["type"]=="LocString" and halazzi_mid["valueAttributePresent"] is False
-    assert halazzi_mid["locales"]["koKR"]["value"]=="<b>속공</b>, <b>전투의_함성:</b>\\n내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다."
-    assert halazzi_mid["locales"]["enUS"]["value"]=="<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\\nthat have <b>Rush</b>."
+    assert halazzi_mid["locales"]["koKR"]["value"]=="<b>속공</b>, <b>전투의_함성:</b>\n내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다."
+    assert halazzi_mid["locales"]["enUS"]["value"]=="<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
     catalog=read(ROOT/"cards.json"); render=read(ROOT/"render.json"); legacy=read(ROOT/"history.json")
     central=read(DATA/"history.json")
     assert len(central["observations"]["datedStringTags"]["TRL_900"])==1
