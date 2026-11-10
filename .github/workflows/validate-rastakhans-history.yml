@@ -98,8 +98,8 @@ jobs:
         run: |
           set -euo pipefail
           for seed in 1 8675309; do
-            echo "=== PYTHONHASHSEED=\${seed} ==="
-            export PYTHONHASHSEED="\${seed}"
+            echo "=== PYTHONHASHSEED=$seed ==="
+            export PYTHONHASHSEED="$seed"
             python tools/migrate-rastakhans-history.py
             python tools/enrich-rastakhans-history.py
             python tools/sync-rastakhans-history.py
@@ -108,6 +108,6 @@ jobs:
             python tools/validate-rastakhans-current.py
             git diff --exit-code
             test -z "$(git status --porcelain)"
-            echo "CLEAN_SEED=\${seed} SHA=$(git rev-parse HEAD)"
+            echo "CLEAN_SEED=$seed SHA=$(git rev-parse HEAD)"
           done
           echo "FINAL_SHA=$(git rev-parse HEAD)"
