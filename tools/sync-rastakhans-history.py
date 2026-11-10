@@ -18,6 +18,7 @@ def main():
     observations={"undatedRawTags":{},"undatedReferencedTags":{},"undatedStringTags":{},
                   "undatedFields":{},"undatedCurrentDifferences":{},"halazziRush":None,"nativeTagCorrections":{}}
     initial=followups=0
+    dated_role_events=0
     for card in cards:
         cid=card["id"]; src=read(DATA/(cid+".json"))
         if src.get("schemaVersion")!=2 or src.get("_meta",{}).get("timezone")!="Asia/Seoul":
@@ -31,6 +32,7 @@ def main():
         for day in date_keys:
             if cid in events.setdefault(day,{}):raise ValueError(f"duplicate central event {day}/{cid}")
             events[day][cid]=copy.deepcopy(src[day])
+            if day!= "2018-12-05" and "nativeTagRolesDelta" in src[day]: dated_role_events+=1
         meta=src["_meta"]
         if meta.get("undatedRawTagTransitions"):
             observations["undatedRawTags"][cid]=copy.deepcopy(meta["undatedRawTagTransitions"])
@@ -56,6 +58,8 @@ def main():
         raise ValueError(f"Expected 164 initial + 51 follow-up = 215, got {initial}+{followups}")
     if len(events.get("2018-12-05",{}))!=164:
         raise ValueError("central launch event must contain all 164 cards")
+    if dated_role_events!=51:
+        raise ValueError(f"Expected 51 dated raw-role events, got {dated_role_events}")
     # Each of the seven 32.0 representation events must be present and must not
     # change logical durability or add a gameplay stat field.
     weapons=("TRL_074","TRL_111","TRL_304","TRL_325","TRL_352","TRL_360","TRL_543")
@@ -73,7 +77,7 @@ def main():
                    "archiveParts":["sources/archive-238-part-1.txt","sources/archive-238-part-2.txt","sources/archive-238-part-3.txt"],
                    "archiveJsonSha256":"e9b8a4bb39895852903de414e6f74fda6b645b6e73293efc3df70fe0a4a9201a"},
          "verification":{"archiveBuilds":238,"originalCardObservations":39032,
-                         "weaponRepresentationEvents":7,"datedGameplayEventsAdded":5,
+                         "weaponRepresentationEvents":7,"datedGameplayEventsAdded":5,"datedRawRoleEvents":dated_role_events,
                          "undatedStringDifferences":sum(len(x) for x in observations["undatedStringTags"].values())},
          "notes":["Missing or empty values are distinct from 0, false, empty string and empty arrays.",
                   "Raw Tag and ReferencedTag roles are separate from flattened nativeTags.",
@@ -82,5 +86,5 @@ def main():
     write(DATA/"history.json",out)
     print(json.dumps({"initialStates":initial,"followupEvents":followups,"totalStates":initial+followups,
                       "dates":len(events),"undatedStringCards":len(observations["undatedStringTags"]),
-                      "undatedRawCards":len(observations["undatedRawTags"])},ensure_ascii=False))
+                      "undatedRawCards":len(observations["undatedRawTags"]),"datedRawRoleEvents":dated_role_events},ensure_ascii=False))
 if __name__=="__main__":main()
