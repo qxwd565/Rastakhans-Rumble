@@ -308,6 +308,7 @@ def main():
                 "tagId":184,"beforeBuild":237510,"afterBuild":256589,
                 "beforeCommit":"a770d899b7ea12594f2edfc7d097f6ee0a858eb8",
                 "afterCommit":"31b034c26f24b8a66ece845ffd03c1ca397b9a02",
+                "before":copy.deepcopy(middle_after),"after":copy.deepcopy(current_tag),
                 "differences":residual_locale_diffs
             })
         # Attach the audited own-Tag delta to its confirmed date-first event.
