@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "repository": "qxwd565/Rastakhans-Rumble",
+  "sourceCommit": "e2e06631b86d766a632634f09a7aafbb62a06112",
+  "originalArchiveParts": [
+    "sources/archive-238-part-1.txt",
+    "sources/archive-238-part-2.txt",
+    "sources/archive-238-part-3.txt"
+  ],
+  "archiveBuilds": 238,
+  "originalCardObservations": 39032,
+  "extractedJsonBytes": 529892,
+  "extractedJsonSha256": "e9b8a4bb39895852903de414e6f74fda6b645b6e73293efc3df70fe0a4a9201a",
+  "cards": 164,
+  "collectible": 135,
+  "noncollectible": 29,
+  "initialStates": 164,
+  "existingLaterRows": 39,
+  "existingWrongDates": 19,
+  "existingRowsWithAdditionalContentIssues": 2,
+  "missingGameplayEvents": 5,
+  "wrongInitialStates": 11,
+  "wrongInitialAnimalSpiritTribes": 8,
+  "currentNativeValueErrors": 1,
+  "distinctCardsAffectedByDateOrBalance": 23,
+  "timezone": "Asia/Seoul",
+  "note": "Original gzip/base64 source parts are preserved verbatim. Concatenate only BASE64_START..BASE64_END bodies in order, base64-decode, then gzip-decompress. Do not infer missing facts beyond source archive."
+}
