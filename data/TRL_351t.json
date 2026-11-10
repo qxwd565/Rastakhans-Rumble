@@ -460,7 +460,90 @@
       "koKR": "두꺼비",
       "enUS": "Toad"
     },
-    "undatedCurrentDifferences": []
+    "undatedCurrentDifferences": [],
+    "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_351t\",\"dbfId\":50906,\"name\":\"두꺼비\",\"type\":\"MINION\",\"cardClass\":\"SHAMAN\",\"collectible\":false,\"cost\":3,\"text\":\"<b>도발</b>\",\"attack\":2,\"health\":4,\"durability\":0,\"armor\":0,\"flavor\":\"\",\"spellSchool\":\"\",\"portrait\":\"HS15-146_M.psd:2d4eb4a4a3e7493439d4439a1403ea14\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":45,\"name\":\"생명력\",\"value\":4},{\"id\":47,\"name\":\"공격력\",\"value\":2},{\"id\":48,\"name\":\"마나 비용\",\"value\":3},{\"id\":114,\"name\":\"전설 속성\",\"value\":0},{\"id\":190,\"name\":\"도발\",\"value\":1},{\"id\":199,\"name\":\"직업\",\"value\":8},{\"id\":200,\"name\":\"종족\",\"value\":20},{\"id\":202,\"name\":\"카드 유형\",\"value\":4},{\"id\":321,\"name\":\"수집 가능\",\"value\":0}],\"races\":[\"BEAST\"],\"race\":\"야수\",\"classes\":[],\"art\":\"art/TRL_351t.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-146_M.psd:2d4eb4a4a3e7493439d4439a1403ea14\",\"goldenMaterial\":\"TRL_351t_PremiumCard.mat:852c8de3f4a1b85458fd55df7d2b6600\",\"goldenAnimation\":\"TRL_351t_PremiumCard.asset:cbb80fe72c00cc743aecf30c0bdf6000\"}}\n",
+    "originalFourKeySourceSnapshot": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "card": {
+        "id": "TRL_351t",
+        "dbfId": 50906,
+        "name": "두꺼비",
+        "type": "MINION",
+        "cardClass": "SHAMAN",
+        "collectible": false,
+        "cost": 3,
+        "text": "<b>도발</b>",
+        "attack": 2,
+        "health": 4,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "",
+        "spellSchool": "",
+        "portrait": "HS15-146_M.psd:2d4eb4a4a3e7493439d4439a1403ea14",
+        "set": "TROLL",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 4
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 2
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 3
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 190,
+            "name": "도발",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 8
+          },
+          {
+            "id": 200,
+            "name": "종족",
+            "value": 20
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 0
+          }
+        ],
+        "races": [
+          "BEAST"
+        ],
+        "race": "야수",
+        "classes": [],
+        "art": "art/TRL_351t.png"
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-146_M.psd:2d4eb4a4a3e7493439d4439a1403ea14",
+        "goldenMaterial": "TRL_351t_PremiumCard.mat:852c8de3f4a1b85458fd55df7d2b6600",
+        "goldenAnimation": "TRL_351t_PremiumCard.asset:cbb80fe72c00cc743aecf30c0bdf6000"
+      }
+    },
+    "originalFourKeySourceSha256": "e8bae65d29c04b5aff52a917288551c44c18c2b7ce97a93fafb322ecf26654a6"
   },
   "_current": {
     "id": "TRL_351t",

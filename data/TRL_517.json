@@ -614,7 +614,89 @@
       "koKR": "열렬한 관객",
       "enUS": "Arena Fanatic"
     },
-    "undatedCurrentDifferences": []
+    "undatedCurrentDifferences": [],
+    "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_517\",\"dbfId\":50397,\"name\":\"열렬한 관객\",\"type\":\"MINION\",\"cardClass\":\"NEUTRAL\",\"rarity\":\"COMMON\",\"collectible\":true,\"cost\":4,\"text\":\"<b>전투의 함성:</b> 내 손에 있는 모든 하수인에게 +1/+1을 부여합니다.\",\"attack\":2,\"health\":3,\"durability\":0,\"armor\":0,\"flavor\":\"\\\"트롤의 멋짐을 모르는 당신은 불쌍해요!\\\"\",\"spellSchool\":\"\",\"portrait\":\"HS15-157_M.psd:a96101451c65a7e47bfa9a1848dd3d8f\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":45,\"name\":\"생명력\",\"value\":3},{\"id\":47,\"name\":\"공격력\",\"value\":2},{\"id\":48,\"name\":\"마나 비용\",\"value\":4},{\"id\":114,\"name\":\"전설 속성\",\"value\":0},{\"id\":199,\"name\":\"직업\",\"value\":12},{\"id\":202,\"name\":\"카드 유형\",\"value\":4},{\"id\":203,\"name\":\"희귀도\",\"value\":1},{\"id\":218,\"name\":\"전투의 함성\",\"value\":1},{\"id\":321,\"name\":\"수집 가능\",\"value\":1}],\"races\":[],\"race\":\"\",\"classes\":[],\"art\":\"art/TRL_517.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-157_M.psd:a96101451c65a7e47bfa9a1848dd3d8f\",\"goldenMaterial\":\"TRL_517_PremiumCard.mat:05fe6eed5b6edc84fb91cefbf4ae80b7\",\"goldenAnimation\":\"TRL_517_PremiumCard.asset:7dd7c98ff8b29144490b5226ed302896\"}}\n",
+    "originalFourKeySourceSnapshot": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "card": {
+        "id": "TRL_517",
+        "dbfId": 50397,
+        "name": "열렬한 관객",
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 4,
+        "text": "<b>전투의 함성:</b> 내 손에 있는 모든 하수인에게 +1/+1을 부여합니다.",
+        "attack": 2,
+        "health": 3,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "\"트롤의 멋짐을 모르는 당신은 불쌍해요!\"",
+        "spellSchool": "",
+        "portrait": "HS15-157_M.psd:a96101451c65a7e47bfa9a1848dd3d8f",
+        "set": "TROLL",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 3
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 2
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 4
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 12
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 1
+          },
+          {
+            "id": 218,
+            "name": "전투의 함성",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          }
+        ],
+        "races": [],
+        "race": "",
+        "classes": [],
+        "art": "art/TRL_517.png"
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-157_M.psd:a96101451c65a7e47bfa9a1848dd3d8f",
+        "goldenMaterial": "TRL_517_PremiumCard.mat:05fe6eed5b6edc84fb91cefbf4ae80b7",
+        "goldenAnimation": "TRL_517_PremiumCard.asset:7dd7c98ff8b29144490b5226ed302896"
+      }
+    },
+    "originalFourKeySourceSha256": "42c6d139111adc139e33aa5869b70a6aa4fdc4421ed3c73d9b16a1ea0fde400f"
   },
   "_current": {
     "id": "TRL_517",

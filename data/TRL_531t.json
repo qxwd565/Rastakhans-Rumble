@@ -294,7 +294,73 @@
       "koKR": "전율엄니 싸움꾼",
       "enUS": "Rumbletusk Breaker"
     },
-    "undatedCurrentDifferences": []
+    "undatedCurrentDifferences": [],
+    "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_531t\",\"dbfId\":50428,\"name\":\"전율엄니 싸움꾼\",\"type\":\"MINION\",\"cardClass\":\"NEUTRAL\",\"collectible\":false,\"cost\":2,\"text\":\"\",\"attack\":3,\"health\":2,\"durability\":0,\"armor\":0,\"flavor\":\"\",\"spellSchool\":\"\",\"portrait\":\"HS15-185_M.psd:7e9bff286e69a054b982ce4d9111e97a\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":45,\"name\":\"생명력\",\"value\":2},{\"id\":47,\"name\":\"공격력\",\"value\":3},{\"id\":48,\"name\":\"마나 비용\",\"value\":2},{\"id\":199,\"name\":\"직업\",\"value\":12},{\"id\":202,\"name\":\"카드 유형\",\"value\":4},{\"id\":321,\"name\":\"수집 가능\",\"value\":0}],\"races\":[],\"race\":\"\",\"classes\":[],\"art\":\"art/TRL_531t.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-185_M.psd:7e9bff286e69a054b982ce4d9111e97a\",\"goldenMaterial\":\"TRL_531t_PremiumCard.mat:cc92eda28a7dbbb48b16fd125f0f0b80\",\"goldenAnimation\":\"TRL_531t_PremiumCard.asset:f21475eb3e8ca684690b40920051d7a1\"}}\n",
+    "originalFourKeySourceSnapshot": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "card": {
+        "id": "TRL_531t",
+        "dbfId": 50428,
+        "name": "전율엄니 싸움꾼",
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "collectible": false,
+        "cost": 2,
+        "text": "",
+        "attack": 3,
+        "health": 2,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "",
+        "spellSchool": "",
+        "portrait": "HS15-185_M.psd:7e9bff286e69a054b982ce4d9111e97a",
+        "set": "TROLL",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 2
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 3
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 2
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 12
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 0
+          }
+        ],
+        "races": [],
+        "race": "",
+        "classes": [],
+        "art": "art/TRL_531t.png"
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-185_M.psd:7e9bff286e69a054b982ce4d9111e97a",
+        "goldenMaterial": "TRL_531t_PremiumCard.mat:cc92eda28a7dbbb48b16fd125f0f0b80",
+        "goldenAnimation": "TRL_531t_PremiumCard.asset:f21475eb3e8ca684690b40920051d7a1"
+      }
+    },
+    "originalFourKeySourceSha256": "a7cf1b1bb63c2beb81b87a5797825d0b56076f260189181049108fcca4cb9e04"
   },
   "_current": {
     "id": "TRL_531t",

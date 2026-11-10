@@ -626,7 +626,94 @@
       "koKR": "불멸의 정무관",
       "enUS": "Immortal Prelate"
     },
-    "undatedCurrentDifferences": []
+    "undatedCurrentDifferences": [],
+    "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_306\",\"dbfId\":50022,\"name\":\"불멸의 정무관\",\"type\":\"MINION\",\"cardClass\":\"PALADIN\",\"rarity\":\"EPIC\",\"collectible\":true,\"cost\":2,\"text\":\"<b>죽음의 메아리:</b> 이<br></br>하수인을 내 덱에 섞어<br></br>넣습니다. 모든 강화<br></br>효과가 유지됩니다.\",\"attack\":1,\"health\":3,\"durability\":0,\"armor\":0,\"flavor\":\"거참 신박한 능력이군요.\",\"spellSchool\":\"\",\"portrait\":\"HS15-051_M.psd:d935f539ae75cbf4380b6806b829ffd0\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":45,\"name\":\"생명력\",\"value\":3},{\"id\":47,\"name\":\"공격력\",\"value\":1},{\"id\":48,\"name\":\"마나 비용\",\"value\":2},{\"id\":114,\"name\":\"전설 속성\",\"value\":0},{\"id\":199,\"name\":\"직업\",\"value\":5},{\"id\":202,\"name\":\"카드 유형\",\"value\":4},{\"id\":203,\"name\":\"희귀도\",\"value\":4},{\"id\":217,\"name\":\"죽음의 메아리\",\"value\":1},{\"id\":321,\"name\":\"수집 가능\",\"value\":1},{\"id\":542,\"name\":\"게임 태그 542\",\"value\":1}],\"races\":[],\"race\":\"\",\"classes\":[],\"art\":\"art/TRL_306.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-051_M.psd:d935f539ae75cbf4380b6806b829ffd0\",\"goldenMaterial\":\"TRL_306_PremiumCard.mat:d6ecaa2ea6cb77143862dd7739717cde\",\"goldenAnimation\":\"TRL_306_PremiumCard.asset:81202d469a7d2f744903362092876e93\"}}\n",
+    "originalFourKeySourceSnapshot": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "card": {
+        "id": "TRL_306",
+        "dbfId": 50022,
+        "name": "불멸의 정무관",
+        "type": "MINION",
+        "cardClass": "PALADIN",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 2,
+        "text": "<b>죽음의 메아리:</b> 이<br></br>하수인을 내 덱에 섞어<br></br>넣습니다. 모든 강화<br></br>효과가 유지됩니다.",
+        "attack": 1,
+        "health": 3,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "거참 신박한 능력이군요.",
+        "spellSchool": "",
+        "portrait": "HS15-051_M.psd:d935f539ae75cbf4380b6806b829ffd0",
+        "set": "TROLL",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 3
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 1
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 2
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 5
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 4
+          },
+          {
+            "id": 217,
+            "name": "죽음의 메아리",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 542,
+            "name": "게임 태그 542",
+            "value": 1
+          }
+        ],
+        "races": [],
+        "race": "",
+        "classes": [],
+        "art": "art/TRL_306.png"
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-051_M.psd:d935f539ae75cbf4380b6806b829ffd0",
+        "goldenMaterial": "TRL_306_PremiumCard.mat:d6ecaa2ea6cb77143862dd7739717cde",
+        "goldenAnimation": "TRL_306_PremiumCard.asset:81202d469a7d2f744903362092876e93"
+      }
+    },
+    "originalFourKeySourceSha256": "eead537b4aacf969f100f1bb58f60b46999849244fd6fb0530016861c647bff8"
   },
   "_current": {
     "id": "TRL_306",

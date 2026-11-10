@@ -410,7 +410,83 @@
       "koKR": "바나나",
       "enUS": "Bananas"
     },
-    "undatedCurrentDifferences": []
+    "undatedCurrentDifferences": [],
+    "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_509t\",\"dbfId\":53215,\"name\":\"바나나\",\"type\":\"SPELL\",\"cardClass\":\"NEUTRAL\",\"collectible\":false,\"cost\":1,\"text\":\"하수인에게 +1/+1을 부여합니다.\",\"attack\":0,\"health\":0,\"durability\":0,\"armor\":0,\"flavor\":\"\",\"spellSchool\":\"\",\"portrait\":\"bananas2_D.psd:bb18e3f61795a8c4db20b9632c238a97\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":48,\"name\":\"마나 비용\",\"value\":1},{\"id\":114,\"name\":\"전설 속성\",\"value\":0},{\"id\":199,\"name\":\"직업\",\"value\":12},{\"id\":202,\"name\":\"카드 유형\",\"value\":5},{\"id\":321,\"name\":\"수집 가능\",\"value\":0},{\"id\":330,\"name\":\"효과 생성 시각 효과\",\"value\":0},{\"id\":331,\"name\":\"효과 지속 시각 효과\",\"value\":0},{\"id\":858,\"name\":\"게임 태그 858\",\"value\":1694}],\"races\":[],\"race\":\"\",\"classes\":[],\"art\":\"art/TRL_509t.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"bananas2_D.psd:bb18e3f61795a8c4db20b9632c238a97\",\"goldenMaterial\":\"EX1_014t_PremiumCard.mat:8bd956fde1064f449aa7d6b9ded06ae7\",\"goldenAnimation\":\"\"}}\n",
+    "originalFourKeySourceSnapshot": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "card": {
+        "id": "TRL_509t",
+        "dbfId": 53215,
+        "name": "바나나",
+        "type": "SPELL",
+        "cardClass": "NEUTRAL",
+        "collectible": false,
+        "cost": 1,
+        "text": "하수인에게 +1/+1을 부여합니다.",
+        "attack": 0,
+        "health": 0,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "",
+        "spellSchool": "",
+        "portrait": "bananas2_D.psd:bb18e3f61795a8c4db20b9632c238a97",
+        "set": "TROLL",
+        "nativeTags": [
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 1
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 12
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 5
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 0
+          },
+          {
+            "id": 330,
+            "name": "효과 생성 시각 효과",
+            "value": 0
+          },
+          {
+            "id": 331,
+            "name": "효과 지속 시각 효과",
+            "value": 0
+          },
+          {
+            "id": 858,
+            "name": "게임 태그 858",
+            "value": 1694
+          }
+        ],
+        "races": [],
+        "race": "",
+        "classes": [],
+        "art": "art/TRL_509t.png"
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "bananas2_D.psd:bb18e3f61795a8c4db20b9632c238a97",
+        "goldenMaterial": "EX1_014t_PremiumCard.mat:8bd956fde1064f449aa7d6b9ded06ae7",
+        "goldenAnimation": ""
+      }
+    },
+    "originalFourKeySourceSha256": "8181e12d39d4cd3458e200c782189b9659c9071912f107594a5ad3b8b75c5e07"
   },
   "_current": {
     "id": "TRL_509t",

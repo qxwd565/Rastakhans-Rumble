@@ -650,7 +650,109 @@
       "koKR": "대장군 분",
       "enUS": "War Master Voone"
     },
-    "undatedCurrentDifferences": []
+    "undatedCurrentDifferences": [],
+    "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_328\",\"dbfId\":50066,\"name\":\"대장군 분\",\"type\":\"MINION\",\"cardClass\":\"WARRIOR\",\"rarity\":\"LEGENDARY\",\"collectible\":true,\"cost\":4,\"text\":\"<b>전투의 함성:</b><br></br>내 손에 있는 모든<br></br>용족을 복사합니다.\",\"attack\":4,\"health\":3,\"durability\":0,\"armor\":0,\"flavor\":\"구루바시, 소리 질러!\",\"spellSchool\":\"\",\"portrait\":\"HS15-134_M.psd:dbfd1e76e876d61478c3f3721efb2550\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":45,\"name\":\"생명력\",\"value\":3},{\"id\":47,\"name\":\"공격력\",\"value\":4},{\"id\":48,\"name\":\"마나 비용\",\"value\":4},{\"id\":114,\"name\":\"전설 속성\",\"value\":1},{\"id\":199,\"name\":\"직업\",\"value\":10},{\"id\":201,\"name\":\"진영\",\"value\":3},{\"id\":202,\"name\":\"카드 유형\",\"value\":4},{\"id\":203,\"name\":\"희귀도\",\"value\":5},{\"id\":218,\"name\":\"전투의 함성\",\"value\":1},{\"id\":251,\"name\":\"게임 태그 251\",\"value\":1},{\"id\":321,\"name\":\"수집 가능\",\"value\":1},{\"id\":330,\"name\":\"효과 생성 시각 효과\",\"value\":0},{\"id\":331,\"name\":\"효과 지속 시각 효과\",\"value\":0}],\"races\":[],\"race\":\"\",\"classes\":[],\"art\":\"art/TRL_328.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-134_M.psd:dbfd1e76e876d61478c3f3721efb2550\",\"goldenMaterial\":\"TRL_328_PremiumCard.mat:caad30722ebb6db4e9afec18c4f8670a\",\"goldenAnimation\":\"TRL_328_PremiumCard.asset:c38bd552886e80e40b7b215d5dd15f4c\"}}\n",
+    "originalFourKeySourceSnapshot": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "card": {
+        "id": "TRL_328",
+        "dbfId": 50066,
+        "name": "대장군 분",
+        "type": "MINION",
+        "cardClass": "WARRIOR",
+        "rarity": "LEGENDARY",
+        "collectible": true,
+        "cost": 4,
+        "text": "<b>전투의 함성:</b><br></br>내 손에 있는 모든<br></br>용족을 복사합니다.",
+        "attack": 4,
+        "health": 3,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "구루바시, 소리 질러!",
+        "spellSchool": "",
+        "portrait": "HS15-134_M.psd:dbfd1e76e876d61478c3f3721efb2550",
+        "set": "TROLL",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 3
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 4
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 4
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 10
+          },
+          {
+            "id": 201,
+            "name": "진영",
+            "value": 3
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 5
+          },
+          {
+            "id": 218,
+            "name": "전투의 함성",
+            "value": 1
+          },
+          {
+            "id": 251,
+            "name": "게임 태그 251",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 330,
+            "name": "효과 생성 시각 효과",
+            "value": 0
+          },
+          {
+            "id": 331,
+            "name": "효과 지속 시각 효과",
+            "value": 0
+          }
+        ],
+        "races": [],
+        "race": "",
+        "classes": [],
+        "art": "art/TRL_328.png"
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-134_M.psd:dbfd1e76e876d61478c3f3721efb2550",
+        "goldenMaterial": "TRL_328_PremiumCard.mat:caad30722ebb6db4e9afec18c4f8670a",
+        "goldenAnimation": "TRL_328_PremiumCard.asset:c38bd552886e80e40b7b215d5dd15f4c"
+      }
+    },
+    "originalFourKeySourceSha256": "e36826e6d4b8b549abe9ab5b3400536b4a7660930b16adb678d30b226e0acc8c"
   },
   "_current": {
     "id": "TRL_328",

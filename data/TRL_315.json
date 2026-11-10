@@ -614,7 +614,99 @@
       "koKR": "방화광",
       "enUS": "Pyromaniac"
     },
-    "undatedCurrentDifferences": []
+    "undatedCurrentDifferences": [],
+    "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_315\",\"dbfId\":50084,\"name\":\"방화광\",\"type\":\"MINION\",\"cardClass\":\"MAGE\",\"rarity\":\"RARE\",\"collectible\":true,\"cost\":3,\"text\":\"내 영웅 능력으로 하수인을 처치할 때마다 카드를 뽑습니다.\",\"attack\":3,\"health\":4,\"durability\":0,\"armor\":0,\"flavor\":\"불장난을 좋아합니다.\",\"spellSchool\":\"\",\"portrait\":\"HS15-137_M.psd:dd9d5f8ab14164d4e938a5a2ddf8fd70\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":32,\"name\":\"발동 효과 표시\",\"value\":1},{\"id\":45,\"name\":\"생명력\",\"value\":4},{\"id\":47,\"name\":\"공격력\",\"value\":3},{\"id\":48,\"name\":\"마나 비용\",\"value\":3},{\"id\":114,\"name\":\"전설 속성\",\"value\":0},{\"id\":199,\"name\":\"직업\",\"value\":4},{\"id\":202,\"name\":\"카드 유형\",\"value\":4},{\"id\":203,\"name\":\"희귀도\",\"value\":3},{\"id\":321,\"name\":\"수집 가능\",\"value\":1},{\"id\":330,\"name\":\"효과 생성 시각 효과\",\"value\":0},{\"id\":331,\"name\":\"효과 지속 시각 효과\",\"value\":0}],\"races\":[],\"race\":\"\",\"classes\":[],\"art\":\"art/TRL_315.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-137_M.psd:dd9d5f8ab14164d4e938a5a2ddf8fd70\",\"goldenMaterial\":\"TRL_315_PremiumCard.mat:4efb5551a5473cb48aaa2a721c7b1de6\",\"goldenAnimation\":\"TRL_315_PremiumCard.asset:3f58a8a950c0cca42ac8850e60c0d8a2\"}}\n",
+    "originalFourKeySourceSnapshot": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "card": {
+        "id": "TRL_315",
+        "dbfId": 50084,
+        "name": "방화광",
+        "type": "MINION",
+        "cardClass": "MAGE",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 3,
+        "text": "내 영웅 능력으로 하수인을 처치할 때마다 카드를 뽑습니다.",
+        "attack": 3,
+        "health": 4,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "불장난을 좋아합니다.",
+        "spellSchool": "",
+        "portrait": "HS15-137_M.psd:dd9d5f8ab14164d4e938a5a2ddf8fd70",
+        "set": "TROLL",
+        "nativeTags": [
+          {
+            "id": 32,
+            "name": "발동 효과 표시",
+            "value": 1
+          },
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 4
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 3
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 3
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 4
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 3
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 330,
+            "name": "효과 생성 시각 효과",
+            "value": 0
+          },
+          {
+            "id": 331,
+            "name": "효과 지속 시각 효과",
+            "value": 0
+          }
+        ],
+        "races": [],
+        "race": "",
+        "classes": [],
+        "art": "art/TRL_315.png"
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-137_M.psd:dd9d5f8ab14164d4e938a5a2ddf8fd70",
+        "goldenMaterial": "TRL_315_PremiumCard.mat:4efb5551a5473cb48aaa2a721c7b1de6",
+        "goldenAnimation": "TRL_315_PremiumCard.asset:3f58a8a950c0cca42ac8850e60c0d8a2"
+      }
+    },
+    "originalFourKeySourceSha256": "5cee2b6462991f60e3f652efeb211db823ba8e96c5ae7b021c9879699248079b"
   },
   "_current": {
     "id": "TRL_315",

@@ -476,7 +476,90 @@
       "koKR": "좀비",
       "enUS": "Zombie"
     },
-    "undatedCurrentDifferences": []
+    "undatedCurrentDifferences": [],
+    "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_131t\",\"dbfId\":50845,\"name\":\"좀비\",\"type\":\"MINION\",\"cardClass\":\"PRIEST\",\"collectible\":false,\"cost\":1,\"text\":\"<b>도발</b>\",\"attack\":1,\"health\":1,\"durability\":0,\"armor\":0,\"flavor\":\"\",\"spellSchool\":\"\",\"portrait\":\"HS15-037_M.psd:b337c557b30bbd346b6836f75e41d009\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":45,\"name\":\"생명력\",\"value\":1},{\"id\":47,\"name\":\"공격력\",\"value\":1},{\"id\":48,\"name\":\"마나 비용\",\"value\":1},{\"id\":114,\"name\":\"전설 속성\",\"value\":0},{\"id\":190,\"name\":\"도발\",\"value\":1},{\"id\":199,\"name\":\"직업\",\"value\":6},{\"id\":200,\"name\":\"종족\",\"value\":11},{\"id\":202,\"name\":\"카드 유형\",\"value\":4},{\"id\":321,\"name\":\"수집 가능\",\"value\":0}],\"races\":[\"UNDEAD\"],\"race\":\"언데드\",\"classes\":[],\"art\":\"art/TRL_131t.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-037_M.psd:b337c557b30bbd346b6836f75e41d009\",\"goldenMaterial\":\"TRL_131t_PremiumCard.mat:c4497f098ef7d464ba1c759e493a3ddb\",\"goldenAnimation\":\"TRL_131t_PremiumCard.asset:c6cef9b0e800ad74f9e3c8f8da3db37e\"}}\n",
+    "originalFourKeySourceSnapshot": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "card": {
+        "id": "TRL_131t",
+        "dbfId": 50845,
+        "name": "좀비",
+        "type": "MINION",
+        "cardClass": "PRIEST",
+        "collectible": false,
+        "cost": 1,
+        "text": "<b>도발</b>",
+        "attack": 1,
+        "health": 1,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "",
+        "spellSchool": "",
+        "portrait": "HS15-037_M.psd:b337c557b30bbd346b6836f75e41d009",
+        "set": "TROLL",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 1
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 1
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 1
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 190,
+            "name": "도발",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 6
+          },
+          {
+            "id": 200,
+            "name": "종족",
+            "value": 11
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 0
+          }
+        ],
+        "races": [
+          "UNDEAD"
+        ],
+        "race": "언데드",
+        "classes": [],
+        "art": "art/TRL_131t.png"
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-037_M.psd:b337c557b30bbd346b6836f75e41d009",
+        "goldenMaterial": "TRL_131t_PremiumCard.mat:c4497f098ef7d464ba1c759e493a3ddb",
+        "goldenAnimation": "TRL_131t_PremiumCard.asset:c6cef9b0e800ad74f9e3c8f8da3db37e"
+      }
+    },
+    "originalFourKeySourceSha256": "596e2115e99161c549f4812e2ab2118475be8a2d15e16f39ad5e6d20520e2732"
   },
   "_current": {
     "id": "TRL_131t",

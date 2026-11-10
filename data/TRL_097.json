@@ -606,7 +606,79 @@
       "koKR": "교령",
       "enUS": "Seance"
     },
-    "undatedCurrentDifferences": []
+    "undatedCurrentDifferences": [],
+    "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_097\",\"dbfId\":50278,\"name\":\"교령\",\"type\":\"SPELL\",\"cardClass\":\"PRIEST\",\"rarity\":\"COMMON\",\"collectible\":true,\"cost\":2,\"text\":\"하수인을 선택합니다.<br></br>그 카드를 복사하여<br></br>내 손으로 가져옵니다.\",\"attack\":0,\"health\":0,\"durability\":0,\"armor\":0,\"flavor\":\"\\\"혼령들이 내게 말을 했다네.\\\" \\\"뭐라고 말했는가?\\\" \\\"두 턴 전에 킬각이었는데 자네가 놓쳤다고.\\\"\",\"spellSchool\":\"SHADOW\",\"portrait\":\"HS15-140_S.psd:a460420a032428843a81fd18edaca74c\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":48,\"name\":\"마나 비용\",\"value\":2},{\"id\":114,\"name\":\"전설 속성\",\"value\":0},{\"id\":199,\"name\":\"직업\",\"value\":6},{\"id\":202,\"name\":\"카드 유형\",\"value\":5},{\"id\":203,\"name\":\"희귀도\",\"value\":1},{\"id\":321,\"name\":\"수집 가능\",\"value\":1},{\"id\":1635,\"name\":\"주문 속성\",\"value\":6}],\"races\":[],\"race\":\"\",\"classes\":[],\"art\":\"art/TRL_097.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-140_S.psd:a460420a032428843a81fd18edaca74c\",\"goldenMaterial\":\"TRL_097_PremiumCard.mat:6895920ce80d4414cb7b8b35db45c5b8\",\"goldenAnimation\":\"TRL_097_PremiumCard.asset:64096174acd6a23498da8c06a58a8cb1\"}}\n",
+    "originalFourKeySourceSnapshot": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "card": {
+        "id": "TRL_097",
+        "dbfId": 50278,
+        "name": "교령",
+        "type": "SPELL",
+        "cardClass": "PRIEST",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 2,
+        "text": "하수인을 선택합니다.<br></br>그 카드를 복사하여<br></br>내 손으로 가져옵니다.",
+        "attack": 0,
+        "health": 0,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "\"혼령들이 내게 말을 했다네.\" \"뭐라고 말했는가?\" \"두 턴 전에 킬각이었는데 자네가 놓쳤다고.\"",
+        "spellSchool": "SHADOW",
+        "portrait": "HS15-140_S.psd:a460420a032428843a81fd18edaca74c",
+        "set": "TROLL",
+        "nativeTags": [
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 2
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 6
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 5
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 1635,
+            "name": "주문 속성",
+            "value": 6
+          }
+        ],
+        "races": [],
+        "race": "",
+        "classes": [],
+        "art": "art/TRL_097.png"
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-140_S.psd:a460420a032428843a81fd18edaca74c",
+        "goldenMaterial": "TRL_097_PremiumCard.mat:6895920ce80d4414cb7b8b35db45c5b8",
+        "goldenAnimation": "TRL_097_PremiumCard.asset:64096174acd6a23498da8c06a58a8cb1"
+      }
+    },
+    "originalFourKeySourceSha256": "cae684533e50a57db0432e8c09921b92801f73f86d13d5f02937c3cafbf61540"
   },
   "_current": {
     "id": "TRL_097",

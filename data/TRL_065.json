@@ -638,7 +638,94 @@
       "koKR": "줄진",
       "enUS": "Zul'jin"
     },
-    "undatedCurrentDifferences": []
+    "undatedCurrentDifferences": [],
+    "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_065\",\"dbfId\":49819,\"name\":\"줄진\",\"type\":\"HERO\",\"cardClass\":\"HUNTER\",\"rarity\":\"LEGENDARY\",\"collectible\":true,\"cost\":10,\"text\":\"<b>전투의 함성:</b><br></br>이번 게임에서 내가 낸<br></br>모든 주문을 시전합니다.<br></br><i>(대상은 무작위로 선택)</i>\",\"attack\":0,\"health\":30,\"durability\":0,\"armor\":5,\"flavor\":\"도끼를 피할 수 있다면 공도 피할 수 있어.\",\"spellSchool\":\"\",\"portrait\":\"HS15-022_H.psd:a759b89274f0e9245be480f99cb12817\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":45,\"name\":\"생명력\",\"value\":30},{\"id\":48,\"name\":\"마나 비용\",\"value\":10},{\"id\":114,\"name\":\"전설 속성\",\"value\":1},{\"id\":199,\"name\":\"직업\",\"value\":3},{\"id\":202,\"name\":\"카드 유형\",\"value\":3},{\"id\":203,\"name\":\"희귀도\",\"value\":5},{\"id\":218,\"name\":\"전투의 함성\",\"value\":1},{\"id\":292,\"name\":\"방어도\",\"value\":5},{\"id\":321,\"name\":\"수집 가능\",\"value\":1},{\"id\":380,\"name\":\"영웅 능력\",\"value\":50579}],\"races\":[],\"race\":\"\",\"classes\":[],\"art\":\"art/TRL_065.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-022_H.psd:a759b89274f0e9245be480f99cb12817\",\"goldenMaterial\":\"TRL_065_PremiumCard.mat:f2fcb32e69785924186f07ae6b3b43dd\",\"goldenAnimation\":\"TRL_065_PremiumCard.asset:d8568a72fd6942645ace7298f45da4f8\"}}\n",
+    "originalFourKeySourceSnapshot": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "card": {
+        "id": "TRL_065",
+        "dbfId": 49819,
+        "name": "줄진",
+        "type": "HERO",
+        "cardClass": "HUNTER",
+        "rarity": "LEGENDARY",
+        "collectible": true,
+        "cost": 10,
+        "text": "<b>전투의 함성:</b><br></br>이번 게임에서 내가 낸<br></br>모든 주문을 시전합니다.<br></br><i>(대상은 무작위로 선택)</i>",
+        "attack": 0,
+        "health": 30,
+        "durability": 0,
+        "armor": 5,
+        "flavor": "도끼를 피할 수 있다면 공도 피할 수 있어.",
+        "spellSchool": "",
+        "portrait": "HS15-022_H.psd:a759b89274f0e9245be480f99cb12817",
+        "set": "TROLL",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 30
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 10
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 3
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 3
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 5
+          },
+          {
+            "id": 218,
+            "name": "전투의 함성",
+            "value": 1
+          },
+          {
+            "id": 292,
+            "name": "방어도",
+            "value": 5
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 380,
+            "name": "영웅 능력",
+            "value": 50579
+          }
+        ],
+        "races": [],
+        "race": "",
+        "classes": [],
+        "art": "art/TRL_065.png"
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-022_H.psd:a759b89274f0e9245be480f99cb12817",
+        "goldenMaterial": "TRL_065_PremiumCard.mat:f2fcb32e69785924186f07ae6b3b43dd",
+        "goldenAnimation": "TRL_065_PremiumCard.asset:d8568a72fd6942645ace7298f45da4f8"
+      }
+    },
+    "originalFourKeySourceSha256": "da75a8c61433e3b5aa3bd9c496a4bb60a9b7426b35b21144caa665264b49760b"
   },
   "_current": {
     "id": "TRL_065",

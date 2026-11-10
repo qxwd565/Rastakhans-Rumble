@@ -602,7 +602,89 @@
       "koKR": "투기장 보물상자",
       "enUS": "Arena Treasure Chest"
     },
-    "undatedCurrentDifferences": []
+    "undatedCurrentDifferences": [],
+    "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_525\",\"dbfId\":50411,\"name\":\"투기장 보물상자\",\"type\":\"MINION\",\"cardClass\":\"NEUTRAL\",\"rarity\":\"COMMON\",\"collectible\":true,\"cost\":4,\"text\":\"<b>죽음의 메아리:</b><br></br>카드를 2장 뽑습니다.\",\"attack\":0,\"health\":4,\"durability\":0,\"armor\":0,\"flavor\":\"이걸 여는 데 그렇게 오랜 시간이 걸릴 줄 누가 알았겠습니까.\",\"spellSchool\":\"\",\"portrait\":\"HS15-168_M.psd:5adec1f04eb119048a1f0dcda6ab1400\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":45,\"name\":\"생명력\",\"value\":4},{\"id\":47,\"name\":\"공격력\",\"value\":0},{\"id\":48,\"name\":\"마나 비용\",\"value\":4},{\"id\":114,\"name\":\"전설 속성\",\"value\":0},{\"id\":199,\"name\":\"직업\",\"value\":12},{\"id\":202,\"name\":\"카드 유형\",\"value\":4},{\"id\":203,\"name\":\"희귀도\",\"value\":1},{\"id\":217,\"name\":\"죽음의 메아리\",\"value\":1},{\"id\":321,\"name\":\"수집 가능\",\"value\":1}],\"races\":[],\"race\":\"\",\"classes\":[],\"art\":\"art/TRL_525.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-168_M.psd:5adec1f04eb119048a1f0dcda6ab1400\",\"goldenMaterial\":\"TRL_525_PremiumCard.mat:1f734b47c944b6d40867e2eb87bc75a3\",\"goldenAnimation\":\"TRL_525_PremiumCard.asset:f30d887012c6f7f4d890da6e2a232ac0\"}}\n",
+    "originalFourKeySourceSnapshot": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "card": {
+        "id": "TRL_525",
+        "dbfId": 50411,
+        "name": "투기장 보물상자",
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 4,
+        "text": "<b>죽음의 메아리:</b><br></br>카드를 2장 뽑습니다.",
+        "attack": 0,
+        "health": 4,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "이걸 여는 데 그렇게 오랜 시간이 걸릴 줄 누가 알았겠습니까.",
+        "spellSchool": "",
+        "portrait": "HS15-168_M.psd:5adec1f04eb119048a1f0dcda6ab1400",
+        "set": "TROLL",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 4
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 0
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 4
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 12
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 1
+          },
+          {
+            "id": 217,
+            "name": "죽음의 메아리",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          }
+        ],
+        "races": [],
+        "race": "",
+        "classes": [],
+        "art": "art/TRL_525.png"
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-168_M.psd:5adec1f04eb119048a1f0dcda6ab1400",
+        "goldenMaterial": "TRL_525_PremiumCard.mat:1f734b47c944b6d40867e2eb87bc75a3",
+        "goldenAnimation": "TRL_525_PremiumCard.asset:f30d887012c6f7f4d890da6e2a232ac0"
+      }
+    },
+    "originalFourKeySourceSha256": "c482e5fc90b4ee2c0d58750f3b73246605914f459ae422750c98e36ced2ae1ae"
   },
   "_current": {
     "id": "TRL_525",

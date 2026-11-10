@@ -532,7 +532,111 @@
       "koKR": "전쟁드루이드 로티",
       "enUS": "Wardruid Loti"
     },
-    "undatedCurrentDifferences": []
+    "undatedCurrentDifferences": [],
+    "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_343et1\",\"dbfId\":43315,\"name\":\"전쟁드루이드 로티\",\"type\":\"MINION\",\"cardClass\":\"DRUID\",\"rarity\":\"LEGENDARY\",\"collectible\":false,\"cost\":3,\"text\":\"<b>도발</b>, <b>속공</b>, <b>독성</b>, <b>은신</b>, <b>주문 공격력 +1</b>\",\"attack\":4,\"health\":6,\"durability\":0,\"armor\":0,\"flavor\":\"\",\"spellSchool\":\"\",\"portrait\":\"HS15-117_M.psd:7f46d1927abccfb468335057a3eb121d\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":45,\"name\":\"생명력\",\"value\":6},{\"id\":47,\"name\":\"공격력\",\"value\":4},{\"id\":48,\"name\":\"마나 비용\",\"value\":3},{\"id\":114,\"name\":\"전설 속성\",\"value\":1},{\"id\":190,\"name\":\"도발\",\"value\":1},{\"id\":191,\"name\":\"은신\",\"value\":1},{\"id\":192,\"name\":\"주문 공격력\",\"value\":1},{\"id\":199,\"name\":\"직업\",\"value\":2},{\"id\":200,\"name\":\"종족\",\"value\":20},{\"id\":202,\"name\":\"카드 유형\",\"value\":4},{\"id\":203,\"name\":\"희귀도\",\"value\":5},{\"id\":363,\"name\":\"독성\",\"value\":1},{\"id\":791,\"name\":\"속공\",\"value\":1}],\"races\":[\"BEAST\"],\"race\":\"야수\",\"classes\":[],\"art\":\"art/TRL_343et1.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-117_M.psd:7f46d1927abccfb468335057a3eb121d\",\"goldenMaterial\":\"TRL_343et1_PremiumCard.mat:559c8be0188fe15419bbb471a0d56b74\",\"goldenAnimation\":\"TRL_343et1_PremiumCard.asset:d9354b84001491c49baab3a8d9ffa555\"}}\n",
+    "originalFourKeySourceSnapshot": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "card": {
+        "id": "TRL_343et1",
+        "dbfId": 43315,
+        "name": "전쟁드루이드 로티",
+        "type": "MINION",
+        "cardClass": "DRUID",
+        "rarity": "LEGENDARY",
+        "collectible": false,
+        "cost": 3,
+        "text": "<b>도발</b>, <b>속공</b>, <b>독성</b>, <b>은신</b>, <b>주문 공격력 +1</b>",
+        "attack": 4,
+        "health": 6,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "",
+        "spellSchool": "",
+        "portrait": "HS15-117_M.psd:7f46d1927abccfb468335057a3eb121d",
+        "set": "TROLL",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 6
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 4
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 3
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 1
+          },
+          {
+            "id": 190,
+            "name": "도발",
+            "value": 1
+          },
+          {
+            "id": 191,
+            "name": "은신",
+            "value": 1
+          },
+          {
+            "id": 192,
+            "name": "주문 공격력",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 2
+          },
+          {
+            "id": 200,
+            "name": "종족",
+            "value": 20
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 5
+          },
+          {
+            "id": 363,
+            "name": "독성",
+            "value": 1
+          },
+          {
+            "id": 791,
+            "name": "속공",
+            "value": 1
+          }
+        ],
+        "races": [
+          "BEAST"
+        ],
+        "race": "야수",
+        "classes": [],
+        "art": "art/TRL_343et1.png"
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-117_M.psd:7f46d1927abccfb468335057a3eb121d",
+        "goldenMaterial": "TRL_343et1_PremiumCard.mat:559c8be0188fe15419bbb471a0d56b74",
+        "goldenAnimation": "TRL_343et1_PremiumCard.asset:d9354b84001491c49baab3a8d9ffa555"
+      }
+    },
+    "originalFourKeySourceSha256": "f3503d5f181dd4becb6b6812ffb892f0844e5e48a7d46cfbcd579576b9a487a5"
   },
   "_current": {
     "id": "TRL_343et1",

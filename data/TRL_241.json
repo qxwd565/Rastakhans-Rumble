@@ -638,7 +638,96 @@
       "koKR": "랩터 공크",
       "enUS": "Gonk, the Raptor"
     },
-    "undatedCurrentDifferences": []
+    "undatedCurrentDifferences": [],
+    "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_241\",\"dbfId\":49985,\"name\":\"랩터 공크\",\"type\":\"MINION\",\"cardClass\":\"DRUID\",\"rarity\":\"LEGENDARY\",\"collectible\":true,\"cost\":7,\"text\":\"내 영웅이 공격하여<br></br>하수인을 처치한 후에,<br></br>내 영웅이 다시 공격할<br></br>수 있습니다.\",\"attack\":4,\"health\":9,\"durability\":0,\"armor\":0,\"flavor\":\"공크에게 복종하지 않는 잔달라 드루이드들을 지칭하는 말이 있습니다. \\\"저녁 식사\\\".\",\"spellSchool\":\"\",\"portrait\":\"HS15-012_M.psd:f256e8eb70e5a74438b46af393685fe3\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":32,\"name\":\"발동 효과 표시\",\"value\":1},{\"id\":45,\"name\":\"생명력\",\"value\":9},{\"id\":47,\"name\":\"공격력\",\"value\":4},{\"id\":48,\"name\":\"마나 비용\",\"value\":7},{\"id\":114,\"name\":\"전설 속성\",\"value\":1},{\"id\":199,\"name\":\"직업\",\"value\":2},{\"id\":200,\"name\":\"종족\",\"value\":20},{\"id\":202,\"name\":\"카드 유형\",\"value\":4},{\"id\":203,\"name\":\"희귀도\",\"value\":5},{\"id\":321,\"name\":\"수집 가능\",\"value\":1}],\"races\":[\"BEAST\"],\"race\":\"야수\",\"classes\":[],\"art\":\"art/TRL_241.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-012_M.psd:f256e8eb70e5a74438b46af393685fe3\",\"goldenMaterial\":\"TRL_241_PremiumCard.mat:0ee54c54c57c78a4492238e08513a012\",\"goldenAnimation\":\"TRL_241_PremiumCard.asset:493aeed4e3287504ba3b4219cd38ac72\"}}\n",
+    "originalFourKeySourceSnapshot": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "card": {
+        "id": "TRL_241",
+        "dbfId": 49985,
+        "name": "랩터 공크",
+        "type": "MINION",
+        "cardClass": "DRUID",
+        "rarity": "LEGENDARY",
+        "collectible": true,
+        "cost": 7,
+        "text": "내 영웅이 공격하여<br></br>하수인을 처치한 후에,<br></br>내 영웅이 다시 공격할<br></br>수 있습니다.",
+        "attack": 4,
+        "health": 9,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "공크에게 복종하지 않는 잔달라 드루이드들을 지칭하는 말이 있습니다. \"저녁 식사\".",
+        "spellSchool": "",
+        "portrait": "HS15-012_M.psd:f256e8eb70e5a74438b46af393685fe3",
+        "set": "TROLL",
+        "nativeTags": [
+          {
+            "id": 32,
+            "name": "발동 효과 표시",
+            "value": 1
+          },
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 9
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 4
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 7
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 2
+          },
+          {
+            "id": 200,
+            "name": "종족",
+            "value": 20
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 5
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          }
+        ],
+        "races": [
+          "BEAST"
+        ],
+        "race": "야수",
+        "classes": [],
+        "art": "art/TRL_241.png"
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-012_M.psd:f256e8eb70e5a74438b46af393685fe3",
+        "goldenMaterial": "TRL_241_PremiumCard.mat:0ee54c54c57c78a4492238e08513a012",
+        "goldenAnimation": "TRL_241_PremiumCard.asset:493aeed4e3287504ba3b4219cd38ac72"
+      }
+    },
+    "originalFourKeySourceSha256": "74e8746577e4813e19d12feb5afd5b70ea6758caedd4d3e8092ff9d2c50e6b0e"
   },
   "_current": {
     "id": "TRL_241",

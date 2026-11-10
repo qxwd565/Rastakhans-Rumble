@@ -590,7 +590,89 @@
       "koKR": "포식자의 본능",
       "enUS": "Predatory Instincts"
     },
-    "undatedCurrentDifferences": []
+    "undatedCurrentDifferences": [],
+    "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_244\",\"dbfId\":49994,\"name\":\"포식자의 본능\",\"type\":\"SPELL\",\"cardClass\":\"DRUID\",\"rarity\":\"RARE\",\"collectible\":true,\"cost\":4,\"text\":\"내 덱에서<br></br>야수를 뽑습니다.<br></br>그 야수의 생명력을<br></br>2배 증가시킵니다.\",\"attack\":0,\"health\":0,\"durability\":0,\"armor\":0,\"flavor\":\"누가 녀석의 먹거리를 훔쳐먹었나 봅니다.\",\"spellSchool\":\"\",\"portrait\":\"HS15-108_S.psd:ad48eb2163c42f84b905221997b55ba9\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":48,\"name\":\"마나 비용\",\"value\":4},{\"id\":114,\"name\":\"전설 속성\",\"value\":0},{\"id\":199,\"name\":\"직업\",\"value\":2},{\"id\":201,\"name\":\"진영\",\"value\":3},{\"id\":202,\"name\":\"카드 유형\",\"value\":5},{\"id\":203,\"name\":\"희귀도\",\"value\":3},{\"id\":321,\"name\":\"수집 가능\",\"value\":1},{\"id\":330,\"name\":\"효과 생성 시각 효과\",\"value\":0},{\"id\":331,\"name\":\"효과 지속 시각 효과\",\"value\":0}],\"races\":[],\"race\":\"\",\"classes\":[],\"art\":\"art/TRL_244.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-108_S.psd:ad48eb2163c42f84b905221997b55ba9\",\"goldenMaterial\":\"TRL_244_PremiumCard.mat:2bdd852ef68a73d4295d06402288135f\",\"goldenAnimation\":\"TRL_244_PremiumCard.asset:eb6e12b54d4452f439ffb834a55b63ae\"}}\n",
+    "originalFourKeySourceSnapshot": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "card": {
+        "id": "TRL_244",
+        "dbfId": 49994,
+        "name": "포식자의 본능",
+        "type": "SPELL",
+        "cardClass": "DRUID",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 4,
+        "text": "내 덱에서<br></br>야수를 뽑습니다.<br></br>그 야수의 생명력을<br></br>2배 증가시킵니다.",
+        "attack": 0,
+        "health": 0,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "누가 녀석의 먹거리를 훔쳐먹었나 봅니다.",
+        "spellSchool": "",
+        "portrait": "HS15-108_S.psd:ad48eb2163c42f84b905221997b55ba9",
+        "set": "TROLL",
+        "nativeTags": [
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 4
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 2
+          },
+          {
+            "id": 201,
+            "name": "진영",
+            "value": 3
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 5
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 3
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 330,
+            "name": "효과 생성 시각 효과",
+            "value": 0
+          },
+          {
+            "id": 331,
+            "name": "효과 지속 시각 효과",
+            "value": 0
+          }
+        ],
+        "races": [],
+        "race": "",
+        "classes": [],
+        "art": "art/TRL_244.png"
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-108_S.psd:ad48eb2163c42f84b905221997b55ba9",
+        "goldenMaterial": "TRL_244_PremiumCard.mat:2bdd852ef68a73d4295d06402288135f",
+        "goldenAnimation": "TRL_244_PremiumCard.asset:eb6e12b54d4452f439ffb834a55b63ae"
+      }
+    },
+    "originalFourKeySourceSha256": "5ff5b1623ed8fc99c649bfca00df4a3e53a9a51e5640fe8ca4c21764bfc668e9"
   },
   "_current": {
     "id": "TRL_244",

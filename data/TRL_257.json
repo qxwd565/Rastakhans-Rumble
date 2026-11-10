@@ -614,7 +614,84 @@
       "koKR": "혈트롤 피탐식자",
       "enUS": "Blood Troll Sapper"
     },
-    "undatedCurrentDifferences": []
+    "undatedCurrentDifferences": [],
+    "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_257\",\"dbfId\":50070,\"name\":\"혈트롤 피탐식자\",\"type\":\"MINION\",\"cardClass\":\"WARLOCK\",\"rarity\":\"COMMON\",\"collectible\":true,\"cost\":7,\"text\":\"아군 하수인이 죽은 후에,<br></br>적 영웅에게 피해를<br></br>2 줍니다.\",\"attack\":5,\"health\":8,\"durability\":0,\"armor\":0,\"flavor\":\"영화관을 증정할 정도로 피를 뽑습니다.\",\"spellSchool\":\"\",\"portrait\":\"HS15-001_M.psd:1ae0e72fc20bcb343861a8f5248b2eb8\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":32,\"name\":\"발동 효과 표시\",\"value\":1},{\"id\":45,\"name\":\"생명력\",\"value\":8},{\"id\":47,\"name\":\"공격력\",\"value\":5},{\"id\":48,\"name\":\"마나 비용\",\"value\":7},{\"id\":199,\"name\":\"직업\",\"value\":9},{\"id\":202,\"name\":\"카드 유형\",\"value\":4},{\"id\":203,\"name\":\"희귀도\",\"value\":1},{\"id\":321,\"name\":\"수집 가능\",\"value\":1}],\"races\":[],\"race\":\"\",\"classes\":[],\"art\":\"art/TRL_257.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-001_M.psd:1ae0e72fc20bcb343861a8f5248b2eb8\",\"goldenMaterial\":\"TRL_257_PremiumCard.mat:919259a92632bfe47a5433ec26168063\",\"goldenAnimation\":\"TRL_257_PremiumCard.asset:6d9f254f844467649a27757a9e04d513\"}}\n",
+    "originalFourKeySourceSnapshot": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "card": {
+        "id": "TRL_257",
+        "dbfId": 50070,
+        "name": "혈트롤 피탐식자",
+        "type": "MINION",
+        "cardClass": "WARLOCK",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 7,
+        "text": "아군 하수인이 죽은 후에,<br></br>적 영웅에게 피해를<br></br>2 줍니다.",
+        "attack": 5,
+        "health": 8,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "영화관을 증정할 정도로 피를 뽑습니다.",
+        "spellSchool": "",
+        "portrait": "HS15-001_M.psd:1ae0e72fc20bcb343861a8f5248b2eb8",
+        "set": "TROLL",
+        "nativeTags": [
+          {
+            "id": 32,
+            "name": "발동 효과 표시",
+            "value": 1
+          },
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 8
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 5
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 7
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 9
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          }
+        ],
+        "races": [],
+        "race": "",
+        "classes": [],
+        "art": "art/TRL_257.png"
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS15-001_M.psd:1ae0e72fc20bcb343861a8f5248b2eb8",
+        "goldenMaterial": "TRL_257_PremiumCard.mat:919259a92632bfe47a5433ec26168063",
+        "goldenAnimation": "TRL_257_PremiumCard.asset:6d9f254f844467649a27757a9e04d513"
+      }
+    },
+    "originalFourKeySourceSha256": "3472cc937ee8d1165b6295c43c93631441916970e7025fdd9199faf80d8c9813"
   },
   "_current": {
     "id": "TRL_257",
