@@ -125,6 +125,8 @@ def main():
     current=extract_xml(XML_DIR/"xml-256589.xml",manifest[256589]["xmlSha256"],164,ids)
     before=extract_xml(XML_DIR/"xml-217489.xml",manifest[217489]["xmlSha256"],164,ids)
     after=extract_xml(XML_DIR/"xml-217964.xml",manifest[217964]["xmlSha256"],164,ids)
+    halazzi_before=extract_xml(XML_DIR/"xml-236529.xml",manifest[236529]["xmlSha256"],164,ids)
+    halazzi_after=extract_xml(XML_DIR/"xml-237510.xml",manifest[237510]["xmlSha256"],164,ids)
     for cid in ids:
         if before[cid]["dbfId"]!=dbfs[cid] or after[cid]["dbfId"]!=dbfs[cid]:
             raise ValueError(f"{cid}: 217489/217964 immutable DBF mismatch")
@@ -245,6 +247,28 @@ def main():
                 "koKRPresent":"koKR" in locales,"enUSPresent":"enUS" in locales}
         meta["launchPrintedText"]=printed_text(initial[cid])
         meta["currentPrintedText"]=printed_text(current[cid])
+        if cid=="TRL_900":
+            # Preserve the exact Tag 184 state immediately before and after the
+            # confirmed 35.0 text change. Later current-vs-middle formatting is
+            # deliberately undated; never overwrite either immutable snapshot.
+            middle_before=halazzi_before[cid]["stringTags"].get("184")
+            middle_after=halazzi_after[cid]["stringTags"].get("184")
+            if middle_before!=initial[cid]["stringTags"].get("184"):
+                raise ValueError("TRL_900: 236529 Tag 184 does not match launch raw state")
+            if not middle_after or middle_after.get("type")!="LocString":
+                raise ValueError("TRL_900: 237510 Tag 184 LocString missing")
+            if middle_after.get("locales",{}).get("koKR",{}).get("value") != "<b>속공</b>, <b>전투의_함성:</b>\\n내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다.":
+                raise ValueError("TRL_900: 237510 Korean Tag 184 raw text mismatch")
+            if middle_after.get("locales",{}).get("enUS",{}).get("value") != "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\\nthat have <b>Rush</b>.":
+                raise ValueError("TRL_900: 237510 English Tag 184 raw text mismatch")
+            meta["datedStringTagObservations"]=[{
+                "date":"2026-03-11","build":237510,"tagId":184,
+                "before":copy.deepcopy(middle_before),"after":copy.deepcopy(middle_after),
+                "source":{"beforeBuild":236529,"beforeCommit":"0a5a61e3867ae9eea535bdbd4df714671ff87910",
+                    "beforeXmlSha256":"7dac9874ff56544d1b2c43c6e446fad519f059b66073c3960318a01c32d66a26",
+                    "afterCommit":"a770d899b7ea12594f2edfc7d097f6ee0a858eb8",
+                    "afterXmlSha256":"a86b5126943a91ceb1e18decca646ce533f0a06c3fec34e12dc11f45e602c3e6"}
+            }]
         # Attach the audited own-Tag delta to its confirmed date-first event.
         dated_row=dated_by_card.get((cid,"2018-12-05"))
         if dated_row: raise ValueError(f"{cid}: raw role event cannot be dated to launch")
