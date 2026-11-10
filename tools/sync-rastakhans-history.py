@@ -16,7 +16,7 @@ def main():
     cards=catalog["cards"]
     events={}
     observations={"undatedRawTags":{},"undatedReferencedTags":{},"undatedStringTags":{},
-                  "undatedFields":{},"halazziRush":None,"nativeTagCorrections":{}}
+                  "undatedFields":{},"undatedCurrentDifferences":{},"halazziRush":None,"nativeTagCorrections":{}}
     initial=followups=0
     for card in cards:
         cid=card["id"]; src=read(DATA/(cid+".json"))
@@ -38,6 +38,8 @@ def main():
             observations["undatedReferencedTags"][cid]=copy.deepcopy(meta["undatedReferencedTagTransitions"])
         if meta.get("undatedFieldObservations"):
             observations["undatedFields"][cid]=copy.deepcopy(meta["undatedFieldObservations"])
+        if meta.get("undatedCurrentDifferences"):
+            observations["undatedCurrentDifferences"][cid]=copy.deepcopy(meta["undatedCurrentDifferences"])
         if meta.get("nativeTagCorrections"):
             observations["nativeTagCorrections"][cid]=copy.deepcopy(meta["nativeTagCorrections"])
         if meta.get("halazziRushEvidence"):
