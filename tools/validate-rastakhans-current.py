@@ -120,6 +120,27 @@ def expected_dated_role_rows(archive):
             rows[key]=item
     return rows
 
+def validate_all_raw_role_transitions(archive,launch_xml,current_xml):
+    state={"owned":{cid:role_values(x["owned"]) for cid,x in launch_xml.items()},
+           "referenced":{cid:role_values(x["referenced"]) for cid,x in launch_xml.items()}}
+    timeline=[]
+    for row in archive["observedRawTransitionReview"]:
+        timeline.append((int(row["build"]),0,row["id"],row["rawDiff"],"owned"))
+    for group in archive["observedReferencedTagTransitions"]:
+        for row in group.get("changes",[]):
+            timeline.append((int(group["build"]),1,row["id"],row["diff"],"referenced"))
+    for build,_,cid,diff,role in sorted(timeline,key=lambda x:(x[0],x[1],x[2])):
+        values=state[role][cid]
+        for tid,(before,after) in diff.items():
+            tid=str(tid)
+            assert values.get(tid,"ABSENT")==before,(cid,build,role,tid,before,values.get(tid,"ABSENT"))
+            if after=="ABSENT":values.pop(tid,None)
+            else:values[tid]=str(after)
+    for cid in launch_xml:
+        assert state["owned"][cid]==role_values(current_xml[cid]["owned"]),(cid,"full own-role archive replay")
+        assert state["referenced"][cid]==role_values(current_xml[cid]["referenced"]),(cid,"full referenced-role archive replay")
+    return len(timeline)
+
 def validate_public_reverse_replay(cid,dates,snapshots,render_card):
     current={k:copy.deepcopy(render_card[k]) for k in PUBLIC_FIELDS if k in render_card}
     revisions=render_card.get("history",[])
@@ -167,6 +188,8 @@ def main():
     schema_manifest=read(ROOT/"sources"/"rast-schema-s002.json")
     dated_role_rows=expected_dated_role_rows(ev)
     assert len(dated_role_rows)==51
+    full_role_transition_count=validate_all_raw_role_transitions(ev,launch_xml,current_xml)
+    assert full_role_transition_count==121
     assert schema_manifest["schema"]=="RAST-SCHEMA-S002"
     assert schema_manifest["numericFieldCount"]==406 and schema_manifest["emptyChoiceFieldCount"]==220
     cards={x["id"]:x for x in catalog["cards"]}
@@ -303,6 +326,9 @@ def main():
     assert raw_role_event_count==51
     assert central["verification"]["datedRawRoleEvents"]==51
     assert reverse_checks==215
+    assert all(str(card["dbfId"]) in legacy["cards"] for card in cards.values())
+    for cid,rc in renders.items():
+        assert legacy["cards"][str(cards[cid]["dbfId"])]["history"]==rc.get("history",[])
     assert len(central["events"]["2022-11-30"])==17  # 16 corrected existing rows + missing TRL_311
     assert len(central["events"]["2025-03-19"])==7
     assert len(central["events"]["2026-03-11"])>=1
@@ -404,7 +430,7 @@ def main():
     print(json.dumps({"cards":len(cards),"initialStates":164,"followupEvents":51,"totalStates":215,
         "datedRows":sum(len(x) for x in central["events"].values()),
         "launchCorrections":11,"correctedExistingRows":2,"missingGameplayEvents":5,
-        "weaponRepresentationEvents":7,"datedRawRoleEvents":raw_role_event_count,"reverseReplaySegments":reverse_checks,"schemaNumericOmissions":406,"schemaChoiceOmissions":220,"currentReferencedTags":ref_count,
+        "weaponRepresentationEvents":7,"datedRawRoleEvents":raw_role_event_count,"reverseReplaySegments":reverse_checks,"fullRawRoleTransitions":full_role_transition_count,"schemaNumericOmissions":406,"schemaChoiceOmissions":220,"currentReferencedTags":ref_count,
         "explicitRelationships":relation_count,"logicalReplayChecks":logical_replay_checks,
         "undatedCurrentDifferenceChecks":undated_checks,"archiveBuilds":238,
         "xmlSnapshotsIndependentlyParsed":4,"result":"PASS"},ensure_ascii=False))
