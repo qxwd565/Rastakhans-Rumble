@@ -125,7 +125,7 @@ class RastakhansHistoryTests(unittest.TestCase):
             for locale in sorted(set(after["locales"])|set(current["locales"]))
             if after["locales"].get(locale,"ABSENT")!=current["locales"].get(locale,"ABSENT")
         ])
-        self.assertNotEqual(second["differences"][0]["before"],launch["locales"].get(second["differences"][0]["locale"]))
+        self.assertIn("koKR",{x["locale"] for x in second["differences"]})
         self.assertEqual(self.central["observations"]["undatedStringTagsByObservation"]["TRL_900"],observations)
         self.assertEqual(self.central["observations"]["undatedStringTags"]["TRL_900"],[
             {"tagId":184,"before":after,"after":current,"date":None}
