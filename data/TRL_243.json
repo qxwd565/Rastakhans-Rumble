@@ -559,12 +559,20 @@
     "undatedRawTagTransitions": [],
     "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "암습",
-      "enUS": "Pounce"
+      "tagId": 184,
+      "present": true,
+      "koKR": "이번 턴에\n내 영웅이 공격력을\n+2 얻습니다.",
+      "enUS": "Give your hero +2_Attack this turn.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "currentPrintedText": {
-      "koKR": "암습",
-      "enUS": "Pounce"
+      "tagId": 184,
+      "present": true,
+      "koKR": "이번 턴에\n내 영웅이 공격력을\n+2 얻습니다.",
+      "enUS": "Give your hero +2_Attack this turn.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "undatedCurrentDifferences": [],
     "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_243\",\"dbfId\":49990,\"name\":\"암습\",\"type\":\"SPELL\",\"cardClass\":\"DRUID\",\"rarity\":\"COMMON\",\"collectible\":true,\"cost\":0,\"text\":\"이번 턴에<br></br>내 영웅이 공격력을<br></br>+2 얻습니다.\",\"attack\":0,\"health\":0,\"durability\":0,\"armor\":0,\"flavor\":\"빈 상자 안에 뛰어 들어가려는 엄청난 충동을 가지고 있습니다.\",\"spellSchool\":\"\",\"portrait\":\"HS15-008_S.psd:3d20d7285dab69048a304badcdf21ed0\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":48,\"name\":\"마나 비용\",\"value\":0},{\"id\":199,\"name\":\"직업\",\"value\":2},{\"id\":202,\"name\":\"카드 유형\",\"value\":5},{\"id\":203,\"name\":\"희귀도\",\"value\":1},{\"id\":321,\"name\":\"수집 가능\",\"value\":1}],\"races\":[],\"race\":\"\",\"classes\":[],\"art\":\"art/TRL_243.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-008_S.psd:3d20d7285dab69048a304badcdf21ed0\",\"goldenMaterial\":\"TRL_243_PremiumCard.mat:ebacf096463827349b23794d28ee54ff\",\"goldenAnimation\":\"TRL_243_PremiumCard.asset:6742458c4fb2c064783addccfa725dd2\"}}\n",
@@ -628,7 +636,19 @@
         "goldenAnimation": "TRL_243_PremiumCard.asset:6742458c4fb2c064783addccfa725dd2"
       }
     },
-    "originalFourKeySourceSha256": "a320e9b35484a3475bf12d88baf322f63576cf947512600a495cb5da8be7badc"
+    "originalFourKeySourceSha256": "a320e9b35484a3475bf12d88baf322f63576cf947512600a495cb5da8be7badc",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_243",
@@ -690,10 +710,6 @@
     "collectible": true,
     "cost": 0,
     "text": "이번 턴에<br></br>내 영웅이 공격력을<br></br>+2 얻습니다.",
-    "attack": 0,
-    "health": 0,
-    "durability": 0,
-    "armor": 0,
     "flavor": "빈 상자 안에 뛰어 들어가려는 엄청난 충동을 가지고 있습니다.",
     "spellSchool": "",
     "portrait": "HS15-008_S.psd:3d20d7285dab69048a304badcdf21ed0",
@@ -725,8 +741,6 @@
         "value": 1
       }
     ],
-    "races": [],
-    "race": "",
     "classes": [],
     "art": "art/TRL_243.png"
   }

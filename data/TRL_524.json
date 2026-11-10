@@ -778,37 +778,23 @@
         "textContent": "David Devries"
       }
     },
-    "undatedRawTagTransitions": [
-      {
-        "build": 235290,
-        "id": "TRL_524",
-        "dbfId": 50410,
-        "name": "방패파괴자",
-        "rawDiff": {
-          "200": [
-            "ABSENT",
-            "2"
-          ]
-        },
-        "tagNames": {
-          "200": "CARDRACE"
-        },
-        "decision": "gameplay_tribe_change",
-        "relatedFindings": [
-          "RAST-BAL-E039"
-        ],
-        "note": "주 종족과 보조 종족 모두 판정. 기존 또는 누락 날짜 사건에 연결.",
-        "sourceURL": "https://github.com/HearthSim/hsdata/blob/382ab7f189586f73a4fab4e11a3bc4e1d6827a08/CardDefs.xml"
-      }
-    ],
+    "undatedRawTagTransitions": [],
     "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "방패파괴자",
-      "enUS": "Shieldbreaker"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>전투의 함성:</b> <b>도발</b> 능력이 있는 적 하수인을 <b>침묵</b>시킵니다.",
+      "enUS": "<b>Battlecry:</b> <b>Silence</b> an enemy minion with <b>Taunt</b>.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "currentPrintedText": {
-      "koKR": "방패파괴자",
-      "enUS": "Shieldbreaker"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>전투의 함성:</b> <b>도발</b> 능력이 있는 적 하수인을 <b>침묵</b>시킵니다.",
+      "enUS": "<b>Battlecry:</b> <b>Silence</b> an enemy minion with <b>Taunt</b>.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "undatedCurrentDifferences": [],
     "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_524\",\"dbfId\":50410,\"name\":\"방패파괴자\",\"type\":\"MINION\",\"cardClass\":\"NEUTRAL\",\"rarity\":\"RARE\",\"collectible\":true,\"cost\":2,\"text\":\"<b>전투의 함성:</b> <b>도발</b> 능력이 있는 적 하수인을 <b>침묵</b>시킵니다.\",\"attack\":2,\"health\":1,\"durability\":0,\"armor\":0,\"flavor\":\"가장 어두운 던전에 이어 투기장에도 모습을 보이는군요.\",\"spellSchool\":\"\",\"portrait\":\"HS15-167_M.psd:f8df486c7451397449ada79dd60b1c91\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":45,\"name\":\"생명력\",\"value\":1},{\"id\":47,\"name\":\"공격력\",\"value\":2},{\"id\":48,\"name\":\"마나 비용\",\"value\":2},{\"id\":114,\"name\":\"전설 속성\",\"value\":0},{\"id\":190,\"name\":\"도발\",\"value\":1},{\"id\":199,\"name\":\"직업\",\"value\":12},{\"id\":200,\"name\":\"종족\",\"value\":2},{\"id\":202,\"name\":\"카드 유형\",\"value\":4},{\"id\":203,\"name\":\"희귀도\",\"value\":3},{\"id\":218,\"name\":\"전투의 함성\",\"value\":1},{\"id\":321,\"name\":\"수집 가능\",\"value\":1},{\"id\":339,\"name\":\"침묵\",\"value\":1}],\"races\":[\"DRAENEI\"],\"race\":\"드레나이\",\"classes\":[],\"art\":\"art/TRL_524.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-167_M.psd:f8df486c7451397449ada79dd60b1c91\",\"goldenMaterial\":\"TRL_524_PremiumCard.mat:f247e071900fd054aa738c9da6dd31b2\",\"goldenAnimation\":\"TRL_524_PremiumCard.asset:ee7a9716c1437354187cd24489bb18a6\"}}\n",
@@ -909,7 +895,16 @@
         "goldenAnimation": "TRL_524_PremiumCard.asset:ee7a9716c1437354187cd24489bb18a6"
       }
     },
-    "originalFourKeySourceSha256": "fcfe467c3add91578eb12a10e571209f089c94bb921922c693976a610a4f16eb"
+    "originalFourKeySourceSha256": "fcfe467c3add91578eb12a10e571209f089c94bb921922c693976a610a4f16eb",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_524",
@@ -1010,10 +1005,7 @@
     "text": "<b>전투의 함성:</b> <b>도발</b> 능력이 있는 적 하수인을 <b>침묵</b>시킵니다.",
     "attack": 2,
     "health": 1,
-    "durability": 0,
-    "armor": 0,
     "flavor": "가장 어두운 던전에 이어 투기장에도 모습을 보이는군요.",
-    "spellSchool": "",
     "portrait": "HS15-167_M.psd:f8df486c7451397449ada79dd60b1c91",
     "set": "TROLL",
     "nativeTags": [
@@ -1144,6 +1136,34 @@
         "name": "침묵",
         "value": 1
       }
-    ]
+    ],
+    "nativeTagRolesDelta": {
+      "owned": {
+        "set": {
+          "200": "2"
+        },
+        "removed": []
+      },
+      "referenced": {
+        "set": {},
+        "removed": []
+      }
+    },
+    "source": {
+      "rawRoleEvidence": {
+        "build": 235290,
+        "decision": "gameplay_tribe_change",
+        "findingIds": [
+          "RAST-BAL-E039"
+        ],
+        "rawDiff": {
+          "200": [
+            "ABSENT",
+            "2"
+          ]
+        },
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/382ab7f189586f73a4fab4e11a3bc4e1d6827a08/CardDefs.xml"
+      }
+    }
   }
 }

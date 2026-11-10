@@ -619,12 +619,20 @@
     "undatedRawTagTransitions": [],
     "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "전쟁드루이드 로티",
-      "enUS": "Wardruid Loti"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>선택 - </b>네 가지 공룡 중 하나로 변신합니다.",
+      "enUS": "<b>Choose One - </b>Transform into one of Loti's four dinosaur forms.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "currentPrintedText": {
-      "koKR": "전쟁드루이드 로티",
-      "enUS": "Wardruid Loti"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>선택 - </b>네 가지 공룡 중 하나로 변신합니다.",
+      "enUS": "<b>Choose One - </b>Transform into one of Loti's four dinosaur forms.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "undatedCurrentDifferences": [],
     "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_343\",\"dbfId\":43310,\"name\":\"전쟁드루이드 로티\",\"type\":\"MINION\",\"cardClass\":\"DRUID\",\"rarity\":\"LEGENDARY\",\"collectible\":true,\"cost\":3,\"text\":\"<b>선택 - </b>네 가지 공룡 중 하나로 변신합니다.\",\"attack\":1,\"health\":2,\"durability\":0,\"armor\":0,\"flavor\":\"\\\"라바사우루스!\\\" \\\"무섭겠네.\\\" \\\"...블라모닥스!\\\" \\\"그런 공룡이 있어?\\\" \\\"스맥소돈!\\\" \\\"...이제 그냥 막 만들어내네.\\\"\",\"spellSchool\":\"\",\"portrait\":\"HS15-112_M.psd:7d2a48519e053c4428f66719a9e73b59\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":45,\"name\":\"생명력\",\"value\":2},{\"id\":47,\"name\":\"공격력\",\"value\":1},{\"id\":48,\"name\":\"마나 비용\",\"value\":3},{\"id\":114,\"name\":\"전설 속성\",\"value\":1},{\"id\":199,\"name\":\"직업\",\"value\":2},{\"id\":202,\"name\":\"카드 유형\",\"value\":4},{\"id\":203,\"name\":\"희귀도\",\"value\":5},{\"id\":321,\"name\":\"수집 가능\",\"value\":1},{\"id\":443,\"name\":\"선택\",\"value\":1}],\"races\":[],\"race\":\"\",\"classes\":[],\"art\":\"art/TRL_343.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-112_M.psd:7d2a48519e053c4428f66719a9e73b59\",\"goldenMaterial\":\"TRL_343_PremiumCard.mat:1e03bc70497358f40bca09854f2f310f\",\"goldenAnimation\":\"TRL_343_PremiumCard.asset:5c5a7ee3e1244614cb10f74cd421a082\"}}\n",
@@ -708,7 +716,16 @@
         "goldenAnimation": "TRL_343_PremiumCard.asset:5c5a7ee3e1244614cb10f74cd421a082"
       }
     },
-    "originalFourKeySourceSha256": "c285d7c4fd1d9b2ea6577f1abc109df61a4a631e01fbff193b00c5627b874dc8"
+    "originalFourKeySourceSha256": "c285d7c4fd1d9b2ea6577f1abc109df61a4a631e01fbff193b00c5627b874dc8",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_343",
@@ -792,10 +809,7 @@
     "text": "<b>선택 - </b>네 가지 공룡 중 하나로 변신합니다.",
     "attack": 1,
     "health": 2,
-    "durability": 0,
-    "armor": 0,
     "flavor": "\"라바사우루스!\" \"무섭겠네.\" \"...블라모닥스!\" \"그런 공룡이 있어?\" \"스맥소돈!\" \"...이제 그냥 막 만들어내네.\"",
-    "spellSchool": "",
     "portrait": "HS15-112_M.psd:7d2a48519e053c4428f66719a9e73b59",
     "set": "TROLL",
     "nativeTags": [

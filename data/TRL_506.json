@@ -619,12 +619,20 @@
     "undatedRawTagTransitions": [],
     "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "구루바시 닭",
-      "enUS": "Gurubashi Chicken"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>압살:</b> 공격력을 +5 얻습니다.",
+      "enUS": "<b>Overkill:</b> Gain +5 Attack.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "currentPrintedText": {
-      "koKR": "구루바시 닭",
-      "enUS": "Gurubashi Chicken"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>압살:</b> 공격력을 +5 얻습니다.",
+      "enUS": "<b>Overkill:</b> Gain +5 Attack.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "undatedCurrentDifferences": [],
     "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_506\",\"dbfId\":50380,\"name\":\"구루바시 닭\",\"type\":\"MINION\",\"cardClass\":\"NEUTRAL\",\"rarity\":\"COMMON\",\"collectible\":true,\"cost\":1,\"text\":\"<b>압살:</b> 공격력을 +5 얻습니다.\",\"attack\":1,\"health\":1,\"durability\":0,\"armor\":0,\"flavor\":\"압살했닭! 오늘 저녁은 치킨이닭!\",\"spellSchool\":\"\",\"portrait\":\"HS15-054_M.psd:07108fd9c52987544b3029ef5c34ca25\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":45,\"name\":\"생명력\",\"value\":1},{\"id\":47,\"name\":\"공격력\",\"value\":1},{\"id\":48,\"name\":\"마나 비용\",\"value\":1},{\"id\":114,\"name\":\"전설 속성\",\"value\":0},{\"id\":199,\"name\":\"직업\",\"value\":12},{\"id\":200,\"name\":\"종족\",\"value\":20},{\"id\":202,\"name\":\"카드 유형\",\"value\":4},{\"id\":203,\"name\":\"희귀도\",\"value\":1},{\"id\":321,\"name\":\"수집 가능\",\"value\":1},{\"id\":923,\"name\":\"압살\",\"value\":1}],\"races\":[\"BEAST\"],\"race\":\"야수\",\"classes\":[],\"art\":\"art/TRL_506.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-054_M.psd:07108fd9c52987544b3029ef5c34ca25\",\"goldenMaterial\":\"TRL_506_PremiumCard.mat:1c8db7c5eb92b6945bd1f3088b25fbe7\",\"goldenAnimation\":\"TRL_506_PremiumCard.asset:65af14d896594794380207d887bd4d09\"}}\n",
@@ -715,7 +723,16 @@
         "goldenAnimation": "TRL_506_PremiumCard.asset:65af14d896594794380207d887bd4d09"
       }
     },
-    "originalFourKeySourceSha256": "06411f9febe670b3f2252898be3fa5c98c88bc15d8763062bf2f30a8bff4ab46"
+    "originalFourKeySourceSha256": "06411f9febe670b3f2252898be3fa5c98c88bc15d8763062bf2f30a8bff4ab46",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_506",
@@ -806,10 +823,7 @@
     "text": "<b>압살:</b> 공격력을 +5 얻습니다.",
     "attack": 1,
     "health": 1,
-    "durability": 0,
-    "armor": 0,
     "flavor": "압살했닭! 오늘 저녁은 치킨이닭!",
-    "spellSchool": "",
     "portrait": "HS15-054_M.psd:07108fd9c52987544b3029ef5c34ca25",
     "set": "TROLL",
     "nativeTags": [

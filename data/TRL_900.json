@@ -708,32 +708,6 @@
         "sourceURL": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml"
       },
       {
-        "build": 237510,
-        "id": "TRL_900",
-        "dbfId": 50659,
-        "name": "스라소니 할라지",
-        "rawDiff": {
-          "47": [
-            "3",
-            "4"
-          ],
-          "48": [
-            "5",
-            "4"
-          ]
-        },
-        "tagNames": {
-          "47": "ATK",
-          "48": "COST"
-        },
-        "decision": "gameplay_stat_change",
-        "relatedFindings": [
-          "RAST-BAL-M005"
-        ],
-        "note": "공식 변경 공지와 원본 ID 전후 비교로 확정. 출시일/Core 개방일과 구별.",
-        "sourceURL": "https://github.com/HearthSim/hsdata/blob/a770d899b7ea12594f2edfc7d097f6ee0a858eb8/CardDefs.xml"
-      },
-      {
         "build": 247416,
         "id": "TRL_900",
         "dbfId": 50659,
@@ -772,14 +746,37 @@
         "sourceURL": "https://github.com/HearthSim/hsdata/blob/7fce0fa55971169c7dc17915e689f6e525419fb1/CardDefs.xml"
       }
     ],
-    "undatedReferencedTagTransitions": [],
+    "undatedReferencedTagTransitions": [
+      {
+        "id": "TRL_900",
+        "name": "스라소니 할라지",
+        "diff": {
+          "791": [
+            "1",
+            "ABSENT"
+          ]
+        },
+        "tagNames": {
+          "791": "RUSH"
+        },
+        "build": 247416
+      }
+    ],
     "launchPrintedText": {
-      "koKR": "스라소니 할라지",
-      "enUS": "Halazzi, the Lynx"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>전투의_함성:</b> 내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다.",
+      "enUS": "<b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have_<b>Rush</b>.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "currentPrintedText": {
-      "koKR": "스라소니 할라지",
-      "enUS": "Halazzi, the Lynx"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>속공</b>, <b>전투의 함성</b>:& 내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다.",
+      "enUS": "<b>Rush</b>. <b>Battlecry:</b>& Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "undatedCurrentDifferences": [],
     "halazziRushEvidence": {
@@ -4387,7 +4384,16 @@
         "goldenAnimation": "TRL_900_PremiumCard.asset:7e4c1ce0305ae6c41968cf421ae54210"
       }
     },
-    "originalFourKeySourceSha256": "4dbb1075955eacc4750403337b49e934400b5087deb2a49c7f09be85b41baf45"
+    "originalFourKeySourceSha256": "4dbb1075955eacc4750403337b49e934400b5087deb2a49c7f09be85b41baf45",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_900",
@@ -4498,10 +4504,7 @@
     "text": "<b>전투의 함성:</b> 내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다.",
     "attack": 3,
     "health": 2,
-    "durability": 0,
-    "armor": 0,
     "flavor": "너만 제때 잡으면 4공물인데!",
-    "spellSchool": "",
     "portrait": "HS15-020_M.psd:9e30526e79c20a94485ae423d5405231",
     "set": "TROLL",
     "nativeTags": [
@@ -4662,7 +4665,38 @@
     "source": {
       "findingId": "RAST-BAL-M005",
       "confidence": "high",
-      "officialIntent": "35.0 adds Rush to Halazzi; first effective operation day remains unresolved"
+      "officialIntent": "35.0 adds Rush to Halazzi; first effective operation day remains unresolved",
+      "rawRoleEvidence": {
+        "build": 237510,
+        "decision": "gameplay_stat_change",
+        "findingIds": [
+          "RAST-BAL-M005"
+        ],
+        "rawDiff": {
+          "47": [
+            "3",
+            "4"
+          ],
+          "48": [
+            "5",
+            "4"
+          ]
+        },
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/a770d899b7ea12594f2edfc7d097f6ee0a858eb8/CardDefs.xml"
+      }
+    },
+    "nativeTagRolesDelta": {
+      "owned": {
+        "set": {
+          "47": "4",
+          "48": "4"
+        },
+        "removed": []
+      },
+      "referenced": {
+        "set": {},
+        "removed": []
+      }
     }
   }
 }

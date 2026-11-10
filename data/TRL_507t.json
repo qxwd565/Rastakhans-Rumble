@@ -299,12 +299,20 @@
     "undatedRawTagTransitions": [],
     "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "칼잡이",
-      "enUS": "Swabbie"
+      "tagId": 184,
+      "present": false,
+      "koKR": null,
+      "enUS": null,
+      "koKRPresent": false,
+      "enUSPresent": false
     },
     "currentPrintedText": {
-      "koKR": "칼잡이",
-      "enUS": "Swabbie"
+      "tagId": 184,
+      "present": false,
+      "koKR": null,
+      "enUS": null,
+      "koKRPresent": false,
+      "enUSPresent": false
     },
     "undatedCurrentDifferences": [],
     "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_507t\",\"dbfId\":50833,\"name\":\"칼잡이\",\"type\":\"MINION\",\"cardClass\":\"NEUTRAL\",\"collectible\":false,\"cost\":1,\"text\":\"\",\"attack\":1,\"health\":1,\"durability\":0,\"armor\":0,\"flavor\":\"\",\"spellSchool\":\"\",\"portrait\":\"HS15-058_M.psd:db5947a4260d5ed489abf1ac9348738a\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":45,\"name\":\"생명력\",\"value\":1},{\"id\":47,\"name\":\"공격력\",\"value\":1},{\"id\":48,\"name\":\"마나 비용\",\"value\":1},{\"id\":199,\"name\":\"직업\",\"value\":12},{\"id\":200,\"name\":\"종족\",\"value\":23},{\"id\":202,\"name\":\"카드 유형\",\"value\":4},{\"id\":321,\"name\":\"수집 가능\",\"value\":0}],\"races\":[\"PIRATE\"],\"race\":\"해적\",\"classes\":[],\"art\":\"art/TRL_507t.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-058_M.psd:db5947a4260d5ed489abf1ac9348738a\",\"goldenMaterial\":\"TRL_507t_PremiumCard.mat:5caaaf9bf5e9fbd4ab4fa75108432f46\",\"goldenAnimation\":\"TRL_507t_PremiumCard.asset:a68612ea47d6b29418eb22cbe1b0745d\"}}\n",
@@ -379,7 +387,16 @@
         "goldenAnimation": "TRL_507t_PremiumCard.asset:a68612ea47d6b29418eb22cbe1b0745d"
       }
     },
-    "originalFourKeySourceSha256": "6e745bfda2027afa9ce677adbe1c614a3d6eba8582d42c41524197c12907b0f9"
+    "originalFourKeySourceSha256": "6e745bfda2027afa9ce677adbe1c614a3d6eba8582d42c41524197c12907b0f9",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_507t",
@@ -453,10 +470,7 @@
     "text": "",
     "attack": 1,
     "health": 1,
-    "durability": 0,
-    "armor": 0,
     "flavor": "",
-    "spellSchool": "",
     "portrait": "HS15-058_M.psd:db5947a4260d5ed489abf1ac9348738a",
     "set": "TROLL",
     "nativeTags": [

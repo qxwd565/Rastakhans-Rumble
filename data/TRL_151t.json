@@ -287,12 +287,20 @@
     "undatedRawTagTransitions": [],
     "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "유망주",
-      "enUS": "Hotshot"
+      "tagId": 184,
+      "present": false,
+      "koKR": null,
+      "enUS": null,
+      "koKRPresent": false,
+      "enUSPresent": false
     },
     "currentPrintedText": {
-      "koKR": "유망주",
-      "enUS": "Hotshot"
+      "tagId": 184,
+      "present": false,
+      "koKR": null,
+      "enUS": null,
+      "koKRPresent": false,
+      "enUSPresent": false
     },
     "undatedCurrentDifferences": [],
     "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_151t\",\"dbfId\":50738,\"name\":\"유망주\",\"type\":\"MINION\",\"cardClass\":\"NEUTRAL\",\"collectible\":false,\"cost\":5,\"text\":\"\",\"attack\":5,\"health\":5,\"durability\":0,\"armor\":0,\"flavor\":\"\",\"spellSchool\":\"\",\"portrait\":\"HS15-162_M.psd:a9c2c854c98fa8e4482d799f32684ec1\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":45,\"name\":\"생명력\",\"value\":5},{\"id\":47,\"name\":\"공격력\",\"value\":5},{\"id\":48,\"name\":\"마나 비용\",\"value\":5},{\"id\":114,\"name\":\"전설 속성\",\"value\":0},{\"id\":199,\"name\":\"직업\",\"value\":12},{\"id\":202,\"name\":\"카드 유형\",\"value\":4},{\"id\":321,\"name\":\"수집 가능\",\"value\":0}],\"races\":[],\"race\":\"\",\"classes\":[],\"art\":\"art/TRL_151t.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-162_M.psd:a9c2c854c98fa8e4482d799f32684ec1\",\"goldenMaterial\":\"TRL_151t_PremiumCard.mat:b48f7729831d5c94ca78861ff270d9c5\",\"goldenAnimation\":\"TRL_151t_PremiumCard.asset:9e64066194ffef04e99b3af2de1ccc9a\"}}\n",
@@ -365,7 +373,16 @@
         "goldenAnimation": "TRL_151t_PremiumCard.asset:9e64066194ffef04e99b3af2de1ccc9a"
       }
     },
-    "originalFourKeySourceSha256": "95428b36ddb84db5182b056f0907bba5a1954981b0f2f529132110c2a8f35ce0"
+    "originalFourKeySourceSha256": "95428b36ddb84db5182b056f0907bba5a1954981b0f2f529132110c2a8f35ce0",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_151t",
@@ -437,10 +454,7 @@
     "text": "",
     "attack": 5,
     "health": 5,
-    "durability": 0,
-    "armor": 0,
     "flavor": "",
-    "spellSchool": "",
     "portrait": "HS15-162_M.psd:a9c2c854c98fa8e4482d799f32684ec1",
     "set": "TROLL",
     "nativeTags": [

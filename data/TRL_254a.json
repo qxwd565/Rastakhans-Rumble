@@ -460,37 +460,39 @@
         "relatedFindings": [],
         "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
         "sourceURL": "https://github.com/HearthSim/hsdata/blob/32c8b31a69662efc5984a09f7ba5eaced12ff4c8/CardDefs.xml"
-      },
+      }
+    ],
+    "undatedReferencedTagTransitions": [
       {
-        "build": 77662,
         "id": "TRL_254a",
-        "dbfId": 49995,
         "name": "공크의 생존력",
-        "rawDiff": {
-          "1635": [
+        "diff": {
+          "190": [
             "ABSENT",
-            "4"
+            "1"
           ]
         },
         "tagNames": {
-          "1635": "SPELL_SCHOOL"
+          "190": "TAUNT"
         },
-        "decision": "gameplay_spell_school_added_recorded_correctly",
-        "relatedFindings": [
-          "RAST-BAL-E011"
-        ],
-        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-        "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+        "build": 208591
       }
     ],
-    "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "공크의 생존력",
-      "enUS": "Gonk's Resilience"
+      "tagId": 184,
+      "present": true,
+      "koKR": "하수인에게 +2/+4와 <b>도발</b>을 부여합니다.",
+      "enUS": "Give a minion +2/+4 and <b>Taunt</b>.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "currentPrintedText": {
-      "koKR": "공크의 생존력",
-      "enUS": "Gonk's Resilience"
+      "tagId": 184,
+      "present": true,
+      "koKR": "하수인에게 +2/+4와 <b>도발</b>을 부여합니다.",
+      "enUS": "Give a minion +2/+4 and <b>Taunt</b>.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "undatedCurrentDifferences": [
       {
@@ -590,7 +592,19 @@
         "goldenAnimation": "TRL_254a_PremiumCard.asset:b99e235385de5e94993962a534750d3f"
       }
     },
-    "originalFourKeySourceSha256": "4134ce62b9aba11147e126d2066a0f78c6b2a3fedff950299dcd147e142fecd9"
+    "originalFourKeySourceSha256": "4134ce62b9aba11147e126d2066a0f78c6b2a3fedff950299dcd147e142fecd9",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_254a",
@@ -679,10 +693,6 @@
     "cardClass": "DRUID",
     "collectible": false,
     "text": "하수인에게 +2/+4와 <b>도발</b>을 부여합니다.",
-    "attack": 0,
-    "health": 0,
-    "durability": 0,
-    "armor": 0,
     "flavor": "",
     "spellSchool": "",
     "portrait": "HS15-105_S.psd:b2460b6aa3842b345b4347103329d4a4",
@@ -739,8 +749,6 @@
         "value": 0
       }
     ],
-    "races": [],
-    "race": "",
     "classes": [],
     "art": "art/TRL_254a.png"
   },
@@ -802,6 +810,34 @@
         "value": 4
       }
     ],
-    "spellSchool": "NATURE"
+    "spellSchool": "NATURE",
+    "nativeTagRolesDelta": {
+      "owned": {
+        "set": {
+          "1635": "4"
+        },
+        "removed": []
+      },
+      "referenced": {
+        "set": {},
+        "removed": []
+      }
+    },
+    "source": {
+      "rawRoleEvidence": {
+        "build": 77662,
+        "decision": "gameplay_spell_school_added_recorded_correctly",
+        "findingIds": [
+          "RAST-BAL-E011"
+        ],
+        "rawDiff": {
+          "1635": [
+            "ABSENT",
+            "4"
+          ]
+        },
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+      }
+    }
   }
 }

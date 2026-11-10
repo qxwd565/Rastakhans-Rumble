@@ -618,40 +618,23 @@
         "textContent": "Jakub Kasper"
       }
     },
-    "undatedRawTagTransitions": [
-      {
-        "build": 217964,
-        "id": "TRL_352",
-        "dbfId": 50550,
-        "name": "츄르릅 봉",
-        "rawDiff": {
-          "187": [
-            "3",
-            "ABSENT"
-          ],
-          "45": [
-            "ABSENT",
-            "3"
-          ]
-        },
-        "tagNames": {
-          "187": "DURABILITY",
-          "45": "HEALTH"
-        },
-        "decision": "weapon_durability_tag_migration_same_value",
-        "relatedFindings": [],
-        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-        "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
-      }
-    ],
+    "undatedRawTagTransitions": [],
     "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "츄르릅 봉",
-      "enUS": "Likkim"
+      "tagId": 184,
+      "present": true,
+      "koKR": "내 마나 수정이 <b>과부하</b>된 동안 공격력을 +2 얻습니다.",
+      "enUS": "Has +2 Attack while you have <b>Overloaded</b> Mana Crystals.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "currentPrintedText": {
-      "koKR": "츄르릅 봉",
-      "enUS": "Likkim"
+      "tagId": 184,
+      "present": true,
+      "koKR": "내 마나 수정이 <b>과부하</b>된 동안 공격력을 +2 얻습니다.",
+      "enUS": "Has +2 Attack while you have <b>Overloaded</b> Mana Crystals.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "undatedCurrentDifferences": [],
     "weaponDurabilityTagMigrationEvidence": {
@@ -769,7 +752,18 @@
         "goldenAnimation": "TRL_352_PremiumCard.asset:37cc83961a6715b49b462870ccbcfedb"
       }
     },
-    "originalFourKeySourceSha256": "d9c3568c0ffc666f77623691cdc5b4fd24dc5e5177d07173af7d08d837a57995"
+    "originalFourKeySourceSha256": "d9c3568c0ffc666f77623691cdc5b4fd24dc5e5177d07173af7d08d837a57995",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_352",
@@ -867,11 +861,8 @@
     "cost": 2,
     "text": "내 마나 수정이 <b>과부하</b>된 동안 공격력을 +2 얻습니다.",
     "attack": 1,
-    "health": 0,
     "durability": 3,
-    "armor": 0,
     "flavor": "강아지들이 좋아합니다.",
-    "spellSchool": "",
     "portrait": "HS15-044_W.psd:a6b7ac6c236e2d54d9cc298008b05134",
     "set": "TROLL",
     "nativeTags": [
@@ -936,8 +927,6 @@
         "value": 1
       }
     ],
-    "races": [],
-    "race": "",
     "classes": [],
     "art": "art/TRL_352.png"
   },
@@ -1006,16 +995,16 @@
     ],
     "nativeTagRolesDelta": {
       "owned": {
-        "removed": [
-          "187"
-        ],
         "set": {
           "45": "3"
-        }
+        },
+        "removed": [
+          "187"
+        ]
       },
       "referenced": {
-        "removed": [],
-        "set": {}
+        "set": {},
+        "removed": []
       }
     },
     "source": {
@@ -1026,7 +1015,23 @@
       "durabilityBefore": 3,
       "durabilityAfter": 3,
       "isGameplayBuff": false,
-      "note": "Tag ownership migration only; no weapon durability buff"
+      "note": "Tag ownership migration only; no weapon durability buff",
+      "rawRoleEvidence": {
+        "build": 217964,
+        "decision": "weapon_durability_tag_migration_same_value",
+        "findingIds": [],
+        "rawDiff": {
+          "187": [
+            "3",
+            "ABSENT"
+          ],
+          "45": [
+            "ABSENT",
+            "3"
+          ]
+        },
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
+      }
     }
   }
 }

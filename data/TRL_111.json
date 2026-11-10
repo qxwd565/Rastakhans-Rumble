@@ -604,40 +604,23 @@
         "textContent": "Akkapoj T."
       }
     },
-    "undatedRawTagTransitions": [
-      {
-        "build": 217964,
-        "id": "TRL_111",
-        "dbfId": 50608,
-        "name": "인간사냥꾼의 손도끼",
-        "rawDiff": {
-          "187": [
-            "2",
-            "ABSENT"
-          ],
-          "45": [
-            "ABSENT",
-            "2"
-          ]
-        },
-        "tagNames": {
-          "187": "DURABILITY",
-          "45": "HEALTH"
-        },
-        "decision": "weapon_durability_tag_migration_same_value",
-        "relatedFindings": [],
-        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-        "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
-      }
-    ],
+    "undatedRawTagTransitions": [],
     "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "인간사냥꾼의 손도끼",
-      "enUS": "Headhunter's Hatchet"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>전투의 함성:</b>\n내 전장에 야수가 있으면, 내구도를\n+1 얻습니다.",
+      "enUS": "[x]<b>Battlecry:</b> If you\ncontrol a Beast, gain\n+1 Durability.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "currentPrintedText": {
-      "koKR": "인간사냥꾼의 손도끼",
-      "enUS": "Headhunter's Hatchet"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>전투의 함성:</b>\n내 전장에 야수가 있으면, 내구도를\n+1 얻습니다.",
+      "enUS": "[x]<b>Battlecry:</b> If you\ncontrol a Beast, gain\n+1 Durability.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "undatedCurrentDifferences": [],
     "weaponDurabilityTagMigrationEvidence": {
@@ -740,7 +723,18 @@
         "goldenAnimation": "TRL_111_PremiumCard.asset:4e3474a52bf063042a67f462b741dd49"
       }
     },
-    "originalFourKeySourceSha256": "94f9a3e9c115c6d502394c5086a21910ccc218abfb488281f11c29d17c7ae2e4"
+    "originalFourKeySourceSha256": "94f9a3e9c115c6d502394c5086a21910ccc218abfb488281f11c29d17c7ae2e4",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_111",
@@ -823,11 +817,8 @@
     "cost": 2,
     "text": "<b>전투의 함성:</b><br></br>내 전장에 야수가 있으면, 내구도를<br></br>+1 얻습니다.",
     "attack": 2,
-    "health": 0,
     "durability": 2,
-    "armor": 0,
     "flavor": "줄진이 인간들을 고용할 때 사용하는 도구입니다.",
-    "spellSchool": "",
     "portrait": "HS15-018_W.psd:b5f5bb425f0a31b459f6a21c11a63fb1",
     "set": "TROLL",
     "nativeTags": [
@@ -877,8 +868,6 @@
         "value": 1
       }
     ],
-    "races": [],
-    "race": "",
     "classes": [],
     "art": "art/TRL_111.png"
   },
@@ -932,16 +921,16 @@
     ],
     "nativeTagRolesDelta": {
       "owned": {
-        "removed": [
-          "187"
-        ],
         "set": {
           "45": "2"
-        }
+        },
+        "removed": [
+          "187"
+        ]
       },
       "referenced": {
-        "removed": [],
-        "set": {}
+        "set": {},
+        "removed": []
       }
     },
     "source": {
@@ -952,7 +941,23 @@
       "durabilityBefore": 2,
       "durabilityAfter": 2,
       "isGameplayBuff": false,
-      "note": "Tag ownership migration only; no weapon durability buff"
+      "note": "Tag ownership migration only; no weapon durability buff",
+      "rawRoleEvidence": {
+        "build": 217964,
+        "decision": "weapon_durability_tag_migration_same_value",
+        "findingIds": [],
+        "rawDiff": {
+          "187": [
+            "2",
+            "ABSENT"
+          ],
+          "45": [
+            "ABSENT",
+            "2"
+          ]
+        },
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
+      }
     }
   }
 }

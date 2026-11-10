@@ -619,12 +619,20 @@
     "undatedRawTagTransitions": [],
     "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "요리사 멀록",
-      "enUS": "Murloc Tastyfin"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>죽음의 메아리:</b> 내 덱에서 멀록을 2마리 뽑습니다.",
+      "enUS": "[x]<b>Deathrattle:</b> Draw 2 Murlocs\nfrom your deck.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "currentPrintedText": {
-      "koKR": "요리사 멀록",
-      "enUS": "Murloc Tastyfin"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>죽음의 메아리:</b> 내 덱에서 멀록을 2마리 뽑습니다.",
+      "enUS": "[x]<b>Deathrattle:</b> Draw 2 Murlocs\nfrom your deck.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "undatedCurrentDifferences": [],
     "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_520\",\"dbfId\":50402,\"name\":\"요리사 멀록\",\"type\":\"MINION\",\"cardClass\":\"NEUTRAL\",\"rarity\":\"RARE\",\"collectible\":true,\"cost\":4,\"text\":\"<b>죽음의 메아리:</b> 내 덱에서 멀록을 2마리 뽑습니다.\",\"attack\":3,\"health\":2,\"durability\":0,\"armor\":0,\"flavor\":\"수프를 만들거나, 수프가 되거나...\",\"spellSchool\":\"\",\"portrait\":\"HS15-171_M.psd:0c70df53ea21d5b4f88aa555b0f97fab\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":45,\"name\":\"생명력\",\"value\":2},{\"id\":47,\"name\":\"공격력\",\"value\":3},{\"id\":48,\"name\":\"마나 비용\",\"value\":4},{\"id\":114,\"name\":\"전설 속성\",\"value\":0},{\"id\":199,\"name\":\"직업\",\"value\":12},{\"id\":200,\"name\":\"종족\",\"value\":14},{\"id\":202,\"name\":\"카드 유형\",\"value\":4},{\"id\":203,\"name\":\"희귀도\",\"value\":3},{\"id\":217,\"name\":\"죽음의 메아리\",\"value\":1},{\"id\":321,\"name\":\"수집 가능\",\"value\":1}],\"races\":[\"MURLOC\"],\"race\":\"멀록\",\"classes\":[],\"art\":\"art/TRL_520.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-171_M.psd:0c70df53ea21d5b4f88aa555b0f97fab\",\"goldenMaterial\":\"TRL_520_PremiumCard.mat:5f68cb62c8667ba4ba561f9db78f288e\",\"goldenAnimation\":\"TRL_520_PremiumCard.asset:fe451342273de124f8ef6670b2c31467\"}}\n",
@@ -715,7 +723,16 @@
         "goldenAnimation": "TRL_520_PremiumCard.asset:fe451342273de124f8ef6670b2c31467"
       }
     },
-    "originalFourKeySourceSha256": "af84104fde86ebf90a9d3d25a011207224dae5e56c08de5255cc90836c72d6c5"
+    "originalFourKeySourceSha256": "af84104fde86ebf90a9d3d25a011207224dae5e56c08de5255cc90836c72d6c5",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_520",
@@ -806,10 +823,7 @@
     "text": "<b>죽음의 메아리:</b> 내 덱에서 멀록을 2마리 뽑습니다.",
     "attack": 3,
     "health": 2,
-    "durability": 0,
-    "armor": 0,
     "flavor": "수프를 만들거나, 수프가 되거나...",
-    "spellSchool": "",
     "portrait": "HS15-171_M.psd:0c70df53ea21d5b4f88aa555b0f97fab",
     "set": "TROLL",
     "nativeTags": [

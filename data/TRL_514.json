@@ -619,12 +619,20 @@
     "undatedRawTagTransitions": [],
     "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "술 취한 노움",
-      "enUS": "Belligerent Gnome"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>도발</b>, <b>전투의 함성:</b> 상대편에게 하수인이 둘 이상 있으면, 공격력을 +1 얻습니다.",
+      "enUS": "[x]<b>Taunt</b>\n<b>Battlecry:</b> If your opponent\nhas 2 or more minions,\ngain +1 Attack.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "currentPrintedText": {
-      "koKR": "술 취한 노움",
-      "enUS": "Belligerent Gnome"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>도발</b>, <b>전투의 함성:</b> 상대편에게 하수인이 둘 이상 있으면, 공격력을 +1 얻습니다.",
+      "enUS": "[x]<b>Taunt</b>\n<b>Battlecry:</b> If your opponent\nhas 2 or more minions,\ngain +1 Attack.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "undatedCurrentDifferences": [],
     "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_514\",\"dbfId\":50393,\"name\":\"술 취한 노움\",\"type\":\"MINION\",\"cardClass\":\"NEUTRAL\",\"rarity\":\"RARE\",\"collectible\":true,\"cost\":2,\"text\":\"<b>도발</b>, <b>전투의 함성:</b> 상대편에게 하수인이 둘 이상 있으면, 공격력을 +1 얻습니다.\",\"attack\":1,\"health\":4,\"durability\":0,\"armor\":0,\"flavor\":\"아직도 브원삼디의 좀비들을 응원하고 있습니다.\",\"spellSchool\":\"\",\"portrait\":\"HS15-078_M.psd:4484d84db7550bb488d3acb868da8168\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":45,\"name\":\"생명력\",\"value\":4},{\"id\":47,\"name\":\"공격력\",\"value\":1},{\"id\":48,\"name\":\"마나 비용\",\"value\":2},{\"id\":114,\"name\":\"전설 속성\",\"value\":0},{\"id\":190,\"name\":\"도발\",\"value\":1},{\"id\":199,\"name\":\"직업\",\"value\":12},{\"id\":202,\"name\":\"카드 유형\",\"value\":4},{\"id\":203,\"name\":\"희귀도\",\"value\":3},{\"id\":218,\"name\":\"전투의 함성\",\"value\":1},{\"id\":321,\"name\":\"수집 가능\",\"value\":1}],\"races\":[],\"race\":\"\",\"classes\":[],\"art\":\"art/TRL_514.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-078_M.psd:4484d84db7550bb488d3acb868da8168\",\"goldenMaterial\":\"TRL_514_PremiumCard.mat:237c6d8826d2b954792ff039463edcd2\",\"goldenAnimation\":\"TRL_514_PremiumCard.asset:224a2b8dd96f68c48ba3c21d986a2932\"}}\n",
@@ -713,7 +721,16 @@
         "goldenAnimation": "TRL_514_PremiumCard.asset:224a2b8dd96f68c48ba3c21d986a2932"
       }
     },
-    "originalFourKeySourceSha256": "76bac610223f2c4255dd2fa70c626c9e84b0c8cba8603ee6e767694975c80ee3"
+    "originalFourKeySourceSha256": "76bac610223f2c4255dd2fa70c626c9e84b0c8cba8603ee6e767694975c80ee3",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_514",
@@ -802,10 +819,7 @@
     "text": "<b>도발</b>, <b>전투의 함성:</b> 상대편에게 하수인이 둘 이상 있으면, 공격력을 +1 얻습니다.",
     "attack": 1,
     "health": 4,
-    "durability": 0,
-    "armor": 0,
     "flavor": "아직도 브원삼디의 좀비들을 응원하고 있습니다.",
-    "spellSchool": "",
     "portrait": "HS15-078_M.psd:4484d84db7550bb488d3acb868da8168",
     "set": "TROLL",
     "nativeTags": [

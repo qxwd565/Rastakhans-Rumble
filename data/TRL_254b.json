@@ -441,37 +441,24 @@
         "relatedFindings": [],
         "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
         "sourceURL": "https://github.com/HearthSim/hsdata/blob/32c8b31a69662efc5984a09f7ba5eaced12ff4c8/CardDefs.xml"
-      },
-      {
-        "build": 77662,
-        "id": "TRL_254b",
-        "dbfId": 49997,
-        "name": "랩터 무리",
-        "rawDiff": {
-          "1635": [
-            "ABSENT",
-            "4"
-          ]
-        },
-        "tagNames": {
-          "1635": "SPELL_SCHOOL"
-        },
-        "decision": "gameplay_spell_school_added_recorded_correctly",
-        "relatedFindings": [
-          "RAST-BAL-E012"
-        ],
-        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-        "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
       }
     ],
     "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "랩터 무리",
-      "enUS": "Raptor Pack"
+      "tagId": 184,
+      "present": true,
+      "koKR": "3/2 랩터를 2마리 소환합니다.",
+      "enUS": "Summon two 3/2 Raptors.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "currentPrintedText": {
-      "koKR": "랩터 무리",
-      "enUS": "Raptor Pack"
+      "tagId": 184,
+      "present": true,
+      "koKR": "3/2 랩터를 2마리 소환합니다.",
+      "enUS": "Summon two 3/2 Raptors.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "undatedCurrentDifferences": [
       {
@@ -561,7 +548,19 @@
         "goldenAnimation": "TRL_254b_PremiumCard.asset:c7b81c4718904b0499c5158c00bbc740"
       }
     },
-    "originalFourKeySourceSha256": "9c01f87714308a7890cc0449af3a073064e775d3474f39f23985e808e4753160"
+    "originalFourKeySourceSha256": "9c01f87714308a7890cc0449af3a073064e775d3474f39f23985e808e4753160",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_254b",
@@ -640,10 +639,6 @@
     "cardClass": "DRUID",
     "collectible": false,
     "text": "3/2 랩터를 2마리 소환합니다.",
-    "attack": 0,
-    "health": 0,
-    "durability": 0,
-    "armor": 0,
     "flavor": "",
     "spellSchool": "",
     "portrait": "HS15-106_S.psd:00b6c4d100347f947a1f640ef9dd5908",
@@ -690,8 +685,6 @@
         "value": 0
       }
     ],
-    "races": [],
-    "race": "",
     "classes": [],
     "art": "art/TRL_254b.png"
   },
@@ -743,6 +736,34 @@
         "value": 4
       }
     ],
-    "spellSchool": "NATURE"
+    "spellSchool": "NATURE",
+    "nativeTagRolesDelta": {
+      "owned": {
+        "set": {
+          "1635": "4"
+        },
+        "removed": []
+      },
+      "referenced": {
+        "set": {},
+        "removed": []
+      }
+    },
+    "source": {
+      "rawRoleEvidence": {
+        "build": 77662,
+        "decision": "gameplay_spell_school_added_recorded_correctly",
+        "findingIds": [
+          "RAST-BAL-E012"
+        ],
+        "rawDiff": {
+          "1635": [
+            "ABSENT",
+            "4"
+          ]
+        },
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+      }
+    }
   }
 }

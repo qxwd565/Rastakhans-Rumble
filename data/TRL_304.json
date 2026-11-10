@@ -604,40 +604,23 @@
         "textContent": "M. Alvares & M. Azevedo"
       }
     },
-    "undatedRawTagTransitions": [
-      {
-        "build": 217964,
-        "id": "TRL_304",
-        "dbfId": 50014,
-        "name": "파락키 전투도끼",
-        "rawDiff": {
-          "187": [
-            "3",
-            "ABSENT"
-          ],
-          "45": [
-            "ABSENT",
-            "3"
-          ]
-        },
-        "tagNames": {
-          "187": "DURABILITY",
-          "45": "HEALTH"
-        },
-        "decision": "weapon_durability_tag_migration_same_value",
-        "relatedFindings": [],
-        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-        "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
-      }
-    ],
+    "undatedRawTagTransitions": [],
     "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "파락키 전투도끼",
-      "enUS": "Farraki Battleaxe"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>압살</b>: 내 손에 있는 하수인에게 +2/+2를 부여합니다.",
+      "enUS": "<b>Overkill:</b> Give a minion in your hand +2/+2.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "currentPrintedText": {
-      "koKR": "파락키 전투도끼",
-      "enUS": "Farraki Battleaxe"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>압살</b>: 내 손에 있는 하수인에게 +2/+2를 부여합니다.",
+      "enUS": "<b>Overkill:</b> Give a minion in your hand +2/+2.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "undatedCurrentDifferences": [],
     "weaponDurabilityTagMigrationEvidence": {
@@ -740,7 +723,18 @@
         "goldenAnimation": "TRL_304_PremiumCard.asset:3f10f7307eacabd49b724587fa623180"
       }
     },
-    "originalFourKeySourceSha256": "18e54fe768f9fef505b8be4ab4a3b848fdd2e32ade05914eb531c032c33c9d12"
+    "originalFourKeySourceSha256": "18e54fe768f9fef505b8be4ab4a3b848fdd2e32ade05914eb531c032c33c9d12",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_304",
@@ -823,11 +817,8 @@
     "cost": 5,
     "text": "<b>압살</b>: 내 손에 있는 하수인에게 +2/+2를 부여합니다.",
     "attack": 3,
-    "health": 0,
     "durability": 3,
-    "armor": 0,
     "flavor": "뭔가 험악해 보이는 도끼입니다.",
-    "spellSchool": "",
     "portrait": "HS15-151_W.psd:3506ced92414fb147b6c48d745363a10",
     "set": "TROLL",
     "nativeTags": [
@@ -877,8 +868,6 @@
         "value": 1
       }
     ],
-    "races": [],
-    "race": "",
     "classes": [],
     "art": "art/TRL_304.png"
   },
@@ -932,16 +921,16 @@
     ],
     "nativeTagRolesDelta": {
       "owned": {
-        "removed": [
-          "187"
-        ],
         "set": {
           "45": "3"
-        }
+        },
+        "removed": [
+          "187"
+        ]
       },
       "referenced": {
-        "removed": [],
-        "set": {}
+        "set": {},
+        "removed": []
       }
     },
     "source": {
@@ -952,7 +941,23 @@
       "durabilityBefore": 3,
       "durabilityAfter": 3,
       "isGameplayBuff": false,
-      "note": "Tag ownership migration only; no weapon durability buff"
+      "note": "Tag ownership migration only; no weapon durability buff",
+      "rawRoleEvidence": {
+        "build": 217964,
+        "decision": "weapon_durability_tag_migration_same_value",
+        "findingIds": [],
+        "rawDiff": {
+          "187": [
+            "3",
+            "ABSENT"
+          ],
+          "45": [
+            "ABSENT",
+            "3"
+          ]
+        },
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
+      }
     }
   }
 }

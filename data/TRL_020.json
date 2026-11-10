@@ -645,12 +645,20 @@
     ],
     "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "눈먼 순찰대원",
-      "enUS": "Sightless Ranger"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>속공</b>, <b>압살:</b> 1/1 박쥐를 2마리 소환합니다.",
+      "enUS": "<b>Rush</b>\n<b>Overkill</b>: Summon two 1/1_Bats.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "currentPrintedText": {
-      "koKR": "눈먼 순찰대원",
-      "enUS": "Sightless Ranger"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>속공</b>, <b>압살:</b> 1/1 박쥐를 2마리 소환합니다.",
+      "enUS": "<b>Rush</b>\n<b>Overkill</b>: Summon two 1/1_Bats.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "undatedCurrentDifferences": [],
     "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_020\",\"dbfId\":49088,\"name\":\"눈먼 순찰대원\",\"type\":\"MINION\",\"cardClass\":\"NEUTRAL\",\"rarity\":\"COMMON\",\"collectible\":true,\"cost\":5,\"text\":\"<b>속공</b>, <b>압살:</b> 1/1 박쥐를 2마리 소환합니다.\",\"attack\":3,\"health\":4,\"durability\":0,\"armor\":0,\"flavor\":\"네가 눈이 없어, 발이 없... 아.\",\"spellSchool\":\"\",\"portrait\":\"HS15-068_M.psd:72488f2e52963f848967868b12bb7f8e\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":45,\"name\":\"생명력\",\"value\":4},{\"id\":47,\"name\":\"공격력\",\"value\":3},{\"id\":48,\"name\":\"마나 비용\",\"value\":5},{\"id\":114,\"name\":\"전설 속성\",\"value\":0},{\"id\":199,\"name\":\"직업\",\"value\":12},{\"id\":202,\"name\":\"카드 유형\",\"value\":4},{\"id\":203,\"name\":\"희귀도\",\"value\":1},{\"id\":321,\"name\":\"수집 가능\",\"value\":1},{\"id\":791,\"name\":\"속공\",\"value\":1},{\"id\":923,\"name\":\"압살\",\"value\":1},{\"id\":1452,\"name\":\"수집품 관련 카드 데이터베이스 ID\",\"value\":49087}],\"races\":[],\"race\":\"\",\"classes\":[],\"art\":\"art/TRL_020.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-068_M.psd:72488f2e52963f848967868b12bb7f8e\",\"goldenMaterial\":\"TRL_020_PremiumCard.mat:52f3a810e4ff9b144b4b386cc7b5cd41\",\"goldenAnimation\":\"TRL_020_PremiumCard.asset:9c6230ff503b32849b2bca7a70775cb2\"}}\n",
@@ -744,7 +752,16 @@
         "goldenAnimation": "TRL_020_PremiumCard.asset:9c6230ff503b32849b2bca7a70775cb2"
       }
     },
-    "originalFourKeySourceSha256": "dc53c272317625cd6e2181374be3adeee604077b55b25ed064f2fd200c5eaf90"
+    "originalFourKeySourceSha256": "dc53c272317625cd6e2181374be3adeee604077b55b25ed064f2fd200c5eaf90",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_020",
@@ -838,10 +855,7 @@
     "text": "<b>속공</b>, <b>압살:</b> 1/1 박쥐를 2마리 소환합니다.",
     "attack": 3,
     "health": 4,
-    "durability": 0,
-    "armor": 0,
     "flavor": "네가 눈이 없어, 발이 없... 아.",
-    "spellSchool": "",
     "portrait": "HS15-068_M.psd:72488f2e52963f848967868b12bb7f8e",
     "set": "TROLL",
     "nativeTags": [

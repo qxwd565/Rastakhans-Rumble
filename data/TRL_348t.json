@@ -503,12 +503,20 @@
     ],
     "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "스라소니",
-      "enUS": "Lynx"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>속공</b>",
+      "enUS": "<b>Rush</b>",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "currentPrintedText": {
-      "koKR": "스라소니",
-      "enUS": "Lynx"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>속공</b>",
+      "enUS": "<b>Rush</b>",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "undatedCurrentDifferences": [],
     "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_348t\",\"dbfId\":50213,\"name\":\"스라소니\",\"type\":\"MINION\",\"cardClass\":\"HUNTER\",\"collectible\":false,\"cost\":1,\"text\":\"<b>속공</b>\",\"attack\":1,\"health\":1,\"durability\":0,\"armor\":0,\"flavor\":\"\",\"spellSchool\":\"\",\"portrait\":\"HS15-021_M.psd:8bf6c620a4e07214f89a147c3c5d207a\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":45,\"name\":\"생명력\",\"value\":1},{\"id\":47,\"name\":\"공격력\",\"value\":1},{\"id\":48,\"name\":\"마나 비용\",\"value\":1},{\"id\":114,\"name\":\"전설 속성\",\"value\":0},{\"id\":199,\"name\":\"직업\",\"value\":3},{\"id\":200,\"name\":\"종족\",\"value\":20},{\"id\":201,\"name\":\"진영\",\"value\":3},{\"id\":202,\"name\":\"카드 유형\",\"value\":4},{\"id\":251,\"name\":\"게임 태그 251\",\"value\":1},{\"id\":321,\"name\":\"수집 가능\",\"value\":0},{\"id\":791,\"name\":\"속공\",\"value\":1},{\"id\":1584,\"name\":\"게임 태그 1584\",\"value\":1}],\"races\":[\"BEAST\"],\"race\":\"야수\",\"classes\":[],\"art\":\"art/TRL_348t.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-021_M.psd:8bf6c620a4e07214f89a147c3c5d207a\",\"goldenMaterial\":\"TRL_348t_PremiumCard.mat:fca2e9164ac873b40b109959d90aeaeb\",\"goldenAnimation\":\"TRL_348t_PremiumCard.asset:5e0c682662b6ecf4891e9447f0bff05b\"}}\n",
@@ -608,7 +616,16 @@
         "goldenAnimation": "TRL_348t_PremiumCard.asset:5e0c682662b6ecf4891e9447f0bff05b"
       }
     },
-    "originalFourKeySourceSha256": "a52e607d8faa69967bad38f0b395527566d4a471f0ed13c918be4bc3d6f4fa0a"
+    "originalFourKeySourceSha256": "a52e607d8faa69967bad38f0b395527566d4a471f0ed13c918be4bc3d6f4fa0a",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_348t",
@@ -707,10 +724,7 @@
     "text": "<b>속공</b>",
     "attack": 1,
     "health": 1,
-    "durability": 0,
-    "armor": 0,
     "flavor": "",
-    "spellSchool": "",
     "portrait": "HS15-021_M.psd:8bf6c620a4e07214f89a147c3c5d207a",
     "set": "TROLL",
     "nativeTags": [

@@ -585,12 +585,20 @@
     "undatedRawTagTransitions": [],
     "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "잠깐!",
-      "enUS": "Time Out!"
+      "tagId": 184,
+      "present": true,
+      "koKR": "내 다음 턴까지 내 영웅이 <b>면역</b> 상태가 됩니다.",
+      "enUS": "Your hero is <b>Immune</b> until your next turn.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "currentPrintedText": {
-      "koKR": "잠깐!",
-      "enUS": "Time Out!"
+      "tagId": 184,
+      "present": true,
+      "koKR": "내 다음 턴까지 내 영웅이 <b>면역</b> 상태가 됩니다.",
+      "enUS": "Your hero is <b>Immune</b> until your next turn.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "undatedCurrentDifferences": [],
     "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_302\",\"dbfId\":49999,\"name\":\"잠깐!\",\"type\":\"SPELL\",\"cardClass\":\"PALADIN\",\"rarity\":\"COMMON\",\"collectible\":true,\"cost\":3,\"text\":\"내 다음 턴까지 내 영웅이 <b>면역</b> 상태가 됩니다.\",\"attack\":0,\"health\":0,\"durability\":0,\"armor\":0,\"flavor\":\"세 살배기 아이들을 상대할 때 효과적입니다.\",\"spellSchool\":\"\",\"portrait\":\"HS15-150_S.psd:a4bd9ff8f8f4eb84d83d35f22e0d0e74\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":48,\"name\":\"마나 비용\",\"value\":3},{\"id\":199,\"name\":\"직업\",\"value\":5},{\"id\":202,\"name\":\"카드 유형\",\"value\":5},{\"id\":203,\"name\":\"희귀도\",\"value\":1},{\"id\":240,\"name\":\"면역\",\"value\":1},{\"id\":321,\"name\":\"수집 가능\",\"value\":1}],\"races\":[],\"race\":\"\",\"classes\":[],\"art\":\"art/TRL_302.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-150_S.psd:a4bd9ff8f8f4eb84d83d35f22e0d0e74\",\"goldenMaterial\":\"TRL_302_PremiumCard.mat:6a679fa2b6a39c142b33b5a9432e4d44\",\"goldenAnimation\":\"TRL_302_PremiumCard.asset:88513f624ea449e45a127c456ad6016a\"}}\n",
@@ -659,7 +667,19 @@
         "goldenAnimation": "TRL_302_PremiumCard.asset:88513f624ea449e45a127c456ad6016a"
       }
     },
-    "originalFourKeySourceSha256": "5c523da9ffa8ed88c781f042109531eaaeba1857a2c539f4b86b7ec77c5a2319"
+    "originalFourKeySourceSha256": "5c523da9ffa8ed88c781f042109531eaaeba1857a2c539f4b86b7ec77c5a2319",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_302",
@@ -726,10 +746,6 @@
     "collectible": true,
     "cost": 3,
     "text": "내 다음 턴까지 내 영웅이 <b>면역</b> 상태가 됩니다.",
-    "attack": 0,
-    "health": 0,
-    "durability": 0,
-    "armor": 0,
     "flavor": "세 살배기 아이들을 상대할 때 효과적입니다.",
     "spellSchool": "",
     "portrait": "HS15-150_S.psd:a4bd9ff8f8f4eb84d83d35f22e0d0e74",
@@ -766,8 +782,6 @@
         "value": 1
       }
     ],
-    "races": [],
-    "race": "",
     "classes": [],
     "art": "art/TRL_302.png"
   }

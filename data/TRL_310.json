@@ -562,37 +562,23 @@
         "textContent": "Konstantin Turovec"
       }
     },
-    "undatedRawTagTransitions": [
-      {
-        "build": 77662,
-        "id": "TRL_310",
-        "dbfId": 50120,
-        "name": "정령술 연마",
-        "rawDiff": {
-          "1635": [
-            "ABSENT",
-            "2"
-          ]
-        },
-        "tagNames": {
-          "1635": "SPELL_SCHOOL"
-        },
-        "decision": "gameplay_spell_school_added_recorded_correctly",
-        "relatedFindings": [
-          "RAST-BAL-E015"
-        ],
-        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-        "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
-      }
-    ],
+    "undatedRawTagTransitions": [],
     "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "정령술 연마",
-      "enUS": "Elemental Evocation"
+      "tagId": 184,
+      "present": true,
+      "koKR": "[x]이번 턴에 내가 내는\n다음 정령의 비용이\n(2) 감소합니다.",
+      "enUS": "The next Elemental you_play this turn costs (2) less.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "currentPrintedText": {
-      "koKR": "정령술 연마",
-      "enUS": "Elemental Evocation"
+      "tagId": 184,
+      "present": true,
+      "koKR": "[x]이번 턴에 내가 내는\n다음 정령의 비용이\n(2) 감소합니다.",
+      "enUS": "The next Elemental you_play this turn costs (2) less.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "undatedCurrentDifferences": [],
     "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_310\",\"dbfId\":50120,\"name\":\"정령술 연마\",\"type\":\"SPELL\",\"cardClass\":\"MAGE\",\"rarity\":\"COMMON\",\"collectible\":true,\"cost\":0,\"text\":\"이번 턴에 내가 내는<br></br>다음 정령의 비용이<br></br>(2) 감소합니다.\",\"attack\":0,\"health\":0,\"durability\":0,\"armor\":0,\"flavor\":\"비결은 기름입니다.\",\"spellSchool\":\"FIRE\",\"portrait\":\"HS15-135_S.psd:d84451c666fbe3845a37b0808b6fcd93\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":48,\"name\":\"마나 비용\",\"value\":0},{\"id\":199,\"name\":\"직업\",\"value\":4},{\"id\":202,\"name\":\"카드 유형\",\"value\":5},{\"id\":203,\"name\":\"희귀도\",\"value\":1},{\"id\":321,\"name\":\"수집 가능\",\"value\":1},{\"id\":1635,\"name\":\"주문 속성\",\"value\":2}],\"races\":[],\"race\":\"\",\"classes\":[],\"art\":\"art/TRL_310.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-135_S.psd:d84451c666fbe3845a37b0808b6fcd93\",\"goldenMaterial\":\"TRL_310_PremiumCard.mat:3cc8ea8fa9c13d3418b8c67d6afac83a\",\"goldenAnimation\":\"TRL_310_PremiumCard.asset:8220000293dc5e44d9724a77738bfa69\"}}\n",
@@ -661,7 +647,19 @@
         "goldenAnimation": "TRL_310_PremiumCard.asset:8220000293dc5e44d9724a77738bfa69"
       }
     },
-    "originalFourKeySourceSha256": "353755afe574f26393ab66a11c1a994e10023fbb7cbebe02950c78193c5da301"
+    "originalFourKeySourceSha256": "353755afe574f26393ab66a11c1a994e10023fbb7cbebe02950c78193c5da301",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_310",
@@ -728,10 +726,6 @@
     "collectible": true,
     "cost": 0,
     "text": "이번 턴에 내가 내는<br></br>다음 정령의 비용이<br></br>(2) 감소합니다.",
-    "attack": 0,
-    "health": 0,
-    "durability": 0,
-    "armor": 0,
     "flavor": "비결은 기름입니다.",
     "spellSchool": "",
     "portrait": "HS15-135_S.psd:d84451c666fbe3845a37b0808b6fcd93",
@@ -763,8 +757,6 @@
         "value": 1
       }
     ],
-    "races": [],
-    "race": "",
     "classes": [],
     "art": "art/TRL_310.png"
   },
@@ -801,6 +793,34 @@
         "value": 2
       }
     ],
-    "spellSchool": "FIRE"
+    "spellSchool": "FIRE",
+    "nativeTagRolesDelta": {
+      "owned": {
+        "set": {
+          "1635": "2"
+        },
+        "removed": []
+      },
+      "referenced": {
+        "set": {},
+        "removed": []
+      }
+    },
+    "source": {
+      "rawRoleEvidence": {
+        "build": 77662,
+        "decision": "gameplay_spell_school_added_recorded_correctly",
+        "findingIds": [
+          "RAST-BAL-E015"
+        ],
+        "rawDiff": {
+          "1635": [
+            "ABSENT",
+            "2"
+          ]
+        },
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+      }
+    }
   }
 }

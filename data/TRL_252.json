@@ -640,37 +640,23 @@
         "textContent": "James Ryman"
       }
     },
-    "undatedRawTagTransitions": [
-      {
-        "build": 135540,
-        "id": "TRL_252",
-        "dbfId": 50032,
-        "name": "대여사제 제클릭",
-        "rawDiff": {
-          "45": [
-            "4",
-            "5"
-          ]
-        },
-        "tagNames": {
-          "45": "HEALTH"
-        },
-        "decision": "gameplay_stat_change",
-        "relatedFindings": [
-          "RAST-BAL-M001"
-        ],
-        "note": "공식 변경 공지와 원본 ID 전후 비교로 확정. 출시일/Core 개방일과 구별.",
-        "sourceURL": "https://github.com/HearthSim/hsdata/blob/9016168146cc3ce0369e8cbc54eb8395afba75a0/CardDefs.xml"
-      }
-    ],
+    "undatedRawTagTransitions": [],
     "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "대여사제 제클릭",
-      "enUS": "High Priestess Jeklik"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>도발</b>, <b>생명력 흡수</b>\n이 하수인을 버리면, 이 하수인을 둘 복사하여 내 손으로 가져옵니다.",
+      "enUS": "[x]<b>Taunt</b>, <b>Lifesteal</b>\nWhen you discard this,\nadd 2 copies of it to\nyour hand.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "currentPrintedText": {
-      "koKR": "대여사제 제클릭",
-      "enUS": "High Priestess Jeklik"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>도발</b>, <b>생명력 흡수</b>\n이 하수인을 버리면, 이 하수인을 둘 복사하여 내 손으로 가져옵니다.",
+      "enUS": "[x]<b>Taunt</b>, <b>Lifesteal</b>\nWhen you discard this,\nadd 2 copies of it to\nyour hand.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "undatedCurrentDifferences": [],
     "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_252\",\"dbfId\":50032,\"name\":\"대여사제 제클릭\",\"type\":\"MINION\",\"cardClass\":\"WARLOCK\",\"rarity\":\"LEGENDARY\",\"collectible\":true,\"cost\":4,\"text\":\"<b>도발</b>, <b>생명력 흡수</b><br></br>이 하수인을 버리면, 이 하수인을 둘 복사하여 내 손으로 가져옵니다.\",\"attack\":3,\"health\":5,\"durability\":0,\"armor\":0,\"flavor\":\"\\\"이런 미친 게임을 봤나!\\\"\",\"spellSchool\":\"\",\"portrait\":\"HS15-005_M.psd:37ac59b5e1a88c041bd4c89265ea67d4\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":45,\"name\":\"생명력\",\"value\":5},{\"id\":47,\"name\":\"공격력\",\"value\":3},{\"id\":48,\"name\":\"마나 비용\",\"value\":4},{\"id\":114,\"name\":\"전설 속성\",\"value\":1},{\"id\":190,\"name\":\"도발\",\"value\":1},{\"id\":199,\"name\":\"직업\",\"value\":9},{\"id\":202,\"name\":\"카드 유형\",\"value\":4},{\"id\":203,\"name\":\"희귀도\",\"value\":5},{\"id\":321,\"name\":\"수집 가능\",\"value\":1},{\"id\":335,\"name\":\"게임 태그 335\",\"value\":1},{\"id\":685,\"name\":\"생명력 흡수\",\"value\":1}],\"races\":[],\"race\":\"\",\"classes\":[],\"art\":\"art/TRL_252.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-005_M.psd:37ac59b5e1a88c041bd4c89265ea67d4\",\"goldenMaterial\":\"TRL_252_PremiumCard.mat:0969400f3bc68c747bb994b79ee1f5f0\",\"goldenAnimation\":\"TRL_252_PremiumCard.asset:b40d55992bc30934eaaf5a8e0827a3ba\"}}\n",
@@ -764,7 +750,16 @@
         "goldenAnimation": "TRL_252_PremiumCard.asset:b40d55992bc30934eaaf5a8e0827a3ba"
       }
     },
-    "originalFourKeySourceSha256": "1ec67095cd97e7ea3419ce66ae51df5940faf40fe28a52f736d9a7d7ae34cc81"
+    "originalFourKeySourceSha256": "1ec67095cd97e7ea3419ce66ae51df5940faf40fe28a52f736d9a7d7ae34cc81",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_252",
@@ -858,10 +853,7 @@
     "text": "<b>도발</b>, <b>생명력 흡수</b><br></br>이 하수인을 버리면, 이 하수인을 둘 복사하여 내 손으로 가져옵니다.",
     "attack": 3,
     "health": 4,
-    "durability": 0,
-    "armor": 0,
     "flavor": "\"이런 미친 게임을 봤나!\"",
-    "spellSchool": "",
     "portrait": "HS15-005_M.psd:37ac59b5e1a88c041bd4c89265ea67d4",
     "set": "TROLL",
     "nativeTags": [
@@ -987,7 +979,33 @@
     ],
     "source": {
       "findingId": "RAST-BAL-M001",
-      "confidence": "high"
+      "confidence": "high",
+      "rawRoleEvidence": {
+        "build": 135540,
+        "decision": "gameplay_stat_change",
+        "findingIds": [
+          "RAST-BAL-M001"
+        ],
+        "rawDiff": {
+          "45": [
+            "4",
+            "5"
+          ]
+        },
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/9016168146cc3ce0369e8cbc54eb8395afba75a0/CardDefs.xml"
+      }
+    },
+    "nativeTagRolesDelta": {
+      "owned": {
+        "set": {
+          "45": "5"
+        },
+        "removed": []
+      },
+      "referenced": {
+        "set": {},
+        "removed": []
+      }
     }
   }
 }

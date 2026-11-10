@@ -571,12 +571,20 @@
     "undatedRawTagTransitions": [],
     "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "압도",
-      "enUS": "Devastate"
+      "tagId": 184,
+      "present": true,
+      "koKR": "피해를 받은 하수인에게 피해를 $4 줍니다.",
+      "enUS": "Deal $4 damage to a damaged minion.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "currentPrintedText": {
-      "koKR": "압도",
-      "enUS": "Devastate"
+      "tagId": 184,
+      "present": true,
+      "koKR": "피해를 받은 하수인에게 피해를 $4 줍니다.",
+      "enUS": "Deal $4 damage to a damaged minion.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "undatedCurrentDifferences": [],
     "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_321\",\"dbfId\":50040,\"name\":\"압도\",\"type\":\"SPELL\",\"cardClass\":\"WARRIOR\",\"rarity\":\"COMMON\",\"collectible\":true,\"cost\":1,\"text\":\"피해를 받은 하수인에게 피해를 $4 줍니다.\",\"attack\":0,\"health\":0,\"durability\":0,\"armor\":0,\"flavor\":\"널 마무리할 수 없다면 압도해버리겠어.\",\"spellSchool\":\"\",\"portrait\":\"HS15-132_S.psd:8b931ec805488a14eba1a037382a772b\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":48,\"name\":\"마나 비용\",\"value\":1},{\"id\":114,\"name\":\"전설 속성\",\"value\":0},{\"id\":199,\"name\":\"직업\",\"value\":10},{\"id\":202,\"name\":\"카드 유형\",\"value\":5},{\"id\":203,\"name\":\"희귀도\",\"value\":1},{\"id\":321,\"name\":\"수집 가능\",\"value\":1}],\"races\":[],\"race\":\"\",\"classes\":[],\"art\":\"art/TRL_321.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-132_S.psd:8b931ec805488a14eba1a037382a772b\",\"goldenMaterial\":\"TRL_321_PremiumCard.mat:1a210565c151c5948b652059a21d367e\",\"goldenAnimation\":\"TRL_321_PremiumCard.asset:96ec484edb0c01040aec91379760f277\"}}\n",
@@ -645,7 +653,19 @@
         "goldenAnimation": "TRL_321_PremiumCard.asset:96ec484edb0c01040aec91379760f277"
       }
     },
-    "originalFourKeySourceSha256": "16fafe12bf4254a34e3be4003d35884a592b4a615b89db134dfb21f9d6b8a8d2"
+    "originalFourKeySourceSha256": "16fafe12bf4254a34e3be4003d35884a592b4a615b89db134dfb21f9d6b8a8d2",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_321",
@@ -712,10 +732,6 @@
     "collectible": true,
     "cost": 1,
     "text": "피해를 받은 하수인에게 피해를 $4 줍니다.",
-    "attack": 0,
-    "health": 0,
-    "durability": 0,
-    "armor": 0,
     "flavor": "널 마무리할 수 없다면 압도해버리겠어.",
     "spellSchool": "",
     "portrait": "HS15-132_S.psd:8b931ec805488a14eba1a037382a772b",
@@ -752,8 +768,6 @@
         "value": 1
       }
     ],
-    "races": [],
-    "race": "",
     "classes": [],
     "art": "art/TRL_321.png"
   }

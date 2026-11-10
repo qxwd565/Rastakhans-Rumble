@@ -19,10 +19,7 @@
         "text": "<b>은신</b>, <b>압살:</b> 방어도를<br></br>+3 얻습니다.",
         "attack": 3,
         "health": 5,
-        "durability": 0,
-        "armor": 0,
         "flavor": "누군가의 쓰레기는 다른 누군가의 졸업템일 수도 있습니다.",
-        "spellSchool": "",
         "portrait": "HS15-160_M.psd:a6e8ff816f751ac4cae532ddc802ed80",
         "set": "TROLL",
         "nativeTags": [
@@ -92,10 +89,6 @@
         "collectible": true,
         "cost": 1,
         "text": "피해를 $2 줍니다.<br></br><b>압살</b>: 무작위 기본<br></br>토템을 소환합니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "트롤들은 대기권을 돌파할 수 있는 토템을 처음으로 발명했습니다.",
         "spellSchool": "",
         "portrait": "HS15-144_S.psd:552249ce674d18e439993cce7bfe5656",
@@ -137,8 +130,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_012.png"
       },
@@ -154,10 +145,7 @@
         "text": "<b>압살:</b><br></br>카드를 2장 뽑습니다.",
         "attack": 5,
         "health": 3,
-        "durability": 0,
-        "armor": 0,
         "flavor": "웃돈은 10% 정도만 준비해.",
-        "spellSchool": "",
         "portrait": "HS15-063_M.psd:7cd9c62128feb3b409fe3cb2eccbb7b3",
         "set": "TROLL",
         "nativeTags": [
@@ -231,10 +219,7 @@
         "text": "<b>속공</b>, <b>압살:</b> 1/1 박쥐를 2마리 소환합니다.",
         "attack": 3,
         "health": 4,
-        "durability": 0,
-        "armor": 0,
         "flavor": "네가 눈이 없어, 발이 없... 아.",
-        "spellSchool": "",
         "portrait": "HS15-068_M.psd:72488f2e52963f848967868b12bb7f8e",
         "set": "TROLL",
         "nativeTags": [
@@ -310,10 +295,7 @@
         "text": "",
         "attack": 1,
         "health": 1,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
-        "spellSchool": "",
         "portrait": "HS15-069_M.psd:ca81ae67de63eed4f881286162f777a0",
         "set": "TROLL",
         "nativeTags": [
@@ -377,10 +359,7 @@
         "text": "내 턴이 끝날 때,<br></br>적 영웅에게 피해를<br></br>2 줍니다.",
         "attack": 0,
         "health": 2,
-        "durability": 0,
-        "armor": 0,
         "flavor": "가끔은 뱀들도 수호받고 싶어 합니다.",
-        "spellSchool": "",
         "portrait": "HS15-074_M.psd:77713487621233f498937f87f42bcaeb",
         "set": "TROLL",
         "nativeTags": [
@@ -452,10 +431,6 @@
         "collectible": true,
         "cost": 3,
         "text": "이번 턴에 내가 시전하는 다음 주문의 비용이 (3) 감소합니다. 주문을 <b>발견</b>합니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "환영을 바라볼 때에는 마음가짐이 중요하죠.",
         "spellSchool": "",
         "portrait": "HS15-148_S.psd:858731d1b1539ae478d42e2568ae10ab",
@@ -512,8 +487,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_058.png"
       },
@@ -529,10 +502,7 @@
         "text": "<b>전투의 함성:</b> 아군 하수인을<br></br>내 손으로 다시 가져옵니다.<br></br>그 하수인에게 +2/+2를<br></br>부여합니다.",
         "attack": 3,
         "health": 3,
-        "durability": 0,
-        "armor": 0,
         "flavor": "깨끗이 닦인 바닥의 카운터입니다.",
-        "spellSchool": "",
         "portrait": "HS15-147_M.psd:f4f530f36e969de4081ba3acf663f7c7",
         "set": "TROLL",
         "nativeTags": [
@@ -606,10 +576,7 @@
         "text": "1턴 동안 <b>은신</b>을 얻습니다.<br></br>내가 주문을 시전할 때마다 내 덱에서 그 주문보다 비용이 (1) 높은 주문을 뽑습니다.",
         "attack": 0,
         "health": 3,
-        "durability": 0,
-        "armor": 0,
         "flavor": "6시는 슬픈 개구리고, 12시는 아무튼 생성됨입니다.",
-        "spellSchool": "",
         "portrait": "HS15-043_M.psd:dffa7e8b6d41da04d99a3681f8d873ba",
         "set": "TROLL",
         "nativeTags": [
@@ -674,12 +641,9 @@
         "collectible": true,
         "cost": 10,
         "text": "<b>전투의 함성:</b><br></br>이번 게임에서 내가 낸<br></br>모든 주문을 시전합니다.<br></br><i>(대상은 무작위로 선택)</i>",
-        "attack": 0,
         "health": 30,
-        "durability": 0,
         "armor": 5,
         "flavor": "도끼를 피할 수 있다면 공도 피할 수 있어.",
-        "spellSchool": "",
         "portrait": "HS15-022_H.psd:a759b89274f0e9245be480f99cb12817",
         "set": "TROLL",
         "nativeTags": [
@@ -734,8 +698,6 @@
             "value": 50579
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_065.png"
       },
@@ -748,12 +710,7 @@
         "collectible": false,
         "cost": 2,
         "text": "피해를 $2 줍니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
-        "spellSchool": "",
         "portrait": "HS15-023_HP.psd:7928d4c9b2830474fa0bbb3058e935cc",
         "set": "TROLL",
         "nativeTags": [
@@ -793,8 +750,6 @@
             "value": 0
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_065h.png"
       },
@@ -810,10 +765,7 @@
         "text": "<b>속공</b>, <b>전투의 함성:</b><br></br>내 다른 해적 하나당<br></br>+1/+1을 얻습니다.",
         "attack": 1,
         "health": 1,
-        "durability": 0,
-        "armor": 0,
         "flavor": "\"이제 내가 두목이다, 응가들아!\"",
-        "spellSchool": "",
         "portrait": "HS15-121_M.psd:79610d66c6505bb478f69a32bc265674",
         "set": "TROLL",
         "nativeTags": [
@@ -891,11 +843,8 @@
         "cost": 1,
         "text": "<b>죽음의 메아리:</b> 내<br></br>하수인들에게 <b>속공</b>을 부여합니다.",
         "attack": 1,
-        "health": 0,
         "durability": 3,
-        "armor": 0,
         "flavor": "톱니 같은 이빨, 괴상망측한 괴성!",
-        "spellSchool": "",
         "portrait": "HS15-013_W.psd:797a4d0da83f7144d830cc794915721a",
         "set": "TROLL",
         "nativeTags": [
@@ -950,8 +899,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_074.png"
       },
@@ -967,10 +914,7 @@
         "text": "<b>전투의 함성:</b><br></br><b>전투의 함성</b> 하수인을<br></br><b>발견</b>합니다. 그 하수인은<br></br>비용이 (1)인 1/1<br></br>하수인이 됩니다.",
         "attack": 5,
         "health": 7,
-        "durability": 0,
-        "armor": 0,
         "flavor": "손 머리 위로! 올린 사람은 비용이 (1)이 됩니다.",
-        "spellSchool": "",
         "portrait": "HS15-015_M.psd:4fae68f4ec7e0424ca21c74bad449d08",
         "set": "TROLL",
         "nativeTags": [
@@ -1045,10 +989,6 @@
         "collectible": true,
         "cost": 2,
         "text": "아군 하수인에게<br></br>\"<b>죽음의 메아리:</b> 비용이<br></br>(1) 높은 무작위 하수인을<br></br>소환함\" 능력을 부여합니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "멀록들은 작은 행복의 부두술을 연습합니다.",
         "spellSchool": "",
         "portrait": "HS15-045_S.psd:555db277f36829f4d886b2400d15ca15",
@@ -1100,8 +1040,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_082.png"
       },
@@ -1117,10 +1055,7 @@
         "text": "내가 주문의 대상으로<br></br>하수인을 지정할 때마다<br></br>양옆의 하수인들에게도<br></br>다시 시전합니다.",
         "attack": 1,
         "health": 3,
-        "durability": 0,
-        "armor": 0,
         "flavor": "평온. 평안. 그리고 수많은 개구리들.",
-        "spellSchool": "",
         "portrait": "HS15-149_M.psd:226c1a8cdd09b5142a5f88b48083fcab",
         "set": "TROLL",
         "nativeTags": [
@@ -1187,10 +1122,7 @@
         "text": "1턴 동안 <b>은신</b>을 얻습니다.<br></br>내 하수인들의 <b>전투의 함성</b>과 <b>연계</b> 능력이 2번 발동합니다.",
         "attack": 0,
         "health": 3,
-        "durability": 0,
-        "armor": 0,
         "flavor": "은신 중이긴 하지만 불길한 음악 소리 때문에 누구든 알아챕니다.",
-        "spellSchool": "",
         "portrait": "HS15-014_M.psd:9d77e031e4e95ce47b79353e196ee8af",
         "set": "TROLL",
         "nativeTags": [
@@ -1267,10 +1199,7 @@
         "text": "<b>전투의 함성:</b><br></br>카드를 2장 <b>발견</b>합니다. 1장을 무작위로 상대편에게 줍니다.",
         "attack": 4,
         "health": 5,
-        "durability": 0,
-        "armor": 0,
         "flavor": "그립타가 덱에 있으면 가끔은 동전을 가지고 게임을 시작한답니다!",
-        "spellSchool": "",
         "portrait": "HS15-180_M.psd:486e34618b4116e42a789e62ec95b8e8",
         "set": "TROLL",
         "nativeTags": [
@@ -1345,10 +1274,6 @@
         "collectible": true,
         "cost": 2,
         "text": "하수인을 선택합니다.<br></br>그 카드를 복사하여<br></br>내 손으로 가져옵니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "\"혼령들이 내게 말을 했다네.\" \"뭐라고 말했는가?\" \"두 턴 전에 킬각이었는데 자네가 놓쳤다고.\"",
         "spellSchool": "",
         "portrait": "HS15-140_S.psd:a460420a032428843a81fd18edaca74c",
@@ -1385,8 +1310,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_097.png"
       },
@@ -1401,11 +1324,8 @@
         "cost": 2,
         "text": "<b>전투의 함성:</b><br></br>내 전장에 야수가 있으면, 내구도를<br></br>+1 얻습니다.",
         "attack": 2,
-        "health": 0,
         "durability": 2,
-        "armor": 0,
         "flavor": "줄진이 인간들을 고용할 때 사용하는 도구입니다.",
-        "spellSchool": "",
         "portrait": "HS15-018_W.psd:b5f5bb425f0a31b459f6a21c11a63fb1",
         "set": "TROLL",
         "nativeTags": [
@@ -1455,8 +1375,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_111.png"
       },
@@ -1470,10 +1388,6 @@
         "collectible": true,
         "cost": 1,
         "text": "아군 야수에게 +1/+1을 부여합니다. 그 야수가 무작위 적 하수인을 공격합니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "야수의 내면은 어차피 야수이지 않을까요.",
         "spellSchool": "",
         "portrait": "HS15-128_S.psd:2cde3779bc709ad41bbf645f65be5d4d",
@@ -1520,8 +1434,6 @@
             "value": 0
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_119.png"
       },
@@ -1535,10 +1447,6 @@
         "collectible": true,
         "cost": 3,
         "text": "내 덱에서 해적을 둘 뽑습니다. <b>연계:</b> 무기도 뽑습니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "약탈팟 모읍니다. (해적 풀)",
         "spellSchool": "",
         "portrait": "HS15-122_S.psd:f54de43b6f7667246ae85c09b58d27f6",
@@ -1580,8 +1488,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_124.png"
       },
@@ -1597,10 +1503,7 @@
         "text": "<b>전투의 함성:</b> 내 덱에서<br></br>해적을 셋 소환합니다.<br></br>그 해적들에게 <b>속공</b>을<br></br>부여합니다.",
         "attack": 6,
         "health": 3,
-        "durability": 0,
-        "armor": 0,
         "flavor": "\"너희 셋! 대포 안에 기어들어 가!\"",
-        "spellSchool": "",
         "portrait": "HS15-017_M.psd:428bcb7d44970e24f90d7d750685c720",
         "set": "TROLL",
         "nativeTags": [
@@ -1677,10 +1580,6 @@
         "collectible": true,
         "cost": 6,
         "text": "무작위 적에게 피해를 $3 줍니다.<br></br>내 해적의 수만큼 반복합니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "하늘에서 포탄이 빗발친다!",
         "spellSchool": "",
         "portrait": "HS15-120_S.psd:0bedea8680f07dd4eb14e399400dd186",
@@ -1737,8 +1636,6 @@
             "value": 0
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_127.png"
       },
@@ -1752,10 +1649,6 @@
         "collectible": true,
         "cost": 0,
         "text": "생명력을 #3 회복시킵니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "암사륜안으로 보면 0마나에 '피해를 3 줍니다.'라는군요.",
         "spellSchool": "",
         "portrait": "HS15-139_S.psd:b1de2ab887a3adc41b8d577985fbd63f",
@@ -1802,8 +1695,6 @@
             "value": 0
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_128.png"
       },
@@ -1819,10 +1710,7 @@
         "text": "내가 주문을 시전할 때마다 <b>도발</b> 능력이 있는 1/1 좀비를 소환합니다.",
         "attack": 3,
         "health": 3,
-        "durability": 0,
-        "armor": 0,
         "flavor": "\"친구가 없으면 어때! 나처럼 이렇게 만들면 되는데!\"",
-        "spellSchool": "",
         "portrait": "HS15-036_M.psd:8b998f753d9ecd0478e602e8a82e4ac9",
         "set": "TROLL",
         "nativeTags": [
@@ -1898,10 +1786,7 @@
         "text": "<b>도발</b>",
         "attack": 1,
         "health": 1,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
-        "spellSchool": "",
         "portrait": "HS15-037_M.psd:b337c557b30bbd346b6836f75e41d009",
         "set": "TROLL",
         "nativeTags": [
@@ -1963,10 +1848,7 @@
         "text": "<b>전투의 함성:</b><br></br>5/5 유망주를 소환합니다.",
         "attack": 1,
         "health": 1,
-        "durability": 0,
-        "armor": 0,
         "flavor": "장의사가 메타를 지배할 때를 기억한다는군요.",
-        "spellSchool": "",
         "portrait": "HS15-161_M.tif:cc6430a80735e904298fdfb284438714",
         "set": "TROLL",
         "nativeTags": [
@@ -2037,10 +1919,7 @@
         "text": "",
         "attack": 5,
         "health": 5,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
-        "spellSchool": "",
         "portrait": "HS15-162_M.psd:a9c2c854c98fa8e4482d799f32684ec1",
         "set": "TROLL",
         "nativeTags": [
@@ -2095,10 +1974,6 @@
         "collectible": true,
         "cost": 2,
         "text": "다른 직업의 무기를 <b>발견</b>합니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "스랄이 둠해머를 빌려줄 리는 없다보니...",
         "spellSchool": "",
         "portrait": "HS15-118_S.psd:841e21785961b16419addbf0437b45d9",
@@ -2155,8 +2030,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_156.png"
       },
@@ -2170,10 +2043,6 @@
         "collectible": true,
         "cost": 4,
         "text": "피해를 받지 않은<br></br>하수인을 처치합니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "추락하는 것은 날개가 없는 법이죠.",
         "spellSchool": "",
         "portrait": "HS15-119_S.psd:e30d6eb65df92274290ad99a75706324",
@@ -2220,8 +2089,6 @@
             "value": 0
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_157.png"
       },
@@ -2237,10 +2104,7 @@
         "text": "1턴 동안 <b>은신</b>을 얻습니다.<br></br>내 영웅이 공격하여<br></br>하수인을 처치한 후에,<br></br>카드를 뽑습니다.",
         "attack": 0,
         "health": 3,
-        "durability": 0,
-        "armor": 0,
         "flavor": "\"로티! 로티! 그거 물면 안 돼! 로티, 앉아! 앉아!!\"",
-        "spellSchool": "",
         "portrait": "HS15-011_M.psd:64f9d249deb0c5347b641c772344fd73",
         "set": "TROLL",
         "nativeTags": [
@@ -2317,10 +2181,7 @@
         "text": "<b>압살:</b> 5/5 새끼 무쇠가죽 공포뿔을 소환합니다.",
         "attack": 7,
         "health": 7,
-        "durability": 0,
-        "armor": 0,
         "flavor": "\"아들아! 내 가면과 공성추를 가져오너라.\"",
-        "spellSchool": "",
         "portrait": "HS15-009_M.psd:f06a37023a098444fa9be627f69d26d6",
         "set": "TROLL",
         "nativeTags": [
@@ -2428,10 +2289,7 @@
         "text": "",
         "attack": 5,
         "health": 5,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
-        "spellSchool": "",
         "portrait": "HS15-010_M.psd:a93471eeda59bc74b987bac7003d3a62",
         "set": "TROLL",
         "nativeTags": [
@@ -2490,10 +2348,7 @@
         "text": "<b>전투의 함성:</b><br></br>적 하수인에게 내 영웅의 공격력만큼 피해를 줍니다.",
         "attack": 2,
         "health": 3,
-        "durability": 0,
-        "armor": 0,
         "flavor": "(영웅에게) \"물어!\"",
-        "spellSchool": "",
         "portrait": "HS15-007_M.psd:08fd7f79f0859874492faf08b053ac68",
         "set": "TROLL",
         "nativeTags": [
@@ -2570,10 +2425,7 @@
         "text": "내 영웅이 공격하여<br></br>하수인을 처치한 후에,<br></br>내 영웅이 다시 공격할<br></br>수 있습니다.",
         "attack": 4,
         "health": 9,
-        "durability": 0,
-        "armor": 0,
         "flavor": "공크에게 복종하지 않는 잔달라 드루이드들을 지칭하는 말이 있습니다. \"저녁 식사\".",
-        "spellSchool": "",
         "portrait": "HS15-012_M.psd:f256e8eb70e5a74438b46af393685fe3",
         "set": "TROLL",
         "nativeTags": [
@@ -2645,10 +2497,6 @@
         "collectible": true,
         "cost": 0,
         "text": "이번 턴에<br></br>내 영웅이 공격력을<br></br>+2 얻습니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "빈 상자 안에 뛰어 들어가려는 엄청난 충동을 가지고 있습니다.",
         "spellSchool": "",
         "portrait": "HS15-008_S.psd:3d20d7285dab69048a304badcdf21ed0",
@@ -2680,8 +2528,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_243.png"
       },
@@ -2695,10 +2541,6 @@
         "collectible": true,
         "cost": 4,
         "text": "내 덱에서<br></br>야수를 뽑습니다.<br></br>그 야수의 생명력을<br></br>2배 증가시킵니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "누가 녀석의 먹거리를 훔쳐먹었나 봅니다.",
         "spellSchool": "",
         "portrait": "HS15-108_S.psd:ad48eb2163c42f84b905221997b55ba9",
@@ -2750,8 +2592,6 @@
             "value": 0
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_244.png"
       },
@@ -2765,10 +2605,6 @@
         "collectible": true,
         "cost": 1,
         "text": "비용이 가장 낮은 카드를 버립니다.<br></br><b>모든</b> 하수인에게<br></br>피해를 $2 줍니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "카드가 10장인지 모르고 영웅 능력을 사용했을 때 내는 것.",
         "spellSchool": "",
         "portrait": "HS15-003_S.psd:a618b07839bd69c4dad788487da8805e",
@@ -2820,8 +2656,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_245.png"
       },
@@ -2835,10 +2669,6 @@
         "collectible": true,
         "cost": 8,
         "text": "각 플레이어의 덱을 절반씩 파괴합니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "\"이 주문을 시전하면 덱의 절반은 살아남을 것이다.\"",
         "spellSchool": "",
         "portrait": "HS15-101_S.psd:ee297a054bb2a784b8651f5f5b01be3c",
@@ -2885,8 +2715,6 @@
             "value": 0
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_246.png"
       },
@@ -2902,10 +2730,7 @@
         "text": "<b>전투의 함성:</b><br></br>이번 게임에서 내가 버린<br></br>무작위 카드 3장을 내<br></br>손으로 가져옵니다.",
         "attack": 6,
         "health": 6,
-        "durability": 0,
-        "armor": 0,
         "flavor": "영혼은 아껴 쓰고, 나눠 쓰고, 바꿔 쓰고, 다시 써야하는 법이죠.",
-        "spellSchool": "",
         "portrait": "HS15-103_M.psd:0fbb983f23d9d3a47b7be6b2dfa0a304",
         "set": "TROLL",
         "nativeTags": [
@@ -2980,10 +2805,6 @@
         "collectible": true,
         "cost": 1,
         "text": "아군 하수인을 처치합니다.<br></br>내 하수인들에게 +1/+1을 부여합니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "\"다 좋은데 말이야, 자네만 없으면 좋겠군.\"",
         "spellSchool": "",
         "portrait": "HS15-102_S.psd:61794aed8f6190048934dbc4f39adb27",
@@ -3020,8 +2841,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_249.png"
       },
@@ -3037,10 +2856,7 @@
         "text": "1턴 동안 <b>은신</b>을 얻습니다.<br></br>아군 하수인이 죽은 후에,<br></br>내 손에 있는 하수인에게<br></br>+1/+1을 부여합니다.",
         "attack": 0,
         "health": 3,
-        "durability": 0,
-        "armor": 0,
         "flavor": "난난난난난난난나, 난난난난난난나, 난난난난난난나!",
-        "spellSchool": "",
         "portrait": "HS15-004_M.psd:e6e4e8de0da8144458dda4269843b8c3",
         "set": "TROLL",
         "nativeTags": [
@@ -3107,10 +2923,7 @@
         "text": "<b>도발</b>, <b>생명력 흡수</b><br></br>이 하수인을 버리면, 이 하수인을 둘 복사하여 내 손으로 가져옵니다.",
         "attack": 3,
         "health": 4,
-        "durability": 0,
-        "armor": 0,
         "flavor": "\"이런 미친 게임을 봤나!\"",
-        "spellSchool": "",
         "portrait": "HS15-005_M.psd:37ac59b5e1a88c041bd4c89265ea67d4",
         "set": "TROLL",
         "nativeTags": [
@@ -3187,10 +3000,7 @@
         "text": "<b>전투의 함성:</b><br></br>이 하수인을 복사하여<br></br>내 전장을 가득 채웁니다.",
         "attack": 1,
         "health": 1,
-        "durability": 0,
-        "armor": 0,
         "flavor": "진화로 형이 왜 거기서 나와...?",
-        "spellSchool": "",
         "portrait": "HS15-006_M.psd:6074b6814e8be454a8f2740a9af94f15",
         "set": "TROLL",
         "nativeTags": [
@@ -3272,10 +3082,6 @@
         "collectible": true,
         "cost": 4,
         "text": "<b>선택</b> - 하수인에게 +2/+4와 <b>도발</b>을 부여합니다. 또는 3/2 랩터를 2마리 소환합니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "징표의 로아인 로아의 징표입니다.",
         "spellSchool": "",
         "portrait": "HS15-104_S.psd:eb2aa792306eadc40be2ed14ebee8150",
@@ -3332,8 +3138,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_254.png"
       },
@@ -3345,10 +3149,6 @@
         "cardClass": "DRUID",
         "collectible": false,
         "text": "하수인에게 +2/+4와 <b>도발</b>을 부여합니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
         "spellSchool": "",
         "portrait": "HS15-105_S.psd:b2460b6aa3842b345b4347103329d4a4",
@@ -3405,8 +3205,6 @@
             "value": 0
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_254a.png"
       },
@@ -3418,10 +3216,6 @@
         "cardClass": "DRUID",
         "collectible": false,
         "text": "3/2 랩터를 2마리 소환합니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
         "spellSchool": "",
         "portrait": "HS15-106_S.psd:00b6c4d100347f947a1f640ef9dd5908",
@@ -3468,8 +3262,6 @@
             "value": 0
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_254b.png"
       },
@@ -3484,10 +3276,7 @@
         "text": "",
         "attack": 3,
         "health": 2,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
-        "spellSchool": "",
         "portrait": "HS15-107_M.psd:a721706978b9a3147a5e293a14e15022",
         "set": "TROLL",
         "nativeTags": [
@@ -3549,10 +3338,6 @@
         "collectible": true,
         "cost": 6,
         "text": "내 손에 있는 무작위<br></br>야수를 소환합니다.<br></br>그 야수에게 <b>속공</b>을<br></br>부여합니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "구루바시 투기장은 육식 애완동물도 마음껏 데려올 수 있는 직장이랍니다.",
         "spellSchool": "",
         "portrait": "HS15-109_S.psd:676f75f164a25e142b474b89b8a13183",
@@ -3619,8 +3404,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_255.png"
       },
@@ -3636,10 +3419,7 @@
         "text": "아군 하수인이 죽은 후에,<br></br>적 영웅에게 피해를<br></br>2 줍니다.",
         "attack": 5,
         "health": 8,
-        "durability": 0,
-        "armor": 0,
         "flavor": "영화관을 증정할 정도로 피를 뽑습니다.",
-        "spellSchool": "",
         "portrait": "HS15-001_M.psd:1ae0e72fc20bcb343861a8f5248b2eb8",
         "set": "TROLL",
         "nativeTags": [
@@ -3699,10 +3479,6 @@
         "collectible": true,
         "cost": 5,
         "text": "<b>모든</b> 하수인이 무작위 하수인을 공격합니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "\"아, 어제 샀는데 할인을 왜 오늘 하냐고!\"",
         "spellSchool": "",
         "portrait": "HS15-141_S.psd:ca8804a11b308fe4299a3cf2ac3bd338",
@@ -3764,8 +3540,6 @@
             "value": 0
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_258.png"
       },
@@ -3781,10 +3555,7 @@
         "text": "<b>전투의 함성:</b> 내 손에서<br></br>게임이 시작됐을 때<br></br>내 덱에 없던 모든<br></br> 하수인을 소환합니다.",
         "attack": 7,
         "health": 5,
-        "durability": 0,
-        "armor": 0,
         "flavor": "누구나 공주가 되고 싶어 하죠. 머리 장식의 무게는 전혀 생각하지 않고.",
-        "spellSchool": "",
         "portrait": "HS15-143_M.psd:7f1d33b8fc5f65f4da5300208dab4b0c",
         "set": "TROLL",
         "nativeTags": [
@@ -3851,10 +3622,7 @@
         "text": "<b>전투의 함성:</b><br></br>내 손이 가득 찰 때까지<br></br>내 덱에서 비용이 1인<br></br>하수인을 뽑습니다.",
         "attack": 7,
         "health": 7,
-        "durability": 0,
-        "armor": 0,
         "flavor": "외쳐! V13D!",
-        "spellSchool": "",
         "portrait": "HS15-041_M.psd:1bd0c4155ac00404481714eafc922403",
         "set": "TROLL",
         "nativeTags": [
@@ -3931,10 +3699,7 @@
         "text": "<b>천상의 보호막</b>, <b>속공</b>, <b>생명력 흡수</b><br></br>내가 주문에 소모한 마나만큼 비용이 감소합니다.",
         "attack": 7,
         "health": 5,
-        "durability": 0,
-        "armor": 0,
         "flavor": "데칼은 무릎을 꿇고 자신의 무기를 시르밸라의 제단에 놓았습니다. 그의 헌신에 감명받은 시르밸라는 앞발로 천천히 무기를 제단에서 떨어트렸습니다.",
-        "spellSchool": "",
         "portrait": "HS15-052_M.psd:b2730fb98f86e8040b462a8f946b0a4d",
         "set": "TROLL",
         "nativeTags": [
@@ -4021,10 +3786,6 @@
         "collectible": true,
         "cost": 3,
         "text": "내 다음 턴까지 내 영웅이 <b>면역</b> 상태가 됩니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "세 살배기 아이들을 상대할 때 효과적입니다.",
         "spellSchool": "",
         "portrait": "HS15-150_S.psd:a4bd9ff8f8f4eb84d83d35f22e0d0e74",
@@ -4061,8 +3822,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_302.png"
       },
@@ -4077,11 +3836,8 @@
         "cost": 5,
         "text": "<b>압살</b>: 내 손에 있는 하수인에게 +2/+2를 부여합니다.",
         "attack": 3,
-        "health": 0,
         "durability": 3,
-        "armor": 0,
         "flavor": "뭔가 험악해 보이는 도끼입니다.",
-        "spellSchool": "",
         "portrait": "HS15-151_W.psd:3506ced92414fb147b6c48d745363a10",
         "set": "TROLL",
         "nativeTags": [
@@ -4131,8 +3887,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_304.png"
       },
@@ -4146,10 +3900,6 @@
         "collectible": true,
         "cost": 7,
         "text": "비용이 6인 하수인을<br></br><b>발견</b>합니다. 그 하수인에게<br></br><b>도발</b>과 <b>천상의 보호막</b>을<br></br>부여하여 소환합니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "...설마 '그' 도전자는 아니겠죠?",
         "spellSchool": "",
         "portrait": "HS15-153_S.psd:6ca240bcfc5b9b54185623fad14d67bd",
@@ -4206,8 +3956,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_305.png"
       },
@@ -4223,10 +3971,7 @@
         "text": "<b>죽음의 메아리:</b> 이<br></br>하수인을 내 덱에 섞어<br></br>넣습니다. 모든 강화<br></br>효과가 유지됩니다.",
         "attack": 1,
         "health": 3,
-        "durability": 0,
-        "armor": 0,
         "flavor": "거참 신박한 능력이군요.",
-        "spellSchool": "",
         "portrait": "HS15-051_M.psd:d935f539ae75cbf4380b6806b829ffd0",
         "set": "TROLL",
         "nativeTags": [
@@ -4296,10 +4041,6 @@
         "collectible": true,
         "cost": 2,
         "text": "생명력을 #4 회복시킵니다.<br></br>카드를 뽑습니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "잠깐! 카메라 가지고 들어오시면 안 됩니다!",
         "spellSchool": "",
         "portrait": "HS15-047_S.psd:564562b6435dfef448acf718fac69299",
@@ -4331,8 +4072,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_307.png"
       },
@@ -4348,10 +4087,7 @@
         "text": "<b>전투의 함성:</b> 내 영웅의 생명력을 1로 만듭니다. 감소한 생명력만큼 방어도를 얻습니다.",
         "attack": 3,
         "health": 4,
-        "durability": 0,
-        "armor": 0,
         "flavor": "\"...그러다가 생명력이 딱 1 남았는데 이겼다니까!\"",
-        "spellSchool": "",
         "portrait": "HS15-154_M.psd:bd3615d7f008549419c755bedf760aed",
         "set": "TROLL",
         "nativeTags": [
@@ -4418,10 +4154,7 @@
         "text": "1턴 동안 <b>은신</b>을 얻습니다.<br></br>내가 주문을 시전한 후에, 그<br></br>주문의 비용과 능력치가 같은<br></br>호랑이를 소환합니다.",
         "attack": 0,
         "health": 3,
-        "durability": 0,
-        "armor": 0,
         "flavor": "개박하의 제단에 가깝습니다.",
-        "spellSchool": "",
         "portrait": "HS15-050_M.psd:dbd228a3c56f112439d94fd194b2f766",
         "set": "TROLL",
         "nativeTags": [
@@ -4497,10 +4230,7 @@
         "text": "",
         "attack": 1,
         "health": 1,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
-        "spellSchool": "",
         "portrait": "HS15-152_M.psd:50cfe6fe49f12e448b6cd490adb07539",
         "set": "TROLL",
         "nativeTags": [
@@ -4567,10 +4297,6 @@
         "collectible": true,
         "cost": 0,
         "text": "이번 턴에 내가 내는<br></br>다음 정령의 비용이<br></br>(2) 감소합니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "비결은 기름입니다.",
         "spellSchool": "",
         "portrait": "HS15-135_S.psd:d84451c666fbe3845a37b0808b6fcd93",
@@ -4602,8 +4328,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_310.png"
       },
@@ -4619,10 +4343,7 @@
         "text": "<b>전투의 함성:</b> 내가 이전<br></br>턴에 정령을 냈다면,<br></br>다른 <b>모든</b> 하수인에게<br></br>피해를 3 줍니다.",
         "attack": 3,
         "health": 3,
-        "durability": 0,
-        "armor": 0,
         "flavor": "비전력은... 길을 찾기 마련이지.",
-        "spellSchool": "",
         "portrait": "HS15-031_M.psd:ea70934e5438ff541b730545ff0d33e2",
         "set": "TROLL",
         "nativeTags": [
@@ -4711,10 +4432,7 @@
         "text": "피해를 받은 상태면 <b>주문 공격력 +2</b>를 얻습니다.",
         "attack": 2,
         "health": 3,
-        "durability": 0,
-        "armor": 0,
         "flavor": "지금까지 이 정도로 격렬한 분노를 느낀 적이 없었어.",
-        "spellSchool": "",
         "portrait": "HS15-055_M.psd:340c1b7d0a026b54495e1e1e7894e33f",
         "set": "TROLL",
         "nativeTags": [
@@ -4789,10 +4507,6 @@
         "collectible": true,
         "cost": 4,
         "text": "하수인에게 피해를<br></br>$4 줍니다. 내가 이전<br></br>턴에 정령을 냈다면,<br></br>비용이 (1)이 됩니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "불태우기로 뿔 태우는 중",
         "spellSchool": "",
         "portrait": "HS15-033_S.psd:ea0d5be8ca020f34eb1cb30cd0d2d107",
@@ -4844,8 +4558,6 @@
             "value": 0
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_313.png"
       },
@@ -4861,10 +4573,7 @@
         "text": "내 영웅 능력으로 하수인을 처치할 때마다 카드를 뽑습니다.",
         "attack": 3,
         "health": 4,
-        "durability": 0,
-        "armor": 0,
         "flavor": "불장난을 좋아합니다.",
-        "spellSchool": "",
         "portrait": "HS15-137_M.psd:dd9d5f8ab14164d4e938a5a2ddf8fd70",
         "set": "TROLL",
         "nativeTags": [
@@ -4941,10 +4650,7 @@
         "text": "<b>전투의 함성:</b> 이번 게임에서<br></br>내 영웅 능력으로 피해를 8 이상 줬다면, 불의 군주 라그나로스를 소환합니다.",
         "attack": 4,
         "health": 4,
-        "durability": 0,
-        "armor": 0,
         "flavor": "스태그헬름을 이은 3대 청지기라고 해도 되겠군요.",
-        "spellSchool": "",
         "portrait": "HS15-035_M.psd:84229b947d44c1c4faf172ba2cd99318",
         "set": "TROLL",
         "nativeTags": [
@@ -5033,10 +4739,7 @@
         "text": "공격할 수 없습니다.<br></br>내 턴이 끝날 때, 무작위 적에게 피해를 8 줍니다.",
         "attack": 8,
         "health": 8,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
-        "spellSchool": "",
         "portrait": "w2_059_D.psd:cf0655899dce45c4ba4fd5da4d203ae0",
         "set": "TROLL",
         "nativeTags": [
@@ -5133,10 +4836,6 @@
         "collectible": true,
         "cost": 5,
         "text": "<b>모든</b> 하수인에게 피해를 $2 줍니다.<br></br><b>압살</b>: 무작위 마법사 주문을 내 손으로 가져옵니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "실례합니다만 지금 불타고들 계십니다.",
         "spellSchool": "",
         "portrait": "HS15-034_S.psd:8b025cb0373c7bc47809def139e3227a",
@@ -5198,8 +4897,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_317.png"
       },
@@ -5215,10 +4912,7 @@
         "text": "<b>전투의 함성</b>:<br></br>내 시작 카드를 복사하여<br></br>내 손으로 가져옵니다.<br></br><i>(이 카드 제외)</i>",
         "attack": 5,
         "health": 5,
-        "durability": 0,
-        "armor": 0,
         "flavor": "예술은 뭐다?",
-        "spellSchool": "",
         "portrait": "HS15-138_M.psd:f65dba52467eab04696047d7d20521c6",
         "set": "TROLL",
         "nativeTags": [
@@ -5285,10 +4979,7 @@
         "text": "1턴 동안 <b>은신</b>을 얻습니다.<br></br>내 영웅 능력이<br></br>양옆의 하수인들도<br></br>대상으로 지정합니다.",
         "attack": 0,
         "health": 3,
-        "durability": 0,
-        "armor": 0,
         "flavor": "용매들은 정확도와는 거리가 멉니다.",
-        "spellSchool": "",
         "portrait": "HS15-032_M.psd:032c6f16e1487de44a33c53327f2928e",
         "set": "TROLL",
         "nativeTags": [
@@ -5353,10 +5044,6 @@
         "collectible": true,
         "cost": 1,
         "text": "피해를 받은 하수인에게 피해를 $4 줍니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "널 마무리할 수 없다면 압도해버리겠어.",
         "spellSchool": "",
         "portrait": "HS15-132_S.psd:8b931ec805488a14eba1a037382a772b",
@@ -5393,8 +5080,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_321.png"
       },
@@ -5410,10 +5095,7 @@
         "text": "<b>전투의 함성:</b><br></br>내 손에 용족이 있으면,<br></br>방어도를 +5 얻습니다.",
         "attack": 5,
         "health": 5,
-        "durability": 0,
-        "armor": 0,
         "flavor": "그 비늘... 비브라늄인가?",
-        "spellSchool": "",
         "portrait": "HS15-025_M.psd:457c112fec69576419ab85f61fc8f1aa",
         "set": "TROLL",
         "nativeTags": [
@@ -5480,10 +5162,6 @@
         "collectible": true,
         "cost": 6,
         "text": "내 방어도와 같은 비용의 무작위 하수인을 소환합니다. <i>(최대 10)</i>",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "여기도 반짝이고 저기도 반짝이는 커다란 금속입니다.",
         "spellSchool": "",
         "portrait": "HS15-026_S.psd:6bbd6ba543973d848af7548de9efe342",
@@ -5545,8 +5223,6 @@
             "value": 0
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_324.png"
       },
@@ -5561,11 +5237,8 @@
         "cost": 6,
         "text": "<b>압살:</b> 다시 공격할 수 있습니다.",
         "attack": 4,
-        "health": 0,
         "durability": 4,
-        "armor": 0,
         "flavor": "\"그립타가 자신 있게 추천하는 무기, 술트라제입니다! 한 번 휘두르면 4의 피해를, 두 번 휘두르면 8의 피해를 주는 무기입니다! 여러분이 싸우는 방식을 술트라제로 바꿔보세요!\"",
-        "spellSchool": "",
         "portrait": "HS15-028_W.psd:69b25c6bcbeccd74ca932ea3e14fd706",
         "set": "TROLL",
         "nativeTags": [
@@ -5610,8 +5283,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_325.png"
       },
@@ -5627,10 +5298,7 @@
         "text": "<b>전투의 함성:</b> 내 손에<br></br>용족이 있으면, 피해를 받은<br></br>적 하수인을 처치합니다.",
         "attack": 3,
         "health": 2,
-        "durability": 0,
-        "armor": 0,
         "flavor": "이쯤 되면 별명이 무엇이 될지 짐작이 가는군요.",
-        "spellSchool": "",
         "portrait": "HS15-133_M.psd:906fdaf3c53756146b089dca5ffefca0",
         "set": "TROLL",
         "nativeTags": [
@@ -5697,10 +5365,7 @@
         "text": "1턴 동안 <b>은신</b>을 얻습니다.<br></br>내 <b>속공</b> 하수인들은 소환된<br></br>턴에 <b>면역</b> 상태가 됩니다.",
         "attack": 0,
         "health": 3,
-        "durability": 0,
-        "armor": 0,
         "flavor": "돌진은 죽었다.",
-        "spellSchool": "",
         "portrait": "HS15-027_M.psd:3586939f6f6633e48bb96562aa685638",
         "set": "TROLL",
         "nativeTags": [
@@ -5772,10 +5437,7 @@
         "text": "<b>전투의 함성:</b><br></br>내 손에 있는 모든<br></br>용족을 복사합니다.",
         "attack": 4,
         "health": 3,
-        "durability": 0,
-        "armor": 0,
         "flavor": "구루바시, 소리 질러!",
-        "spellSchool": "",
         "portrait": "HS15-134_M.psd:dbfd1e76e876d61478c3f3721efb2550",
         "set": "TROLL",
         "nativeTags": [
@@ -5862,10 +5524,7 @@
         "text": "<b>속공</b>, <b>압살:</b> 내 덱에서 <b>속공</b> 하수인을 뽑습니다. 그 하수인에게 +5/+5를 부여합니다.",
         "attack": 5,
         "health": 5,
-        "durability": 0,
-        "armor": 0,
         "flavor": "대부분의 트롤들은 \"아아아아!\"까지만 말하고 \"칼리\"까지는 말하지 못합니다.",
-        "spellSchool": "",
         "portrait": "HS15-029_M.psd:311254badf60e684b8704fdaf3a65f99",
         "set": "TROLL",
         "nativeTags": [
@@ -5952,10 +5611,6 @@
         "collectible": true,
         "cost": 3,
         "text": "내 덱에서 하수인을 <b>발견</b>하여 뽑습니다.<br></br>그 하수인들이 모두 야수면, 카드 3장을 모두 뽑습니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "\"킁킁이니?\" \"아뇨, 레오큰데요.\"",
         "spellSchool": "",
         "portrait": "HS15-127_S.psd:d5c302c02ba1db84298cb3de759f6cef",
@@ -6012,8 +5667,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_339.png"
       },
@@ -6029,10 +5682,7 @@
         "text": "<b>전투의 함성:</b> 내 나무정령들을 5/5 고대정령으로 변신시킵니다.",
         "attack": 4,
         "health": 4,
-        "durability": 0,
-        "armor": 0,
         "flavor": "변신해라, 나무나무!",
-        "spellSchool": "",
         "portrait": "HS15-110_M.psd:271943a2afe756e4099734f370a8a951",
         "set": "TROLL",
         "nativeTags": [
@@ -6123,10 +5773,7 @@
         "text": "",
         "attack": 5,
         "health": 5,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
-        "spellSchool": "",
         "portrait": "HS15-111_M.psd:b48f3878045163a4c87416e7fb71cd0e",
         "set": "TROLL",
         "nativeTags": [
@@ -6178,10 +5825,7 @@
         "text": "<b>선택 - </b>네 가지 공룡 중 하나로 변신합니다.",
         "attack": 1,
         "health": 2,
-        "durability": 0,
-        "armor": 0,
         "flavor": "\"라바사우루스!\" \"무섭겠네.\" \"...블라모닥스!\" \"그런 공룡이 있어?\" \"스맥소돈!\" \"...이제 그냥 막 만들어내네.\"",
-        "spellSchool": "",
         "portrait": "HS15-112_M.psd:7d2a48519e053c4428f66719a9e73b59",
         "set": "TROLL",
         "nativeTags": [
@@ -6248,10 +5892,7 @@
         "text": "<b>도발</b>",
         "attack": 1,
         "health": 6,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
-        "spellSchool": "",
         "portrait": "HS15-113_M.psd:86aa2a6b8d09a0e4895784348b393403",
         "set": "TROLL",
         "nativeTags": [
@@ -6320,10 +5961,7 @@
         "text": "<b>도발</b>",
         "attack": 1,
         "health": 6,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
-        "spellSchool": "",
         "portrait": "HS15-113_M.psd:86aa2a6b8d09a0e4895784348b393403",
         "set": "TROLL",
         "nativeTags": [
@@ -6392,10 +6030,7 @@
         "text": "<b>속공</b>",
         "attack": 4,
         "health": 2,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
-        "spellSchool": "",
         "portrait": "HS15-114_M.psd:b96c8b133e663754d901f3080c68bf69",
         "set": "TROLL",
         "nativeTags": [
@@ -6464,10 +6099,7 @@
         "text": "<b>속공</b>",
         "attack": 4,
         "health": 2,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
-        "spellSchool": "",
         "portrait": "HS15-114_M.psd:b96c8b133e663754d901f3080c68bf69",
         "set": "TROLL",
         "nativeTags": [
@@ -6536,10 +6168,7 @@
         "text": "<b>주문 공격력 +1</b>",
         "attack": 1,
         "health": 4,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
-        "spellSchool": "",
         "portrait": "HS15-115_M.psd:98f940db17bf6bc4bbc4b588ca24079f",
         "set": "TROLL",
         "nativeTags": [
@@ -6608,10 +6237,7 @@
         "text": "<b>주문 공격력 +1</b>",
         "attack": 1,
         "health": 4,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
-        "spellSchool": "",
         "portrait": "HS15-115_M.psd:98f940db17bf6bc4bbc4b588ca24079f",
         "set": "TROLL",
         "nativeTags": [
@@ -6680,10 +6306,7 @@
         "text": "<b>독성</b><br></br><b>은신</b>",
         "attack": 1,
         "health": 2,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
-        "spellSchool": "",
         "portrait": "HS15-116_M.psd:676f3733d982e1843b9787f8a6dc9692",
         "set": "TROLL",
         "nativeTags": [
@@ -6757,10 +6380,7 @@
         "text": "<b>독성</b><br></br><b>은신</b>",
         "attack": 1,
         "health": 2,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
-        "spellSchool": "",
         "portrait": "HS15-116_M.psd:676f3733d982e1843b9787f8a6dc9692",
         "set": "TROLL",
         "nativeTags": [
@@ -6834,10 +6454,7 @@
         "text": "<b>도발</b>, <b>속공</b>, <b>독성</b>, <b>은신</b>, <b>주문 공격력 +1</b>",
         "attack": 4,
         "health": 6,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
-        "spellSchool": "",
         "portrait": "HS15-117_M.psd:7f46d1927abccfb468335057a3eb121d",
         "set": "TROLL",
         "nativeTags": [
@@ -6926,10 +6543,7 @@
         "text": "<b>전투의 함성:</b> 내가 이전 턴에 낸 모든 주문을 내 손으로 가져옵니다.",
         "attack": 4,
         "health": 6,
-        "durability": 0,
-        "armor": 0,
         "flavor": "크라그와에게는 친구에게 경의를 표하는 의식과 적을 집어삼키는 의식이 있습니다. 둘이 어떻게 다른지는 아무도 모릅니다.",
-        "spellSchool": "",
         "portrait": "HS15-046_M.psd:6a052de93caad6b41a75fc6002eeef07",
         "set": "TROLL",
         "nativeTags": [
@@ -7001,10 +6615,6 @@
         "collectible": true,
         "cost": 5,
         "text": "피해를 $3 줍니다. <b>압살:</b> 5/5 데빌사우루스를 소환합니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "일반 카드지만 스테이크는 레어입니다.",
         "spellSchool": "",
         "portrait": "HS15-123_S.psd:4e3696af6fe49384aa7fd966c5db8c7b",
@@ -7076,8 +6686,6 @@
             "value": 50467
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_347.png"
       },
@@ -7092,10 +6700,7 @@
         "text": "",
         "attack": 5,
         "health": 5,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
-        "spellSchool": "",
         "portrait": "HS15-124_M.psd:829ae644b958a9f4dba20ba676acb88c",
         "set": "TROLL",
         "nativeTags": [
@@ -7169,10 +6774,7 @@
         "text": "<b>속공</b>, <b>전투의 함성:</b><br></br><b>속공</b> 능력이 있는<br></br>1/1 스라소니를 내<br></br>손으로 가져옵니다.",
         "attack": 1,
         "health": 1,
-        "durability": 0,
-        "armor": 0,
         "flavor": "스라소니가 끔찍한 이유는 스라소니가 끔찍하기 때문입니다.",
-        "spellSchool": "",
         "portrait": "HS15-125_M.psd:838b4ee4cd516924c898b233d56496d7",
         "set": "TROLL",
         "nativeTags": [
@@ -7260,10 +6862,7 @@
         "text": "<b>속공</b>",
         "attack": 1,
         "health": 1,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
-        "spellSchool": "",
         "portrait": "HS15-021_M.psd:8bf6c620a4e07214f89a147c3c5d207a",
         "set": "TROLL",
         "nativeTags": [
@@ -7347,10 +6946,7 @@
         "text": "<b>전투의 함성:</b> 내 영웅이 무기를 장착하고 있으면, 주문을 <b>발견</b>합니다.",
         "attack": 2,
         "health": 4,
-        "durability": 0,
-        "armor": 0,
         "flavor": "\"명치 달려.\"는 <i>전략</i>이라기보단 <i>전술</i>에 가깝죠.",
-        "spellSchool": "",
         "portrait": "HS15-126_M.psd:e91ed4227c40baf4199d586ad9ce5580",
         "set": "TROLL",
         "nativeTags": [
@@ -7435,10 +7031,6 @@
         "collectible": true,
         "cost": 6,
         "text": "<b>도발</b> 능력이 있는 2/4<br></br>두꺼비를 셋 소환합니다.<br></br><b>과부하:</b> (3)",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "\"아, 종양을 저렇게 전염시키는 거였군요!\"",
         "spellSchool": "",
         "portrait": "HS15-145_S.psd:0d0315fe34e451249aa0520a5e61a640",
@@ -7500,8 +7092,6 @@
             "value": 50906
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_351.png"
       },
@@ -7516,10 +7106,7 @@
         "text": "<b>도발</b>",
         "attack": 2,
         "health": 4,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
-        "spellSchool": "",
         "portrait": "HS15-146_M.psd:2d4eb4a4a3e7493439d4439a1403ea14",
         "set": "TROLL",
         "nativeTags": [
@@ -7587,11 +7174,8 @@
         "cost": 2,
         "text": "내 마나 수정이 <b>과부하</b>된 동안 공격력을 +2 얻습니다.",
         "attack": 1,
-        "health": 0,
         "durability": 3,
-        "armor": 0,
         "flavor": "강아지들이 좋아합니다.",
-        "spellSchool": "",
         "portrait": "HS15-044_W.psd:a6b7ac6c236e2d54d9cc298008b05134",
         "set": "TROLL",
         "nativeTags": [
@@ -7656,8 +7240,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_352.png"
       },
@@ -7672,11 +7254,8 @@
         "cost": 3,
         "text": "내가 하수인을 낸<br></br>후에, 그 하수인에게<br></br>피해를 1 줍니다.",
         "attack": 2,
-        "health": 0,
         "durability": 4,
-        "armor": 0,
         "flavor": "\"이건 고통의 수행사제한테, 이건 검은울음 포탑한테, 이건 썩은얼굴한테...\"",
-        "spellSchool": "",
         "portrait": "HS15-024_W.psd:01f2e4b766cbcf8488a8121f9e959024",
         "set": "TROLL",
         "nativeTags": [
@@ -7746,8 +7325,6 @@
             "value": 0
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_360.png"
       },
@@ -7761,10 +7338,6 @@
         "collectible": true,
         "cost": 2,
         "text": "무작위 용족 둘을 내 손으로 가져옵니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "용의 요들과는 다릅니다.",
         "spellSchool": "",
         "portrait": "HS15-131_S.psd:ef4b854d684eb644a9866c94c20fb5a9",
@@ -7811,8 +7384,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_362.png"
       },
@@ -7828,10 +7399,7 @@
         "text": "<b>죽음의 메아리:</b><br></br>상대편에게 <b>도발</b> 능력이<br></br>있는 0/3 풀려난 노예를<br></br>소환해 줍니다.",
         "attack": 2,
         "health": 3,
-        "durability": 0,
-        "armor": 0,
         "flavor": "얼마나 감내해야 할지 알 수도요.",
-        "spellSchool": "",
         "portrait": "HS15-155_M.psd:b5c7aca2b05304146b2bf805f7cc0c3d",
         "set": "TROLL",
         "nativeTags": [
@@ -7907,10 +7475,7 @@
         "text": "<b>도발</b>",
         "attack": 0,
         "health": 3,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
-        "spellSchool": "",
         "portrait": "hs15-156_M.psd:3bbb423e70715d34bb3c7f9da8b33b26",
         "set": "TROLL",
         "nativeTags": [
@@ -7977,10 +7542,7 @@
         "text": "<b>전투의 함성:</b> 이번 턴의<br></br>내 다음 영웅 능력이<br></br>피해를 2 더 줍니다.",
         "attack": 1,
         "health": 1,
-        "durability": 0,
-        "armor": 0,
         "flavor": "\"잔달라 트롤들은 정도껏을 모르나.\"",
-        "spellSchool": "",
         "portrait": "HS15-030_M.psd:79a07858421123e44a5e07cb4b58d22b",
         "set": "TROLL",
         "nativeTags": [
@@ -8060,10 +7622,6 @@
         "collectible": true,
         "cost": 3,
         "text": "<b>비밀:</b> 내 하수인이<br></br>공격받으면, 그 하수인을<br></br>복사하여 소환합니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "육체와 영혼을 분리해 주마!",
         "spellSchool": "",
         "portrait": "HS15-136_S.psd:e45caf671d5fe894bb4d8fb7ff4857e5",
@@ -8105,8 +7663,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_400.png"
       },
@@ -8122,10 +7678,7 @@
         "text": "내가 야수를 뽑을 때마다 그 야수에게 +2/+2를 부여합니다.",
         "attack": 3,
         "health": 4,
-        "durability": 0,
-        "armor": 0,
         "flavor": "비법은 배를 부드럽게 문지르는 것입니다.",
-        "spellSchool": "",
         "portrait": "HS15-169_M.psd:09c8d5e10dd13b948aebe857662ce1a0",
         "set": "TROLL",
         "nativeTags": [
@@ -8192,10 +7745,7 @@
         "text": "피해를 받은 상태면 공격력을 +4 얻습니다.",
         "attack": 0,
         "health": 4,
-        "durability": 0,
-        "armor": 0,
         "flavor": "하품이 절로 나오는 카드군요.",
-        "spellSchool": "",
         "portrait": "HS15-159_M.psd:f87b7c0d7c50dde478f047986b7c9c8a",
         "set": "TROLL",
         "nativeTags": [
@@ -8267,10 +7817,7 @@
         "text": "<b>전투의 함성:</b> 이번 턴의<br></br>내 다음 영웅 능력의<br></br>비용이 (0)이 됩니다.",
         "attack": 2,
         "health": 1,
-        "durability": 0,
-        "armor": 0,
         "flavor": "성분: 트롤의 땀 100%",
-        "spellSchool": "",
         "portrait": "HS15-060_M.psd:98dcdfa8ee3427a40a8e57a4634c33d8",
         "set": "TROLL",
         "nativeTags": [
@@ -8347,10 +7894,7 @@
         "text": "<b>도발</b><br></br>이번 게임에서 내가 시전한 주문 하나당 비용이 (1)씩 감소합니다.",
         "attack": 7,
         "health": 8,
-        "durability": 0,
-        "armor": 0,
         "flavor": "트롤들은 팔다리를 재생할 수 있습니다. 남은 팔다리로는 이런 걸 만들죠.",
-        "spellSchool": "",
         "portrait": "HS15-039_M.psd:18c7b23d167196740990b47bde95a2b7",
         "set": "TROLL",
         "nativeTags": [
@@ -8417,10 +7961,7 @@
         "text": "<b>전투의 함성:</b> 내 덱에<br></br>있는 하수인을 잡아먹고 그<br></br>하수인의 능력치를 얻습니다.<br></br><b>죽음의 메아리:</b> 그 하수인을<br></br>내 손으로 가져옵니다.",
         "attack": 2,
         "health": 2,
-        "durability": 0,
-        "armor": 0,
         "flavor": "???: 저기 몇 달이나 들어가 있었다고요!",
-        "spellSchool": "",
         "portrait": "HS15-016_M.psd:8de198b6f67b4304091e0a6d0c29d3d3",
         "set": "TROLL",
         "nativeTags": [
@@ -8497,10 +8038,6 @@
         "collectible": true,
         "cost": 3,
         "text": "내 마나 수정을 3개 파괴합니다. 내 덱에 있는 모든 하수인에게 +2/+2를 부여합니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "포기하지 마세요. 굴복하세요!",
         "spellSchool": "",
         "portrait": "HS15-142_S.psd:fc9bfa34d3abd7a46b767530f9003231",
@@ -8537,8 +8074,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_500.png"
       },
@@ -8554,10 +8089,7 @@
         "text": "<b>전투의 함성:</b> 이번 턴에<br></br>생명력을 회복시키는 내<br></br>카드와 능력들이 그만큼의<br></br>피해를 줍니다.",
         "attack": 3,
         "health": 2,
-        "durability": 0,
-        "armor": 0,
         "flavor": "\"자, 여러분, 미리 치유하는 건 잊지 않으셨죠?\"",
-        "spellSchool": "",
         "portrait": "HS15-040_M.psd:28a2b05674102774796ac4633a8afb79",
         "set": "TROLL",
         "nativeTags": [
@@ -8629,10 +8161,7 @@
         "text": "1턴 동안 <b>은신</b>을 얻습니다.<br></br>아군 하수인이 죽은 후에,<br></br>그 하수인을 비용이 1인 하수인으로 복사하여<br></br>내 덱에 섞어 넣습니다.",
         "attack": 0,
         "health": 3,
-        "durability": 0,
-        "armor": 0,
         "flavor": "살아서든 죽어서든 그와 함께하게 됩니다.",
-        "spellSchool": "",
         "portrait": "HS15-038_M.psd:ba1ff273b22206e48b60e11075008433",
         "set": "TROLL",
         "nativeTags": [
@@ -8699,10 +8228,7 @@
         "text": "<b>죽음의 메아리:</b><br></br>1/1 딱정벌레를<br></br>3마리 소환합니다.",
         "attack": 0,
         "health": 2,
-        "durability": 0,
-        "armor": 0,
         "flavor": "오믈렛은 맛있다고 해서 만들어 보려다가 얼굴이 뜯길 뻔했습니다.",
-        "spellSchool": "",
         "portrait": "HS15-165_M.psd:9b93d6fb35c999741827c29baea1744f",
         "set": "TROLL",
         "nativeTags": [
@@ -8768,10 +8294,7 @@
         "text": "",
         "attack": 1,
         "health": 1,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
-        "spellSchool": "",
         "portrait": "HS15-166_M.psd:d8471a4b357956749aef536a21542cf9",
         "set": "TROLL",
         "nativeTags": [
@@ -8835,10 +8358,7 @@
         "text": "<b>전투의 함성:</b><br></br>상대편에게 동전을 줍니다.",
         "attack": 3,
         "health": 3,
-        "durability": 0,
-        "armor": 0,
         "flavor": "하지만 걱정하지 마라. 손은 눈보다 빠르니까 동전을 쓰고 산악 거인을 바로 내면 된다.",
-        "spellSchool": "",
         "portrait": "HS15-056_M.psd:51f16a04b78f1ca4f9067bb8526cb25d",
         "set": "TROLL",
         "nativeTags": [
@@ -8910,10 +8430,7 @@
         "text": "<b>죽음의 메아리:</b> 내 손에 있는 무작위 야수의 비용이 (1) 감소합니다.",
         "attack": 1,
         "health": 1,
-        "durability": 0,
-        "armor": 0,
         "flavor": "원문에도 없는 야수를 이름에 왜 붙였냐고요? 그야... 음...",
-        "spellSchool": "",
         "portrait": "HS15-053_M.psd:9a1b857ef39e3234eb297d4c4c46a6ab",
         "set": "TROLL",
         "nativeTags": [
@@ -8987,10 +8504,7 @@
         "text": "<b>압살:</b> 공격력을 +5 얻습니다.",
         "attack": 1,
         "health": 1,
-        "durability": 0,
-        "armor": 0,
         "flavor": "압살했닭! 오늘 저녁은 치킨이닭!",
-        "spellSchool": "",
         "portrait": "HS15-054_M.psd:07108fd9c52987544b3029ef5c34ca25",
         "set": "TROLL",
         "nativeTags": [
@@ -9064,10 +8578,7 @@
         "text": "내 영웅이 공격한 후에 1/1 해적을 소환합니다.",
         "attack": 2,
         "health": 2,
-        "durability": 0,
-        "armor": 0,
         "flavor": "뚜루루 뚜루!",
-        "spellSchool": "",
         "portrait": "HS15-057_M.psd:16cac12f40075324595c2459d0f9b4f1",
         "set": "TROLL",
         "nativeTags": [
@@ -9145,10 +8656,7 @@
         "text": "",
         "attack": 1,
         "health": 1,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
-        "spellSchool": "",
         "portrait": "HS15-058_M.psd:db5947a4260d5ed489abf1ac9348738a",
         "set": "TROLL",
         "nativeTags": [
@@ -9207,10 +8715,7 @@
         "text": "내 턴이 시작될 때,<br></br>이 하수인의 생명력을<br></br>#2 회복시킵니다.",
         "attack": 3,
         "health": 5,
-        "durability": 0,
-        "armor": 0,
         "flavor": "마음의 상처는 재생하지 못합니다.",
-        "spellSchool": "",
         "portrait": "HS15-064_M.psd:c36f9394d8ce24e4baca30eb6da76bc0",
         "set": "TROLL",
         "nativeTags": [
@@ -9277,10 +8782,7 @@
         "text": "<b>전투의 함성:</b><br></br>바나나 2개를 내<br></br>손으로 가져옵니다.",
         "attack": 2,
         "health": 2,
-        "durability": 0,
-        "armor": 0,
         "flavor": "바나나 많아요! 드셔보세요!",
-        "spellSchool": "",
         "portrait": "HS15-061_M.psd:261b0dde08c58cf4e92c2223ebb904a1",
         "set": "TROLL",
         "nativeTags": [
@@ -9349,10 +8851,6 @@
         "collectible": false,
         "cost": 1,
         "text": "하수인에게 +1/+1을 부여합니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
         "spellSchool": "",
         "portrait": "bananas2_D.psd:bb18e3f61795a8c4db20b9632c238a97",
@@ -9399,8 +8897,6 @@
             "value": 1694
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_509t.png"
       },
@@ -9416,10 +8912,7 @@
         "text": "<b>생명력 흡수</b>, <b>전투의 함성:</b> 피해를 1 줍니다.",
         "attack": 2,
         "health": 1,
-        "durability": 0,
-        "armor": 0,
         "flavor": "무시무시한 아킬레사우루스를 사냥하는 자입니다.",
-        "spellSchool": "",
         "portrait": "HS15-164_M.psd:9470f41b9a73f4a40a1fbc4eeeec3736",
         "set": "TROLL",
         "nativeTags": [
@@ -9491,10 +8984,7 @@
         "text": "<b>도발</b><br></br><b>천상의 보호막</b>",
         "attack": 2,
         "health": 14,
-        "durability": 0,
-        "armor": 0,
         "flavor": "규칙을 읽지 못하면 어길 수도 없죠.",
-        "spellSchool": "",
         "portrait": "HS15-071_M.psd:aa4a750401766954cae9a457712b721a",
         "set": "TROLL",
         "nativeTags": [
@@ -9566,10 +9056,7 @@
         "text": "<b>도발</b>, <b>전투의 함성:</b> 상대편에게 하수인이 둘 이상 있으면, 공격력을 +1 얻습니다.",
         "attack": 1,
         "health": 4,
-        "durability": 0,
-        "armor": 0,
         "flavor": "아직도 브원삼디의 좀비들을 응원하고 있습니다.",
-        "spellSchool": "",
         "portrait": "HS15-078_M.psd:4484d84db7550bb488d3acb868da8168",
         "set": "TROLL",
         "nativeTags": [
@@ -9641,10 +9128,7 @@
         "text": "<b>도발</b>, 적 하수인<br></br>하나당 비용이 (1)씩 감소합니다.",
         "attack": 2,
         "health": 7,
-        "durability": 0,
-        "armor": 0,
         "flavor": "\"여기가 어디라고 신발을 신고 들어와?!\"",
-        "spellSchool": "",
         "portrait": "HS15-070_M.psd:f0611f54d06e54b44a7d65d490fbdd09",
         "set": "TROLL",
         "nativeTags": [
@@ -9711,10 +9195,7 @@
         "text": "내 턴이 시작될 때,<br></br>이 하수인을 파괴하고<br></br>방어도를 +8 얻습니다.",
         "attack": 0,
         "health": 2,
-        "durability": 0,
-        "armor": 0,
         "flavor": "한정된 기간 동안 로아의 축복 1+1 행사를 하고 있습니다. (제물에 따라 유효하지 않을 수 있습니다.)",
-        "spellSchool": "",
         "portrait": "HS15-158_M.psd:889c76a7df23305478e5621b7831822a",
         "set": "TROLL",
         "nativeTags": [
@@ -9786,10 +9267,7 @@
         "text": "<b>전투의 함성:</b> 내 손에 있는 모든 하수인에게 +1/+1을 부여합니다.",
         "attack": 2,
         "health": 3,
-        "durability": 0,
-        "armor": 0,
         "flavor": "\"트롤의 멋짐을 모르는 당신은 불쌍해요!\"",
-        "spellSchool": "",
         "portrait": "HS15-157_M.psd:a96101451c65a7e47bfa9a1848dd3d8f",
         "set": "TROLL",
         "nativeTags": [
@@ -9856,10 +9334,7 @@
         "text": "<b>죽음의 메아리:</b> 내 덱에서 멀록을 2마리 뽑습니다.",
         "attack": 3,
         "health": 2,
-        "durability": 0,
-        "armor": 0,
         "flavor": "수프를 만들거나, 수프가 되거나...",
-        "spellSchool": "",
         "portrait": "HS15-171_M.psd:0c70df53ea21d5b4f88aa555b0f97fab",
         "set": "TROLL",
         "nativeTags": [
@@ -9933,10 +9408,7 @@
         "text": "<b>압살:</b> 다른<br></br>투기장 손님을 소환합니다.",
         "attack": 3,
         "health": 3,
-        "durability": 0,
-        "armor": 0,
         "flavor": "입장권이 있다면 다들 모여!",
-        "spellSchool": "",
         "portrait": "HS15-172_M.psd:b1a30a894af28c6458ed62cf046b9488",
         "set": "TROLL",
         "nativeTags": [
@@ -10003,10 +9475,7 @@
         "text": "<b>전투의 함성:</b><br></br>내가 이번 턴에 주문을 2번 냈다면,<br></br>피해를 2 줍니다.",
         "attack": 2,
         "health": 1,
-        "durability": 0,
-        "armor": 0,
         "flavor": "\"야! 2뎀도 많이 준 거야!\"",
-        "spellSchool": "",
         "portrait": "HS15-042_M.psd:183cfcb900079bb47b4a7bff1a810d36",
         "set": "TROLL",
         "nativeTags": [
@@ -10073,10 +9542,7 @@
         "text": "<b>전투의 함성:</b><br></br>내 손에 용족이 있으면,<br></br>주문을 <b>발견</b>합니다.",
         "attack": 2,
         "health": 2,
-        "durability": 0,
-        "armor": 0,
         "flavor": "\"몸에 불 붙으면 멈춰, 누워, 죽어.\"",
-        "spellSchool": "",
         "portrait": "HS15-073_M.psd:f5685bdf853927d41800ac504c0cfc36",
         "set": "TROLL",
         "nativeTags": [
@@ -10153,10 +9619,7 @@
         "text": "<b>전투의 함성:</b> <b>도발</b> 능력이 있는 적 하수인을 <b>침묵</b>시킵니다.",
         "attack": 2,
         "health": 1,
-        "durability": 0,
-        "armor": 0,
         "flavor": "가장 어두운 던전에 이어 투기장에도 모습을 보이는군요.",
-        "spellSchool": "",
         "portrait": "HS15-167_M.psd:f8df486c7451397449ada79dd60b1c91",
         "set": "TROLL",
         "nativeTags": [
@@ -10233,10 +9696,7 @@
         "text": "<b>죽음의 메아리:</b><br></br>카드를 2장 뽑습니다.",
         "attack": 0,
         "health": 4,
-        "durability": 0,
-        "armor": 0,
         "flavor": "이걸 여는 데 그렇게 오랜 시간이 걸릴 줄 누가 알았겠습니까.",
-        "spellSchool": "",
         "portrait": "HS15-168_M.psd:5adec1f04eb119048a1f0dcda6ab1400",
         "set": "TROLL",
         "nativeTags": [
@@ -10303,10 +9763,7 @@
         "text": "<b>전투의 함성:</b><br></br>다른 <b>모든</b> 하수인에게<br></br>피해를 1 줍니다.",
         "attack": 3,
         "health": 6,
-        "durability": 0,
-        "armor": 0,
         "flavor": "알라나에게서 도망간 녀석이 어디 갔나 했더니...",
-        "spellSchool": "",
         "portrait": "HS15-075_M.psd:85a3bbea921fd814f8ccb291a84920e6",
         "set": "TROLL",
         "nativeTags": [
@@ -10380,10 +9837,7 @@
         "text": "<b>전투의 함성:</b> 각 플레이어가 상대편의 덱에서 무작위 카드를 복사하여 손으로 가져옵니다.",
         "attack": 3,
         "health": 4,
-        "durability": 0,
-        "armor": 0,
         "flavor": "방패 밀쳐내기와 토템의 힘을 뽑고 서로 난처해하는 모습이다.",
-        "spellSchool": "",
         "portrait": "HS15-170_M.psd:62340415ee6142c41b28aba2f0f7da8a",
         "set": "TROLL",
         "nativeTags": [
@@ -10450,10 +9904,7 @@
         "text": "<b>압살:</b> 이 하수인의 공격력이 2배가 됩니다.",
         "attack": 5,
         "health": 10,
-        "durability": 0,
-        "armor": 0,
         "flavor": "다른 이름은 '깨부숴주마'입니다.",
-        "spellSchool": "",
         "portrait": "HS15-179_M.psd:a7db889a52f4af14496196bea1f00861",
         "set": "TROLL",
         "nativeTags": [
@@ -10520,10 +9971,7 @@
         "text": "<b>전투의 함성:</b> 내 전장에<br></br><b>비밀</b>이 있으면, 내 덱에 있는<br></br><b>비밀</b>을 시전합니다.",
         "attack": 2,
         "health": 4,
-        "durability": 0,
-        "armor": 0,
         "flavor": "수수께끼의 도전자가 수수께끼의 종자였던 시절부터 알고 지냈습니다.",
-        "spellSchool": "",
         "portrait": "HS15-175_M.psd:25081e7d573e2cc4693db603b5040cd4",
         "set": "TROLL",
         "nativeTags": [
@@ -10595,10 +10043,7 @@
         "text": "<b>죽음의 메아리:</b><br></br>3/2 전율엄니 싸움꾼을 소환합니다.",
         "attack": 3,
         "health": 2,
-        "durability": 0,
-        "armor": 0,
         "flavor": "\"데드 맨 워킹.\"",
-        "spellSchool": "",
         "portrait": "HS15-176_M.psd:70b042c0a1d4b334dbf1bfa4c000c158",
         "set": "TROLL",
         "nativeTags": [
@@ -10669,10 +10114,7 @@
         "text": "",
         "attack": 3,
         "health": 2,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
-        "spellSchool": "",
         "portrait": "HS15-185_M.psd:7e9bff286e69a054b982ce4d9111e97a",
         "set": "TROLL",
         "nativeTags": [
@@ -10724,10 +10166,7 @@
         "text": "이 하수인을 공격하는 적은 50%의 확률로 엉뚱한 캐릭터를 공격합니다.",
         "attack": 6,
         "health": 5,
-        "durability": 0,
-        "armor": 0,
         "flavor": "삶은 그저 0과 1의 조합이 아닙니다. 하지만 앞에 K가 붙으면 아주 끝내주는 진행자라 할 수 있죠.",
-        "spellSchool": "",
         "portrait": "HS15-077_M.psd:84c22ff1e0d804844b9fe739bed90ca3",
         "set": "TROLL",
         "nativeTags": [
@@ -10794,10 +10233,7 @@
         "text": "<b>전투의 함성:</b> 내 전장에 <b>빙결</b> 상태인 하수인이 있으면, 방어도를<br></br>+8 얻습니다.",
         "attack": 3,
         "health": 5,
-        "durability": 0,
-        "armor": 0,
         "flavor": "북극곰 특급에 탑승할 준비가 되셨습니까?",
-        "spellSchool": "",
         "portrait": "HS15-076_M.psd:bb5d3eda46fd23e4b82ca98747770dbe",
         "set": "TROLL",
         "nativeTags": [
@@ -10869,10 +10305,7 @@
         "text": "양옆의 하수인들이 피해를 받을 때마다<br></br>이 하수인이 그 피해를 대신 받습니다.",
         "attack": 3,
         "health": 8,
-        "durability": 0,
-        "armor": 0,
         "flavor": "아뇨, 트롤이 아니라 거북이가 투사입니다.",
-        "spellSchool": "",
         "portrait": "HS15-177_M.psd:1a205c632fdc16641b9368c2a3a9cd73",
         "set": "TROLL",
         "nativeTags": [
@@ -10944,10 +10377,7 @@
         "text": "<b>전투의 함성:</b> 이번 게임에서 죽은 무작위 아군 하수인 셋의 <b>죽음의 메아리</b> 능력을 얻습니다.",
         "attack": 8,
         "health": 5,
-        "durability": 0,
-        "armor": 0,
         "flavor": "첫 번째 죽음의 메아리: 카드를 뽑습니다. 두 번째 죽음의 메아리: 카드를 2장 뽑습니다. 세 번째 죽음의 메아리: 16피트 높이의 철장에서 몬카인드를 아나운서의 탁자까지 던집니다.",
-        "spellSchool": "",
         "portrait": "HS15-079_M.psd:ac440ae51f8973541b43e83755d9b235",
         "set": "TROLL",
         "nativeTags": [
@@ -11019,10 +10449,7 @@
         "text": "<b>죽음의 메아리:</b><br></br>각 플레이어의 덱에 오염된 피를 섞어 넣습니다.",
         "attack": 9,
         "health": 6,
-        "durability": 0,
-        "armor": 0,
         "flavor": "경고: 오염된 피에 감염된 상태로 대도시에 들어가지 마세요!",
-        "spellSchool": "",
         "portrait": "HS15-080_M.psd:7dffd245a12d3fe45b4a9b8c2a5db1be",
         "set": "TROLL",
         "nativeTags": [
@@ -11091,10 +10518,6 @@
         "collectible": false,
         "cost": 1,
         "text": "<b>뽑을 때 시전</b><br></br>피해를 3 입습니다. 카드를 뽑은 후에, 이 카드를 2장 복사하여 내 덱에 섞어 넣습니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "",
         "spellSchool": "",
         "portrait": "HS15-181_S.psd:01a3410c4c9a2aa4a9257bbcc1cbec1f",
@@ -11126,8 +10549,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_541t.png"
       },
@@ -11143,10 +10564,7 @@
         "text": "<b>속공</b>, <b>압살:</b> 내 손에 있는 야수를 소환합니다.",
         "attack": 7,
         "health": 7,
-        "durability": 0,
-        "armor": 0,
         "flavor": "데빌사우루스를 갑주와 깃털로 치장하는 일은 트롤 문화권에서 명망이 높은 편이지만 장기 근속은 아무래도 어렵다고 합니다.",
-        "spellSchool": "",
         "portrait": "HS15-184_M.psd:4dd459cdd303cff4cb0793a3a2eaae42",
         "set": "TROLL",
         "nativeTags": [
@@ -11224,11 +10642,8 @@
         "cost": 1,
         "text": "<b>전투의 함성:</b><br></br>내 영웅에게 피해를<br></br>5 줍니다.",
         "attack": 2,
-        "health": 0,
         "durability": 2,
-        "armor": 0,
         "flavor": "이 무기는... 아야! 아주 섬세하게... 아야! 다뤄야 한다고.",
-        "spellSchool": "",
         "portrait": "HS15-048_W.psd:5b4876121922f8a4ba22d559fe238500",
         "set": "TROLL",
         "nativeTags": [
@@ -11278,8 +10693,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_543.png"
       },
@@ -11295,10 +10708,7 @@
         "text": "<b>전투의 함성:</b> 이번 게임에서 생명력을 10 이상 회복했으면, +4/+4와 <b>도발</b>을 얻습니다.",
         "attack": 4,
         "health": 4,
-        "durability": 0,
-        "armor": 0,
         "flavor": "존다르... 기사단원이었던 자네가...!",
-        "spellSchool": "",
         "portrait": "HS15-049_M.psd:86d58968779d929469a16c5ce66f92f4",
         "set": "TROLL",
         "nativeTags": [
@@ -11380,10 +10790,7 @@
         "text": "<b>전투의 함성:</b> 내 영웅에게 피해를 5 줍니다.",
         "attack": 3,
         "health": 5,
-        "durability": 0,
-        "armor": 0,
         "flavor": "\"어이, 내 피자는 어디 있는 거야?!\"",
-        "spellSchool": "",
         "portrait": "HS15-062_M.psd:b3e169d08c712c949a0635586b602769",
         "set": "TROLL",
         "nativeTags": [
@@ -11457,10 +10864,7 @@
         "text": "<b>속공</b><br></br><b>도발</b>",
         "attack": 5,
         "health": 7,
-        "durability": 0,
-        "armor": 0,
         "flavor": "\"내가 저걸 얻으려고 얼마나 고생했는데! 이제 무더기로 나온다고?\"",
-        "spellSchool": "",
         "portrait": "HS15-067_M.psd:ebd6058cfb2e8794b83aa26a691cf691",
         "set": "TROLL",
         "nativeTags": [
@@ -11539,10 +10943,7 @@
         "text": "<b>도발</b>, <b>전투의 함성:</b><br></br>비용이 가장 낮은<br></br>카드를 버립니다.",
         "attack": 2,
         "health": 6,
-        "durability": 0,
-        "armor": 0,
         "flavor": "\"날 무모하다고 했었지? 난 그 말이 좋아. 사실이니까. 하지만 다른 건 몰라도... 날 무모하다고 놀리는 건 참을 수 없다!\"",
-        "spellSchool": "",
         "portrait": "HS15-002_M.psd:8dce08b8ad9d01a4d9873e9c6b77273e",
         "set": "TROLL",
         "nativeTags": [
@@ -11617,10 +11018,6 @@
         "collectible": true,
         "cost": 8,
         "text": "하수인을 처치합니다.<br></br>내 하수인 하나당 비용이<br></br>(1)씩 감소합니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "하수인(이었던 것)",
         "spellSchool": "",
         "portrait": "HS15-100_S.psd:6fddd224fe008f9419846b3d7acdeacf",
@@ -11657,8 +11054,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_555.png"
       },
@@ -11674,10 +11069,7 @@
         "text": "<b>전투의 함성:</b> 각 플레이어의 마나 수정을 5개로 만듭니다.",
         "attack": 5,
         "health": 5,
-        "durability": 0,
-        "armor": 0,
         "flavor": "의술사 학위를 취득하고 싶었지만 학점이 모자랐다고 하네요.",
-        "spellSchool": "",
         "portrait": "HS15-182_M.psd:baa5335e55f076f42a8cd46645ceca95",
         "set": "TROLL",
         "nativeTags": [
@@ -11742,10 +11134,6 @@
         "collectible": true,
         "cost": 2,
         "text": "이번 턴에 죽은 내 야수들을 소환합니다.",
-        "attack": 0,
-        "health": 0,
-        "durability": 0,
-        "armor": 0,
         "flavor": "이래서 사바나 사자가 전설 카드라는 겁니다.",
         "spellSchool": "",
         "portrait": "HS15-130_S.psd:0d62b553cbadbcc4f9c05ec08a16d4c8",
@@ -11782,8 +11170,6 @@
             "value": 1
           }
         ],
-        "races": [],
-        "race": "",
         "classes": [],
         "art": "art/TRL_566.png"
       },
@@ -11799,10 +11185,7 @@
         "text": "<b>전투의 함성:</b><br></br>내 손에 용족이 있으면,<br></br>적 하수인에게<br></br>피해를 7 줍니다.",
         "attack": 7,
         "health": 4,
-        "durability": 0,
-        "armor": 0,
         "flavor": "분위기를 뜨겁게 만드는 데에 제격이죠.",
-        "spellSchool": "",
         "portrait": "HS15-173_M.psd:a847f099856099d40956e695561be8ae",
         "set": "TROLL",
         "nativeTags": [
@@ -11876,10 +11259,7 @@
         "text": "내가 내 영웅의 생명력을 3 이상 회복시킬 때마다 카드를 뽑습니다.",
         "attack": 1,
         "health": 4,
-        "durability": 0,
-        "armor": 0,
         "flavor": "방금 투기장 바닥에서 담아온 따끈따끈한 수프입니다!",
-        "spellSchool": "",
         "portrait": "HS15-059_M.psd:b109fa5fe5a7ed34d805ba6358eda2b9",
         "set": "TROLL",
         "nativeTags": [
@@ -11946,10 +11326,7 @@
         "text": "<b>전투의 함성:</b> 내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다.",
         "attack": 3,
         "health": 2,
-        "durability": 0,
-        "armor": 0,
         "flavor": "너만 제때 잡으면 4공물인데!",
-        "spellSchool": "",
         "portrait": "HS15-020_M.psd:9e30526e79c20a94485ae423d5405231",
         "set": "TROLL",
         "nativeTags": [
@@ -12043,10 +11420,7 @@
         "text": "1턴 동안 <b>은신</b>을 얻습니다.<br></br>내가 야수를 소환할 때마다<br></br>그 야수에게 +1/+1을<br></br>부여합니다.",
         "attack": 0,
         "health": 3,
-        "durability": 0,
-        "armor": 0,
         "flavor": "이 제단의 힘의 비밀은 캔 따는 소리입니다.",
-        "spellSchool": "",
         "portrait": "HS15-019_M.psd:53f133b487fb5544da45eff5111fae0d",
         "set": "TROLL",
         "nativeTags": [
@@ -12141,7 +11515,35 @@
             "name": "수집 가능",
             "value": 1
           }
-        ]
+        ],
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "48": "4"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 31022,
+            "decision": "gameplay_stat_change",
+            "findingIds": [
+              "RAST-BAL-E001"
+            ],
+            "rawDiff": {
+              "48": [
+                "3",
+                "4"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/089a94c2fc524cc52ee7697ad4430fd52240d6a0/CardDefs.xml"
+          }
+        }
       }
     },
     "2020-03-18": {
@@ -12183,7 +11585,35 @@
             "name": "수집 가능",
             "value": 1
           }
-        ]
+        ],
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "48": "3"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 44222,
+            "decision": "gameplay_stat_change",
+            "findingIds": [
+              "RAST-BAL-E002"
+            ],
+            "rawDiff": {
+              "48": [
+                "4",
+                "3"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/fc67953f6f6eee064badde3f4a7bd07011508642/CardDefs.xml"
+          }
+        }
       }
     },
     "2021-03-26": {
@@ -12245,7 +11675,35 @@
             "value": 6
           }
         ],
-        "spellSchool": "SHADOW"
+        "spellSchool": "SHADOW",
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "1635": "6"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 77662,
+            "decision": "gameplay_spell_school_added_recorded_correctly",
+            "findingIds": [
+              "RAST-BAL-E003"
+            ],
+            "rawDiff": {
+              "1635": [
+                "ABSENT",
+                "6"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+          }
+        }
       },
       "TRL_082": {
         "nativeTags": [
@@ -12300,7 +11758,35 @@
             "value": 6
           }
         ],
-        "spellSchool": "SHADOW"
+        "spellSchool": "SHADOW",
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "1635": "6"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 77662,
+            "decision": "gameplay_spell_school_added_recorded_correctly",
+            "findingIds": [
+              "RAST-BAL-E004"
+            ],
+            "rawDiff": {
+              "1635": [
+                "ABSENT",
+                "6"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+          }
+        }
       },
       "TRL_097": {
         "nativeTags": [
@@ -12340,7 +11826,35 @@
             "value": 6
           }
         ],
-        "spellSchool": "SHADOW"
+        "spellSchool": "SHADOW",
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "1635": "6"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 77662,
+            "decision": "gameplay_spell_school_added_recorded_correctly",
+            "findingIds": [
+              "RAST-BAL-E005"
+            ],
+            "rawDiff": {
+              "1635": [
+                "ABSENT",
+                "6"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+          }
+        }
       },
       "TRL_128": {
         "nativeTags": [
@@ -12390,7 +11904,35 @@
             "value": 5
           }
         ],
-        "spellSchool": "HOLY"
+        "spellSchool": "HOLY",
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "1635": "5"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 77662,
+            "decision": "gameplay_spell_school_added_recorded_correctly",
+            "findingIds": [
+              "RAST-BAL-E006"
+            ],
+            "rawDiff": {
+              "1635": [
+                "ABSENT",
+                "5"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+          }
+        }
       },
       "TRL_245": {
         "nativeTags": [
@@ -12445,7 +11987,35 @@
             "value": 6
           }
         ],
-        "spellSchool": "SHADOW"
+        "spellSchool": "SHADOW",
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "1635": "6"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 77662,
+            "decision": "gameplay_spell_school_added_recorded_correctly",
+            "findingIds": [
+              "RAST-BAL-E007"
+            ],
+            "rawDiff": {
+              "1635": [
+                "ABSENT",
+                "6"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+          }
+        }
       },
       "TRL_246": {
         "nativeTags": [
@@ -12495,7 +12065,35 @@
             "value": 6
           }
         ],
-        "spellSchool": "SHADOW"
+        "spellSchool": "SHADOW",
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "1635": "6"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 77662,
+            "decision": "gameplay_spell_school_added_recorded_correctly",
+            "findingIds": [
+              "RAST-BAL-E008"
+            ],
+            "rawDiff": {
+              "1635": [
+                "ABSENT",
+                "6"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+          }
+        }
       },
       "TRL_249": {
         "nativeTags": [
@@ -12535,7 +12133,35 @@
             "value": 6
           }
         ],
-        "spellSchool": "SHADOW"
+        "spellSchool": "SHADOW",
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "1635": "6"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 77662,
+            "decision": "gameplay_spell_school_added_recorded_correctly",
+            "findingIds": [
+              "RAST-BAL-E009"
+            ],
+            "rawDiff": {
+              "1635": [
+                "ABSENT",
+                "6"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+          }
+        }
       },
       "TRL_254": {
         "nativeTags": [
@@ -12595,7 +12221,35 @@
             "value": 4
           }
         ],
-        "spellSchool": "NATURE"
+        "spellSchool": "NATURE",
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "1635": "4"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 77662,
+            "decision": "gameplay_spell_school_added_recorded_correctly",
+            "findingIds": [
+              "RAST-BAL-E010"
+            ],
+            "rawDiff": {
+              "1635": [
+                "ABSENT",
+                "4"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+          }
+        }
       },
       "TRL_254a": {
         "nativeTags": [
@@ -12655,7 +12309,35 @@
             "value": 4
           }
         ],
-        "spellSchool": "NATURE"
+        "spellSchool": "NATURE",
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "1635": "4"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 77662,
+            "decision": "gameplay_spell_school_added_recorded_correctly",
+            "findingIds": [
+              "RAST-BAL-E011"
+            ],
+            "rawDiff": {
+              "1635": [
+                "ABSENT",
+                "4"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+          }
+        }
       },
       "TRL_254b": {
         "nativeTags": [
@@ -12705,7 +12387,35 @@
             "value": 4
           }
         ],
-        "spellSchool": "NATURE"
+        "spellSchool": "NATURE",
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "1635": "4"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 77662,
+            "decision": "gameplay_spell_school_added_recorded_correctly",
+            "findingIds": [
+              "RAST-BAL-E012"
+            ],
+            "rawDiff": {
+              "1635": [
+                "ABSENT",
+                "4"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+          }
+        }
       },
       "TRL_258": {
         "nativeTags": [
@@ -12770,7 +12480,35 @@
             "value": 6
           }
         ],
-        "spellSchool": "SHADOW"
+        "spellSchool": "SHADOW",
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "1635": "6"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 77662,
+            "decision": "gameplay_spell_school_added_recorded_correctly",
+            "findingIds": [
+              "RAST-BAL-E013"
+            ],
+            "rawDiff": {
+              "1635": [
+                "ABSENT",
+                "6"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+          }
+        }
       },
       "TRL_307": {
         "nativeTags": [
@@ -12805,7 +12543,35 @@
             "value": 5
           }
         ],
-        "spellSchool": "HOLY"
+        "spellSchool": "HOLY",
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "1635": "5"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 77662,
+            "decision": "gameplay_spell_school_added_recorded_correctly",
+            "findingIds": [
+              "RAST-BAL-E014"
+            ],
+            "rawDiff": {
+              "1635": [
+                "ABSENT",
+                "5"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+          }
+        }
       },
       "TRL_310": {
         "nativeTags": [
@@ -12840,7 +12606,35 @@
             "value": 2
           }
         ],
-        "spellSchool": "FIRE"
+        "spellSchool": "FIRE",
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "1635": "2"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 77662,
+            "decision": "gameplay_spell_school_added_recorded_correctly",
+            "findingIds": [
+              "RAST-BAL-E015"
+            ],
+            "rawDiff": {
+              "1635": [
+                "ABSENT",
+                "2"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+          }
+        }
       },
       "TRL_313": {
         "nativeTags": [
@@ -12895,7 +12689,35 @@
             "value": 2
           }
         ],
-        "spellSchool": "FIRE"
+        "spellSchool": "FIRE",
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "1635": "2"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 77662,
+            "decision": "gameplay_spell_school_added_recorded_correctly",
+            "findingIds": [
+              "RAST-BAL-E016"
+            ],
+            "rawDiff": {
+              "1635": [
+                "ABSENT",
+                "2"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+          }
+        }
       },
       "TRL_317": {
         "nativeTags": [
@@ -12960,7 +12782,35 @@
             "value": 2
           }
         ],
-        "spellSchool": "FIRE"
+        "spellSchool": "FIRE",
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "1635": "2"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 77662,
+            "decision": "gameplay_spell_school_added_recorded_correctly",
+            "findingIds": [
+              "RAST-BAL-E017"
+            ],
+            "rawDiff": {
+              "1635": [
+                "ABSENT",
+                "2"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+          }
+        }
       },
       "TRL_400": {
         "nativeTags": [
@@ -13005,7 +12855,35 @@
             "value": 1
           }
         ],
-        "spellSchool": "ARCANE"
+        "spellSchool": "ARCANE",
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "1635": "1"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 77662,
+            "decision": "gameplay_spell_school_added_recorded_correctly",
+            "findingIds": [
+              "RAST-BAL-E018"
+            ],
+            "rawDiff": {
+              "1635": [
+                "ABSENT",
+                "1"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+          }
+        }
       },
       "TRL_500": {
         "nativeTags": [
@@ -13045,7 +12923,35 @@
             "value": 6
           }
         ],
-        "spellSchool": "SHADOW"
+        "spellSchool": "SHADOW",
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "1635": "6"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 77662,
+            "decision": "gameplay_spell_school_added_recorded_correctly",
+            "findingIds": [
+              "RAST-BAL-E019"
+            ],
+            "rawDiff": {
+              "1635": [
+                "ABSENT",
+                "6"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+          }
+        }
       },
       "TRL_541t": {
         "nativeTags": [
@@ -13080,7 +12986,35 @@
             "value": 6
           }
         ],
-        "spellSchool": "SHADOW"
+        "spellSchool": "SHADOW",
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "1635": "6"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 77662,
+            "decision": "gameplay_spell_school_added_recorded_correctly",
+            "findingIds": [
+              "RAST-BAL-E020"
+            ],
+            "rawDiff": {
+              "1635": [
+                "ABSENT",
+                "6"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+          }
+        }
       },
       "TRL_555": {
         "nativeTags": [
@@ -13120,7 +13054,35 @@
             "value": 6
           }
         ],
-        "spellSchool": "SHADOW"
+        "spellSchool": "SHADOW",
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "1635": "6"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 77662,
+            "decision": "gameplay_spell_school_added_recorded_correctly",
+            "findingIds": [
+              "RAST-BAL-E021"
+            ],
+            "rawDiff": {
+              "1635": [
+                "ABSENT",
+                "6"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+          }
+        }
       }
     },
     "2022-04-06": {
@@ -13185,7 +13147,33 @@
         ],
         "source": {
           "findingId": "RAST-BAL-M001",
-          "confidence": "high"
+          "confidence": "high",
+          "rawRoleEvidence": {
+            "build": 135540,
+            "decision": "gameplay_stat_change",
+            "findingIds": [
+              "RAST-BAL-M001"
+            ],
+            "rawDiff": {
+              "45": [
+                "4",
+                "5"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/9016168146cc3ce0369e8cbc54eb8395afba75a0/CardDefs.xml"
+          }
+        },
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "45": "5"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
         }
       }
     },
@@ -13252,7 +13240,40 @@
             "name": "게임 태그 2542",
             "value": 1
           }
-        ]
+        ],
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "2542": "1",
+              "200": "11"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 158725,
+            "decision": "gameplay_tribe_change",
+            "findingIds": [
+              "RAST-BAL-E022"
+            ],
+            "rawDiff": {
+              "2542": [
+                "ABSENT",
+                "1"
+              ],
+              "200": [
+                "ABSENT",
+                "11"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
+          }
+        }
       },
       "TRL_092": {
         "races": [
@@ -13326,7 +13347,40 @@
             "name": "게임 태그 2542",
             "value": 1
           }
-        ]
+        ],
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "2542": "1",
+              "200": "11"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 158725,
+            "decision": "gameplay_tribe_change",
+            "findingIds": [
+              "RAST-BAL-E023"
+            ],
+            "rawDiff": {
+              "2542": [
+                "ABSENT",
+                "1"
+              ],
+              "200": [
+                "ABSENT",
+                "11"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
+          }
+        }
       },
       "TRL_131": {
         "races": [
@@ -13394,7 +13448,35 @@
             "name": "수집품 관련 카드 데이터베이스 ID",
             "value": 50845
           }
-        ]
+        ],
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "200": "11"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 158725,
+            "decision": "gameplay_tribe_change",
+            "findingIds": [
+              "RAST-BAL-E024"
+            ],
+            "rawDiff": {
+              "200": [
+                "ABSENT",
+                "11"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
+          }
+        }
       },
       "TRL_131t": {
         "races": [
@@ -13447,7 +13529,35 @@
             "name": "수집 가능",
             "value": 0
           }
-        ]
+        ],
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "200": "11"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 158725,
+            "decision": "gameplay_tribe_change",
+            "findingIds": [
+              "RAST-BAL-E025"
+            ],
+            "rawDiff": {
+              "200": [
+                "ABSENT",
+                "11"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
+          }
+        }
       },
       "TRL_223": {
         "races": [
@@ -13521,7 +13631,40 @@
             "name": "게임 태그 2542",
             "value": 1
           }
-        ]
+        ],
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "2542": "1",
+              "200": "11"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 158725,
+            "decision": "gameplay_tribe_change",
+            "findingIds": [
+              "RAST-BAL-E026"
+            ],
+            "rawDiff": {
+              "2542": [
+                "ABSENT",
+                "1"
+              ],
+              "200": [
+                "ABSENT",
+                "11"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
+          }
+        }
       },
       "TRL_251": {
         "races": [
@@ -13585,7 +13728,40 @@
             "name": "게임 태그 2542",
             "value": 1
           }
-        ]
+        ],
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "2542": "1",
+              "200": "11"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 158725,
+            "decision": "gameplay_tribe_change",
+            "findingIds": [
+              "RAST-BAL-E027"
+            ],
+            "rawDiff": {
+              "2542": [
+                "ABSENT",
+                "1"
+              ],
+              "200": [
+                "ABSENT",
+                "11"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
+          }
+        }
       },
       "TRL_260": {
         "races": [
@@ -13653,7 +13829,35 @@
             "name": "효과 지속 시각 효과",
             "value": 0
           }
-        ]
+        ],
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "200": "11"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 158725,
+            "decision": "gameplay_tribe_change",
+            "findingIds": [
+              "RAST-BAL-E028"
+            ],
+            "rawDiff": {
+              "200": [
+                "ABSENT",
+                "11"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
+          }
+        }
       },
       "TRL_309": {
         "races": [
@@ -13727,7 +13931,40 @@
             "name": "게임 태그 2542",
             "value": 1
           }
-        ]
+        ],
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "2542": "1",
+              "200": "11"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 158725,
+            "decision": "gameplay_tribe_change",
+            "findingIds": [
+              "RAST-BAL-E029"
+            ],
+            "rawDiff": {
+              "2542": [
+                "ABSENT",
+                "1"
+              ],
+              "200": [
+                "ABSENT",
+                "11"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
+          }
+        }
       },
       "TRL_311": {
         "races": [
@@ -13809,7 +14046,33 @@
         ],
         "source": {
           "findingId": "RAST-BAL-M002",
-          "confidence": "high"
+          "confidence": "high",
+          "rawRoleEvidence": {
+            "build": 158725,
+            "decision": "gameplay_tribe_change",
+            "findingIds": [
+              "RAST-BAL-M002"
+            ],
+            "rawDiff": {
+              "2542": [
+                "ABSENT",
+                "1"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
+          }
+        },
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "2542": "1"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
         }
       },
       "TRL_319": {
@@ -13874,7 +14137,40 @@
             "name": "게임 태그 2542",
             "value": 1
           }
-        ]
+        ],
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "2542": "1",
+              "200": "11"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 158725,
+            "decision": "gameplay_tribe_change",
+            "findingIds": [
+              "RAST-BAL-E030"
+            ],
+            "rawDiff": {
+              "2542": [
+                "ABSENT",
+                "1"
+              ],
+              "200": [
+                "ABSENT",
+                "11"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
+          }
+        }
       },
       "TRL_327": {
         "races": [
@@ -13943,7 +14239,40 @@
             "name": "게임 태그 2542",
             "value": 1
           }
-        ]
+        ],
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "2542": "1",
+              "200": "11"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 158725,
+            "decision": "gameplay_tribe_change",
+            "findingIds": [
+              "RAST-BAL-E031"
+            ],
+            "rawDiff": {
+              "2542": [
+                "ABSENT",
+                "1"
+              ],
+              "200": [
+                "ABSENT",
+                "11"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
+          }
+        }
       },
       "TRL_408": {
         "races": [
@@ -14001,7 +14330,35 @@
             "name": "수집 가능",
             "value": 1
           }
-        ]
+        ],
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "200": "11"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 158725,
+            "decision": "gameplay_tribe_change",
+            "findingIds": [
+              "RAST-BAL-E032"
+            ],
+            "rawDiff": {
+              "200": [
+                "ABSENT",
+                "11"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
+          }
+        }
       },
       "TRL_501": {
         "races": [
@@ -14059,7 +14416,35 @@
             "name": "수집 가능",
             "value": 1
           }
-        ]
+        ],
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "200": "11"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 158725,
+            "decision": "gameplay_tribe_change",
+            "findingIds": [
+              "RAST-BAL-E033"
+            ],
+            "rawDiff": {
+              "200": [
+                "ABSENT",
+                "11"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
+          }
+        }
       },
       "TRL_502": {
         "races": [
@@ -14117,7 +14502,35 @@
             "name": "수집 가능",
             "value": 1
           }
-        ]
+        ],
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "200": "11"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 158725,
+            "decision": "gameplay_tribe_change",
+            "findingIds": [
+              "RAST-BAL-E034"
+            ],
+            "rawDiff": {
+              "200": [
+                "ABSENT",
+                "11"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
+          }
+        }
       },
       "TRL_528": {
         "races": [
@@ -14175,7 +14588,35 @@
             "name": "압살",
             "value": 1
           }
-        ]
+        ],
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "200": "11"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 158725,
+            "decision": "gameplay_tribe_change",
+            "findingIds": [
+              "RAST-BAL-E035"
+            ],
+            "rawDiff": {
+              "200": [
+                "ABSENT",
+                "11"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
+          }
+        }
       },
       "TRL_537": {
         "races": [
@@ -14238,7 +14679,35 @@
             "name": "수집 가능",
             "value": 1
           }
-        ]
+        ],
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "200": "11"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 158725,
+            "decision": "gameplay_tribe_change",
+            "findingIds": [
+              "RAST-BAL-E036"
+            ],
+            "rawDiff": {
+              "200": [
+                "ABSENT",
+                "11"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
+          }
+        }
       },
       "TRL_901": {
         "races": [
@@ -14302,7 +14771,40 @@
             "name": "게임 태그 2542",
             "value": 1
           }
-        ]
+        ],
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "2542": "1",
+              "200": "11"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 158725,
+            "decision": "gameplay_tribe_change",
+            "findingIds": [
+              "RAST-BAL-E037"
+            ],
+            "rawDiff": {
+              "2542": [
+                "ABSENT",
+                "1"
+              ],
+              "200": [
+                "ABSENT",
+                "11"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
+          }
+        }
       }
     },
     "2023-09-29": {
@@ -14367,7 +14869,33 @@
         ],
         "source": {
           "findingId": "RAST-BAL-M003",
-          "confidence": "high"
+          "confidence": "high",
+          "rawRoleEvidence": {
+            "build": 186852,
+            "decision": "gameplay_stat_change",
+            "findingIds": [
+              "RAST-BAL-M003"
+            ],
+            "rawDiff": {
+              "48": [
+                "3",
+                "5"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/8ccc0f4629c876f2491af3ed8ae42b93877f98c7/CardDefs.xml"
+          }
+        },
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "48": "5"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
         }
       }
     },
@@ -14428,7 +14956,35 @@
             "name": "효과 지속 시각 효과",
             "value": 0
           }
-        ]
+        ],
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "200": "2"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 210009,
+            "decision": "gameplay_tribe_change",
+            "findingIds": [
+              "RAST-BAL-E038"
+            ],
+            "rawDiff": {
+              "200": [
+                "ABSENT",
+                "2"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/0a387d653f339297339625710e4df91f0c62b67b/CardDefs.xml"
+          }
+        }
       },
       "TRL_501": {
         "races": [
@@ -14495,7 +15051,33 @@
         ],
         "source": {
           "findingId": "RAST-BAL-M004",
-          "confidence": "high"
+          "confidence": "high",
+          "rawRoleEvidence": {
+            "build": 210009,
+            "decision": "gameplay_tribe_change",
+            "findingIds": [
+              "RAST-BAL-M004"
+            ],
+            "rawDiff": {
+              "2525": [
+                "ABSENT",
+                "1"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/0a387d653f339297339625710e4df91f0c62b67b/CardDefs.xml"
+          }
+        },
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "2525": "1"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
         }
       }
     },
@@ -14555,16 +15137,16 @@
         ],
         "nativeTagRolesDelta": {
           "owned": {
-            "removed": [
-              "187"
-            ],
             "set": {
               "45": "3"
-            }
+            },
+            "removed": [
+              "187"
+            ]
           },
           "referenced": {
-            "removed": [],
-            "set": {}
+            "set": {},
+            "removed": []
           }
         },
         "source": {
@@ -14575,7 +15157,23 @@
           "durabilityBefore": 3,
           "durabilityAfter": 3,
           "isGameplayBuff": false,
-          "note": "Tag ownership migration only; no weapon durability buff"
+          "note": "Tag ownership migration only; no weapon durability buff",
+          "rawRoleEvidence": {
+            "build": 217964,
+            "decision": "weapon_durability_tag_migration_same_value",
+            "findingIds": [],
+            "rawDiff": {
+              "187": [
+                "3",
+                "ABSENT"
+              ],
+              "45": [
+                "ABSENT",
+                "3"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
+          }
         }
       },
       "TRL_111": {
@@ -14628,16 +15226,16 @@
         ],
         "nativeTagRolesDelta": {
           "owned": {
-            "removed": [
-              "187"
-            ],
             "set": {
               "45": "2"
-            }
+            },
+            "removed": [
+              "187"
+            ]
           },
           "referenced": {
-            "removed": [],
-            "set": {}
+            "set": {},
+            "removed": []
           }
         },
         "source": {
@@ -14648,7 +15246,23 @@
           "durabilityBefore": 2,
           "durabilityAfter": 2,
           "isGameplayBuff": false,
-          "note": "Tag ownership migration only; no weapon durability buff"
+          "note": "Tag ownership migration only; no weapon durability buff",
+          "rawRoleEvidence": {
+            "build": 217964,
+            "decision": "weapon_durability_tag_migration_same_value",
+            "findingIds": [],
+            "rawDiff": {
+              "187": [
+                "2",
+                "ABSENT"
+              ],
+              "45": [
+                "ABSENT",
+                "2"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
+          }
         }
       },
       "TRL_304": {
@@ -14701,16 +15315,16 @@
         ],
         "nativeTagRolesDelta": {
           "owned": {
-            "removed": [
-              "187"
-            ],
             "set": {
               "45": "3"
-            }
+            },
+            "removed": [
+              "187"
+            ]
           },
           "referenced": {
-            "removed": [],
-            "set": {}
+            "set": {},
+            "removed": []
           }
         },
         "source": {
@@ -14721,7 +15335,23 @@
           "durabilityBefore": 3,
           "durabilityAfter": 3,
           "isGameplayBuff": false,
-          "note": "Tag ownership migration only; no weapon durability buff"
+          "note": "Tag ownership migration only; no weapon durability buff",
+          "rawRoleEvidence": {
+            "build": 217964,
+            "decision": "weapon_durability_tag_migration_same_value",
+            "findingIds": [],
+            "rawDiff": {
+              "187": [
+                "3",
+                "ABSENT"
+              ],
+              "45": [
+                "ABSENT",
+                "3"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
+          }
         }
       },
       "TRL_325": {
@@ -14769,16 +15399,16 @@
         ],
         "nativeTagRolesDelta": {
           "owned": {
-            "removed": [
-              "187"
-            ],
             "set": {
               "45": "4"
-            }
+            },
+            "removed": [
+              "187"
+            ]
           },
           "referenced": {
-            "removed": [],
-            "set": {}
+            "set": {},
+            "removed": []
           }
         },
         "source": {
@@ -14789,7 +15419,23 @@
           "durabilityBefore": 4,
           "durabilityAfter": 4,
           "isGameplayBuff": false,
-          "note": "Tag ownership migration only; no weapon durability buff"
+          "note": "Tag ownership migration only; no weapon durability buff",
+          "rawRoleEvidence": {
+            "build": 217964,
+            "decision": "weapon_durability_tag_migration_same_value",
+            "findingIds": [],
+            "rawDiff": {
+              "187": [
+                "4",
+                "ABSENT"
+              ],
+              "45": [
+                "ABSENT",
+                "4"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
+          }
         }
       },
       "TRL_352": {
@@ -14857,16 +15503,16 @@
         ],
         "nativeTagRolesDelta": {
           "owned": {
-            "removed": [
-              "187"
-            ],
             "set": {
               "45": "3"
-            }
+            },
+            "removed": [
+              "187"
+            ]
           },
           "referenced": {
-            "removed": [],
-            "set": {}
+            "set": {},
+            "removed": []
           }
         },
         "source": {
@@ -14877,7 +15523,23 @@
           "durabilityBefore": 3,
           "durabilityAfter": 3,
           "isGameplayBuff": false,
-          "note": "Tag ownership migration only; no weapon durability buff"
+          "note": "Tag ownership migration only; no weapon durability buff",
+          "rawRoleEvidence": {
+            "build": 217964,
+            "decision": "weapon_durability_tag_migration_same_value",
+            "findingIds": [],
+            "rawDiff": {
+              "187": [
+                "3",
+                "ABSENT"
+              ],
+              "45": [
+                "ABSENT",
+                "3"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
+          }
         }
       },
       "TRL_360": {
@@ -14950,16 +15612,16 @@
         ],
         "nativeTagRolesDelta": {
           "owned": {
-            "removed": [
-              "187"
-            ],
             "set": {
               "45": "4"
-            }
+            },
+            "removed": [
+              "187"
+            ]
           },
           "referenced": {
-            "removed": [],
-            "set": {}
+            "set": {},
+            "removed": []
           }
         },
         "source": {
@@ -14970,7 +15632,23 @@
           "durabilityBefore": 4,
           "durabilityAfter": 4,
           "isGameplayBuff": false,
-          "note": "Tag ownership migration only; no weapon durability buff"
+          "note": "Tag ownership migration only; no weapon durability buff",
+          "rawRoleEvidence": {
+            "build": 217964,
+            "decision": "weapon_durability_tag_migration_same_value",
+            "findingIds": [],
+            "rawDiff": {
+              "187": [
+                "4",
+                "ABSENT"
+              ],
+              "45": [
+                "ABSENT",
+                "4"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
+          }
         }
       },
       "TRL_543": {
@@ -15023,16 +15701,16 @@
         ],
         "nativeTagRolesDelta": {
           "owned": {
-            "removed": [
-              "187"
-            ],
             "set": {
               "45": "2"
-            }
+            },
+            "removed": [
+              "187"
+            ]
           },
           "referenced": {
-            "removed": [],
-            "set": {}
+            "set": {},
+            "removed": []
           }
         },
         "source": {
@@ -15043,7 +15721,23 @@
           "durabilityBefore": 2,
           "durabilityAfter": 2,
           "isGameplayBuff": false,
-          "note": "Tag ownership migration only; no weapon durability buff"
+          "note": "Tag ownership migration only; no weapon durability buff",
+          "rawRoleEvidence": {
+            "build": 217964,
+            "decision": "weapon_durability_tag_migration_same_value",
+            "findingIds": [],
+            "rawDiff": {
+              "187": [
+                "2",
+                "ABSENT"
+              ],
+              "45": [
+                "ABSENT",
+                "2"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
+          }
         }
       }
     },
@@ -15114,7 +15808,35 @@
             "name": "침묵",
             "value": 1
           }
-        ]
+        ],
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "200": "2"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        },
+        "source": {
+          "rawRoleEvidence": {
+            "build": 235290,
+            "decision": "gameplay_tribe_change",
+            "findingIds": [
+              "RAST-BAL-E039"
+            ],
+            "rawDiff": {
+              "200": [
+                "ABSENT",
+                "2"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/382ab7f189586f73a4fab4e11a3bc4e1d6827a08/CardDefs.xml"
+          }
+        }
       }
     },
     "2026-03-11": {
@@ -15197,7 +15919,38 @@
         "source": {
           "findingId": "RAST-BAL-M005",
           "confidence": "high",
-          "officialIntent": "35.0 adds Rush to Halazzi; first effective operation day remains unresolved"
+          "officialIntent": "35.0 adds Rush to Halazzi; first effective operation day remains unresolved",
+          "rawRoleEvidence": {
+            "build": 237510,
+            "decision": "gameplay_stat_change",
+            "findingIds": [
+              "RAST-BAL-M005"
+            ],
+            "rawDiff": {
+              "47": [
+                "3",
+                "4"
+              ],
+              "48": [
+                "5",
+                "4"
+              ]
+            },
+            "sourceURL": "https://github.com/HearthSim/hsdata/blob/a770d899b7ea12594f2edfc7d097f6ee0a858eb8/CardDefs.xml"
+          }
+        },
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "47": "4",
+              "48": "4"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
         }
       }
     }
@@ -15249,102 +16002,6 @@
           "relatedFindings": [],
           "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
           "sourceURL": "https://github.com/HearthSim/hsdata/blob/adedd63ac6a9181d379fcf320648fa4c7fb9ebf2/CardDefs.xml"
-        },
-        {
-          "build": 77662,
-          "id": "TRL_058",
-          "dbfId": 49802,
-          "name": "음산한 환영",
-          "rawDiff": {
-            "1635": [
-              "ABSENT",
-              "6"
-            ]
-          },
-          "tagNames": {
-            "1635": "SPELL_SCHOOL"
-          },
-          "decision": "gameplay_spell_school_added_recorded_correctly",
-          "relatedFindings": [
-            "RAST-BAL-E003"
-          ],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
-        }
-      ],
-      "TRL_060": [
-        {
-          "build": 158725,
-          "id": "TRL_060",
-          "dbfId": 49804,
-          "name": "개구리의 혼",
-          "rawDiff": {
-            "2542": [
-              "ABSENT",
-              "1"
-            ],
-            "200": [
-              "ABSENT",
-              "11"
-            ]
-          },
-          "tagNames": {
-            "2542": "1",
-            "200": "CARDRACE"
-          },
-          "decision": "gameplay_tribe_change",
-          "relatedFindings": [
-            "RAST-BAL-E022"
-          ],
-          "note": "주 종족과 보조 종족 모두 판정. 기존 또는 누락 날짜 사건에 연결.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
-        },
-        {
-          "build": 186852,
-          "id": "TRL_060",
-          "dbfId": 49804,
-          "name": "개구리의 혼",
-          "rawDiff": {
-            "48": [
-              "3",
-              "5"
-            ]
-          },
-          "tagNames": {
-            "48": "COST"
-          },
-          "decision": "gameplay_stat_change",
-          "relatedFindings": [
-            "RAST-BAL-M003"
-          ],
-          "note": "공식 변경 공지와 원본 ID 전후 비교로 확정. 출시일/Core 개방일과 구별.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/8ccc0f4629c876f2491af3ed8ae42b93877f98c7/CardDefs.xml"
-        }
-      ],
-      "TRL_074": [
-        {
-          "build": 217964,
-          "id": "TRL_074",
-          "dbfId": 49843,
-          "name": "톱니 이빨",
-          "rawDiff": {
-            "187": [
-              "3",
-              "ABSENT"
-            ],
-            "45": [
-              "ABSENT",
-              "3"
-            ]
-          },
-          "tagNames": {
-            "187": "DURABILITY",
-            "45": "HEALTH"
-          },
-          "decision": "weapon_durability_tag_migration_same_value",
-          "relatedFindings": [],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
         }
       ],
       "TRL_077": [
@@ -15373,57 +16030,6 @@
           "sourceURL": "https://github.com/HearthSim/hsdata/blob/adedd63ac6a9181d379fcf320648fa4c7fb9ebf2/CardDefs.xml"
         }
       ],
-      "TRL_082": [
-        {
-          "build": 77662,
-          "id": "TRL_082",
-          "dbfId": 49853,
-          "name": "대재앙의 부두술",
-          "rawDiff": {
-            "1635": [
-              "ABSENT",
-              "6"
-            ]
-          },
-          "tagNames": {
-            "1635": "SPELL_SCHOOL"
-          },
-          "decision": "gameplay_spell_school_added_recorded_correctly",
-          "relatedFindings": [
-            "RAST-BAL-E004"
-          ],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
-        }
-      ],
-      "TRL_092": [
-        {
-          "build": 158725,
-          "id": "TRL_092",
-          "dbfId": 49972,
-          "name": "상어의 혼",
-          "rawDiff": {
-            "2542": [
-              "ABSENT",
-              "1"
-            ],
-            "200": [
-              "ABSENT",
-              "11"
-            ]
-          },
-          "tagNames": {
-            "2542": "1",
-            "200": "CARDRACE"
-          },
-          "decision": "gameplay_tribe_change",
-          "relatedFindings": [
-            "RAST-BAL-E023"
-          ],
-          "note": "주 종족과 보조 종족 모두 판정. 기존 또는 누락 날짜 사건에 연결.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
-        }
-      ],
       "TRL_096": [
         {
           "build": 32708,
@@ -15450,144 +16056,7 @@
           "sourceURL": "https://github.com/HearthSim/hsdata/blob/adedd63ac6a9181d379fcf320648fa4c7fb9ebf2/CardDefs.xml"
         }
       ],
-      "TRL_097": [
-        {
-          "build": 77662,
-          "id": "TRL_097",
-          "dbfId": 50278,
-          "name": "교령",
-          "rawDiff": {
-            "1635": [
-              "ABSENT",
-              "6"
-            ]
-          },
-          "tagNames": {
-            "1635": "SPELL_SCHOOL"
-          },
-          "decision": "gameplay_spell_school_added_recorded_correctly",
-          "relatedFindings": [
-            "RAST-BAL-E005"
-          ],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
-        }
-      ],
-      "TRL_111": [
-        {
-          "build": 217964,
-          "id": "TRL_111",
-          "dbfId": 50608,
-          "name": "인간사냥꾼의 손도끼",
-          "rawDiff": {
-            "187": [
-              "2",
-              "ABSENT"
-            ],
-            "45": [
-              "ABSENT",
-              "2"
-            ]
-          },
-          "tagNames": {
-            "187": "DURABILITY",
-            "45": "HEALTH"
-          },
-          "decision": "weapon_durability_tag_migration_same_value",
-          "relatedFindings": [],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
-        }
-      ],
-      "TRL_124": [
-        {
-          "build": 31022,
-          "id": "TRL_124",
-          "dbfId": 50773,
-          "name": "약탈",
-          "rawDiff": {
-            "48": [
-              "3",
-              "4"
-            ]
-          },
-          "tagNames": {
-            "48": "COST"
-          },
-          "decision": "gameplay_stat_change",
-          "relatedFindings": [
-            "RAST-BAL-E001"
-          ],
-          "note": "공식 변경 공지와 원본 ID 전후 비교로 확정. 출시일/Core 개방일과 구별.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/089a94c2fc524cc52ee7697ad4430fd52240d6a0/CardDefs.xml"
-        },
-        {
-          "build": 44222,
-          "id": "TRL_124",
-          "dbfId": 50773,
-          "name": "약탈",
-          "rawDiff": {
-            "48": [
-              "4",
-              "3"
-            ]
-          },
-          "tagNames": {
-            "48": "COST"
-          },
-          "decision": "gameplay_stat_change",
-          "relatedFindings": [
-            "RAST-BAL-E002"
-          ],
-          "note": "공식 변경 공지와 원본 ID 전후 비교로 확정. 출시일/Core 개방일과 구별.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/fc67953f6f6eee064badde3f4a7bd07011508642/CardDefs.xml"
-        }
-      ],
-      "TRL_128": [
-        {
-          "build": 77662,
-          "id": "TRL_128",
-          "dbfId": 50794,
-          "name": "재생성",
-          "rawDiff": {
-            "1635": [
-              "ABSENT",
-              "5"
-            ]
-          },
-          "tagNames": {
-            "1635": "SPELL_SCHOOL"
-          },
-          "decision": "gameplay_spell_school_added_recorded_correctly",
-          "relatedFindings": [
-            "RAST-BAL-E006"
-          ],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
-        }
-      ],
       "TRL_131": [
-        {
-          "build": 158725,
-          "id": "TRL_131",
-          "dbfId": 50315,
-          "name": "모래 노역꾼",
-          "rawDiff": {
-            "200": [
-              "ABSENT",
-              "11"
-            ]
-          },
-          "tagNames": {
-            "200": "CARDRACE"
-          },
-          "decision": "gameplay_tribe_change",
-          "relatedFindings": [
-            "RAST-BAL-E024"
-          ],
-          "note": "주 종족과 보조 종족 모두 판정. 기존 또는 누락 날짜 사건에 연결.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
-        },
         {
           "build": 170824,
           "id": "TRL_131",
@@ -15606,29 +16075,6 @@
           "relatedFindings": [],
           "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
           "sourceURL": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml"
-        }
-      ],
-      "TRL_131t": [
-        {
-          "build": 158725,
-          "id": "TRL_131t",
-          "dbfId": 50845,
-          "name": "좀비",
-          "rawDiff": {
-            "200": [
-              "ABSENT",
-              "11"
-            ]
-          },
-          "tagNames": {
-            "200": "CARDRACE"
-          },
-          "decision": "gameplay_tribe_change",
-          "relatedFindings": [
-            "RAST-BAL-E025"
-          ],
-          "note": "주 종족과 보조 종족 모두 판정. 기존 또는 누락 날짜 사건에 연결.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
         }
       ],
       "TRL_151": [
@@ -15676,34 +16122,6 @@
           "relatedFindings": [],
           "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
           "sourceURL": "https://github.com/HearthSim/hsdata/blob/adedd63ac6a9181d379fcf320648fa4c7fb9ebf2/CardDefs.xml"
-        }
-      ],
-      "TRL_223": [
-        {
-          "build": 158725,
-          "id": "TRL_223",
-          "dbfId": 49944,
-          "name": "랩터의 혼",
-          "rawDiff": {
-            "2542": [
-              "ABSENT",
-              "1"
-            ],
-            "200": [
-              "ABSENT",
-              "11"
-            ]
-          },
-          "tagNames": {
-            "2542": "1",
-            "200": "CARDRACE"
-          },
-          "decision": "gameplay_tribe_change",
-          "relatedFindings": [
-            "RAST-BAL-E026"
-          ],
-          "note": "주 종족과 보조 종족 모두 판정. 기존 또는 누락 날짜 사건에 연결.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
         }
       ],
       "TRL_232": [
@@ -15815,148 +16233,7 @@
           "sourceURL": "https://github.com/HearthSim/hsdata/blob/dc7133a2a1bcec082f69d4dc465625f45bba5e18/CardDefs.xml"
         }
       ],
-      "TRL_245": [
-        {
-          "build": 77662,
-          "id": "TRL_245",
-          "dbfId": 50002,
-          "name": "비명",
-          "rawDiff": {
-            "1635": [
-              "ABSENT",
-              "6"
-            ]
-          },
-          "tagNames": {
-            "1635": "SPELL_SCHOOL"
-          },
-          "decision": "gameplay_spell_school_added_recorded_correctly",
-          "relatedFindings": [
-            "RAST-BAL-E007"
-          ],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
-        }
-      ],
-      "TRL_246": [
-        {
-          "build": 77662,
-          "id": "TRL_246",
-          "dbfId": 50004,
-          "name": "공허의 서약",
-          "rawDiff": {
-            "1635": [
-              "ABSENT",
-              "6"
-            ]
-          },
-          "tagNames": {
-            "1635": "SPELL_SCHOOL"
-          },
-          "decision": "gameplay_spell_school_added_recorded_correctly",
-          "relatedFindings": [
-            "RAST-BAL-E008"
-          ],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
-        }
-      ],
-      "TRL_249": [
-        {
-          "build": 77662,
-          "id": "TRL_249",
-          "dbfId": 50012,
-          "name": "냉혹한 집결",
-          "rawDiff": {
-            "1635": [
-              "ABSENT",
-              "6"
-            ]
-          },
-          "tagNames": {
-            "1635": "SPELL_SCHOOL"
-          },
-          "decision": "gameplay_spell_school_added_recorded_correctly",
-          "relatedFindings": [
-            "RAST-BAL-E009"
-          ],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
-        }
-      ],
-      "TRL_251": [
-        {
-          "build": 158725,
-          "id": "TRL_251",
-          "dbfId": 50025,
-          "name": "박쥐의 혼",
-          "rawDiff": {
-            "2542": [
-              "ABSENT",
-              "1"
-            ],
-            "200": [
-              "ABSENT",
-              "11"
-            ]
-          },
-          "tagNames": {
-            "2542": "1",
-            "200": "CARDRACE"
-          },
-          "decision": "gameplay_tribe_change",
-          "relatedFindings": [
-            "RAST-BAL-E027"
-          ],
-          "note": "주 종족과 보조 종족 모두 판정. 기존 또는 누락 날짜 사건에 연결.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
-        }
-      ],
-      "TRL_252": [
-        {
-          "build": 135540,
-          "id": "TRL_252",
-          "dbfId": 50032,
-          "name": "대여사제 제클릭",
-          "rawDiff": {
-            "45": [
-              "4",
-              "5"
-            ]
-          },
-          "tagNames": {
-            "45": "HEALTH"
-          },
-          "decision": "gameplay_stat_change",
-          "relatedFindings": [
-            "RAST-BAL-M001"
-          ],
-          "note": "공식 변경 공지와 원본 ID 전후 비교로 확정. 출시일/Core 개방일과 구별.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9016168146cc3ce0369e8cbc54eb8395afba75a0/CardDefs.xml"
-        }
-      ],
       "TRL_254": [
-        {
-          "build": 77662,
-          "id": "TRL_254",
-          "dbfId": 50042,
-          "name": "로아의 징표",
-          "rawDiff": {
-            "1635": [
-              "ABSENT",
-              "4"
-            ]
-          },
-          "tagNames": {
-            "1635": "SPELL_SCHOOL"
-          },
-          "decision": "gameplay_spell_school_added_recorded_correctly",
-          "relatedFindings": [
-            "RAST-BAL-E010"
-          ],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
-        },
         {
           "build": 170824,
           "id": "TRL_254",
@@ -16015,27 +16292,6 @@
           "relatedFindings": [],
           "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
           "sourceURL": "https://github.com/HearthSim/hsdata/blob/32c8b31a69662efc5984a09f7ba5eaced12ff4c8/CardDefs.xml"
-        },
-        {
-          "build": 77662,
-          "id": "TRL_254a",
-          "dbfId": 49995,
-          "name": "공크의 생존력",
-          "rawDiff": {
-            "1635": [
-              "ABSENT",
-              "4"
-            ]
-          },
-          "tagNames": {
-            "1635": "SPELL_SCHOOL"
-          },
-          "decision": "gameplay_spell_school_added_recorded_correctly",
-          "relatedFindings": [
-            "RAST-BAL-E011"
-          ],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
         }
       ],
       "TRL_254b": [
@@ -16057,73 +16313,6 @@
           "relatedFindings": [],
           "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
           "sourceURL": "https://github.com/HearthSim/hsdata/blob/32c8b31a69662efc5984a09f7ba5eaced12ff4c8/CardDefs.xml"
-        },
-        {
-          "build": 77662,
-          "id": "TRL_254b",
-          "dbfId": 49997,
-          "name": "랩터 무리",
-          "rawDiff": {
-            "1635": [
-              "ABSENT",
-              "4"
-            ]
-          },
-          "tagNames": {
-            "1635": "SPELL_SCHOOL"
-          },
-          "decision": "gameplay_spell_school_added_recorded_correctly",
-          "relatedFindings": [
-            "RAST-BAL-E012"
-          ],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
-        }
-      ],
-      "TRL_258": [
-        {
-          "build": 77662,
-          "id": "TRL_258",
-          "dbfId": 50071,
-          "name": "대규모 실성",
-          "rawDiff": {
-            "1635": [
-              "ABSENT",
-              "6"
-            ]
-          },
-          "tagNames": {
-            "1635": "SPELL_SCHOOL"
-          },
-          "decision": "gameplay_spell_school_added_recorded_correctly",
-          "relatedFindings": [
-            "RAST-BAL-E013"
-          ],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
-        }
-      ],
-      "TRL_260": [
-        {
-          "build": 158725,
-          "id": "TRL_260",
-          "dbfId": 50087,
-          "name": "망자 브원삼디",
-          "rawDiff": {
-            "200": [
-              "ABSENT",
-              "11"
-            ]
-          },
-          "tagNames": {
-            "200": "CARDRACE"
-          },
-          "decision": "gameplay_tribe_change",
-          "relatedFindings": [
-            "RAST-BAL-E028"
-          ],
-          "note": "주 종족과 보조 종족 모두 판정. 기존 또는 누락 날짜 사건에 연결.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
         }
       ],
       "TRL_300": [
@@ -16145,32 +16334,6 @@
           "relatedFindings": [],
           "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
           "sourceURL": "https://github.com/HearthSim/hsdata/blob/9b95dea77dbb4d116e861df8b650d80b1b4385d1/CardDefs.xml"
-        }
-      ],
-      "TRL_304": [
-        {
-          "build": 217964,
-          "id": "TRL_304",
-          "dbfId": 50014,
-          "name": "파락키 전투도끼",
-          "rawDiff": {
-            "187": [
-              "3",
-              "ABSENT"
-            ],
-            "45": [
-              "ABSENT",
-              "3"
-            ]
-          },
-          "tagNames": {
-            "187": "DURABILITY",
-            "45": "HEALTH"
-          },
-          "decision": "weapon_durability_tag_migration_same_value",
-          "relatedFindings": [],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
         }
       ],
       "TRL_305": [
@@ -16199,29 +16362,6 @@
           "sourceURL": "https://github.com/HearthSim/hsdata/blob/adedd63ac6a9181d379fcf320648fa4c7fb9ebf2/CardDefs.xml"
         }
       ],
-      "TRL_307": [
-        {
-          "build": 77662,
-          "id": "TRL_307",
-          "dbfId": 50028,
-          "name": "빛의 섬광",
-          "rawDiff": {
-            "1635": [
-              "ABSENT",
-              "5"
-            ]
-          },
-          "tagNames": {
-            "1635": "SPELL_SCHOOL"
-          },
-          "decision": "gameplay_spell_school_added_recorded_correctly",
-          "relatedFindings": [
-            "RAST-BAL-E014"
-          ],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
-        }
-      ],
       "TRL_309": [
         {
           "build": 54613,
@@ -16241,32 +16381,6 @@
           "relatedFindings": [],
           "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
           "sourceURL": "https://github.com/HearthSim/hsdata/blob/9b95dea77dbb4d116e861df8b650d80b1b4385d1/CardDefs.xml"
-        },
-        {
-          "build": 158725,
-          "id": "TRL_309",
-          "dbfId": 50031,
-          "name": "호랑이의 혼",
-          "rawDiff": {
-            "2542": [
-              "ABSENT",
-              "1"
-            ],
-            "200": [
-              "ABSENT",
-              "11"
-            ]
-          },
-          "tagNames": {
-            "2542": "1",
-            "200": "CARDRACE"
-          },
-          "decision": "gameplay_tribe_change",
-          "relatedFindings": [
-            "RAST-BAL-E029"
-          ],
-          "note": "주 종족과 보조 종족 모두 판정. 기존 또는 누락 날짜 사건에 연결.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
         },
         {
           "build": 170824,
@@ -16309,75 +16423,6 @@
           "sourceURL": "https://github.com/HearthSim/hsdata/blob/9b95dea77dbb4d116e861df8b650d80b1b4385d1/CardDefs.xml"
         }
       ],
-      "TRL_310": [
-        {
-          "build": 77662,
-          "id": "TRL_310",
-          "dbfId": 50120,
-          "name": "정령술 연마",
-          "rawDiff": {
-            "1635": [
-              "ABSENT",
-              "2"
-            ]
-          },
-          "tagNames": {
-            "1635": "SPELL_SCHOOL"
-          },
-          "decision": "gameplay_spell_school_added_recorded_correctly",
-          "relatedFindings": [
-            "RAST-BAL-E015"
-          ],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
-        }
-      ],
-      "TRL_311": [
-        {
-          "build": 158725,
-          "id": "TRL_311",
-          "dbfId": 50121,
-          "name": "비전공룡",
-          "rawDiff": {
-            "2542": [
-              "ABSENT",
-              "1"
-            ]
-          },
-          "tagNames": {
-            "2542": "1"
-          },
-          "decision": "gameplay_tribe_change",
-          "relatedFindings": [
-            "RAST-BAL-M002"
-          ],
-          "note": "주 종족과 보조 종족 모두 판정. 기존 또는 누락 날짜 사건에 연결.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
-        }
-      ],
-      "TRL_313": [
-        {
-          "build": 77662,
-          "id": "TRL_313",
-          "dbfId": 50122,
-          "name": "불태우기",
-          "rawDiff": {
-            "1635": [
-              "ABSENT",
-              "2"
-            ]
-          },
-          "tagNames": {
-            "1635": "SPELL_SCHOOL"
-          },
-          "decision": "gameplay_spell_school_added_recorded_correctly",
-          "relatedFindings": [
-            "RAST-BAL-E016"
-          ],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
-        }
-      ],
       "TRL_316": [
         {
           "build": 170824,
@@ -16397,111 +16442,6 @@
           "relatedFindings": [],
           "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
           "sourceURL": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml"
-        }
-      ],
-      "TRL_317": [
-        {
-          "build": 77662,
-          "id": "TRL_317",
-          "dbfId": 50086,
-          "name": "화염 폭풍",
-          "rawDiff": {
-            "1635": [
-              "ABSENT",
-              "2"
-            ]
-          },
-          "tagNames": {
-            "1635": "SPELL_SCHOOL"
-          },
-          "decision": "gameplay_spell_school_added_recorded_correctly",
-          "relatedFindings": [
-            "RAST-BAL-E017"
-          ],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
-        }
-      ],
-      "TRL_319": [
-        {
-          "build": 158725,
-          "id": "TRL_319",
-          "dbfId": 50093,
-          "name": "용매의 혼",
-          "rawDiff": {
-            "2542": [
-              "ABSENT",
-              "1"
-            ],
-            "200": [
-              "ABSENT",
-              "11"
-            ]
-          },
-          "tagNames": {
-            "2542": "1",
-            "200": "CARDRACE"
-          },
-          "decision": "gameplay_tribe_change",
-          "relatedFindings": [
-            "RAST-BAL-E030"
-          ],
-          "note": "주 종족과 보조 종족 모두 판정. 기존 또는 누락 날짜 사건에 연결.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
-        }
-      ],
-      "TRL_325": [
-        {
-          "build": 217964,
-          "id": "TRL_325",
-          "dbfId": 50056,
-          "name": "술트라제",
-          "rawDiff": {
-            "187": [
-              "4",
-              "ABSENT"
-            ],
-            "45": [
-              "ABSENT",
-              "4"
-            ]
-          },
-          "tagNames": {
-            "187": "DURABILITY",
-            "45": "HEALTH"
-          },
-          "decision": "weapon_durability_tag_migration_same_value",
-          "relatedFindings": [],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
-        }
-      ],
-      "TRL_327": [
-        {
-          "build": 158725,
-          "id": "TRL_327",
-          "dbfId": 52242,
-          "name": "코뿔소의 혼",
-          "rawDiff": {
-            "2542": [
-              "ABSENT",
-              "1"
-            ],
-            "200": [
-              "ABSENT",
-              "11"
-            ]
-          },
-          "tagNames": {
-            "2542": "1",
-            "200": "CARDRACE"
-          },
-          "decision": "gameplay_tribe_change",
-          "relatedFindings": [
-            "RAST-BAL-E031"
-          ],
-          "note": "주 종족과 보조 종족 모두 판정. 기존 또는 누락 날짜 사건에 연결.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
         }
       ],
       "TRL_339": [
@@ -16842,58 +16782,6 @@
           "sourceURL": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml"
         }
       ],
-      "TRL_352": [
-        {
-          "build": 217964,
-          "id": "TRL_352",
-          "dbfId": 50550,
-          "name": "츄르릅 봉",
-          "rawDiff": {
-            "187": [
-              "3",
-              "ABSENT"
-            ],
-            "45": [
-              "ABSENT",
-              "3"
-            ]
-          },
-          "tagNames": {
-            "187": "DURABILITY",
-            "45": "HEALTH"
-          },
-          "decision": "weapon_durability_tag_migration_same_value",
-          "relatedFindings": [],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
-        }
-      ],
-      "TRL_360": [
-        {
-          "build": 217964,
-          "id": "TRL_360",
-          "dbfId": 50595,
-          "name": "대군주의 채찍",
-          "rawDiff": {
-            "187": [
-              "4",
-              "ABSENT"
-            ],
-            "45": [
-              "ABSENT",
-              "4"
-            ]
-          },
-          "tagNames": {
-            "187": "DURABILITY",
-            "45": "HEALTH"
-          },
-          "decision": "weapon_durability_tag_migration_same_value",
-          "relatedFindings": [],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
-        }
-      ],
       "TRL_363": [
         {
           "build": 170824,
@@ -16913,165 +16801,6 @@
           "relatedFindings": [],
           "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
           "sourceURL": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml"
-        }
-      ],
-      "TRL_363t": [
-        {
-          "build": 210009,
-          "id": "TRL_363t",
-          "dbfId": 50797,
-          "name": "풀려난 노예",
-          "rawDiff": {
-            "200": [
-              "ABSENT",
-              "2"
-            ]
-          },
-          "tagNames": {
-            "200": "CARDRACE"
-          },
-          "decision": "gameplay_tribe_change",
-          "relatedFindings": [
-            "RAST-BAL-E038"
-          ],
-          "note": "주 종족과 보조 종족 모두 판정. 기존 또는 누락 날짜 사건에 연결.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/0a387d653f339297339625710e4df91f0c62b67b/CardDefs.xml"
-        }
-      ],
-      "TRL_400": [
-        {
-          "build": 77662,
-          "id": "TRL_400",
-          "dbfId": 50230,
-          "name": "갈라지는 환영",
-          "rawDiff": {
-            "1635": [
-              "ABSENT",
-              "1"
-            ]
-          },
-          "tagNames": {
-            "1635": "SPELL_SCHOOL"
-          },
-          "decision": "gameplay_spell_school_added_recorded_correctly",
-          "relatedFindings": [
-            "RAST-BAL-E018"
-          ],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
-        }
-      ],
-      "TRL_408": [
-        {
-          "build": 158725,
-          "id": "TRL_408",
-          "dbfId": 50539,
-          "name": "무덤괴수",
-          "rawDiff": {
-            "200": [
-              "ABSENT",
-              "11"
-            ]
-          },
-          "tagNames": {
-            "200": "CARDRACE"
-          },
-          "decision": "gameplay_tribe_change",
-          "relatedFindings": [
-            "RAST-BAL-E032"
-          ],
-          "note": "주 종족과 보조 종족 모두 판정. 기존 또는 누락 날짜 사건에 연결.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
-        }
-      ],
-      "TRL_500": [
-        {
-          "build": 77662,
-          "id": "TRL_500",
-          "dbfId": 50282,
-          "name": "광기에 굴복하라",
-          "rawDiff": {
-            "1635": [
-              "ABSENT",
-              "6"
-            ]
-          },
-          "tagNames": {
-            "1635": "SPELL_SCHOOL"
-          },
-          "decision": "gameplay_spell_school_added_recorded_correctly",
-          "relatedFindings": [
-            "RAST-BAL-E019"
-          ],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
-        }
-      ],
-      "TRL_501": [
-        {
-          "build": 158725,
-          "id": "TRL_501",
-          "dbfId": 50283,
-          "name": "아키나이 환영",
-          "rawDiff": {
-            "200": [
-              "ABSENT",
-              "11"
-            ]
-          },
-          "tagNames": {
-            "200": "CARDRACE"
-          },
-          "decision": "gameplay_tribe_change",
-          "relatedFindings": [
-            "RAST-BAL-E033"
-          ],
-          "note": "주 종족과 보조 종족 모두 판정. 기존 또는 누락 날짜 사건에 연결.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
-        },
-        {
-          "build": 210009,
-          "id": "TRL_501",
-          "dbfId": 50283,
-          "name": "아키나이 환영",
-          "rawDiff": {
-            "2525": [
-              "ABSENT",
-              "1"
-            ]
-          },
-          "tagNames": {
-            "2525": "1"
-          },
-          "decision": "gameplay_tribe_change",
-          "relatedFindings": [
-            "RAST-BAL-M004"
-          ],
-          "note": "주 종족과 보조 종족 모두 판정. 기존 또는 누락 날짜 사건에 연결.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/0a387d653f339297339625710e4df91f0c62b67b/CardDefs.xml"
-        }
-      ],
-      "TRL_502": [
-        {
-          "build": 158725,
-          "id": "TRL_502",
-          "dbfId": 50352,
-          "name": "망자의 혼",
-          "rawDiff": {
-            "200": [
-              "ABSENT",
-              "11"
-            ]
-          },
-          "tagNames": {
-            "200": "CARDRACE"
-          },
-          "decision": "gameplay_tribe_change",
-          "relatedFindings": [
-            "RAST-BAL-E034"
-          ],
-          "note": "주 종족과 보조 종족 모두 판정. 기존 또는 누락 날짜 사건에 연결.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
         }
       ],
       "TRL_503": [
@@ -17205,52 +16934,6 @@
           "sourceURL": "https://github.com/HearthSim/hsdata/blob/adedd63ac6a9181d379fcf320648fa4c7fb9ebf2/CardDefs.xml"
         }
       ],
-      "TRL_524": [
-        {
-          "build": 235290,
-          "id": "TRL_524",
-          "dbfId": 50410,
-          "name": "방패파괴자",
-          "rawDiff": {
-            "200": [
-              "ABSENT",
-              "2"
-            ]
-          },
-          "tagNames": {
-            "200": "CARDRACE"
-          },
-          "decision": "gameplay_tribe_change",
-          "relatedFindings": [
-            "RAST-BAL-E039"
-          ],
-          "note": "주 종족과 보조 종족 모두 판정. 기존 또는 누락 날짜 사건에 연결.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/382ab7f189586f73a4fab4e11a3bc4e1d6827a08/CardDefs.xml"
-        }
-      ],
-      "TRL_528": [
-        {
-          "build": 158725,
-          "id": "TRL_528",
-          "dbfId": 50416,
-          "name": "박살마",
-          "rawDiff": {
-            "200": [
-              "ABSENT",
-              "11"
-            ]
-          },
-          "tagNames": {
-            "200": "CARDRACE"
-          },
-          "decision": "gameplay_tribe_change",
-          "relatedFindings": [
-            "RAST-BAL-E035"
-          ],
-          "note": "주 종족과 보조 종족 모두 판정. 기존 또는 누락 날짜 사건에 연결.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
-        }
-      ],
       "TRL_531": [
         {
           "build": 170824,
@@ -17291,29 +16974,6 @@
           "relatedFindings": [],
           "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
           "sourceURL": "https://github.com/HearthSim/hsdata/blob/5917d30ad2bb049d99b8f70c77c13c796420ddf1/CardDefs.xml"
-        }
-      ],
-      "TRL_537": [
-        {
-          "build": 158725,
-          "id": "TRL_537",
-          "dbfId": 50443,
-          "name": "언더테이카",
-          "rawDiff": {
-            "200": [
-              "ABSENT",
-              "11"
-            ]
-          },
-          "tagNames": {
-            "200": "CARDRACE"
-          },
-          "decision": "gameplay_tribe_change",
-          "relatedFindings": [
-            "RAST-BAL-E036"
-          ],
-          "note": "주 종족과 보조 종족 모두 판정. 기존 또는 누락 날짜 사건에 연결.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
         }
       ],
       "TRL_541": [
@@ -17377,27 +17037,6 @@
           "sourceURL": "https://github.com/HearthSim/hsdata/blob/ba5a33b9b97044b5ee0f1583724dd6ea198cdd20/CardDefs.xml"
         },
         {
-          "build": 77662,
-          "id": "TRL_541t",
-          "dbfId": 50455,
-          "name": "오염된 피",
-          "rawDiff": {
-            "1635": [
-              "ABSENT",
-              "6"
-            ]
-          },
-          "tagNames": {
-            "1635": "SPELL_SCHOOL"
-          },
-          "decision": "gameplay_spell_school_added_recorded_correctly",
-          "relatedFindings": [
-            "RAST-BAL-E020"
-          ],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
-        },
-        {
           "build": 198037,
           "id": "TRL_541t",
           "dbfId": 50455,
@@ -17415,55 +17054,6 @@
           "relatedFindings": [],
           "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
           "sourceURL": "https://github.com/HearthSim/hsdata/blob/45e2335b6c1b64ec7cd553c5d1f911061d560ff0/CardDefs.xml"
-        }
-      ],
-      "TRL_543": [
-        {
-          "build": 217964,
-          "id": "TRL_543",
-          "dbfId": 50512,
-          "name": "피발톱",
-          "rawDiff": {
-            "187": [
-              "2",
-              "ABSENT"
-            ],
-            "45": [
-              "ABSENT",
-              "2"
-            ]
-          },
-          "tagNames": {
-            "187": "DURABILITY",
-            "45": "HEALTH"
-          },
-          "decision": "weapon_durability_tag_migration_same_value",
-          "relatedFindings": [],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
-        }
-      ],
-      "TRL_555": [
-        {
-          "build": 77662,
-          "id": "TRL_555",
-          "dbfId": 50991,
-          "name": "악마 화살",
-          "rawDiff": {
-            "1635": [
-              "ABSENT",
-              "6"
-            ]
-          },
-          "tagNames": {
-            "1635": "SPELL_SCHOOL"
-          },
-          "decision": "gameplay_spell_school_added_recorded_correctly",
-          "relatedFindings": [
-            "RAST-BAL-E021"
-          ],
-          "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
         }
       ],
       "TRL_900": [
@@ -17506,32 +17096,6 @@
           "sourceURL": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml"
         },
         {
-          "build": 237510,
-          "id": "TRL_900",
-          "dbfId": 50659,
-          "name": "스라소니 할라지",
-          "rawDiff": {
-            "47": [
-              "3",
-              "4"
-            ],
-            "48": [
-              "5",
-              "4"
-            ]
-          },
-          "tagNames": {
-            "47": "ATK",
-            "48": "COST"
-          },
-          "decision": "gameplay_stat_change",
-          "relatedFindings": [
-            "RAST-BAL-M005"
-          ],
-          "note": "공식 변경 공지와 원본 ID 전후 비교로 확정. 출시일/Core 개방일과 구별.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/a770d899b7ea12594f2edfc7d097f6ee0a858eb8/CardDefs.xml"
-        },
-        {
           "build": 247416,
           "id": "TRL_900",
           "dbfId": 50659,
@@ -17569,37 +17133,255 @@
           "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
           "sourceURL": "https://github.com/HearthSim/hsdata/blob/7fce0fa55971169c7dc17915e689f6e525419fb1/CardDefs.xml"
         }
-      ],
-      "TRL_901": [
+      ]
+    },
+    "undatedReferencedTags": {
+      "TRL_058": [
         {
-          "build": 158725,
-          "id": "TRL_901",
-          "dbfId": 50660,
-          "name": "스라소니의 혼",
-          "rawDiff": {
-            "2542": [
-              "ABSENT",
-              "1"
-            ],
-            "200": [
-              "ABSENT",
-              "11"
+          "id": "TRL_058",
+          "name": "음산한 환영",
+          "diff": {
+            "415": [
+              "1",
+              "ABSENT"
             ]
           },
           "tagNames": {
-            "2542": "1",
-            "200": "CARDRACE"
+            "415": "DISCOVER"
           },
-          "decision": "gameplay_tribe_change",
-          "relatedFindings": [
-            "RAST-BAL-E037"
-          ],
-          "note": "주 종족과 보조 종족 모두 판정. 기존 또는 누락 날짜 사건에 연결.",
-          "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
+          "build": 32708
+        }
+      ],
+      "TRL_074": [
+        {
+          "id": "TRL_074",
+          "name": "톱니 이빨",
+          "diff": {
+            "791": [
+              "ABSENT",
+              "1"
+            ]
+          },
+          "tagNames": {
+            "791": "RUSH"
+          },
+          "build": 198037
+        }
+      ],
+      "TRL_092": [
+        {
+          "id": "TRL_092",
+          "name": "상어의 혼",
+          "diff": {
+            "220": [
+              "ABSENT",
+              "1"
+            ],
+            "218": [
+              "ABSENT",
+              "1"
+            ]
+          },
+          "tagNames": {
+            "220": "COMBO",
+            "218": "BATTLECRY"
+          },
+          "build": 198037
+        }
+      ],
+      "TRL_096": [
+        {
+          "id": "TRL_096",
+          "name": "그립타",
+          "diff": {
+            "415": [
+              "1",
+              "ABSENT"
+            ]
+          },
+          "tagNames": {
+            "415": "DISCOVER"
+          },
+          "build": 32708
+        }
+      ],
+      "TRL_126": [
+        {
+          "id": "TRL_126",
+          "name": "선장 후크터스크",
+          "diff": {
+            "791": [
+              "ABSENT",
+              "1"
+            ]
+          },
+          "tagNames": {
+            "791": "RUSH"
+          },
+          "build": 198037
+        }
+      ],
+      "TRL_156": [
+        {
+          "id": "TRL_156",
+          "name": "훔친 강철",
+          "diff": {
+            "415": [
+              "1",
+              "ABSENT"
+            ]
+          },
+          "tagNames": {
+            "415": "DISCOVER"
+          },
+          "build": 32708
+        }
+      ],
+      "TRL_254": [
+        {
+          "id": "TRL_254",
+          "name": "로아의 징표",
+          "diff": {
+            "190": [
+              "ABSENT",
+              "1"
+            ]
+          },
+          "tagNames": {
+            "190": "TAUNT"
+          },
+          "build": 198037
+        }
+      ],
+      "TRL_254a": [
+        {
+          "id": "TRL_254a",
+          "name": "공크의 생존력",
+          "diff": {
+            "190": [
+              "ABSENT",
+              "1"
+            ]
+          },
+          "tagNames": {
+            "190": "TAUNT"
+          },
+          "build": 208591
+        }
+      ],
+      "TRL_255": [
+        {
+          "id": "TRL_255",
+          "name": "쇄도의 포효",
+          "diff": {
+            "791": [
+              "ABSENT",
+              "1"
+            ]
+          },
+          "tagNames": {
+            "791": "RUSH"
+          },
+          "build": 198037
+        }
+      ],
+      "TRL_305": [
+        {
+          "id": "TRL_305",
+          "name": "새로운 도전자",
+          "diff": {
+            "415": [
+              "1",
+              "ABSENT"
+            ]
+          },
+          "tagNames": {
+            "415": "DISCOVER"
+          },
+          "build": 32708
+        }
+      ],
+      "TRL_339": [
+        {
+          "id": "TRL_339",
+          "name": "주인의 부름",
+          "diff": {
+            "415": [
+              "1",
+              "ABSENT"
+            ]
+          },
+          "tagNames": {
+            "415": "DISCOVER"
+          },
+          "build": 32708
+        }
+      ],
+      "TRL_349": [
+        {
+          "id": "TRL_349",
+          "name": "붉은머리 전략가",
+          "diff": {
+            "415": [
+              "1",
+              "ABSENT"
+            ]
+          },
+          "tagNames": {
+            "415": "DISCOVER"
+          },
+          "build": 32708
+        }
+      ],
+      "TRL_523": [
+        {
+          "id": "TRL_523",
+          "name": "불나무 의술사",
+          "diff": {
+            "415": [
+              "1",
+              "ABSENT"
+            ]
+          },
+          "tagNames": {
+            "415": "DISCOVER"
+          },
+          "build": 32708
+        }
+      ],
+      "TRL_541t": [
+        {
+          "id": "TRL_541t",
+          "name": "오염된 피",
+          "diff": {
+            "1077": [
+              "1",
+              "ABSENT"
+            ]
+          },
+          "tagNames": {
+            "1077": "CASTSWHENDRAWN"
+          },
+          "build": 65614
+        }
+      ],
+      "TRL_900": [
+        {
+          "id": "TRL_900",
+          "name": "스라소니 할라지",
+          "diff": {
+            "791": [
+              "1",
+              "ABSENT"
+            ]
+          },
+          "tagNames": {
+            "791": "RUSH"
+          },
+          "build": 247416
         }
       ]
     },
-    "undatedReferencedTags": {},
     "undatedStringTags": {
       "TRL_010": [
         {
@@ -83295,6 +83077,7 @@
     "originalCardObservations": 39032,
     "weaponRepresentationEvents": 7,
     "datedGameplayEventsAdded": 5,
+    "datedRawRoleEvents": 51,
     "undatedStringDifferences": 468
   },
   "notes": [

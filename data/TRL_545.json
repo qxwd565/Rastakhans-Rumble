@@ -645,12 +645,20 @@
     "undatedRawTagTransitions": [],
     "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "잔달라 기사단원",
-      "enUS": "Zandalari Templar"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>전투의 함성:</b> 이번 게임에서 생명력을 10 이상 회복했으면, +4/+4와 <b>도발</b>을 얻습니다.@ <i>({0} 남음!)</i>@ <i>(달성!)</i>",
+      "enUS": "[x]<b>Battlecry:</b> If you've restored\n10 Health this game, gain\n+4/+4 and <b>Taunt</b>.@ <i>({0} left!)</i>@ <i>(Ready!)</i>",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "currentPrintedText": {
-      "koKR": "잔달라 기사단원",
-      "enUS": "Zandalari Templar"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>전투의 함성:</b> 이번 게임에서 생명력을 10 이상 회복했으면, +4/+4와 <b>도발</b>을 얻습니다.@ <i>({0} 남음!)</i>@ <i>(달성!)</i>",
+      "enUS": "[x]<b>Battlecry:</b> If you've restored\n10 Health this game, gain\n+4/+4 and <b>Taunt</b>.@ <i>({0} left!)</i>@ <i>(Ready!)</i>",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "undatedCurrentDifferences": [],
     "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_545\",\"dbfId\":50514,\"name\":\"잔달라 기사단원\",\"type\":\"MINION\",\"cardClass\":\"PALADIN\",\"rarity\":\"RARE\",\"collectible\":true,\"cost\":4,\"text\":\"<b>전투의 함성:</b> 이번 게임에서 생명력을 10 이상 회복했으면, +4/+4와 <b>도발</b>을 얻습니다.\",\"attack\":4,\"health\":4,\"durability\":0,\"armor\":0,\"flavor\":\"존다르... 기사단원이었던 자네가...!\",\"spellSchool\":\"\",\"portrait\":\"HS15-049_M.psd:86d58968779d929469a16c5ce66f92f4\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":45,\"name\":\"생명력\",\"value\":4},{\"id\":47,\"name\":\"공격력\",\"value\":4},{\"id\":48,\"name\":\"마나 비용\",\"value\":4},{\"id\":114,\"name\":\"전설 속성\",\"value\":0},{\"id\":190,\"name\":\"도발\",\"value\":1},{\"id\":199,\"name\":\"직업\",\"value\":5},{\"id\":202,\"name\":\"카드 유형\",\"value\":4},{\"id\":203,\"name\":\"희귀도\",\"value\":3},{\"id\":218,\"name\":\"전투의 함성\",\"value\":1},{\"id\":321,\"name\":\"수집 가능\",\"value\":1},{\"id\":1115,\"name\":\"플레이어 조건 태그 ID\",\"value\":958},{\"id\":1116,\"name\":\"플레이어 조건 수치\",\"value\":10}],\"races\":[],\"race\":\"\",\"classes\":[],\"art\":\"art/TRL_545.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-049_M.psd:86d58968779d929469a16c5ce66f92f4\",\"goldenMaterial\":\"TRL_545_PremiumCard.mat:95ef863b994b4ab4cae95c964a13d925\",\"goldenAnimation\":\"TRL_545_PremiumCard.asset:505c7b0d7d774d7458e166266889c90d\"}}\n",
@@ -749,7 +757,16 @@
         "goldenAnimation": "TRL_545_PremiumCard.asset:505c7b0d7d774d7458e166266889c90d"
       }
     },
-    "originalFourKeySourceSha256": "d50f5dd70d2989523be2c19342a9e8533dc6b8df96dae6b4df3024e74bdbb630"
+    "originalFourKeySourceSha256": "d50f5dd70d2989523be2c19342a9e8533dc6b8df96dae6b4df3024e74bdbb630",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_545",
@@ -848,10 +865,7 @@
     "text": "<b>전투의 함성:</b> 이번 게임에서 생명력을 10 이상 회복했으면, +4/+4와 <b>도발</b>을 얻습니다.",
     "attack": 4,
     "health": 4,
-    "durability": 0,
-    "armor": 0,
     "flavor": "존다르... 기사단원이었던 자네가...!",
-    "spellSchool": "",
     "portrait": "HS15-049_M.psd:86d58968779d929469a16c5ce66f92f4",
     "set": "TROLL",
     "nativeTags": [

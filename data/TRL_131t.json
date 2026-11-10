@@ -444,37 +444,23 @@
         "textContent": "Dave Allsop"
       }
     },
-    "undatedRawTagTransitions": [
-      {
-        "build": 158725,
-        "id": "TRL_131t",
-        "dbfId": 50845,
-        "name": "좀비",
-        "rawDiff": {
-          "200": [
-            "ABSENT",
-            "11"
-          ]
-        },
-        "tagNames": {
-          "200": "CARDRACE"
-        },
-        "decision": "gameplay_tribe_change",
-        "relatedFindings": [
-          "RAST-BAL-E025"
-        ],
-        "note": "주 종족과 보조 종족 모두 판정. 기존 또는 누락 날짜 사건에 연결.",
-        "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
-      }
-    ],
+    "undatedRawTagTransitions": [],
     "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "좀비",
-      "enUS": "Zombie"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>도발</b>",
+      "enUS": "<b>Taunt</b>",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "currentPrintedText": {
-      "koKR": "좀비",
-      "enUS": "Zombie"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>도발</b>",
+      "enUS": "<b>Taunt</b>",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "undatedCurrentDifferences": [],
     "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_131t\",\"dbfId\":50845,\"name\":\"좀비\",\"type\":\"MINION\",\"cardClass\":\"PRIEST\",\"collectible\":false,\"cost\":1,\"text\":\"<b>도발</b>\",\"attack\":1,\"health\":1,\"durability\":0,\"armor\":0,\"flavor\":\"\",\"spellSchool\":\"\",\"portrait\":\"HS15-037_M.psd:b337c557b30bbd346b6836f75e41d009\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":45,\"name\":\"생명력\",\"value\":1},{\"id\":47,\"name\":\"공격력\",\"value\":1},{\"id\":48,\"name\":\"마나 비용\",\"value\":1},{\"id\":114,\"name\":\"전설 속성\",\"value\":0},{\"id\":190,\"name\":\"도발\",\"value\":1},{\"id\":199,\"name\":\"직업\",\"value\":6},{\"id\":200,\"name\":\"종족\",\"value\":11},{\"id\":202,\"name\":\"카드 유형\",\"value\":4},{\"id\":321,\"name\":\"수집 가능\",\"value\":0}],\"races\":[\"UNDEAD\"],\"race\":\"언데드\",\"classes\":[],\"art\":\"art/TRL_131t.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-037_M.psd:b337c557b30bbd346b6836f75e41d009\",\"goldenMaterial\":\"TRL_131t_PremiumCard.mat:c4497f098ef7d464ba1c759e493a3ddb\",\"goldenAnimation\":\"TRL_131t_PremiumCard.asset:c6cef9b0e800ad74f9e3c8f8da3db37e\"}}\n",
@@ -559,7 +545,16 @@
         "goldenAnimation": "TRL_131t_PremiumCard.asset:c6cef9b0e800ad74f9e3c8f8da3db37e"
       }
     },
-    "originalFourKeySourceSha256": "596e2115e99161c549f4812e2ab2118475be8a2d15e16f39ad5e6d20520e2732"
+    "originalFourKeySourceSha256": "596e2115e99161c549f4812e2ab2118475be8a2d15e16f39ad5e6d20520e2732",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_131t",
@@ -643,10 +638,7 @@
     "text": "<b>도발</b>",
     "attack": 1,
     "health": 1,
-    "durability": 0,
-    "armor": 0,
     "flavor": "",
-    "spellSchool": "",
     "portrait": "HS15-037_M.psd:b337c557b30bbd346b6836f75e41d009",
     "set": "TROLL",
     "nativeTags": [
@@ -747,6 +739,34 @@
         "name": "수집 가능",
         "value": 0
       }
-    ]
+    ],
+    "nativeTagRolesDelta": {
+      "owned": {
+        "set": {
+          "200": "11"
+        },
+        "removed": []
+      },
+      "referenced": {
+        "set": {},
+        "removed": []
+      }
+    },
+    "source": {
+      "rawRoleEvidence": {
+        "build": 158725,
+        "decision": "gameplay_tribe_change",
+        "findingIds": [
+          "RAST-BAL-E025"
+        ],
+        "rawDiff": {
+          "200": [
+            "ABSENT",
+            "11"
+          ]
+        },
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml"
+      }
+    }
   }
 }

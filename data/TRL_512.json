@@ -761,12 +761,20 @@
     "undatedRawTagTransitions": [],
     "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "약삭빠른 발목깨물이",
-      "enUS": "Cheaty Anklebiter"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>생명력 흡수</b>, <b>전투의 함성:</b> 피해를 1 줍니다.",
+      "enUS": "<b>Lifesteal</b>\n<b>Battlecry:</b> Deal 1 damage.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "currentPrintedText": {
-      "koKR": "약삭빠른 발목깨물이",
-      "enUS": "Cheaty Anklebiter"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>생명력 흡수</b>, <b>전투의 함성:</b> 피해를 1 줍니다.",
+      "enUS": "<b>Lifesteal</b>\n<b>Battlecry:</b> Deal 1 damage.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "undatedCurrentDifferences": [],
     "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_512\",\"dbfId\":50391,\"name\":\"약삭빠른 발목깨물이\",\"type\":\"MINION\",\"cardClass\":\"NEUTRAL\",\"rarity\":\"COMMON\",\"collectible\":true,\"cost\":2,\"text\":\"<b>생명력 흡수</b>, <b>전투의 함성:</b> 피해를 1 줍니다.\",\"attack\":2,\"health\":1,\"durability\":0,\"armor\":0,\"flavor\":\"무시무시한 아킬레사우루스를 사냥하는 자입니다.\",\"spellSchool\":\"\",\"portrait\":\"HS15-164_M.psd:9470f41b9a73f4a40a1fbc4eeeec3736\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":45,\"name\":\"생명력\",\"value\":1},{\"id\":47,\"name\":\"공격력\",\"value\":2},{\"id\":48,\"name\":\"마나 비용\",\"value\":2},{\"id\":114,\"name\":\"전설 속성\",\"value\":0},{\"id\":199,\"name\":\"직업\",\"value\":12},{\"id\":202,\"name\":\"카드 유형\",\"value\":4},{\"id\":203,\"name\":\"희귀도\",\"value\":1},{\"id\":218,\"name\":\"전투의 함성\",\"value\":1},{\"id\":321,\"name\":\"수집 가능\",\"value\":1},{\"id\":685,\"name\":\"생명력 흡수\",\"value\":1}],\"races\":[],\"race\":\"\",\"classes\":[],\"art\":\"art/TRL_512.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-164_M.psd:9470f41b9a73f4a40a1fbc4eeeec3736\",\"goldenMaterial\":\"TRL_512_PremiumCard.mat:83ae7c348798e8845bd40fa7bd00c46f\",\"goldenAnimation\":\"TRL_512_PremiumCard.asset:d7b9d678f2b1fdf42b5e18933975c87e\"}}\n",
@@ -855,7 +863,16 @@
         "goldenAnimation": "TRL_512_PremiumCard.asset:d7b9d678f2b1fdf42b5e18933975c87e"
       }
     },
-    "originalFourKeySourceSha256": "c568de639c257bb020b0113d6542fe2d3eef53e1039b2f2406e7cfe10ba5aa31"
+    "originalFourKeySourceSha256": "c568de639c257bb020b0113d6542fe2d3eef53e1039b2f2406e7cfe10ba5aa31",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_512",
@@ -944,10 +961,7 @@
     "text": "<b>생명력 흡수</b>, <b>전투의 함성:</b> 피해를 1 줍니다.",
     "attack": 2,
     "health": 1,
-    "durability": 0,
-    "armor": 0,
     "flavor": "무시무시한 아킬레사우루스를 사냥하는 자입니다.",
-    "spellSchool": "",
     "portrait": "HS15-164_M.psd:9470f41b9a73f4a40a1fbc4eeeec3736",
     "set": "TROLL",
     "nativeTags": [

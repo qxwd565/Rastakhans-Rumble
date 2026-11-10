@@ -1,0 +1,1946 @@
+{
+  "schema": "RAST-SCHEMA-S002",
+  "source": "Rastakhan audit 44, sections 29-34",
+  "cards": [
+    {
+      "id": "TRL_010",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_012",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_015",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_020",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_020t",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_057",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_058",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_059",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_060",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_065",
+      "type": "HERO",
+      "omitNumeric": {
+        "attack": "0",
+        "durability": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\"",
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_065h",
+      "type": "HERO_POWER",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\"",
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_071",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_074",
+      "type": "WEAPON",
+      "omitNumeric": {
+        "health": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\"",
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_077",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_082",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_085",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_092",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_096",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_097",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_111",
+      "type": "WEAPON",
+      "omitNumeric": {
+        "health": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\"",
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_119",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_124",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_126",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_127",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_128",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_131",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_131t",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_151",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_151t",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_156",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_157",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_223",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_232",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_232t",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_240",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_241",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_243",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_244",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_245",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_246",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_247",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_249",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_251",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_252",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_253",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_254",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_254a",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_254b",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_254t",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_255",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_257",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_258",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_259",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_260",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_300",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_302",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_304",
+      "type": "WEAPON",
+      "omitNumeric": {
+        "health": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\"",
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_305",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_306",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_307",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_308",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_309",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_309t",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_310",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_311",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_312",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_313",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_315",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_316",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_316t",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_317",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_318",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_319",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_321",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_323",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_324",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_325",
+      "type": "WEAPON",
+      "omitNumeric": {
+        "health": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\"",
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_326",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_327",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_328",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_329",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_339",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_341",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_341t",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_343",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_343at1",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_343at2",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_343bt1",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_343bt2",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_343ct1",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_343ct2",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_343dt1",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_343dt2",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_343et1",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_345",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_347",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_347t",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_348",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_348t",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_349",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_351",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_351t",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_352",
+      "type": "WEAPON",
+      "omitNumeric": {
+        "health": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\"",
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_360",
+      "type": "WEAPON",
+      "omitNumeric": {
+        "health": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\"",
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_362",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_363",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_363t",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_390",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_400",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_405",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_406",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_407",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_408",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_409",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_500",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_501",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_502",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_503",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_503t",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_504",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_505",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_506",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_507",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_507t",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_508",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_509",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_509t",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_512",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_513",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_514",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_515",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_516",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_517",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_520",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_521",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_522",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_523",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_524",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_525",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_526",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_527",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_528",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_530",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_531",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_531t",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_532",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_533",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_535",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_537",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_541",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_541t",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_542",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_543",
+      "type": "WEAPON",
+      "omitNumeric": {
+        "health": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\"",
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_545",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_546",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_550",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_551",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_555",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_564",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_566",
+      "type": "SPELL",
+      "omitNumeric": {
+        "attack": "0",
+        "health": "0",
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "races": "[]",
+        "race": "\"\""
+      }
+    },
+    {
+      "id": "TRL_569",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_570",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_900",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    },
+    {
+      "id": "TRL_901",
+      "type": "MINION",
+      "omitNumeric": {
+        "durability": "0",
+        "armor": "0"
+      },
+      "omitChoice": {
+        "spellSchool": "\"\""
+      }
+    }
+  ],
+  "numericFieldCount": 406,
+  "emptyChoiceFieldCount": 220
+}

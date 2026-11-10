@@ -611,40 +611,38 @@
         "textContent": "Grace Liu"
       }
     },
-    "undatedRawTagTransitions": [
+    "undatedRawTagTransitions": [],
+    "undatedReferencedTagTransitions": [
       {
-        "build": 217964,
         "id": "TRL_074",
-        "dbfId": 49843,
         "name": "톱니 이빨",
-        "rawDiff": {
-          "187": [
-            "3",
-            "ABSENT"
-          ],
-          "45": [
+        "diff": {
+          "791": [
             "ABSENT",
-            "3"
+            "1"
           ]
         },
         "tagNames": {
-          "187": "DURABILITY",
-          "45": "HEALTH"
+          "791": "RUSH"
         },
-        "decision": "weapon_durability_tag_migration_same_value",
-        "relatedFindings": [],
-        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-        "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
+        "build": 198037
       }
     ],
-    "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "톱니 이빨",
-      "enUS": "Serrated Tooth"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>죽음의 메아리:</b> 내\n하수인들에게 <b>속공</b>을 부여합니다.",
+      "enUS": "<b>Deathrattle:</b> Give your minions <b>Rush</b>.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "currentPrintedText": {
-      "koKR": "톱니 이빨",
-      "enUS": "Serrated Tooth"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>죽음의 메아리:</b> 내\n하수인들에게 <b>속공</b>을 부여합니다.",
+      "enUS": "<b>Deathrattle:</b> Give your minions <b>Rush</b>.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "undatedCurrentDifferences": [],
     "weaponDurabilityTagMigrationEvidence": {
@@ -752,7 +750,18 @@
         "goldenAnimation": "TRL_074_PremiumCard.asset:79978c57ddb600b428e8936a98d1cb46"
       }
     },
-    "originalFourKeySourceSha256": "f6828b7cb51b793b85c9102f3cf415181f5c6fa1fa24ebbe65ea0c2f0eea4d2d"
+    "originalFourKeySourceSha256": "f6828b7cb51b793b85c9102f3cf415181f5c6fa1fa24ebbe65ea0c2f0eea4d2d",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_074",
@@ -840,11 +849,8 @@
     "cost": 1,
     "text": "<b>죽음의 메아리:</b> 내<br></br>하수인들에게 <b>속공</b>을 부여합니다.",
     "attack": 1,
-    "health": 0,
     "durability": 3,
-    "armor": 0,
     "flavor": "톱니 같은 이빨, 괴상망측한 괴성!",
-    "spellSchool": "",
     "portrait": "HS15-013_W.psd:797a4d0da83f7144d830cc794915721a",
     "set": "TROLL",
     "nativeTags": [
@@ -899,8 +905,6 @@
         "value": 1
       }
     ],
-    "races": [],
-    "race": "",
     "classes": [],
     "art": "art/TRL_074.png"
   },
@@ -959,16 +963,16 @@
     ],
     "nativeTagRolesDelta": {
       "owned": {
-        "removed": [
-          "187"
-        ],
         "set": {
           "45": "3"
-        }
+        },
+        "removed": [
+          "187"
+        ]
       },
       "referenced": {
-        "removed": [],
-        "set": {}
+        "set": {},
+        "removed": []
       }
     },
     "source": {
@@ -979,7 +983,23 @@
       "durabilityBefore": 3,
       "durabilityAfter": 3,
       "isGameplayBuff": false,
-      "note": "Tag ownership migration only; no weapon durability buff"
+      "note": "Tag ownership migration only; no weapon durability buff",
+      "rawRoleEvidence": {
+        "build": 217964,
+        "decision": "weapon_durability_tag_migration_same_value",
+        "findingIds": [],
+        "rawDiff": {
+          "187": [
+            "3",
+            "ABSENT"
+          ],
+          "45": [
+            "ABSENT",
+            "3"
+          ]
+        },
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
+      }
     }
   }
 }

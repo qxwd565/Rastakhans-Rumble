@@ -604,40 +604,23 @@
         "textContent": "Jason Kang"
       }
     },
-    "undatedRawTagTransitions": [
-      {
-        "build": 217964,
-        "id": "TRL_325",
-        "dbfId": 50056,
-        "name": "술트라제",
-        "rawDiff": {
-          "187": [
-            "4",
-            "ABSENT"
-          ],
-          "45": [
-            "ABSENT",
-            "4"
-          ]
-        },
-        "tagNames": {
-          "187": "DURABILITY",
-          "45": "HEALTH"
-        },
-        "decision": "weapon_durability_tag_migration_same_value",
-        "relatedFindings": [],
-        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-        "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
-      }
-    ],
+    "undatedRawTagTransitions": [],
     "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "술트라제",
-      "enUS": "Sul'thraze"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>압살:</b> 다시 공격할 수 있습니다.",
+      "enUS": "<b>Overkill</b>: You may attack again.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "currentPrintedText": {
-      "koKR": "술트라제",
-      "enUS": "Sul'thraze"
+      "tagId": 184,
+      "present": true,
+      "koKR": "<b>압살:</b> 다시 공격할 수 있습니다.",
+      "enUS": "<b>Overkill</b>: You may attack again.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "undatedCurrentDifferences": [],
     "weaponDurabilityTagMigrationEvidence": {
@@ -735,7 +718,18 @@
         "goldenAnimation": "TRL_325_PremiumCard.asset:cb9c753733838be4f9b54dcfea8b2e94"
       }
     },
-    "originalFourKeySourceSha256": "e41423337effc706453114693bf17dfe1398158650ca047701cb44d74b7e82c9"
+    "originalFourKeySourceSha256": "e41423337effc706453114693bf17dfe1398158650ca047701cb44d74b7e82c9",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_325",
@@ -813,11 +807,8 @@
     "cost": 6,
     "text": "<b>압살:</b> 다시 공격할 수 있습니다.",
     "attack": 4,
-    "health": 0,
     "durability": 4,
-    "armor": 0,
     "flavor": "\"그립타가 자신 있게 추천하는 무기, 술트라제입니다! 한 번 휘두르면 4의 피해를, 두 번 휘두르면 8의 피해를 주는 무기입니다! 여러분이 싸우는 방식을 술트라제로 바꿔보세요!\"",
-    "spellSchool": "",
     "portrait": "HS15-028_W.psd:69b25c6bcbeccd74ca932ea3e14fd706",
     "set": "TROLL",
     "nativeTags": [
@@ -862,8 +853,6 @@
         "value": 1
       }
     ],
-    "races": [],
-    "race": "",
     "classes": [],
     "art": "art/TRL_325.png"
   },
@@ -912,16 +901,16 @@
     ],
     "nativeTagRolesDelta": {
       "owned": {
-        "removed": [
-          "187"
-        ],
         "set": {
           "45": "4"
-        }
+        },
+        "removed": [
+          "187"
+        ]
       },
       "referenced": {
-        "removed": [],
-        "set": {}
+        "set": {},
+        "removed": []
       }
     },
     "source": {
@@ -932,7 +921,23 @@
       "durabilityBefore": 4,
       "durabilityAfter": 4,
       "isGameplayBuff": false,
-      "note": "Tag ownership migration only; no weapon durability buff"
+      "note": "Tag ownership migration only; no weapon durability buff",
+      "rawRoleEvidence": {
+        "build": 217964,
+        "decision": "weapon_durability_tag_migration_same_value",
+        "findingIds": [],
+        "rawDiff": {
+          "187": [
+            "4",
+            "ABSENT"
+          ],
+          "45": [
+            "ABSENT",
+            "4"
+          ]
+        },
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
+      }
     }
   }
 }

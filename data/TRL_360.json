@@ -628,40 +628,23 @@
         "textContent": "Akkapoj T."
       }
     },
-    "undatedRawTagTransitions": [
-      {
-        "build": 217964,
-        "id": "TRL_360",
-        "dbfId": 50595,
-        "name": "대군주의 채찍",
-        "rawDiff": {
-          "187": [
-            "4",
-            "ABSENT"
-          ],
-          "45": [
-            "ABSENT",
-            "4"
-          ]
-        },
-        "tagNames": {
-          "187": "DURABILITY",
-          "45": "HEALTH"
-        },
-        "decision": "weapon_durability_tag_migration_same_value",
-        "relatedFindings": [],
-        "note": "원시 태그 변화만으로 카드 효과나 한국 적용일을 새로 만들지 않는다.",
-        "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
-      }
-    ],
+    "undatedRawTagTransitions": [],
     "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "대군주의 채찍",
-      "enUS": "Overlord's Whip"
+      "tagId": 184,
+      "present": true,
+      "koKR": "[x]내가 하수인을 낸\n후에, 그 하수인에게\n피해를 1 줍니다.",
+      "enUS": "After you play a minion, deal 1 damage to it.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "currentPrintedText": {
-      "koKR": "대군주의 채찍",
-      "enUS": "Overlord's Whip"
+      "tagId": 184,
+      "present": true,
+      "koKR": "[x]내가 하수인을 낸\n후에, 그 하수인에게\n피해를 1 줍니다.",
+      "enUS": "After you play a minion, deal 1 damage to it.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "undatedCurrentDifferences": [],
     "weaponDurabilityTagMigrationEvidence": {
@@ -784,7 +767,18 @@
         "goldenAnimation": "TRL_360_PremiumCard.asset:5a3ad622d626d5046a7d17affc60892e"
       }
     },
-    "originalFourKeySourceSha256": "9e96872900502ce8802e6dfefbba2968f54a877ec7299e2751abcfe81391a015"
+    "originalFourKeySourceSha256": "9e96872900502ce8802e6dfefbba2968f54a877ec7299e2751abcfe81391a015",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "health",
+        "race",
+        "races",
+        "spellSchool"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_360",
@@ -887,11 +881,8 @@
     "cost": 3,
     "text": "내가 하수인을 낸<br></br>후에, 그 하수인에게<br></br>피해를 1 줍니다.",
     "attack": 2,
-    "health": 0,
     "durability": 4,
-    "armor": 0,
     "flavor": "\"이건 고통의 수행사제한테, 이건 검은울음 포탑한테, 이건 썩은얼굴한테...\"",
-    "spellSchool": "",
     "portrait": "HS15-024_W.psd:01f2e4b766cbcf8488a8121f9e959024",
     "set": "TROLL",
     "nativeTags": [
@@ -961,8 +952,6 @@
         "value": 0
       }
     ],
-    "races": [],
-    "race": "",
     "classes": [],
     "art": "art/TRL_360.png"
   },
@@ -1036,16 +1025,16 @@
     ],
     "nativeTagRolesDelta": {
       "owned": {
-        "removed": [
-          "187"
-        ],
         "set": {
           "45": "4"
-        }
+        },
+        "removed": [
+          "187"
+        ]
       },
       "referenced": {
-        "removed": [],
-        "set": {}
+        "set": {},
+        "removed": []
       }
     },
     "source": {
@@ -1056,7 +1045,23 @@
       "durabilityBefore": 4,
       "durabilityAfter": 4,
       "isGameplayBuff": false,
-      "note": "Tag ownership migration only; no weapon durability buff"
+      "note": "Tag ownership migration only; no weapon durability buff",
+      "rawRoleEvidence": {
+        "build": 217964,
+        "decision": "weapon_durability_tag_migration_same_value",
+        "findingIds": [],
+        "rawDiff": {
+          "187": [
+            "4",
+            "ABSENT"
+          ],
+          "45": [
+            "ABSENT",
+            "4"
+          ]
+        },
+        "sourceURL": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml"
+      }
     }
   }
 }

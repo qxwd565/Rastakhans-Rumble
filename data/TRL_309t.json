@@ -325,12 +325,20 @@
     ],
     "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "호랑이",
-      "enUS": "Tiger"
+      "tagId": 184,
+      "present": false,
+      "koKR": null,
+      "enUS": null,
+      "koKRPresent": false,
+      "enUSPresent": false
     },
     "currentPrintedText": {
-      "koKR": "호랑이",
-      "enUS": "Tiger"
+      "tagId": 184,
+      "present": false,
+      "koKR": null,
+      "enUS": null,
+      "koKRPresent": false,
+      "enUSPresent": false
     },
     "undatedCurrentDifferences": [],
     "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_309t\",\"dbfId\":50033,\"name\":\"호랑이\",\"type\":\"MINION\",\"cardClass\":\"PALADIN\",\"collectible\":false,\"cost\":1,\"text\":\"\",\"attack\":1,\"health\":1,\"durability\":0,\"armor\":0,\"flavor\":\"\",\"spellSchool\":\"\",\"portrait\":\"HS15-152_M.psd:50cfe6fe49f12e448b6cd490adb07539\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":45,\"name\":\"생명력\",\"value\":1},{\"id\":47,\"name\":\"공격력\",\"value\":1},{\"id\":48,\"name\":\"마나 비용\",\"value\":1},{\"id\":114,\"name\":\"전설 속성\",\"value\":0},{\"id\":199,\"name\":\"직업\",\"value\":5},{\"id\":200,\"name\":\"종족\",\"value\":20},{\"id\":202,\"name\":\"카드 유형\",\"value\":4},{\"id\":321,\"name\":\"수집 가능\",\"value\":0},{\"id\":1584,\"name\":\"게임 태그 1584\",\"value\":1}],\"races\":[\"BEAST\"],\"race\":\"야수\",\"classes\":[],\"art\":\"art/TRL_309t.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-152_M.psd:50cfe6fe49f12e448b6cd490adb07539\",\"goldenMaterial\":\"TRL_309t_PremiumCard.mat:7a3f65dcbd2f3c945a011284738da0ac\",\"goldenAnimation\":\"TRL_309t_PremiumCard.asset:888ae8100fd670f4e8c543207e367037\"}}\n",
@@ -415,7 +423,16 @@
         "goldenAnimation": "TRL_309t_PremiumCard.asset:888ae8100fd670f4e8c543207e367037"
       }
     },
-    "originalFourKeySourceSha256": "64c4d3e5169bd4669711f498c94fbdd2d5a497fdbb77c2cacdb43ce12900d5c2"
+    "originalFourKeySourceSha256": "64c4d3e5169bd4669711f498c94fbdd2d5a497fdbb77c2cacdb43ce12900d5c2",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "durability",
+        "spellSchool"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_309t",
@@ -499,10 +516,7 @@
     "text": "",
     "attack": 1,
     "health": 1,
-    "durability": 0,
-    "armor": 0,
     "flavor": "",
-    "spellSchool": "",
     "portrait": "HS15-152_M.psd:50cfe6fe49f12e448b6cd490adb07539",
     "set": "TROLL",
     "nativeTags": [

@@ -571,12 +571,20 @@
     "undatedRawTagTransitions": [],
     "undatedReferencedTagTransitions": [],
     "launchPrintedText": {
-      "koKR": "야생의 복수",
-      "enUS": "Revenge of the Wild"
+      "tagId": 184,
+      "present": true,
+      "koKR": "이번 턴에 죽은 내 야수들을 소환합니다.",
+      "enUS": "Summon your Beasts that died this turn.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "currentPrintedText": {
-      "koKR": "야생의 복수",
-      "enUS": "Revenge of the Wild"
+      "tagId": 184,
+      "present": true,
+      "koKR": "이번 턴에 죽은 내 야수들을 소환합니다.",
+      "enUS": "Summon your Beasts that died this turn.",
+      "koKRPresent": true,
+      "enUSPresent": true
     },
     "undatedCurrentDifferences": [],
     "originalFourKeySourceRaw": "{\"schemaVersion\":1,\"mode\":\"constructed\",\"card\":{\"id\":\"TRL_566\",\"dbfId\":51159,\"name\":\"야생의 복수\",\"type\":\"SPELL\",\"cardClass\":\"HUNTER\",\"rarity\":\"RARE\",\"collectible\":true,\"cost\":2,\"text\":\"이번 턴에 죽은 내 야수들을 소환합니다.\",\"attack\":0,\"health\":0,\"durability\":0,\"armor\":0,\"flavor\":\"이래서 사바나 사자가 전설 카드라는 겁니다.\",\"spellSchool\":\"\",\"portrait\":\"HS15-130_S.psd:0d62b553cbadbcc4f9c05ec08a16d4c8\",\"set\":\"TROLL\",\"nativeTags\":[{\"id\":48,\"name\":\"마나 비용\",\"value\":2},{\"id\":114,\"name\":\"전설 속성\",\"value\":0},{\"id\":199,\"name\":\"직업\",\"value\":3},{\"id\":202,\"name\":\"카드 유형\",\"value\":5},{\"id\":203,\"name\":\"희귀도\",\"value\":3},{\"id\":321,\"name\":\"수집 가능\",\"value\":1}],\"races\":[],\"race\":\"\",\"classes\":[],\"art\":\"art/TRL_566.png\"},\"artworkProvenance\":{\"source\":\"installed Hearthstone native assets\",\"portrait\":\"HS15-130_S.psd:0d62b553cbadbcc4f9c05ec08a16d4c8\",\"goldenMaterial\":\"TRL_566_PremiumCard.mat:1957abac36dde9b41972983404297acb\",\"goldenAnimation\":\"TRL_566_PremiumCard.asset:58d54f83e0c3bd4449221f6b2a970247\"}}\n",
@@ -645,7 +653,19 @@
         "goldenAnimation": "TRL_566_PremiumCard.asset:58d54f83e0c3bd4449221f6b2a970247"
       }
     },
-    "originalFourKeySourceSha256": "ce7156979fa41729c6293cbd1625c94debb3348a6df48312b11a7b4d5af5f578"
+    "originalFourKeySourceSha256": "ce7156979fa41729c6293cbd1625c94debb3348a6df48312b11a7b4d5af5f578",
+    "schemaNormalization": {
+      "findingId": "RAST-SCHEMA-S002",
+      "date": "2018-12-05",
+      "removedFields": [
+        "armor",
+        "attack",
+        "durability",
+        "health",
+        "race",
+        "races"
+      ]
+    }
   },
   "_current": {
     "id": "TRL_566",
@@ -712,10 +732,6 @@
     "collectible": true,
     "cost": 2,
     "text": "이번 턴에 죽은 내 야수들을 소환합니다.",
-    "attack": 0,
-    "health": 0,
-    "durability": 0,
-    "armor": 0,
     "flavor": "이래서 사바나 사자가 전설 카드라는 겁니다.",
     "spellSchool": "",
     "portrait": "HS15-130_S.psd:0d62b553cbadbcc4f9c05ec08a16d4c8",
@@ -752,8 +768,6 @@
         "value": 1
       }
     ],
-    "races": [],
-    "race": "",
     "classes": [],
     "art": "art/TRL_566.png"
   }
