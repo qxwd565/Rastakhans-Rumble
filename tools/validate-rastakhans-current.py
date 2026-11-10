@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Independent source, replay, compatibility and preservation validation."""
 from __future__ import annotations
-import base64,copy,gzip,hashlib,json,re,subprocess,xml.etree.ElementTree as ET
+import base64,copy,gzip,hashlib,json,re,subprocess,xml.etree.ElementTree as ET,os
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"data"
@@ -76,6 +76,12 @@ def set_tag(tags,tid,value):
 def main():
     ev=archive()
     manifest={int(x["build"]):x for x in ev["archiveManifest"]}
+    xml_dir=Path(os.environ.get("RASTAKHANS_XML_DIR",str(ROOT/"sources")))
+    ids=set(read(ROOT/"cards.json")["cards"][i]["id"] for i in range(164))
+    launch_xml=parse_xml(xml_dir/"xml-27845.xml",manifest[27845]["xmlSha256"],164,ids)
+    current_xml=parse_xml(xml_dir/"xml-256589.xml",manifest[256589]["xmlSha256"],164,ids)
+    before_xml=parse_xml(xml_dir/"xml-217489.xml",manifest[217489]["xmlSha256"],len(WEAPONS),set(WEAPONS))
+    after_xml=parse_xml(xml_dir/"xml-217964.xml",manifest[217964]["xmlSha256"],len(WEAPONS),set(WEAPONS))
     assert len(manifest)==238 and ev["summaryCounts"]["originalCardObservations"]==39032
     catalog=read(ROOT/"cards.json"); render=read(ROOT/"render.json"); legacy=read(ROOT/"history.json")
     central=read(DATA/"history.json")
@@ -115,6 +121,12 @@ def main():
         for field in ("id","dbfId","name","type","cardClass","rarity","collectible","cost","text","attack","health","durability","armor","art","races","race","spellSchool","set","nativeTags","mechanics","watermark","classes"):
             if field in src["_current"]:assert rc.get(field)==src["_current"][field],(cid,field,"render current")
         meta=src["_meta"]
+        assert meta["launchNativeTagsOwned"]==launch_xml[cid]["owned"],(cid,"launch owned raw tags")
+        assert meta["launchNativeTagsReferenced"]==launch_xml[cid]["referenced"],(cid,"launch referenced raw tags")
+        assert meta["currentNativeTagsOwned"]==current_xml[cid]["owned"],(cid,"current owned raw tags")
+        assert meta["currentNativeTagsReferenced"]==current_xml[cid]["referenced"],(cid,"current referenced raw tags")
+        assert meta["launchStringTags"]==launch_xml[cid]["stringTags"],(cid,"launch localized string tags")
+        assert meta["currentStringTags"]==current_xml[cid]["stringTags"],(cid,"current localized string tags")
         assert rc["nativeTagRoles"]["launch"]["owned"]==meta["launchNativeTagsOwned"]
         assert rc["nativeTagRoles"]["launch"]["referenced"]==meta["launchNativeTagsReferenced"]
         assert rc["nativeTagRoles"]["current"]["owned"]==meta["currentNativeTagsOwned"]
@@ -165,6 +177,10 @@ def main():
     # Seven representation-only weapon events: full array replacement, raw role delta,
     # no logical durability field and same value before/after.
     for cid,dur in WEAPONS.items():
+        b=before_xml[cid]; a=after_xml[cid]
+        assert b["owned"].get("187",{}).get("value")==str(dur) and "45" not in b["owned"]
+        assert "187" not in a["owned"] and a["owned"].get("45",{}).get("value")==str(dur)
+        assert current_xml[cid]["owned"]==a["owned"] and current_xml[cid]["referenced"]==a["referenced"]
         e=source_docs[cid]["2025-03-19"]
         assert "durability" not in e
         assert e["source"]["durabilityBefore"]==dur==e["source"]["durabilityAfter"]
