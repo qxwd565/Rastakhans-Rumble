@@ -61,6 +61,7 @@ def parse_xml(path,expected_sha,expected_count,ids):
 def replay(src):
     dates=sorted(k for k in src if re.fullmatch(r"\d{4}-\d{2}-\d{2}",k))
     state=copy.deepcopy(src[dates[0]])
+    snapshots={dates[0]:copy.deepcopy(state)}
     for day in dates[1:]:
         ev=src[day]
         for k,v in ev.items():
@@ -68,10 +69,88 @@ def replay(src):
             if k=="removedFields":
                 for field in v:state.pop(field,None)
             else:state[k]=copy.deepcopy(v)
-    return dates,state
+        snapshots[day]=copy.deepcopy(state)
+    return dates,state,snapshots
 
 def set_tag(tags,tid):
     return next((str(x["value"]) for x in tags if int(x["id"])==tid),"ABSENT")
+
+def role_values(role):
+    return {str(tid):(str(rec["value"]) if rec.get("valueAttributePresent") else None)
+            for tid,rec in role.items() if rec.get("present")}
+
+def make_role_delta(raw_diff):
+    owned={"set":{},"removed":[]}
+    for tid,(before,after) in raw_diff.items():
+        if after=="ABSENT":owned["removed"].append(str(tid))
+        else:owned["set"][str(tid)]=str(after)
+    owned["removed"].sort(key=int)
+    return {"owned":owned,"referenced":{"set":{},"removed":[]}}
+
+def apply_role_delta(state,delta):
+    for tid in delta.get("removed",[]):state.pop(str(tid),None)
+    for tid,value in delta.get("set",{}).items():state[str(tid)]=str(value)
+
+FINDING_DATES={
+    "RAST-BAL-E001":"2019-05-23","RAST-BAL-E002":"2020-03-18",
+    **{f"RAST-BAL-E{i:03d}":"2021-03-26" for i in range(3,22)},
+    "RAST-BAL-M001":"2022-04-06",
+    **{f"RAST-BAL-E{i:03d}":"2022-11-30" for i in range(22,38)},
+    "RAST-BAL-M002":"2022-11-30","RAST-BAL-M003":"2023-09-29",
+    "RAST-BAL-E038":"2024-10-30","RAST-BAL-M004":"2024-10-30",
+    "RAST-BAL-E039":"2026-02-10","RAST-BAL-M005":"2026-03-11",
+}
+PUBLIC_FIELDS=("id","dbfId","name","type","cardClass","rarity","collectible",
+    "cost","text","attack","health","durability","armor","art","races","race",
+    "spellSchool","set","nativeTags","mechanics","watermark","classes")
+
+def expected_dated_role_rows(archive):
+    rows={}
+    for item in archive["observedRawTransitionReview"]:
+        date=None
+        if item["decision"]=="weapon_durability_tag_migration_same_value":
+            date="2025-03-19"
+        elif item["decision"].startswith("gameplay_"):
+            ds={FINDING_DATES[x] for x in item.get("relatedFindings",[]) if x in FINDING_DATES}
+            assert len(ds)==1,(item["id"],item.get("relatedFindings"),ds)
+            date=ds.pop()
+        if date:
+            key=(item["id"],date)
+            assert key not in rows,key
+            rows[key]=item
+    return rows
+
+def validate_public_reverse_replay(cid,dates,snapshots,render_card):
+    current={k:copy.deepcopy(render_card[k]) for k in PUBLIC_FIELDS if k in render_card}
+    revisions=render_card.get("history",[])
+    previous=[]
+    for rev in revisions:
+        assert isinstance(rev.get("from"),str) and rev["from"] in dates,(cid,rev)
+        assert "before" in rev and (rev["before"] is None or rev["before"] in dates),(cid,rev)
+        if rev["before"] is not None:assert rev["from"]<rev["before"],(cid,rev)
+        previous.append(rev)
+    checks=0
+    for day in dates:
+        expected={k:copy.deepcopy(v) for k,v in snapshots[day].items() if k in PUBLIC_FIELDS}
+        matches=[r for r in revisions if r["from"]<=day and (r["before"] is None or day<r["before"])]
+        assert len(matches)<=1,(cid,day,matches)
+        actual=copy.deepcopy(current)
+        if matches:
+            rev=matches[0]
+            changes=rev["changes"]
+            removed=rev.get("removedFields",[])
+            expected_changes={k:copy.deepcopy(v) for k,v in expected.items()
+                if current.get(k,"__ABSENT__")!=v}
+            expected_removed=sorted(k for k in current if k not in expected)
+            assert changes==expected_changes,(cid,day,"changes not complete current-relative diff",set(changes)^set(expected_changes))
+            assert removed==expected_removed,(cid,day,"removedFields not complete",removed,expected_removed)
+            actual.update(copy.deepcopy(changes))
+            for field in removed:actual.pop(field,None)
+        else:
+            assert expected==current,(cid,day,"segment omitted but differs from current")
+        assert actual==expected,(cid,day,"public current+changes+removedFields replay mismatch")
+        checks+=1
+    return checks
 
 def main():
     ev=archive()
