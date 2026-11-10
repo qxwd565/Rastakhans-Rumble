@@ -356,13 +356,10 @@ def main():
             raw_role_cards+=1
         # Dated logical fields must reproduce the current gameplay values. Text and
         # nativeTags may have undated display/representation observations, kept in _meta.
+        undated_fields={x.get("field") for x in data["_meta"].get("undatedCurrentDifferences",[])}
         for field in SPEC_FIELDS:
-            if field=="text":
-                continue
-            if latest.get(field,"__ABSENT__")!=current.get(field,"__ABSENT__"):
-                allowed=data["_meta"].get("undatedFieldObservations",[])
-                if not any(x.get("field")==field for x in allowed):
-                    raise ValueError(f"{cid}: dated replay/current mismatch for {field}")
+            if latest.get(field,"__ABSENT__")!=current.get(field,"__ABSENT__") and field not in undated_fields:
+                raise ValueError(f"{cid}: dated replay/current mismatch for {field} without an undated observation")
         record_out=copy.deepcopy(current)
         render_card={field:copy.deepcopy(record_out[field]) for field in RENDER_FIELDS if field in record_out}
         if revisions:
