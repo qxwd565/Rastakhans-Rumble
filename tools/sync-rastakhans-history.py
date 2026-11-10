@@ -16,7 +16,7 @@ def main():
     cards=catalog["cards"]
     events={}
     observations={"undatedRawTags":{},"undatedReferencedTags":{},"undatedStringTags":{},
-                  "undatedFields":{},"undatedCurrentDifferences":{},"halazziRush":None,"nativeTagCorrections":{}}
+                  "undatedFields":{},"undatedCurrentDifferences":{},"datedStringTags":{},"halazziRush":None,"nativeTagCorrections":{}}
     initial=followups=0
     dated_role_events=0
     for card in cards:
@@ -44,6 +44,8 @@ def main():
             observations["undatedCurrentDifferences"][cid]=copy.deepcopy(meta["undatedCurrentDifferences"])
         if meta.get("nativeTagCorrections"):
             observations["nativeTagCorrections"][cid]=copy.deepcopy(meta["nativeTagCorrections"])
+        if meta.get("datedStringTagObservations"):
+            observations["datedStringTags"][cid]=copy.deepcopy(meta["datedStringTagObservations"])
         if meta.get("halazziRushEvidence"):
             observations["halazziRush"]=copy.deepcopy(meta["halazziRushEvidence"])
         launch=meta.get("launchStringTags",{})
@@ -60,6 +62,8 @@ def main():
         raise ValueError("central launch event must contain all 164 cards")
     if dated_role_events!=51:
         raise ValueError(f"Expected 51 dated raw-role events, got {dated_role_events}")
+    if observations["datedStringTags"].get("TRL_900",[]).__len__()!=1:
+        raise ValueError("Expected exactly one independently sourced dated TRL_900 Tag 184 observation")
     # Each of the seven 32.0 representation events must be present and must not
     # change logical durability or add a gameplay stat field.
     weapons=("TRL_074","TRL_111","TRL_304","TRL_325","TRL_352","TRL_360","TRL_543")
@@ -78,7 +82,7 @@ def main():
                    "archiveJsonSha256":"e9b8a4bb39895852903de414e6f74fda6b645b6e73293efc3df70fe0a4a9201a"},
          "verification":{"archiveBuilds":238,"originalCardObservations":39032,
                          "weaponRepresentationEvents":7,"datedGameplayEventsAdded":5,"datedRawRoleEvents":dated_role_events,
-                         "undatedStringDifferences":sum(len(x) for x in observations["undatedStringTags"].values())},
+                         "undatedStringDifferences":sum(len(x) for x in observations["undatedStringTags"].values()),\n                         "datedStringTagObservations":sum(len(x) for x in observations["datedStringTags"].values())},
          "notes":["Missing or empty values are distinct from 0, false, empty string and empty arrays.",
                   "Raw Tag and ReferencedTag roles are separate from flattened nativeTags.",
                   "Undated observations never become invented dated events.",
