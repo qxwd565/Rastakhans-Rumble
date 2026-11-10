@@ -257,9 +257,9 @@ def main():
                 raise ValueError("TRL_900: 236529 Tag 184 does not match launch raw state")
             if not middle_after or middle_after.get("type")!="LocString":
                 raise ValueError("TRL_900: 237510 Tag 184 LocString missing")
-            if middle_after.get("locales",{}).get("koKR",{}).get("value") != "<b>속공</b>, <b>전투의_함성:</b>\\n내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다.":
+            if middle_after.get("locales",{}).get("koKR",{}).get("value") != "<b>속공</b>, <b>전투의_함성:</b>\n내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다.":
                 raise ValueError("TRL_900: 237510 Korean Tag 184 raw text mismatch")
-            if middle_after.get("locales",{}).get("enUS",{}).get("value") != "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\\nthat have <b>Rush</b>.":
+            if middle_after.get("locales",{}).get("enUS",{}).get("value") != "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.":
                 raise ValueError("TRL_900: 237510 English Tag 184 raw text mismatch")
             meta["datedStringTagObservations"]=[{
                 "date":"2026-03-11","build":237510,"tagId":184,
