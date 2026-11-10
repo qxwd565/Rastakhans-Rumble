@@ -83,12 +83,12 @@ def main():
     before_xml=parse_xml(xml_dir/"xml-217489.xml",manifest[217489]["xmlSha256"],164,ids)
     after_xml=parse_xml(xml_dir/"xml-217964.xml",manifest[217964]["xmlSha256"],164,ids)
     assert len(manifest)==238 and ev["summaryCounts"]["originalCardObservations"]==39032
-    for cid in ids:
-        assert before_xml[cid]["dbfId"]==cards[cid]["dbfId"]
-        assert after_xml[cid]["dbfId"]==cards[cid]["dbfId"]
     catalog=read(ROOT/"cards.json"); render=read(ROOT/"render.json"); legacy=read(ROOT/"history.json")
     central=read(DATA/"history.json")
     cards={x["id"]:x for x in catalog["cards"]}
+    for cid in ids:
+        assert before_xml[cid]["dbfId"]==cards[cid]["dbfId"]
+        assert after_xml[cid]["dbfId"]==cards[cid]["dbfId"]
     renders={x["id"]:x for x in render["cards"]}
     assert len(cards)==164 and len(renders)==164
     assert central["initialStates"]==164 and central["followupEvents"]==51 and central["totalStates"]==215
