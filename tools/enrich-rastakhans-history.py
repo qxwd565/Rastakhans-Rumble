@@ -259,7 +259,7 @@ def main():
             if not isinstance(event.get("source"),dict): event["source"]={}
             source=event["source"]
             source["rawRoleEvidence"]={"build":row["build"],"decision":row["decision"],
-                "findingIds":copy.deepcopy(row.get("relatedFindings",[])),"sourceURL":row.get("sourceURL")}
+                "findingIds":copy.deepcopy(row.get("relatedFindings",[])),"rawDiff":copy.deepcopy(row["rawDiff"]),"sourceURL":row.get("sourceURL")}
         # Replay dated logical deltas to capture any remaining current-vs-dated
         # differences as explicitly undated observations, never as invented dates.
         dates=sorted(k for k in src if len(k)==10 and k[4]=="-" and k[7]=="-")
