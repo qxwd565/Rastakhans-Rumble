@@ -45,6 +45,12 @@ jobs:
             -o /tmp/rastakhans-xml/xml-256589.xml
           curl -fL --retry 4 --retry-all-errors \
             https://raw.githubusercontent.com/HearthSim/hsdata/62cc0f00dbed73f2d48ccefca6f611e6f8898986/CardDefs.xml \
+          curl -fL --retry 4 --retry-all-errors \
+            https://raw.githubusercontent.com/HearthSim/hsdata/0a5a61e3867ae9eea535bdbd4df714671ff87910/CardDefs.xml \
+            -o /tmp/rastakhans-xml/xml-236529.xml
+          curl -fL --retry 4 --retry-all-errors \
+            https://raw.githubusercontent.com/HearthSim/hsdata/a770d899b7ea12594f2edfc7d097f6ee0a858eb8/CardDefs.xml \
+            -o /tmp/rastakhans-xml/xml-237510.xml
             -o /tmp/rastakhans-xml/xml-217489.xml
           curl -fL --retry 4 --retry-all-errors \
             https://raw.githubusercontent.com/HearthSim/hsdata/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml \
