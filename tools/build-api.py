@@ -71,11 +71,18 @@ def read_history(card: dict, name: str):
     for rev in versions:
         if not isinstance(rev, dict) or not isinstance(rev.get("changes"), dict):
             raise ValueError(f"{name}: invalid history entry")
-        if not rev["changes"] or not any(x in rev for x in ("from", "before")):
-            raise ValueError(f"{name}: history has no changes or date boundary")
-        if any(k in rev and (not isinstance(rev[k], str) or not DATE_RE.fullmatch(rev[k])) for k in ("from", "before")):
-            raise ValueError(f"{name}: invalid history date")
-        if all(k in rev for k in ("from", "before")) and rev["from"] >= rev["before"]:
+        removed=rev.get("removedFields",[])
+        if not isinstance(removed,list) or any(not isinstance(x,str) for x in removed):
+            raise ValueError(f"{name}: removedFields must be a string array")
+        if not rev["changes"] and not removed:
+            raise ValueError(f"{name}: history entry has no effective override")
+        if "from" not in rev and "before" not in rev:
+            raise ValueError(f"{name}: history has no date boundary")
+        if "from" in rev and (not isinstance(rev["from"],str) or not DATE_RE.fullmatch(rev["from"])):
+            raise ValueError(f"{name}: invalid history from date")
+        if "before" in rev and rev["before"] is not None and (not isinstance(rev["before"],str) or not DATE_RE.fullmatch(rev["before"])):
+            raise ValueError(f"{name}: invalid history before date")
+        if rev.get("from") and rev.get("before") and rev["from"] >= rev["before"]:
             raise ValueError(f"{name}: invalid history interval")
     return versions
 
@@ -282,42 +289,54 @@ def canonical_dates(data: dict, name: str):
     return dates
 
 
-def canonical_reverse_history(data: dict, name: str):
+def canonical_reverse_history(data: dict, name: str, current: dict):
+    """Build complete date-segment overrides against the public current card.
+
+    Each dated snapshot is compared to the same current projection, not merely
+    to its preceding snapshot. The final dated segment may use before=null to
+    express an undated current-only field difference without inventing a date.
+    """
     dates=canonical_dates(data,name)
     state={}
-    revisions=[]
+    snapshots=[]
     raw_history=[]
-    previous=None
     for index,day in enumerate(dates):
         event=data[day]
         if not isinstance(event,dict):
             raise ValueError(f"{name}: invalid state on {day}")
         if index==0:
             state=copy.deepcopy(event)
-            previous=day
-            continue
-        before=copy.deepcopy(state)
-        for field,value in event.items():
-            if field in ("nativeTagRolesDelta","source","confidence"):
-                continue
-            if field=="removedFields":
-                if not isinstance(value,list):
-                    raise ValueError(f"{name}: removedFields must be an array")
-                for removed in value:
-                    state.pop(removed,None)
-            else:
-                state[field]=copy.deepcopy(value)
+        else:
+            for field,value in event.items():
+                if field in ("nativeTagRolesDelta","source","confidence"):
+                    continue
+                if field=="removedFields":
+                    if not isinstance(value,list):
+                        raise ValueError(f"{name}: removedFields must be an array")
+                    for removed in value:
+                        state.pop(removed,None)
+                else:
+                    state[field]=copy.deepcopy(value)
         raw_delta=event.get("nativeTagRolesDelta")
         if raw_delta:
             raw_history.append({"date":day,"delta":copy.deepcopy(raw_delta)})
-        changed=sorted(k for k in set(before)|set(state) if before.get(k,"__ABSENT__")!=state.get(k,"__ABSENT__"))
-        changes={k:copy.deepcopy(before[k]) for k in changed if k in before}
-        if changes:
-            revision={"before":day,"changes":changes}
-            if previous:
-                revision["from"]=previous
-            revisions.append(revision)
-        previous=day
+        snapshot={field:copy.deepcopy(state[field]) for field in RENDER_FIELDS if field in state}
+        snapshots.append((day,snapshot))
+    current_state={field:copy.deepcopy(current[field]) for field in RENDER_FIELDS if field in current}
+    revisions=[]
+    for index,(day,old_state) in enumerate(snapshots):
+        changes={field:copy.deepcopy(value) for field,value in old_state.items()
+                 if current_state.get(field,"__ABSENT__")!=value}
+        removed=sorted(field for field in current_state if field not in old_state)
+        # Omit a segment only when applying no override to current exactly
+        # reproduces that segment. This is checked independently in validation.
+        if not changes and not removed:
+            continue
+        revision={"from":day,"changes":changes}
+        revision["before"]=snapshots[index+1][0] if index+1<len(snapshots) else None
+        if removed:
+            revision["removedFields"]=removed
+        revisions.append(revision)
     return revisions,raw_history,state
 
 
@@ -351,7 +370,7 @@ def main():
             raise ValueError(f"{cid}: canonical current identity mismatch")
         if current.get("nativeTags") is None:
             raise ValueError(f"{cid}: current nativeTags must be preserved, including empty arrays")
-        revisions,raw_history,latest=canonical_reverse_history(data,cid)
+        revisions,raw_history,latest=canonical_reverse_history(data,cid,current)
         if raw_history:
             raw_role_cards+=1
         # Dated logical fields must reproduce the current gameplay values. Text and
