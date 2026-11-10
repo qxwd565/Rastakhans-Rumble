@@ -34,7 +34,7 @@ def archive_json():
     decoded=gzip.decompress(packed)
     if len(decoded)!=ARCHIVE_BYTES or hashlib.sha256(decoded).hexdigest()!=ARCHIVE_SHA:
         raise ValueError("238-build evidence JSON size/SHA mismatch")
-    return json.loads(decoded)
+    return decoded,json.loads(decoded)
 
 def tag_replace(tags,tag_id,value):
     result=copy.deepcopy(tags)
@@ -77,8 +77,19 @@ def replay(initial,events):
     return state
 
 def main():
-    archive=archive_json()
+    archive_raw,archive=archive_json()
     manifest=archive.get("archiveManifest",[])
+    evidence_path=ROOT/"sources"/"rastakhans-archive-evidence.json"
+    if hashlib.sha256(archive_raw).hexdigest()!=ARCHIVE_SHA:
+        raise ValueError("decoded archive evidence SHA mismatch")
+    if not evidence_path.exists() or hashlib.sha256(evidence_path.read_bytes()).hexdigest()!=ARCHIVE_SHA:
+        evidence_path.write_bytes(archive_raw)
+    manifest_path=ROOT/"sources"/"archive-238-manifest.json"
+    manifest_doc={"schema":1,"archiveBuilds":len(manifest),"originalCardObservations":39032,
+                  "sourceJsonBytes":ARCHIVE_BYTES,"sourceJsonSha256":ARCHIVE_SHA,
+                  "entries":manifest}
+    if not manifest_path.exists() or read(manifest_path)!=manifest_doc:
+        write(manifest_path,manifest_doc)
     if len(manifest)!=238 or archive.get("summaryCounts",{}).get("cards")!=164:
         raise ValueError("Unexpected archive scope")
     cards_doc=read(ROOT/"cards.json")

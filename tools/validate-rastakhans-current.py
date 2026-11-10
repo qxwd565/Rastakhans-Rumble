@@ -80,8 +80,8 @@ def main():
     ids=set(read(ROOT/"cards.json")["cards"][i]["id"] for i in range(164))
     launch_xml=parse_xml(xml_dir/"xml-27845.xml",manifest[27845]["xmlSha256"],164,ids)
     current_xml=parse_xml(xml_dir/"xml-256589.xml",manifest[256589]["xmlSha256"],164,ids)
-    before_xml=parse_xml(xml_dir/"xml-217489.xml",manifest[217489]["xmlSha256"],len(WEAPONS),set(WEAPONS))
-    after_xml=parse_xml(xml_dir/"xml-217964.xml",manifest[217964]["xmlSha256"],len(WEAPONS),set(WEAPONS))
+    before_xml=parse_xml(xml_dir/"xml-217489.xml",manifest[217489]["xmlSha256"],164,ids)
+    after_xml=parse_xml(xml_dir/"xml-217964.xml",manifest[217964]["xmlSha256"],164,ids)
     assert len(manifest)==238 and ev["summaryCounts"]["originalCardObservations"]==39032
     catalog=read(ROOT/"cards.json"); render=read(ROOT/"render.json"); legacy=read(ROOT/"history.json")
     central=read(DATA/"history.json")

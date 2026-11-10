@@ -65,8 +65,8 @@ def main():
     ids={c["id"] for c in cards}
     initial=extract_xml(XML_DIR/"xml-27845.xml",manifest[27845]["xmlSha256"],164,ids)
     current=extract_xml(XML_DIR/"xml-256589.xml",manifest[256589]["xmlSha256"],164,ids)
-    before=extract_xml(XML_DIR/"xml-217489.xml",manifest[217489]["xmlSha256"],len(WEAPONS),set(WEAPONS))
-    after=extract_xml(XML_DIR/"xml-217964.xml",manifest[217964]["xmlSha256"],len(WEAPONS),set(WEAPONS))
+    before=extract_xml(XML_DIR/"xml-217489.xml",manifest[217489]["xmlSha256"],164,ids)
+    after=extract_xml(XML_DIR/"xml-217964.xml",manifest[217964]["xmlSha256"],164,ids)
     raw_transitions=archive.get("observedRawTransitionReview",[])
     ref_transitions=archive.get("observedReferencedTagTransitions",[])
     updated=0
@@ -146,7 +146,7 @@ def main():
         "currentReferencedTags":sum(len(x["referenced"]) for x in current.values()),
         "launchStringTags":sum(len(x["stringTags"]) for x in initial.values()),
         "currentStringTags":sum(len(x["stringTags"]) for x in current.values()),
-        "weaponRepresentationEvents":len(WEAPONS),"datedGameplayEventsAdded":0},ensure_ascii=False))
+        "weaponRepresentationEvents":len(WEAPONS),"weaponSnapshotCards":164,"datedGameplayEventsAdded":0},ensure_ascii=False))
 
 def get_value(tags,tag_id):
     for t in tags:
