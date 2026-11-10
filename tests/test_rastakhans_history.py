@@ -128,8 +128,14 @@ class RastakhansHistoryTests(unittest.TestCase):
         self.assertIn("koKR",{x["locale"] for x in second["differences"]})
         self.assertEqual(self.central["observations"]["undatedStringTagsByObservation"]["TRL_900"],observations)
         self.assertEqual(self.central["observations"]["undatedStringTags"]["TRL_900"],[
-            {"tagId":184,"before":after,"after":current,"date":None}
+            {"tagId":184,"before":after,"after":current,"date":None},
+            {"tagId":185,"before":self.cards["TRL_900"]["_meta"]["launchStringTags"]["185"],
+             "after":self.cards["TRL_900"]["_meta"]["currentStringTags"]["185"],"date":None},
+            {"tagId":351,"before":self.cards["TRL_900"]["_meta"]["launchStringTags"]["351"],
+             "after":self.cards["TRL_900"]["_meta"]["currentStringTags"]["351"],"date":None}
         ])
+        self.assertEqual(second["before"],after)
+        self.assertEqual(second["after"],current)
         self.assertEqual(self.render_cards["TRL_900"]["nativeStringTags"]["undatedObservations"],observations)
         public=self.render_cards["TRL_900"]["nativeStringTags"]["datedChanges"]
         self.assertEqual(public,dated)
