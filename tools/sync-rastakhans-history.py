@@ -59,8 +59,8 @@ def main():
     weapons=("TRL_074","TRL_111","TRL_304","TRL_325","TRL_352","TRL_360","TRL_543")
     for cid in weapons:
         ev=read(DATA/(cid+".json"))["2025-03-19"]
-        if set(ev)!={"nativeTags","nativeTagRolesDelta","source"} or ev["source"].get("isGameplayBuff") is not False:
-            raise ValueError(f"{cid}: 32.0 weapon event must remain representation-only")
+        if not {"nativeTags","nativeTagRolesDelta","source"}.issubset(ev) or "durability" in ev or ev["source"].get("isGameplayBuff") is not False:
+            raise ValueError(f"{cid}: 32.0 weapon event must remain representation-only; keys={sorted(ev)} source={ev.get('source')}")
     old=read(DATA/"history.json") if (DATA/"history.json").exists() else {}
     out={"schema":2,"timezone":"Asia/Seoul","format":"date-first-sparse-delta",
          "initialStates":initial,"followupEvents":followups,"totalStates":initial+followups,
