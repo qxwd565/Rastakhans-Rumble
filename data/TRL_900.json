@@ -4492,6 +4492,313 @@
             "date": null
           }
         ]
+      },
+      {
+        "tagId": 184,
+        "beforeBuild": 237510,
+        "afterBuild": 256589,
+        "beforeCommit": "a770d899b7ea12594f2edfc7d097f6ee0a858eb8",
+        "afterCommit": "31b034c26f24b8a66ece845ffd03c1ca397b9a02",
+        "before": {
+          "present": true,
+          "type": "LocString",
+          "valueAttributePresent": false,
+          "valueAttribute": null,
+          "locales": {
+            "deDE": {
+              "present": true,
+              "value": "<b>Eifer</b>. <b>Kampfschrei:</b>\nFüllt Eure Hand mit Luchsen_(1/1), die <b>Eifer</b>_haben."
+            },
+            "enUS": {
+              "present": true,
+              "value": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "esES": {
+              "present": true,
+              "value": "[x]<b>Embestir</b>\n<b>Grito de batalla:</b> Llena\ntu mano de linces 1/1\ncon <b>Embestir</b>."
+            },
+            "esMX": {
+              "present": true,
+              "value": "<b>Acometida</b>\n<b>Grito de batalla:</b> llena tu mano de Linces 1/1 con <b>Acometida</b>."
+            },
+            "frFR": {
+              "present": true,
+              "value": "<b>Ruée</b>\n<b>Cri de guerre_:</b> remplit votre_main_de_lynx_1/1 avec <b>Ruée</b>."
+            },
+            "itIT": {
+              "present": true,
+              "value": "<b>Assalto</b>. <b>Grido di\nBattaglia:</b> riempie la\ntua mano di Linci 1/1 con <b>Assalto</b>."
+            },
+            "jaJP": {
+              "present": true,
+              "value": "[x]<b>急襲</b>\n<b>雄叫び:</b>\n自分の手札を<b>急襲</b>を持つ\n1/1の「オオヤマネコ」で\nいっぱいにする。"
+            },
+            "koKR": {
+              "present": true,
+              "value": "<b>속공</b>, <b>전투의_함성:</b>\n내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다."
+            },
+            "plPL": {
+              "present": true,
+              "value": "<b>Zryw</b>\n<b>Okrzyk bojowy:</b> Zapełnij twoją rękę Rysiami_1/1 ze_<b>Zrywem</b>."
+            },
+            "ptBR": {
+              "present": true,
+              "value": "<b>Rapidez</b>\n<b>Grito de Guerra:</b> Encha sua mão com Linces 1/1 que têm <b>Rapidez</b>."
+            },
+            "ruRU": {
+              "present": true,
+              "value": "<b>Натиск</b>. <b>Боевой клич:</b> заполняет руку рысями 1/1 с_<b>«Натиском»</b>."
+            },
+            "thTH": {
+              "present": true,
+              "value": "<b>จู่โจม</b>_<b>คำรามสู้ศึก:</b>_[b]เพิ่มแมวป่า_1/1_ที่มี <b>จู่โจม</b>_จนเต็มมือคุณ"
+            },
+            "zhCN": {
+              "present": true,
+              "value": "<b>突袭</b>。<b>战吼：</b>用1/1并具有<b>突袭</b>的山猫填满你的手牌。"
+            },
+            "zhTW": {
+              "present": true,
+              "value": "<b>衝刺</b>\n<b>戰吼：</b>用有<b>衝刺</b>的1/1山貓塞滿你的手牌"
+            }
+          },
+          "textContent": "\n\t\t\t<b>Eifer</b>. <b>Kampfschrei:</b>\nFüllt Eure Hand mit Luchsen_(1/1), die <b>Eifer</b>_haben.\n\t\t\t<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.\n\t\t\t[x]<b>Embestir</b>\n<b>Grito de batalla:</b> Llena\ntu mano de linces 1/1\ncon <b>Embestir</b>.\n\t\t\t<b>Acometida</b>\n<b>Grito de batalla:</b> llena tu mano de Linces 1/1 con <b>Acometida</b>.\n\t\t\t<b>Ruée</b>\n<b>Cri de guerre_:</b> remplit votre_main_de_lynx_1/1 avec <b>Ruée</b>.\n\t\t\t<b>Assalto</b>. <b>Grido di\nBattaglia:</b> riempie la\ntua mano di Linci 1/1 con <b>Assalto</b>.\n\t\t\t[x]<b>急襲</b>\n<b>雄叫び:</b>\n自分の手札を<b>急襲</b>を持つ\n1/1の「オオヤマネコ」で\nいっぱいにする。\n\t\t\t<b>속공</b>, <b>전투의_함성:</b>\n내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다.\n\t\t\t<b>Zryw</b>\n<b>Okrzyk bojowy:</b> Zapełnij twoją rękę Rysiami_1/1 ze_<b>Zrywem</b>.\n\t\t\t<b>Rapidez</b>\n<b>Grito de Guerra:</b> Encha sua mão com Linces 1/1 que têm <b>Rapidez</b>.\n\t\t\t<b>Натиск</b>. <b>Боевой клич:</b> заполняет руку рысями 1/1 с_<b>«Натиском»</b>.\n\t\t\t<b>จู่โจม</b>_<b>คำรามสู้ศึก:</b>_[b]เพิ่มแมวป่า_1/1_ที่มี <b>จู่โจม</b>_จนเต็มมือคุณ\n\t\t\t<b>突袭</b>。<b>战吼：</b>用1/1并具有<b>突袭</b>的山猫填满你的手牌。\n\t\t\t<b>衝刺</b>\n<b>戰吼：</b>用有<b>衝刺</b>的1/1山貓塞滿你的手牌\n\t\t"
+        },
+        "after": {
+          "present": true,
+          "type": "LocString",
+          "valueAttributePresent": false,
+          "valueAttribute": null,
+          "locales": {
+            "deDE": {
+              "present": true,
+              "value": "<b>Eifer</b>. <b>Kampfschrei:</b>& Füllt Eure Hand mit Luchsen (1/1), die <b>Eifer</b> haben."
+            },
+            "enUS": {
+              "present": true,
+              "value": "<b>Rush</b>. <b>Battlecry:</b>& Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "esES": {
+              "present": true,
+              "value": "<b>Embestir</b> <b>Grito de batalla:</b>& Llena tu mano de linces 1/1 con <b>Embestir</b>."
+            },
+            "esMX": {
+              "present": true,
+              "value": "<b>Acometida</b>\n<b>Grito de batalla:</b>& llena tu mano de Linces 1/1 con <b>Acometida</b>."
+            },
+            "frFR": {
+              "present": true,
+              "value": "<b>Ruée</b>\n<b>Cri de guerre_:</b>& remplit votre main de lynx_1/1 avec <b>Ruée</b>."
+            },
+            "itIT": {
+              "present": true,
+              "value": "<b>Assalto</b>. <b>Grido di Battaglia:</b>& riempie la tua mano di Linci 1/1 con <b>Assalto</b>."
+            },
+            "jaJP": {
+              "present": true,
+              "value": "[x]<b>急襲</b>、\n<b>雄叫び:</b>&\n自分の手札を<b>急襲</b>を持つ\n1/1の「オオヤマネコ」で\nいっぱいにする。"
+            },
+            "koKR": {
+              "present": true,
+              "value": "<b>속공</b>, <b>전투의 함성</b>:& 내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다."
+            },
+            "plPL": {
+              "present": true,
+              "value": "<b>Zryw</b>\n<b>Okrzyk bojowy:</b>& zapełnij twoją_rękę Rysiami_1/1 ze_<b>Zrywem</b>."
+            },
+            "ptBR": {
+              "present": true,
+              "value": "<b>Rapidez</b>. <b>Grito de Guerra:</b>& Encha sua mão com Linces 1/1 que têm <b>Rapidez</b>."
+            },
+            "ruRU": {
+              "present": true,
+              "value": "<b>Натиск</b>. <b>Боевой клич:</b>& заполняет руку рысями 1/1 с_<b>«Натиском»</b>."
+            },
+            "thTH": {
+              "present": true,
+              "value": "<b>จู่โจม</b>_<b>คำรามสู้ศึก:</b>&_[b]เพิ่มแมวป่า_1/1_ที่มี <b>จู่โจม</b>_จนเต็มมือคุณ"
+            },
+            "zhCN": {
+              "present": true,
+              "value": "<b>突袭</b>。<b>战吼：</b>&用1/1并具有<b>突袭</b>的山猫填满你的手牌。"
+            },
+            "zhTW": {
+              "present": true,
+              "value": "<b>衝刺</b>\n<b>戰吼：</b>&用有<b>衝刺</b>的1/1山貓塞滿你的手牌"
+            }
+          },
+          "textContent": "\n\t\t<b>Eifer</b>. <b>Kampfschrei:</b>& Füllt Eure Hand mit Luchsen (1/1), die <b>Eifer</b> haben.\n\t\t<b>Rush</b>. <b>Battlecry:</b>& Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.\n\t\t<b>Embestir</b> <b>Grito de batalla:</b>& Llena tu mano de linces 1/1 con <b>Embestir</b>.\n\t\t<b>Acometida</b>\n<b>Grito de batalla:</b>& llena tu mano de Linces 1/1 con <b>Acometida</b>.\n\t\t<b>Ruée</b>\n<b>Cri de guerre_:</b>& remplit votre main de lynx_1/1 avec <b>Ruée</b>.\n\t\t<b>Assalto</b>. <b>Grido di Battaglia:</b>& riempie la tua mano di Linci 1/1 con <b>Assalto</b>.\n\t\t[x]<b>急襲</b>、\n<b>雄叫び:</b>&\n自分の手札を<b>急襲</b>を持つ\n1/1の「オオヤマネコ」で\nいっぱいにする。\n\t\t<b>속공</b>, <b>전투의 함성</b>:& 내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다.\n\t\t<b>Zryw</b>\n<b>Okrzyk bojowy:</b>& zapełnij twoją_rękę Rysiami_1/1 ze_<b>Zrywem</b>.\n\t\t<b>Rapidez</b>. <b>Grito de Guerra:</b>& Encha sua mão com Linces 1/1 que têm <b>Rapidez</b>.\n\t\t<b>Натиск</b>. <b>Боевой клич:</b>& заполняет руку рысями 1/1 с_<b>«Натиском»</b>.\n\t\t<b>จู่โจม</b>_<b>คำรามสู้ศึก:</b>&_[b]เพิ่มแมวป่า_1/1_ที่มี <b>จู่โจม</b>_จนเต็มมือคุณ\n\t\t<b>突袭</b>。<b>战吼：</b>&用1/1并具有<b>突袭</b>的山猫填满你的手牌。\n\t\t<b>衝刺</b>\n<b>戰吼：</b>&用有<b>衝刺</b>的1/1山貓塞滿你的手牌\n\t"
+        },
+        "differences": [
+          {
+            "locale": "deDE",
+            "before": {
+              "present": true,
+              "value": "<b>Eifer</b>. <b>Kampfschrei:</b>\nFüllt Eure Hand mit Luchsen_(1/1), die <b>Eifer</b>_haben."
+            },
+            "after": {
+              "present": true,
+              "value": "<b>Eifer</b>. <b>Kampfschrei:</b>& Füllt Eure Hand mit Luchsen (1/1), die <b>Eifer</b> haben."
+            },
+            "date": null
+          },
+          {
+            "locale": "enUS",
+            "before": {
+              "present": true,
+              "value": "<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "after": {
+              "present": true,
+              "value": "<b>Rush</b>. <b>Battlecry:</b>& Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>."
+            },
+            "date": null
+          },
+          {
+            "locale": "esES",
+            "before": {
+              "present": true,
+              "value": "[x]<b>Embestir</b>\n<b>Grito de batalla:</b> Llena\ntu mano de linces 1/1\ncon <b>Embestir</b>."
+            },
+            "after": {
+              "present": true,
+              "value": "<b>Embestir</b> <b>Grito de batalla:</b>& Llena tu mano de linces 1/1 con <b>Embestir</b>."
+            },
+            "date": null
+          },
+          {
+            "locale": "esMX",
+            "before": {
+              "present": true,
+              "value": "<b>Acometida</b>\n<b>Grito de batalla:</b> llena tu mano de Linces 1/1 con <b>Acometida</b>."
+            },
+            "after": {
+              "present": true,
+              "value": "<b>Acometida</b>\n<b>Grito de batalla:</b>& llena tu mano de Linces 1/1 con <b>Acometida</b>."
+            },
+            "date": null
+          },
+          {
+            "locale": "frFR",
+            "before": {
+              "present": true,
+              "value": "<b>Ruée</b>\n<b>Cri de guerre_:</b> remplit votre_main_de_lynx_1/1 avec <b>Ruée</b>."
+            },
+            "after": {
+              "present": true,
+              "value": "<b>Ruée</b>\n<b>Cri de guerre_:</b>& remplit votre main de lynx_1/1 avec <b>Ruée</b>."
+            },
+            "date": null
+          },
+          {
+            "locale": "itIT",
+            "before": {
+              "present": true,
+              "value": "<b>Assalto</b>. <b>Grido di\nBattaglia:</b> riempie la\ntua mano di Linci 1/1 con <b>Assalto</b>."
+            },
+            "after": {
+              "present": true,
+              "value": "<b>Assalto</b>. <b>Grido di Battaglia:</b>& riempie la tua mano di Linci 1/1 con <b>Assalto</b>."
+            },
+            "date": null
+          },
+          {
+            "locale": "jaJP",
+            "before": {
+              "present": true,
+              "value": "[x]<b>急襲</b>\n<b>雄叫び:</b>\n自分の手札を<b>急襲</b>を持つ\n1/1の「オオヤマネコ」で\nいっぱいにする。"
+            },
+            "after": {
+              "present": true,
+              "value": "[x]<b>急襲</b>、\n<b>雄叫び:</b>&\n自分の手札を<b>急襲</b>を持つ\n1/1の「オオヤマネコ」で\nいっぱいにする。"
+            },
+            "date": null
+          },
+          {
+            "locale": "koKR",
+            "before": {
+              "present": true,
+              "value": "<b>속공</b>, <b>전투의_함성:</b>\n내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다."
+            },
+            "after": {
+              "present": true,
+              "value": "<b>속공</b>, <b>전투의 함성</b>:& 내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다."
+            },
+            "date": null
+          },
+          {
+            "locale": "plPL",
+            "before": {
+              "present": true,
+              "value": "<b>Zryw</b>\n<b>Okrzyk bojowy:</b> Zapełnij twoją rękę Rysiami_1/1 ze_<b>Zrywem</b>."
+            },
+            "after": {
+              "present": true,
+              "value": "<b>Zryw</b>\n<b>Okrzyk bojowy:</b>& zapełnij twoją_rękę Rysiami_1/1 ze_<b>Zrywem</b>."
+            },
+            "date": null
+          },
+          {
+            "locale": "ptBR",
+            "before": {
+              "present": true,
+              "value": "<b>Rapidez</b>\n<b>Grito de Guerra:</b> Encha sua mão com Linces 1/1 que têm <b>Rapidez</b>."
+            },
+            "after": {
+              "present": true,
+              "value": "<b>Rapidez</b>. <b>Grito de Guerra:</b>& Encha sua mão com Linces 1/1 que têm <b>Rapidez</b>."
+            },
+            "date": null
+          },
+          {
+            "locale": "ruRU",
+            "before": {
+              "present": true,
+              "value": "<b>Натиск</b>. <b>Боевой клич:</b> заполняет руку рысями 1/1 с_<b>«Натиском»</b>."
+            },
+            "after": {
+              "present": true,
+              "value": "<b>Натиск</b>. <b>Боевой клич:</b>& заполняет руку рысями 1/1 с_<b>«Натиском»</b>."
+            },
+            "date": null
+          },
+          {
+            "locale": "thTH",
+            "before": {
+              "present": true,
+              "value": "<b>จู่โจม</b>_<b>คำรามสู้ศึก:</b>_[b]เพิ่มแมวป่า_1/1_ที่มี <b>จู่โจม</b>_จนเต็มมือคุณ"
+            },
+            "after": {
+              "present": true,
+              "value": "<b>จู่โจม</b>_<b>คำรามสู้ศึก:</b>&_[b]เพิ่มแมวป่า_1/1_ที่มี <b>จู่โจม</b>_จนเต็มมือคุณ"
+            },
+            "date": null
+          },
+          {
+            "locale": "zhCN",
+            "before": {
+              "present": true,
+              "value": "<b>突袭</b>。<b>战吼：</b>用1/1并具有<b>突袭</b>的山猫填满你的手牌。"
+            },
+            "after": {
+              "present": true,
+              "value": "<b>突袭</b>。<b>战吼：</b>&用1/1并具有<b>突袭</b>的山猫填满你的手牌。"
+            },
+            "date": null
+          },
+          {
+            "locale": "zhTW",
+            "before": {
+              "present": true,
+              "value": "<b>衝刺</b>\n<b>戰吼：</b>用有<b>衝刺</b>的1/1山貓塞滿你的手牌"
+            },
+            "after": {
+              "present": true,
+              "value": "<b>衝刺</b>\n<b>戰吼：</b>&用有<b>衝刺</b>的1/1山貓塞滿你的手牌"
+            },
+            "date": null
+          }
+        ]
       }
     ],
     "datedStringTagObservations": [
