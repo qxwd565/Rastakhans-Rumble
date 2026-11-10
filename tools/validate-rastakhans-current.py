@@ -323,10 +323,18 @@ def main():
         launch_strings=meta.get("launchStringTags",{})
         current_strings=meta.get("currentStringTags",{})
         expected_string_diffs=[]
-        for tid in sorted(set(launch_strings)|set(current_strings),key=int):
-            before=launch_strings.get(tid,"ABSENT"); after=current_strings.get(tid,"ABSENT")
+        if cid=="TRL_900":
+            dated=meta.get("datedStringTagObservations",[])
+            assert len(dated)==1 and dated[0]["tagId"]==184
+            before=dated[-1]["after"]
+            after=current_strings.get("184","ABSENT")
             if before!=after:
-                expected_string_diffs.append({"tagId":int(tid),"before":before,"after":after,"date":None})
+                expected_string_diffs=[{"tagId":184,"before":before,"after":after,"date":None}]
+        else:
+            for tid in sorted(set(launch_strings)|set(current_strings),key=int):
+                before=launch_strings.get(tid,"ABSENT"); after=current_strings.get(tid,"ABSENT")
+                if before!=after:
+                    expected_string_diffs.append({"tagId":int(tid),"before":before,"after":after,"date":None})
         assert central["observations"]["undatedStringTags"].get(cid,[])==expected_string_diffs
         assert meta["launchNativeTagsOwned"]==launch_xml[cid]["owned"],(cid,"launch owned raw tags")
         assert meta["launchNativeTagsReferenced"]==launch_xml[cid]["referenced"],(cid,"launch referenced raw tags")
@@ -359,6 +367,21 @@ def main():
             assert observation["after"]==halazzi_after_xml[cid]["stringTags"]["184"]
             assert central["observations"]["datedStringTags"][cid]==meta["datedStringTagObservations"]
             assert rc["nativeStringTags"]["datedChanges"]==meta["datedStringTagObservations"]
+            assert len(meta["undatedStringTagObservations"])==2
+            residual=meta["undatedStringTagObservations"][1]
+            assert (residual["beforeBuild"],residual["afterBuild"])==(237510,256589)
+            assert residual["before"]==observation["after"]
+            assert residual["after"]==current_xml[cid]["stringTags"]["184"]
+            expected_residual=[]
+            for locale in sorted(set(residual["before"]["locales"]) | set(residual["after"]["locales"])):
+                before_value=residual["before"]["locales"].get(locale,"ABSENT")
+                after_value=residual["after"]["locales"].get(locale,"ABSENT")
+                if before_value!=after_value:
+                    expected_residual.append({"locale":locale,"before":before_value,"after":after_value,"date":None})
+            assert residual["differences"]==expected_residual
+            assert central["observations"]["undatedStringTagsByObservation"][cid]==meta["undatedStringTagObservations"]
+            assert rc["nativeStringTags"]["undatedObservations"]==meta["undatedStringTagObservations"]
+            assert expected_string_diffs==[{"tagId":184,"before":residual["before"],"after":residual["after"],"date":None}]
         reverse_checks+=validate_public_reverse_replay(cid,dates,snapshots,rc)
     assert len(all_dates)>=10
     assert raw_role_event_count==51
