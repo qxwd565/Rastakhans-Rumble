@@ -191,7 +191,7 @@ def main():
                 "referenced":{"removed":[],"set":{}}
             },
             "source":{"findingId":"RAST-EXP-32-0","officialPatch":"32.0","buildBefore":217489,"buildAfter":217964,
-                      "durabilityBefore":durability,"durabilityAfter":durability,
+                      "durabilityBefore":durability,"durabilityAfter":durability,"isGameplayBuff":False,
                       "note":"Tag ownership migration only; no weapon durability buff"}
         })
 
