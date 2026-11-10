@@ -190,6 +190,15 @@ def main():
     assert halazzi_before_xml["TRL_900"]["stringTags"]["184"]["locales"]["enUS"]==launch_xml["TRL_900"]["stringTags"]["184"]["locales"]["enUS"]
     assert halazzi_before_xml["TRL_900"]["stringTags"]["184"]["locales"]["thTH"]["value"]=="<b>คำรามสู้ศึก:</b> เพิ่มแมวป่า_1/1_ที่มี <b>จู่โจม</b>_จนเต็มมือคุณ"
     assert halazzi_before_xml["TRL_900"]["stringTags"]["184"]["locales"]["zhCN"]["value"]=="<b>战吼：</b>用1/1并具有\n<b>突袭</b>的山猫填满你的手牌。"
+    launch_halazzi_tag=launch_xml["TRL_900"]["stringTags"]["184"]
+    prepatch_halazzi_tag=halazzi_before_xml["TRL_900"]["stringTags"]["184"]
+    expected_undated_locales=[]
+    for locale in sorted(set(launch_halazzi_tag["locales"]) | set(prepatch_halazzi_tag["locales"])):
+        old=launch_halazzi_tag["locales"].get(locale,"ABSENT")
+        new=prepatch_halazzi_tag["locales"].get(locale,"ABSENT")
+        if old!=new:
+            expected_undated_locales.append({"locale":locale,"before":old,"after":new,"date":None})
+    assert {x["locale"] for x in expected_undated_locales}=={"thTH","zhCN"}
     halazzi_mid=halazzi_after_xml["TRL_900"]["stringTags"]["184"]
     assert halazzi_mid["type"]=="LocString" and halazzi_mid["valueAttributePresent"] is False
     assert halazzi_mid["locales"]["koKR"]["value"]=="<b>속공</b>, <b>전투의_함성:</b>\n내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다."
