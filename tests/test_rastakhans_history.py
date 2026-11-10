@@ -111,6 +111,21 @@ class RastakhansHistoryTests(unittest.TestCase):
         self.assertEqual(after["locales"]["enUS"]["value"],"<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\nthat have <b>Rush</b>.")
         self.assertIn("&",self.cards["TRL_900"]["_meta"]["currentStringTags"]["184"]["locales"]["koKR"]["value"])
         self.assertNotIn("&",after["locales"]["koKR"]["value"])
+        observations=self.cards["TRL_900"]["_meta"]["undatedStringTagObservations"]
+        self.assertEqual(len(observations),2)
+        first,second=observations
+        self.assertEqual((first["beforeBuild"],first["afterBuild"]),(27845,236529))
+        self.assertEqual((second["beforeBuild"],second["afterBuild"]),(237510,256589))
+        self.assertEqual(second["beforeCommit"],"a770d899b7ea12594f2edfc7d097f6ee0a858eb8")
+        self.assertEqual(second["afterCommit"],"31b034c26f24b8a66ece845ffd03c1ca397b9a02")
+        current=self.cards["TRL_900"]["_meta"]["currentStringTags"]["184"]
+        self.assertEqual(second["differences"],[
+            {"locale":locale,"before":after["locales"].get(locale,"ABSENT"),
+             "after":current["locales"].get(locale,"ABSENT"),"date":None}
+            for locale in sorted(set(after["locales"])|set(current["locales"]))
+            if after["locales"].get(locale,"ABSENT")!=current["locales"].get(locale,"ABSENT")
+        ])
+        self.assertNotEqual(second["differences"][0]["before"],launch["locales"].get(second["differences"][0]["locale"]))
         public=self.render_cards["TRL_900"]["nativeStringTags"]["datedChanges"]
         self.assertEqual(public,dated)
         self.assertNotIn("datedChanges",self.render_cards["TRL_901"]["nativeStringTags"])
