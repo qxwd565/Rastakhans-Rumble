@@ -189,7 +189,7 @@ def main():
     assert halazzi_before_xml["TRL_900"]["stringTags"]["184"]["locales"]["koKR"]==launch_xml["TRL_900"]["stringTags"]["184"]["locales"]["koKR"]
     assert halazzi_before_xml["TRL_900"]["stringTags"]["184"]["locales"]["enUS"]==launch_xml["TRL_900"]["stringTags"]["184"]["locales"]["enUS"]
     assert halazzi_before_xml["TRL_900"]["stringTags"]["184"]["locales"]["thTH"]["value"]=="<b>คำรามสู้ศึก:</b> เพิ่มแมวป่า_1/1_ที่มี <b>จู่โจม</b>_จนเต็มมือคุณ"
-    assert halazzi_before_xml["TRL_900"]["stringTags"]["184"]["locales"]["zhCN"]["value"]=="<b>战吼：</b>用1/1并具有\\n<b>突袭</b>的山猫填满你的手牌。"
+    assert halazzi_before_xml["TRL_900"]["stringTags"]["184"]["locales"]["zhCN"]["value"]=="<b>战吼：</b>用1/1并具有\n<b>突袭</b>的山猫填满你的手牌。"
     halazzi_mid=halazzi_after_xml["TRL_900"]["stringTags"]["184"]
     assert halazzi_mid["type"]=="LocString" and halazzi_mid["valueAttributePresent"] is False
     assert halazzi_mid["locales"]["koKR"]["value"]=="<b>속공</b>, <b>전투의_함성:</b>\n내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다."
@@ -337,6 +337,11 @@ def main():
             observation=meta["datedStringTagObservations"][0]
             assert observation["date"]=="2026-03-11" and observation["build"]==237510 and observation["tagId"]==184
             assert observation["before"]==halazzi_before_xml[cid]["stringTags"]["184"]
+            assert meta["halazziPrePatchStringTagSnapshot"]==halazzi_before_xml[cid]["stringTags"]["184"]
+            assert meta["undatedStringTagObservations"]==central["observations"]["undatedStringTagsByObservation"][cid]
+            assert rc["nativeStringTags"]["undatedObservations"]==meta["undatedStringTagObservations"]
+            assert {x["locale"] for x in meta["undatedStringTagObservations"][0]["differences"]}=={"thTH","zhCN"}
+            assert all(x["date"] is None for x in meta["undatedStringTagObservations"][0]["differences"])
             assert meta["halazziPrePatchStringTagSnapshot"]==halazzi_before_xml[cid]["stringTags"]["184"]
             assert rc["nativeStringTags"]["undatedObservations"]==meta["undatedStringTagObservations"]
             assert central["observations"]["undatedStringTagsByObservation"][cid]==meta["undatedStringTagObservations"]
