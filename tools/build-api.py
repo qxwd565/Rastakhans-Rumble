@@ -275,93 +275,132 @@ def publish_forward_card(card: dict, current: dict, name: str):
     return backward
 
 
+def canonical_dates(data: dict, name: str):
+    dates=sorted(k for k in data if DATE_RE.fullmatch(k))
+    if not dates or dates[0]!="2018-12-05":
+        raise ValueError(f"{name}: date-first launch state missing")
+    return dates
+
+
+def canonical_reverse_history(data: dict, name: str):
+    dates=canonical_dates(data,name)
+    state={}
+    revisions=[]
+    raw_history=[]
+    previous=None
+    for index,day in enumerate(dates):
+        event=data[day]
+        if not isinstance(event,dict):
+            raise ValueError(f"{name}: invalid state on {day}")
+        if index==0:
+            state=copy.deepcopy(event)
+            previous=day
+            continue
+        before=copy.deepcopy(state)
+        for field,value in event.items():
+            if field in ("nativeTagRolesDelta","source","confidence"):
+                continue
+            if field=="removedFields":
+                if not isinstance(value,list):
+                    raise ValueError(f"{name}: removedFields must be an array")
+                for removed in value:
+                    state.pop(removed,None)
+            else:
+                state[field]=copy.deepcopy(value)
+        raw_delta=event.get("nativeTagRolesDelta")
+        if raw_delta:
+            raw_history.append({"date":day,"delta":copy.deepcopy(raw_delta)})
+        changed=[k for k in set(before)|set(state) if before.get(k,"__ABSENT__")!=state.get(k,"__ABSENT__")]
+        changes={k:copy.deepcopy(before[k]) for k in changed if k in before}
+        if changes:
+            revision={"before":day,"changes":changes}
+            if previous:
+                revision["from"]=previous
+            revisions.append(revision)
+        previous=day
+    return revisions,raw_history,state
+
+
 def main():
-    source_path = ROOT / "cards.json"
-    catalog = load(source_path)
-    if catalog.get("schema") != 1 or not isinstance(catalog.get("cards"), list):
+    source_path=ROOT/"cards.json"
+    catalog=load(source_path)
+    if catalog.get("schema")!=1 or not isinstance(catalog.get("cards"),list):
         raise ValueError("Unexpected cards.json schema")
-    detailed = ROOT / "data"
-    release_policy_path = ROOT / "release-policy.json"
-    release_policy = load(release_policy_path) if release_policy_path.exists() else None
-    taxonomy_policy = read_taxonomy_policy(ROOT / "taxonomy-history.json")
-    if release_policy is not None and release_policy.get("timezone") != "Asia/Seoul":
-        raise ValueError("Release dates must use Korea (Asia/Seoul)")
-    release_counts = {"verified": 0, "estimated": 0, "pending": 0}
-    changed_individual = 0
-    history = {}
-    renderer = []
-    seen = set()
+    central=load(ROOT/"data/history.json")
+    if central.get("format")!="date-first-sparse-delta" or central.get("timezone")!="Asia/Seoul":
+        raise ValueError("Central history must be synchronized date-first Asia/Seoul data")
+    if central.get("initialStates")!=164 or central.get("followupEvents")!=51 or central.get("totalStates")!=215:
+        raise ValueError("Central history must contain 164 initial + 51 follow-up = 215 states")
+    renderer=[]
+    history={}
+    seen=set()
+    raw_role_cards=0
     for record in catalog["cards"]:
-        if not isinstance(record, dict) or not isinstance(record.get("id"), str):
-            raise ValueError("Invalid card in cards.json")
-        cid = record["id"]
+        cid=record["id"]
         if cid in seen:
             raise ValueError(f"Duplicate card ID {cid}")
         seen.add(cid)
-        release_date = release_for_card(record, release_policy)[0] if release_policy is not None else record.get("releasedAt")
-        path = detailed / (cid + ".json")
-        data = read_catalog_source(path, record)
-        revisions = []
-        if data is None:
-            if record.get("history"):
-                raise ValueError(f"{cid}: historical data requires {path.name}")
-            # Preserve cards that have no detailed source yet.
-            record.pop("history", None)
-        else:
-            card = data["card"]
-            # Preserve the approved current card catalogue exactly. Individual
-            # JSON owns historical changes only until current data is reconciled.
-            if "patches" in card:
-                if "history" in card:
-                    raise ValueError(f"{cid}: forward patches cannot coexist with legacy reverse history")
-                revisions = publish_forward_card(card, record, cid)
-            else:
-                # Transitional support for un-migrated cards only.
-                revisions = read_history(card, cid)
-                if taxonomy_policy is not None:
-                    curated = [rev for rev in revisions if rev.get("generatedBy") != TAXONOMY_RULE]
-                    revisions = curated + taxonomy_revisions(record, release_date, taxonomy_policy)
-                    if revisions != card.get("history", []):
-                        card["history"] = revisions
-                    revisions = read_history(card, cid)
-            if revisions:
-                history[str(record["dbfId"])] = {"id": cid, "history": revisions}
-            elif record.get("history"):
-                # Avoid silently discarding previously migrated patches.
-                raise ValueError(f"{cid}: history exists in cards.json but not data/{cid}.json")
-            record.pop("history", None)
-        render_card = {field: record[field] for field in RENDER_FIELDS if field in record}
-        # A single runtime endpoint: the current card and its sparse dated
-        # differences are delivered together. Absence of history means current.
-        if data is not None and revisions:
-            render_card["history"] = revisions
-        if release_policy is not None:
-            release_date, release_status = release_for_card(record, release_policy)
-            record["releasedAt"] = release_date
-            record["releaseStatus"] = release_status
-            render_card["releasedAt"] = release_date
-            # Consumers must not hide cards based on an estimated release date.
-            render_card["releaseStatus"] = release_status
-            release_counts[release_status] += 1
-            if data is not None:
-                card["releasedAt"] = release_date
-                card["releaseStatus"] = release_status
-                if publish(path, data):
-                    changed_individual += 1
+        path=ROOT/"data"/(cid+".json")
+        if not path.is_file():
+            raise ValueError(f"{cid}: canonical source {path.name} missing")
+        data=load(path)
+        if data.get("schemaVersion")!=2 or not isinstance(data.get("_current"),dict):
+            raise ValueError(f"{cid}: canonical v2 source required")
+        current=data["_current"]
+        if current.get("id")!=cid or current.get("dbfId")!=record.get("dbfId"):
+            raise ValueError(f"{cid}: canonical current identity mismatch")
+        if current.get("nativeTags") is None:
+            raise ValueError(f"{cid}: current nativeTags must be preserved, including empty arrays")
+        revisions,raw_history,latest=canonical_reverse_history(data,cid)
+        if raw_history:
+            raw_role_cards+=1
+        # Dated logical fields must reproduce the current gameplay values. Text and
+        # nativeTags may have undated display/representation observations, kept in _meta.
+        for field in SPEC_FIELDS:
+            if field=="text":
+                continue
+            if latest.get(field,"__ABSENT__")!=current.get(field,"__ABSENT__"):
+                allowed=data["_meta"].get("undatedFieldObservations",[])
+                if not any(x.get("field")==field for x in allowed):
+                    raise ValueError(f"{cid}: dated replay/current mismatch for {field}")
+        record_out=copy.deepcopy(current)
+        render_card={field:copy.deepcopy(record_out[field]) for field in RENDER_FIELDS if field in record_out}
+        if revisions:
+            render_card["history"]=revisions
+            history[str(record_out["dbfId"])]={"id":cid,"history":revisions}
+        meta=data["_meta"]
+        render_card["nativeTagRoles"]={
+            "launch":{"owned":copy.deepcopy(meta.get("launchNativeTagsOwned",{})),
+                      "referenced":copy.deepcopy(meta.get("launchNativeTagsReferenced",{}))},
+            "current":{"owned":copy.deepcopy(meta.get("currentNativeTagsOwned",{})),
+                       "referenced":copy.deepcopy(meta.get("currentNativeTagsReferenced",{}))},
+            "datedChanges":raw_history,
+            "undatedOwnedTransitions":copy.deepcopy(meta.get("undatedRawTagTransitions",[])),
+            "undatedReferencedTransitions":copy.deepcopy(meta.get("undatedReferencedTagTransitions",[])),
+        }
+        render_card["nativeStringTags"]={
+            "launch":copy.deepcopy(meta.get("launchStringTags",{})),
+            "current":copy.deepcopy(meta.get("currentStringTags",{})),
+            "launchPrintedText":copy.deepcopy(meta.get("launchPrintedText",{})),
+            "currentPrintedText":copy.deepcopy(meta.get("currentPrintedText",{})),
+        }
+        if cid=="TRL_900":
+            render_card["rushEvidence"]=copy.deepcopy(meta.get("undatedGameplayObservations",[]))
         renderer.append(render_card)
-
-    files = {
-        "cards.json": catalog,
-        "render.json": {"schema": 1, "set": catalog["set"], "cards": renderer},
-        "history.json": {"schema": 1, "set": catalog["set"], "cards": history},
+        catalog["cards"][len(renderer)-1]=record_out
+    if len(renderer)!=164:
+        raise ValueError(f"Expected 164 API cards, got {len(renderer)}")
+    files={
+        "cards.json":catalog,
+        "render.json":{"schema":2,"set":catalog["set"],"cards":renderer},
+        "history.json":{"schema":2,"set":catalog["set"],"timezone":"Asia/Seoul","format":"reverse-override","cards":history},
     }
-    changed = [name for name, value in files.items() if publish(ROOT / name, value)]
-    print(json.dumps({
-        "set": catalog["set"], "cards": len(renderer),
-        "datedCards": len(history),
-        "published": changed, "releaseDates": release_counts,
-        "individualCardsUpdated": changed_individual,
-    }, ensure_ascii=False))
+    changed=[name for name,value in files.items() if publish(ROOT/name,value)]
+    print(json.dumps({"set":catalog["set"],"cards":len(renderer),
+        "initialStates":central["initialStates"],"followupEvents":central["followupEvents"],
+        "totalStates":central["totalStates"],"datedCards":len(history),
+        "rawRoleHistoryCards":raw_role_cards,"published":changed},ensure_ascii=False))
 
-if __name__ == "__main__":
+
+if __name__=="__main__":
     main()
