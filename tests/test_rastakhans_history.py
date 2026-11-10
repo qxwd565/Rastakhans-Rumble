@@ -102,7 +102,7 @@ class RastakhansHistoryTests(unittest.TestCase):
         self.assertEqual({x["locale"] for x in undated[0]["differences"]},{"thTH","zhCN"})
         self.assertIsNone(undated[0]["differences"][0]["date"])
         self.assertEqual(prepatch["locales"]["thTH"]["value"],"<b>คำรามสู้ศึก:</b> เพิ่มแมวป่า_1/1_ที่มี <b>จู่โจม</b>_จนเต็มมือคุณ")
-        self.assertEqual(prepatch["locales"]["zhCN"]["value"],"<b>战吼：</b>用1/1并具有\\n<b>突袭</b>的山猫填满你的手牌。")
+        self.assertEqual(prepatch["locales"]["zhCN"]["value"],"<b>战吼：</b>用1/1并具有\n<b>突袭</b>的山猫填满你的手牌。")
         self.assertEqual(before["type"],"LocString")
         self.assertFalse(before["valueAttributePresent"])
         self.assertEqual(before["locales"]["koKR"]["value"],"<b>전투의_함성:</b> 내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다.")
