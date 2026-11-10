@@ -182,9 +182,17 @@ def main():
     current_xml=parse_xml(xml_dir/"xml-256589.xml",manifest[256589]["xmlSha256"],164,ids)
     before_xml=parse_xml(xml_dir/"xml-217489.xml",manifest[217489]["xmlSha256"],164,ids)
     after_xml=parse_xml(xml_dir/"xml-217964.xml",manifest[217964]["xmlSha256"],164,ids)
+    halazzi_before_xml=parse_xml(xml_dir/"xml-236529.xml",manifest[236529]["xmlSha256"],164,ids)
+    halazzi_after_xml=parse_xml(xml_dir/"xml-237510.xml",manifest[237510]["xmlSha256"],164,ids)
     assert len(manifest)==238 and ev["summaryCounts"]["originalCardObservations"]==39032
+    assert halazzi_before_xml["TRL_900"]["stringTags"]["184"]==launch_xml["TRL_900"]["stringTags"]["184"]
+    halazzi_mid=halazzi_after_xml["TRL_900"]["stringTags"]["184"]
+    assert halazzi_mid["type"]=="LocString" and halazzi_mid["valueAttributePresent"] is False
+    assert halazzi_mid["locales"]["koKR"]["value"]=="<b>속공</b>, <b>전투의_함성:</b>\\n내 손을 <b>속공</b> 능력이 있는 1/1 스라소니로 가득 채웁니다."
+    assert halazzi_mid["locales"]["enUS"]["value"]=="<b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes\\nthat have <b>Rush</b>."
     catalog=read(ROOT/"cards.json"); render=read(ROOT/"render.json"); legacy=read(ROOT/"history.json")
     central=read(DATA/"history.json")
+    assert len(central["observations"]["datedStringTags"]["TRL_900"])==1
     schema_manifest=read(ROOT/"sources"/"rast-schema-s002.json")
     dated_role_rows=expected_dated_role_rows(ev)
     assert len(dated_role_rows)==51
@@ -321,6 +329,13 @@ def main():
         assert rc["nativeStringTags"]["current"]==meta["currentStringTags"]
         assert rc["nativeStringTags"]["launchPrintedText"]==meta["launchPrintedText"]
         assert rc["nativeStringTags"]["currentPrintedText"]==meta["currentPrintedText"]
+        if cid=="TRL_900":
+            observation=meta["datedStringTagObservations"][0]
+            assert observation["date"]=="2026-03-11" and observation["build"]==237510 and observation["tagId"]==184
+            assert observation["before"]==halazzi_before_xml[cid]["stringTags"]["184"]
+            assert observation["after"]==halazzi_after_xml[cid]["stringTags"]["184"]
+            assert central["observations"]["datedStringTags"][cid]==meta["datedStringTagObservations"]
+            assert rc["nativeStringTags"]["datedChanges"]==meta["datedStringTagObservations"]
         reverse_checks+=validate_public_reverse_replay(cid,dates,snapshots,rc)
     assert len(all_dates)>=10
     assert raw_role_event_count==51
@@ -433,6 +448,6 @@ def main():
         "weaponRepresentationEvents":7,"datedRawRoleEvents":raw_role_event_count,"reverseReplaySegments":reverse_checks,"fullRawRoleTransitions":full_role_transition_count,"schemaNumericOmissions":406,"schemaChoiceOmissions":220,"currentReferencedTags":ref_count,
         "explicitRelationships":relation_count,"logicalReplayChecks":logical_replay_checks,
         "undatedCurrentDifferenceChecks":undated_checks,"archiveBuilds":238,
-        "xmlSnapshotsIndependentlyParsed":4,"result":"PASS"},ensure_ascii=False))
+        "xmlSnapshotsIndependentlyParsed":6,"datedRawStringObservations":1,"result":"PASS"},ensure_ascii=False))
 
 if __name__=="__main__":main()
