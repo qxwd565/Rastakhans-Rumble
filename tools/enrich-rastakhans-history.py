@@ -64,8 +64,8 @@ def main():
     ids={c["id"] for c in cards}
     initial=extract_xml(ROOT/"sources"/"xml-27845.xml",manifest[27845]["xmlSha256"],164,ids)
     current=extract_xml(ROOT/"sources"/"xml-256589.xml",manifest[256589]["xmlSha256"],164,ids)
-    before=extract_xml(ROOT/"sources"/"xml-217489.xml",manifest[217489]["xmlSha256"],164,set(WEAPONS))
-    after=extract_xml(ROOT/"sources"/"xml-217964.xml",manifest[217964]["xmlSha256"],164,set(WEAPONS))
+    before=extract_xml(ROOT/"sources"/"xml-217489.xml",manifest[217489]["xmlSha256"],len(WEAPONS),set(WEAPONS))
+    after=extract_xml(ROOT/"sources"/"xml-217964.xml",manifest[217964]["xmlSha256"],len(WEAPONS),set(WEAPONS))
     raw_transitions=archive.get("observedRawTransitionReview",[])
     ref_transitions=archive.get("observedReferencedTagTransitions",[])
     updated=0
