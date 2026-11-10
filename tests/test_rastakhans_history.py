@@ -91,7 +91,7 @@ class RastakhansHistoryTests(unittest.TestCase):
             self.assertEqual(self.cards[cid]["_current"]["cost"],0)
         self.assertEqual(self.cards["TRL_065"]["_current"]["health"],30)
         self.assertEqual(self.cards["TRL_065"]["_current"]["armor"],5)
-        self.assertEqual(self.cards["TRL_351"]["_current"]["flavor"],self.cards["TRL_351"]["_current"]["flavor"])
+        self.assertEqual(sum(1 for c in self.catalog["cards"] if c.get("collectible") is False and c.get("flavor")=="") ,29)
         self.assertEqual(tag(self.cards["TRL_351"]["_current"]["nativeTags"],215),"3")
         for cid in ("TRL_254a","TRL_254b"):
             self.assertNotIn("cost",self.cards[cid]["2018-12-05"])
