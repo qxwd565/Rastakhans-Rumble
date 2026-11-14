@@ -1,0 +1,31 @@
+name: Unify card API with Legacy
+on:
+  push:
+    paths:
+      - .github/workflows/unify-legacy-api.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Verify and normalize all card JSON
+        run: |
+          curl -fsSL --retry 3 https://raw.githubusercontent.com/qxwd565/legacy/83f3c20929c43e25e1c4cedf14e920648440ffec/tools/unify-card-apis.py -o /tmp/unify-card-apis.py
+          python3 /tmp/unify-card-apis.py
+          python3 /tmp/unify-card-apis.py --apply
+          python3 /tmp/unify-card-apis.py
+          git diff --check
+      - name: Commit verified normalization
+        run: |
+          git add cards.json data metadata
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "data: normalize card timelines to Legacy date-keyed format"
+            git push origin HEAD:main
+          fi
