@@ -2,3 +2,10 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .mypy_cache/
+
+# Non-published API projections
+/render.json
+/history.json
+/cards-date.json
+/render-date.json
+/history-date.json
