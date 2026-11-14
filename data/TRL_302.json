@@ -9,43 +9,6 @@
     "collectible": true,
     "cost": 3,
     "text": "내 다음 턴까지 내 영웅이 <b>면역</b> 상태가 됩니다.",
-    "flavor": "세 살배기 아이들을 상대할 때 효과적입니다.",
-    "spellSchool": "",
-    "portrait": "HS15-150_S.psd:a4bd9ff8f8f4eb84d83d35f22e0d0e74",
-    "set": "TROLL",
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 3
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 5
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 240,
-        "name": "면역",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
-    ],
-    "classes": [],
-    "art": "art/TRL_302.png"
+    "classes": []
   }
 }

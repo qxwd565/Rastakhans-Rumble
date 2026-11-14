@@ -11,59 +11,6 @@
     "text": "내가 주문의 대상으로<br></br>하수인을 지정할 때마다<br></br>양옆의 하수인들에게도<br></br>다시 시전합니다.",
     "attack": 1,
     "health": 3,
-    "flavor": "평온. 평안. 그리고 수많은 개구리들.",
-    "portrait": "HS15-149_M.psd:226c1a8cdd09b5142a5f88b48083fcab",
-    "set": "TROLL",
-    "nativeTags": [
-      {
-        "id": 32,
-        "name": "발동 효과 표시",
-        "value": 1
-      },
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 3
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 1
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 3
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 8
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 5
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
-    ],
-    "races": [],
-    "race": "",
-    "classes": [],
-    "art": "art/TRL_085.png"
+    "classes": []
   }
 }

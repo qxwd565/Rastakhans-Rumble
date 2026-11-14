@@ -11,64 +11,6 @@
     "text": "양옆의 하수인들이 피해를 받을 때마다<br></br>이 하수인이 그 피해를 대신 받습니다.",
     "attack": 3,
     "health": 8,
-    "flavor": "아뇨, 트롤이 아니라 거북이가 투사입니다.",
-    "portrait": "HS15-177_M.psd:1a205c632fdc16641b9368c2a3a9cd73",
-    "set": "TROLL",
-    "nativeTags": [
-      {
-        "id": 32,
-        "name": "발동 효과 표시",
-        "value": 1
-      },
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 8
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 3
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 5
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 0
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 4
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 350,
-        "name": "양옆 하수인 효과",
-        "value": 1
-      }
-    ],
-    "races": [],
-    "race": "",
-    "classes": [],
-    "art": "art/TRL_535.png"
+    "classes": []
   }
 }

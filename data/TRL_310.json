@@ -9,85 +9,9 @@
     "collectible": true,
     "cost": 0,
     "text": "이번 턴에 내가 내는<br></br>다음 정령의 비용이<br></br>(2) 감소합니다.",
-    "flavor": "비결은 기름입니다.",
-    "spellSchool": "",
-    "portrait": "HS15-135_S.psd:d84451c666fbe3845a37b0808b6fcd93",
-    "set": "TROLL",
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 0
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 4
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
-    ],
-    "classes": [],
-    "art": "art/TRL_310.png"
+    "classes": []
   },
   "2021-03-26": {
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 0
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 4
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 1635,
-        "name": "주문 속성",
-        "value": 2
-      }
-    ],
-    "spellSchool": "FIRE",
-    "nativeTagRolesDelta": {
-      "owned": {
-        "set": {
-          "1635": "2"
-        },
-        "removed": []
-      },
-      "referenced": {
-        "set": {},
-        "removed": []
-      }
-    }
+    "spellSchool": "FIRE"
   }
 }

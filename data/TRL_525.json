@@ -11,59 +11,6 @@
     "text": "<b>죽음의 메아리:</b><br></br>카드를 2장 뽑습니다.",
     "attack": 0,
     "health": 4,
-    "flavor": "이걸 여는 데 그렇게 오랜 시간이 걸릴 줄 누가 알았겠습니까.",
-    "portrait": "HS15-168_M.psd:5adec1f04eb119048a1f0dcda6ab1400",
-    "set": "TROLL",
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 4
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 0
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 4
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 0
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 217,
-        "name": "죽음의 메아리",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
-    ],
-    "races": [],
-    "race": "",
-    "classes": [],
-    "art": "art/TRL_525.png"
+    "classes": []
   }
 }

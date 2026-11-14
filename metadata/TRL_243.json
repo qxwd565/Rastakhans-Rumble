@@ -1,0 +1,47 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "TRL_243",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2018-12-05",
+    "status": "unverified"
+  },
+  "baselineStatus": "partially-verified",
+  "normalization": {
+    "datedExcludedFields": {
+      "2018-12-05": {
+        "flavor": "빈 상자 안에 뛰어 들어가려는 엄청난 충동을 가지고 있습니다.",
+        "portrait": "HS15-008_S.psd:3d20d7285dab69048a304badcdf21ed0",
+        "set": "TROLL",
+        "nativeTags": [
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 0
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 2
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 5
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          }
+        ],
+        "art": "art/TRL_243.png"
+      }
+    }
+  }
+}

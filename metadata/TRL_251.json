@@ -1,0 +1,139 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "TRL_251",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2018-12-05",
+    "status": "unverified"
+  },
+  "baselineStatus": "partially-verified",
+  "normalization": {
+    "datedExcludedFields": {
+      "2018-12-05": {
+        "flavor": "난난난난난난난나, 난난난난난난나, 난난난난난난나!",
+        "portrait": "HS15-004_M.psd:e6e4e8de0da8144458dda4269843b8c3",
+        "set": "TROLL",
+        "nativeTags": [
+          {
+            "id": 32,
+            "name": "발동 효과 표시",
+            "value": 1
+          },
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 3
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 2
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 191,
+            "name": "은신",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 9
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 3
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          }
+        ],
+        "art": "art/TRL_251.png"
+      },
+      "2022-11-30": {
+        "nativeTags": [
+          {
+            "id": 32,
+            "name": "발동 효과 표시",
+            "value": 1
+          },
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 3
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 2
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 0
+          },
+          {
+            "id": 191,
+            "name": "은신",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 9
+          },
+          {
+            "id": 200,
+            "name": "종족",
+            "value": 11
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 3
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 2542,
+            "name": "게임 태그 2542",
+            "value": 1
+          }
+        ],
+        "nativeTagRolesDelta": {
+          "owned": {
+            "set": {
+              "2542": "1",
+              "200": "11"
+            },
+            "removed": []
+          },
+          "referenced": {
+            "set": {},
+            "removed": []
+          }
+        }
+      }
+    }
+  }
+}

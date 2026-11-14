@@ -11,66 +11,10 @@
     "text": "<b>압살:</b> 공격력을 +5 얻습니다.",
     "attack": 1,
     "health": 1,
-    "flavor": "압살했닭! 오늘 저녁은 치킨이닭!",
-    "portrait": "HS15-054_M.psd:07108fd9c52987544b3029ef5c34ca25",
-    "set": "TROLL",
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 1
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 1
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 1
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 0
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 20
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 923,
-        "name": "압살",
-        "value": 1
-      }
-    ],
     "races": [
       "BEAST"
     ],
     "race": "야수",
-    "classes": [],
-    "art": "art/TRL_506.png"
+    "classes": []
   }
 }

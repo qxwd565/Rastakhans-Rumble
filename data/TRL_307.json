@@ -9,85 +9,9 @@
     "collectible": true,
     "cost": 2,
     "text": "생명력을 #4 회복시킵니다.<br></br>카드를 뽑습니다.",
-    "flavor": "잠깐! 카메라 가지고 들어오시면 안 됩니다!",
-    "spellSchool": "",
-    "portrait": "HS15-047_S.psd:564562b6435dfef448acf718fac69299",
-    "set": "TROLL",
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 2
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 5
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
-    ],
-    "classes": [],
-    "art": "art/TRL_307.png"
+    "classes": []
   },
   "2021-03-26": {
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 2
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 5
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 1635,
-        "name": "주문 속성",
-        "value": 5
-      }
-    ],
-    "spellSchool": "HOLY",
-    "nativeTagRolesDelta": {
-      "owned": {
-        "set": {
-          "1635": "5"
-        },
-        "removed": []
-      },
-      "referenced": {
-        "set": {},
-        "removed": []
-      }
-    }
+    "spellSchool": "HOLY"
   }
 }

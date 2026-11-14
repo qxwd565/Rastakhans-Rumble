@@ -9,53 +9,6 @@
     "collectible": true,
     "cost": 1,
     "text": "아군 야수에게 +1/+1을 부여합니다. 그 야수가 무작위 적 하수인을 공격합니다.",
-    "flavor": "야수의 내면은 어차피 야수이지 않을까요.",
-    "spellSchool": "",
-    "portrait": "HS15-128_S.psd:2cde3779bc709ad41bbf645f65be5d4d",
-    "set": "TROLL",
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 1
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 0
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 3
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 4
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 330,
-        "name": "효과 생성 시각 효과",
-        "value": 0
-      },
-      {
-        "id": 331,
-        "name": "효과 지속 시각 효과",
-        "value": 0
-      }
-    ],
-    "classes": [],
-    "art": "art/TRL_119.png"
+    "classes": []
   }
 }

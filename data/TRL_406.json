@@ -11,64 +11,6 @@
     "text": "피해를 받은 상태면 공격력을 +4 얻습니다.",
     "attack": 0,
     "health": 4,
-    "flavor": "하품이 절로 나오는 카드군요.",
-    "portrait": "HS15-159_M.psd:f87b7c0d7c50dde478f047986b7c9c8a",
-    "set": "TROLL",
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 4
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 2
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 0
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 212,
-        "name": "격노",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 330,
-        "name": "효과 생성 시각 효과",
-        "value": 0
-      },
-      {
-        "id": 331,
-        "name": "효과 지속 시각 효과",
-        "value": 0
-      }
-    ],
-    "races": [],
-    "race": "",
-    "classes": [],
-    "art": "art/TRL_406.png"
+    "classes": []
   }
 }

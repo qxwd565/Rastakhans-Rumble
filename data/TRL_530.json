@@ -11,64 +11,6 @@
     "text": "<b>전투의 함성:</b> 내 전장에<br></br><b>비밀</b>이 있으면, 내 덱에 있는<br></br><b>비밀</b>을 시전합니다.",
     "attack": 2,
     "health": 4,
-    "flavor": "수수께끼의 도전자가 수수께끼의 종자였던 시절부터 알고 지냈습니다.",
-    "portrait": "HS15-175_M.psd:25081e7d573e2cc4693db603b5040cd4",
-    "set": "TROLL",
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 4
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 2
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 3
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 0
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 4
-      },
-      {
-        "id": 218,
-        "name": "전투의 함성",
-        "value": 1
-      },
-      {
-        "id": 219,
-        "name": "비밀",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
-    ],
-    "races": [],
-    "race": "",
-    "classes": [],
-    "art": "art/TRL_530.png"
+    "classes": []
   }
 }

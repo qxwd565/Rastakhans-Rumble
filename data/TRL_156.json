@@ -9,63 +9,6 @@
     "collectible": true,
     "cost": 2,
     "text": "다른 직업의 무기를 <b>발견</b>합니다.",
-    "flavor": "스랄이 둠해머를 빌려줄 리는 없다보니...",
-    "spellSchool": "",
-    "portrait": "HS15-118_S.psd:841e21785961b16419addbf0437b45d9",
-    "set": "TROLL",
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 2
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 0
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 7
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 330,
-        "name": "효과 생성 시각 효과",
-        "value": 0
-      },
-      {
-        "id": 331,
-        "name": "효과 지속 시각 효과",
-        "value": 0
-      },
-      {
-        "id": 415,
-        "name": "발견",
-        "value": 1
-      },
-      {
-        "id": 1342,
-        "name": "발견 시각 효과",
-        "value": 1
-      }
-    ],
-    "classes": [],
-    "art": "art/TRL_156.png"
+    "classes": []
   }
 }

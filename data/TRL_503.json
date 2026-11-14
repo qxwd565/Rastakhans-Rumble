@@ -11,59 +11,6 @@
     "text": "<b>죽음의 메아리:</b><br></br>1/1 딱정벌레를<br></br>3마리 소환합니다.",
     "attack": 0,
     "health": 2,
-    "flavor": "오믈렛은 맛있다고 해서 만들어 보려다가 얼굴이 뜯길 뻔했습니다.",
-    "portrait": "HS15-165_M.psd:9b93d6fb35c999741827c29baea1744f",
-    "set": "TROLL",
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 2
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 2
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 0
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 217,
-        "name": "죽음의 메아리",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 1452,
-        "name": "수집품 관련 카드 데이터베이스 ID",
-        "value": 50373
-      }
-    ],
-    "races": [],
-    "race": "",
-    "classes": [],
-    "art": "art/TRL_503.png"
+    "classes": []
   }
 }

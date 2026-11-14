@@ -8,53 +8,6 @@
     "collectible": false,
     "cost": 1,
     "text": "하수인에게 +1/+1을 부여합니다.",
-    "flavor": "",
-    "spellSchool": "",
-    "portrait": "bananas2_D.psd:bb18e3f61795a8c4db20b9632c238a97",
-    "set": "TROLL",
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 1
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 0
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 0
-      },
-      {
-        "id": 330,
-        "name": "효과 생성 시각 효과",
-        "value": 0
-      },
-      {
-        "id": 331,
-        "name": "효과 지속 시각 효과",
-        "value": 0
-      },
-      {
-        "id": 858,
-        "name": "게임 태그 858",
-        "value": 1694
-      }
-    ],
-    "classes": [],
-    "art": "art/TRL_509t.png"
+    "classes": []
   }
 }

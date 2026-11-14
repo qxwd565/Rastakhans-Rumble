@@ -11,59 +11,6 @@
     "text": "<b>전투의 함성:</b> 내 영웅의 생명력을 1로 만듭니다. 감소한 생명력만큼 방어도를 얻습니다.",
     "attack": 3,
     "health": 4,
-    "flavor": "\"...그러다가 생명력이 딱 1 남았는데 이겼다니까!\"",
-    "portrait": "HS15-154_M.psd:bd3615d7f008549419c755bedf760aed",
-    "set": "TROLL",
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 4
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 3
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 3
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 5
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 5
-      },
-      {
-        "id": 218,
-        "name": "전투의 함성",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
-    ],
-    "races": [],
-    "race": "",
-    "classes": [],
-    "art": "art/TRL_308.png"
+    "classes": []
   }
 }

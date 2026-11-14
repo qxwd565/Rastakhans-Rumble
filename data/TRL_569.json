@@ -11,66 +11,10 @@
     "text": "<b>전투의 함성:</b><br></br>내 손에 용족이 있으면,<br></br>적 하수인에게<br></br>피해를 7 줍니다.",
     "attack": 7,
     "health": 4,
-    "flavor": "분위기를 뜨겁게 만드는 데에 제격이죠.",
-    "portrait": "HS15-173_M.psd:a847f099856099d40956e695561be8ae",
-    "set": "TROLL",
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 4
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 7
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 7
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 0
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 24
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 4
-      },
-      {
-        "id": 218,
-        "name": "전투의 함성",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
-    ],
     "races": [
       "DRAGON"
     ],
     "race": "용족",
-    "classes": [],
-    "art": "art/TRL_569.png"
+    "classes": []
   }
 }

@@ -11,64 +11,6 @@
     "text": "<b>전투의 함성:</b><br></br>상대편에게 동전을 줍니다.",
     "attack": 3,
     "health": 3,
-    "flavor": "하지만 걱정하지 마라. 손은 눈보다 빠르니까 동전을 쓰고 산악 거인을 바로 내면 된다.",
-    "portrait": "HS15-056_M.psd:51f16a04b78f1ca4f9067bb8526cb25d",
-    "set": "TROLL",
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 3
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 3
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 2
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 0
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 3
-      },
-      {
-        "id": 218,
-        "name": "전투의 함성",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 1452,
-        "name": "수집품 관련 카드 데이터베이스 ID",
-        "value": 1746
-      }
-    ],
-    "races": [],
-    "race": "",
-    "classes": [],
-    "art": "art/TRL_504.png"
+    "classes": []
   }
 }

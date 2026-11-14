@@ -9,43 +9,6 @@
     "collectible": true,
     "cost": 1,
     "text": "피해를 받은 하수인에게 피해를 $4 줍니다.",
-    "flavor": "널 마무리할 수 없다면 압도해버리겠어.",
-    "spellSchool": "",
-    "portrait": "HS15-132_S.psd:8b931ec805488a14eba1a037382a772b",
-    "set": "TROLL",
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 1
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 0
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 10
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
-    ],
-    "classes": [],
-    "art": "art/TRL_321.png"
+    "classes": []
   }
 }

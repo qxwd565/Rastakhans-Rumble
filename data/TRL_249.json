@@ -9,95 +9,9 @@
     "collectible": true,
     "cost": 1,
     "text": "아군 하수인을 처치합니다.<br></br>내 하수인들에게 +1/+1을 부여합니다.",
-    "flavor": "\"다 좋은데 말이야, 자네만 없으면 좋겠군.\"",
-    "spellSchool": "",
-    "portrait": "HS15-102_S.psd:61794aed8f6190048934dbc4f39adb27",
-    "set": "TROLL",
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 1
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 0
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 9
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 3
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
-    ],
-    "classes": [],
-    "art": "art/TRL_249.png"
+    "classes": []
   },
   "2021-03-26": {
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 1
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 0
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 9
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 3
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 1635,
-        "name": "주문 속성",
-        "value": 6
-      }
-    ],
-    "spellSchool": "SHADOW",
-    "nativeTagRolesDelta": {
-      "owned": {
-        "set": {
-          "1635": "6"
-        },
-        "removed": []
-      },
-      "referenced": {
-        "set": {},
-        "removed": []
-      }
-    }
+    "spellSchool": "SHADOW"
   }
 }

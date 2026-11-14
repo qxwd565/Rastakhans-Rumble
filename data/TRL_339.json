@@ -9,63 +9,6 @@
     "collectible": true,
     "cost": 3,
     "text": "내 덱에서 하수인을 <b>발견</b>하여 뽑습니다.<br></br>그 하수인들이 모두 야수면, 카드 3장을 모두 뽑습니다.",
-    "flavor": "\"킁킁이니?\" \"아뇨, 레오큰데요.\"",
-    "spellSchool": "",
-    "portrait": "HS15-127_S.psd:d5c302c02ba1db84298cb3de759f6cef",
-    "set": "TROLL",
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 3
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 0
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 3
-      },
-      {
-        "id": 201,
-        "name": "진영",
-        "value": 3
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 4
-      },
-      {
-        "id": 251,
-        "name": "게임 태그 251",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 415,
-        "name": "발견",
-        "value": 1
-      },
-      {
-        "id": 1342,
-        "name": "발견 시각 효과",
-        "value": 1
-      }
-    ],
-    "classes": [],
-    "art": "art/TRL_339.png"
+    "classes": []
   }
 }

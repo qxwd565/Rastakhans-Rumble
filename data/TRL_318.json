@@ -11,59 +11,6 @@
     "text": "<b>전투의 함성</b>:<br></br>내 시작 카드를 복사하여<br></br>내 손으로 가져옵니다.<br></br><i>(이 카드 제외)</i>",
     "attack": 5,
     "health": 5,
-    "flavor": "예술은 뭐다?",
-    "portrait": "HS15-138_M.psd:f65dba52467eab04696047d7d20521c6",
-    "set": "TROLL",
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 5
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 5
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 8
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 4
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 5
-      },
-      {
-        "id": 218,
-        "name": "전투의 함성",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
-    ],
-    "races": [],
-    "race": "",
-    "classes": [],
-    "art": "art/TRL_318.png"
+    "classes": []
   }
 }
