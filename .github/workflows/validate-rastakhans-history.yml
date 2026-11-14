@@ -30,11 +30,36 @@ jobs:
           python /tmp/hsdeck-flatten.py --root . --strict
           python /tmp/hsdeck-flatten.py --root . --strict --check
           git diff --check
+      - name: Validate first-playable dates and publish index release fields
+        run: |
+          python - <<'PYRELEASE'
+          import json
+          from pathlib import Path
+          index=Path("cards.json")
+          catalog=json.loads(index.read_text(encoding="utf-8"))
+          if len(catalog.get("cards",[]))!=164: raise SystemExit("Unexpected catalog length")
+          for card in catalog["cards"]:
+              path=Path("data")/(card["id"]+".json")
+              doc=json.loads(path.read_text(encoding="utf-8"))
+              dates=sorted(k for k in doc if len(k)==10 and k[4]=="-" and k[7]=="-")
+              if not dates: raise SystemExit("Missing first date: "+card["id"])
+              initial=doc[dates[0]]
+              if initial.get("id")!=card["id"] or initial.get("dbfId")!=card["dbfId"]:
+                  raise SystemExit("CardID/DBF mismatch: "+card["id"])
+              expected="2018-12-05"
+              if dates[0]!=expected:
+                  raise SystemExit("First date not verified: "+card["id"]+"="+dates[0]+" expected "+expected)
+              if card.get("releasedAt") not in (None,expected):
+                  raise SystemExit("Existing card index date conflict "+card["id"])
+              card["releasedAt"]=expected
+              card["releaseStatus"]="verified"
+          index.write_text(json.dumps(catalog,ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
+          PYRELEASE
       - name: Commit unified dated card documents
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -u -- data/
+          git add -u -- data/ cards.json
           if ! git diff --cached --quiet; then
             git commit -m 'Normalize Rastakhan card JSON to dated entries [skip ci]'
             git push origin HEAD:main
