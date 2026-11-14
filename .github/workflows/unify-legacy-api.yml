@@ -15,7 +15,7 @@ jobs:
           persist-credentials: true
       - name: Verify and normalize all card JSON
         run: |
-          curl -fsSL --retry 3 https://raw.githubusercontent.com/qxwd565/legacy/9e3f5314c64a44d8397dd52365f41fe6bd50a30e/tools/unify-card-apis.py -o /tmp/unify-card-apis.py
+          curl -fsSL --retry 3 https://raw.githubusercontent.com/qxwd565/legacy/a3c04b21a974d6ae66bef016eabdd7eb1f82b4c9/tools/unify-card-apis.py -o /tmp/unify-card-apis.py
           python3 /tmp/unify-card-apis.py
           python3 /tmp/unify-card-apis.py --apply
           python3 /tmp/unify-card-apis.py
